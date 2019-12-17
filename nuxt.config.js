@@ -6,11 +6,31 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: process.env.BASE_TITLE || '',
+    // title: 'Taiwan Mandarin',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
+      }, // <meta name="viewport" content="width=960">
+      { hid: 'description',
+        name: 'description',
+        content: process.env.BASE_DESCRIPTION || ''
+        // content: '台湾好きな管理人が、台湾華語(=中国語)を勉強しつつ更新する学習サイト。'
+      },
+      { hid: 'og:url', property: 'og:url', content: process.env.BASE_URL },
+      { hid: 'og:title', property: 'og:title', content: process.env.BASE_TITLE },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:description',
+        property: 'og:description',
+        // content: '台湾好きな管理人が、台湾華語(=中国語)を勉強しつつ更新する学習サイト。'
+        content: process.env.BASE_DESCRIPTION || ''
+      },
+      // { hid: 'og:image', property: 'og:image', content: process.env.BASE_Img },
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+      { hid: 'og:site_name', property: 'og:site_name', content: process.env.BASE_TITLE },
+      { hid: 'og:locale', property: 'og:locale', content: 'ja_JP' }
+      // { hid: 'fb:app_id', property: 'fb:app_id', content: process.env.BASE_appID }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
