@@ -28,7 +28,7 @@
                 単語検索<br>search
               </nuxt-link>
             </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'vocabulary' }">
+              <nuxt-link :to="{ name: 'contact' }">
                 お問い合わせ<br>contact
               </nuxt-link>
             </td>
