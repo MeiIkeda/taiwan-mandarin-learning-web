@@ -3,11 +3,10 @@
     <h1 class="title_vocabulary">
       台湾華語<br>taiwan_mandarin
     </h1>
-    <!--<div align="center">-->
     <div align="center" style="white-space: nowrap; vertical-align: top">
       <table>
         <tbody>
-          <tr style="font-weight:300; font-size: 20px; text-align:center">
+          <tr style="font-weight:300; font-size: 18px; text-align:center">
             <td>
               <nuxt-link :to="{ name: 'index' }">
                 ホーム<br>home
@@ -424,22 +423,13 @@ export default {
         w: 'u/w',
         yu: 'ü/yu'
       },
-      // word_fromDB: [],
-      // searching_message: '',
       error_message: '',
-      // show_data_message: '',
-      // isAuto: false,
-      // timer: '',
       showErrorAlert: false
     }
   },
 
   methods: {
     speak_bopomofo (char) {
-      // const uttr = new SpeechSynthesisUtterance(char)
-      // uttr.lang = 'zh-CN'
-      // speechSynthesis.speak(uttr)
-
       const agent = window.navigator.userAgent
       if (!('SpeechSynthesisUtterance' in window)) {
         this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
@@ -477,16 +467,6 @@ export default {
 
 <style lang="stylus">
 
-  .title_vocabulary
-    font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-      'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
-    display: block
-    font-weight: 300
-    font-size: 50px
-    text-align :center
-    color: #35495e
-    letter-spacing: 1px
-
   .subtitle_vocabulary
     font-weight: 300
     font-size: 20px
@@ -512,29 +492,14 @@ export default {
     border-collapse: separate
     border-spacing:20px 5px
 
-  /*.main-image-bopomofo*/
-  /*  text-align: center*/
-  /*  background-image: url('../../static/img/background_baloon2.jpg') !important*/
-  /*  background-size: cover*/
-  /*  width: 90%*/
-  /*  height: 60%*/
-  /*  margin: 0 auto*/
-    //@media screen and (min-width : 768px)
-    // ここにスマホの記述
-      //.main-image-bopomofo
-      //  text-align: center
-      //  background-image: url('../../static/img/background_baloon2.jpg') !important
-      //  width: 100%
-      // background-size: cover
-    //  margin: 0 auto
-
     //@media screen and (min-width : 1024px)
     // ここにタブレット・PCの記述
-    .main-image-bopomofo
-      text-align: center
-      background-image: url('../../static/img/background_baloon2.jpg') !important
-      width: 90%
-      height: 60%
-      background-size: cover
-      margin: 0 auto
+  .main-image-bopomofo
+    text-align: center
+    background-image: url('../../static/img/background_baloon2.jpg') !important
+    width: 100%
+    height: 60%
+    background-size: cover
+    margin: 0 auto
+
 </style>

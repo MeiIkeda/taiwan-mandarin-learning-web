@@ -3,11 +3,10 @@
     <h1 class="title_vocabulary">
       台湾華語<br>taiwan_mandarin
     </h1>
-    <!-- <div align="center">-->
     <div align="center" style="white-space: nowrap; vertical-align: top">
       <table>
         <tbody>
-          <tr style="font-weight:300; font-size: 20px; text-align:center">
+          <tr style="font-weight:300; font-size: 18px; text-align:center">
             <td>
               <nuxt-link :to="{ name: 'index' }">
                 ホーム<br>home
@@ -177,7 +176,6 @@
 </template>
 
 <script>
-// import sentry from '@nuxtjs/sentry'
 export default {
 
   data () {
@@ -203,10 +201,8 @@ export default {
     showing_page_max_number () {
       // 最後のページ
       if (Math.floor((this.current_page - 1) / 10) === Math.floor(this.total_page / 10)) {
-        // console.log('showing_page_max_number=' + Math.floor(this.total_page % 10))
         return Math.floor(this.total_page % 10)
       } else {
-        // console.log('showing_page_max_number=' + 10)
         return 10
       }
     },
@@ -272,15 +268,10 @@ export default {
         } else {
           this.total_page = parseInt(this.words.length / this.pageUnit) + 1
         }
-        // console.log('this.total_page = ' + this.total_page)
       }
     },
 
     speak (word) {
-      // const uttr = new SpeechSynthesisUtterance(word)
-      // uttr.lang = 'zh-CN'
-      // speechSynthesis.speak(uttr)
-
       const agent = window.navigator.userAgent
       if (!('SpeechSynthesisUtterance' in window)) {
         this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
@@ -348,29 +339,13 @@ export default {
     align-self: center
     color :black
 
-  /*.main-image-search*/
-  /*  text-align: center*/
-  /*  background-image: url('../../static/img/frower3.jpg') !important*/
-  /*  background-size: cover*/
-  /*  width: 90%*/
-  /*  height: 60%*/
-  /*  margin: 0 auto*/
-//  @media screen and (min-width : 768px)
-    //    // ここにスマホの記述
-      //   .main-image-search
-      //     text-align: center
-      //     background-image: url('../../static/img/frower3.jpg') !important
-      //    width: 100%
-      //    background-size: cover
-  //    margin: 0 auto
-
     // @media screen and (min-width : 1024px)
     // ここにタブレット・PCの記述
-    .main-image-search
-      text-align: center
-      background-image: url('../../static/img/frower3.jpg') !important
-      width: 90%
-      height: 60%
-      background-size: cover
-      margin: 0 auto
+  .main-image-search
+    text-align: center
+    background-image: url('../../static/img/frower3.jpg') !important
+    width: 100%
+    height: 60%
+    background-size: cover
+    margin: 0 auto
 </style>

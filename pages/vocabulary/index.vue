@@ -7,7 +7,7 @@
     <div align="center" style="white-space: nowrap; vertical-align: top">
       <table>
         <tbody>
-          <tr style="font-weight:300; font-size: 20px; text-align:center">
+          <tr style="font-weight:300; font-size: 18px; text-align:center">
             <td>
               <nuxt-link :to="{ name: 'index' }">
                 ホーム<br>home
@@ -117,8 +117,6 @@
                 <td>{{ word.simplified }}</td>
               </tr>
             </tbody>
-            <!--   </table>
-          <table class="table-bordered" style="align: center; text-align: left">-->
             <thead style="white-space:nowrap; align: center; text-align: center">
               <tr>
                 <th>拼音(Pinyin)</th>
@@ -395,17 +393,6 @@ export default {
 </script>
 
 <style lang="stylus">
-
-  .title_vocabulary
-    font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-      'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
-    display: block
-    font-weight: 300
-    font-size: 50px
-    text-align :center
-    color: #35495e
-    letter-spacing: 1px
-
   .subtitle_vocabulary
     font-weight: 300
     font-size: 20px
@@ -461,23 +448,6 @@ export default {
     background-color:#e0ffff
     outline: none !important
     border:1px solid black
-
-  //.main-image-vocabulary
-   // text-align: center
-   // background-image: url('../../static/img/lion.jpg') !important
-   // background-size: cover
-   // width: 95%
-    //height: 60%
-    //margin: 0 auto
-
-//  @media screen and (min-width : 768px)
-    //     // ここにスマホの記述
-      //     .main-image-vocabulary
-      //       text-align: center
-      // background-image: url('../../static/img/lion.jpg') !important
-      // width: 100%
-      // background-size: cover
-    // margin: 0 auto
 
  // @media screen and (min-width : 1024px)
     // ここにタブレット・PCの記述

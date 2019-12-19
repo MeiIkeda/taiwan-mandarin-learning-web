@@ -3,11 +3,10 @@
     <h1 class="title_vocabulary">
       台湾華語<br>taiwan_mandarin
     </h1>
-    <!--<div align="center">-->
     <div align="center" style="white-space: nowrap; vertical-align: top">
       <table>
         <tbody>
-          <tr style="font-weight:300; font-size: 20px; text-align:center">
+          <tr style="font-weight:300; font-size: 18px; text-align:center">
             <td>
               <nuxt-link :to="{ name: 'index' }">
                 ホーム<br>home
@@ -74,16 +73,6 @@ export default {
 
 <style lang="stylus">
 
-  .title_vocabulary
-    font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-      'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
-    display: block
-    font-weight: 300
-    font-size: 50px
-    text-align :center
-    color: #35495e
-    letter-spacing: 1px
-
   .subtitle_vocabulary
     font-weight: 300
     font-size: 20px
@@ -99,29 +88,12 @@ export default {
     align-items: center
     text-align: center
 
-  /*.main-text*/
-  /*  text-align: center*/
-  /*  background-image: url('../../static/img/sunset.jpg') !important*/
-  /*  background-size: cover*/
-  /*  width: 70%*/
-  /*  height: 100%*/
-  /*  color: black*/
-  /*  margin: 0 auto*/
-    //@media screen and (min-width : 768px)
-    // ここにスマホの記述
-    //  .main-text
-    //   text-align: center
-    //   background-image: url('../../static/img/sunset.jpg') !important
-    //   width: 100%
-    //   background-size: cover
-    //   margin: 0 auto
-
     //@media screen and (min-width : 1024px)
     // ここにタブレット・PCの記述
     .main-text
       text-align: center
       background-image: url('../../static/img/sunset.jpg') !important
-      width: 70%
+      width: 95%
       height: 100%
       background-size: cover
       margin: 0 auto

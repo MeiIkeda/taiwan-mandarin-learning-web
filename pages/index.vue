@@ -6,7 +6,7 @@
     <div align="center" style="white-space: nowrap; vertical-align: top">
       <table>
         <tbody>
-          <tr style="font-weight:300; font-size: 20px; text-align:center">
+          <tr style="font-weight:300; font-size: 18px; text-align:center">
             <td>
               <nuxt-link :to="{ name: 'index' }" style="text-decoration: underline">
                 ホーム<br>home
@@ -293,22 +293,11 @@ export default {
     text-align :center
     color: #526488
 
-//  @media screen and (min-width : 768px)
-//    // ここにスマホの記述
-//    .main-image
-//      text-align: center
-//      background-image: url('../static/img/temple2.jpg') !important
-//      width: 100%
-      //height: 100%
-//      background-size: cover
-//      margin: 0 auto
-
 //  @media screen and (min-width : 1024px)
-    // ここにタブレット・PCの記述
     .main-image
       text-align: center
       background-image: url('../static/img/temple2.jpg') !important
-      width: 80%
+      width: 100%
       background-size: cover
       margin: 0 auto
 </style>
