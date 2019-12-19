@@ -1,7 +1,7 @@
 {
-  "name": "taiwan_mandarin_learning",
+  "name": "taiwan-mandarin",
   "version": "1.0.0",
-  "description": "My terrific Nuxt.js project",
+  "description": "台湾華語を学ぶサイト/Web application to learn Taiwan-Mandarin",
   "author": "Mei",
   "private": true,
   "scripts": {
