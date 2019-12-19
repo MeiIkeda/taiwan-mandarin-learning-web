@@ -1,9 +1,9 @@
 <template>
-  <section class="container_vocabulary">
+  <section>
     <h1 class="title_vocabulary">
       台湾華語<br>taiwan_mandarin
     </h1>
-    <div align="center">
+    <div align="center" style="white-space: nowrap; vertical-align: top">
       <table>
         <tbody>
           <tr style="font-weight:300; font-size: 20px; text-align:center">
@@ -297,18 +297,28 @@ export default {
   // word-spacing: 5px
   // padding-bottom: 15px
 
-  .container
-    margin: auto
-    min-height: 100vh
-    display: flex
-    justify-content: center
-    align-items: center
-    text-align: center
+  /*.container_vocabulary*/
+  /*  margin: auto*/
+  /*  min-height: 100vh*/
+  /*  display: flex*/
+  /*  justify-content: center*/
+  /*  align-items: center*/
+  /*  text-align: center*/
+  @media screen and (min-width : 768px)
+    // ここにスマホの記述
+    .main-image
+      text-align: center
+      background-image: url('../static/img/temple2.jpg') !important
+      width: 100%
+      background-size: cover
+      margin: 0 auto
 
-  .main-image
-    text-align: center
-    background-image: url('../static/img/temple2.jpg') !important
-    width: 80%
-    background-size: cover
-    margin: 0 auto
+  @media screen and (min-width : 1024px)
+    // ここにタブレット・PCの記述
+    .main-image
+      text-align: center
+      background-image: url('../static/img/temple2.jpg') !important
+      width: 80%
+      background-size: cover
+      margin: 0 auto
 </style>
