@@ -20,7 +20,11 @@
     "bootstrap-vue": "^2.0.0",
     "dotenv": "^8.2.0",
     "nuxt": "^2.0.0",
-    "raven-js": "^3.27.2"
+    "raven-js": "^3.27.2",
+    "redirect-ssl": "^1.4.1",
+    "vue": "2.6.11",
+    "vue-server-renderer": "2.6.11",
+    "vue-template-compiler": "2.6.11"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.0.1",

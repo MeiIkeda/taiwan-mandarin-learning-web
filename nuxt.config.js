@@ -30,6 +30,9 @@ export default {
   */
   plugins: [
   ],
+  serverMiddleware: [
+    'redirect-ssl'
+  ],
   /*
   ** Nuxt.js dev-modules
   */
