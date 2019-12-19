@@ -13,7 +13,7 @@
               </nuxt-link>
             </td><td>&nbsp;&nbsp;</td><td>
               <nuxt-link :to="{ name: 'about' }">
-                サイトについて<br>about
+                サイト概要<br>about
               </nuxt-link>
             </td><td>&nbsp;&nbsp;</td><td>
               <nuxt-link :to="{ name: 'bopomofo' }" style="text-decoration: underline">
