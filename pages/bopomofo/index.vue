@@ -441,7 +441,7 @@ export default {
       }
       const uttr = new SpeechSynthesisUtterance(char)
       uttr.localService = false
-      uttr.lang = 'zh-CN'
+      uttr.lang = process.env.SPEAK_LANGUAGE
       const voices = speechSynthesis.getVoices()
       let isChinese = false
       const me = this
@@ -449,7 +449,6 @@ export default {
         if (voice.lang.includes('zh')) {
           isChinese = true
         }
-        console.log(voice)
         if ((i === (voices.length - 1)) && !isChinese) {
           const agent = window.navigator.userAgent
           me.error_message = 'お使いのブラウザーは音声再生に対応していない可能性があります。(Google Chrome推奨)'
