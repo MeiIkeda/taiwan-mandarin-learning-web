@@ -257,6 +257,11 @@ export default {
         headers: {
           'Access-Control-Allow-Origin': '*'
         }
+      }, {
+        auth: {
+          username: process.env.BASIC_AUTH_USERNAME,
+          password: process.env.BASIC_AUTH_PASSWORD
+        }
       }).catch(function (error) {
         if (error.response) {
           if (error.response.data && error.response.data.message != null) {
@@ -266,13 +271,13 @@ export default {
             me.error_message = '単語情報を取得できません。 しばらくしてからもう一度お試しください。'
             me.error_message_sentry = '単語情報を取得できません。 しばらくしてからもう一度お試しください。' + error
           }
-          console.log('Error = ' + me.error_message_sentry)
+          // console.log('Error = ' + me.error_message_sentry)
           me.showErrorAlert = true
           me.$sentry.captureException(new Error('Error = ' + me.error_message_sentry))
         } else {
           me.error_message = '単語情報を取得できません。 しばらくしてからもう一度お試しください。'
           me.error_message_sentry = '単語情報を取得できません。 しばらくしてからもう一度お試しください。' + error
-          console.log('Error = ' + me.error_message_sentry)
+          // console.log('Error = ' + me.error_message_sentry)
           me.showErrorAlert = true
           me.$sentry.captureException(new Error('Error = ' + me.error_message_sentry))
         }

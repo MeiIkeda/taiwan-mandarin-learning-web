@@ -141,7 +141,6 @@ export default {
     async send () {
       let isError = false
       if (this.inputDto.name === '') {
-        console.log('(1)')
         this.error_message_name = '※お名前を入力してください。'
         this.showErrorAlert_name = true
         isError = true
@@ -170,19 +169,23 @@ export default {
         this.error_message_inquiry = ''
         this.showErrorAlert_inquiry = false
       }
-      console.log('length = ' + this.inputDto.inquiry.length)
 
       if (isError) {
         return
       }
 
       const me = this
-      console.log('this.inputDto = ' + JSON.stringify(this.inputDto))
+      // console.log('this.inputDto = ' + JSON.stringify(this.inputDto))
       await this.$axios.$post(process.env.BASE_URL_API + '/api/v1/contact', this.inputDto, {
         headers: {
           'Access-Control-Allow-Origin': process.env.ACCESS_CONTROL_ORIGIN,
           'content-type': 'application/json',
           'charset': 'UTF-8'
+        }
+      }, {
+        auth: {
+          username: process.env.BASIC_AUTH_USERNAME,
+          password: process.env.BASIC_AUTH_PASSWORD
         }
       }).then(function (response) {
         me.success_message = 'メッセージを送信しました。'
@@ -197,13 +200,13 @@ export default {
             me.error_message = 'メッセージを送信できませんでした。 しばらくしてからもう一度お試しください。'
             me.error_message_sentry = 'メッセージを送信できませんでした。 しばらくしてからもう一度お試しください。' + error
           }
-          console.log('Error = ' + me.error_message_sentry)
+          // console.log('Error = ' + me.error_message_sentry)
           me.showErrorAlert = true
           me.$sentry.captureException(new Error('Error = ' + me.error_message_sentry))
         } else {
           me.error_message = 'メッセージを送信できませんでした。しばらくしてからもう一度お試しください。'
           me.error_message_sentry = 'メッセージを送信できませんでした。しばらくしてからもう一度お試しください。' + error
-          console.log('Error = ' + me.error_message_sentry)
+          // console.log('Error = ' + me.error_message_sentry)
           me.showErrorAlert = true
           me.$sentry.captureException(new Error('Error = ' + me.error_message_sentry))
         }

@@ -202,10 +202,10 @@ export default {
     showing_page_max_number () {
       // 最後のページ
       if (Math.floor((this.current_page - 1) / 10) === Math.floor(this.total_page / 10)) {
-        console.log('showing_page_max_number=' + Math.floor(this.total_page % 10))
+        // console.log('showing_page_max_number=' + Math.floor(this.total_page % 10))
         return Math.floor(this.total_page % 10)
       } else {
-        console.log('showing_page_max_number=' + 10)
+        // console.log('showing_page_max_number=' + 10)
         return 10
       }
     },
@@ -235,6 +235,11 @@ export default {
           'Access-Control-Allow-Origin': '*',
           'charset': 'UTF-8'
         }
+      }, {
+        auth: {
+          username: process.env.BASIC_AUTH_USERNAME,
+          password: process.env.BASIC_AUTH_PASSWORD
+        }
       }).catch(function (error) {
         if (error.response) {
           if (error.response.status === 404) {
@@ -247,13 +252,13 @@ export default {
             me.error_message = '検索情報を取得できません。 しばらくしてからもう一度お試しください。'
             me.error_message_sentry = '検索情報を取得できません。 しばらくしてからもう一度お試しください。' + error
           }
-          console.log('Error = ' + me.error_message_sentry)
+          // console.log('Error = ' + me.error_message_sentry)
           me.showErrorAlert = true
           me.$sentry.captureException(new Error('Error = ' + me.error_message_sentry))
         } else {
           me.error_message = '検索情報を取得できません。 しばらくしてからもう一度お試しください。'
           me.error_message_sentry = '検索情報を取得できません。 しばらくしてからもう一度お試しください。' + error
-          console.log('Error = ' + me.error_message_sentry)
+          // console.log('Error = ' + me.error_message_sentry)
           me.showErrorAlert = true
           me.$sentry.captureException(new Error('Error = ' + me.error_message_sentry))
         }
@@ -266,7 +271,7 @@ export default {
         } else {
           this.total_page = parseInt(this.words.length / this.pageUnit) + 1
         }
-        console.log('this.total_page = ' + this.total_page)
+        // console.log('this.total_page = ' + this.total_page)
       }
     },
 
