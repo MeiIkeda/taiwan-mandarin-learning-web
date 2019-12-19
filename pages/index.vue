@@ -297,7 +297,7 @@ export default {
     .main-image
       text-align: center
       background-image: url('../static/img/temple2.jpg') !important
-      width: 100%
+      width: 90%
       background-size: cover
       margin: 0 auto
 </style>

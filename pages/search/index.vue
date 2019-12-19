@@ -344,7 +344,7 @@ export default {
   .main-image-search
     text-align: center
     background-image: url('../../static/img/frower3.jpg') !important
-    width: 100%
+    width: 90%
     height: 60%
     background-size: cover
     margin: 0 auto
