@@ -103,7 +103,7 @@
       <div v-else>
         <table class="table-bordered" style="margin-left: auto; margin-right: auto">
           <tbody style="align: center; text-align: left">
-            <tr :key="list.id" v-for="list in announcement" style="color: azure; text-shadow: 1px 1px 0 darkolivegreen">
+            <tr :key="list.id" v-for="list in announcement" style="white-space: nowrap; color: azure; text-shadow: 1px 1px 0 darkolivegreen">
               <td style="max-width:120px">
                 {{ list.announcementDate }}
               </td> <td style="min-width:300px">
@@ -293,16 +293,17 @@ export default {
     text-align :center
     color: #526488
 
-  @media screen and (min-width : 768px)
-    // ここにスマホの記述
-    .main-image
-      text-align: center
-      background-image: url('../static/img/temple2.jpg') !important
-      width: 100%
-      background-size: cover
-      margin: 0 auto
+//  @media screen and (min-width : 768px)
+//    // ここにスマホの記述
+//    .main-image
+//      text-align: center
+//      background-image: url('../static/img/temple2.jpg') !important
+//      width: 100%
+      //height: 100%
+//      background-size: cover
+//      margin: 0 auto
 
-  @media screen and (min-width : 1024px)
+//  @media screen and (min-width : 1024px)
     // ここにタブレット・PCの記述
     .main-image
       text-align: center

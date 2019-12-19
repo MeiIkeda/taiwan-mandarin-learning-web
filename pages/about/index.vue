@@ -107,16 +107,16 @@ export default {
   /*  height: 100%*/
   /*  color: black*/
   /*  margin: 0 auto*/
-  @media screen and (min-width : 768px)
+    //@media screen and (min-width : 768px)
     // ここにスマホの記述
-    .main-text
-      text-align: center
-      background-image: url('../../static/img/sunset.jpg') !important
-      width: 100%
-      background-size: cover
-      margin: 0 auto
+    //  .main-text
+    //   text-align: center
+    //   background-image: url('../../static/img/sunset.jpg') !important
+    //   width: 100%
+    //   background-size: cover
+    //   margin: 0 auto
 
-  @media screen and (min-width : 1024px)
+    //@media screen and (min-width : 1024px)
     // ここにタブレット・PCの記述
     .main-text
       text-align: center

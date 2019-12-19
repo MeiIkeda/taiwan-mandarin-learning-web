@@ -253,16 +253,16 @@ export default {
 //    //height: 60%
 //    margin: 0 auto
 
-  @media screen and (min-width : 768px)
+  //@media screen and (min-width : 768px)
     // ここにスマホの記述
-    .main-image-contact
-      text-align: center
-      background-image: url('../../static/img/temple4.jpg') !important
-      width: 100%
-      background-size: cover
-      margin: 0 auto
+    //.main-image-contact
+    // text-align: center
+    //  background-image: url('../../static/img/temple4.jpg') !important
+    //  width: 100%
+    //  background-size: cover
+    //  margin: 0 auto
 
-  @media screen and (min-width : 1024px)
+    // @media screen and (min-width : 1024px)
     // ここにタブレット・PCの記述
     .main-image-contact
       text-align: center

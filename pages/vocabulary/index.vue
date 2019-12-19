@@ -4,7 +4,7 @@
       台湾華語<br>taiwan_mandarin
     </h1>
     <!--<div align="center">-->
-      <div align="center" style="white-space: nowrap; vertical-align: top">
+    <div align="center" style="white-space: nowrap; vertical-align: top">
       <table>
         <tbody>
           <tr style="font-weight:300; font-size: 20px; text-align:center">
@@ -235,7 +235,8 @@ export default {
       isAuto: false,
       timer: '',
       count: 0,
-      showErrorAlert: false
+      showErrorAlert: false,
+      isSearching: false
     }
   },
 
@@ -254,6 +255,7 @@ export default {
       this.showErrorAlert = false
       this.word_fromDB = []
       const me = this
+      this.isSearching = true
       const data = await this.$axios.$get(process.env.BASE_URL_API + '/api/v1/vocabulary/' + this.level, {
         headers: {
           'Access-Control-Allow-Origin': '*'
@@ -287,9 +289,13 @@ export default {
         this.word_fromDB = data
         this.word = this.word_fromDB[0]
       }
+      this.isSearching = false
     },
 
     next () {
+      if (this.isSearching) {
+        return
+      }
       if (this.word_index === (this.word_fromDB.length - 1)) {
         this.word_index = 0
         this.word = this.word_fromDB[this.word_index]
@@ -299,6 +305,9 @@ export default {
       }
     },
     back () {
+      if (this.isSearching) {
+        return
+      }
       if (this.word_index === 0) {
         this.word_index = this.word_fromDB.length - 1
         this.word = this.word_fromDB[this.word_index]
@@ -321,6 +330,9 @@ export default {
     },
 
     async autoStart () {
+      if (this.isSearching) {
+        return
+      }
       this.isAuto = true
       while (this.isAuto) {
         await this.interval()
@@ -334,10 +346,16 @@ export default {
     },
 
     autoStop () {
+      if (this.isSearching) {
+        return
+      }
       this.isAuto = false
     },
 
     speak () {
+      if (this.isSearching) {
+        return
+      }
       if (this.word_fromDB === null || this.word_fromDB === []) {
         return
       }
@@ -452,16 +470,16 @@ export default {
     //height: 60%
     //margin: 0 auto
 
-  @media screen and (min-width : 768px)
-    // ここにスマホの記述
-    .main-image-vocabulary
-      text-align: center
-      background-image: url('../../static/img/lion.jpg') !important
-      width: 100%
-      background-size: cover
-      margin: 0 auto
+//  @media screen and (min-width : 768px)
+    //     // ここにスマホの記述
+      //     .main-image-vocabulary
+      //       text-align: center
+      // background-image: url('../../static/img/lion.jpg') !important
+      // width: 100%
+      // background-size: cover
+    // margin: 0 auto
 
-  @media screen and (min-width : 1024px)
+ // @media screen and (min-width : 1024px)
     // ここにタブレット・PCの記述
     .main-image-vocabulary
       text-align: center
