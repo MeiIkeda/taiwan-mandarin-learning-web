@@ -3,7 +3,8 @@
     <h1 class="title_vocabulary">
       台湾華語<br>taiwan_mandarin
     </h1>
-    <div align="center">
+    <!--<div align="center">-->
+      <div align="center" style="white-space: nowrap; vertical-align: top">
       <table>
         <tbody>
           <tr style="font-weight:300; font-size: 20px; text-align:center">
@@ -443,11 +444,29 @@ export default {
     outline: none !important
     border:1px solid black
 
-  .main-image-vocabulary
-    text-align: center
-    background-image: url('../../static/img/lion.jpg') !important
-    background-size: cover
-    width: 95%
+  //.main-image-vocabulary
+   // text-align: center
+   // background-image: url('../../static/img/lion.jpg') !important
+   // background-size: cover
+   // width: 95%
     //height: 60%
-    margin: 0 auto
+    //margin: 0 auto
+
+  @media screen and (min-width : 768px)
+    // ここにスマホの記述
+    .main-image-vocabulary
+      text-align: center
+      background-image: url('../../static/img/lion.jpg') !important
+      width: 100%
+      background-size: cover
+      margin: 0 auto
+
+  @media screen and (min-width : 1024px)
+    // ここにタブレット・PCの記述
+    .main-image-vocabulary
+      text-align: center
+      background-image: url('../../static/img/lion.jpg') !important
+      width: 95%
+      background-size: cover
+      margin: 0 auto
 </style>

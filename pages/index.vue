@@ -292,18 +292,7 @@ export default {
     align: center !important
     text-align :center
     color: #526488
-  //white-space: nowrap
-  //width: 500px
-  // word-spacing: 5px
-  // padding-bottom: 15px
 
-  /*.container_vocabulary*/
-  /*  margin: auto*/
-  /*  min-height: 100vh*/
-  /*  display: flex*/
-  /*  justify-content: center*/
-  /*  align-items: center*/
-  /*  text-align: center*/
   @media screen and (min-width : 768px)
     // ここにスマホの記述
     .main-image

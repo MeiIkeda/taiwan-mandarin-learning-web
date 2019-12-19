@@ -3,7 +3,8 @@
     <h1 class="title_vocabulary">
       台湾華語<br>taiwan_mandarin
     </h1>
-    <div align="center">
+    <!--<div align="center">-->
+    <div align="center" style="white-space: nowrap; vertical-align: top">
       <table>
         <tbody>
           <tr style="font-weight:300; font-size: 20px; text-align:center">
@@ -328,8 +329,8 @@
       </p>
     </div>
     <!--<div style="color: #3b8070" align="center">
-      Google アドセンス-->
-    </div>
+      Google アドセンス
+    </div>-->
   </section>
 </template>
 
@@ -337,8 +338,6 @@
 export default {
   data () {
     return {
-    //  level: 1,
-    //  word_index: 0,
       selected: '',
       tone: {
         one: '',
@@ -513,11 +512,29 @@ export default {
     border-collapse: separate
     border-spacing:20px 5px
 
-  .main-image-bopomofo
-    text-align: center
-    background-image: url('../../static/img/background_baloon2.jpg') !important
-    background-size: cover
-    width: 90%
-    height: 60%
-    margin: 0 auto
+  /*.main-image-bopomofo*/
+  /*  text-align: center*/
+  /*  background-image: url('../../static/img/background_baloon2.jpg') !important*/
+  /*  background-size: cover*/
+  /*  width: 90%*/
+  /*  height: 60%*/
+  /*  margin: 0 auto*/
+  @media screen and (min-width : 768px)
+    // ここにスマホの記述
+    .main-image-bopomofo
+      text-align: center
+      background-image: url('../../static/img/background_baloon2.jpg') !important
+      width: 100%
+      background-size: cover
+      margin: 0 auto
+
+  @media screen and (min-width : 1024px)
+    // ここにタブレット・PCの記述
+    .main-image-bopomofo
+      text-align: center
+      background-image: url('../../static/img/background_baloon2.jpg') !important
+      width: 90%
+      height: 60%
+      background-size: cover
+      margin: 0 auto
 </style>

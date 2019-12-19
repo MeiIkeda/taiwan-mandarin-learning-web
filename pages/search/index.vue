@@ -3,7 +3,8 @@
     <h1 class="title_vocabulary">
       台湾華語<br>taiwan_mandarin
     </h1>
-    <div align="center">
+    <!-- <div align="center">-->
+    <div align="center" style="white-space: nowrap; vertical-align: top">
       <table>
         <tbody>
           <tr style="font-weight:300; font-size: 20px; text-align:center">
@@ -347,11 +348,29 @@ export default {
     align-self: center
     color :black
 
-  .main-image-search
-    text-align: center
-    background-image: url('../../static/img/frower3.jpg') !important
-    background-size: cover
-    width: 90%
-    height: 60%
-    margin: 0 auto
+  /*.main-image-search*/
+  /*  text-align: center*/
+  /*  background-image: url('../../static/img/frower3.jpg') !important*/
+  /*  background-size: cover*/
+  /*  width: 90%*/
+  /*  height: 60%*/
+  /*  margin: 0 auto*/
+  @media screen and (min-width : 768px)
+    // ここにスマホの記述
+    .main-image-search
+      text-align: center
+      background-image: url('../../static/img/frower3.jpg') !important
+      width: 100%
+      background-size: cover
+      margin: 0 auto
+
+  @media screen and (min-width : 1024px)
+    // ここにタブレット・PCの記述
+    .main-image-search
+      text-align: center
+      background-image: url('../../static/img/frower3.jpg') !important
+      width: 90%
+      height: 60%
+      background-size: cover
+      margin: 0 auto
 </style>

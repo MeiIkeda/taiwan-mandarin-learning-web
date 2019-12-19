@@ -3,7 +3,8 @@
     <h1 class="title_vocabulary">
       台湾華語<br>taiwan_mandarin
     </h1>
-    <div align="center">
+    <!--<div align="center">-->
+    <div align="center" style="white-space: nowrap; vertical-align: top">
       <table>
         <tbody>
           <tr style="font-weight:300; font-size: 20px; text-align:center">
@@ -98,13 +99,30 @@ export default {
     align-items: center
     text-align: center
 
-  .main-text
-    text-align: center
-    background-image: url('../../static/img/sunset.jpg') !important
-    background-size: cover
-    width: 70%
-    height: 100%
-    color: black
-    margin: 0 auto
+  /*.main-text*/
+  /*  text-align: center*/
+  /*  background-image: url('../../static/img/sunset.jpg') !important*/
+  /*  background-size: cover*/
+  /*  width: 70%*/
+  /*  height: 100%*/
+  /*  color: black*/
+  /*  margin: 0 auto*/
+  @media screen and (min-width : 768px)
+    // ここにスマホの記述
+    .main-text
+      text-align: center
+      background-image: url('../../static/img/sunset.jpg') !important
+      width: 100%
+      background-size: cover
+      margin: 0 auto
 
+  @media screen and (min-width : 1024px)
+    // ここにタブレット・PCの記述
+    .main-text
+      text-align: center
+      background-image: url('../../static/img/sunset.jpg') !important
+      width: 70%
+      height: 100%
+      background-size: cover
+      margin: 0 auto
 </style>
