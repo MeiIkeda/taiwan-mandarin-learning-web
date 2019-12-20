@@ -41,6 +41,9 @@
     <!--<div style="color: #3b8070" align="center">
       Google アドセンス
     </div>-->
+    <div style="color: red; margin: auto; text-align: center">
+      メンテナンス中
+    </div>
 
     <div class="main-image-contact">
       <br>
@@ -96,12 +99,17 @@
           {{ error_message }}
         </b-alert>
       </div>
+      <div style="color: red; margin: auto; text-align: center">
+        メンテナンス中
+      </div>
       <br>
+      <!--
       <div align="center">
         <b-button @click="send" style="background-color: #f0f8ff; color: black">
           Send!
         </b-button>
       </div>
+      -->
       <br>
     </div>
 
