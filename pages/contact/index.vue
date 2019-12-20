@@ -50,11 +50,11 @@
           {{ success_message }}
         </b-alert>
       </div>
-      <div v-if="showErrorAlert">
-        <b-alert v-model="showErrorAlert" style="color: red; background-color: transparent; border-color: transparent" variant="info" dismissible>
-          {{ error_message }}
-        </b-alert>
-      </div>
+<!--      <div v-if="showErrorAlert">-->
+<!--        <b-alert v-model="showErrorAlert" style="color: red; background-color: transparent; border-color: transparent" variant="info" dismissible>-->
+<!--          {{ error_message }}-->
+<!--        </b-alert>-->
+<!--      </div>-->
       <div class="form-group">
         <label class="col-sm-3 control-label" style="text-shadow: 1px 1px 0 white">お名前(必須)</label>
         <div v-if="showErrorAlert_name" style="color: red">
@@ -96,6 +96,11 @@
       </div>
       <div align="center">
         内容をお確かめの上、Send!ボタンを押して送信して下さい。
+      </div>
+      <div v-if="showErrorAlert">
+        <b-alert v-model="showErrorAlert" style="color: red; background-color: transparent; border-color: transparent" variant="info" dismissible>
+          {{ error_message }}
+        </b-alert>
       </div>
       <br>
       <div align="center">
