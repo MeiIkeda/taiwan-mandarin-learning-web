@@ -40,7 +40,8 @@
 
     <!--<div style="color: #3b8070" align="center">
       Google アドセンス
-    </div>-->
+    </div>
+    -->
     <div class="main-text">
       <br>
       <p style="font-size: 20px">
