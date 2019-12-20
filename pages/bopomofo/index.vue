@@ -441,7 +441,8 @@ export default {
       }
       const uttr = new SpeechSynthesisUtterance(char)
       uttr.localService = false
-      uttr.lang = process.env.SPEAK_LANGUAGE
+      // uttr.lang = process.env.SPEAK_LANGUAGE
+      uttr.lang = 'zh-CN'
       const voices = speechSynthesis.getVoices()
       let isChinese = false
       const me = this
