@@ -97,13 +97,11 @@
         </b-alert>
       </div>
       <br>
-      <!--
       <div align="center">
         <b-button @click="send" style="background-color: #f0f8ff; color: black">
           Send!
         </b-button>
       </div>
-      -->
       <br>
     </div>
 
