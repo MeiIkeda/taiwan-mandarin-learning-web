@@ -366,10 +366,10 @@ export default {
         this.showErrorAlert = true
         return
       }
-      const uttr = new SpeechSynthesisUtterance(this.word.simplified)
+      const uttr = new SpeechSynthesisUtterance(this.word.bopomofo)
       uttr.localService = false
       // uttr.lang = process.env.SPEAK_LANGUAGE
-      uttr.lang = 'zh-CN'
+      uttr.lang = 'zh-TW'
       const voices = speechSynthesis.getVoices()
       let isChinese = false
       const me = this
