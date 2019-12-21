@@ -38,10 +38,10 @@
       </table>
     </div>
     <br>
-
-    <!--<div style="color: #3b8070" align="center">
-      Google アドセンス
-    </div>-->
+    <div style="color: #3b8070" align="center">
+      スポンサーリンク
+    </div>
+    <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
 
     <div class="main-image-vocabulary">
       <br>
@@ -207,9 +207,10 @@
         推奨ブラウザはGoogle Chromeです。<br>
       </p>
     </div>
-    <!--<div style="color: #3b8070" align="center">
-      Google アドセンス
-    </div>-->
+    <div style="color: #3b8070" align="center">
+      スポンサーリンク
+    </div>
+    <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
   </section>
 </template>
 
