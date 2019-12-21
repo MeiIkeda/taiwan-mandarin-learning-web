@@ -296,7 +296,7 @@ export default {
 //  @media screen and (min-width : 1024px)
     .main-image
       text-align: center
-      background-image: url('../static/img/temple2.jpg') !important
+      background-image: url('../static/img/temple2_2.jpg') !important
       width: 90%
       background-size: cover
       margin: 0 auto

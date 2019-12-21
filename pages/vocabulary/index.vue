@@ -463,7 +463,7 @@ export default {
     // ここにタブレット・PCの記述
     .main-image-vocabulary
       text-align: center
-      background-image: url('../../static/img/lion.jpg') !important
+      background-image: url('../../static/img/lion_2.jpg') !important
       width: 95%
       background-size: cover
       margin: 0 auto

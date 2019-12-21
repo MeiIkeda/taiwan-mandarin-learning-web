@@ -343,7 +343,7 @@ export default {
     // ここにタブレット・PCの記述
   .main-image-search
     text-align: center
-    background-image: url('../../static/img/frower3.jpg') !important
+    background-image: url('../../static/img/frower3_2.jpg') !important
     width: 90%
     height: 60%
     background-size: cover

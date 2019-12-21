@@ -244,7 +244,7 @@ export default {
 
   .main-image-contact
     text-align: center
-    background-image: url('../../static/img/temple4.jpg') !important
+    background-image: url('../../static/img/temple4_2.jpg') !important
     width: 90%
     background-size: cover
     margin: 0 auto

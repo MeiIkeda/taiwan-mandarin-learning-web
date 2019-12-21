@@ -102,7 +102,7 @@ export default {
     // ここにタブレット・PCの記述
   .main-text
     text-align: center
-    background-image: url('../../static/img/sunset.jpg') !important
+    background-image: url('../../static/img/sunset_2.jpg') !important
     width: 95%
     height: 100%
     background-size: cover
