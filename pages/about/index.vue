@@ -38,11 +38,16 @@
     </div>
     <br>
 
-    <div style="color: #3b8070" align="center">
-      スポンサーリンク
-    </div>
-    <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
-
+    <head>
+      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+      <title />
+    </head>
+    <!--
+  <div style="color: #3b8070" align="center">
+    スポンサーリンク
+  </div>
+  <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+  -->
     <div class="main-text">
       <br>
       <p style="font-size: 20px">
@@ -62,11 +67,16 @@
       </p>
     </div>
     <br>
-
+    <!--
     <div style="color: #3b8070" align="center">
       スポンサーリンク
     </div>
     <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    -->
+    <head>
+      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+      <title />
+    </head>
   </section>
 </template>
 

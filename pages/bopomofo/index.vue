@@ -37,12 +37,16 @@
       </table>
     </div>
     <br>
-
+    <head>
+      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+      <title />
+    </head>
+    <!--
     <div style="color: #3b8070" align="center">
       スポンサーリンク
     </div>
     <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
-
+    -->
     <div class="main-image-bopomofo">
       <b-alert v-model="showErrorAlert" style="color: red; background-color: transparent; border-color: transparent" variant="info">
         {{ error_message }}

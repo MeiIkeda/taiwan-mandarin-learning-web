@@ -50,6 +50,20 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/sentry'
+    // '@nuxtjs/google-adsense', {
+    //   id: process.env.GA_ADSENSE_ID,
+    //   pageLevelAds: true,
+    //   // analyticsUacct: 'UA-########',
+    //   // analyticsDomainName: 'example.com'
+    // }
+    // '@nuxtjs/google-adsense', {
+    //   pageLevelAds: true,
+    //   tag: 'adsbygooglea'
+    //   // id: process.env.GA_ADSENSE_ID
+    //   // pageLevelAds: true
+    //   // analyticsUacct: process.env.GA_TRACKING_ID, // アナリティクスと連携する場合のみ必要
+    //   // analyticsDomainName: domain                 // アナリティクスと連携する場合のみ必要
+    // }
   ],
   /*
   ** Axios module configuration
