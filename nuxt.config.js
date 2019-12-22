@@ -14,7 +14,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [ {"data-ad-client": 'ca-pub-9333963654003765', "async src": 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'}]
   },
   /*
   ** Customize the progress-bar color
@@ -23,13 +24,11 @@ export default {
   /*
   ** Global CSS
   */
-  css: [
-  ],
+  css: [],
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-  ],
+  plugins: [],
   serverMiddleware: [
     'redirect-ssl'
   ],
@@ -50,12 +49,6 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/sentry'
-    // '@nuxtjs/google-adsense', {
-    //   id: process.env.GA_ADSENSE_ID,
-    //   pageLevelAds: true,
-    //   // analyticsUacct: 'UA-########',
-    //   // analyticsDomainName: 'example.com'
-    // }
     // '@nuxtjs/google-adsense', {
     //   pageLevelAds: true,
     //   tag: 'adsbygooglea'
