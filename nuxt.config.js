@@ -15,7 +15,27 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
-    script: [ {"data-ad-client": 'ca-pub-9333963654003765', "async src": 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'}]
+    script: [ {"data-ad-client": 'ca-pub-9333963654003765', "async src": 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'},
+      {"async src": 'https://www.googletagmanager.com/gtag/js?id=UA-154891283-1'},
+      {
+        mounted () {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', process.env.GA_TRACKING_ID);
+        }
+      }
+    ],
+
+    //<!-- Global site tag (gtag.js) - Google Analytics -->
+    // <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154891283-1"></script>
+    // <script>
+    //   window.dataLayer = window.dataLayer || [];
+    //   function gtag(){dataLayer.push(arguments);}
+    //   gtag('js', new Date());
+    //
+    //   gtag('config', 'UA-154891283-1');
+    // </script>
   },
   /*
   ** Customize the progress-bar color
@@ -49,6 +69,11 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/sentry'
+    // '@nuxtjs/google-gtag',
+    // {
+    //   id: 'UA-154891283-1', //あなたのGoogleアナリティクスのプロパティID
+    //   debug: true //本番環境以外でもGAを有効にしたい場合はtrueに。
+    // }
     // '@nuxtjs/google-adsense', {
     //   pageLevelAds: true,
     //   tag: 'adsbygooglea'
