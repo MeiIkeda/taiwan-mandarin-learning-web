@@ -27,10 +27,6 @@
               <nuxt-link :to="{ name: 'search' }">
                 単語検索<br>search
               </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'contact' }" style="text-decoration: underline">
-                お問い合わせ<br>contact
-              </nuxt-link>
             </td>
           </tr>
         </tbody>
@@ -120,6 +116,25 @@
   </div>
   <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
   -->
+    <br>
+    <div align="center" style="white-space: nowrap; vertical-align: top">
+      <table>
+        <tbody>
+          <tr style="font-weight:300; font-size: 16px; text-align:center">
+            <td>
+              <nuxt-link :to="{ name: 'privacypolicy' }">
+                プライバシー＆ポリシー<br>privacy&policy
+              </nuxt-link>
+            </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
+              <nuxt-link :to="{ name: 'contact' }" style="text-decoration: underline">
+                お問い合わせ<br>contact
+              </nuxt-link>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br>
   </section>
 </template>
 
