@@ -37,10 +37,10 @@
       </table>
     </div>
     <br>
-<!--    <head>-->
-<!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
-<!--      <title />-->
-<!--    </head>-->
+    <!--    <head>-->
+    <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
+    <!--      <title />-->
+    <!--    </head>-->
     <!--
     <div style="color: #3b8070" align="center">
       スポンサーリンク

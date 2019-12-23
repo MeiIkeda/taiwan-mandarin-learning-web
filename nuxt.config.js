@@ -15,19 +15,20 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
-    script: [ {"data-ad-client": 'ca-pub-9333963654003765', "async src": 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'},
-      {"async src": 'https://www.googletagmanager.com/gtag/js?id=UA-154891283-1'},
-      {
-        mounted () {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', process.env.GA_TRACKING_ID);
-        }
-      }
-    ],
+    script: [
+      { 'data-ad-client': 'ca-pub-9333963654003765', 'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' },
+      { 'async src': 'https://www.googletagmanager.com/gtag/js?id=UA-154891283-1' }
 
-    //<!-- Global site tag (gtag.js) - Google Analytics -->
+      // { export default {
+      //     window.dataLayer = window.dataLayer || [];
+      //     function gtag(){dataLayer.push(arguments);}
+      //     gtag('js', new Date());
+      //     gtag('config', process.env.GA_TRACKING_ID);
+      //   }
+      // }
+    ]
+
+    // <!-- Global site tag (gtag.js) - Google Analytics -->
     // <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154891283-1"></script>
     // <script>
     //   window.dataLayer = window.dataLayer || [];
