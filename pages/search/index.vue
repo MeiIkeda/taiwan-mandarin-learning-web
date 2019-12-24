@@ -167,6 +167,17 @@
         <br>
       </div>
     </div>
+    <div align="center">
+      <p>
+        単語を検索できます。検索したい文字を入力し、「Search!」ボタンを押してください。<br>
+        入力文字列に対して、繁体字/簡体字/意味のいずれかに該当する文字列があった場合、検索結果が返されます。<br>
+        検索結果の繁体字ボタン部分を押すと、発音を聞くことができます。<br>
+      </p>
+      <p style="color: red">
+        ※お使いのブラウザやバージョンによっては、音声再生に対応していない場合があります。<br>
+        推奨ブラウザはGoogle Chromeです。<br>
+      </p>
+    </div>
     <!--    <head>-->
     <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
     <!--      <title />-->
@@ -195,6 +206,7 @@
         </tbody>
       </table>
     </div>
+    <br>
   </section>
 </template>
 
@@ -202,21 +214,12 @@
 export default {
   head () {
     return {
-      // title: '',
+      title: '台湾華語 taiwan-mandarin/search',
       script: [
         {
-          'data-ad-client': 'ca-pub-9333963654003765',
+          'data-ad-client': process.env.GA_ADSENSE_ID,
           'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
         }
-        // { 'async src': 'https://www.googletagmanager.com/gtag/js?id=UA-154891283-1' }
-
-        // { export default {
-        //     window.dataLayer = window.dataLayer || [];
-        //     function gtag(){dataLayer.push(arguments);}
-        //     gtag('js', new Date());
-        //     gtag('config', process.env.GA_TRACKING_ID);
-        //   }
-        // }
       ]
     }
   },

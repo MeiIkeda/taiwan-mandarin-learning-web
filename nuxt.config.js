@@ -11,17 +11,16 @@ export default {
       lang: 'ja'
     },
     script: [
-      // { 'data-ad-client': 'ca-pub-9333963654003765', 'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' },
-      { 'async src': 'https://www.googletagmanager.com/gtag/js?id=UA-154891283-1' },
-      {
-        __html: unescape(`
+      { 'async src': 'https://www.googletagmanager.com/gtag/js?id=' + process.env.GA_TRACKING_ID },
+      { __html:
+        `
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', '${process.env.GA_TRACKING_ID}');
-        `)
-      }
-      // '\nwindow.dataLayer': 'window.dataLayer || [] ;\n' + 'function gtag(){ dataLayer.push(arguments);}\n' + 'gtag(\'js\', new Date());\n' + 'gtag(\'config\', ' + process.env.GA_TRACKING_ID + ');\n'
+        `
+       }
+      // { '\nwindow.dataLayer': 'window.dataLayer || [] ;\n' + 'function gtag(){ dataLayer.push(arguments);}\n' + 'gtag(\'js\', new Date());\n' + 'gtag(\'config\', ' + process.env.GA_TRACKING_ID + ');\n'}
       // }
     ],
     meta: [

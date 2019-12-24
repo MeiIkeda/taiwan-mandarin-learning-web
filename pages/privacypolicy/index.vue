@@ -138,6 +138,11 @@
 
 <script>
 export default {
+  head () {
+    return {
+      title: '台湾華語 taiwan-mandarin/privacypolicy'
+    }
+  }
 }
 </script>
 
