@@ -7,6 +7,23 @@ export default {
   */
   head: {
     title: process.env.WEBSITE_TITLE || '',
+    htmlAttrs: {
+      lang: 'ja'
+    },
+    script: [
+      // { 'data-ad-client': 'ca-pub-9333963654003765', 'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' },
+      { 'async src': 'https://www.googletagmanager.com/gtag/js?id=UA-154891283-1' },
+      {
+        __html: unescape(`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${process.env.GA_TRACKING_ID}');
+        `)
+      }
+      // '\nwindow.dataLayer': 'window.dataLayer || [] ;\n' + 'function gtag(){ dataLayer.push(arguments);}\n' + 'gtag(\'js\', new Date());\n' + 'gtag(\'config\', ' + process.env.GA_TRACKING_ID + ');\n'
+      // }
+    ],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=0.5' },
@@ -14,18 +31,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
-    script: [
-      { 'data-ad-client': 'ca-pub-9333963654003765', 'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' },
-      { 'async src': 'https://www.googletagmanager.com/gtag/js?id=UA-154891283-1' }
-
-      // { export default {
-      //     window.dataLayer = window.dataLayer || [];
-      //     function gtag(){dataLayer.push(arguments);}
-      //     gtag('js', new Date());
-      //     gtag('config', process.env.GA_TRACKING_ID);
-      //   }
-      // }
     ]
 
     // <!-- Global site tag (gtag.js) - Google Analytics -->

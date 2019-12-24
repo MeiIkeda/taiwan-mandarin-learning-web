@@ -358,6 +358,18 @@
 
 <script>
 export default {
+  head () {
+    return {
+      // title: '',
+      script: [
+        {
+          'data-ad-client': 'ca-pub-9333963654003765',
+          'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+        }
+      ]
+    }
+  },
+
   data () {
     return {
       selected: '',
