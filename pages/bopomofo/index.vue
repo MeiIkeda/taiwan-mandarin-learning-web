@@ -93,22 +93,22 @@
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.a)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.a)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.a }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.ai)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.ai)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.ai }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.an)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.an)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.an }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.er)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.er)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.er }}
                 </b-button>
               </td>
@@ -152,22 +152,22 @@
                   {{ bopomofo.z }}
                 </b-button>
               </td><td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.y)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.y)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.y }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.o)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.o)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.o }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.ei)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.ei)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.ei }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.en)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.en)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.en }}
                 </b-button>
               </td>
@@ -212,22 +212,22 @@
                   {{ bopomofo.c }}
                 </b-button>
               </td><td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.w)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.w)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.w }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.e)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.e)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.e }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.ao)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.ao)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.ao }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.ang)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.ang)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.ang }}
                 </b-button>
               </td>
@@ -271,22 +271,22 @@
                   {{ bopomofo.s }}
                 </b-button>
               </td><td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.yu)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.yu)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.yu }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.eh)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.eh)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.eh }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.ou)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.ou)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.ou }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.eng)" style="background-color: #f0fff0; color: black">
+                <b-button @click="speak_bopomofo(bopomofo.eng)" style="background-color: #f0f8ff; color: black">
                   {{ bopomofo.eng }}
                 </b-button>
               </td>
@@ -302,7 +302,7 @@
           声調記号
         </div>
         <table class="table-bordered">
-          <thead class="thead-light" style="background-color: #f0f8ff">
+          <thead class="thead-light" style="background-color: #e6e6fa">
             <tr><th>第一声</th><th>第二声</th><th>第三声</th><th>第四声</th><th>軽声</th></tr>
           </thead>
           <tbody style="text-align: center">
@@ -312,22 +312,105 @@
         <br><br>
       </div>
     </div>
-
+    <br>
     <div align="center">
+      <p style="font-weight: bold">
+        ボポモフォ
+      </p>
       <p>
-        <br>
-        ボポモフォ(Boomofo)とは、またの名を注音と言い、台湾のひらがなにあたります。<br>
-        各漢字に対し、母音と子音、そして声調記号で発音を表します。<br><br>
-        中国語の発音記号は、一般的に拼音(ピンイン)と呼ばれるアルファベット表記のものが使われていますが、<br>
-        日本語ネイティブは、日本語のローマ字発音をイメージして誤った発音してしまいがちです。<br>
-        先入観に囚われることなく事無く発音を学べるという点で、ボポモフォは大変有効です。<br><br>
+        ボポモフォ(Bopomofo)とは、またの名を注音(ㄓㄨˋ ㄧㄣ)と言い、台湾のひらがなにあたります。<br>
+        各漢字に対し、母音と子音を計1~3字、そして声調記号を組み合わせて発音を表します。<br>
+        「あいうえお」のように、最初の4つ「ㄅ・ㄆ・ㄇ・ㄈ」の読みから、ボポモフォ(Bopomofo)と呼ばれています。<br>
+      </p>
+      <hr width="80%">
+      <br>
+      <p style="font-weight: bold">
+        ピンイン
+      </p>
+      <p>
+        台湾以外では、中国語の発音記号として、拼音(ピンイン)と呼ばれるアルファベット表記のものが広く使われています。<br>
+        ボポモフォよりもピンインの方が発音記号として一般的ではありますが、<br>
+        アルファベット表記なのでどうしても英語またはローマ字を連想してしまい、誤った発音になりがちです。<br>
+        先入観に囚われることなく事無く発音を学べるという点で、ボポモフォは大変有効です。<br>
+      </p>
+      <hr width="80%">
+      <br>
+      <p style="font-weight: bold">
+        声調
+      </p>
+      <p>
+        中国語は、音の高低によっても単語の意味が区別され、この音の高低の事を声調と言います。<br>
+        日本語で例えるなら雨と飴のように、音としては同一であっても、イントネーションの違いによって意味は全く異なります。<br>
+        上記の表の通り、中国語には5種類の声調が存在し、これをボポモフォ(またはピンイン)と組み合わせて最終的な発音を表します。<br>
+        例：ㄊㄞˊㄨㄢ<br>
+        各声調の違いを確認するために、例としてㄇㄚの発音を下記に記しました。<br>
+        (よく聞く、「まーまーまーまー」という例。)
+      </p>
+      <table class="table-bordered" style="align: center; text-align: left">
+        <thead style="text-align: center">
+          <tr>
+            <th style="background-color: #e6e6fa">
+              第一声
+            </th>
+            <th style="background-color: #e6e6fa">
+              第二声
+            </th>
+            <th style="background-color: #e6e6fa">
+              第三声
+            </th>
+            <th style="background-color: #e6e6fa">
+              第四声
+            </th>
+            <th style="background-color: #e6e6fa">
+              軽声
+            </th>
+          </tr>
+        </thead>
+        <tbody style="white-space:nowrap; align: center; text-align: center">
+          <tr>
+            <td>
+              <b-button @click="speak_bopomofo('ㄇㄚ')" style="background-color: #f7f8fb; color: black">
+                ㄇㄚ
+              </b-button>
+            </td>
+            <td>
+              <b-button @click="speak_bopomofo('ㄇㄚˊ')" style="background-color: #f7f8fb; color: black">
+                ㄇㄚˊ
+              </b-button>
+            </td>
+            <td>
+              <b-button @click="speak_bopomofo('ㄇㄚˇ')" style="background-color: #f7f8fb; color: black">
+                ㄇㄚˇ
+              </b-button>
+            </td>
+            <td>
+              <b-button @click="speak_bopomofo('ㄇㄚˋ')" style="background-color: #f7f8fb; color: black">
+                ㄇㄚˋ
+              </b-button>
+            </td>
+            <td>
+              <b-button @click="speak_bopomofo('ㄇㄚ˙')" style="background-color: #f7f8fb; color: black">
+                ㄇㄚ˙
+              </b-button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr width="80%">
+      <br>
+      <p>
         本ページには、ボポモフォと、対応するピンインを載せています。<br>
-        台湾のパソコンのキーボードと並びが同じなので、眺めてみて下さい。<br>
+        台湾のパソコン/スマホのキーボードと並びが同じなので、眺めてみて下さい。<br>
+        キーボードの[<span style="background-color: honeydew">&nbsp;&nbsp;&nbsp;</span>]で色付けされた部分が子音で、
+        [<span style="background-color: aliceblue">&nbsp;&nbsp;&nbsp;</span>]の部分が母音です。<br>
         各ボポモフォのボタンを押すと、発音を聞くことができます。<br>
       </p>
       <p style="color: red">
-        ※お使いのブラウザやバージョンによっては、音声再生に対応していない場合があります。<br>
+        ※音声再生に関して:お使いのブラウザやバージョンによっては、音声再生に対応していない場合があります。<br>
         推奨ブラウザはGoogle Chromeです。<br>
+      </p>
+      <p>
+        本格的に勉強したい場合は、お持ちのパソコン/スマホにボポモフォキーボードをインストールしてみるのもお勧めです。<br>
       </p>
     </div>
     <!--
