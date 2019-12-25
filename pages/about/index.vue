@@ -102,14 +102,7 @@
 export default {
   head () {
     return {
-      title: '台湾華語 taiwan-mandarin/about',
-      script: [
-        // { 'async src': 'https://www.googletagmanager.com/gtag/js?id=UA-154891283-1' },
-        {
-          'data-ad-client': process.env.GA_ADSENSE_ID,
-          'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
-        }
-      ]
+      title: '台湾華語 taiwan-mandarin/about'
     }
   }
 }

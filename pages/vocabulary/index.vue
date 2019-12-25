@@ -164,8 +164,13 @@
     <div align="center">
       <p>
         <br>
-        各レベル(Choose Level)には、およそ150の単語が含まれています。<br>
-        おおよそですが、中国語検定HSKとの対照表は以下の通りです。<br>
+        「Choose Level」からレベルを選び、データを取得してください<br>
+        各レベルには、およそ150の単語が含まれています。<br>
+      </p>
+      <p style="color: red">
+        ※混雑状況などにより、データが反映されるまで時間がかかる事があります<br>
+      </p>
+      <!--<p> おおよそですが、中国語検定HSKとの対照表は以下の通りです。<br>
       </p>
       <table class="table-bordered" style="align: center; text-align: left">
         <tbody style="white-space:nowrap; align: center; text-align: center">
@@ -200,9 +205,13 @@
             </td><td>Level 18 ~ ※準備中</td>
           </tr>
         </tbody>
-      </table>
-      <br>
-      <p>単語の発音を聞いたり(Speak!)、単語リストを自動再生(AutoStart)する事ができます。<br></p>
+      </table>-->
+      <p>
+        単語の発音を聞きたいときは「Speak!」、次の単語を見たいときは「Next」、<br>
+        前の単語に戻りたい時は「Back」を押して下さい。<br>
+        「AutoStart」を押すと、単語リストを自動再生します。<br>
+        「AutoStop」で、自動再生を終了します。<br>
+      </p>
       <p style="color: red">
         ※お使いのブラウザやバージョンによっては、音声再生に対応していない場合があります。<br>
         推奨ブラウザはGoogle Chromeです。<br>
@@ -244,13 +253,7 @@
 export default {
   head () {
     return {
-      title: '台湾華語 taiwan-mandarin/vocabulary',
-      script: [
-        {
-          'data-ad-client': process.env.GA_ADSENSE_ID,
-          'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
-        }
-      ]
+      title: '台湾華語 taiwan-mandarin/vocabulary'
     }
   },
 

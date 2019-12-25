@@ -184,13 +184,7 @@
 export default {
   head () {
     return {
-      title: '台湾華語 taiwan-mandarin/home',
-      script: [
-        {
-          'data-ad-client': process.env.GA_ADSENSE_ID,
-          'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
-        }
-      ]
+      title: '台湾華語 taiwan-mandarin/home'
     }
   },
 

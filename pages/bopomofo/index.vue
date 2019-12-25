@@ -48,9 +48,10 @@
         {{ error_message }}
       </b-alert>
       <div align="center">
-        <caption style="color: black">
+        <br>
+        <div style="color: black">
           Bopomofo
-        </caption>
+        </div>
         <table align="center" style="table-layout:fixed; text-align: center">
           <!--1行目-->
           <tbody>
@@ -296,9 +297,10 @@
           </tbody>
         </table>
         <!-- <p>声調記号</p>-->
-        <caption style="color: black; white-space: nowrap">
+        <br>
+        <div style="color: black; white-space: nowrap">
           声調記号
-        </caption>
+        </div>
         <table class="table-bordered">
           <thead class="thead-light" style="background-color: #f0f8ff">
             <tr><th>第一声</th><th>第二声</th><th>第三声</th><th>第四声</th><th>軽声</th></tr>
@@ -360,13 +362,7 @@
 export default {
   head () {
     return {
-      title: '台湾華語 taiwan-mandarin/bopomofo',
-      script: [
-        {
-          'data-ad-client': process.env.GA_ADSENSE_ID,
-          'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
-        }
-      ]
+      title: '台湾華語 taiwan-mandarin/bopomofo'
     }
   },
 
