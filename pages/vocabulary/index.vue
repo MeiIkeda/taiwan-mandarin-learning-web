@@ -216,6 +216,13 @@
         ※お使いのブラウザやバージョンによっては、音声再生に対応していない場合があります。<br>
         推奨ブラウザはGoogle Chromeです。<br>
       </p>
+      <p>
+        発音記号ボポモフォ(ピンイン)について詳しく知りたい場合は、
+        <nuxt-link :to="{ name: 'bopomofo' }">
+          ボポモフォ解説ページ
+        </nuxt-link>
+        へ移動してください。
+      </p>
     </div>
     <!--    <head>-->
     <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
