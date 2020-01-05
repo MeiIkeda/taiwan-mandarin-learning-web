@@ -12,7 +12,7 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=0.8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=0.7' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
