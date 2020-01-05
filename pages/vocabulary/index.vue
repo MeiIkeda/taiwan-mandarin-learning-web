@@ -306,8 +306,7 @@ export default {
       const data = await this.$axios.$get(process.env.BASE_URL_API + '/api/v1/vocabulary/' + this.level, {
         headers: {
           'Access-Control-Allow-Origin': '*'
-        }
-      }, {
+        },
         auth: {
           username: process.env.BASIC_AUTH_USERNAME,
           password: process.env.BASIC_AUTH_PASSWORD
@@ -512,8 +511,10 @@ export default {
     // ここにタブレット・PCの記述
     .main-image-vocabulary
       text-align: center
-      background-image: url('../../static/img/lion_2.jpg') !important
+      background-image: url('../../static/img/lion_3.jpg') !important
       width: 95%
       background-size: cover
       margin: 0 auto
+      @media screen and (max-width : 767px)
+        width: 100%
 </style>

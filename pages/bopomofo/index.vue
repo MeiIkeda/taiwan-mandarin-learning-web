@@ -619,10 +619,12 @@ export default {
     // ここにタブレット・PCの記述
   .main-image-bopomofo
     text-align: center
-    background-image: url('../../static/img/background_baloon2.jpg') !important
+    background-image: url('../../static/img/background_baloon2_3.jpg') !important
     width: 90%
     height: 60%
     background-size: cover
     margin: 0 auto
+    @media screen and (max-width : 767px)
+      width: 100%
 
 </style>

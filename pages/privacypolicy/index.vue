@@ -172,14 +172,14 @@ export default {
     align-items: center
     text-align: center
 
-    //@media screen and (min-width : 1024px)
-    // ここにタブレット・PCの記述
   .main-privacypolicy
     text-align: center
-    background-image: url('../../static/img/redfort2_2.jpg') !important
+    background-image: url('../../static/img/redfort2_3.jpg') !important
     width: 95%
     height: 100%
     background-size: cover
     margin: 0 auto
+    @media screen and (max-width : 767px)
+      width: 100%
 
 </style>

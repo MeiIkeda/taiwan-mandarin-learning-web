@@ -238,8 +238,7 @@ export default {
       const data = await this.$axios.$get(process.env.BASE_URL_API + '/api/v1/announcement/1', {
         headers: {
           'Access-Control-Allow-Origin': '*'
-        }
-      }, {
+        },
         auth: {
           username: process.env.BASIC_AUTH_USERNAME,
           password: process.env.BASIC_AUTH_PASSWORD
@@ -334,8 +333,10 @@ export default {
 //  @media screen and (min-width : 1024px)
     .main-image
       text-align: center
-      background-image: url('../static/img/temple2_2.jpg') !important
+      background-image: url('../static/img/temple2_3.jpg') !important
       width: 90%
       background-size: cover
       margin: 0 auto
+      @media screen and (max-width : 767px)
+        width: 100%
 </style>

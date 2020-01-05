@@ -136,10 +136,12 @@ export default {
     // ここにタブレット・PCの記述
   .main-text
     text-align: center
-    background-image: url('../../static/img/sunset_2.jpg') !important
+    background-image: url('../../static/img/sunset_3.jpg') !important
     width: 95%
     height: 100%
     background-size: cover
     margin: 0 auto
+    @media screen and (max-width : 767px)
+      width: 100%
 
 </style>

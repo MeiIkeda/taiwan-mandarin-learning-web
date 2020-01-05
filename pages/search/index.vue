@@ -272,8 +272,7 @@ export default {
         headers: {
           'Access-Control-Allow-Origin': '*',
           'charset': 'UTF-8'
-        }
-      }, {
+        },
         auth: {
           username: process.env.BASIC_AUTH_USERNAME,
           password: process.env.BASIC_AUTH_PASSWORD
@@ -384,9 +383,11 @@ export default {
     // ここにタブレット・PCの記述
   .main-image-search
     text-align: center
-    background-image: url('../../static/img/frower3_2.jpg') !important
+    background-image: url('../../static/img/frower3_3.jpg') !important
     width: 90%
     height: 60%
     background-size: cover
     margin: 0 auto
+    @media screen and (max-width : 767px)
+      width: 100%
 </style>
