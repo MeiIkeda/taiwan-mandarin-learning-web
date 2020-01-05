@@ -162,12 +162,12 @@
       </div>
     </div>
     <div align="center">
-      <p>
+      <p style="margin: 20px">
         <br>
         「Choose Level」からレベルを選び、データを取得してください<br>
         各レベルには、およそ150の単語が含まれています。<br>
       </p>
-      <p style="color: red">
+      <p style="color: red; margin: 20px">
         ※混雑状況などにより、データが反映されるまで時間がかかる事があります<br>
       </p>
       <!--<p> おおよそですが、中国語検定HSKとの対照表は以下の通りです。<br>
@@ -206,18 +206,18 @@
           </tr>
         </tbody>
       </table>-->
-      <p>
+      <p style="margin: 20px">
         単語の発音を聞きたいときは「Speak!」、次の単語を見たいときは「Next」、<br>
         前の単語に戻りたい時は「Back」を押して下さい。<br>
         「AutoStart」を押すと、単語リストを自動再生します。<br>
         「AutoStop」で、自動再生を終了します。<br>
       </p>
-      <p style="color: red">
+      <p style="color: red; margin: 20px">
         ※お使いのブラウザやバージョンによっては、音声再生に対応していない場合があります。<br>
         推奨ブラウザはGoogle Chromeです。<br>
       </p>
       <p>
-        発音記号ボポモフォ(ピンイン)について詳しく知りたい場合は、
+        発音記号ボポモフォ(ピンイン)について詳しく知りたい場合は、<br>
         <nuxt-link :to="{ name: 'bopomofo' }">
           ボポモフォ解説ページ
         </nuxt-link>
