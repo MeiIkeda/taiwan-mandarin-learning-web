@@ -212,8 +212,7 @@ export default {
           'Access-Control-Allow-Origin': process.env.ACCESS_CONTROL_ORIGIN,
           'content-type': 'application/json',
           'charset': 'UTF-8'
-        }
-      }, {
+        },
         auth: {
           username: process.env.BASIC_AUTH_USERNAME,
           password: process.env.BASIC_AUTH_PASSWORD
