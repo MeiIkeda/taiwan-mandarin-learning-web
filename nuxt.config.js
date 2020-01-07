@@ -55,14 +55,14 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/sentry',
     '@nuxtjs/google-adsense',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-analytics',
+    '@nuxtjs/sitemap'
   ],
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
-  axios: {
-  },
+  axios: {},
   sentry: {
     dsn: process.env.SENTRY_DSN, // Enter your project's DSN here
     config: {} // Additional config
@@ -85,5 +85,14 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+
+  sitemap: {
+    path: '/sitemap.xml', // 出力パス
+    hostname: process.env.BASE_URL,
+    cacheTime: 1000 * 60 * 15,
+    generate: true, // nuxt generate で静的ファイル出力する場合にはtrueにする
+    exclude: [ // 除外項目
+    ]
   }
 }
