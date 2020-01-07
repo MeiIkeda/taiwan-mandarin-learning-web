@@ -18,9 +18,9 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
-    script: [
-      { 'data-ad-client': process.env.GA_ADSENSE_ID }
-    ]
+    // script: [
+    //   { 'data-ad-client': process.env.GA_ADSENSE_ID }
+    // ]
   },
   /*
   ** Customize the progress-bar color

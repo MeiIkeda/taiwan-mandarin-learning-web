@@ -401,6 +401,7 @@
       <p style="margin: 20px">
         本ページには、ボポモフォと、対応するピンインを載せています。<br>
         台湾のパソコン/スマホのキーボードと並びが同じなので、眺めてみて下さい。<br>
+        (パソコン/スマホにボポモフォキーボードをインストールして使ってみる事もお勧めです。)<br>
         キーボードの[<span style="background-color: honeydew">&nbsp;&nbsp;&nbsp;</span>]で色付けされた部分が子音で、
         [<span style="background-color: aliceblue">&nbsp;&nbsp;&nbsp;</span>]の部分が母音です。<br>
         各ボポモフォのボタンを押すと、発音を聞くことができます。<br>
@@ -410,7 +411,13 @@
         推奨ブラウザはGoogle Chromeです。<br>
       </p>
       <p style="margin: 20px">
-        本格的に勉強したい場合は、お持ちのパソコン/スマホにボポモフォキーボードをインストールしてみるのもお勧めです。<br>
+        漢字の意味は何となく分かっても、読み方を知らなければ会話はできません。<br>
+        また、発音の問題で相手に全く伝わらないと、勉強のモチベーションも下がってしまいます。<br>
+        学習初期には、基本的な発音練習に充分な時間を割くことをお勧めします。<br>
+        <br>
+        ボポモフォが理解できるようになったら、ボポモフォ振り仮名つきの子供向け書籍や、<br>
+        アニメ等でも学習する事ができるようになります。<br>
+        中国語習得の第一歩となりますので、是非繰り返し練習してみて下さい。<br>
       </p>
     </div>
     <!--
@@ -445,7 +452,10 @@
 export default {
   head () {
     return {
-      title: '台湾華語 taiwan-mandarin/bopomofo'
+      title: '台湾華語 taiwan-mandarin/bopomofo',
+      script: [
+        { 'data-ad-client': process.env.GA_ADSENSE_ID }
+      ]
     }
   },
 
@@ -548,7 +558,7 @@ export default {
       if (!('SpeechSynthesisUtterance' in window)) {
         this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
         this.error_message_sentry = 'お使いのブラウザは単語再生に対応していない可能性があります。(1)' + agent
-        console.log(this.error_message_sentry)
+        // console.log(this.error_message_sentry)
         this.showErrorAlert = true
         this.$sentry.captureException(new Error('Error = ' + this.error_message_sentry))
         return
@@ -568,7 +578,7 @@ export default {
           const agent = window.navigator.userAgent
           me.error_message = 'お使いのブラウザーは音声再生に対応していない可能性があります。(Google Chrome推奨)'
           me.error_message_sentry = 'お使いのブラウザーは単語再生に対応していない可能性があります。(2)' + agent
-          console.log(me.error_message_sentry)
+          // console.log(me.error_message_sentry)
           me.showErrorAlert = true
           me.$sentry.captureException(new Error('Error = ' + me.error_message_sentry))
         }

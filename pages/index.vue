@@ -208,10 +208,10 @@ export default {
     showing_page_max_number () {
       // 最後のページ
       if (Math.floor((this.current_page - 1) / 10) === Math.floor(this.total_page / 10)) {
-        console.log('showing_page_max_number=' + Math.floor(this.total_page % 10))
+        // console.log('showing_page_max_number=' + Math.floor(this.total_page % 10))
         return Math.floor(this.total_page % 10)
       } else {
-        console.log('showing_page_max_number=' + 10)
+        // console.log('showing_page_max_number=' + 10)
         return 10
       }
     },

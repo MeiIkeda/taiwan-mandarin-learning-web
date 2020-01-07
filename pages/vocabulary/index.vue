@@ -168,7 +168,7 @@
         各レベルには、およそ150の単語が含まれています。<br>
       </p>
       <p style="color: red; margin: 20px">
-        ※混雑状況などにより、データが反映されるまで時間がかかる事があります<br>
+        ※混雑状況などにより、データが反映されるまで時間がかかる事があります。<br>
       </p>
       <!--<p> おおよそですが、中国語検定HSKとの対照表は以下の通りです。<br>
       </p>
@@ -210,6 +210,7 @@
         単語の発音を聞きたいときは「Speak!」、次の単語を見たいときは「Next」、<br>
         前の単語に戻りたい時は「Back」を押して下さい。<br>
         「AutoStart」を押すと、単語リストを自動再生します。<br>
+        同機能は、単語聞き流しに便利です。<br>
         「AutoStop」で、自動再生を終了します。<br>
       </p>
       <p style="color: red; margin: 20px">
@@ -260,7 +261,10 @@
 export default {
   head () {
     return {
-      title: '台湾華語 taiwan-mandarin/vocabulary'
+      title: '台湾華語 taiwan-mandarin/vocabulary',
+      script: [
+        { 'data-ad-client': process.env.GA_ADSENSE_ID }
+      ]
     }
   },
 
@@ -424,7 +428,7 @@ export default {
       voices.forEach(function (voice, i) {
         if (voice.lang.includes('zh')) {
           isChinese = true
-          console.log(voice)
+          // console.log(voice)
         }
         if ((i === (voices.length - 1)) && !isChinese) {
           const agent = window.navigator.userAgent
