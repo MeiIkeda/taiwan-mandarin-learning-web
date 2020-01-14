@@ -13,11 +13,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=0.7' },
+      { name: 'keywords', content: '中国語,台湾,台湾華語,繁体字,単語,聞き流し' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
+    ]
     // script: [
     //   { 'data-ad-client': process.env.GA_ADSENSE_ID }
     // ]
