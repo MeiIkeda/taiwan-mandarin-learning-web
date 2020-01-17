@@ -181,7 +181,7 @@ export default {
     text-align: left
     margin: 0 250px
     @media screen and (max-width : 767px)
-      margin: 0 auto
+      margin: 0 10px
   .main-privacypolicy
     animation: fadeIn 1.5s ease 0s 1 normal
     -webkit-animation: fadeIn 1.5s ease 0s 1 normal
