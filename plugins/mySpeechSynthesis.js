@@ -12,11 +12,12 @@ export default {
       voices.forEach(function (voice, i) {
         if (voice.lang.includes('zh')) {
           isChinese = true
+          uttr.lang = 'zh'
         }
-        if (voice.lang.includes('zh-CN')) {
-          isChinese = true
-          uttr.lang = 'zh-CN'
-        }
+        // if (voice.lang.includes('zh-CN')) {
+        //   isChinese = true
+        //   uttr.lang = 'zh-CN'
+        // }
         console.log('ボイス:' + voice.lang)
       })
       if (isChinese === false) {
