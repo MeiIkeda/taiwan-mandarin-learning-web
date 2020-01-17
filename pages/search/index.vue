@@ -325,7 +325,7 @@ export default {
         return
       }
       const uttr = new SpeechSynthesisUtterance(word)
-      uttr.localService = false
+      // uttr.localService = false
       // uttr.lang = 'zh-CN'
       const voices = speechSynthesis.getVoices()
       let isChinese = false
