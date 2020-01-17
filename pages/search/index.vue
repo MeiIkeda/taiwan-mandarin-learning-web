@@ -334,7 +334,7 @@ export default {
         if (voice.lang.includes('zh')) {
           isChinese = true
         }
-        console.log(voice)
+        console.log(JSON.stringify(voice))
         if ((i === (voices.length - 1)) && !isChinese) {
           const agent = window.navigator.userAgent
           me.error_message = 'お使いのブラウザーは音声再生に対応していない可能性があります。(Google Chrome推奨)'
