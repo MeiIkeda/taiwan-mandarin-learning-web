@@ -314,39 +314,41 @@
     </div>
     <br>
     <div align="center">
-      <p style="font-weight: bold">
-        ボポモフォ
-      </p>
-      <p style="margin: 20px">
-        ボポモフォ(Bopomofo)とは、またの名を注音(ㄓㄨˋ ㄧㄣ)と言い、台湾のひらがなにあたります。<br>
-        各漢字に対し、母音と子音を計1~3字、そして声調記号を組み合わせて発音を表します。<br>
-        「あいうえお」のように、最初の4つ「ㄅ・ㄆ・ㄇ・ㄈ」の読みから、ボポモフォ(Bopomofo)と呼ばれています。<br>
-      </p>
-      <hr width="80%">
-      <br>
-      <p style="font-weight: bold">
-        ピンイン
-      </p>
-      <p style="margin: 20px">
-        台湾以外では、中国語の発音記号として、拼音(ピンイン)と呼ばれるアルファベット表記のものが広く使われています。<br>
-        ボポモフォよりもピンインの方が発音記号として一般的ではありますが、<br>
-        アルファベット表記なのでどうしても英語またはローマ字を連想してしまい、誤った発音になりがちです。<br>
-        先入観に囚われることなく事無く発音を学べるという点で、ボポモフォは大変有効です。<br>
-      </p>
-      <hr width="80%">
-      <br>
-      <p style="font-weight: bold">
-        声調
-      </p>
-      <p style="margin: 20px">
-        中国語は、音の高低によっても単語の意味が区別され、この音の高低の事を声調と言います。<br>
-        日本語で例えるなら雨と飴のように、音としては同一であっても、イントネーションの違いによって意味は全く異なります。<br>
-        上記の表の通り、中国語には5種類の声調が存在し、これをボポモフォ(またはピンイン)と組み合わせて最終的な発音を表します。<br>
-        例：ㄊㄞˊㄨㄢ<br>
-        各声調の違いを確認するために、例としてㄇㄚの発音を下記に記しました。<br>
-        (よく聞く、「まーまーまーまー」という例。)
-      </p>
-      <table class="table-bordered" style="align: center; text-align: left">
+      <div class="text-itself-bopomofo">
+        <p style="font-weight: bold; text-align: center">
+          ボポモフォ
+        </p>
+        <p>
+          ボポモフォ(Bopomofo)とは、またの名を注音(ㄓㄨˋ ㄧㄣ)と言い、台湾のひらがなにあたります。<br>
+          各漢字に対し、母音と子音を計1~3字、そして声調記号を組み合わせて発音を表します。<br>
+          「あいうえお」のように、最初の4つ「ㄅ・ㄆ・ㄇ・ㄈ」の読みから、ボポモフォ(Bopomofo)と呼ばれています。<br>
+        </p>
+        <hr width="80%">
+        <br>
+        <p style="font-weight: bold; text-align: center">
+          ピンイン
+        </p>
+        <p>
+          台湾以外では、中国語の発音記号として、拼音(ピンイン)と呼ばれるアルファベット表記のものが広く使われています。<br>
+          ボポモフォよりもピンインの方が発音記号として一般的ではありますが、<br>
+          アルファベット表記なのでどうしても英語またはローマ字を連想してしまい、誤った発音になりがちです。<br>
+          先入観に囚われることなく事無く発音を学べるという点で、ボポモフォは大変有効です。<br>
+        </p>
+        <hr width="80%">
+        <br>
+        <p style="font-weight: bold; text-align: center">
+          声調
+        </p>
+        <p>
+          中国語は、音の高低によっても単語の意味が区別され、この音の高低の事を声調と言います。<br>
+          日本語で例えるなら雨と飴のように、音としては同一であっても、イントネーションの違いによって意味は全く異なります。<br>
+          上記の表の通り、中国語には5種類の声調が存在し、これをボポモフォ(またはピンイン)と組み合わせて最終的な発音を表します。<br>
+          例：ㄊㄞˊㄨㄢ<br>
+          各声調の違いを確認するために、例としてㄇㄚの発音を下記に記しました。<br>
+          (よく聞く、「まーまーまーまー」という例。)
+        </p>
+      </div>
+      <table class="table-bordered" style="align: center; text-align: center">
         <thead style="text-align: center">
           <tr>
             <th style="background-color: #e6e6fa">
@@ -366,7 +368,7 @@
             </th>
           </tr>
         </thead>
-        <tbody style="white-space:nowrap; align: center; text-align: center">
+        <tbody style="white-space:nowrap; text-align: center">
           <tr>
             <td>
               <b-button @click="speak_bopomofo('ㄇㄚ')" style="background-color: #f7f8fb; color: black">
@@ -396,29 +398,31 @@
           </tr>
         </tbody>
       </table>
-      <hr width="80%">
-      <br>
-      <p style="margin: 20px">
-        本ページには、ボポモフォと、対応するピンインを載せています。<br>
-        台湾のパソコン/スマホのキーボードと並びが同じなので、眺めてみて下さい。<br>
-        (パソコン/スマホにボポモフォキーボードをインストールして使ってみる事もお勧めです。)<br>
-        キーボードの[<span style="background-color: honeydew">&nbsp;&nbsp;&nbsp;</span>]で色付けされた部分が子音で、
-        [<span style="background-color: aliceblue">&nbsp;&nbsp;&nbsp;</span>]の部分が母音です。<br>
-        各ボポモフォのボタンを押すと、発音を聞くことができます。<br>
-      </p>
-      <p style="color: red; margin: 20px">
-        ※音声再生に関して:お使いのブラウザやバージョンによっては、音声再生に対応していない場合があります。<br>
-        推奨ブラウザはGoogle Chromeです。<br>
-      </p>
-      <p style="margin: 20px">
-        漢字の意味は何となく分かっても、読み方を知らなければ会話はできません。<br>
-        また、発音の問題で相手に全く伝わらないと、勉強のモチベーションも下がってしまいます。<br>
-        学習初期には、基本的な発音練習に充分な時間を割くことをお勧めします。<br>
+      <div class="text-itself-bopomofo">
+        <hr width="80%">
         <br>
-        ボポモフォが理解できるようになったら、ボポモフォ振り仮名つきの子供向け書籍や、<br>
-        アニメ等でも学習する事ができるようになります。<br>
-        中国語習得の第一歩となりますので、是非繰り返し練習してみて下さい。<br>
-      </p>
+        <p>
+          本ページには、ボポモフォと、対応するピンインを載せています。<br>
+          台湾のパソコン/スマホのキーボードと並びが同じなので、眺めてみて下さい。<br>
+          (パソコン/スマホにボポモフォキーボードをインストールして使ってみる事もお勧めです。)<br>
+          キーボードの[<span style="background-color: honeydew">&nbsp;&nbsp;&nbsp;</span>]で色付けされた部分が子音で、
+          [<span style="background-color: aliceblue">&nbsp;&nbsp;&nbsp;</span>]の部分が母音です。<br>
+          各ボポモフォのボタンを押すと、発音を聞くことができます。<br>
+        </p>
+        <p style="color: red">
+          ※音声再生に関して:お使いのブラウザやバージョンによっては、音声再生に対応していない場合があります。<br>
+          推奨ブラウザはGoogle Chromeです。<br>
+        </p>
+        <p>
+          漢字の意味は何となく分かっても、読み方を知らなければ会話はできません。<br>
+          また、発音の問題で相手に全く伝わらないと、勉強のモチベーションも下がってしまいます。<br>
+          学習初期には、基本的な発音練習に充分な時間を割くことをお勧めします。<br>
+          <br>
+          ボポモフォが理解できるようになったら、ボポモフォ振り仮名つきの子供向け書籍や、<br>
+          アニメ等でも学習する事ができるようになります。<br>
+          中国語習得の第一歩となりますので、是非繰り返し練習してみて下さい。<br>
+        </p>
+      </div>
     </div>
     <!--
     <div style="color: #3b8070" align="center">
@@ -624,7 +628,11 @@ export default {
     align-self: center
     border-collapse: separate
     border-spacing:20px 5px
-
+  .text-itself-bopomofo
+    text-align: left
+    margin: 0 250px
+    @media screen and (max-width : 767px)
+      margin: 0 auto
     //@media screen and (min-width : 1024px)
     // ここにタブレット・PCの記述
   .main-image-bopomofo
