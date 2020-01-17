@@ -385,6 +385,8 @@ export default {
     // @media screen and (min-width : 1024px)
     // ここにタブレット・PCの記述
   .main-image-search
+    animation: fadeIn 1.5s ease 0s 1 normal
+    -webkit-animation: fadeIn 1.5s ease 0s 1 normal
     text-align: center
     background-image: url('../../static/img/frower3_3.jpg') !important
     width: 90%
@@ -393,4 +395,12 @@ export default {
     margin: 0 auto
     @media screen and (max-width : 767px)
       width: 100%
+  /* じわっと画像が表示される */
+  @keyframes fadeIn  /*上のbody内で呼び出しているアニメーションと名前をそろえる*/
+    0% {opacity: 0} /* 始め */
+    100% {opacity: 1} /* 終わり */
+  /*古いブラウザ用*/
+  @-webkit-keyframes fadeIn
+    0% {opacity: 0}
+    100% {opacity: 1}
 </style>
