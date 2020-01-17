@@ -406,7 +406,13 @@ export default {
     },
 
     async interval () {
-      MySpeechSynthesis.methods.mySpeak(this.word.bopomofo)
+      this.showErrorAlert = false
+      const message = MySpeechSynthesis.methods.mySpeak(this.word.bopomofo)
+      if (message !== 'success') {
+        this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
+        this.$sentry.captureException(new Error('Error = ' + message))
+        this.showErrorAlert = true
+      }
       await this.sleep(2000)
       MySpeechSynthesis.methods.mySpeak(this.word.bopomofo)
       await this.sleep(3000)
