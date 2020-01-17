@@ -562,37 +562,13 @@ export default {
 
   methods: {
     speak_bopomofo (char) {
-      MySpeechSynthesis.methods.mySpeak(char)
-    //   const agent = window.navigator.userAgent
-    //   if (!('SpeechSynthesisUtterance' in window)) {
-    //     this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
-    //     this.error_message_sentry = 'お使いのブラウザは単語再生に対応していない可能性があります。(1)' + agent
-    //     // console.log(this.error_message_sentry)
-    //     this.showErrorAlert = true
-    //     this.$sentry.captureException(new Error('Error = ' + this.error_message_sentry))
-    //     return
-    //   }
-    //   const uttr = new SpeechSynthesisUtterance(char)
-    //   uttr.localService = false
-    //   // uttr.lang = process.env.SPEAK_LANGUAGE
-    //   uttr.lang = 'zh-CN'
-    //   const voices = speechSynthesis.getVoices()
-    //   let isChinese = false
-    //   const me = this
-    //   voices.forEach(function (voice, i) {
-    //     if (voice.lang.includes('zh')) {
-    //       isChinese = true
-    //     }
-    //     if ((i === (voices.length - 1)) && !isChinese) {
-    //       const agent = window.navigator.userAgent
-    //       me.error_message = 'お使いのブラウザーは音声再生に対応していない可能性があります。(Google Chrome推奨)'
-    //       me.error_message_sentry = 'お使いのブラウザーは単語再生に対応していない可能性があります。(2)' + agent
-    //       // console.log(me.error_message_sentry)
-    //       me.showErrorAlert = true
-    //       me.$sentry.captureException(new Error('Error = ' + me.error_message_sentry))
-    //     }
-    //   })
-    //   speechSynthesis.speak(uttr)
+      this.showErrorAlert = false
+      const message = MySpeechSynthesis.methods.mySpeak(char)
+      if (message !== 'success') {
+        this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
+        this.$sentry.captureException(new Error('Error = ' + message))
+        this.showErrorAlert = true
+      }
     }
   }
 }

@@ -340,6 +340,7 @@ export default {
 
   methods: {
     async getData () {
+      this.isAuto = false
       this.showErrorAlert = false
       this.word_fromDB = []
       const me = this
@@ -361,13 +362,11 @@ export default {
             me.error_message = '単語情報を取得できません。 しばらくしてからもう一度お試しください。'
             me.error_message_sentry = '単語情報を取得できません。 しばらくしてからもう一度お試しください。' + error
           }
-          // console.log('Error = ' + me.error_message_sentry)
           me.showErrorAlert = true
           me.$sentry.captureException(new Error('Error = ' + me.error_message_sentry))
         } else {
           me.error_message = '単語情報を取得できません。 しばらくしてからもう一度お試しください。'
           me.error_message_sentry = '単語情報を取得できません。 しばらくしてからもう一度お試しください。' + error
-          // console.log('Error = ' + me.error_message_sentry)
           me.showErrorAlert = true
           me.$sentry.captureException(new Error('Error = ' + me.error_message_sentry))
         }
@@ -409,10 +408,8 @@ export default {
     },
 
     async interval () {
-      // this.speak()
       MySpeechSynthesis.methods.mySpeak(this.word.bopomofo)
       await this.sleep(2000)
-      // this.speak()
       MySpeechSynthesis.methods.mySpeak(this.word.bopomofo)
       await this.sleep(3000)
       this.count++
@@ -425,22 +422,18 @@ export default {
       this.isAuto = true
       while (this.isAuto) {
         await this.interval()
-        // console.log('word_index : ' + this.word_index)
         this.next()
         if (this.count === 1000) {
-          // console.log('finish! : ' + this.word_index)
           break
         }
       }
     },
-
     autoStop () {
       if (this.isSearching) {
         return
       }
       this.isAuto = false
     },
-
     speak () {
       if (this.isSearching) {
         return
@@ -448,39 +441,13 @@ export default {
       if (this.word_fromDB === null || this.word_fromDB === []) {
         return
       }
-      MySpeechSynthesis.methods.mySpeak(this.word.bopomofo)
-    //   speechSynthesis.getVoices()
-    //   const agent = window.navigator.userAgent
-    //   if (!('SpeechSynthesisUtterance' in window)) {
-    //     this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
-    //     this.error_message_sentry = 'お使いのブラウザは単語再生に対応していない可能性があります。(1)' + agent
-    //     this.$sentry.captureException(new Error('Error = ' + this.error_message_sentry))
-    //     // console.log(this.error_message_sentry)
-    //     this.showErrorAlert = true
-    //     return
-    //   }
-    //   const uttr = new SpeechSynthesisUtterance(this.word.bopomofo)
-    //   uttr.localService = false
-    //   // uttr.lang = process.env.SPEAK_LANGUAGE
-    //   uttr.lang = 'zh-TW'
-    //   const voices = speechSynthesis.getVoices()
-    //   let isChinese = false
-    //   const me = this
-    //   voices.forEach(function (voice, i) {
-    //     if (voice.lang.includes('zh')) {
-    //       isChinese = true
-    //       // console.log(voice)
-    //     }
-    //     if ((i === (voices.length - 1)) && !isChinese) {
-    //       const agent = window.navigator.userAgent
-    //       me.error_message = 'お使いのブラウザーは音声再生に対応していない可能性があります。(Google Chrome推奨)'
-    //       me.error_message_sentry = 'お使いのブラウザーは単語再生に対応していない可能性があります。(2)' + agent
-    //       me.$sentry.captureException(new Error('Error = ' + me.error_message_sentry))
-    //       // console.log(me.error_message_sentry)
-    //       me.showErrorAlert = true
-    //     }
-    //   })
-    //   speechSynthesis.speak(uttr)
+      this.showErrorAlert = false
+      const message = MySpeechSynthesis.methods.mySpeak(this.word.bopomofo)
+      if (message !== 'success') {
+        this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
+        this.$sentry.captureException(new Error('Error = ' + message))
+        this.showErrorAlert = true
+      }
     }
   }
 }
