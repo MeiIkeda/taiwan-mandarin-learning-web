@@ -326,13 +326,16 @@ export default {
       }
       const uttr = new SpeechSynthesisUtterance(word)
       uttr.localService = false
-      uttr.lang = 'zh-CN'
+      // uttr.lang = 'zh-CN'
       const voices = speechSynthesis.getVoices()
       let isChinese = false
       const me = this
       voices.forEach(function (voice, i) {
         if (voice.lang.includes('zh')) {
           isChinese = true
+        }
+        if (voice.lang.includes('zh-CN')) {
+          uttr.lang = 'zh-CN'
         }
         console.log('ボイス:' + voice.lang)
         if ((i === (voices.length - 1)) && !isChinese) {
