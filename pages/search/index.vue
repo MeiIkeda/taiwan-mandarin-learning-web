@@ -169,15 +169,18 @@
     </div>
     <br>
     <div align="center">
-      <p style="margin: 20px">
-        単語検索ページです。検索したい文字を入力し、「Search!」ボタンを押してください。<br>
-        入力文字列に対して、繁体字/簡体字/意味のいずれかに該当する文字列があった場合、検索結果が返されます。<br>
-        検索結果の繁体字ボタン部分を押すと、発音を聞くことができます。<br>
-      </p>
-      <p style="color: red; margin: 20px">
-        ※お使いのブラウザやバージョンによっては、音声再生に対応していない場合があります。<br>
-        推奨ブラウザはGoogle Chromeです。<br>
-      </p>
+      <div class="text-itself-search">
+        <p>
+          単語検索ページです。検索したい文字を入力し、「Search!」ボタンを押してください。<br>
+          入力文字列に対して、繁体字/簡体字/意味のいずれかに該当する文字列があった場合、検索結果が返されます。<br>
+          検索結果の繁体字ボタン部分を押すと、発音を聞くことができます。<br>
+        </p>
+        <p style="color: red;">
+          ※音声再生に関して：お使いのブラウザやバージョンによっては、音声再生に対応していない場合があります。
+          推奨ブラウザはGoogle Chromeです。<br>
+          また、スマホ使用時に音声が再生されない場合があるようですので、PCでの操作をお勧めします。
+        </p>
+      </div>
     </div>
     <!--    <head>-->
     <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
@@ -376,6 +379,13 @@ export default {
     margin: 0 auto
     @media screen and (max-width : 767px)
       width: 100%
+  .text-itself-search
+    text-align: left
+    margin: 0 250px
+    @media screen and (max-width : 767px)
+      margin: 0 20px
+  //@media screen and (min-width : 1024px)
+  // ここにタブレット・PCの記述
   /* じわっと画像が表示される */
   @keyframes fadeIn  /*上のbody内で呼び出しているアニメーションと名前をそろえる*/
     0% {opacity: 0} /* 始め */
