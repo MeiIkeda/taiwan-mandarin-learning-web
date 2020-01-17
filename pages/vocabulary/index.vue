@@ -442,6 +442,7 @@ export default {
       if (this.word_fromDB === null || this.word_fromDB === []) {
         return
       }
+      speechSynthesis.getVoices()
       const agent = window.navigator.userAgent
       if (!('SpeechSynthesisUtterance' in window)) {
         this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
