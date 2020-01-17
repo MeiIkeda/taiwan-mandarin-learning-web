@@ -344,6 +344,7 @@ export default {
           me.showErrorAlert = true
         }
       })
+      console.log('debug:' + uttr)
       speechSynthesis.speak(uttr)
     }
   }
