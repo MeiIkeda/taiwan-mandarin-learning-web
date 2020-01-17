@@ -632,7 +632,7 @@ export default {
     text-align: left
     margin: 0 250px
     @media screen and (max-width : 767px)
-      margin: 0 10px
+      margin: 0 20px
     //@media screen and (min-width : 1024px)
     // ここにタブレット・PCの記述
   .main-image-bopomofo
