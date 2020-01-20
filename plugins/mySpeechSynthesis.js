@@ -18,7 +18,8 @@ export default {
         //   isChinese = true
         //   uttr.lang = 'zh-CN'
         // }
-        console.log('ボイス:' + voice.lang)
+        console.log('lang:' + voice.lang)
+        console.log('name:' + voice.name)
       })
       if (isChinese === false) {
         const agent = window.navigator.userAgent
