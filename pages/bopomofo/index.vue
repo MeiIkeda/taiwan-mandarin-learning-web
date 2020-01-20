@@ -418,7 +418,7 @@
           また、発音の問題で相手に全く伝わらないと、勉強のモチベーションも下がってしまいます。<br>
           学習初期には、基本的な発音練習に充分な時間を割くことをお勧めします。<br>
           <br>
-          ボポモフォが理解できるようになったら、ボポモフォ振り仮名つきの子供向け書籍や、<br>
+          ボポモフォが理解できるようになったら、ボポモフォ振り仮名つきの子供向け書籍や、
           アニメ等でも学習する事ができるようになります。<br>
           中国語習得の第一歩となりますので、是非繰り返し練習してみて下さい。<br>
         </p>
@@ -431,11 +431,11 @@
     <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     -->
     <br>
-    <div align="center">
-    <button @click="speak_bopomofo('ㄇㄚ')">
-      クリック
-    </button>
-    </div>
+<!--    <div align="center">-->
+<!--      <button @click="speak_bopomofo('ㄇㄚ')">-->
+<!--        クリック-->
+<!--      </button>-->
+<!--    </div>-->
     <div align="center" style="white-space: nowrap; vertical-align: top">
       <table>
         <tbody>
