@@ -6,11 +6,10 @@ export default {
         return 'お使いのブラウザは単語再生に対応していない可能性があります。(1)' + agent
       }
       const uttr = new SpeechSynthesisUtterance(word)
-      speechSynthesis.getVoices()
-      const voices = speechSynthesis.getVoices()
       let isChinese = false
       let includeZhCn = false
       let includeTianTian = false
+      const voices = speechSynthesis.getVoices()
       voices.forEach(function (voice, i) {
         if (voice.lang.includes('zh')) {
           isChinese = true
@@ -43,6 +42,7 @@ export default {
         uttr.lang = 'zh'
       }
       console.log('debug:' + uttr)
+      speechSynthesis.cancel()
       speechSynthesis.speak(uttr)
       return 'success'
     }
