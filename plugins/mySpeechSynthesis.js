@@ -9,10 +9,20 @@ export default {
       speechSynthesis.getVoices()
       const voices = speechSynthesis.getVoices()
       let isChinese = false
+      let includeZhCn = false
+      let includeTianTian = false
       voices.forEach(function (voice, i) {
         if (voice.lang.includes('zh')) {
           isChinese = true
-          uttr.lang = 'zh'
+          // uttr.lang = 'zh'
+        }
+        if (voice.lang.includes('zh-CN')) {
+          includeZhCn = true
+          // uttr.lang = 'zh'
+        }
+        if (voice.lang.includes('Tian-Tian')) {
+          includeTianTian = true
+          // uttr.lang = 'zh'
         }
         // if (voice.lang.includes('zh-CN')) {
         //   isChinese = true
@@ -24,6 +34,13 @@ export default {
       if (isChinese === false) {
         const agent = window.navigator.userAgent
         return 'お使いのブラウザーは単語再生に対応していない可能性があります。(2)' + agent
+      } else if (includeTianTian === true) {
+        uttr.name = 'Tian-Tian'
+        uttr.lang = 'zh-CN'
+      } else if (includeZhCn === true) {
+        uttr.lang = 'zh-CN'
+      } else {
+        uttr.lang = 'zh'
       }
       console.log('debug:' + uttr)
       speechSynthesis.speak(uttr)
