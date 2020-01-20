@@ -54,10 +54,10 @@
           <span>・音声が再生されない時</span><br>
           お使いのデバイスのスピーカーがミュート/音量ゼロになっていないかご確認ください。<br>
           <br>
-          &nbsp;1)パソコンをお使いの場合<br>
+          &nbsp;1)&nbsp;パソコンをお使いの場合<br>
           &nbsp;使用ブラウザをご確認ください。推奨はGoogle Chromeです。<br>
-          &nbsp;2)スマホをお使いの場合<br>
-          &nbsp;&nbsp;2-1)iPhoneをお使いの場合<br>
+          &nbsp;2)&nbsp;スマホをお使いの場合<br>
+          &nbsp;&nbsp;2-1)&nbsp;iPhoneをお使いの場合<br>
           &nbsp;&nbsp;ブラウザの「優先する言語」設定を、「繁體中文」にしてみてください。<br>
           <br>
         </p>
@@ -140,7 +140,7 @@ export default {
     text-align: center
   .text-itself-faq
     text-align: left
-    margin: 0 200px
+    margin: 0 300px
     @media screen and (max-width : 767px)
       margin: 0 20px
     //@media screen and (min-width : 1024px)
