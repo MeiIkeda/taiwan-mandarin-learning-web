@@ -177,8 +177,11 @@
         </p>
         <p style="color: red;">
           ※音声再生に関して：お使いのブラウザやバージョンによっては、音声再生に対応していない場合があります。
-          推奨ブラウザはGoogle Chromeです。<br>
-          また、スマホ使用時に音声が再生されない場合があるようですので、PCでの操作をお勧めします。
+          詳しくは
+          <nuxt-link :to="{ name: 'faq' }">
+            FAQページ
+          </nuxt-link>
+          をご覧ください。<br>
         </p>
       </div>
     </div>
@@ -200,6 +203,10 @@
             <td>
               <nuxt-link :to="{ name: 'privacypolicy' }">
                 プライバシー＆ポリシー<br>privacy&policy
+              </nuxt-link>
+            </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
+              <nuxt-link :to="{ name: 'faq' }">
+                よくあるご質問<br>FAQ
               </nuxt-link>
             </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
               <nuxt-link :to="{ name: 'contact' }">
@@ -265,6 +272,9 @@ export default {
   },
 
   methods: {
+    sleep (time) {
+      return new Promise(resolve => setTimeout(resolve, time))
+    },
     requestPageData (page) {
       this.wordsToShow = this.words.slice(page * 10 - 10, page * 10)
       this.current_page = page
@@ -321,9 +331,19 @@ export default {
       }
     },
 
-    speak (word) {
+    async speak (word) {
+      let count = 0
+      let voices = MySpeechSynthesis.methods.loadVoices()
+      while (voices == null || voices.length === 0) {
+        await this.sleep(1000)
+        voices = MySpeechSynthesis.methods.loadVoices()
+        count++
+        if (count > 10) {
+          break
+        }
+      }
       this.showErrorAlert = false
-      const message = MySpeechSynthesis.methods.mySpeak(word)
+      const message = MySpeechSynthesis.methods.mySpeak(word, voices)
       if (message !== 'success') {
         this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
         this.$sentry.captureException(new Error('Error = ' + message))

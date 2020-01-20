@@ -120,6 +120,10 @@
                 プライバシー＆ポリシー<br>privacy&policy
               </nuxt-link>
             </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
+              <nuxt-link :to="{ name: 'faq' }">
+                よくあるご質問<br>FAQ
+              </nuxt-link>
+            </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
               <nuxt-link :to="{ name: 'contact' }">
                 お問い合わせ<br>contact
               </nuxt-link>

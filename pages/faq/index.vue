@@ -12,7 +12,7 @@
                 ホーム<br>home
               </nuxt-link>
             </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'about' }" style="text-decoration: underline">
+              <nuxt-link :to="{ name: 'about' }">
                 サイト概要<br>about
               </nuxt-link>
             </td><td>&nbsp;&nbsp;</td><td>
@@ -44,30 +44,21 @@
   </div>
   <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
   -->
-    <div class="main-text">
-      <div class="text-itself-about">
+    <div class="main-faq">
+      <div class="text-itself-faq">
         <br>
         <p style="font-size: 20px; text-align: center">
-          サイト概要
+          よくあるご質問
         </p>
         <p>
-          華語とは中国語を指し、地域によって様々な方言が存在します。<br>
-          華語は台湾でも共通語として使用されており、繁体字と呼ばれる文字を使う事などを特徴とします。<br>
+          <span>・音声が再生されない時</span><br>
+          お使いのデバイスのスピーカーがミュート/音量ゼロになっていないかご確認ください。<br>
           <br>
-          管理人が台湾華語を学ぶ際に、繁体字の教材が少ないなと感じた事がサイト制作のきっかけでした。<br>
-          サイト内の単語情報には、簡体字(中国語の文字として最も広く使用される)もなるべく併記しますが、<br>
-          台湾独特の言い回し等がコンテンツに含まれる可能性があるため、サイト名を「台湾華語」としています。<br>
-          <br>
-          サイトには、単語聞き流しをはじめ、学習においてあると便利と思われる機能を盛り込み、随時更新していきます。<br>
-          <br>
-        </p>
-        <p style="text-align: center">
-          管理人について<br>
-        </p>
-        <p>
-          数年間英語圏で暮らした後、アジアの食が恋しくなり台湾に移り住みました。<br>
-          英語学習の経験から効率の良い学習法を模索しつつ、中国語の習得に励んでいます。<br>
-          <br>
+          &nbsp;1)パソコンをお使いの場合<br>
+          &nbsp;使用ブラウザをご確認ください。推奨はGoogle Chromeです。<br>
+          &nbsp;2)スマホをお使いの場合<br>
+          &nbsp;&nbsp;2-1)iPhoneをお使いの場合<br>
+          &nbsp;&nbsp;ブラウザの「優先する言語」設定を、「繁體中文」にしてみてください。<br>
           <br>
         </p>
       </div>
@@ -93,7 +84,7 @@
                 プライバシー＆ポリシー<br>privacy&policy
               </nuxt-link>
             </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'faq' }">
+              <nuxt-link :to="{ name: 'faq' }" style="text-decoration: underline">
                 よくあるご質問<br>FAQ
               </nuxt-link>
             </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
@@ -113,10 +104,10 @@
 export default {
   head () {
     return {
-      title: '台湾華語 taiwan-mandarin/about',
-      script: [
-        { 'data-ad-client': process.env.GA_ADSENSE_ID }
-      ]
+      title: '台湾華語 taiwan-mandarin/about'
+      // script: [
+      //   { 'data-ad-client': process.env.GA_ADSENSE_ID }
+      // ]
     }
   }
 }
@@ -147,18 +138,18 @@ export default {
     justify-content: center
     align-items: center
     text-align: center
-  .text-itself-about
+  .text-itself-faq
     text-align: left
-    margin: 0 250px
+    margin: 0 200px
     @media screen and (max-width : 767px)
       margin: 0 20px
     //@media screen and (min-width : 1024px)
     // ここにタブレット・PCの記述
-  .main-text
+  .main-faq
     animation: fadeIn 1.5s ease 0s 1 normal
     -webkit-animation: fadeIn 1.5s ease 0s 1 normal
     text-align: center
-    background-image: url('../../static/img/sunset_3.jpg') !important
+    background-image: url('../../static/img/binlan2.jpg') !important
     width: 95%
     height: 100%
     background-size: cover

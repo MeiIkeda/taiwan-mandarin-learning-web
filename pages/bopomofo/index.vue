@@ -411,7 +411,11 @@
         </p>
         <p style="color: red">
           ※音声再生に関して:お使いのOSやブラウザ/バージョンによっては、音声再生に対応していない場合があります。<br>
-          推奨ブラウザはGoogle Chromeです。また、スマホ使用時に音声が再生されない場合があるようですので、PCでの操作をお勧めします。<br>
+          詳しくは
+          <nuxt-link :to="{ name: 'faq' }">
+            FAQページ
+          </nuxt-link>
+          をご覧ください。<br>
         </p>
         <p>
           漢字の意味は何となく分かっても、読み方を知らなければ会話はできません。<br>
@@ -431,11 +435,6 @@
     <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     -->
     <br>
-<!--    <div align="center">-->
-<!--      <button @click="speak_bopomofo('ㄇㄚ')">-->
-<!--        クリック-->
-<!--      </button>-->
-<!--    </div>-->
     <div align="center" style="white-space: nowrap; vertical-align: top">
       <table>
         <tbody>
@@ -443,6 +442,10 @@
             <td>
               <nuxt-link :to="{ name: 'privacypolicy' }">
                 プライバシー＆ポリシー<br>privacy&policy
+              </nuxt-link>
+            </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
+              <nuxt-link :to="{ name: 'faq' }">
+                よくあるご質問<br>FAQ
               </nuxt-link>
             </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
               <nuxt-link :to="{ name: 'contact' }">
@@ -576,9 +579,22 @@ export default {
   },
 
   methods: {
-    speak_bopomofo (char) {
+    sleep (time) {
+      return new Promise(resolve => setTimeout(resolve, time))
+    },
+    async speak_bopomofo (char) {
+      let count = 0
+      let voices = MySpeechSynthesis.methods.loadVoices()
+      while (voices == null || voices.length === 0) {
+        await this.sleep(1000)
+        voices = MySpeechSynthesis.methods.loadVoices()
+        count++
+        if (count > 10) {
+          break
+        }
+      }
       this.showErrorAlert = false
-      const message = MySpeechSynthesis.methods.mySpeak(char)
+      const message = MySpeechSynthesis.methods.mySpeak(char, voices)
       if (message !== 'success') {
         this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
         this.$sentry.captureException(new Error('Error = ' + message))

@@ -221,8 +221,11 @@
         <p>
           「AutoStart」を押すと、単語リストを自動再生します。「AutoStop」で、自動再生を終了します。<br><br>
           <span style="color: red">※音声再生に関して：お使いのブラウザやバージョンによっては、音声再生に対応していない場合があります。
-            推奨ブラウザはGoogle Chromeです。<br>
-            また、スマホ使用時に音声が再生されない場合があるようですので、PCでの操作をお勧めします。</span>
+            詳しくは
+            <nuxt-link :to="{ name: 'faq' }">
+              FAQページ
+            </nuxt-link>
+            をご覧ください。<br></span>
         </p>
         <p>
           発音記号ボポモフォ/ピンイン  について詳しく知りたい場合は、
@@ -274,6 +277,10 @@
             <td>
               <nuxt-link :to="{ name: 'privacypolicy' }">
                 プライバシー＆ポリシー<br>privacy&policy
+              </nuxt-link>
+            </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
+              <nuxt-link :to="{ name: 'faq' }">
+                よくあるご質問<br>FAQ
               </nuxt-link>
             </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
               <nuxt-link :to="{ name: 'contact' }">
@@ -405,16 +412,16 @@ export default {
       return new Promise(resolve => setTimeout(resolve, time))
     },
 
-    async interval () {
+    async interval (voices) {
       this.showErrorAlert = false
-      const message = MySpeechSynthesis.methods.mySpeak(this.word.bopomofo)
+      const message = MySpeechSynthesis.methods.mySpeak(this.word.bopomofo, voices)
       if (message !== 'success') {
         this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
         this.$sentry.captureException(new Error('Error = ' + message))
         this.showErrorAlert = true
       }
       await this.sleep(2000)
-      MySpeechSynthesis.methods.mySpeak(this.word.bopomofo)
+      MySpeechSynthesis.methods.mySpeak(this.word.bopomofo, voices)
       await this.sleep(3000)
       this.count++
     },
@@ -425,7 +432,18 @@ export default {
       }
       this.isAuto = true
       while (this.isAuto) {
-        await this.interval()
+        let count = 0
+        let voices = MySpeechSynthesis.methods.loadVoices()
+        while (voices == null || voices.length === 0) {
+          console.log('count=' + count)
+          await this.sleep(1000)
+          voices = MySpeechSynthesis.methods.loadVoices()
+          count++
+          if (count > 10) {
+            break
+          }
+        }
+        await this.interval(voices)
         this.next()
         if (this.count === 1000) {
           break
@@ -438,15 +456,25 @@ export default {
       }
       this.isAuto = false
     },
-    speak () {
+    async speak () {
       if (this.isSearching) {
         return
       }
       if (this.word_fromDB === null || this.word_fromDB === []) {
         return
       }
+      let count = 0
+      let voices = MySpeechSynthesis.methods.loadVoices()
+      while (voices == null || voices.length === 0) {
+        await this.sleep(1000)
+        voices = MySpeechSynthesis.methods.loadVoices()
+        count++
+        if (count > 10) {
+          break
+        }
+      }
       this.showErrorAlert = false
-      const message = MySpeechSynthesis.methods.mySpeak(this.word.bopomofo)
+      const message = MySpeechSynthesis.methods.mySpeak(this.word.bopomofo, voices)
       if (message !== 'success') {
         this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
         this.$sentry.captureException(new Error('Error = ' + message))
