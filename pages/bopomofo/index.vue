@@ -431,6 +431,11 @@
     <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     -->
     <br>
+    <div align="center">
+    <button @click="speak_bopomofo('ㄇㄚ')">
+      クリック
+    </button>
+    </div>
     <div align="center" style="white-space: nowrap; vertical-align: top">
       <table>
         <tbody>
@@ -454,6 +459,16 @@
 
 <script>
 import MySpeechSynthesis from '../../plugins/mySpeechSynthesis.js'
+// // eslint-disable-next-line no-unused-vars
+// function speak2 (text) {
+//   // var text = document.querySelector('.text').value;
+//   const count = +document.querySelector('.count').value
+//   for (let i = 0; i < count; i++) {
+//     speechSynthesis.speak(
+//       new SpeechSynthesisUtterance(text)
+//     )
+//   }
+// }
 export default {
   component: {
     MySpeechSynthesis
