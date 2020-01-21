@@ -37,10 +37,10 @@ export default {
       if (isChinese === false) {
         const agent = window.navigator.userAgent
         return 'お使いのブラウザーは単語再生に対応していない可能性があります。(2)' + agent
-      } else if (includeZhTw === true) {
-        uttr.lang = 'zh-TW'
-      } else if (includeZhTwAndroid === true) {
-        uttr.lang = 'zh_TW_#Hant'
+        // } else if (includeZhTw === true) {
+        //   uttr.lang = 'zh-TW'
+        // } else if (includeZhTwAndroid === true) {
+        //   uttr.lang = 'zh_TW_#Hant'
       } else if (includeZhCn === true) {
         uttr.lang = 'zh-CN'
       } else if (includeZhCnAndroid === true) {
