@@ -190,7 +190,7 @@ export default {
     animation: fadeIn 1.5s ease 0s 1 normal
     -webkit-animation: fadeIn 1.5s ease 0s 1 normal
     text-align: left
-    background-image: url('../../static/img/redfort2_3.jpg') !important
+    background-image: url('../../static/img/redfort2_4.jpg') !important
     width: 95%
     height: 100%
     background-size: cover
