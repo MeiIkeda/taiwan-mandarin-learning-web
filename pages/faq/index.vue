@@ -47,8 +47,8 @@
     <div class="main-faq">
       <div class="text-itself-faq">
         <br>
-        <p style="font-size: 20px; text-align: center">
-          よくあるご質問
+        <p style="font-size: 20px; text-align: center; font-style: italic">
+          FAQ/よくあるご質問
         </p>
         <p>
           <span>・音声が再生されない時</span><br>
@@ -149,7 +149,7 @@ export default {
     animation: fadeIn 1.5s ease 0s 1 normal
     -webkit-animation: fadeIn 1.5s ease 0s 1 normal
     text-align: center
-    background-image: url('../../static/img/binlan2.jpg') !important
+    background-image: url('../../static/img/binlan3.jpg') !important
     width: 95%
     height: 100%
     background-size: cover
