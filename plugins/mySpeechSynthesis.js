@@ -1,11 +1,14 @@
 export default {
 
   methods: {
-    mySpeak (word, voices) {
+    checkSpeechSynthesisUtterance () {
       const agent = window.navigator.userAgent
       if (!('SpeechSynthesisUtterance' in window)) {
         return 'お使いのブラウザは単語再生に対応していない可能性があります。(1)' + agent
       }
+      return 'success'
+    },
+    mySpeak (word, voices) {
       const uttr = new SpeechSynthesisUtterance(word)
       let isChinese = false
       let includeZhTw = false

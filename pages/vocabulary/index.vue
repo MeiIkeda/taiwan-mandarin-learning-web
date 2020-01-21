@@ -46,7 +46,7 @@
     -->
     <div class="main-image-vocabulary">
       <br>
-      <b-alert v-model="showErrorAlert" style="color: red; background-color: transparent; border-color: transparent" variant="info">
+      <b-alert v-model="showErrorAlert" style="text-align:center; color: red; background-color: transparent; border-color: transparent" variant="info">
         {{ error_message }}
       </b-alert>
       <div class="choose_level">
@@ -461,6 +461,13 @@ export default {
         return
       }
       if (this.word_fromDB === null || this.word_fromDB === []) {
+        return
+      }
+      const isSpeechSynthesisMessage = MySpeechSynthesis.methods.checkSpeechSynthesisUtterance()
+      if (isSpeechSynthesisMessage !== 'success') {
+        this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
+        this.$sentry.captureException(new Error('Error = ' + isSpeechSynthesisMessage))
+        this.showErrorAlert = true
         return
       }
       let count = 0

@@ -583,6 +583,13 @@ export default {
       return new Promise(resolve => setTimeout(resolve, time))
     },
     async speak_bopomofo (char) {
+      const isSpeechSynthesisMessage = MySpeechSynthesis.methods.checkSpeechSynthesisUtterance()
+      if (isSpeechSynthesisMessage !== 'success') {
+        this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
+        this.$sentry.captureException(new Error('Error = ' + isSpeechSynthesisMessage))
+        this.showErrorAlert = true
+        return
+      }
       let count = 0
       let voices = MySpeechSynthesis.methods.loadVoices()
       while (voices == null || voices.length === 0) {
