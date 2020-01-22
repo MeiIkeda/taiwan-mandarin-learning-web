@@ -11,9 +11,9 @@ export default {
     mySpeak (word, voices) {
       const uttr = new SpeechSynthesisUtterance(word)
       let isChinese = false
-      let includeZhTw = false
+      // let includeZhTw = false
       let includeZhCn = false
-      let includeZhTwAndroid = false
+      // let includeZhTwAndroid = false
       let includeZhCnAndroid = false
       voices.forEach(function (voice, i) {
         if (voice.lang.includes('zh')) {
@@ -22,12 +22,12 @@ export default {
         if (voice.lang.includes('zh-CN')) {
           includeZhCn = true
         }
-        if (voice.lang.includes('zh-TW')) {
-          includeZhTw = true
-        }
-        if (voice.lang.includes('zh_TW_#Hant')) {
-          includeZhTwAndroid = true
-        }
+        // if (voice.lang.includes('zh-TW')) {
+        //   includeZhTw = true
+        // }
+        // if (voice.lang.includes('zh_TW_#Hant')) {
+        //   includeZhTwAndroid = true
+        // }
         if (voice.lang.includes('zh_CN_#Hans')) {
           includeZhCnAndroid = true
         }
