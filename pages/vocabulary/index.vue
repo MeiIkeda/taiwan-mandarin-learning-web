@@ -1,39 +1,8 @@
 <template>
   <section class="container_vocabulary">
-    <h1 class="title_vocabulary">
-      台湾華語<br>taiwan_mandarin
-    </h1>
-    <!--<div align="center">-->
-    <div align="center" style="white-space: nowrap; vertical-align: top">
-      <table>
-        <tbody>
-          <tr style="font-weight:300; font-size: 18px; text-align:center">
-            <td>
-              <nuxt-link :to="{ name: 'index' }">
-                ホーム<br>home
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'about' }">
-                サイト概要<br>about
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'bopomofo' }">
-                ボポモフォ<br>bopomofo
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'vocabulary' }" style="text-decoration: underline">
-                中国語語彙<br>vocabulary
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'search' }">
-                単語検索<br>search
-              </nuxt-link>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <br>
+    <Header
+      :name="'vocabulary'"
+    />
     <!--    <head>-->
     <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
     <!--      <title />-->
@@ -150,7 +119,7 @@
             <table style="align: center; text-align: left">
               <tbody style="white-space:nowrap; align: center; text-align: center">
                 <!-- <tr>-->
-                <tr :key="list.id" v-for="list in word.exampleDtoList">
+                <tr v-for="list in word.exampleDtoList" :key="list.id">
                   <td>例文</td><td>:</td><td>{{ list.sentence }}</td>
                   <td>訳</td><td>:</td><td>{{ list.translation }}</td>
                 </tr>
@@ -269,45 +238,23 @@
     </div>
     <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     -->
-    <br>
-    <div align="center" style="white-space: nowrap; vertical-align: top">
-      <table>
-        <tbody>
-          <tr style="font-weight:300; font-size: 16px; text-align:center">
-            <td>
-              <nuxt-link :to="{ name: 'privacypolicy' }">
-                プライバシー＆ポリシー<br>privacy&policy
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'faq' }">
-                よくあるご質問<br>FAQ
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'contact' }">
-                お問い合わせ<br>contact
-              </nuxt-link>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <br>
+    <Footer
+      :name="'vocabulary'"
+    />
   </section>
 </template>
 
 <script>
+import Header from '../components/header'
+import Footer from '../components/footer'
 import MySpeechSynthesis from '../../plugins/mySpeechSynthesis.js'
 export default {
+  components: {
+    Header,
+    Footer
+  },
   component: {
     MySpeechSynthesis
-  },
-  head () {
-    return {
-      title: '台湾華語 taiwan-mandarin/vocabulary',
-      script: [
-        { 'data-ad-client': process.env.GA_ADSENSE_ID }
-      ]
-    }
   },
 
   data () {
@@ -487,6 +434,17 @@ export default {
         this.$sentry.captureException(new Error('Error = ' + message))
         this.showErrorAlert = true
       }
+    }
+  },
+  head () {
+    return {
+      title: '台湾華語 taiwan-mandarin/vocabulary',
+      script: [
+        { 'data-ad-client': process.env.GA_ADSENSE_ID }
+      ],
+      meta: [
+        { name: 'keywords', content: '中国語,台湾,台湾華語,繁体字,単語,聞き流し' }
+      ]
     }
   }
 }

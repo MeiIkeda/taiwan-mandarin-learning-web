@@ -1,38 +1,8 @@
 <template>
   <section class="container_vocabulary">
-    <h1 class="title_vocabulary">
-      台湾華語<br>taiwan_mandarin
-    </h1>
-    <div align="center" style="white-space: nowrap; vertical-align: top">
-      <table>
-        <tbody>
-          <tr style="font-weight:300; font-size: 18px; text-align:center">
-            <td>
-              <nuxt-link :to="{ name: 'index' }">
-                ホーム<br>home
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'about' }">
-                サイト概要<br>about
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'bopomofo' }">
-                ボポモフォ<br>bopomofo
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'vocabulary' }">
-                中国語語彙<br>vocabulary
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'search' }">
-                単語検索<br>search
-              </nuxt-link>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <br>
+    <Header
+      :name="'contact'"
+    />
     <!--    <head>-->
     <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
     <!--      <title />-->
@@ -116,38 +86,20 @@
   </div>
   <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
   -->
-    <br>
-    <div align="center" style="white-space: nowrap; vertical-align: top">
-      <table>
-        <tbody>
-          <tr style="font-weight:300; font-size: 16px; text-align:center">
-            <td>
-              <nuxt-link :to="{ name: 'privacypolicy' }">
-                プライバシー＆ポリシー<br>privacy&policy
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'faq' }">
-                よくあるご質問<br>FAQ
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'contact' }" style="text-decoration: underline">
-                お問い合わせ<br>contact
-              </nuxt-link>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <Footer
+      :name="'contact'"
+    />
     <br>
   </section>
 </template>
 
 <script>
+import Header from '../components/header'
+import Footer from '../components/footer'
 export default {
-  head () {
-    return {
-      title: '台湾華語 taiwan-mandarin/contact'
-    }
+  components: {
+    Header,
+    Footer
   },
   data () {
     return {
@@ -215,7 +167,7 @@ export default {
         headers: {
           'Access-Control-Allow-Origin': process.env.ACCESS_CONTROL_ORIGIN,
           'content-type': 'application/json',
-          'charset': 'UTF-8'
+          charset: 'UTF-8'
         },
         auth: {
           username: process.env.BASIC_AUTH_USERNAME,
@@ -245,6 +197,11 @@ export default {
           me.$sentry.captureException(new Error('Error = ' + me.error_message_sentry))
         }
       })
+    }
+  },
+  head () {
+    return {
+      title: '台湾華語 taiwan-mandarin/contact'
     }
   }
 }

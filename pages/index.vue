@@ -1,38 +1,8 @@
 <template>
   <section>
-    <h1 class="title_vocabulary">
-      台湾華語<br>taiwan_mandarin
-    </h1>
-    <div align="center" style="white-space: nowrap; vertical-align: top">
-      <table>
-        <tbody>
-          <tr style="font-weight:300; font-size: 18px; text-align:center">
-            <td>
-              <nuxt-link :to="{ name: 'index' }" style="text-decoration: underline">
-                ホーム<br>home
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'about' }">
-                サイト概要<br>about
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'bopomofo' }">
-                ボポモフォ<br>bopomofo
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'vocabulary' }">
-                中国語語彙<br>vocabulary
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'search' }">
-                単語検索<br>search
-              </nuxt-link>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <br>
+    <Header
+      :name="'index'"
+    />
     <!--    <head>-->
     <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
     <!--      <title />-->
@@ -66,8 +36,8 @@
           <!--ページ番号-->
           <div v-for="index in Math.floor(showing_page_max_number)" :key="index">
             <li
-              @click="requestPageData(index + current_page_digit)"
               :class="{active: (index + current_page_digit) == current_page}"
+              @click="requestPageData(index + current_page_digit)"
               class="page-item"
             >
               <a class="page-link" href="#">{{ index
@@ -107,7 +77,7 @@
       <div v-else>
         <table class="table-bordered" style="margin-left: auto; margin-right: auto">
           <tbody style="align: center; text-align: left">
-            <tr :key="list.id" v-for="list in announcement" style="white-space: nowrap; color: azure; text-shadow: 1px 1px 0 darkolivegreen">
+            <tr v-for="list in announcement" :key="list.id" style="white-space: nowrap; color: azure; text-shadow: 1px 1px 0 darkolivegreen">
               <td style="max-width:120px">
                 {{ list.announcementDate }}
               </td> <td style="min-width:300px">
@@ -158,38 +128,19 @@
     <div style="color: #3b8070" align="center">
       スポンサーリンク
     </div>-->
-    <br>
-    <div align="center" style="white-space: nowrap; vertical-align: top">
-      <table>
-        <tbody>
-          <tr style="font-weight:300; font-size: 16px; text-align:center">
-            <td>
-              <nuxt-link :to="{ name: 'privacypolicy' }">
-                プライバシー＆ポリシー<br>privacy&policy
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'faq' }">
-                よくあるご質問<br>FAQ
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'contact' }">
-                お問い合わせ<br>contact
-              </nuxt-link>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <br>
+    <Footer
+      :name="'index'"
+    />
   </section>
 </template>
 
 <script>
+import Header from './components/header'
+import Footer from './components/footer'
 export default {
-  head () {
-    return {
-      title: '台湾華語 taiwan-mandarin/home'
-    }
+  components: {
+    Header,
+    Footer
   },
 
   data () {
@@ -310,6 +261,11 @@ export default {
         this.current_page = data.current_page
         this.total_page = data.total_page
       }
+    }
+  },
+  head () {
+    return {
+      title: '台湾華語 taiwan-mandarin/home'
     }
   }
 }

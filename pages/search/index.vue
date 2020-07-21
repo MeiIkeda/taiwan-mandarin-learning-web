@@ -1,38 +1,8 @@
 <template>
   <section class="container_vocabulary">
-    <h1 class="title_vocabulary">
-      台湾華語<br>taiwan_mandarin
-    </h1>
-    <div align="center" style="white-space: nowrap; vertical-align: top">
-      <table>
-        <tbody>
-          <tr style="font-weight:300; font-size: 18px; text-align:center">
-            <td>
-              <nuxt-link :to="{ name: 'index' }">
-                ホーム<br>home
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'about' }">
-                サイト概要<br>about
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'bopomofo' }">
-                ボポモフォ<br>bopomofo
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'vocabulary' }">
-                中国語語彙<br>vocabulary
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'search' }" style="text-decoration: underline">
-                単語検索<br>search
-              </nuxt-link>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <br>
+    <Header
+      :name="'search'"
+    />
     <!--    <head>-->
     <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
     <!--      <title />-->
@@ -86,8 +56,8 @@
             <!--ページ番号-->
             <div v-for="index in Math.floor(showing_page_max_number)" :key="index">
               <li
-                @click="requestPageData(index + current_page_digit)"
                 :class="{active: (index + current_page_digit) == current_page}"
+                @click="requestPageData(index + current_page_digit)"
                 class="page-item"
               >
                 <a class="page-link" href="#">{{ index
@@ -120,7 +90,7 @@
             <tr v-if="wordsToShow.length != 0">
               <th>Traditional</th><th>Simplified</th><th>Pinyin</th><th>Bopomofo</th><th>Meaning</th>
             </tr>
-            <tr :key="list.id" v-for="list in wordsToShow" style="color: #47494e">
+            <tr v-for="list in wordsToShow" :key="list.id" style="color: #47494e">
               <td>
                 <b-button @click="speak(list.simplified)" style="background-color: #f0f8ff; color: black">
                   {{ list.traditional }}
@@ -195,45 +165,23 @@
     </div>
     <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     -->
-    <br>
-    <div align="center" style="white-space: nowrap; vertical-align: top">
-      <table>
-        <tbody>
-          <tr style="font-weight:300; font-size: 16px; text-align:center">
-            <td>
-              <nuxt-link :to="{ name: 'privacypolicy' }">
-                プライバシー＆ポリシー<br>privacy&policy
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'faq' }">
-                よくあるご質問<br>FAQ
-              </nuxt-link>
-            </td><td>&nbsp;&nbsp;</td><td /><td>&nbsp;&nbsp;</td><td>
-              <nuxt-link :to="{ name: 'contact' }">
-                お問い合わせ<br>contact
-              </nuxt-link>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <br>
+    <Footer
+      :name="'search'"
+    />
   </section>
 </template>
 
 <script>
+import Header from '../components/header'
+import Footer from '../components/footer'
 import MySpeechSynthesis from '../../plugins/mySpeechSynthesis.js'
 export default {
+  components: {
+    Header,
+    Footer
+  },
   component: {
     MySpeechSynthesis
-  },
-  head () {
-    return {
-      title: '台湾華語 taiwan-mandarin/search'
-      // script: [
-      //   { 'data-ad-client': process.env.GA_ADSENSE_ID }
-      // ]
-    }
   },
 
   data () {
@@ -291,7 +239,7 @@ export default {
       const data = await this.$axios.$get(process.env.BASE_URL_API + '/api/v1/vocabulary/search/' + this.searchWord, {
         headers: {
           'Access-Control-Allow-Origin': '*',
-          'charset': 'UTF-8'
+          charset: 'UTF-8'
         },
         auth: {
           username: process.env.BASIC_AUTH_USERNAME,
@@ -356,6 +304,14 @@ export default {
         this.$sentry.captureException(new Error('Error = ' + message))
         this.showErrorAlert = true
       }
+    }
+  },
+  head () {
+    return {
+      title: '台湾華語 taiwan-mandarin/search'
+      // script: [
+      //   { 'data-ad-client': process.env.GA_ADSENSE_ID }
+      // ]
     }
   }
 }

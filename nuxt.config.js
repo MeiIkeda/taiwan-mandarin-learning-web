@@ -92,7 +92,7 @@ export default {
     path: '/sitemap.xml', // 出力パス
     hostname: process.env.BROWSER_BASE_URL,
     cacheTime: 1000 * 60 * 15,
-    generate: true, // nuxt generate で静的ファイル出力する場合にはtrueにする
+    // generate: true, // nuxt generate で静的ファイル出力する場合にはtrueにする
     exclude: [ // 除外項目
     ]
   }
