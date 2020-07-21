@@ -70,6 +70,7 @@ export default {
       }
       console.log('voice(lang,name)=' + uttr.voice.lang + ',' + uttr.voice.name)
       speechSynthesis.cancel()
+      uttr.rate = 0.6
       speechSynthesis.speak(uttr)
       return 'success'
     },
