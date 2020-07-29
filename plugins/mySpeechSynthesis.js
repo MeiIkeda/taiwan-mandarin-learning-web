@@ -15,14 +15,6 @@ export default {
         if (voice.lang.includes('zh')) {
           isChinese = true
         }
-        if (voice.lang.includes('zh-TW')) {
-          uttr.voice = voice
-          return true
-        }
-        if (voice.lang.includes('zh_TW_#Hant')) {
-          uttr.voice = voice
-          return true
-        }
         if (voice.lang.includes('zh-CN')) {
           uttr.voice = voice
           return true
@@ -31,27 +23,11 @@ export default {
           uttr.voice = voice
           return true
         }
-        if (voice.name.includes('Mei-Jia')) {
-          uttr.voice = voice
-          return true
-        }
-        if (voice.name.includes('Google 國語（臺灣）')) {
-          uttr.voice = voice
-          return true
-        }
-        if (voice.name.includes('國語（臺灣）')) {
-          uttr.voice = voice
-          return true
-        }
-        if (voice.name.includes('中国語 台湾')) {
-          uttr.voice = voice
-          return true
-        }
         if (voice.name.includes('中国語 中国')) {
           uttr.voice = voice
           return true
         }
-        if (voice.name.includes('Yu-shu')) {
+        if (voice.name.includes('Yu-Shu')) {
           uttr.voice = voice
           return true
         }
@@ -63,6 +39,31 @@ export default {
           uttr.voice = voice
           return true
         }
+        // 台湾音声の四声が聞き取りずらかったため、一旦コメントアウト
+        // if (voice.lang.includes('zh-TW')) {
+        //   uttr.voice = voice
+        //   return true
+        // }
+        // if (voice.lang.includes('zh_TW_#Hant')) {
+        //   uttr.voice = voice
+        //   return true
+        // }
+        // if (voice.name.includes('Mei-Jia')) {
+        //   uttr.voice = voice
+        //   return true
+        // }
+        // if (voice.name.includes('Google 國語（臺灣）')) {
+        //   uttr.voice = voice
+        //   return true
+        // }
+        // if (voice.name.includes('國語（臺灣）')) {
+        //   uttr.voice = voice
+        //   return true
+        // }
+        // if (voice.name.includes('中国語 台湾')) {
+        //   uttr.voice = voice
+        //   return true
+        // }
       })
       if (isChinese === false) {
         const agent = window.navigator.userAgent
@@ -70,7 +71,7 @@ export default {
       }
       console.log('voice(lang,name)=' + uttr.voice.lang + ',' + uttr.voice.name)
       speechSynthesis.cancel()
-      uttr.rate = 0.7
+      uttr.rate = 0.8
       speechSynthesis.speak(uttr)
       return 'success'
     },

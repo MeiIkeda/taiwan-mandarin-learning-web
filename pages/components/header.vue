@@ -42,6 +42,13 @@
               <nuxt-link v-else :to="{ name: 'search' }">
                 単語検索<br>search
               </nuxt-link>
+            </td><td>&nbsp;&nbsp;</td><td>
+              <nuxt-link v-if="name === 'sentence'" :to="{ name: 'sentence' }" style="text-decoration: underline">
+                例文集<br>sentence
+              </nuxt-link>
+              <nuxt-link v-else :to="{ name: 'sentence' }">
+                例文集<br>sentence
+              </nuxt-link>
             </td>
           </tr>
         </tbody>
