@@ -256,10 +256,10 @@
         />
         <br>
         <p>
-          ・
+          ・可是
         </p>
         <SentenceFormat
-          :sentence="'今天下雨,可是我有很多要洗的衣服.'"
+          :sentence="'今天下雨, 可是我有很多要洗的衣服.'"
           :bopomofo="'ㄐㄧㄣ ㄊㄧㄢ ㄒㄧㄚˋ ㄩˇ, ㄎㄜˇ ㄕˋ ㄨㄛˇ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄧㄠˋ ㄒㄧˇ ㄉㄜ˙ ㄧ ㄈㄨˊ.'"
           :pinyin="'jin1 tian1 xia4 yu3, ke3 shi4 wo3 you3 hen3 duo1 yao4 xi3 de yi1 fu2.'"
           :translation="'今日は雨が降っていますが、洗濯する服がたくさんあります。'"
