@@ -394,6 +394,9 @@ export default {
       title: '台湾華語 taiwan-mandarin/sentence',
       script: [
         { 'data-ad-client': process.env.GA_ADSENSE_ID }
+      ],
+      meta: [
+        { name: 'keywords', content: '中国語, 台湾, 台湾華語, 繁体字, 単語, 聞き流し, ボポモフォ, 當代中文課程課' }
       ]
     }
   }

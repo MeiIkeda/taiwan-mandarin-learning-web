@@ -13,7 +13,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=0.7' },
-      { name: 'keywords', content: '中国語,台湾,台湾華語,繁体字,単語,聞き流し' },
+      { name: 'keywords', content: '中国語, 台湾, 台湾華語, 繁体字, 単語, 聞き流し, ボポモフォ, 當代中文課程課' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
