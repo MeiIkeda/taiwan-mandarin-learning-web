@@ -1,7 +1,7 @@
 <template>
   <section class="container_vocabulary">
     <Header
-      :name="'blog'"
+      :name="'sentence'"
     />
     <!--    <head>-->
     <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
@@ -72,7 +72,7 @@
     <!--      <title />-->
     <!--    </head>-->
     <Footer
-      :name="'blog'"
+      :name="'sentence'"
     />
     <br>
   </section>
