@@ -420,6 +420,7 @@
           :bopomofo="'ㄐㄧㄣ ㄊㄧㄢ ㄨㄢˇ ㄈㄢˋ ㄨㄛˇ ㄏㄨㄟˋ ㄓㄨˇ ㄈㄢˋ， ㄏㄠˇ ㄅㄨˋ ㄏㄠˇ?'"
           :pinyin="'jin1 tian1 wan3 fan4 wo3 hui4 zhu3 fan4, hao3 bu4 hao3?'"
           :translation="'`今夜は私が夕食を作りますが、どうですか?'"
+          :memo="'※台湾では、「煮飯(ご飯を炊く)」でも「ご飯を作る」の意味になる。'"
         />
         <br>
       </div>
