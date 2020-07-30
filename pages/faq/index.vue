@@ -59,7 +59,7 @@ export default {
   },
   head () {
     return {
-      title: '台湾華語 taiwan-mandarin/about'
+      title: 'よくあるご質問 faq'
       // script: [
       //   { 'data-ad-client': process.env.GA_ADSENSE_ID }
       // ]

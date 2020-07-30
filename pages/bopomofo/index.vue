@@ -620,12 +620,15 @@ export default {
   },
   head () {
     return {
-      title: '台湾華語 taiwan-mandarin/bopomofo',
+      title: 'ボポモフォ bopomofo',
       script: [
         { 'data-ad-client': process.env.GA_ADSENSE_ID }
       ],
       meta: [
-        { name: 'keywords', content: '中国語, 台湾, 台湾華語, 繁体字, 単語, 聞き流し, ボポモフォ, 當代中文課程課' }
+        { hid: 'keywords', name: 'keywords', content: '中国語, 台湾, 台湾華語, 繁体字, ボポモフォ' },
+        { hid: 'description', name: 'description', content: 'ボポモフォ(bopomofo/注音)ページ。 ピンイン(pyinin/拼音)との対比や、音声確認ができます' },
+        { hid: 'og:title', name: 'og:title', content: '中国語語彙　台湾華語 taiwan-mandarin | 台湾で学ぶ中国語の学習ノート' },
+        { hid: 'og:decription', name: 'og:decription', content: 'ボポモフォ(bopomofo/注音)ページ。 ピンイン(pyinin/拼音)との対比や、音声確認ができます' }
       ]
     }
   }

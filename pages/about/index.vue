@@ -69,7 +69,7 @@ export default {
   },
   head () {
     return {
-      title: '台湾華語 taiwan-mandarin/about',
+      title: 'サイト概要 about',
       script: [
         { 'data-ad-client': process.env.GA_ADSENSE_ID }
       ]

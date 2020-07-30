@@ -40,14 +40,6 @@ export default {
   props: {
     // eslint-disable-next-line vue/prop-name-casing,vue/require-default-prop
     name: String
-  },
-  head () {
-    return {
-      title: '台湾華語 taiwan-mandarin/about',
-      script: [
-        { 'data-ad-client': process.env.GA_ADSENSE_ID }
-      ]
-    }
   }
 }
 </script>

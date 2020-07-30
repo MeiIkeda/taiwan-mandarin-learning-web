@@ -105,7 +105,10 @@ export default {
   },
   head () {
     return {
-      title: '台湾華語 taiwan-mandarin/privacypolicy'
+      title: 'プライバシーポリシー privacypolicy'
+      // script: [
+      //   { 'data-ad-client': process.env.GA_ADSENSE_ID }
+      // ],
     }
   }
 }

@@ -249,6 +249,19 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import MySpeechSynthesis from '../../plugins/mySpeechSynthesis.js'
 export default {
+  head () {
+    return {
+      title: '中国語語彙 vocabulary',
+      script: [
+        { 'data-ad-client': process.env.GA_ADSENSE_ID }
+      ],
+      meta: [
+        { hid: 'description', name: 'description', content: '中国語語彙ページ。 レベル別に単語を表示したり、音声再生、聞き流しができます' },
+        { hid: 'og:title', name: 'og:title', content: '中国語語彙　台湾華語 taiwan-mandarin | 台湾で学ぶ中国語の学習ノート' },
+        { hid: 'og:decription', name: 'og:decription', content: '国語語彙ページ。 レベル別に単語を表示したり、音声再生、聞き流しができます' }
+      ]
+    }
+  },
   components: {
     Header,
     Footer
@@ -435,18 +448,22 @@ export default {
         this.showErrorAlert = true
       }
     }
-  },
-  head () {
-    return {
-      title: '台湾華語 taiwan-mandarin/vocabulary',
-      script: [
-        { 'data-ad-client': process.env.GA_ADSENSE_ID }
-      ],
-      meta: [
-        { name: 'keywords', content: '中国語,台湾,台湾華語,繁体字,単語,聞き流し' }
-      ]
-    }
   }
+  // head () {
+  //   return {
+  //     // title: '台湾華語 taiwan-mandarin/vocabulary',
+  //     script: [
+  //       { 'data-ad-client': process.env.GA_ADSENSE_ID }
+  //     ],
+  //     meta: [
+  //       { hid: 'title1', title: '台湾華語 taiwan-mandarin/vocabulary' },
+  //       // { hid: 'description', name: 'description', content: '中国語語彙ページ' },
+  //       { name: 'keywords', content: '中国語,台湾,台湾華語,繁体字,単語,聞き流し' },
+  //       { hid: 'description1', name: 'description', content: '中国語語彙ページ。 レベル別に単語を表示したり、音声再生、聞き流しができます' },
+  //       { hid: 'og:decription1', name: 'og:decription', content: '国語語彙ページ。 レベル別に単語を表示したり、音声再生、聞き流しができます' }
+  //     ]
+  //   }
+  // }
 }
 </script>
 

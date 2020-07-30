@@ -308,10 +308,16 @@ export default {
   },
   head () {
     return {
-      title: '台湾華語 taiwan-mandarin/search'
+      title: '単語検索 search',
       // script: [
       //   { 'data-ad-client': process.env.GA_ADSENSE_ID }
-      // ]
+      // ],
+      meta: [
+        { hid: 'keywords', name: 'keywords', content: '中国語, 台湾, 台湾華語, 繁体字, 単語, ボポモフォ, 検索' },
+        { hid: 'description', name: 'description', content: '単語検索ページ。 単語データベースの中から、 中国語/日本語で検索できます' },
+        { hid: 'og:title', name: 'og:title', content: '中国語語彙　台湾華語 taiwan-mandarin | 台湾で学ぶ中国語の学習ノート' },
+        { hid: 'og:decription', name: 'og:decription', content: '単語検索ページ。 単語データベースの中から、 中国語/日本語で検索できます' }
+      ]
     }
   }
 }
