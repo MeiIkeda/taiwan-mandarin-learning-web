@@ -621,7 +621,10 @@ export default {
     return {
       title: 'ボポモフォ bopomofo',
       script: [
-        { 'data-ad-client': process.env.GA_ADSENSE_ID }
+        {
+          'data-ad-client': process.env.GA_ADSENSE_ID,
+          'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+        }
       ],
       meta: [
         { hid: 'keywords', name: 'keywords', content: '中国語, 台湾, 台湾華語, 繁体字, ボポモフォ' },

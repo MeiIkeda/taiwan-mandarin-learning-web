@@ -231,12 +231,10 @@
     <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
     <!--      <title />-->
     <!--    </head>-->
-    <!--
-    <div style="color: #3b8070" align="center">
-      スポンサーリンク
-    </div>
-    <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
-    -->
+    <!--    <div style="color: #3b8070" align="center">-->
+    <!--      スポンサーリンク-->
+    <!--    </div>-->
+    <!--    <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
     <Footer
       :name="'vocabulary'"
     />
@@ -252,7 +250,10 @@ export default {
     return {
       title: '中国語語彙 vocabulary',
       script: [
-        { 'data-ad-client': process.env.GA_ADSENSE_ID }
+        {
+          'data-ad-client': process.env.GA_ADSENSE_ID,
+          'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+        }
       ],
       meta: [
         { hid: 'description', name: 'description', content: '中国語語彙ページ。 レベル別に単語を表示したり、音声再生、聞き流しができます' },
