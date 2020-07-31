@@ -620,12 +620,11 @@ export default {
   head () {
     return {
       title: 'ボポモフォ bopomofo',
-      script: [
-        {
-          'data-ad-client': process.env.GA_ADSENSE_ID,
-          'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
-        }
-      ],
+      script: [{
+        'data-ad-client': process.env.GA_ADSENSE_ID,
+        async: true,
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+      }],
       meta: [
         { hid: 'keywords', name: 'keywords', content: '中国語, 台湾, 台湾華語, 繁体字, ボポモフォ' },
         { hid: 'description', name: 'description', content: 'ボポモフォ(bopomofo/注音)ページ。 ピンイン(pyinin/拼音)との対比や、音声確認ができます' },
