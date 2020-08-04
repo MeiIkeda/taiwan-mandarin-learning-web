@@ -56,6 +56,10 @@
           <nuxt-link :to="{ name: 'sentence-text1-lesson5' }" style="text-align: center">
             當代中文課程課1・第5章
           </nuxt-link>
+          <br>
+          <nuxt-link :to="{ name: 'sentence-text1-lesson6' }" style="text-align: center">
+            當代中文課程課1・第6章
+          </nuxt-link>
         </p>
         <br>
       </div>

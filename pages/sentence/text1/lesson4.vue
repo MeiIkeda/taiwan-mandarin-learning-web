@@ -168,7 +168,7 @@
         <SentenceFormat
           :sentence="'我買一百塊的衣服了, 那件很便宜.'"
           :bopomofo="'ㄨㄛˇ ㄇㄞˇ ㄧ ㄅㄞˇ ㄎㄨㄞˋ ㄉㄜ˙ ㄧ ㄈㄨˊ ㄌㄜ˙, ㄋㄚˋ ㄐㄧㄢˋ ㄏㄣˇ ㄆㄧㄢˊ ㄧˊ.'"
-          :pinyin="'wo3 mai3 yi1 bai3 kuai4 de yi1 fu2 le, na4 jian4 hen3 bian4 yi2.'"
+          :pinyin="'wo3 mai3 yi1 bai3 kuai4 de yi1 fu2 le, na4 jian4 hen3 pian2 yi2.'"
           :translation="'100元の服を購入しました。 とても安かったです。'"
         />
         <br>
@@ -338,7 +338,7 @@
         <SentenceFormat
           :sentence="'我愛便宜的東西.'"
           :bopomofo="'ㄨㄛˇ ㄞˋ ㄆㄧㄢˊ ㄧˊ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ.'"
-          :pinyin="'wo3 ai4 bian4 yi2 de dong1 xi1.'"
+          :pinyin="'wo3 ai4 pian2 yi2 de dong1 xi1.'"
           :translation="'私は安いものが大好きです。'"
         />
         <br>
