@@ -297,7 +297,7 @@
         <SentenceFormat
           :sentence="'在山上, 你必須小心對天氣.'"
           :bopomofo="'ㄗㄞˋ ㄕㄢ ㄕㄤˋ, ㄋㄧˇ ㄅㄧˋ ㄒㄩ ㄒㄧㄠˇ ㄒㄧㄣ ㄉㄨㄟˋ ㄊㄧㄢ ㄑㄧˋ.'"
-          :pinyin="'zai4 shan1 shang4, ni3 bi4 xu1 xiao3 xin1 dui4 tian1 xi4.'"
+          :pinyin="'zai4 shan1 shang4, ni3 bi4 xu1 xiao3 xin1 dui4 tian1 qi4.'"
           :translation="'山では天気に気をつけなければならない。'"
         />
         <br>
