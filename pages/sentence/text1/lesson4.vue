@@ -68,7 +68,7 @@
         <SentenceFormat
           :sentence="'我會去超市買東西.'"
           :bopomofo="'ㄨㄛˇ ㄏㄨㄟˋ ㄑㄩˋ ㄔㄠ ㄕˋ ㄇㄞˇ ㄉㄨㄥ ㄒㄧ˙.'"
-          :pinyin="'wo3 hui4 qu4 chao1 shi4 mai3 dong1 xi1.'"
+          :pinyin="'wo3 hui4 qu4 chao1 shi4 mai3 dong1 xi.'"
           :translation="'スーパーに行って買い物をします。'"
         />
         <br>
@@ -337,8 +337,8 @@
         </p>
         <SentenceFormat
           :sentence="'我愛便宜的東西.'"
-          :bopomofo="'ㄨㄛˇ ㄞˋ ㄆㄧㄢˊ ㄧˊ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ.'"
-          :pinyin="'wo3 ai4 pian2 yi2 de dong1 xi1.'"
+          :bopomofo="'ㄨㄛˇ ㄞˋ ㄆㄧㄢˊ ㄧˊ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙.'"
+          :pinyin="'wo3 ai4 pian2 yi2 de dong1 xi.'"
           :translation="'私は安いものが大好きです。'"
         />
         <br>

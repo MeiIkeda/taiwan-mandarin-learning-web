@@ -99,8 +99,8 @@
         </p>
         <SentenceFormat
           :sentence="'你們有什麼東西我可以吃嗎?'"
-          :bopomofo="'ㄋㄧˇ ㄇㄣ˙ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄉㄨㄥ ㄒㄧ ㄨㄛˇ ㄎㄜˇ ㄧˇ ㄔ ㄇㄚ˙?'"
-          :pinyin="'ni3 men you3 shen2 me dong1 xi1 wo3 ke3 yi3 chi1 ma2?'"
+          :bopomofo="'ㄋㄧˇ ㄇㄣ˙ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄉㄨㄥ ㄒㄧ˙ ㄨㄛˇ ㄎㄜˇ ㄧˇ ㄔ ㄇㄚ˙?'"
+          :pinyin="'ni3 men you3 shen2 me dong1 xi wo3 ke3 yi3 chi1 ma2?'"
           :translation="'何か私が食べていいものありますか?'"
         />
         <br>

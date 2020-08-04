@@ -57,8 +57,8 @@
         </p>
         <SentenceFormat
           :sentence="'我喜歡都好吃的東西.'"
-          :bopomofo="'ㄨㄛˇ ㄒㄧˇ ㄏㄨㄢ ㄉㄡ ㄏㄠˇ ㄔ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ.'"
-          :pinyin="'wo3 xi3 huan1 dou1 hao3 chi1 de dong1 xi1.'"
+          :bopomofo="'ㄨㄛˇ ㄒㄧˇ ㄏㄨㄢ ㄉㄡ ㄏㄠˇ ㄔ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙.'"
+          :pinyin="'wo3 xi3 huan1 dou1 hao3 chi1 de dong1 xi.'"
           :translation="'美味しいものは全部好きです。'"
         />
         <br>
