@@ -307,7 +307,7 @@
         <SentenceFormat
           :sentence="'你有什麼能寫的東西嗎?'"
           :bopomofo="'ㄋㄧˇ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄋㄥˊ ㄒㄧㄝˇ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙ ㄇㄚ˙?'"
-          :pinyin="'ni3 you3 shen2 me neng2 xie3 de dong1 xi ma2?'"
+          :pinyin="'ni3 you3 shen2 me neng2 xie3 de dong1 xi ma?'"
           :translation="'何か書くものはありますか?'"
         />
         <br>
