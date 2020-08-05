@@ -116,7 +116,7 @@
         </p>
         <SentenceFormat
           :sentence="'Uber Eats送貨員來到房子的前面.'"
-          :bopomofo="'Uber Eats ㄙㄨㄥˋ ㄏㄨㄛˋ ㄩㄢˊ ㄌㄞˊ ㄉㄠˋ ㄈㄤˊ ㄗ˙ ㄉㄜ˙ ㄑㄧㄢˊ ㄇㄧㄢˋ..'"
+          :bopomofo="'Uber Eats ㄙㄨㄥˋ ㄏㄨㄛˋ ㄩㄢˊ ㄌㄞˊ ㄉㄠˋ ㄈㄤˊ ㄗ˙ ㄉㄜ˙ ㄑㄧㄢˊ ㄇㄧㄢˋ.'"
           :pinyin="'Uber Eats song4 huo4 yuan2 lai2 dao4 fang2 zi3 de qian2 mian4.'"
           :translation="'UberEatsの配達人は家の前まで来ます。'"
         />
@@ -227,7 +227,7 @@
         <SentenceFormat
           :sentence="'由於他是在線生， 不必去上課.'"
           :bopomofo="'ㄧㄡˊ ㄩˊ ㄊㄚ ㄕˋ ㄗㄞˋ ㄒㄧㄢˋ ㄕㄥ， ㄅㄨˊ ㄅㄧˋ ㄑㄩˋ ㄕㄤˋ ㄎㄜˋ.'"
-          :pinyin="'you2 yu2 ta1 shi4 zai4 xian1 sheng1, bu2 bi4 qu4 shang4 ke4.'"
+          :pinyin="'you2 yu2 ta1 shi4 zai4 xian4 sheng1, bu2 bi4 qu4 shang4 ke4.'"
           :translation="'彼はオンラインの生徒なので、 クラスに行く必要はありません。'"
         />
         <br>
@@ -367,7 +367,7 @@
         </p>
         <SentenceFormat
           :sentence="'從樓上可以看到很美的風景.'"
-          :bopomofo="'ㄘㄨㄥˊ ㄌㄡˊ ㄕㄤˋ ㄎㄜˇ ㄧˇ ㄎㄢˋ ㄉㄠˋ ㄏㄣˇ ㄇㄟˇ ㄉㄧˊ ㄈㄥ ㄐㄧㄥˇ.'"
+          :bopomofo="'ㄘㄨㄥˊ ㄌㄡˊ ㄕㄤˋ ㄎㄜˇ ㄧˇ ㄎㄢˋ ㄉㄠˋ ㄏㄣˇ ㄇㄟˇ ㄉㄜ˙ ㄈㄥ ㄐㄧㄥˇ.'"
           :pinyin="'cong2 lou2 shang4 ke3 yi3 kan4 dao4 hen3 mei3 de feng1 jing3.'"
           :translation="'上階からは美しい景色をご覧いただけます。'"
           :memo="'※「上階」は「樓上」。 「階下=樓下」と同じ語順。 「上樓」だと「上の階に行く」。'"
@@ -379,7 +379,7 @@
         <SentenceFormat
           :sentence="'右邊有三棟大樓, 正中間是醫院.'"
           :bopomofo="'ㄧㄡˋ ㄅㄧㄢ ㄧㄡˇ ㄙㄢ ㄉㄨㄥˋ ㄉㄚˋ ㄌㄡˊ, ㄓㄥˋ ㄓㄨㄥ ㄐㄧㄢ ㄕˋ ㄧ ㄩㄢˋ.'"
-          :pinyin="'you4 bian1 you3 san1 dong4 da4 lou2, zheng4 zhong jian1 shi4 yi3 yuan4.'"
+          :pinyin="'you4 bian1 you3 san1 dong4 da4 lou2, zheng4 zhong1 jian1 shi4 yi1 yuan4.'"
           :translation="'右側に3つの建物があり、真ん中は病院です。'"
         />
         <br>
