@@ -46,9 +46,9 @@
           ・在
         </p>
         <SentenceFormat
-          :sentence="'我最喜歡的餐廳在城市中心.'"
-          :bopomofo="'ㄨㄛˇ ㄗㄨㄟˋ ㄒㄧˇ ㄏㄨㄢ ㄉㄜ˙ ㄘㄢ ㄊㄧㄥ ㄗㄞˋ ㄔㄥˊ ㄕˋ ㄓㄨㄥ ㄒㄧㄣ.'"
-          :pinyin="'wo3 zui4 xi3 huan1 de can1 ting1 zai4 cheng2 shi4 zhong1 xin1.'"
+          :sentence="'我最喜歡的餐廳在市區.'"
+          :bopomofo="'ㄨㄛˇ ㄗㄨㄟˋ ㄒㄧˇ ㄏㄨㄢ ㄉㄜ˙ ㄘㄢ ㄊㄧㄥ ㄗㄞˋ ㄕˋ ㄑㄩ.'"
+          :pinyin="'wo3 zui4 xi3 huan1 de can1 ting1 zai4 shi4 qu1.'"
           :translation="'私のお気に入りのレストランは市内中心部にあります。'"
         />
         <br>
@@ -66,9 +66,9 @@
           ・哪裡
         </p>
         <SentenceFormat
-          :sentence="'在台灣哪裡不太熱?'"
-          :bopomofo="'ㄗㄞˋ ㄊㄞˊ ㄨㄢ ㄋㄚˇ ㄌㄧˇ ㄅㄨˊ ㄊㄞˋ ㄖㄜˋ?'"
-          :pinyin="'zai4 tai2 wan1 na3 li3 bu2 tai4 re4?'"
+          :sentence="'台灣哪裡不太熱?'"
+          :bopomofo="'ㄊㄞˊ ㄨㄢ ㄋㄚˇ ㄌㄧˇ ㄅㄨˊ ㄊㄞˋ ㄖㄜˋ?'"
+          :pinyin="'tai2 wan1 na3 li3 bu2 tai4 re4?'"
           :translation="'台湾で暑すぎないところはどこですか?'"
         />
         <br>
@@ -96,19 +96,19 @@
           ・風景
         </p>
         <SentenceFormat
-          :sentence="'他想看海邊的風景比山的.'"
-          :bopomofo="'ㄊㄚ ㄒㄧㄤˇ ㄎㄢˋ ㄏㄞˇ ㄅㄧㄢ ㄉㄜ˙ ㄈㄥ ㄐㄧㄥˇ ㄅㄧˇ ㄕㄢ ㄉㄜ˙.'"
-          :pinyin="'ta1 xiang3 kan4 hai3 bian1 de feng1 jing3 bi3 shan1 de.'"
-          :translation="'彼は山よりも海辺の景色が見たいです。'"
+          :sentence="'海邊的風景跟山上的， 他比較想看山上的.'"
+          :bopomofo="'ㄏㄞˇ ㄅㄧㄢ ㄉㄜ˙ ㄈㄥ ㄐㄧㄥˇ ㄍㄣ ㄕㄢ ㄕㄤˋ ㄉㄜ˙， ㄊㄚ ㄅㄧˇ ㄐㄧㄠˋ ㄒㄧㄤˇ ㄎㄢˋ ㄕㄢ ㄕㄤˋ ㄉㄜ˙.'"
+          :pinyin="'hai3 bian1 de feng1 jing3 gen1 shan1 shang4 de, ta1 bi3 jiao4 xiang3 kan4 shan1 shang4 de.'"
+          :translation="'海の景色と山の景色とでは、 彼は山の景色が見たいです。'"
         />
         <br>
         <p>
           ・美
         </p>
         <SentenceFormat
-          :sentence="'都貓之中, 那一隻貓的澎澎的毛最美.'"
-          :bopomofo="'ㄉㄡ ㄇㄠ ㄓ ㄓㄨㄥ, ㄋㄚˋ ㄧˋ ㄓ ㄇㄠ ㄉㄜ˙ ㄆㄥ ㄆㄥ ㄉㄜ˙ ㄇㄠˊ ㄗㄨㄟˋ ㄇㄟˇ.'"
-          :pinyin="'dou1 mao1 zhi1 zhong1, na4 yi1 zhi1 mao1 de peng2 peng2 de mao2 zui4 mei3.'"
+          :sentence="'所有的貓當中, 那一隻貓澎澎的毛最美.'"
+          :bopomofo="'ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄇㄠ ㄉㄤ ㄓㄨㄥ, ㄋㄚˋ ㄧˋ ㄓ ㄇㄠ ㄆㄥˊ  ㄆㄥˊ  ㄉㄜ˙ ㄇㄠˊ ㄗㄨㄟˋ ㄇㄟˇ.'"
+          :pinyin="'suo3 you3 de mao1 dang1 zhong1, na4 yi1 zhi1 mao1 peng2 peng2 de mao2 zui4 mei3.'"
           :translation="'すべての猫の中で、その猫のモフモフの毛が最も美しいです。'"
         />
         <br><p>
@@ -117,7 +117,7 @@
         <SentenceFormat
           :sentence="'Uber Eats送貨員來到房子的前面.'"
           :bopomofo="'Uber Eats ㄙㄨㄥˋ ㄏㄨㄛˋ ㄩㄢˊ ㄌㄞˊ ㄉㄠˋ ㄈㄤˊ ㄗ˙ ㄉㄜ˙ ㄑㄧㄢˊ ㄇㄧㄢˋ..'"
-          :pinyin="'song4 huo4 yuan2 lai2 dao4 fang2 zi3 de qian2 mian4.'"
+          :pinyin="'Uber Eats song4 huo4 yuan2 lai2 dao4 fang2 zi3 de qian2 mian4.'"
           :translation="'UberEatsの配達人は家の前まで来ます。'"
         />
         <br>
@@ -125,9 +125,9 @@
           ・海
         </p>
         <SentenceFormat
-          :sentence="'採牡蠣在海中.'"
-          :bopomofo="'ㄘㄞˇ ㄇㄨˇ ㄌㄧˋ ㄗㄞˋ ㄏㄞˇ ㄓㄨㄥ.'"
-          :pinyin="'cai3 mu3 li4 zai4 hai3 zhong1.'"
+          :sentence="'在海中採牡蠣.'"
+          :bopomofo="'ㄗㄞˋ ㄏㄞˇ ㄓㄨㄥ ㄘㄞˇ ㄇㄨˇ ㄌㄧˋ.'"
+          :pinyin="'zai4 hai3 zhong1 cai3 mu3 li4.'"
           :translation="'海で牡蠣を採ります。'"
         />
         <br>
@@ -145,19 +145,19 @@
           ・山
         </p>
         <SentenceFormat
-          :sentence="'他的興趣是爬山 .'"
-          :bopomofo="'ㄊㄚ ㄉㄜ˙ ㄒㄧㄥˋ ㄑㄩˋ ㄕˋ ㄆㄚˊ ㄕㄢ.'"
-          :pinyin="'ta1 de xing4 qu4 shi4 pa2 shan1.'"
-          :translation="'彼の趣味は登山です。'"
+          :sentence="'他喜歡山, 他的興趣是爬山 .'"
+          :bopomofo="'ㄊㄚ ㄒㄧˇ ㄏㄨㄢ ㄕㄢ, ㄊㄚ ㄉㄜ˙ ㄒㄧㄥˋ ㄑㄩˋ ㄕˋ ㄆㄚˊ ㄕㄢ.'"
+          :pinyin="'ta1 xi3 huan1 shan1, ta1 de xing4 qu4 shi4 pa2 shan1.'"
+          :translation="'彼は山が好きで、 彼の趣味は登山です。'"
         />
         <br>
         <p>
           ・真的
         </p>
         <SentenceFormat
-          :sentence="'那家超市今天賣真的便宜啤酒.'"
-          :bopomofo="'ㄋㄚˋ ㄐㄧㄚ ㄔㄠ ㄕˋ ㄐㄧㄣ ㄊㄧㄢ ㄇㄞˋ ㄓㄣ ㄉㄜ˙ ㄆㄧㄢˊ ㄧˊ ㄆㄧˊ ㄐㄧㄡˇ.'"
-          :pinyin="'na4 jia1 chao1 shi4 jin1 tian1 mai4 zhen1 de pian2 yi2 pi2 jiu3.'"
+          :sentence="'那家超市今天賣的啤酒真的便宜.'"
+          :bopomofo="'ㄋㄚˋ ㄐㄧㄚ ㄔㄠ ㄕˋ ㄐㄧㄣ ㄊㄧㄢ ㄇㄞˋ ㄉㄜ˙ ㄆㄧˊ ㄐㄧㄡˇ ㄓㄣ ㄉㄜ˙ ㄆㄧㄢˊ ㄧˊ.'"
+          :pinyin="'na4 jia1 chao1 shi4 jin1 tian1 mai4 de pi2 jiu3 zhen1 de pian2 yi2.'"
           :translation="'そのスーパーマーケットは今日本当に安いビールを売っている。'"
         />
         <br>
@@ -165,20 +165,20 @@
           ・地方
         </p>
         <SentenceFormat
-          :sentence="'我家附近是有很多咖啡店的地方.'"
-          :bopomofo="'ㄨㄛˇ ㄐㄧㄚ ㄈㄨˋ ㄐㄧㄣˋ ㄕˋ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄎㄚ ㄈㄟ ㄉㄧㄢˋ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ.'"
-          :pinyin="'wo3 jia1 fu4 jin4 shi4 you3 hen3 duo1 ka1 fe1i dian4 de di4 fang1.'"
-          :translation="'私の家の近くにはたくさんの喫茶店があります。'"
+          :sentence="'你喜歡他的什麼地方.'"
+          :bopomofo="'ㄋㄧˇ ㄒㄧˇ ㄏㄨㄢ ㄊㄚ ㄉㄜ˙ ㄕㄣˊ ㄇㄜ˙ ㄉㄧˋ ㄈㄤ.'"
+          :pinyin="'ni3 xi3 huan1 ta1 de shen2 me di4 fang1.'"
+          :translation="'彼のどんなところが好きですか?'"
         />
         <br>
         <p>
           ・現在
         </p>
         <SentenceFormat
-          :sentence="'我現在不可能到機場接你.'"
-          :bopomofo="'ㄨㄛˇ ㄒㄧㄢˋ ㄗㄞˋ ㄅㄨˋ ㄎㄜˇ ㄋㄥˊ ㄉㄠˋ ㄐㄧ ㄔㄤˇ ㄐㄧㄝ ㄋㄧˇ.'"
-          :pinyin="'wo3 xian4 zai4 bu4 ke3 neng2 dao4 ji1 chang3 jie1 ni3.'"
-          :translation="'今空港に迎えに行くのは無理です。'"
+          :sentence="'我現在沒辦法去接你.'"
+          :bopomofo="'ㄨㄛˇ ㄒㄧㄢˋ ㄗㄞˋ ㄇㄟˊ ㄅㄢˋ ㄈㄚˇ ㄑㄩˋ ㄐㄧㄝ ㄋㄧˇ.'"
+          :pinyin="'wo3 xian4 zai4 mei2 ban4 fa3 qu4 jie1 ni3.'"
+          :translation="'今迎えに行くのは無理です。'"
         />
         <br>
         <p>
@@ -225,9 +225,9 @@
           ・上課
         </p>
         <SentenceFormat
-          :sentence="'由於他是在線學生， 不必去上課.'"
-          :bopomofo="'ㄧㄡˊ ㄩˊ ㄊㄚ ㄕˋ ㄗㄞˋ ㄒㄧㄢˋ ㄒㄩㄝˊ ㄕㄥ， ㄅㄨˊ ㄅㄧˋ ㄑㄩˋ ㄕㄤˋ ㄎㄜˋ.'"
-          :pinyin="'you2 yu2 ta1 shi4 zai4 xian1 xue2 sheng1, bu2 bi4 qu4 shang4 ke4.'"
+          :sentence="'由於他是在線生， 不必去上課.'"
+          :bopomofo="'ㄧㄡˊ ㄩˊ ㄊㄚ ㄕˋ ㄗㄞˋ ㄒㄧㄢˋ ㄕㄥ， ㄅㄨˊ ㄅㄧˋ ㄑㄩˋ ㄕㄤˋ ㄎㄜˋ.'"
+          :pinyin="'you2 yu2 ta1 shi4 zai4 xian1 sheng1, bu2 bi4 qu4 shang4 ke4.'"
           :translation="'彼はオンラインの生徒なので、 クラスに行く必要はありません。'"
         />
         <br>
@@ -245,9 +245,9 @@
           ・聽說
         </p>
         <SentenceFormat
-          :sentence="'你聽說他要去台北嗎?'"
-          :bopomofo="'ㄋㄧˇ ㄊㄧㄥ ㄕㄨㄛ ㄊㄚ ㄧㄠˋ ㄑㄩˋ ㄊㄞˊ ㄅㄟˇ ㄇㄚ˙.'"
-          :pinyin="'ni3 ting1 shuo1 ta1 yao4 qu4 tai2 bei3 ma2?'"
+          :sentence="'你聽說他要去台北了嗎?'"
+          :bopomofo="'ㄋㄧˇ ㄊㄧㄥ ㄕㄨㄛ ㄊㄚ ㄧㄠˋ ㄑㄩˋ ㄊㄞˊ ㄅㄟˇ ㄌㄜ˙ ㄇㄚ˙.'"
+          :pinyin="'ni3 ting1 shuo1 ta1 yao4 qu4 tai2 bei3 le ma2?'"
           :translation="'彼が台北に行くと聞きましたか?'"
         />
         <br>
@@ -265,9 +265,9 @@
           ・方便
         </p>
         <SentenceFormat
-          :sentence="'這裡附近不太方便.'"
-          :bopomofo="'ㄓㄜˋ ㄌㄧˇ ㄈㄨˋ ㄐㄧㄣˋ ㄅㄨˊ ㄊㄞˋ ㄈㄤ ㄅㄧㄢˋ.'"
-          :pinyin="'zhe4 li3 fu4 jin4 bu2 tai4 fang1 bian4.'"
+          :sentence="'這附近不太方便.'"
+          :bopomofo="'ㄓㄜˋ ㄈㄨˋ ㄐㄧㄣˋ ㄅㄨˊ ㄊㄞˋ ㄈㄤ ㄅㄧㄢˋ.'"
+          :pinyin="'zhe4 fu4 jin4 bu2 tai4 fang1 bian4.'"
           :translation="'この辺りはあまり便利ではありません。'"
         />
         <br>
@@ -275,19 +275,19 @@
           ・這裡
         </p>
         <SentenceFormat
-          :sentence="'請坐這裡.'"
-          :bopomofo="'ㄑㄧㄥˇ ㄗㄨㄛˋ ㄓㄜˋ ㄌㄧˇ.'"
-          :pinyin="'qing3 zuo4 zhe4 li3.'"
-          :translation="'ここに座ってください。'"
+          :sentence="'你的書在我這裡.'"
+          :bopomofo="'ㄋㄧˇ ㄉㄜ˙ ㄕㄨ ㄗㄞˋ ㄨㄛˇ ㄓㄜˋ ㄌㄧˇ.'"
+          :pinyin="'ni3 de shu1 zai4 wo3 zhe4 li3.'"
+          :translation="'あなたの本は私のところにあります。'"
         />
         <br>
         <p>
           ・學生
         </p>
         <SentenceFormat
-          :sentence="'到這個週末學生一定要買那個書.'"
-          :bopomofo="'ㄉㄠˋ ㄓㄜˋ ㄍㄜˋ ㄓㄡ ㄇㄛˋ ㄒㄩㄝˊ ㄕㄥ ㄧˊ ㄉㄧㄥˋ ㄧㄠˋ ㄇㄞˇ ㄋㄚˋ ㄍㄜˋ ㄕㄨ.'"
-          :pinyin="'dao4 zhe4 ge4 zhou1 mo4 xue2 sheng1 yi1 ding4 yao4 mai3 na4 ge4 shu1.'"
+          :sentence="'學生到這個週末一定要買那本書.'"
+          :bopomofo="'ㄒㄩㄝˊ ㄕㄥ ㄉㄠˋ ㄓㄜˋ ㄍㄜˋ ㄓㄡ ㄇㄛˋ ㄧˊ ㄉㄧㄥˋ ㄧㄠˋ ㄇㄞˇ ㄋㄚˋ ㄅㄣˇ ㄕㄨ.'"
+          :pinyin="'xue2 sheng1 dao4 zhe4 ge4 zhou1 mo4 yi1 ding4 yao4 mai3 na4 ben3 shu1.'"
           :translation="'学生は今週末までにその本を購入する必要があります。'"
         />
         <br>
@@ -295,9 +295,9 @@
           ・在
         </p>
         <SentenceFormat
-          :sentence="'在山上, 你必須小心對天氣.'"
-          :bopomofo="'ㄗㄞˋ ㄕㄢ ㄕㄤˋ, ㄋㄧˇ ㄅㄧˋ ㄒㄩ ㄒㄧㄠˇ ㄒㄧㄣ ㄉㄨㄟˋ ㄊㄧㄢ ㄑㄧˋ.'"
-          :pinyin="'zai4 shan1 shang4, ni3 bi4 xu1 xiao3 xin1 dui4 tian1 qi4.'"
+          :sentence="'在山上, 你必須小心天氣.'"
+          :bopomofo="'ㄗㄞˋ ㄕㄢ ㄕㄤˋ, ㄋㄧˇ ㄅㄧˋ ㄒㄩ ㄒㄧㄠˇ ㄒㄧㄣ ㄊㄧㄢ ㄑㄧˋ.'"
+          :pinyin="'zai4 shan1 shang4, ni3 bi4 xu1 xiao3 xin1 tian1 qi4.'"
           :translation="'山では天気に気をつけなければならない。'"
         />
         <br>
@@ -305,10 +305,10 @@
           ・東西
         </p>
         <SentenceFormat
-          :sentence="'你有什麼能寫的東西嗎?'"
-          :bopomofo="'ㄋㄧˇ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄋㄥˊ ㄒㄧㄝˇ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙ ㄇㄚ˙?'"
-          :pinyin="'ni3 you3 shen2 me neng2 xie3 de dong1 xi ma?'"
-          :translation="'何か書くものはありますか?'"
+          :sentence="'你有什麼能快吃到的東西嗎?'"
+          :bopomofo="'ㄋㄧˇ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄋㄥˊ ㄎㄨㄞˋ ㄔ ㄉㄠˋ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ ㄇㄚ˙?'"
+          :pinyin="'ni3 you3 shen2 me neng2 kuai4 chi1 dao4 de dong1 xi1 ma2?'"
+          :translation="'何か早く食べられるものはありますか?'"
         />
         <br>
         <p>
@@ -325,9 +325,9 @@
           ・裡面
         </p>
         <SentenceFormat
-          :sentence="'因為她每天打掃, 那個房子的裡面很乾淨.'"
-          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄊㄚ ㄇㄟˇ ㄊㄧㄢ ㄉㄚˇ ㄙㄠˇ, ㄋㄚˋ ㄍㄜˋ ㄈㄤˊ ㄗ˙ ㄉㄜ˙ ㄌㄧˇ ㄇㄧㄢˋ ㄏㄣˇ ㄍㄢ ㄐㄧㄥˋ.'"
-          :pinyin="'yin1 wei4 ta1 mei3 tian1 da3 sao3, na4 ge4 fang2 zi3 de li3 mian4 hen3 gan1 jing4.'"
+          :sentence="'因為她每天打掃, 那棟房子的裡面很乾淨.'"
+          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄊㄚ ㄇㄟˇ ㄊㄧㄢ ㄉㄚˇ ㄙㄠˇ, ㄋㄚˋ ㄉㄨㄥˋ ㄈㄤˊ ㄗ˙ ㄉㄜ˙ ㄌㄧˇ ㄇㄧㄢˋ ㄏㄣˇ ㄍㄢ ㄐㄧㄥˋ.'"
+          :pinyin="'yin1 wei4 ta1 mei3 tian1 da3 sao3, na4 dong4 fang2 zi3 de li3 mian4 hen3 gan1 jing4.'"
           :translation="'彼女は毎日掃除をしているので、家の中はとてもきれいです。'"
         />
         <br>
@@ -356,20 +356,21 @@
           ・宿舍
         </p>
         <SentenceFormat
-          :sentence="'一間房間的宿舍有幾個床?'"
-          :bopomofo="'ㄧ ㄐㄧㄢ ㄈㄤˊ ㄐㄧㄢ ㄉㄜ˙ ㄙㄨˋ ㄕㄜˋ ㄧㄡˇ ㄐㄧˇ ㄍㄜˋ ㄔㄨㄤˊ?'"
-          :pinyin="'yi1 jian1 fang2 jian1 de su4 she4 you3 ji3 ge4 chuang2.'"
-          :translation="'寮の一部屋にはいくつベッドがありますか?'"
+          :sentence="'宿舍的房間有幾張床?'"
+          :bopomofo="'ㄙㄨˋ ㄕㄜˋ ㄉㄜ˙ ㄈㄤˊ ㄐㄧㄢ ㄧㄡˇ ㄐㄧˇ ㄓㄤ ㄔㄨㄤˊ?'"
+          :pinyin="'su4 she4 de fang2 jian1 you3 ji3 zhang1 chuang2?'"
+          :translation="'寮の部屋にはいくつベッドがありますか?'"
         />
         <br>
         <p>
           ・樓
         </p>
         <SentenceFormat
-          :sentence="'從上樓可以看到很美的風景.'"
-          :bopomofo="'ㄘㄨㄥˊ ㄕㄤˋ ㄌㄡˊ ㄎㄜˇ ㄧˇ ㄎㄢˋ ㄉㄠˋ ㄏㄣˇ ㄇㄟˇ ㄉㄧˊ ㄈㄥ ㄐㄧㄥˇ.'"
-          :pinyin="'cong2 shang4 lou2 ke3 yi3 kan4 dao4 hen3 mei3 de feng1 jing3.'"
+          :sentence="'從樓上可以看到很美的風景.'"
+          :bopomofo="'ㄘㄨㄥˊ ㄌㄡˊ ㄕㄤˋ ㄎㄜˇ ㄧˇ ㄎㄢˋ ㄉㄠˋ ㄏㄣˇ ㄇㄟˇ ㄉㄧˊ ㄈㄥ ㄐㄧㄥˇ.'"
+          :pinyin="'cong2 lou2 shang4 ke3 yi3 kan4 dao4 hen3 mei3 de feng1 jing3.'"
           :translation="'上階からは美しい景色をご覧いただけます。'"
+          :memo="'※「上階」は「樓上」。 「階下=樓下」と同じ語順。 「上樓」だと「上の階に行く」。'"
         />
         <br>
         <p>
@@ -396,9 +397,9 @@
           ・圖書館
         </p>
         <SentenceFormat
-          :sentence="'我會去圖書館尋找動物的書.'"
-          :bopomofo="'ㄨㄛˇ ㄏㄨㄟˋ ㄑㄩˋ ㄊㄨˊ ㄕㄨ ㄍㄨㄢˇ ㄒㄩㄣˊ ㄓㄠˇ ㄉㄨㄥˋ ㄨˋ ㄉㄜ˙ ㄕㄨ.'"
-          :pinyin="'wo3 hui4 qu4 tu2 shu1 guan3 xun2 zhao3 dong4 wu4 de shu1.'"
+          :sentence="'我會去圖書館找動物有關的書.'"
+          :bopomofo="'ㄨㄛˇ ㄏㄨㄟˋ ㄑㄩˋ ㄊㄨˊ ㄕㄨ ㄍㄨㄢˇ ㄓㄠˇ ㄉㄨㄥˋ ㄨˋ ㄧㄡˇ ㄍㄨㄢ ㄉㄜ˙ ㄕㄨ.'"
+          :pinyin="'wo3 hui4 qu4 tu2 shu1 guan3 zhao3 dong4 wu4 you3 guan1 de shu1.'"
           :translation="'図書館に行って動物に関する本を探します。'"
         />
         <br>
@@ -410,6 +411,8 @@
           :bopomofo="'ㄋㄚˋ ㄉㄨㄥˋ ㄉㄚˋ ㄌㄡˊ ㄉㄜ˙ ㄆㄤˊ ㄅㄧㄢ ㄧㄡˇ ㄌㄧㄥˋ ㄧ ㄉㄨㄥˋ ㄉㄚˋ ㄌㄡˊ.'"
           :pinyin="'na4 dong4 da4 lou2 de pang2 bian1 you3 ling4 yi1 dong4 da4 lo2u.'"
           :translation="'そのビルの隣に別のビルがあります。'"
+          :memo="'※「另一個/棟 etc..」は、 「たくさんある中のもう1つ」。 「別的」は、「2つある中のもう1つ」のニュアンス。 ' +
+            '例：「我買了禮物給你, 還有別的.(プレゼントをあげます。 もう1つありました!)」'"
         />
         <br>
         <p>
@@ -420,6 +423,8 @@
           :bopomofo="'ㄑㄧㄥˇ ㄓㄥˇ ㄌㄧˇ ㄐㄧㄠˋ ㄕˋ ㄌㄧˇ ㄉㄜ˙ ㄓㄨㄛ ㄗ˙ ㄏㄢˋ ㄧˇ ㄗ˙.'"
           :pinyin="'qing3 zheng3 li3 jiao4 shi4 li3 de zhuo1 zi han4 yi3 zi.'"
           :translation="'教室の机と椅子を片付けてください。'"
+          :memo="'※動詞の「教(ㄐㄧㄠ/jiao1)=教える」は一声。 ' +
+            '「教室/教師/教科書/教堂 etc..」 など、 「教」がつく名詞になってるものは四声(ㄐㄧㄠˋ/jiao4)。'"
         />
         <br>
         <p>
