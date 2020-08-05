@@ -107,7 +107,7 @@
         </p>
         <SentenceFormat
           :sentence="'所有的貓當中, 那一隻貓澎澎的毛最美.'"
-          :bopomofo="'ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄇㄠ ㄉㄤ ㄓㄨㄥ, ㄋㄚˋ ㄧˋ ㄓ ㄇㄠ ㄆㄥˊ  ㄆㄥˊ  ㄉㄜ˙ ㄇㄠˊ ㄗㄨㄟˋ ㄇㄟˇ.'"
+          :bopomofo="'ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄇㄠ ㄉㄤ ㄓㄨㄥ, ㄋㄚˋ ㄧ ㄓ ㄇㄠ ㄆㄥˊ  ㄆㄥˊ  ㄉㄜ˙ ㄇㄠˊ ㄗㄨㄟˋ ㄇㄟˇ.'"
           :pinyin="'suo3 you3 de mao1 dang1 zhong1, na4 yi1 zhi1 mao1 peng2 peng2 de mao2 zui4 mei3.'"
           :translation="'すべての猫の中で、その猫のモフモフの毛が最も美しいです。'"
         />
