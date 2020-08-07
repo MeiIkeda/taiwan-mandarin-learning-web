@@ -387,8 +387,8 @@
         </p>
         <SentenceFormat
           :sentence="'晚飯前，你要洗你的手．'"
-          :bopomofo="''"
-          :pinyin="''"
+          :bopomofo="'ㄨㄢˇ ㄈㄢˋ ㄑㄧㄢˊ， ㄋㄧˇ ㄧㄠˋ ㄒㄧˇ ㄋㄧˇ ㄉㄜ˙ ㄕㄡˇ.'"
+          :pinyin="'wan3 fan4 qian2, ni3 yao4 xi3 ni3 de shou3.'"
           :translation="'夕飯の前に、手を洗わなくてはいけません。'"
         />
         <br>

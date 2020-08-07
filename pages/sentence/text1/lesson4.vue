@@ -27,8 +27,8 @@
         </p>
         <SentenceFormat
           :sentence="'你的公司有一共多少日本人?'"
-          :bopomofo="'ㄋㄧˇ ㄉㄜ˙ ㄍㄨㄥ ㄙ ㄧㄡˇ ㄧ ㄍㄨㄥˋ ㄉㄨㄛ ㄕㄠˇ ㄖˋ ㄅㄣˇ ㄖㄣˊ?'"
-          :pinyin="'ni3 de gong1 si1 you3 yi1 gong4 duo1 shao3 ri4 ben3 ren2?'"
+          :bopomofo="'ㄋㄧˇ ㄉㄜ˙ ㄍㄨㄥ ㄙ ㄧㄡˇ ㄧˇ ㄍㄨㄥˋ ㄉㄨㄛ ㄕㄠˇ ㄖˋ ㄅㄣˇ ㄖㄣˊ?'"
+          :pinyin="'ni3 de gong1 si1 you3 yi2 gong4 duo1 shao3 ri4 ben3 ren2?'"
           :translation="'あなたの会社には何人の日本人がいますか？'"
         />
         <br>
@@ -198,7 +198,7 @@
         <SentenceFormat
           :sentence="'我要一杯小杯熱咖啡, 外帶.'"
           :bopomofo="'ㄨㄛˇ ㄧㄠˋ ㄧ ㄅㄟ ㄒㄧㄠˇ ㄅㄟ ㄖㄜˋ ㄎㄚ ㄈㄟ, ㄨㄞˋ ㄉㄞˋ.'"
-          :pinyin="'wo3 yao4 yi1 be1i xiao3 be1i re4 ka1 fe1i, wa4i da4i  '"
+          :pinyin="'wo3 yao4 yi1 bei1 xiao3 bei1 re4 ka1 fei1, wai4 dai4.'"
           :translation="'ホットコーヒーのスモールを持ち帰りでお願いします。'"
         />
         <br>
