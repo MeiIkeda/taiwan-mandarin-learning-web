@@ -21,10 +21,12 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
-    // script: [
-    //   { 'data-ad-client': process.env.GA_ADSENSE_ID }
-    // ]
+    ],
+    // script: [{
+    //   'data-ad-client': process.env.GA_ADSENSE_ID,
+    //   async: true,
+    //   src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+    // }]
   },
   /*
   ** Customize the progress-bar color
@@ -58,7 +60,8 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/sentry',
-    '@nuxtjs/google-adsense',
+    // TODO 全ページに同じタグで広告を表示させるため？一時退避
+    // '@nuxtjs/google-adsense',
     '@nuxtjs/google-analytics',
     '@nuxtjs/sitemap'
   ],
@@ -71,12 +74,13 @@ export default {
     dsn: process.env.SENTRY_DSN, // Enter your project's DSN here
     config: {} // Additional config
   },
-  'google-adsense': {
-    id: process.env.GA_ADSENSE_ID,
-    pageLevelAds: true,
-    analyticsUacct: process.env.GA_TRACKING_ID,
-    analyticsDomainName: process.env.DOMAIN
-  },
+  // TODO 全ページに同じタグで広告を表示させるため？一時退避
+  // 'google-adsense': {
+  //   id: process.env.GA_ADSENSE_ID,
+  //   pageLevelAds: true,
+  //   analyticsUacct: process.env.GA_TRACKING_ID,
+  //   analyticsDomainName: process.env.DOMAIN
+  // },
   'google-analytics': {
     id: process.env.GA_TRACKING_ID
   },

@@ -448,21 +448,6 @@ export default {
       }
     }
   }
-  // head () {
-  //   return {
-  //     // title: '台湾華語 taiwan-mandarin/vocabulary',
-  //     script: [
-  //       { 'data-ad-client': process.env.GA_ADSENSE_ID }
-  //     ],
-  //     meta: [
-  //       { hid: 'title1', title: '台湾華語 taiwan-mandarin/vocabulary' },
-  //       // { hid: 'description', name: 'description', content: '中国語語彙ページ' },
-  //       { name: 'keywords', content: '中国語,台湾,台湾華語,繁体字,単語,聞き流し' },
-  //       { hid: 'description1', name: 'description', content: '中国語語彙ページ。 レベル別に単語を表示したり、音声再生、聞き流しができます' },
-  //       { hid: 'og:decription1', name: 'og:decription', content: '国語語彙ページ。 レベル別に単語を表示したり、音声再生、聞き流しができます' }
-  //     ]
-  //   }
-  // }
 }
 </script>
 
