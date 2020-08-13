@@ -384,7 +384,7 @@ export default {
         this.showErrorAlert = true
       }
       await this.sleep(2000)
-      MySpeechSynthesis.methods.mySpeak(this.word.simplified, voices)
+      MySpeechSynthesis.methods.mySpeak(this.word.bopomofo, voices)
       await this.sleep(3000)
       this.count++
     },
