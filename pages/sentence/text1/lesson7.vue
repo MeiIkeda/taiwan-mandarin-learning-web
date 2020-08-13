@@ -16,9 +16,9 @@
     <div class="main-text1">
       <div class="text-itself-about">
         <br>
-        <p style="font-size: 20px; text-align: center">
+        <h1 style="font-size: 20px; text-align: center">
           當代中文課程課1・第7章
-        </p>
+        </h1>
         <p>
           【新単語+例文】
         </p>

@@ -133,6 +133,10 @@
     <div align="center">
       <div class="text-itself-vocabulary">
         <br>
+        <h1 style="font-size:17px; font-weight: bold; text-align: center">
+          台湾華語&nbsp;語彙ページ&nbsp;<br>(レベル別単語リスト、発音、聞き流しetc)
+        </h1>
+        <br>
         <p>
           このページでは、単語をレベル毎に取得して、意味や発音を確認したり、単語の聞き流しをしたりする事ができます。<br>
         </p><p style="font-weight: bold">

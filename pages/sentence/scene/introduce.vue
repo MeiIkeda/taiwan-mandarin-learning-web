@@ -16,9 +16,9 @@
     <div class="main-text1">
       <div class="text-itself-about">
         <br>
-        <p style="font-size: 20px; text-align: center">
+        <h1 style="font-size: 20px; text-align: center">
           自己紹介
-        </p>
+        </h1>
         <p>
           ・初めて会う時
         </p>

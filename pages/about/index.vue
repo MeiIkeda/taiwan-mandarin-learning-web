@@ -16,9 +16,10 @@
     <div class="main-text">
       <div class="text-itself-about">
         <br>
-        <p style="font-size: 20px; text-align: center">
+        <h1 style="font-size: 20px; text-align: center">
           サイト概要
-        </p>
+        </h1>
+        <br>
         <p>
           華語とは中国語を指し、地域によって様々な方言が存在します。<br>
           華語は台湾でも共通語として使用されており、繁体字と呼ばれる文字を使う事などを特徴とします。<br>

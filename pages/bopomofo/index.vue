@@ -285,9 +285,10 @@
     <br>
     <div align="center">
       <div class="text-itself-bopomofo">
-        <p style="font-weight: bold; text-align: center">
-          ページ概要
-        </p>
+        <h1 style="font-size:17px; font-weight: bold; text-align: center">
+          台湾の発音記号ボポモフォ(注音)と中国語の一般的な発音記号ピンイン(拼音)
+        </h1>
+        <br>
         <p>
           本ページには、ボポモフォと、対応するピンインを載せています。※下記にそれぞれの説明有り<br>
           台湾のパソコン/スマホのキーボードと並びが同じなので、眺めてみて下さい。<br>

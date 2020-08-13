@@ -16,9 +16,9 @@
     <div class="main-text1">
       <div>
         <br>
-        <p style="font-size: 20px; text-align: center">
-          例文集
-        </p>
+        <h1 style="font-size: 20px; text-align: center">
+          台湾華語の例文集
+        </h1>
         <p class="text-itself-about">
           ・シーン別<br>
           シーン別の例文集です。<br>
