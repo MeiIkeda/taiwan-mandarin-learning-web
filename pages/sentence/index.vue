@@ -60,6 +60,19 @@
           <nuxt-link :to="{ name: 'sentence-text1-lesson6' }" style="text-align: center">
             當代中文課程課1・第6章
           </nuxt-link>
+          <br>
+          <nuxt-link :to="{ name: 'sentence-text1-lesson7' }" style="text-align: center">
+            當代中文課程課1・第7章
+          </nuxt-link>
+        </p>
+        <br>
+        <p class="text-itself-about">
+          <span style="color: red">※音声再生に関して：お使いのブラウザやバージョンによっては、音声再生に対応していない場合があります。
+            詳しくは
+            <nuxt-link :to="{ name: 'faq' }">
+              FAQページ
+            </nuxt-link>
+            をご覧ください。<br></span>
         </p>
         <br>
       </div>
