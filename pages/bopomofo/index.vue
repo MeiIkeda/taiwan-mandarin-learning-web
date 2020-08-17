@@ -385,27 +385,27 @@
         <tbody style="white-space:nowrap; text-align: center">
           <tr>
             <td>
-              <b-button @click="speak_bopomofo('ㄇㄚ')" style="background-color: #f7f8fb; color: black">
+              <b-button @click="speak_bopomofo('媽')" style="background-color: #f7f8fb; color: black">
                 ㄇㄚ
               </b-button>
             </td>
             <td>
-              <b-button @click="speak_bopomofo('ㄇㄚˊ')" style="background-color: #f7f8fb; color: black">
+              <b-button @click="speak_bopomofo('麻')" style="background-color: #f7f8fb; color: black">
                 ㄇㄚˊ
               </b-button>
             </td>
             <td>
-              <b-button @click="speak_bopomofo('ㄇㄚˇ')" style="background-color: #f7f8fb; color: black">
+              <b-button @click="speak_bopomofo('馬')" style="background-color: #f7f8fb; color: black">
                 ㄇㄚˇ
               </b-button>
             </td>
             <td>
-              <b-button @click="speak_bopomofo('ㄇㄚˋ')" style="background-color: #f7f8fb; color: black">
+              <b-button @click="speak_bopomofo('杩')" style="background-color: #f7f8fb; color: black">
                 ㄇㄚˋ
               </b-button>
             </td>
             <td>
-              <b-button @click="speak_bopomofo('ㄇㄚ˙')" style="background-color: #f7f8fb; color: black">
+              <b-button @click="speak_bopomofo('嗎')" style="background-color: #f7f8fb; color: black">
                 ㄇㄚ˙
               </b-button>
             </td>

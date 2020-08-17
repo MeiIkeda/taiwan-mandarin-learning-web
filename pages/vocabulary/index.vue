@@ -377,14 +377,14 @@ export default {
 
     async interval (voices) {
       this.showErrorAlert = false
-      const message = MySpeechSynthesis.methods.mySpeak(this.word.bopomofo, voices)
+      const message = MySpeechSynthesis.methods.mySpeak(this.word.traditional, voices)
       if (message !== 'success') {
         this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
         this.$sentry.captureException(new Error('Error = ' + message))
         this.showErrorAlert = true
       }
       await this.sleep(2000)
-      MySpeechSynthesis.methods.mySpeak(this.word.bopomofo, voices)
+      MySpeechSynthesis.methods.mySpeak(this.word.traditional, voices)
       await this.sleep(3000)
       this.count++
     },
@@ -444,7 +444,7 @@ export default {
         }
       }
       this.showErrorAlert = false
-      const message = MySpeechSynthesis.methods.mySpeak(this.word.bopomofo, voices)
+      const message = MySpeechSynthesis.methods.mySpeak(this.word.traditional, voices)
       if (message !== 'success') {
         this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
         this.$sentry.captureException(new Error('Error = ' + message))

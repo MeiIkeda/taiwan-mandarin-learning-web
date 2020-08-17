@@ -4,7 +4,7 @@
       <tbody>
         <tr>
           <td>
-            <b-button @click="speak(bopomofo)" style="background-color: lightskyblue; color: black">
+            <b-button @click="speak(sentence)" style="background-color: lightskyblue; color: black">
               speak!
             </b-button>
           </td><td>&nbsp;&nbsp;&nbsp;</td><td>

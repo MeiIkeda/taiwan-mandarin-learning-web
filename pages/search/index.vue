@@ -92,7 +92,7 @@
             </tr>
             <tr v-for="list in wordsToShow" :key="list.id" style="color: #47494e">
               <td>
-                <b-button @click="speak(list.bopomofo)" style="background-color: #f0f8ff; color: black">
+                <b-button @click="speak(list.traditional)" style="background-color: #f0f8ff; color: black">
                   {{ list.traditional }}
                 </b-button>
               </td>
