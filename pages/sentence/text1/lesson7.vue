@@ -30,6 +30,7 @@
           :bopomofo="'ㄑㄧㄥˇ ㄋㄧˇ ㄕㄤˋ ㄨˇ ㄐㄧㄡˇ ㄉㄧㄢˇ ㄅㄢˋ ㄓ ㄑㄧㄢˊ ㄌㄞˊ ㄐㄧㄠˋ ㄕˋ.'"
           :pinyin="'qing3 ni3 shang4 wu3 jiu3 dian3 ban4 zhi1 qian2 lai2 jiao4 shi4.'"
           :translation="'午前9時30分までに教室にお越しください。'"
+          :memo="'※「之前(ㄓ ㄑㄧㄢˊ/zhi1 qian2)」でも「以前(ㄧˇ ㄑㄧㄢˊ/yi3 qian2)」でもOK。'"
         />
         <br>
         <p>
@@ -148,9 +149,9 @@
           ・下次
         </p>
         <SentenceFormat
-          :sentence="'今天的台灣菜做得很好了, 下次我會做法國菜。'"
-          :bopomofo="'ㄐㄧㄣ ㄊㄧㄢ ㄉㄜ˙ ㄊㄞˊ ㄨㄢ ㄘㄞˋ ㄗㄨㄛˋ ㄉㄜ˙ ㄏㄣˇ ㄏㄠˇ ㄌㄜ˙, ㄒㄧㄚˋ ㄘˋ ㄨㄛˇ ㄏㄨㄟˋ ㄗㄨㄛˋ ㄈㄚˇ ㄍㄨㄛˊ ㄘㄞˋ.'"
-          :pinyin="'ji1n tian1 de tai2 wan1 cai4 zuo4 de hen3 hao3 le, xia4 ci4 wo3 hui4 zuo4 fa3 guo2 cai4.'"
+          :sentence="'今天的台灣菜做得很好, 下次我會做法國菜。'"
+          :bopomofo="'ㄐㄧㄣ ㄊㄧㄢ ㄉㄜ˙ ㄊㄞˊ ㄨㄢ ㄘㄞˋ ㄗㄨㄛˋ ㄉㄜ˙ ㄏㄣˇ ㄏㄠˇ, ㄒㄧㄚˋ ㄘˋ ㄨㄛˇ ㄏㄨㄟˋ ㄗㄨㄛˋ ㄈㄚˇ ㄍㄨㄛˊ ㄘㄞˋ.'"
+          :pinyin="'ji1n tian1 de tai2 wan1 cai4 zuo4 de hen3 hao3, xia4 ci4 wo3 hui4 zuo4 fa3 guo2 cai4.'"
           :translation="'今日の台湾料理はとてもよく出来ました、 次回はフランス料理を作ります。'"
         />
         <br>
