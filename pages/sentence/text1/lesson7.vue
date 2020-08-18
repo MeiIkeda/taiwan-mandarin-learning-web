@@ -36,9 +36,9 @@
           ・KTV
         </p>
         <SentenceFormat
-          :sentence="'日本歌在台灣KTV都很舊。'"
-          :bopomofo="'ㄖˋ ㄅㄣˇ ㄍㄜ ㄗㄞˋ ㄊㄞˊ ㄨㄢ KTV ㄉㄡ ㄏㄣˇ ㄐㄧㄡˋ.'"
-          :pinyin="'ri4 ben3 ge1 zai4 tai2 wa1n KTV dou1 hen3 jiu4.'"
+          :sentence="'在台灣KTV裡的日本歌都很老。'"
+          :bopomofo="'ㄗㄞˋ ㄊㄞˊ ㄨㄢ KTV ㄌㄧˇ ㄉㄜ˙ ㄖˋ ㄅㄣˇ ㄍㄜ ㄉㄡ ㄏㄣˇ ㄌㄠˇ.'"
+          :pinyin="'zai4 tai2 wan1 KTV li3 de ri4 ben3 ge1 dou1 hen3 lao3.'"
           :translation="'台湾KTVにある日本の歌はどれも古いです。'"
         />
         <br>
@@ -46,19 +46,20 @@
           ・唱歌
         </p>
         <SentenceFormat
-          :sentence="'我不能唱歌用英文。'"
-          :bopomofo="'ㄨㄛˇ ㄅㄨˋ ㄋㄥˊ ㄔㄤˋ ㄍㄜ ㄩㄥˋ ㄧㄥ ㄨㄣˊ.'"
-          :pinyin="'wo3 bu4 neng2 chang4 ge1 yong4 ying1 wen2.'"
+          :sentence="'我不能用英文唱歌。'"
+          :bopomofo="'ㄨㄛˇ ㄅㄨˋ ㄋㄥˊ ㄩㄥˋ ㄧㄥ ㄨㄣˊ ㄔㄤˋ ㄍㄜ.'"
+          :pinyin="'wo3 bu4 neng2 yong4 ying1 wen2 chang4 ge1.'"
           :translation="'私は英語で歌えません。'"
+          :memo="'※ここでの「用」は介詞(前置詞)になる。'"
         />
         <br>
         <p>
           ・分
         </p>
         <SentenceFormat
-          :sentence="'別的十分後, 幫我關冷氣。'"
-          :bopomofo="'ㄅㄧㄝˊ ㄉㄜ˙ ㄕˊ ㄈㄣ ㄏㄡˋ, ㄅㄤ ㄨㄛˇ ㄍㄨㄢ ㄌㄥˇ ㄑㄧˋ.'"
-          :pinyin="'bie2 de shi2 fen1 hou4, bang1 wo3 guan1 leng3 qi4.'"
+          :sentence="'十分後以後, 幫我關冷氣。'"
+          :bopomofo="'ㄕˊ ㄈㄣ ㄏㄡˋ ㄧˇ ㄏㄡˋ, ㄅㄤ ㄨㄛˇ ㄍㄨㄢ ㄌㄥˇ ㄑㄧˋ.'"
+          :pinyin="'shi2 fen1 hou4 yi3 hou4, bang1 wo3 guan1 leng3 qi4.'"
           :translation="'あと10分経ったら、 冷房を消してください。'"
         />
         <br>
@@ -66,9 +67,9 @@
           ・見面
         </p>
         <SentenceFormat
-          :sentence="'我不喜歡見面我不知道的人。'"
-          :bopomofo="'ㄨㄛˇ ㄅㄨˋ ㄒㄧˇ ㄏㄨㄢ ㄐㄧㄢˋ ㄇㄧㄢˋ ㄨㄛˇ ㄅㄨˋ ㄓ ㄉㄠˋ ㄉㄜ˙ ㄖㄣˊ.'"
-          :pinyin="'wo3 bu4 xi3 huan1 jian4 mian4 wo3 bu4 zhi1 dao4 de ren2.'"
+          :sentence="'我不喜歡跟我不知道的人見面。'"
+          :bopomofo="'ㄨㄛˇ ㄅㄨˋ ㄒㄧˇ ㄏㄨㄢ ㄍㄣ ㄨㄛˇ ㄅㄨˋ ㄓ ㄉㄠˋ ㄉㄜ˙ ㄖㄣˊ ㄐㄧㄢˋ ㄇㄧㄢˋ.'"
+          :pinyin="'wo3 bu4 xi3 huan1 gen1 wo3 bu4 zhi1 dao4 de ren2 jian4 mian4.'"
           :translation="'知らない人に会うのは好きではありません。'"
         />
         <br>
@@ -76,9 +77,9 @@
           ・從
         </p>
         <SentenceFormat
-          :sentence="'那隻貓的尾巴從根到端是一直。'"
-          :bopomofo="'ㄋㄚˋ ㄓˇ ㄇㄠ ㄉㄜ˙ ㄨㄟˇ ㄅㄚ ㄘㄨㄥˊ ㄍㄣ ㄉㄠˋ ㄉㄨㄢ ㄕˋ ㄧ ㄓˊ.'"
-          :pinyin="'na4 zhi1 mao1 de wei3 ba1 cong2 gen1 dao4 duan1 shi4 yi1 zhi2.'"
+          :sentence="'那隻貓的尾巴從頭到尾是直的。'"
+          :bopomofo="'ㄋㄚˋ ㄓˇ ㄇㄠ ㄉㄜ˙ ㄨㄟˇ ㄅㄚ ㄘㄨㄥˊ ㄊㄡˊ ㄉㄠˋ ㄨㄟˇ ㄕˋ ㄓˊ ㄉㄜ˙.'"
+          :pinyin="'na4 zhi1 mao1 de wei3 ba1 cong2 tou2 dao4 wei3 shi4 zhi2 de.'"
           :translation="'あの猫の尻尾は根元から先までまっすぐです。'"
         />
         <br>
@@ -86,9 +87,9 @@
           ・中午
         </p>
         <SentenceFormat
-          :sentence="'派對只是中午開始。'"
-          :bopomofo="'ㄆㄞˋ ㄉㄨㄟˋ ㄓˇ ㄕˋ ㄓㄨㄥ ㄨˇ ㄎㄞ ㄕˇ.'"
-          :pinyin="'pai4 dui4 zhi3 shi4 zhong1 wu3 kai1 shi3.'"
+          :sentence="'派對正好中午開始。'"
+          :bopomofo="'ㄆㄞˋ ㄉㄨㄟˋ ㄓㄥˋ ㄏㄠˇ ㄓㄨㄥ ㄨˇ ㄎㄞ ㄕˇ.'"
+          :pinyin="'pai4 dui4 zheng4 hao3 zhong1 wu3 kai1 shi3.'"
           :translation="'パーティはちょうど正午に始まります。'"
         />
         <br>
@@ -106,10 +107,11 @@
           ・銀行
         </p>
         <SentenceFormat
-          :sentence="'我得去銀行提款錢。'"
-          :bopomofo="'ㄨㄛˇ ㄉㄟˇ ㄑㄩˋ ㄧㄣˊ ㄏㄤˊ ㄊㄧˊ ㄎㄨㄢˇ ㄑㄧㄢˊ.'"
-          :pinyin="'wo3 dei3 qu4 yin2 hang2 ti2 kuan3 qian2.'"
+          :sentence="'我得去銀行提錢。'"
+          :bopomofo="'ㄨㄛˇ ㄉㄟˇ ㄑㄩˋ ㄧㄣˊ ㄏㄤˊ ㄊㄧˊ ㄑㄧㄢˊ.'"
+          :pinyin="'wo3 dei3 qu4 yin2 hang2 ti2 qian2.'"
           :translation="'銀行にお金をおろしに行かなくてはいけません。'"
+          :memo="'※「お金を引き出す」は「提錢(ㄊㄧˊ ㄑㄧㄢˊ/ti2 qian2)」「提款(ㄊㄧˊ ㄎㄨㄢˇ/ti2 kuan3)」どちらもOK'"
         />
         <br>
         <p>
@@ -146,7 +148,7 @@
           ・下次
         </p>
         <SentenceFormat
-          :sentence="'今天的台灣菜做的很好了, 下次我會做法國菜。'"
+          :sentence="'今天的台灣菜做得很好了, 下次我會做法國菜。'"
           :bopomofo="'ㄐㄧㄣ ㄊㄧㄢ ㄉㄜ˙ ㄊㄞˊ ㄨㄢ ㄘㄞˋ ㄗㄨㄛˋ ㄉㄜ˙ ㄏㄣˇ ㄏㄠˇ ㄌㄜ˙, ㄒㄧㄚˋ ㄘˋ ㄨㄛˇ ㄏㄨㄟˋ ㄗㄨㄛˋ ㄈㄚˇ ㄍㄨㄛˊ ㄘㄞˋ.'"
           :pinyin="'ji1n tian1 de tai2 wan1 cai4 zuo4 de hen3 hao3 le, xia4 ci4 wo3 hui4 zuo4 fa3 guo2 cai4.'"
           :translation="'今日の台湾料理はとてもよく出来ました、 次回はフランス料理を作ります。'"
@@ -156,19 +158,20 @@
           ・沒問題
         </p>
         <SentenceFormat
-          :sentence="'我壞了手機. 沒問題, 二手店有便宜的。'"
-          :bopomofo="'ㄨㄛˇ ㄏㄨㄞˋ ㄌㄜ˙ ㄕㄡˇ ㄐㄧ. ㄇㄟˊ ㄨㄣˋ ㄊㄧˊ, ㄦˋ ㄕㄡˇ ㄉㄧㄢˋ ㄧㄡˇ ㄆㄧㄢˊ ㄧˊ ㄉㄜ˙.'"
-          :pinyin="'wo3 huai4 le shou3 ji1. mei2 wen4 ti2, er4 shou3 dian4 you3 pian2 yi2 de.'"
+          :sentence="'我手機壞了. 沒問題, 二手店有便宜的。'"
+          :bopomofo="'ㄨㄛˇ ㄕㄡˇ ㄐㄧ ㄏㄨㄞˋ ㄌㄜ˙. ㄇㄟˊ ㄨㄣˋ ㄊㄧˊ, ㄦˋ ㄕㄡˇ ㄉㄧㄢˋ ㄧㄡˇ ㄆㄧㄢˊ ㄧˊ ㄉㄜ˙.'"
+          :pinyin="'wo3 shou3 ji1 huai4 le. mei2 wen4 ti2, er4 shou3 dian4 you3 pian2 yi2 de.'"
           :translation="'スマートフォンを壊してしまいました。 問題ありません、 中古の店に安いものがあります。'"
+          :memo="'※壞(形容詞)+了 → 状態変化'"
         />
         <br>
         <p>
           ・對了
         </p>
         <SentenceFormat
-          :sentence="'上午課完了. 對了, 那時候下午課開始呢?'"
-          :bopomofo="'ㄕㄤˋ ㄨˇ ㄎㄜˋ ㄨㄢˊ ㄌㄜ˙. ㄉㄨㄟˋ ㄌㄜ˙, ㄋㄚˋ ㄕˊ ㄏㄡ˙ ㄒㄧㄚˋ ㄨˇ ㄎㄜˋ ㄎㄞ ㄕˇ ㄋㄜ˙?'"
-          :pinyin="'shang4 wu3 ke4 wan2 le. dui4 le, na4 shi2 hou4 xia4 wu3 ke4 kai1 shi3 ne?'"
+          :sentence="'上午的課完了. 對了, 下午的課什麼時候開始呢?'"
+          :bopomofo="'ㄕㄤˋ ㄨˇ ㄉㄜ˙ ㄎㄜˋ ㄨㄢˊ ㄌㄜ˙. ㄉㄨㄟˋ ㄌㄜ˙, ㄒㄧㄚˋ ㄨˇ ㄉㄜ˙ ㄎㄜˋ ㄕㄣˊ ㄇㄜ˙ ㄕˊ ㄏㄡˋ ㄎㄞ ㄕˇ ㄋㄜ˙?'"
+          :pinyin="'shang4 wu3 de ke4 wan2 le. dui4 le, xia4 wu3 de ke4 shen2 me shi2 hou4 kai1 shi3 ne?'"
           :translation="'午前の授業は終わりました。 ところで、午後の授業はいつ始まりますか?'"
         />
         <br>
@@ -176,9 +179,9 @@
           ・有空
         </p>
         <SentenceFormat
-          :sentence="'由於我現在有空, 我幫你作業。'"
-          :bopomofo="'ㄧㄡˊ ㄩˊ ㄨㄛˇ ㄒㄧㄢˋ ㄗㄞˋ ㄧㄡˇ ㄎㄨㄥˋ, ㄨㄛˇ ㄅㄤ ㄋㄧˇ ㄗㄨㄛˋ ㄧㄝˋ.'"
-          :pinyin="'you2 yu2 wo3 xian4 zai4 you3 kong4, wo3 bang1 ni3 zuo4 ye4.'"
+          :sentence="'由於我現在有空, 我幫你做作業。'"
+          :bopomofo="'ㄧㄡˊ ㄩˊ ㄨㄛˇ ㄒㄧㄢˋ ㄗㄞˋ ㄧㄡˇ ㄎㄨㄥˋ, ㄨㄛˇ ㄅㄤ ㄋㄧˇ ㄗㄨㄛˋ ㄗㄨㄛˋ ㄧㄝˋ.'"
+          :pinyin="'you2 yu2 wo3 xian4 zai4 you3 kong4, wo3 bang1 ni3 zuo4 zuo4 ye4.'"
           :translation="'今は暇なので、宿題を手伝います。'"
         />
         <br>
@@ -186,9 +189,9 @@
           ・再見
         </p>
         <SentenceFormat
-          :sentence="'你說了再見對你的朋友嗎?'"
-          :bopomofo="'ㄋㄧˇ ㄕㄨㄛ ㄌㄜ˙ ㄗㄞˋ ㄐㄧㄢˋ ㄉㄨㄟˋ ㄋㄧˇ ㄉㄜ˙ ㄆㄥˊ ㄧㄡˇ ㄇㄚ˙?'"
-          :pinyin="'ni3 shuo1 le zai4 jian4 dui4 ni3 de peng2 you3 ma2?'"
+          :sentence="'你對你的朋友說再見了嗎?'"
+          :bopomofo="'ㄋㄧˇ ㄉㄨㄟˋ ㄋㄧˇ ㄉㄜ˙ ㄆㄥˊ ㄧㄡˇ ㄕㄨㄛ ㄗㄞˋ ㄐㄧㄢˋ ㄌㄜ˙ ㄇㄚ˙?'"
+          :pinyin="'ni3 dui4 ni3 de peng2 you3 shuo1 zai4 jian4 le ma2?'"
           :translation="'友達にさよならを言いましたか?'"
         />
         <br>
@@ -196,9 +199,9 @@
           ・在
         </p>
         <SentenceFormat
-          :sentence="'我在用微波煮洋葱。 那個方法不但方便, 而且快。'"
-          :bopomofo="'ㄨㄛˇ ㄗㄞˋ ㄩㄥˋ ㄨㄟˊ ㄅㄛ ㄓㄨˇ ㄧㄤˊ ㄘㄨㄥ. ㄋㄚˋ ㄍㄜˋ ㄈㄤ ㄈㄚˇ ㄅㄨˊ ㄉㄢˋ ㄈㄤ ㄅㄧㄢˋ, ㄦˊ ㄑㄧㄝˇ ㄎㄨㄞˋ.'"
-          :pinyin="'wo3 zai4 yong4 wei2 bo1 zhu3 yang2 cong1. na4 ge4 fang1 fa3 bu2 dan4 fang1 bian4, er2 qie3 kuai4.'"
+          :sentence="'我用微波爐微波洋蔥。 那個方法不但方便, 而且快。'"
+          :bopomofo="'ㄨㄛˇ ㄩㄥˋ ㄨㄟ ㄅㄛ ㄌㄨˊ ㄨㄟ ㄅㄛ ㄧㄤˊ ㄘㄨㄥ. ㄋㄚˋ ㄍㄜˋ ㄈㄤ ㄈㄚˇ ㄅㄨˊ ㄉㄢˋ ㄈㄤ ㄅㄧㄢˋ, ㄦˊ ㄑㄧㄝˇ ㄎㄨㄞˋ.'"
+          :pinyin="'wo3 yong4 wei1 bo1 lu2 wei1 bo1 yang2 cong1. na4 ge4 fang1 fa3 bu2 dan4 fang1 bian4, er2 qie3 kuai4.'"
           :translation="'電子レンジで玉ねぎを調理しています。 この方法は便利なだけでなく、速いです。'"
         />
         <br>
@@ -226,9 +229,9 @@
           ・下課
         </p>
         <SentenceFormat
-          :sentence="'今天下課了有一點早。'"
-          :bopomofo="'ㄐㄧㄣ ㄊㄧㄢ ㄒㄧㄚˋ ㄎㄜˋ ㄌㄜ˙ ㄧㄡˇ ㄧˋ ㄉㄧㄢˇ ㄗㄠˇ.'"
-          :pinyin="'jin1 tian1 xia4 ke4 le you3 yi1 dian3 zao3.'"
+          :sentence="'今天早一點下課。'"
+          :bopomofo="'ㄐㄧㄣ ㄊㄧㄢ ㄗㄠˇ ㄧˋ ㄉㄧㄢˇ ㄒㄧㄚˋ ㄎㄜˋ.'"
+          :pinyin="'jin1 tian1 zao3 yi1 dian3 xia4 ke4.'"
           :translation="'今日は少し早く授業が終わりました。'"
         />
         <br>
@@ -236,9 +239,9 @@
           ・下午
         </p>
         <SentenceFormat
-          :sentence="'火車下午兩點會來。'"
-          :bopomofo="'ㄏㄨㄛˇ ㄔㄜ ㄒㄧㄚˋ ㄨˇ ㄌㄧㄤˇ ㄉㄧㄢˇ ㄏㄨㄟˋ ㄌㄞˊ.'"
-          :pinyin="'huo3 che1 xia4 wu3 liang3 dian3 hui4 lai2.'"
+          :sentence="'火車下午兩點會到。'"
+          :bopomofo="'ㄏㄨㄛˇ ㄔㄜ ㄒㄧㄚˋ ㄨˇ ㄌㄧㄤˇ ㄉㄧㄢˇ ㄏㄨㄟˋ ㄉㄠˋ.'"
+          :pinyin="'huo3 che1 xia4 wu3 liang3 dian3 hui4 dao4.'"
           :translation="'電車は午後２時に到着します。'"
         />
         <br>
@@ -246,10 +249,11 @@
           ・半
         </p>
         <SentenceFormat
-          :sentence="'你可以吃一半的薯片。'"
-          :bopomofo="'ㄋㄧˇ ㄎㄜˇ ㄧˇ ㄔ ㄧ ㄅㄢˋ ㄉㄜ˙ ㄕㄨˇ ㄆㄧㄢˋ.'"
-          :pinyin="'ni3 ke3 yi3 chi1 yi1 ban4 de shu3 pian4.'"
+          :sentence="'你可以吃一半的洋芋片。'"
+          :bopomofo="'ㄋㄧˇ ㄎㄜˇ ㄧˇ ㄔ ㄧ ㄅㄢˋ ㄉㄜ˙ ㄧㄤˊ ㄩˋ ㄆㄧㄢˋ.'"
+          :pinyin="'ni3 ke3 yi3 chi1 yi1 ban4 de yang2 yu4 pian4.'"
           :translation="'ポテトチップスの半分を食べていいですよ。'"
+          :memo="'※「洋芋片(ㄧㄤˊ ㄩˋ ㄆㄧㄢˋ/yang2 yu4 pian4)」は台湾らしい表現。 「薯片(ㄕㄨˇ ㄆㄧㄢˋ/shu3 pian4)」はどちらかと言うと中国大陸の表現。'"
         />
         <br>
         <p>
@@ -266,10 +270,11 @@
           ・結束
         </p>
         <SentenceFormat
-          :sentence="'賞櫻的季節結束了, 天氣越來越暖和。'"
-          :bopomofo="'ㄕㄤˇ ㄧㄥ ㄉㄜ˙ ㄐㄧˋ ㄐㄧㄝˊ ㄐㄧㄝˊ ㄕㄨˋ ㄌㄜ˙, ㄊㄧㄢ ㄑㄧˋ ㄩㄝˋ ㄌㄞˊ ㄩㄝˋ ㄋㄨㄢˇ ㄏㄨㄛ˙.'"
-          :pinyin="'shang3 ying1 de ji4 jie2 jie2 shu4 le, tia1n qi4 yue4 lai2 yue4 nuan3 huo.'"
+          :sentence="'賞櫻的季節結束了, 天氣越來越暖和了。'"
+          :bopomofo="'ㄕㄤˇ ㄧㄥ ㄉㄜ˙ ㄐㄧˋ ㄐㄧㄝˊ ㄐㄧㄝˊ ㄕㄨˋ ㄌㄜ˙, ㄊㄧㄢ ㄑㄧˋ ㄩㄝˋ ㄌㄞˊ ㄩㄝˋ ㄋㄨㄢˇ ㄏㄨㄛ˙ ㄌㄜ˙.'"
+          :pinyin="'shang3 ying1 de ji4 jie2 jie2 shu4 le, tian1 qi4 yue4 lai2 yue4 nuan3 huo le.'"
           :translation="'花見の季節が終わって、 暖かくなってきました。'"
+          :memo="'※「暖和了」 → 「形容詞+了」で状態変化。'"
         />
         <br>
         <p>
@@ -306,9 +311,9 @@
           ・天
         </p>
         <SentenceFormat
-          :sentence="'每週我上班五天。'"
-          :bopomofo="'ㄇㄟˇ ㄓㄡ ㄨㄛˇ ㄕㄤˋ ㄅㄢ ㄨˇ ㄊㄧㄢ.'"
-          :pinyin="'mei3 zhou1 wo shang4 ban1 wu3 tian1.'"
+          :sentence="'每週我上五天班。'"
+          :bopomofo="'ㄇㄟˇ ㄓㄡ ㄨㄛˇ ㄕㄤˋ ㄨˇ ㄊㄧㄢ ㄅㄢ.'"
+          :pinyin="'mei3 zhou1 wo shang4 wu3 tian1 ban1.'"
           :translation="'私は一週間に5日会社に行きます。'"
         />
         <br>
@@ -336,9 +341,9 @@
           ・開始
         </p>
         <SentenceFormat
-          :sentence="'聽說那家商店開始賣包子。 今天你想去買一個?'"
-          :bopomofo="'ㄊㄧㄥ ㄕㄨㄛ ㄋㄚˋ ㄐㄧㄚ ㄕㄤ ㄉㄧㄢˋ ㄎㄞ ㄕˇ ㄇㄞˋ ㄅㄠ ㄗ˙． ㄐㄧㄣ ㄊㄧㄢ ㄋㄧˇ ㄒㄧㄤˇ ㄑㄩˋ ㄇㄞˇ ㄧˊ ㄍㄜˋ?'"
-          :pinyin="'ting1 shuo1 na4 jia1 shang1 dian4 kai1 shi3 mai4 bao1 zi3. jin1 tian1 ni3 xiang3 qu4 mai3 yi1 ge4?'"
+          :sentence="'聽說那家商店開始賣包子。 今天你想去買嗎?'"
+          :bopomofo="'ㄊㄧㄥ ㄕㄨㄛ ㄋㄚˋ ㄐㄧㄚ ㄕㄤ ㄉㄧㄢˋ ㄎㄞ ㄕˇ ㄇㄞˋ ㄅㄠ ㄗ˙． ㄐㄧㄣ ㄊㄧㄢ ㄋㄧˇ ㄒㄧㄤˇ ㄑㄩˋ ㄇㄞˇ ㄇㄚ˙?'"
+          :pinyin="'ting1 shuo1 na4 jia1 shang1 dian4 kai1 shi3 mai4 bao1 zi3. jin1 tian1 ni3 xiang3 qu4 mai3 ma2?'"
           :translation="'あの店が肉まんを販売し始めたそうです。 今日買いに行きますか?'"
         />
         <br>
@@ -356,9 +361,9 @@
           ・寫
         </p>
         <SentenceFormat
-          :sentence="'請你寫在這裡你說的語句。'"
-          :bopomofo="'ㄑㄧㄥˇ ㄋㄧˇ ㄒㄧㄝˇ ㄗㄞˋ ㄓㄜˋ ㄌㄧˇ ㄋㄧˇ ㄕㄨㄛ ㄉㄜ˙ ㄩˇ ㄐㄩˋ.'"
-          :pinyin="'qing3 ni3 xie3 zai4 zhe4 li3 ni3 shuo1 de yu3 ju4.'"
+          :sentence="'請你在這裡寫下你說的單字。'"
+          :bopomofo="'ㄑㄧㄥˇ ㄋㄧˇ ㄗㄞˋ ㄓㄜˋ ㄌㄧˇ ㄒㄧㄝˇ ㄒㄧㄚˋ ㄋㄧˇ ㄕㄨㄛ ㄉㄜ˙ ㄉㄢ ㄗˋ.'"
+          :pinyin="'qing3 ni3 zai4 zhe4 li3 xie3 xia4 ni3 shuo1 de dan1 zi4.'"
           :translation="'ここにあなたが言った単語を書いてください。'"
         />
         <br>
@@ -366,9 +371,9 @@
           ・可以
         </p>
         <SentenceFormat
-          :sentence="'可以便宜一點房租嗎?'"
-          :bopomofo="'ㄎㄜˇ ㄧˇ ㄆㄧㄢˊ ㄧˊ ㄧˋ ㄉㄧㄢˇ ㄈㄤˊ ㄗㄨ ㄇㄚ˙?'"
-          :pinyin="'ke3 yi3 pian2 yi2 yi1 dian3 fang2 zu1 ma?.'"
+          :sentence="'房租可以便宜一點嗎?'"
+          :bopomofo="'ㄈㄤˊ ㄗㄨ ㄎㄜˇ ㄧˇ ㄆㄧㄢˊ ㄧˊ ㄧˋ ㄉㄧㄢˇ ㄇㄚ˙?'"
+          :pinyin="'fang2 zu1 ke3 yi3 pian2 yi2 yi1 dian3 ma2?'"
           :translation="'家賃を安くできませんか?'"
         />
         <br>
@@ -376,9 +381,9 @@
           ・問
         </p>
         <SentenceFormat
-          :sentence="'你幫不幫我問店員他們有別的色。'"
-          :bopomofo="'ㄋㄧˇ ㄅㄤ ㄅㄨˋ ㄅㄤ ㄨㄛˇ ㄨㄣˋ ㄉㄧㄢˋ ㄩㄢˊ ㄊㄚ ㄇㄣ˙ ㄧㄡˇ ㄅㄧㄝˊ ㄉㄜ˙ ㄙㄜˋ?'"
-          :pinyin="'ni3 bang1 bu4 bang1 wo3 wen4 dian4 yuan2 ta1 men you3 bie2 de se4?'"
+          :sentence="'你可不可以幫我問店員他們有沒有別的顏色。'"
+          :bopomofo="'ㄋㄧˇ ㄎㄜˇ ㄅㄨˋ ㄎㄜˇ ㄧˇ ㄅㄤ ㄨㄛˇ ㄨㄣˋ ㄉㄧㄢˋ ㄩㄢˊ ㄊㄚ ㄇㄣ˙ ㄧㄡˇ ㄇㄟˊ ㄧㄡˇ ㄅㄧㄝˊ ㄉㄜ˙ ㄧㄢˊ ㄙㄜˋ?'"
+          :pinyin="'ni3 ke3 bu4 ke3 yi3 bang1 wo3 wen4 dian4 yuan2 ta1 men you3 mei2 you3 bie2 de yan2 se4?'"
           :translation="'他の色があるかどうか店員に尋ねてもらえませんか?'"
         />
         <br>
@@ -406,9 +411,9 @@
           ・有意思
         </p>
         <SentenceFormat
-          :sentence="'釀酒有意思。'"
-          :bopomofo="'ㄋㄧㄤˋ ㄐㄧㄡˇ ㄧㄡˇ ㄧˋ ㄙ.'"
-          :pinyin="'niang4 jiu3 you3 yi4 si1.'"
+          :sentence="'釀酒很有意思。'"
+          :bopomofo="'ㄋㄧㄤˋ ㄐㄧㄡˇ ㄏㄣˇ ㄧㄡˇ ㄧˋ ㄙ.'"
+          :pinyin="'niang4 jiu3 hen3 you3 yi4 si1.'"
           :translation="'お酒作りは面白いです。'"
         />
         <br>
