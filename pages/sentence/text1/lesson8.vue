@@ -26,7 +26,7 @@
           ・坐
         </p>
         <SentenceFormat
-          :sentence="'最近我便肥, 所以我停止坐電梯。'"
+          :sentence="'最近我變肥, 所以我停止坐電梯。'"
           :bopomofo="'ㄗㄨㄟˋ ㄐㄧㄣˋ ㄨㄛˇ ㄅㄧㄢˋ ㄈㄟˊ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄊㄧㄥˊ ㄓˇ ㄗㄨㄛˋ ㄉㄧㄢˋ ㄊㄧ.'"
           :pinyin="'zui4 jin4 wo3 bian4 fei2, suo3 yi3 wo3 ting2 zhi3 zuo4 dian4 ti1.'"
           :translation="'最近太ってしまったので、エレベーターに乗るのを止めました。'"
