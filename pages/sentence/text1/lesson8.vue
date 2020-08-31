@@ -46,9 +46,9 @@
           ・跟
         </p>
         <SentenceFormat
-          :sentence="'我要跟你看電影配啤酒。'"
-          :bopomofo="'ㄨㄛˇ ㄧㄠˋ ㄍㄣ ㄋㄧˇ ㄎㄢˋ ㄉㄧㄢˋ ㄧㄥˇ ㄆㄟˋ ㄆㄧˊ ㄐㄧㄡˇ.'"
-          :pinyin="'wo3 yao4 gen1 ni3 kan4 dian4 ying3 pei4 pi2 jiu3.'"
+          :sentence="'我要跟你配啤酒看電影。'"
+          :bopomofo="'ㄨㄛˇ ㄧㄠˋ ㄍㄣ ㄋㄧˇ ㄆㄟˋ ㄆㄧˊ ㄐㄧㄡˇ ㄎㄢˋ ㄉㄧㄢˋ ㄧㄥˇ.'"
+          :pinyin="'wo3 yao4 gen1 ni3 pei4 pi2 jiu3 kan4 dian4 ying3.'"
           :translation="'あなたとビールを飲みながら映画を見たいです。'"
         />
         <br>
@@ -66,9 +66,9 @@
           ・怎麼
         </p>
         <SentenceFormat
-          :sentence="'教我怎麼說apple用中文。'"
-          :bopomofo="'ㄐㄧㄠˋ ㄨㄛˇ ㄗㄣˇ ㄇㄜ˙ ㄕㄨㄛ apple ㄩㄥˋ ㄓㄨㄥ ㄨㄣˊ.'"
-          :pinyin="'jiao1 wo3 zen3 me shuo1 apple yong4 zhong1 wen2.'"
+          :sentence="'教我用中文怎麼說apple。'"
+          :bopomofo="'ㄐㄧㄠˋ ㄨㄛˇ ㄩㄥˋ ㄓㄨㄥ ㄨㄣˊ ㄗㄣˇ ㄇㄜ˙ ㄕㄨㄛ apple.'"
+          :pinyin="'jiao1 wo3 yong4 zhong1 wen2 zen3 me shuo1 apple.'"
           :translation="'中国語でりんごを何と言うか教えて。'"
         />
         <br>
@@ -146,9 +146,9 @@
           ・又
         </p>
         <SentenceFormat
-          :sentence="'這季節的芒果很甜，又便宜。'"
-          :bopomofo="'ㄓㄜˋ ㄐㄧˋ ㄐㄧㄝˊ ㄉㄜ˙ ㄇㄤˊ ㄍㄨㄛˇ ㄏㄣˇ ㄊㄧㄢˊ， ㄧㄡˋ ㄆㄧㄢˊ ㄧˊ.'"
-          :pinyin="'zhe4 ji4 jie2 de mang2 guo3 hen3 tian2, you4 pian2 yi2.'"
+          :sentence="'這季節的芒果又甜又便宜。'"
+          :bopomofo="'ㄓㄜˋ ㄐㄧˋ ㄐㄧㄝˊ ㄉㄜ˙ ㄇㄤˊ ㄍㄨㄛˇ ㄧㄡˋ ㄊㄧㄢˊ ㄧㄡˋ ㄆㄧㄢˊ ㄧˊ.'"
+          :pinyin="'zhe4 ji4 jie2 de mang2 guo3 you4 tian2 you4 pian2 yi2.'"
           :translation="'今シーズンのマンゴーはとても甘くて安いです。'"
         />
         <br>
@@ -186,9 +186,9 @@
           ・臺南
         </p>
         <SentenceFormat
-          :sentence="'從台北到臺南需要五個小時坐公共汽車。'"
-          :bopomofo="'ㄘㄨㄥˊ ㄊㄞˊ ㄅㄟˇ ㄉㄠˋ ㄊㄞˊ ㄋㄢˊ ㄒㄩ ㄧㄠˋ ㄨˇ ㄍㄜˋ ㄒㄧㄠˇ ㄕˊ ㄗㄨㄛˋ ㄍㄨㄥ ㄍㄨㄥˋ ㄑㄧˋ ㄔㄜ.'"
-          :pinyin="'cong2 tai2 bei3 dao4 tai2 nan2 xu1 yao4 wu3 ge4 xiao3 shi2 zuo4 gong1 gong4 qi4 che1.'"
+          :sentence="'從台北到臺南坐公共汽車需要五個小時。'"
+          :bopomofo="'ㄘㄨㄥˊ ㄊㄞˊ ㄅㄟˇ ㄉㄠˋ ㄊㄞˊ ㄋㄢˊ ㄗㄨㄛˋ ㄍㄨㄥ ㄍㄨㄥˋ ㄑㄧˋ ㄔㄜ ㄒㄩ ㄧㄠˋ ㄨˇ ㄍㄜˋ ㄒㄧㄠˇ ㄕˊ .'"
+          :pinyin="'cong2 tai2 bei3 dao4 tai2 nan2 zuo4 gong1 gong4 qi4 che1 xu1 yao4 wu3 ge4 xiao3 shi2.'"
           :translation="'台北から台南までバスで5時間かかります。'"
         />
         <br>
@@ -206,9 +206,9 @@
           ・網路上
         </p>
         <SentenceFormat
-          :sentence="'他網路上在找二手書。'"
-          :bopomofo="'ㄊㄚ ㄨㄤˇ ㄌㄨˋ ㄕㄤˋ ㄗㄞˋ ㄓㄠˇ ㄦˋ ㄕㄡˇ ㄕㄨ.'"
-          :pinyin="'ta1 wang3 lu4 shang4 zai4 zhao3 er4 shou3 shu1.'"
+          :sentence="'他在網路上找二手書。'"
+          :bopomofo="'ㄊㄚ ㄗㄞˋ ㄨㄤˇ ㄌㄨˋ ㄕㄤˋ ㄓㄠˇ ㄦˋ ㄕㄡˇ ㄕㄨ.'"
+          :pinyin="'ta1 zai4 wang3 lu4 shang4 zhao3 er4 shou3 shu1.'"
           :translation="'彼はインターネットで古本を探しています。'"
         />
         <br>
