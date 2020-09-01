@@ -226,9 +226,9 @@
           ・同學
         </p>
         <SentenceFormat
-          :sentence="'有時候我見面高學的同學。'"
-          :bopomofo="'ㄧㄡˇ ㄕˊ ㄏㄡˋ ㄨㄛˇ ㄐㄧㄢˋ ㄇㄧㄢˋ ㄍㄠ ㄒㄩㄝˊ ㄉㄜ˙ ㄊㄨㄥˊ ㄒㄩㄝˊ.'"
-          :pinyin="'you3 shi2 hou4 wo3 jian4 mian4 gao1 xue2 de tong2 xue2.'"
+          :sentence="'有時候我見高學的同學。'"
+          :bopomofo="'ㄧㄡˇ ㄕˊ ㄏㄡˋ ㄨㄛˇ ㄐㄧㄢˋ ㄍㄠ ㄒㄩㄝˊ ㄉㄜ˙ ㄊㄨㄥˊ ㄒㄩㄝˊ.'"
+          :pinyin="'you3 shi2 hou4 wo3 jian4 gao1 xue2 de tong2 xue2.'"
           :translation="'時々高校のクラスメートに会います。'"
         />
         <br>
@@ -237,8 +237,8 @@
         </p>
         <SentenceFormat
           :sentence="'一個星期我參觀阿媽兩次。'"
-          :bopomofo="'ㄧˊ ㄍㄜˋ ㄒㄧㄥ ㄑㄧ ㄨㄛˇ ㄘㄢ ㄍㄨㄢ ㄚ ㄇㄚ ㄌㄧㄤˇ ㄘˋ.'"
-          :pinyin="'yi1 ge4 xing1 qi1 wo3 can1 guan1 a1 ma1 liang3 ci4.'"
+          :bopomofo="'ㄧˊ ㄍㄜˋ ㄒㄧㄥ ㄑㄧˊ ㄨㄛˇ ㄘㄢ ㄍㄨㄢ ㄚ ㄇㄚ ㄌㄧㄤˇ ㄘˋ.'"
+          :pinyin="'yi1 ge4 xing1 qi2 wo3 can1 guan1 a1 ma1 liang3 ci4.'"
           :translation="'私は週に2回おばあちゃんを訪ねます。'"
         />
         <br>
