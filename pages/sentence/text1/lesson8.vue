@@ -96,9 +96,9 @@
           ・比較
         </p>
         <SentenceFormat
-          :sentence="'他的日文比較好我的中文。'"
-          :bopomofo="'ㄊㄚ ㄉㄜ˙ ㄖˋ ㄨㄣˊ ㄅㄧˇ ㄐㄧㄠˋ ㄏㄠˇ ㄨㄛˇ ㄉㄜ˙ ㄓㄨㄥ ㄨㄣˊ.'"
-          :pinyin="'ta1 de ri4 we2n bi3 jiao4 hao3 wo3 de zhong1 wen2.'"
+          :sentence="'他的日文比較我的中文好。'"
+          :bopomofo="'ㄊㄚ ㄉㄜ˙ ㄖˋ ㄨㄣˊ ㄅㄧˇ ㄐㄧㄠˋ ㄨㄛˇ ㄉㄜ˙ ㄓㄨㄥ ㄨㄣˊ ㄏㄠˇ.'"
+          :pinyin="'ta1 de ri4 we2n bi3 jiao4 wo3 de zhong1 wen2 hao3.'"
           :translation="'彼の日本語は私の中国語よりも上手です。'"
         />
         <br>
@@ -116,9 +116,9 @@
           ・車票
         </p>
         <SentenceFormat
-          :sentence="'你幫我確認這個車票的火車沒到。'"
-          :bopomofo="'ㄋㄧˇ ㄅㄤ ㄨㄛˇ ㄑㄩㄝˋ ㄖㄣˋ ㄓㄜˋ ㄍㄜˋ ㄔㄜ ㄆㄧㄠˋ ㄉㄜ˙ ㄏㄨㄛˇ ㄔㄜ ㄇㄟˊ ㄉㄠˋ.'"
-          :pinyin="'ni3 bang1 wo3 que4 ren4 zhe4 ge4 che1 piao4 de huo3 che1 mei2 dao4.'"
+          :sentence="'你幫我確認這張車票的火車沒到。'"
+          :bopomofo="'ㄋㄧˇ ㄅㄤ ㄨㄛˇ ㄑㄩㄝˋ ㄖㄣˋ ㄓㄜˋ ㄓㄤ ㄔㄜ ㄆㄧㄠˋ ㄉㄜ˙ ㄏㄨㄛˇ ㄔㄜ ㄇㄟˊ ㄉㄠˋ.'"
+          :pinyin="'ni3 bang1 wo3 que4 ren4 zhe4 zhang1 che1 piao4 de huo3 che1 mei2 dao4.'"
           :translation="'このチケットの列車が到着していないことを確認してください。'"
         />
         <br>
