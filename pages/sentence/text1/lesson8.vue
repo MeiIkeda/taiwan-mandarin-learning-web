@@ -217,7 +217,7 @@
         </p>
         <SentenceFormat
           :sentence="'車站前面的便利商店是二十四小時営業。'"
-          :bopomofo="'ㄔㄜ ㄓㄢˋ ㄑㄧㄢˊ ㄇㄧㄢˋ ㄉㄧˊ ㄅㄧㄢˋ ㄌㄧˋ ㄕㄤ ㄉㄧㄢˋ ㄕˋ ㄦˋ ㄕˊ ㄙˋ ㄒㄧㄠˇ ㄕˊ ㄧㄥˊ ㄧㄝˋ.'"
+          :bopomofo="'ㄔㄜ ㄓㄢˋ ㄑㄧㄢˊ ㄇㄧㄢˋ ㄉㄜ˙ ㄅㄧㄢˋ ㄌㄧˋ ㄕㄤ ㄉㄧㄢˋ ㄕˋ ㄦˋ ㄕˊ ㄙˋ ㄒㄧㄠˇ ㄕˊ ㄧㄥˊ ㄧㄝˋ.'"
           :pinyin="'che1 zhan4 qian2 mian4 de bian4 li4 shang1 dian4 shi4 er4 shi2 si4 xiao3 shi2 ying2 ye4.'"
           :translation="'駅前のコンビニは24時間営業です。'"
         />
