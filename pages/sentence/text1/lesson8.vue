@@ -168,7 +168,7 @@
         <SentenceFormat
           :sentence="'我可以在車站買便當嗎?'"
           :bopomofo="'ㄨㄛˇ ㄎㄜˇ ㄧˇ ㄗㄞˋ ㄔㄜ ㄓㄢˋ ㄇㄞˇ ㄅㄧㄢˋ ㄉㄤ ㄇㄚ˙?'"
-          :pinyin="'wo3 ke3 yi3 zai4 che1 zhan4 mai3 bian4 dang1 ma2?'"
+          :pinyin="'wo3 ke3 yi3 zai4 che1 zhan4 mai3 bian4 dang1 ma?'"
           :translation="'駅で弁当は買えますか？'"
         />
         <br>
@@ -176,9 +176,9 @@
           ・或是
         </p>
         <SentenceFormat
-          :sentence="'哪家店可以接受現錢或是信用卡。'"
-          :bopomofo="'ㄋㄚˇ ㄐㄧㄚ ㄉㄧㄢˋ ㄎㄜˇ ㄧˇ ㄐㄧㄝ ㄕㄡˋ ㄒㄧㄢˋ ㄑㄧㄢˊ ㄏㄨㄛˋ ㄕˋ ㄒㄧㄣˋ ㄩㄥˋ ㄎㄚˇ.'"
-          :pinyin="'na3 jia1 dian4 ke3 yi3 jie1 shou4 xian4 qian2 huo4 shi4 xin4 yong4 ka3.'"
+          :sentence="'那家店可以接受現錢或是信用卡。'"
+          :bopomofo="'ㄋㄚˋ ㄐㄧㄚ ㄉㄧㄢˋ ㄎㄜˇ ㄧˇ ㄐㄧㄝ ㄕㄡˋ ㄒㄧㄢˋ ㄑㄧㄢˊ ㄏㄨㄛˋ ㄕˋ ㄒㄧㄣˋ ㄩㄥˋ ㄎㄚˇ.'"
+          :pinyin="'na4 jia1 dian4 ke3 yi3 jie1 shou4 xian4 qian2 huo4 shi4 xin4 yong4 ka3.'"
           :translation="'あの店では現金またはクレジットカードが使えます。'"
         />
         <br>
