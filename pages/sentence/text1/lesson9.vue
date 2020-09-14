@@ -56,9 +56,9 @@
           ・電視
         </p>
         <SentenceFormat
-          :sentence="'最近看Youtube比受歡迎看電視。'"
-          :bopomofo="'ㄗㄨㄟˋ ㄐㄧㄣˋ ㄎㄢˋ Youtube ㄅㄧˇ ㄕㄡˋ ㄏㄨㄢ ㄧㄥˊ ㄎㄢˋ ㄉㄧㄢˋ ㄕˋ.'"
-          :pinyin="'zui4 jin4 kan4 Youtube bi3 shou4 huan1 ying2 kan4 dian4 shi4.'"
+          :sentence="'最近看Youtube比看電視受歡迎。'"
+          :bopomofo="'ㄗㄨㄟˋ ㄐㄧㄣˋ ㄎㄢˋ Youtube ㄅㄧˇ ㄎㄢˋ ㄉㄧㄢˋ ㄕˋ ㄕㄡˋ ㄏㄨㄢ ㄧㄥˊ.'"
+          :pinyin="'zui4 jin4 kan4 Youtube bi3 kan4 dian4 shi4 shou4 huan1 ying2.'"
           :translation="'最近はテレビを見るよりもYouTubeの方が人気があります。'"
         />
         <br>
@@ -226,7 +226,7 @@
           ・建議
         </p>
         <SentenceFormat
-          :sentence="'如果有人有建議，請舉手。'"
+          :sentence="'如果有人有建議， 請舉手。'"
           :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄧㄡˇ ㄖㄣˊ ㄧㄡˇ ㄐㄧㄢˋ ㄧˋ， ㄑㄧㄥˇ ㄐㄩˇ ㄕㄡˇ.'"
           :pinyin="'ru2 guo3 you3 ren2 you3 jian4 yi4, qing3 ju3 shou3.'"
           :translation="'提案がある人がいれば、 手を挙げてください。'"
@@ -236,7 +236,7 @@
           ・夜市
         </p>
         <SentenceFormat
-          :sentence="'逛逛夜市的時候，你應該帶零錢。'"
+          :sentence="'逛逛夜市的時候， 你應該帶零錢。'"
           :bopomofo="'ㄍㄨㄤˋ ㄍㄨㄤˋ ㄧㄝˋ ㄕˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ， ㄋㄧˇ ㄧㄥ ㄍㄞ ㄉㄞˋ ㄌㄧㄥˊ ㄑㄧㄢˊ.'"
           :pinyin="'guang4 guang4 ye4 shi4 de shi2 hou4, ni3 ying1 gai1 dai4 ling2 qian2.'"
           :translation="'夜市に行くときは、 小銭を持って行った方が良いです。'"
