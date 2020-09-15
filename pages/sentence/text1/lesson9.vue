@@ -117,8 +117,8 @@
         </p>
         <SentenceFormat
           :sentence="'我每年夏天放一個星期假。'"
-          :bopomofo="'ㄨㄛˇ ㄇㄟˇ ㄋㄧㄢˊ ㄒㄧㄚˋ ㄊㄧㄢ ㄈㄤˋ ㄧˊ ㄍㄜˋ ㄒㄧㄥ ㄑㄧ ㄐㄧㄚˇ.'"
-          :pinyin="'wo3 mei3 nian2 xia4 tian1 fang4 yi1 ge4 xing1 qi1 jia3.'"
+          :bopomofo="'ㄨㄛˇ ㄇㄟˇ ㄋㄧㄢˊ ㄒㄧㄚˋ ㄊㄧㄢ ㄈㄤˋ ㄧˊ ㄍㄜˋ ㄒㄧㄥ ㄑㄧ ㄐㄧㄚˋ.'"
+          :pinyin="'wo3 mei3 nian2 xia4 tian1 fang4 yi1 ge4 xing1 qi1 jia4.'"
           :translation="'私は毎年夏に一週間休暇を取ります。'"
         />
         <br>
