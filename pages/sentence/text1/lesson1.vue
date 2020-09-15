@@ -36,7 +36,7 @@
           ・來
         </p>
         <SentenceFormat
-          :sentence="'明天他會來家.'"
+          :sentence="'明天他會來家。'"
           :bopomofo="'ㄇㄧㄥˊ ㄊㄧㄢ ㄊㄚ ㄏㄨㄟˋ ㄌㄞˊ ㄐㄧㄚ.'"
           :pinyin="'ming2 tian1 ta1 hui4 lai2 jia1.'"
           :translation="'明日、彼が家に来る。'"
@@ -46,7 +46,7 @@
           ・是
         </p>
         <SentenceFormat
-          :sentence="'這是很好吃的包子.'"
+          :sentence="'這是很好吃的包子。'"
           :bopomofo="'ㄓㄜˋ ㄕˋ ㄏㄣˇ ㄏㄠˇ ㄔ ㄉㄜ˙ ㄅㄠ ㄗ˙.'"
           :pinyin="'zhe4 shi4 hen3 hao3 chi1 de bao1 zi3.'"
           :translation="'これはとても美味しい肉まんです。'"
@@ -56,7 +56,7 @@
           ・小姐
         </p>
         <SentenceFormat
-          :sentence="'陳小姐是台灣人.'"
+          :sentence="'陳小姐是台灣人。'"
           :bopomofo="'ㄔㄣˊ ㄒㄧㄠˇ ㄐㄧㄝˇ ㄕˋ ㄊㄞˊ ㄨㄢ ㄖㄣˊ.'"
           :pinyin="'chen2 xiao3 jie3 shi4 tai2 wan1 ren2.'"
           :translation="'Ms/Miss.陳は台湾人です。'"
@@ -69,14 +69,14 @@
           :sentence="'我可以吃這個嗎?'"
           :bopomofo="'ㄨㄛˇ ㄎㄜˇ ㄧˇ ㄔ ㄓㄜˋ ㄍㄜˋ ㄇㄚ˙?'"
           :pinyin="'wo3 ke3 yi3 chi1 zhe4 ge4 ma?'"
-          :translation="'これ食べてもいいですか？'"
+          :translation="'これを食べてもいいですか?'"
         />
         <br>
         <p>
           ・接
         </p>
         <SentenceFormat
-          :sentence="'他來機場接我.'"
+          :sentence="'他來機場接我。'"
           :bopomofo="'ㄊㄚ ㄌㄞˊ ㄐㄧ ㄔㄤˇ ㄐㄧㄝ ㄨㄛˇ.'"
           :pinyin="'ta1 lai2 ji1 chang3 jie1 wo3.'"
           :translation="'彼は私を迎えに空港に来る。'"
@@ -86,7 +86,7 @@
           ・我們
         </p>
         <SentenceFormat
-          :sentence="'我們都喜歡貓咪.'"
+          :sentence="'我們都喜歡貓咪。'"
           :bopomofo="'ㄨㄛˇ ㄇㄣ˙ ㄉㄡ ㄒㄧˇ ㄏㄨㄢ ㄇㄠ ㄇㄧ.'"
           :pinyin="'wo3 men dou1 xi3 huan1 mao1 mi1.'"
           :translation="'私たちはみんな猫が好き。'"
@@ -96,7 +96,7 @@
           ・我
         </p>
         <SentenceFormat
-          :sentence="'我在家.'"
+          :sentence="'我在家。'"
           :bopomofo="'ㄨㄛˇ ㄗㄞˋ ㄐㄧㄚ.'"
           :pinyin="'wo3 zai4 jia1.'"
           :translation="'家にいます。'"
@@ -106,7 +106,7 @@
           ・這
         </p>
         <SentenceFormat
-          :sentence="'這是我的蛋糕.'"
+          :sentence="'這是我的蛋糕。'"
           :bopomofo="'ㄓㄜˋ ㄕˋ ㄨㄛˇ ㄉㄜ˙ ㄉㄢˋ ㄍㄠ.'"
           :pinyin="'zhe4 shi4 wo3 de dan4 gao1.'"
           :translation="'これは私のケーキです。'"
@@ -116,7 +116,7 @@
           ・先生
         </p>
         <SentenceFormat
-          :sentence="'王先生喜歡喝茶.'"
+          :sentence="'王先生喜歡喝茶。'"
           :bopomofo="'ㄨㄤˊ ㄒㄧㄢ ㄕㄥ ㄒㄧˇ ㄏㄨㄢ ㄏㄜ ㄔㄚˊ.'"
           :pinyin="'wang2 xian1 sheng1 xi3 huan1 he1 cha2.'"
           :translation="'Mr.王はお茶を飲むのが好きです。'"
@@ -126,7 +126,7 @@
           ・好
         </p>
         <SentenceFormat
-          :sentence="'我很好.'"
+          :sentence="'我很好。'"
           :bopomofo="'ㄨㄛˇ ㄏㄣˇ ㄏㄠˇ.'"
           :pinyin="'wo3 hen3 hao3.'"
           :translation="'元気です。'"
@@ -166,7 +166,7 @@
           ・台灣
         </p>
         <SentenceFormat
-          :sentence="'台灣有很多好吃的菜.'"
+          :sentence="'台灣有很多好吃的菜。'"
           :bopomofo="'ㄊㄞˊ ㄨㄢ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄏㄠˇ ㄔ ㄉㄜ˙ ㄘㄞˋ.'"
           :pinyin="'tai2 wan1 you3 hen3 duo1 hao3 chi1 de cai4.'"
           :translation="'台湾にはおいしい料理がたくさんあります。'"
@@ -196,7 +196,7 @@
           ・是的
         </p>
         <SentenceFormat
-          :sentence="'是的, 這是我的包包.'"
+          :sentence="'是的, 這是我的包包。'"
           :bopomofo="'ㄕˋ ㄉㄜ˙, ㄓㄜˋ ㄕˋ ㄨㄛˇ ㄉㄜ˙ ㄅㄠ ㄅㄠ.'"
           :pinyin="'shi4 de, zhe4 shi4 wo3 de bao1 bao1.'"
           :translation="'そうです、私のバッグです。'"
@@ -206,7 +206,7 @@
           ・謝謝
         </p>
         <SentenceFormat
-          :sentence="'謝謝你來接我.'"
+          :sentence="'謝謝你來接我。'"
           :bopomofo="'ㄒㄧㄝˋ ㄒㄧㄝˋ ㄋㄧˇ ㄌㄞˊ ㄐㄧㄝ ㄨㄛˇ.'"
           :pinyin="'xie4 xie4 ni3 lai2 jie1 wo3.'"
           :translation="'迎えに来てくれてありがとう。'"
@@ -216,10 +216,10 @@
           ・不客氣
         </p>
         <SentenceFormat
-          :sentence="'不客氣. 你累不累?'"
-          :bopomofo="'ㄅㄨˋ ㄎㄜˋ ㄑㄧˋ. ㄋㄧˇ ㄌㄟˋ ㄅㄨˊ ㄌㄟˋ?'"
-          :pinyin="'bu4 ke4 qi4. ni3 lei4 bu2 lei4?'"
-          :translation="'どういたしまして。疲れましたか？'"
+          :sentence="'謝謝你的幫忙。 不客氣。'"
+          :bopomofo="'ㄒㄧㄝˋ ㄒㄧㄝˋ ㄋㄧˇ ㄉㄜ˙ ㄅㄤ ㄇㄤˊ。 ㄅㄨˊ ㄎㄜˋ ㄑㄧˋ'"
+          :pinyin="'xie4 xie4 ni3 de bang1 mang2. bu2 ke4 qi4.'"
+          :translation="'ご協力ありがとうございました。 どういたしまして。'"
           :memo="'※台湾では「不會(ㄅㄨˊ ㄏㄨㄟˋ/bu2 hui4)」もよく使う。'"
         />
         <br>
@@ -237,7 +237,7 @@
           ・請
         </p>
         <SentenceFormat
-          :sentence="'請給我一個杯子.'"
+          :sentence="'請給我一個杯子。'"
           :bopomofo="'ㄑㄧㄥˇ ㄍㄟˇ ㄨㄛˇ ㄧ ㄍㄜˋ ㄅㄟ ㄗ˙.'"
           :pinyin="'qing3 gei3 wo3 yi1 ge4 be1i zi3.'"
           :translation="'コップを1つ下さい。'"
@@ -250,7 +250,7 @@
           :sentence="'你喜不喜歡喝茶?'"
           :bopomofo="'ㄋㄧˇ ㄒㄧˇ ㄅㄨˋ ㄒㄧˇ ㄏㄨㄢ ㄏㄜ ㄔㄚˊ?'"
           :pinyin="'ni3 xi3 bu4 xi3 huan1 he1 cha2?'"
-          :translation="'あなたはお茶を飲むのが好きですか？'"
+          :translation="'あなたはお茶を飲むのが好きですか?'"
         />
         <br>
         <p>
@@ -267,7 +267,7 @@
           ・很
         </p>
         <SentenceFormat
-          :sentence="'很高興認識你.'"
+          :sentence="'很高興認識你。'"
           :bopomofo="'ㄏㄣˇ ㄍㄠ ㄒㄧㄥˋ ㄖㄣˋ ㄕ˙ ㄋㄧˇ.'"
           :pinyin="'hen3 gao1 xing4 ren4 shi2 ni3.'"
           :translation="'お会い出来て嬉しいです。'"
@@ -277,7 +277,7 @@
           ・好喝
         </p>
         <SentenceFormat
-          :sentence="'這個啤酒很好喝.'"
+          :sentence="'這個啤酒很好喝。'"
           :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄆㄧˊ ㄐㄧㄡˇ ㄏㄣˇ ㄏㄠˇ ㄏㄜ.'"
           :pinyin="'zhe4 ge4 pi2 jiu3 hen3 hao3 he1.'"
           :translation="'このビールはとても美味しいです。'"
@@ -287,7 +287,7 @@
           ・什麼
         </p>
         <SentenceFormat
-          :sentence="'我不知道美國菜是什麼味道.'"
+          :sentence="'我不知道美國菜是什麼味道。'"
           :bopomofo="'ㄨㄛˇ ㄅㄨˋ ㄓ ㄉㄠˋ ㄇㄟˇ ㄍㄨㄛˊ ㄘㄞˋ ㄕˋ ㄕㄣˊ ㄇㄜ˙ ㄨㄟˋ ㄉㄠˋ.'"
           :pinyin="'wo3 bu4 zhi1 dao4 mei3 guo2 cai4 shi4 shen2 me wei4 dao4.'"
           :translation="'私はアメリカ料理がどんな味か知りません。'"
@@ -296,7 +296,7 @@
           ・人
         </p>
         <SentenceFormat
-          :sentence="'今天城市有很多人.'"
+          :sentence="'今天城市有很多人。'"
           :bopomofo="'ㄐㄧㄣ ㄊㄧㄢ ㄔㄥˊ ㄕˋ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄖㄣˊ.'"
           :pinyin="'jin1 tian1 cheng2 shi4 you3 hen3 duo1 ren2.'"
           :translation="'今日、街にはたくさんの人がいます。'"
@@ -306,7 +306,7 @@
           ・喜歡
         </p>
         <SentenceFormat
-          :sentence="'我喜歡看電影配啤酒和炸雞.'"
+          :sentence="'我喜歡看電影配啤酒和炸雞。'"
           :bopomofo="'ㄨㄛˇ ㄒㄧˇ ㄏㄨㄢ ㄎㄢˋ ㄉㄧㄢˋ ㄧㄥˇ ㄆㄟˋ ㄆㄧˊ ㄐㄧㄡˇ ㄏㄜˊ ㄓㄚˊ ㄐㄧ.'"
           :pinyin="'wo3 xi3 huan1 kan4 dian4 ying3 pei4 pi2 jiu3 he2 zha2 ji1 .'"
           :translation="'私はビールと唐揚げと一緒に映画を見るのが好きです。'"
@@ -327,7 +327,7 @@
           ・他
         </p>
         <SentenceFormat
-          :sentence="'他要美式咖啡/拿鐵.'"
+          :sentence="'他要美式咖啡/拿鐵。'"
           :bopomofo="'ㄊㄚ ㄧㄠˋ ㄇㄟˇ ㄕˋ ㄎㄚ ㄈㄟ / ㄋㄚˊ ㄊㄧㄝˇ.'"
           :pinyin="'ta1 yao4 mei3 shi4 ka1 fe1i / na2 tie.'"
           :translation="'彼はアメリカン/ラテが欲しいです。'"
@@ -337,7 +337,7 @@
           ・不
         </p>
         <SentenceFormat
-          :sentence="'我不要吃香菜.'"
+          :sentence="'我不要吃香菜。'"
           :bopomofo="'ㄨㄛˇ ㄅㄨˊ ㄧㄠˋ ㄔ ㄒㄧㄤ ㄘㄞˋ.'"
           :pinyin="'wo3 bu2 yao4 chi1 xiang1 cai4.'"
           :translation="'パクチーは食べたくありません。'"
@@ -357,7 +357,7 @@
           ・要
         </p>
         <SentenceFormat
-          :sentence="'我要去買牛奶.'"
+          :sentence="'我要去買牛奶。'"
           :bopomofo="'ㄨㄛˇ ㄧㄠˋ ㄑㄩˋ ㄇㄞˇ ㄋㄧㄡˊ ㄋㄞˇ.'"
           :pinyin="'wo3 yao4 qu4 mai3 niu2 nai3.'"
           :translation="'私は牛乳を買いに行きたい。'"
@@ -367,7 +367,7 @@
           ・咖啡
         </p>
         <SentenceFormat
-          :sentence="'我要熱的黑咖啡.'"
+          :sentence="'我要熱的黑咖啡。'"
           :bopomofo="'ㄨㄛˇ ㄧㄠˋ ㄖㄜˋ ㄉㄜ˙ ㄏㄟ ㄎㄚ ㄈㄟ.'"
           :pinyin="'wo3 yao4 re4 de hei1 ka1 fe1i.'"
           :translation="'私はホットのブラックコーヒーが欲しいです。'"
@@ -377,7 +377,7 @@
           ・烏龍茶
         </p>
         <SentenceFormat
-          :sentence="'台灣的烏龍茶很好喝.'"
+          :sentence="'台灣的烏龍茶很好喝。'"
           :bopomofo="'ㄊㄞˊ ㄨㄢ ㄉㄜ˙ ㄨ ㄌㄨㄥˊ ㄔㄚˊ ㄏㄣˇ ㄏㄠˇ ㄏㄜ.'"
           :pinyin="'tai2 wan1 de wu1 long2 cha2 hen3 ha3o he1.'"
           :translation="'台湾のウーロン茶は美味しい。'"
@@ -387,7 +387,7 @@
           ・日本
         </p>
         <SentenceFormat
-          :sentence="'我是日本人.'"
+          :sentence="'我是日本人。'"
           :bopomofo="'ㄨㄛˇ ㄕˋ ㄖˋ ㄅㄣˇ ㄖㄣˊ.'"
           :pinyin="'wo3 shi4 ri4 ben3 ren2.'"
           :translation="'私は日本人です。'"
@@ -397,7 +397,7 @@
           ・美國
         </p>
         <SentenceFormat
-          :sentence="'她是美國人.'"
+          :sentence="'她是美國人。'"
           :bopomofo="'ㄊㄚ ㄕˋ ㄇㄟˇ ㄍㄨㄛˊ ㄖㄣˊ.'"
           :pinyin="'ta1 shi4 mei3 guo2 ren2.'"
           :translation="'彼女はアメリカ人です。'"
@@ -407,7 +407,7 @@
           ・對不起
         </p>
         <SentenceFormat
-          :sentence="'對不起, 我忘記了.'"
+          :sentence="'對不起, 我忘記了。'"
           :bopomofo="'ㄉㄨㄟˋ ㄅㄨˋ ㄑㄧˇ, ㄨㄛˇ ㄨㄤˋ ㄐㄧˋ ㄌㄜ˙.'"
           :pinyin="'dui4 bu4 qi3, wo3 wang4 ji4 le.'"
           :translation="'ごめんなさい、忘れていました。'"
@@ -420,7 +420,7 @@
           :sentence="'你喜歡哪國的菜呢?'"
           :bopomofo="'ㄋㄧˇ ㄒㄧˇ ㄏㄨㄢ ㄋㄚˇ ㄍㄨㄛˊ ㄉㄜ˙ ㄘㄞˋ ㄋㄜ˙?'"
           :pinyin="'ni3 xi3 huan1 na3 guo2 de cai4 ne?'"
-          :translation="'どの国の料理が好きですか？'"
+          :translation="'どの国の料理が好きですか?'"
         />
         <br>
       </div>
