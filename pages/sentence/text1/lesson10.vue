@@ -36,9 +36,9 @@
           ・黃色
         </p>
         <SentenceFormat
-          :sentence="'你不可以越黃色的線。'"
-          :bopomofo="'ㄋㄧˇ ㄅㄨˋ ㄎㄜˇ ㄧˇ ㄩㄝˋ ㄏㄨㄤˊ ㄙㄜˋ ㄉㄜ˙ ㄒㄧㄢˋ.'"
-          :pinyin="'ni3 bu4 ke3 yi3 yue4 huang2 se4 de xian4.'"
+          :sentence="'你不可以越過黃色的線。'"
+          :bopomofo="'ㄋㄧˇ ㄅㄨˋ ㄎㄜˇ ㄧˇ ㄩㄝˋ ㄍㄨㄛˋ ㄏㄨㄤˊ ㄙㄜˋ ㄉㄜ˙ ㄒㄧㄢˋ.'"
+          :pinyin="'ni3 bu4 ke3 yi3 yue4 guo4 huang2 se4 de xian4.'"
           :translation="'黄色い線を越えてはいけません。'"
         />
         <br>
@@ -46,9 +46,9 @@
           ・芒果
         </p>
         <SentenceFormat
-          :sentence="'你可不可以幫我選大的芒果?'"
-          :bopomofo="'ㄋㄧˇ ㄎㄜˇ ㄅㄨˋ ㄎㄜˇ ㄧˇ ㄅㄤ ㄨㄛˇ ㄒㄩㄢˇ ㄉㄚˋ ㄉㄜ˙ ㄇㄤˊ ㄍㄨㄛˇ?'"
-          :pinyin="'ni3 ke3 bu4 ke3 yi3 bang1 wo3 xuan3 da4 de mang2 guo3?'"
+          :sentence="'你可不可以幫我選一顆大的芒果?'"
+          :bopomofo="'ㄋㄧˇ ㄎㄜˇ ㄅㄨˋ ㄎㄜˇ ㄧˇ ㄅㄤ ㄨㄛˇ ㄒㄩㄢˇ ㄧ ㄎㄜ ㄉㄚˋ ㄉㄜ˙ ㄇㄤˊ ㄍㄨㄛˇ?'"
+          :pinyin="'ni3 ke3 bu4 ke3 yi3 bang1 wo3 xuan3 yi1 ke1 da4 de mang2 guo3?'"
           :translation="'大きなマンゴーを選ぶのを手伝ってくれませんか?'"
         />
         <br>
@@ -66,9 +66,9 @@
           ・塊
         </p>
         <SentenceFormat
-          :sentence="'為了煮咖喱, 我要買一塊的雞肉。'"
-          :bopomofo="'ㄨㄟˋ ㄌㄜ˙ ㄓㄨˇ ㄍㄚ ㄌㄧˊ, ㄨㄛˇ ㄧㄠˋ ㄇㄞˇ ㄧˊ ㄎㄨㄞˋ ㄉㄜ˙ ㄐㄧ ㄖㄡˋ.'"
-          :pinyin="'wei4 le zhu3 ga1 li2, wo3 yao4 mai3 yi1 kuai4 de ji1 rou4.'"
+          :sentence="'為了煮咖喱, 我買的雞肉要切一塊一塊的大小。'"
+          :bopomofo="'ㄨㄟˋ ㄌㄜ˙ ㄓㄨˇ ㄍㄚ ㄌㄧˊ, ㄨㄛˇ ㄇㄞˇ ㄉㄜ˙ ㄐㄧ ㄖㄡˋ ㄧㄠˋ ㄑㄧㄝ ㄧˊ ㄎㄨㄞˋ ㄧˊ ㄎㄨㄞˋ ㄉㄜ˙ ㄉㄚˋ ㄒㄧㄠˇ.'"
+          :pinyin="'wei4 le zhu3 ga1 li2, wo3 mai3 de ji1 rou4 yao4 qie1 yi1 kuai4 yi1 kuai4 de da4 xiao3.'"
           :translation="'カレーを作るためにチキンを買いたいです。'"
         />
         <br>
@@ -76,9 +76,9 @@
           ・香
         </p>
         <SentenceFormat
-          :sentence="'這個香香的味道從哪裡來?'"
-          :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄒㄧㄤ ㄒㄧㄤ ㄉㄜ ㄨㄟˋ ㄉㄠˋ ㄘㄨㄥˊ ㄋㄚˇ ㄌㄧˇ ㄌㄞˊ?'"
-          :pinyin="'zhe4 ge4 xiang1 xiang1 de wei4 dao4 cong2 na3 li3 lai2?'"
+          :sentence="'這個香香的味道從哪裡來的?'"
+          :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄒㄧㄤ ㄒㄧㄤ ㄉㄜ˙ ㄨㄟˋ ㄉㄠˋ ㄘㄨㄥˊ ㄋㄚˇ ㄌㄧˇ ㄌㄞˊ ㄉㄜ˙?'"
+          :pinyin="'zhe4 ge4 xiang1 xiang1 de wei4 dao4 cong2 na3 li3 lai2 de?'"
           :translation="'この良い香りはどこから来たのですか?'"
         />
         <br>
@@ -96,9 +96,9 @@
           ・紅色
         </p>
         <SentenceFormat
-          :sentence="'喜酒打鐵的時候新娘穿紅色的衣服。'"
-          :bopomofo="'ㄒㄧˇ ㄐㄧㄡˇ ㄉㄚˇ ㄊㄧㄝˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄒㄧㄣ ㄋㄧㄤˊ ㄔㄨㄢ ㄏㄨㄥˊ ㄙㄜˋ ㄉㄜ˙ ㄧ ㄈㄨˊ.'"
-          :pinyin="'xi3 jiu3 da3 tie3 de shi2 hou4 xin1 niang2 chuan1 hong2 se4 de yi1 fu2.'"
+          :sentence="'吃喜酒的時候新娘穿紅色的衣服。'"
+          :bopomofo="'ㄔ ㄒㄧˇ ㄐㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄒㄧㄣ ㄋㄧㄤˊ ㄔㄨㄢ ㄏㄨㄥˊ ㄙㄜˋ ㄉㄜ˙ ㄧ ㄈㄨˊ.'"
+          :pinyin="'chi1 xi3 jiu3 de shi2 hou4 xin1 niang2 chuan1 hong2 se4 de yi1 fu2.'"
           :translation="'花嫁は結婚式で赤いドレスを着ます。'"
         />
         <br>
@@ -106,9 +106,9 @@
           ・西瓜
         </p>
         <SentenceFormat
-          :sentence="'我應該在哪里丟掉西瓜種子?'"
-          :bopomofo="'ㄨㄛˇ ㄧㄥ ㄍㄞ ㄗㄞˋ ㄋㄚˇ ㄌㄧˇ ㄉㄧㄡ ㄉㄧㄠˋ ㄒㄧ ㄍㄨㄚ ㄓㄨㄥˇ ㄗ˙?'"
-          :pinyin="'wo3 ying1 gai1 zai4 na3 li3 diu1 diao4 xi1 gua1 zhong3 zi?'"
+          :sentence="'我應該在哪里丟掉西瓜籽?'"
+          :bopomofo="'ㄨㄛˇ ㄧㄥ ㄍㄞ ㄗㄞˋ ㄋㄚˇ ㄌㄧˇ ㄉㄧㄡ ㄉㄧㄠˋ ㄒㄧ ㄍㄨㄚ ㄗˇ?'"
+          :pinyin="'wo3 ying1 gai1 zai4 na3 li3 diu1 diao4 xi1 gua1 zi3?'"
           :translation="'スイカの種はどこに捨てればいいですか?'"
         />
         <br>
@@ -166,9 +166,9 @@
           ・吃吃看
         </p>
         <SentenceFormat
-          :sentence="'聽說一家新餐廳開業，我想去吃吃看。'"
-          :bopomofo="'ㄊㄧㄥ ㄕㄨㄛ ㄧ ㄐㄧㄚ ㄒㄧㄣ ㄘㄢ ㄊㄧㄥ ㄎㄞ ㄧㄝˋ， ㄨㄛˇ ㄒㄧㄤˇ ㄑㄩˋ ㄔ ㄔ ㄎㄢˋ.'"
-          :pinyin="'ting1 shuo1 yi1 jia1 xin1 can1 ting1 kai1 ye4, wo3 xiang3 qu4 chi1 chi1 kan4.'"
+          :sentence="'聽說有一家新餐廳開了，我想去吃吃看。'"
+          :bopomofo="'ㄊㄧㄥ ㄕㄨㄛ ㄧㄡˇ ㄧ ㄐㄧㄚ ㄒㄧㄣ ㄘㄢ ㄊㄧㄥ ㄎㄞ ㄌㄜ˙， ㄨㄛˇ ㄒㄧㄤˇ ㄑㄩˋ ㄔ ㄔ ㄎㄢˋ.'"
+          :pinyin="'ting1 shuo1 you3 yi1 jia1 xin1 can1 ting1 kai1 le, wo3 xiang3 qu4 chi1 chi1 kan4.'"
           :translation="'新しいレストランがオープンしたと聞いたので、 食べに行ってみたいです。'"
         />
         <br>
@@ -186,9 +186,9 @@
           ・笑
         </p>
         <SentenceFormat
-          :sentence="'因為她帶狗狗， 大家都笑一下。'"
-          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄊㄚ ㄉㄞˋ ㄍㄡˇ ㄍㄡˇ， ㄉㄚˋ ㄐㄧㄚ ㄉㄡ ㄒㄧㄠˋ ㄧ ㄒㄧㄚˋ.'"
-          :pinyin="'yin1 wei4 ta1 dai4 gou3 gou3, da4 jia1 dou1 xiao4 yi1 xia4.'"
+          :sentence="'因為她帶了狗狗來， 大家都笑了。'"
+          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄊㄚ ㄉㄞˋ ㄌㄜ˙ ㄍㄡˇ ㄍㄡˇ ㄌㄞˊ， ㄉㄚˋ ㄐㄧㄚ ㄉㄡ ㄒㄧㄠˋ ㄌㄜ˙.'"
+          :pinyin="'yin1 wei4 ta1 dai4 le gou3 gou3 lai2, da4 jia1 dou1 xiao4 le.'"
           :translation="'彼女が犬を連れてきたので、 みんなが笑った。'"
         />
         <br>
@@ -206,9 +206,9 @@
           ・穿
         </p>
         <SentenceFormat
-          :sentence="'你得穿外套、 否则你感冒。'"
-          :bopomofo="'ㄋㄧˇ ㄉㄟˇ ㄔㄨㄢ ㄨㄞˋ ㄊㄠˋ、 ㄈㄡˇ ㄗㄜˊ ㄋㄧˇ ㄍㄢˇ ㄇㄠˋ.'"
-          :pinyin="'ni3 dei3 chuan1 wai4 tao4, fou3 ze2 ni3 gan3 mao4.'"
+          :sentence="'你得穿上外套、 否则你會感冒。'"
+          :bopomofo="'ㄋㄧˇ ㄉㄟˇ ㄔㄨㄢ ㄕㄤ˙ ㄨㄞˋ ㄊㄠˋ、 ㄈㄡˇ ㄗㄜˊ ㄋㄧˇ ㄏㄨㄟˋ ㄍㄢˇ ㄇㄠˋ.'"
+          :pinyin="'ni3 dei3 chuan1 shang4 wai4 tao4, fou3 ze2 ni3 hui4 gan3 mao4.'"
           :translation="'上着を着ないと風邪をひきます。'"
         />
         <br>
@@ -246,9 +246,9 @@
           ・男
         </p>
         <SentenceFormat
-          :sentence="'你看到男護士在房間前面站嗎?'"
-          :bopomofo="'ㄋㄧˇ ㄎㄢˋ ㄉㄠˋ ㄋㄢˊ ㄏㄨˋ ㄕˋ ㄗㄞˋ ㄈㄤˊ ㄐㄧㄢ ㄑㄧㄢˊ ㄇㄧㄢˋ ㄓㄢˋ ㄇㄚ˙?'"
-          :pinyin="'ni3 kan4 dao4 nan2 hu4 shi4 zai4 fang2 jian1 qian2 mian4 zhan4 ma?'"
+          :sentence="'在房間前面站著的男護士你看到了嗎?'"
+          :bopomofo="'ㄗㄞˋ ㄈㄤˊ ㄐㄧㄢ ㄑㄧㄢˊ ㄇㄧㄢˋ ㄓㄢˋ ㄓㄜ˙ ㄉㄜ˙ ㄋㄢˊ ㄏㄨˋ ㄕˋ ㄋㄧˇ ㄎㄢˋ ㄉㄠˋ ㄌㄜ˙ ㄇㄚ˙?'"
+          :pinyin="'zai4 fang2 jian1 qian2 mian4 zhan4 zhe de nan2 hu4 shi4 ni3 kan4 dao4 le ma?'"
           :translation="'部屋の前に立っている男性看護師を見ましたか?'"
         />
         <br>
@@ -258,7 +258,7 @@
         <SentenceFormat
           :sentence="'如果那棟大樓矮一點， 我們可以看到美麗的風景。'"
           :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄚˋ ㄉㄨㄥˋ ㄉㄚˋ ㄌㄡˊ ㄞˇ ㄧˋ ㄉㄧㄢˇ， ㄨㄛˇ ㄇㄣ˙ ㄎㄜˇ ㄧˇ ㄎㄢˋ ㄉㄠˋ ㄇㄟˇ ㄌㄧˋ ㄉㄜ˙ ㄈㄥ ㄐㄧㄥˇ.'"
-          :pinyin="'ru2 guo3 na4 dong4 da4 lou2 ai33 yi1 dian3, wo3 men ke3 yi3 kan4 dao4 mei3 li4 de feng1 jing3.'"
+          :pinyin="'ru2 guo3 na4 dong4 da4 lou2 ai3 yi1 dian3, wo3 men ke3 yi3 kan4 dao4 mei3 li4 de feng1 jing3.'"
           :translation="'その建物がもう少し低ければ、 良い景色が見られる筈です。'"
         />
         <br>
@@ -266,19 +266,19 @@
           ・高
         </p>
         <SentenceFormat
-          :sentence="'他想每天呼吸良好的空氣， 所以住一個高的地方。'"
-          :bopomofo="'ㄊㄚ ㄒㄧㄤˇ ㄇㄟˇ ㄊㄧㄢ ㄏㄨ ㄒㄧ ㄌㄧㄤˊ ㄏㄠˇ ㄉㄜ˙ ㄎㄨㄥ ㄑㄧˋ， ㄙㄨㄛˇ ㄧˇ ㄓㄨˋ ㄧˊ ㄍㄜˋ ㄍㄠ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ.'"
-          :pinyin="'ta1 xiang3 mei3 tian1 hu1 xi1 liang2 hao3 de kong1 qi4, suo3 yi3 zhu4 yi1 ge4 gao1 de di4 fang1.'"
-          :translation="'彼は毎日良い空気を吸いたいので、 高いところに住んでいます。'"
+          :sentence="'他想每天呼吸新鮮的空氣， 所以住一個高的地方。'"
+          :bopomofo="'ㄊㄚ ㄒㄧㄤˇ ㄇㄟˇ ㄊㄧㄢ ㄏㄨ ㄒㄧ ㄒㄧㄣ ㄒㄧㄢ ㄉㄜ˙ ㄎㄨㄥ ㄑㄧˋ， ㄙㄨㄛˇ ㄧˇ ㄓㄨˋ ㄧˊ ㄍㄜˋ ㄍㄠ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ.'"
+          :pinyin="'ta1 xiang3 mei3 tian1 hu1 xi1 xin1 xian1 de kong1 qi4, suo3 yi3 zhu4 yi1 ge4 gao1 de di4 fang1.'"
+          :translation="'彼は毎日新鮮な空気を吸いたいので、 高いところに住んでいます。'"
         />
         <br>
         <p>
           ・弟弟
         </p>
         <SentenceFormat
-          :sentence="'他很聰明的弟弟現在在美國學醫學。'"
-          :bopomofo="'ㄊㄚ ㄏㄣˇ ㄘㄨㄥ ㄇㄧㄥˊ ㄉㄜ˙ ㄉㄧˋ ㄉㄧ˙ ㄒㄧㄢˋ ㄗㄞˋ ㄗㄞˋ ㄇㄟˇ ㄍㄨㄛˊ ㄒㄩㄝˊ ㄧ ㄒㄩㄝˊ.'"
-          :pinyin="'ta1 hen3 cong1 ming2 de di4 di4 xian4 zai4 zai4 mei3 guo2 xue2 yi3 xue2.'"
+          :sentence="'他很聰明的弟弟現在在美國念醫學。'"
+          :bopomofo="'ㄊㄚ ㄏㄣˇ ㄘㄨㄥ ㄇㄧㄥˊ ㄉㄜ˙ ㄉㄧˋ ㄉㄧ˙ ㄒㄧㄢˋ ㄗㄞˋ ㄗㄞˋ ㄇㄟˇ ㄍㄨㄛˊ ㄋㄧㄢˋ ㄧ ㄒㄩㄝˊ.'"
+          :pinyin="'ta1 hen3 cong1 ming2 de di4 di4 xian4 zai4 zai4 mei3 guo2 nian4 yi3 xue2.'"
           :translation="'彼のとても賢い弟は現在アメリカで医学を勉強しています。'"
         />
         <br>
@@ -296,9 +296,9 @@
           ・窗戶
         </p>
         <SentenceFormat
-          :sentence="'聲音起來從窗戶外面。'"
-          :bopomofo="'ㄕㄥ ㄧㄣ ㄑㄧˇ ㄌㄞˊ ㄘㄨㄥˊ ㄔㄨㄤ ㄏㄨˋ ㄨㄞˋ ㄇㄧㄢˋ.'"
-          :pinyin="'sheng1 yin1 qi3 lai2 cong2 chuang1 hu4 wai4 mian4.'"
+          :sentence="'聲音從窗戶外面傳來。'"
+          :bopomofo="'ㄕㄥ ㄧㄣ ㄘㄨㄥˊ ㄔㄨㄤ ㄏㄨˋ ㄨㄞˋ ㄇㄧㄢˋ ㄔㄨㄢˊ ㄌㄞˊ.'"
+          :pinyin="'sheng1 yin1 cong2 chuang1 hu4 wai4 mian4 chuan2 lai2.'"
           :translation="'窓の外から音がしました。'"
         />
         <br>
@@ -306,9 +306,9 @@
           ・往
         </p>
         <SentenceFormat
-          :sentence="'下次火車往台北什麼時候來的?'"
-          :bopomofo="'ㄒㄧㄚˋ ㄘˋ ㄏㄨㄛˇ ㄔㄜ ㄨㄤˇ ㄊㄞˊ ㄅㄟˇ ㄕㄣˊ ㄇㄜ˙ ㄕˊ ㄏㄡˋ ㄌㄞˊ ㄉㄜ˙?'"
-          :pinyin="'xia4 ci4 huo3 che1 wang3 tai2 bei3 shen2 me shi2 hou4 lai2 de?'"
+          :sentence="'往台北的下一班火車什麼時候來?'"
+          :bopomofo="'ㄨㄤˇ ㄊㄞˊ ㄅㄟˇ ㄉㄜ˙ ㄒㄧㄚˋ ㄧ ㄅㄢ ㄏㄨㄛˇ ㄔㄜ ㄕㄣˊ ㄇㄜ˙ ㄕˊ ㄏㄡˋ ㄌㄞˊ?'"
+          :pinyin="'wang3 tai2 bei3 de xia4 yi1 ban1 huo3 che1 shen2 me shi2 hou4 lai2?'"
           :translation="'台北への次の列車はいつ来るのですか?'"
         />
         <br>
@@ -316,29 +316,29 @@
           ・藍色
         </p>
         <SentenceFormat
-          :sentence="'紅綠燈變藍色的以前你不可以開車。'"
-          :bopomofo="'ㄏㄨㄥˊ ㄌㄩˋ ㄉㄥ ㄅㄧㄢˋ ㄌㄢˊ ㄙㄜˋ ㄉㄜ˙ ㄧˇ ㄑㄧㄢˊ ㄋㄧˇ ㄅㄨˋ ㄎㄜˇ ㄧˇ ㄎㄞ ㄔㄜ.'"
-          :pinyin="'hong2 lu4 deng1 bian4 lan2 se4 de yi3 qian2 ni3 bu4 ke3 yi3 kai1 che1.'"
-          :translation="'信号が青くなるまで運転してはいけません。'"
+          :sentence="'台灣的紅綠燈不是藍色的, 綠色的。'"
+          :bopomofo="'ㄊㄞˊ ㄨㄢ ㄉㄜ˙ ㄏㄨㄥˊ ㄌㄩˋ ㄉㄥ ㄅㄨˊ ㄕˋ ㄌㄢˊ ㄙㄜˋ ㄉㄜ˙, ㄌㄩˋ ㄙㄜˋ ㄉㄜ˙.'"
+          :pinyin="'tai2 wan1 de hong2 lu4 deng1 bu2 shi4 lan2 se4 de, lu4 se4 de.'"
+          :translation="'台湾の信号は青ではなく、 緑です。'"
         />
         <br>
         <p>
           ・因為
         </p>
         <SentenceFormat
-          :sentence="'因為明天認為下雨， 今天我們得去買東西。'"
-          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄇㄧㄥˊ ㄊㄧㄢ ㄖㄣˋ ㄨㄟˊ ㄒㄧㄚˋ ㄩˇ， ㄐㄧㄣ ㄊㄧㄢ ㄨㄛˇ ㄇㄣ˙ ㄉㄟˇ ㄑㄩˋ ㄇㄞˇ ㄉㄨㄥ ㄒㄧ˙.'"
-          :pinyin="'yin1 wei4 ming2 tian1 ren4 wei2 xia4 yu3, jin1 tian1 wo3 men dei3 qu4 mai3 dong1 xi1.'"
-          :translation="'明日は雨が降ると思われるので、 今日買い物に行かなければなりません。'"
+          :sentence="'因為我覺得明天會下雨， 今天我們得去買東西。'"
+          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄇㄧㄥˊ ㄊㄧㄢ ㄏㄨㄟˋ ㄒㄧㄚˋ ㄩˇ， ㄐㄧㄣ ㄊㄧㄢ ㄨㄛˇ ㄇㄣ˙ ㄉㄟˇ ㄑㄩˋ ㄇㄞˇ ㄉㄨㄥ ㄒㄧ˙.'"
+          :pinyin="'yin1 wei4 wo3 jue2 de ming2 tian1 hui4 xia4 yu3, jin1 tian1 wo3 men dei3 qu4 mai3 dong1 xi1.'"
+          :translation="'明日は雨が降ると思うので、 今日買い物に行かなければなりません。'"
         />
         <br>
         <p>
           ・住
         </p>
         <SentenceFormat
-          :sentence="'我想小心決定在哪里住。'"
-          :bopomofo="'ㄨㄛˇ ㄒㄧㄤˇ ㄒㄧㄠˇ ㄒㄧㄣ ㄐㄩㄝˊ ㄉㄧㄥˋ ㄗㄞˋ ㄋㄚˇ ㄌㄧˇ ㄓㄨˋ.'"
-          :pinyin="'wo3 xiang3 xiao3 xin1 jue2 ding4 zai4 na3 li3 zhu4.'"
+          :sentence="'我想小心決定住在哪里。'"
+          :bopomofo="'ㄨㄛˇ ㄒㄧㄤˇ ㄒㄧㄠˇ ㄒㄧㄣ ㄐㄩㄝˊ ㄉㄧㄥˋ ㄓㄨˋ ㄗㄞˋ ㄋㄚˇ ㄌㄧˇ.'"
+          :pinyin="'wo3 xiang3 xiao3 xin1 jue2 ding4 zhu4 zai4 na3 li3.'"
           :translation="'どこに住むかは慎重に決めたいです。'"
         />
         <br>
@@ -356,9 +356,9 @@
           ・這些
         </p>
         <SentenceFormat
-          :sentence="'您可不可以幫我扔掉這些文件嗎?'"
-          :bopomofo="'ㄋㄧㄣˊ ㄎㄜˇ ㄅㄨˋ ㄎㄜˇ ㄧˇ ㄅㄤ ㄨㄛˇ ㄖㄥ ㄉㄧㄠˋ ㄓㄜˋ ㄒㄧㄝ ㄨㄣˊ ㄐㄧㄢˋ ㄇㄚ˙?'"
-          :pinyin="'nin2 ke3 bu4 ke3 yi3 bang1 wo3 reng1 diao4 zhe4 xie1 wen2 jian4 ma2?'"
+          :sentence="'您可不可以幫我扔掉這些文件?'"
+          :bopomofo="'ㄋㄧㄣˊ ㄎㄜˇ ㄅㄨˋ ㄎㄜˇ ㄧˇ ㄅㄤ ㄨㄛˇ ㄖㄥ ㄉㄧㄠˋ ㄓㄜˋ ㄒㄧㄝ ㄨㄣˊ ㄐㄧㄢˋ?'"
+          :pinyin="'nin2 ke3 bu4 ke3 yi3 bang1 wo3 reng1 diao4 zhe4 xie1 wen2 jian4?'"
           :translation="'これらのファイルを破棄してくれませんか?'"
         />
         <br>
