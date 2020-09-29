@@ -201,7 +201,13 @@ export default {
   },
   head () {
     return {
-      title: 'お問い合わせ contact'
+      title: 'お問い合わせ contact',
+      meta: [
+        { hid: 'keywords', name: 'keywords', content: '中国語, 台湾, 台湾華語, 繁体字, 単語, 聞き流し, ボポモフォ, 當代中文課程課, 例文' },
+        { hid: 'description', name: 'description', content: 'お問い合わせ contact' },
+        { hid: 'og:title', name: 'og:title', content: '中国語語彙　台湾華語 taiwan-mandarin | 台湾で学ぶ中国語の学習ノート' },
+        { hid: 'og:decription', name: 'og:decription', content: 'お問い合わせ contact' }
+      ]
     }
   }
 }
