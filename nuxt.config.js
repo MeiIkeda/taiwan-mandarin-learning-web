@@ -21,7 +21,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
+    ]
     // script: [{
     //   'data-ad-client': process.env.GA_ADSENSE_ID,
     //   async: true,
@@ -88,6 +88,7 @@ export default {
   ** Build configuration
   */
   build: {
+    extractCSS: true,
     /*
     ** You can extend webpack config here
     */
