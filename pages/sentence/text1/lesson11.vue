@@ -36,9 +36,9 @@
           ・房東
         </p>
         <SentenceFormat
-          :sentence="'要是你想變房間的什麼東西, 你得問房東。'"
-          :bopomofo="'ㄧㄠˋ ㄕˋ ㄋㄧˇ ㄒㄧㄤˇ ㄅㄧㄢˋ ㄈㄤˊ ㄐㄧㄢ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙, ㄋㄧˇ ㄉㄟˇ ㄨㄣˋ ㄈㄤˊ ㄉㄨㄥ.'"
-          :pinyin="'yao4 shi4 ni3 xiang3 bian4 fang2 jian1 de dong1 xi, ni3 dei3 wen4 fang2 dong1.'"
+          :sentence="'要是你想更換房間的什麼東西, 你得問房東。'"
+          :bopomofo="'ㄧㄠˋ ㄕˋ ㄋㄧˇ ㄒㄧㄤˇ ㄍㄥ ㄏㄨㄢˋ ㄈㄤˊ ㄐㄧㄢ ㄉㄜ˙ ㄕㄣˊ ㄇㄜ˙ ㄉㄨㄥ ㄒㄧ˙, ㄋㄧˇ ㄉㄟˇ ㄨㄣˋ ㄈㄤˊ ㄉㄨㄥ.'"
+          :pinyin="'yao4 shi4 ni3 xiang3 geng1 huan4 fang2 jian1 de shen2 me dong1 xi, ni3 dei3 wen4 fang2 dong1.'"
           :translation="'部屋の何かを変更したい場合は、 家主に聞く必要があります。'"
         />
         <br>
@@ -66,9 +66,9 @@
           ・左邊
         </p>
         <SentenceFormat
-          :sentence="'去往左邊, 你就看到醫院。'"
-          :bopomofo="'ㄑㄩˋ ㄨㄤˇ ㄗㄨㄛˇ ㄅㄧㄢ, ㄋㄧˇ ㄐㄧㄡˋ ㄎㄢˋ ㄉㄠˋ ㄧ ㄩㄢˋ.'"
-          :pinyin="'qu4 wang3 zuo3 bian1, ni3 jiu4 kan4 dao4 yi3 yuan4.'"
+          :sentence="'往左邊走, 你就看到醫院了。'"
+          :bopomofo="'ㄨㄤˇ ㄗㄨㄛˇ ㄅㄧㄢ ㄗㄡˇ, ㄋㄧˇ ㄐㄧㄡˋ ㄎㄢˋ ㄉㄠˋ ㄧ ㄩㄢˋ ㄌㄜ˙.'"
+          :pinyin="'wang3 zuo3 bian1 zou3, ni3 jiu4 kan4 dao4 yi3 yuan4 le.'"
           :translation="'左に行くと病院が見えます。'"
         />
         <br>
@@ -76,9 +76,9 @@
           ・右邊
         </p>
         <SentenceFormat
-          :sentence="'你的右邊的人是你的弟弟嗎?'"
-          :bopomofo="'ㄋㄧˇ ㄉㄜ˙ ㄧㄡˋ ㄅㄧㄢ ㄉㄜ˙ ㄖㄣˊ ㄕˋ ㄋㄧˇ ㄉㄜ˙ ㄉㄧˋ ㄉㄧ˙ ㄇㄚ˙?'"
-          :pinyin="'ni3 de you4 bian1 de ren2 shi4 ni3 de di4 di4 ma?'"
+          :sentence="'你右邊的人是你弟弟嗎?'"
+          :bopomofo="'ㄋㄧˇ ㄧㄡˋ ㄅㄧㄢ ㄉㄜ˙ ㄖㄣˊ ㄕˋ ㄋㄧˇ ㄉㄧˋ ㄉㄧ˙ ㄇㄚ˙?'"
+          :pinyin="'ni3 you4 bian1 de ren2 shi4 ni3 di4 di4 ma?'"
           :translation="'あなたの右側の人はあなたの弟ですか?'"
         />
         <br>
@@ -86,9 +86,9 @@
           ・浴室
         </p>
         <SentenceFormat
-          :sentence="'浴室總是是濕濕的。'"
-          :bopomofo="'ㄩˋ ㄕˋ ㄗㄨㄥˇ ㄕˋ ㄕˋ ㄕ ㄕ ㄉㄜ˙.'"
-          :pinyin="'yu4 shi4 zong3 shi4 shi4 shi1 shi1 de.'"
+          :sentence="'浴室總是濕濕的。'"
+          :bopomofo="'ㄩˋ ㄕˋ ㄗㄨㄥˇ ㄕˋ ㄕ ㄕ ㄉㄜ˙.'"
+          :pinyin="'yu4 shi4 zong3 shi4 shi1 shi1 de.'"
           :translation="'バスルームにはいつも湿気がこもっています。'"
         />
         <br>
@@ -116,9 +116,9 @@
           ・分鐘
         </p>
         <SentenceFormat
-          :sentence="'完讀這本書我要花三十分鐘。'"
-          :bopomofo="'ㄨㄢˊ ㄉㄨˊ ㄓㄜˋ ㄅㄣˇ ㄕㄨ ㄨㄛˇ ㄧㄠˋ ㄏㄨㄚ ㄙㄢ ㄕˊ ㄈㄣ ㄓㄨㄥ.'"
-          :pinyin="'wan2 du2 zhe4 ben3 shu1 wo3 yao4 hua1 san1 shi2 fen1 zhong1.'"
+          :sentence="'讀完這本書我要花三十分鐘。'"
+          :bopomofo="'ㄉㄨˊ ㄨㄢˊ ㄓㄜˋ ㄅㄣˇ ㄕㄨ ㄨㄛˇ ㄧㄠˋ ㄏㄨㄚ ㄙㄢ ㄕˊ ㄈㄣ ㄓㄨㄥ.'"
+          :pinyin="'du2 wan2 zhe4 ben3 shu1 wo3 yao4 hua1 san1 shi2 fen1 zhong1.'"
           :translation="'この本を読み終えるのに30分かかります。'"
         />
         <br>
@@ -126,9 +126,9 @@
           ・就
         </p>
         <SentenceFormat
-          :sentence="'只要寫上你的名字， 你就會中了兩百塊。'"
-          :bopomofo="'ㄓˇ ㄧㄠˋ ㄒㄧㄝˇ ㄕㄤˋ ㄋㄧˇ ㄉㄜ˙ ㄇㄧㄥˊ ㄗˋ， ㄋㄧˇ ㄐㄧㄡˋ ㄏㄨㄟˋ ㄓㄨㄥ ㄌㄜ˙ ㄌㄧㄤˇ ㄅㄞˇ ㄎㄨㄞˋ.'"
-          :pinyin="'zhi3 yao4 xie3 shang4 ni3 de ming2 zi4, ni3 jiu4 hui4 zhong4 le liang3 bai3 kuai4.'"
+          :sentence="'只要寫上你的名字， 你就會中兩百塊。'"
+          :bopomofo="'ㄓˇ ㄧㄠˋ ㄒㄧㄝˇ ㄕㄤˋ ㄋㄧˇ ㄉㄜ˙ ㄇㄧㄥˊ ㄗˋ， ㄋㄧˇ ㄐㄧㄡˋ ㄏㄨㄟˋ ㄓㄨㄥ ㄌㄧㄤˇ ㄅㄞˇ ㄎㄨㄞˋ.'"
+          :pinyin="'zhi3 yao4 xie3 shang4 ni3 de ming2 zi4, ni3 jiu4 hui4 zhong4 liang3 bai3 kuai4.'"
           :translation="'名前を書くだけで200元が当たります。'"
         />
         <br>
@@ -136,9 +136,9 @@
           ・到
         </p>
         <SentenceFormat
-          :sentence="'逛街後我到家的時候, 我發覺忘了買電燈泡。'"
-          :bopomofo="'ㄍㄨㄤˋ ㄐㄧㄝ ㄏㄡˋ ㄨㄛˇ ㄉㄠˋ ㄐㄧㄚ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄨㄛˇ ㄈㄚ ㄐㄩㄝˊ ㄨㄤˋ ㄌㄜ˙ ㄇㄞˇ ㄉㄧㄢˋ ㄉㄥ ㄆㄠˋ.'"
-          :pinyin="'guang4 jie1 hou4 wo3 dao4 jia1 de shi2 hou4, wo3 fa1 jue2 wang4 le mai3 dian4 deng1 pao4.'"
+          :sentence="'逛街後我到家的時候, 我發現忘了買電燈泡。'"
+          :bopomofo="'ㄍㄨㄤˋ ㄐㄧㄝ ㄏㄡˋ ㄨㄛˇ ㄉㄠˋ ㄐㄧㄚ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄨㄛˇ ㄈㄚ ㄒㄧㄢˋ ㄨㄤˋ ㄌㄜ˙ ㄇㄞˇ ㄉㄧㄢˋ ㄉㄥ ㄆㄠˋ.'"
+          :pinyin="'guang4 jie1 hou4 wo3 dao4 jia1 de shi2 hou4, wo3 fa1 xian4 wang4 le mai3 dian4 deng1 pao4.'"
           :translation="'買い物をして帰宅したとき、 電球を買うのを忘れていたことに気づきました。'"
         />
         <br>
@@ -156,10 +156,10 @@
           ・空
         </p>
         <SentenceFormat
-          :sentence="'我們得快找一家有空的酒店。'"
-          :bopomofo="'ㄨㄛˇ ㄇㄣ˙ ㄉㄟˇ ㄎㄨㄞˋ ㄓㄠˇ ㄧ ㄐㄧㄚ ㄧㄡˇ ㄎㄨㄥˋ ㄉㄜ˙ ㄐㄧㄡˇ ㄉㄧㄢˋ.'"
-          :pinyin="'wo3 men dei3 kuai4 zhao3 yi1 jia1 you3 kong4 de jiu3 dian4.'"
-          :translation="'空いているホテルをすぐに見つけなければいけません。'"
+          :sentence="'我們得快一點找有空房間的飯店。'"
+          :bopomofo="'ㄨㄛˇ ㄇㄣ˙ ㄉㄟˇ ㄎㄨㄞˋ ㄧˋ ㄉㄧㄢˇ ㄓㄠˇ ㄧㄡˇ ㄎㄨㄥˋ ㄈㄤˊ ㄐㄧㄢ ㄉㄜ˙ ㄈㄢˋ ㄉㄧㄢˋ.'"
+          :pinyin="'wo3 men dei3 kuai4 yi1 dian3 zhao3 you3 kong4 fang2 jian1 de fan4 dian4.'"
+          :translation="'空いている部屋があるホテルをすぐに見つけなければいけません。'"
         />
         <br>
         <p>
@@ -186,9 +186,9 @@
           ・回去
         </p>
         <SentenceFormat
-          :sentence="'天黑之前我想要回去家。'"
-          :bopomofo="'ㄊㄧㄢ ㄏㄟ ㄓ ㄑㄧㄢˊ ㄨㄛˇ ㄒㄧㄤˇ ㄧㄠˋ ㄏㄨㄟˊ ㄑㄩˋ ㄐㄧㄚ.'"
-          :pinyin="'tian1 hei1 zhi1 qian2 wo3 xiang3 yao4 hui2 qu4 jia1.'"
+          :sentence="'天黑之前我想要回家去。'"
+          :bopomofo="'ㄊㄧㄢ ㄏㄟ ㄓ ㄑㄧㄢˊ ㄨㄛˇ ㄒㄧㄤˇ ㄧㄠˋ ㄏㄨㄟˊ ㄐㄧㄚ ㄑㄩˋ.'"
+          :pinyin="'tian1 hei1 zhi1 qian2 wo3 xiang3 yao4 hui2 jia1 qu4.'"
           :translation="'暗くなる前に帰りたいです。'"
         />
         <br>
@@ -196,20 +196,20 @@
           ・想
         </p>
         <SentenceFormat
-          :sentence="'我想買電風扇, 因為房間裡太熱我滿身大汗。'"
-          :bopomofo="'ㄨㄛˇ ㄒㄧㄤˇ ㄇㄞˇ ㄉㄧㄢˋ ㄈㄥ ㄕㄢˋ, ㄧㄣ ㄨㄟˋ ㄈㄤˊ ㄐㄧㄢ ㄌㄧˇ ㄊㄞˋ ㄖㄜˋ ㄨㄛˇ ㄇㄢˇ ㄕㄣ ㄉㄚˋ ㄏㄢˋ.'"
-          :pinyin="'wo3 xiang3 mai3 dian4 feng1 shan4, yin1 wei4 fang2 jian1 li3 tai4 re4 wo3 man3 shen1 da4 han4.'"
-          :translation="'部屋が暑すぎて汗だくになるので、 扇風機を買いたいです。'"
+          :sentence="'因為房間裡太熱了, 我想因該買電風扇。'"
+          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄈㄤˊ ㄐㄧㄢ ㄌㄧˇ ㄊㄞˋ ㄖㄜˋ ㄌㄜ˙, ㄨㄛˇ ㄒㄧㄤˇ ㄧㄣ ㄍㄞ ㄇㄞˇ ㄉㄧㄢˋ ㄈㄥ ㄕㄢˋ.'"
+          :pinyin="'yin1 wei4 fang2 jian1 li3 tai4 re4 le, wo3 xiang3 yin1 gai1 mai3 dian4 feng1 shan4.'"
+          :translation="'部屋が暑すぎるので、 扇風機を買った方がいいと思います。'"
         />
         <br>
         <p>
           ・再
         </p>
         <SentenceFormat
-          :sentence="'我想再次看那部電影。'"
-          :bopomofo="'ㄨㄛˇ ㄒㄧㄤˇ ㄗㄞˋ ㄘˋ ㄎㄢˋ ㄋㄚˋ ㄅㄨˋ ㄉㄧㄢˋ ㄧㄥˇ.'"
-          :pinyin="'wo3 xiang3 zai4 ci4 kan4 na4 bu4 dian4 ying3.'"
-          :translation="'あの映画はもう一度見たいです。'"
+          :sentence="'先洗澡, 再洗衣服。'"
+          :bopomofo="'ㄒㄧㄢ ㄒㄧˇ ㄗㄠˇ, ㄗㄞˋ ㄒㄧˇ ㄧ ㄈㄨˊ.'"
+          :pinyin="'xian1 xi3 zao3, zai4 xi3 yi1 fu2.'"
+          :translation="'先にシャワーを浴びて、 それから選択します。'"
         />
         <br>
         <p>
@@ -246,9 +246,9 @@
           ・打電話
         </p>
         <SentenceFormat
-          :sentence="'雖然現在已經晚, 我得打電話給他。'"
-          :bopomofo="'ㄙㄨㄟ ㄖㄢˊ ㄒㄧㄢˋ ㄗㄞˋ ㄧˇ ㄐㄧㄥ ㄨㄢˇ, ㄨㄛˇ ㄉㄟˇ ㄉㄚˇ ㄉㄧㄢˋ ㄏㄨㄚˋ ㄍㄟˇ ㄊㄚ.'"
-          :pinyin="'sui1 ran2 xian4 zai4 yi3 jing1 wan3, wo3 dei3 da3 dian4 hua4 gei3 ta1.'"
+          :sentence="'雖然現在已經晚了, 我得打電話給他。'"
+          :bopomofo="'ㄙㄨㄟ ㄖㄢˊ ㄒㄧㄢˋ ㄗㄞˋ ㄧˇ ㄐㄧㄥ ㄨㄢˇ ㄌㄜ˙, ㄨㄛˇ ㄉㄟˇ ㄉㄚˇ ㄉㄧㄢˋ ㄏㄨㄚˋ ㄍㄟˇ ㄊㄚ.'"
+          :pinyin="'sui1 ran2 xian4 zai4 yi3 jing1 wan3 le, wo3 dei3 da3 dian4 hua4 gei3 ta1.'"
           :translation="'もう遅いですが、 彼に電話しなければいけません。'"
         />
         <br>
@@ -256,9 +256,9 @@
           ・喂
         </p>
         <SentenceFormat
-          :sentence="'「喂」是打電話的時候的「是」。'"
-          :bopomofo="'ㄨㄟˋ ㄕˋ ㄉㄚˇ ㄉㄧㄢˋ ㄏㄨㄚˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄉㄜ˙ ㄕˋ.'"
-          :pinyin="' wei4 shi4 da3 dian4 hua4 de shi2 hou4 de shi4.'"
+          :sentence="'「喂」是打電話的時候的「你好」。'"
+          :bopomofo="'ㄨㄟˋ ㄕˋ ㄉㄚˇ ㄉㄧㄢˋ ㄏㄨㄚˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄉㄜ˙ ㄋㄧˇ ㄏㄠˇ.'"
+          :pinyin="' wei4 shi4 da3 dian4 hua4 de shi2 hou4 de ni3 hao3.'"
           :translation="'「喂」は電話をする時の「はい」です。'"
         />
         <br>
@@ -276,9 +276,9 @@
           ・已經
         </p>
         <SentenceFormat
-          :sentence="'他已經洗澡完了， 下一次輪到你。'"
-          :bopomofo="'ㄊㄚ ㄧˇ ㄐㄧㄥ ㄒㄧˇ ㄗㄠˇ ㄨㄢˊ ㄌㄜ˙， ㄒㄧㄚˋ ㄧ ㄘˋ ㄌㄨㄣˊ ㄉㄠˋ ㄋㄧˇ.'"
-          :pinyin="'ta1 yi3 jing1 xi3 zao3 wan2 le, xia4 yi1 ci4 lun2 dao4 ni3.'"
+          :sentence="'他已經洗完澡了， 下一個輪到你。'"
+          :bopomofo="'ㄊㄚ ㄧˇ ㄐㄧㄥ ㄒㄧˇ ㄨㄢˊ ㄗㄠˇ ㄌㄜ˙， ㄒㄧㄚˋ ㄧ ㄍㄜ˙ ㄌㄨㄣˊ ㄉㄠˋ ㄋㄧˇ.'"
+          :pinyin="'ta1 yi3 jing1 xi3 wan2 zao3 le, xia4 yi1 ge4 lun2 dao4 ni3.'"
           :translation="'彼はシャワーを浴び終わったので、次はあなたの番です。'"
         />
         <br>
@@ -286,30 +286,32 @@
           ・習慣
         </p>
         <SentenceFormat
-          :sentence="'這需要時間習慣這個電腦。'"
-          :bopomofo="'ㄓㄜˋ ㄒㄩ ㄧㄠˋ ㄕˊ ㄐㄧㄢ ㄒㄧˊ ㄍㄨㄢˋ ㄓㄜˋ ㄍㄜˋ ㄉㄧㄢˋ ㄋㄠˇ.'"
-          :pinyin="'zhe4 xu1 yao4 shi2 jian1 xi2 guan4 zhe4 ge4 dian4 nao3.'"
-          :translation="'このコンピュータに慣れるには時間がかかります。'"
+          :sentence="'我需要習慣用這台電腦。'"
+          :bopomofo="'ㄨㄛˇ ㄒㄩ ㄧㄠˋ ㄒㄧˊ ㄍㄨㄢˋ ㄩㄥˋ ㄓㄜˋ ㄊㄞˊ ㄉㄧㄢˋ ㄋㄠˇ.'"
+          :pinyin="'wo3 xu1 yao4 xi2 guan4 yong4 zhe4 tai2 dian4 nao3.'"
+          :translation="'このコンピュータに慣れる必要があります。'"
         />
         <br>
         <p>
           ・問題
         </p>
         <SentenceFormat
-          :sentence="'最重要的問題是我們沒有夠的時間。'"
-          :bopomofo="'ㄗㄨㄟˋ ㄓㄨㄥˋ ㄧㄠˋ ㄉㄜ˙ ㄨㄣˋ ㄊㄧˊ ㄕˋ ㄨㄛˇ ㄇㄣ˙ ㄇㄟˊ ㄧㄡˇ ㄍㄡˋ ㄉㄜ˙ ㄕˊ ㄧㄢ.'"
-          :pinyin="'zui4 zhong4 yao4 de wen4 ti2 shi4 wo3 men mei2 you3 gou4 de shi2 jian1.'"
+          :sentence="'最重要的問題是我們沒有足夠的時間。'"
+          :bopomofo="'ㄗㄨㄟˋ ㄓㄨㄥˋ ㄧㄠˋ ㄉㄜ˙ ㄨㄣˋ ㄊㄧˊ ㄕˋ ㄨㄛˇ ㄇㄣ˙ ㄇㄟˊ ㄧㄡˇ ㄗㄨˊ ㄍㄡˋ ㄉㄜ˙ ㄕˊ ㄧㄢ.'"
+          :pinyin="'zui4 zhong4 yao4 de wen4 ti2 shi4 wo3 men mei2 you3 zu2 gou4 de shi2 jian1.'"
           :translation="'最も重要な問題は、十分な時間がないことです。'"
+          :memo="'※「夠」の後に名詞が来る場合は、「足夠」になる。 「我的錢夠買這個」のような場合は単独でOK。'"
         />
         <br>
         <p>
           ・熱水器
         </p>
         <SentenceFormat
-          :sentence="'熱水器中的水是否足以熱煮泡麵嗎?'"
-          :bopomofo="'ㄖㄜˋ ㄕㄨㄟˇ ㄑㄧˋ ㄓㄨㄥ ㄉㄜ˙ ㄕㄨㄟˇ ㄕˋ ㄈㄡˇ ㄗㄨˊ ㄧˇ ㄖㄜˋ ㄓㄨˇ ㄆㄠ ㄇㄧㄢˋ ㄇㄚ˙?'"
-          :pinyin="'re4 shui3 qi4 zhong1 de shui3 shi4 fou3 zu2 yi3 re4 zhu3 pao4 mian4 ma?'"
-          :translation="'給湯器のお湯はカップラーメンを作るのに充分熱いですか?'"
+          :sentence="'熱水器中的水是否足夠的熱度煮泡麵?'"
+          :bopomofo="'ㄖㄜˋ ㄕㄨㄟˇ ㄑㄧˋ ㄓㄨㄥ ㄉㄜ˙ ㄕㄨㄟˇ ㄕˋ ㄈㄡˇ ㄗㄨˊ ㄍㄡˋ ㄉㄜ˙ ㄖㄜˋ ㄉㄨˋ ㄓㄨˇ ㄆㄠ ㄇㄧㄢˋ?'"
+          :pinyin="'re4 shui3 qi4 zhong1 de shui3 shi4 fou3 zu2 gou4 de re4 du4 zhu3 pao4 mian4?'"
+          :translation="'給湯器のお湯はカップラーメンを作るのに充分な温度ですか?'"
+          :memo="'※「是否」で「~かどうか」を表すので、 語尾に「嗎」はつけない。'"
         />
         <br>
         <p>
@@ -326,9 +328,9 @@
           ・會
         </p>
         <SentenceFormat
-          :sentence="'我們得保持蛋糕， 否則他會全吃掉。'"
-          :bopomofo="'ㄨㄛˇ ㄇㄣ˙ ㄉㄜˊ ㄅㄠˇ ㄔˊ ㄉㄢˋ ㄍㄠ， ㄈㄡˇ ㄗㄜˊ ㄊㄚ ㄏㄨㄟˋ ㄑㄩㄢˊ ㄔ ㄉㄧㄠˋ.'"
-          :pinyin="'wo3 men dei3 bao3 chi2 dan4 gao1, fou3 ze2 ta1 hui4 quan2 chi1 diao4.'"
+          :sentence="'我們得保護蛋糕， 否則他會全部吃掉。'"
+          :bopomofo="'ㄨㄛˇ ㄇㄣ˙ ㄉㄟˇ ㄅㄠˇ ㄏㄨˋ ㄉㄢˋ ㄍㄠ， ㄈㄡˇ ㄗㄜˊ ㄊㄚ ㄏㄨㄟˋ ㄑㄩㄢˊ ㄅㄨˋ ㄔ ㄉㄧㄠˋ.'"
+          :pinyin="'wo3 men dei3 bao3 hu4 dan4 gao1, fou3 ze2 ta1 hui4 quan2 bu4 chi1 diao4.'"
           :translation="'ケーキを取っておかないと、 彼が全部食べてしまいます。'"
         />
         <br>
@@ -346,9 +348,9 @@
           ・那
         </p>
         <SentenceFormat
-          :sentence="'開始下雨了， 那我們去進什麼店吧。'"
-          :bopomofo="'ㄎㄞ ㄕˇ ㄒㄧㄚˋ ㄩˇ ㄌㄜ˙， ㄋㄚˋ ㄨㄛˇ ㄇㄣ˙ ㄑㄩˋ ㄐㄧㄣˋ ㄕㄣˊ ㄇㄜ˙ ㄉㄧㄢˋ ㄅㄚ˙.'"
-          :pinyin="'kai1 shi3 xia4 yu3 le, na4 wo3 men qu4 jin4 shen2 me dian4 ba.'"
+          :sentence="'開始下雨了， 那我們進店裡吧。'"
+          :bopomofo="'ㄎㄞ ㄕˇ ㄒㄧㄚˋ ㄩˇ ㄌㄜ˙， ㄋㄚˋ ㄨㄛˇ ㄇㄣ˙ ㄐㄧㄣˋ ㄉㄧㄢˋ ㄌㄧˇ ㄅㄚ˙.'"
+          :pinyin="'kai1 shi3 xia4 yu3 le, na4 wo3 men jin4 dian4 li3 ba.'"
           :translation="'雨が降り始めたので、 どこかお店に入りましょう。'"
         />
         <br>
@@ -356,9 +358,9 @@
           ・裝
         </p>
         <SentenceFormat
-          :sentence="'雖然他要裝新的冷氣, 他的太太說現在的是夠。'"
-          :bopomofo="'ㄙㄨㄟ ㄖㄢˊ ㄊㄚ ㄧㄠˋ ㄓㄨㄤ ㄒㄧㄣ ㄉㄜ˙ ㄌㄥˇ ㄑㄧˋ, ㄊㄚ ㄉㄜ˙ ㄊㄞˋ ㄊㄞˋ ㄕㄨㄛ ㄒㄧㄢˋ ㄗㄞˋ ㄉㄜ˙ ㄕˋ ㄍㄡˋ.'"
-          :pinyin="'sui1 ran2 ta1 yao4 zhuang1 xin1 de leng3 qi4, ta1 de tai4 tai4 shuo1 xian4 zai4 de shi4 gou4.'"
+          :sentence="'雖然他要裝新的冷氣, 可是他的太太說現在的夠用了。'"
+          :bopomofo="'ㄙㄨㄟ ㄖㄢˊ ㄊㄚ ㄧㄠˋ ㄓㄨㄤ ㄒㄧㄣ ㄉㄜ˙ ㄌㄥˇ ㄑㄧˋ, ㄎㄜˇ ㄕˋ ㄊㄚ ㄉㄜ˙ ㄊㄞˋ ㄊㄞˋ ㄕㄨㄛ ㄒㄧㄢˋ ㄗㄞˋ ㄉㄜ˙ ㄍㄡˋ ㄩㄥˋ ㄌㄜ˙.'"
+          :pinyin="'sui1 ran2 ta1 yao4 zhuang1 xin1 de leng3 xi4, ke3 shi4 ta1 de tai4 tai4 shuo1 xian4 zai4 de gou4 yong4 le.'"
           :translation="'彼は新しいエアコンを設置したいが、 彼の奥さんは今のもので十分だと言った。'"
         />
         <br>
@@ -386,9 +388,9 @@
           ・收到
         </p>
         <SentenceFormat
-          :sentence="'我還沒收到他昨天送的電子郵件。'"
-          :bopomofo="'ㄨㄛˇ ㄏㄞˊ ㄇㄛˋ ㄕㄡ ㄉㄠˋ ㄊㄚ ㄗㄨㄛˊ ㄊㄧㄢ ㄙㄨㄥˋ ㄉㄜ˙ ㄉㄧㄢˋ ㄗˇ ㄧㄡˊ ㄐㄧㄢˋ.'"
-          :pinyin="'wo3 hai2 mei2 shou1 dao4 ta1 zuo2 tian1 song4 de dian4 zi3 you2 jian4.'"
+          :sentence="'我還沒收到他昨天發的電子郵件。'"
+          :bopomofo="'ㄨㄛˇ ㄏㄞˊ ㄇㄛˋ ㄕㄡ ㄉㄠˋ ㄊㄚ ㄗㄨㄛˊ ㄊㄧㄢ ㄈㄚ ㄉㄜ˙ ㄉㄧㄢˋ ㄗˇ ㄧㄡˊ ㄐㄧㄢˋ.'"
+          :pinyin="'wo3 hai2 mei2 shou1 dao4 ta1 zuo2 tian1 fa1 de dian4 zi3 you2 jian4.'"
           :translation="'彼が昨日送ったメールをまだ受け取っていません。'"
         />
         <br>
@@ -396,10 +398,10 @@
           ・不好意思
         </p>
         <SentenceFormat
-          :sentence="'「不好意思」是大部分的日本人第一次學的中文語句之中。'"
-          :bopomofo="'ㄅㄨˋ ㄏㄠˇ ㄧˋ ㄙ ㄕˋ ㄉㄚˋ ㄅㄨˋ ㄈㄣˋ ㄉㄜ˙ ㄖˋ ㄅㄣˇ ㄖㄣˊ ㄉㄧˋ ㄧ ㄘˋ ㄒㄩㄝˊ ㄉㄜ˙ ㄓㄨㄥ ㄨㄣˊ ㄩˇ ㄐㄩˋ ㄓ ㄓㄨㄥ.'"
-          :pinyin="'bu4 hao3 yi4 si1 shi4 da4 bu4 fen4 de ri4 ben3 ren2 di4 yi1 ci4 xue2 de zhong1 wen2 yu3 ju4 zhi1 zhong1.'"
-          :translation="'「すみません」は、 ほとんどの日本人が初めて学ぶ中国語の文章の1つです。'"
+          :sentence="'「不好意思」是大部分的日本人第一次學到的中文句子。'"
+          :bopomofo="'ㄅㄨˋ ㄏㄠˇ ㄧˋ ㄙ ㄕˋ ㄉㄚˋ ㄅㄨˋ ㄈㄣˋ ㄉㄜ˙ ㄖˋ ㄅㄣˇ ㄖㄣˊ ㄉㄧˋ ㄧ ㄘˋ ㄒㄩㄝˊ ㄉㄠˋ ㄉㄜ˙ ㄓㄨㄥ ㄨㄣˊ ㄐㄩˋ ㄗ˙.'"
+          :pinyin="'bu4 hao3 yi4 si1 shi4 da4 bu4 fen4 de ri4 ben3 ren2 di4 yi1 ci4 xue2 dao4 de zhong1 wen2 ju4 zi3.'"
+          :translation="'「すみません」は、 ほとんどの日本人が最初に学ぶ中国語の文です。'"
         />
         <br>
         <p>
@@ -416,9 +418,9 @@
           ・有線電視
         </p>
         <SentenceFormat
-          :sentence="'最近合約有線電視的人少了。'"
-          :bopomofo="'ㄗㄨㄟˋ ㄐㄧㄣˋ ㄏㄜˊ ㄩㄝ ㄧㄡˇ ㄒㄧㄢˋ ㄉㄧㄢˋ ㄕˋ ㄉㄜ˙ ㄖㄣˊ ㄕㄠˇ ㄌㄜ˙.'"
-          :pinyin="'zui4 jin4 he2 yue1 you3 xian1 dian4 shi4 de ren2 shao3 le.'"
+          :sentence="'最近訂有線電視的人少了。'"
+          :bopomofo="'ㄗㄨㄟˋ ㄐㄧㄣˋ ㄉㄧㄥˋ ㄧㄡˇ ㄒㄧㄢˋ ㄉㄧㄢˋ ㄕˋ ㄉㄜ˙ ㄖㄣˊ ㄕㄠˇ ㄌㄜ˙.'"
+          :pinyin="'zui4 jin4 ding4 you3 xian1 dian4 shi4 de ren2 shao3 le.'"
           :translation="'最近ケーブルテレビを契約する人は少なくなっています。'"
         />
         <br>
