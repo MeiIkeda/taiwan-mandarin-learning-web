@@ -209,7 +209,7 @@
           :sentence="'先洗澡, 再洗衣服。'"
           :bopomofo="'ㄒㄧㄢ ㄒㄧˇ ㄗㄠˇ, ㄗㄞˋ ㄒㄧˇ ㄧ ㄈㄨˊ.'"
           :pinyin="'xian1 xi3 zao3, zai4 xi3 yi1 fu2.'"
-          :translation="'先にシャワーを浴びて、 それから選択します。'"
+          :translation="'先にシャワーを浴びて、 それから洗濯します。'"
         />
         <br>
         <p>
