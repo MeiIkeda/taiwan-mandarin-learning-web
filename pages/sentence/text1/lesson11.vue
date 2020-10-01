@@ -36,7 +36,7 @@
           ・房東
         </p>
         <SentenceFormat
-          :sentence="'要是你想變房間的什麼東自, 你得問房東。'"
+          :sentence="'要是你想變房間的什麼東西, 你得問房東。'"
           :bopomofo="'ㄧㄠˋ ㄕˋ ㄋㄧˇ ㄒㄧㄤˇ ㄅㄧㄢˋ ㄈㄤˊ ㄐㄧㄢ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙, ㄋㄧˇ ㄉㄟˇ ㄨㄣˋ ㄈㄤˊ ㄉㄨㄥ.'"
           :pinyin="'yao4 shi4 ni3 xiang3 bian4 fang2 jian1 de dong1 xi, ni3 dei3 wen4 fang2 dong1.'"
           :translation="'部屋の何かを変更したい場合は、 家主に聞く必要があります。'"
@@ -58,7 +58,7 @@
         <SentenceFormat
           :sentence="'廚房需要一個蒸鍋。'"
           :bopomofo="'ㄔㄨˊ ㄈㄤˊ ㄒㄩ ㄧㄠˋ ㄧˊ ㄍㄜˋ ㄓㄥ ㄍㄨㄛ.'"
-          :pinyin="'chu2 fang2 xu1 ya1o/ya4o yi1 ge4 zhe1ng guo1 .'"
+          :pinyin="'chu2 fang2 xu1 yao4 yi1 ge4 zheng1 guo1.'"
           :translation="'キッチンには蒸し器が必要です。'"
         />
         <br>
@@ -346,9 +346,9 @@
           ・那
         </p>
         <SentenceFormat
-          :sentence="'開始下雨了， 那我們去進什麼店。'"
-          :bopomofo="'ㄎㄞ ㄕˇ ㄒㄧㄚˋ ㄩˇ ㄌㄜ˙， ㄋㄚˋ ㄨㄛˇ ㄇㄣ˙ ㄑㄩˋ ㄐㄧㄣˋ ㄕㄣˊ ㄇㄜ˙ ㄉㄧㄢˋ.'"
-          :pinyin="'kai1 shi3 xia4 yu3 le, na4 wo3 men qu4 jin4 shen2 me dian4.'"
+          :sentence="'開始下雨了， 那我們去進什麼店吧。'"
+          :bopomofo="'ㄎㄞ ㄕˇ ㄒㄧㄚˋ ㄩˇ ㄌㄜ˙， ㄋㄚˋ ㄨㄛˇ ㄇㄣ˙ ㄑㄩˋ ㄐㄧㄣˋ ㄕㄣˊ ㄇㄜ˙ ㄉㄧㄢˋ ㄅㄚ˙.'"
+          :pinyin="'kai1 shi3 xia4 yu3 le, na4 wo3 men qu4 jin4 shen2 me dian4 ba.'"
           :translation="'雨が降り始めたので、 どこかお店に入りましょう。'"
         />
         <br>
@@ -376,9 +376,9 @@
           ・付
         </p>
         <SentenceFormat
-          :sentence="'我去餐廳跟朋友的時候, 付錢是各付各的。'"
-          :bopomofo="'ㄨㄛˇ ㄑㄩˋ ㄘㄢ ㄊㄧㄥ ㄍㄣ ㄆㄥˊ ㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄈㄨˋ ㄑㄧㄢˊ ㄕˋ ㄍㄜˋ ㄈㄨˋ ㄍㄜˋ ㄉㄜ˙.'"
-          :pinyin="'wo3 qu4 can1 ting1 gen1 peng2 you3 de shi2 hou4, fu4 qian2 shi4 ge4 fu4 ge4 de.'"
+          :sentence="'我跟朋友去餐廳的時候, 付錢是各付各的。'"
+          :bopomofo="'ㄨㄛˇ ㄍㄣ ㄆㄥˊ ㄧㄡˇ ㄑㄩˋ ㄘㄢ ㄊㄧㄥ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄈㄨˋ ㄑㄧㄢˊ ㄕˋ ㄍㄜˋ ㄈㄨˋ ㄍㄜˋ ㄉㄜ˙.'"
+          :pinyin="'wo3 gen1 peng2 you3 qu4 can1 ting1 de shi2 hou4, fu4 qian2 shi4 ge4 fu4 ge4 de.'"
           :translation="'友達とレストランに行くとき、 会計は割り勘です。'"
         />
         <br>
