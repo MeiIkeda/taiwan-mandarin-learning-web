@@ -268,7 +268,7 @@
         <SentenceFormat
           :sentence="'我用轉帳付每個月的房租。'"
           :bopomofo="'ㄨㄛˇ ㄩㄥˋ ㄓㄨㄢˇ ㄓㄤˋ ㄈㄨˋ ㄇㄟˇ ㄍㄜˋ ㄩㄝˋ ㄉㄜ˙ ㄈㄤˊ ㄗㄨ.'"
-          :pinyin="'wo3 yong4 zhuan4 zhang4 fu4 mei3 ge4 yue4 de fang2 zu1.'"
+          :pinyin="'wo3 yong4 zhuan3 zhang4 fu4 mei3 ge4 yue4 de fang2 zu1.'"
           :translation="'私は毎月の家賃を振込で支払います。'"
         />
         <br>
