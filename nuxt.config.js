@@ -1,5 +1,5 @@
 require('dotenv').config()
-
+const cheerio = require('cheerio')
 export default {
   mode: 'universal',
   /*
@@ -88,14 +88,23 @@ export default {
   ** Build configuration
   */
   build: {
-    extractCSS: true,
+    // extractCSS: true,
     /*
     ** You can extend webpack config here
     */
     extend (config, ctx) {
     }
   },
-
+  hooks: { // 追加
+    'generate:page': (page) => {
+      const doc = cheerio.load(page.html)
+      console.log('doc=' + doc)
+      // doc(`body script`).remove()
+      doc('data-n-head').remove()
+      doc('data-n-head-ssr').remove()
+      page.html = doc.html()
+    }
+  },
   sitemap: {
     path: '/sitemap.xml', // 出力パス
     hostname: process.env.BROWSER_BASE_URL,
