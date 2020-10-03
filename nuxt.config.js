@@ -1,5 +1,15 @@
+import cheerio from 'cheerio'
 require('dotenv').config()
-const cheerio = require('cheerio')
+
+const removeDataAttributeFromFlattrMetaTag = (html) => {
+  const $ = cheerio.load(html, { decodeEntities: false })
+  $('html').removeAttr('data-n-head', 'data-n-head-ssr')
+  $('meta').removeAttr('data-n-head')
+  $('link').removeAttr('data-n-head')
+  $('script').removeAttr('data-n-head')
+  return $.html()
+}
+
 export default {
   mode: 'universal',
   /*
@@ -96,13 +106,15 @@ export default {
     }
   },
   hooks: { // 追加
-    'generate:page': (page) => {
-      const doc = cheerio.load(page.html)
-      console.log('doc=' + doc)
-      // doc(`body script`).remove()
-      doc('data-n-head').remove()
-      doc('data-n-head-ssr').remove()
-      page.html = doc.html()
+    generate: {
+      page (page) {
+        page.html = removeDataAttributeFromFlattrMetaTag(page.html)
+      }
+    },
+    render: {
+      route (url, page) {
+        page.html = removeDataAttributeFromFlattrMetaTag(page.html)
+      }
     }
   },
   sitemap: {
