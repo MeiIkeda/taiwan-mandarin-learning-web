@@ -261,7 +261,7 @@ export default {
       meta: [
         { hid: 'description', name: 'description', content: '中国語語彙ページ。 レベル別に単語を表示したり、音声再生、聞き流しができます' },
         { hid: 'og:title', name: 'og:title', content: '中国語語彙　台湾華語 taiwan-mandarin | 台湾で学ぶ中国語の学習ノート' },
-        { hid: 'og:decription', name: 'og:decription', content: '国語語彙ページ。 レベル別に単語を表示したり、音声再生、聞き流しができます' }
+        { hid: 'og:decription', name: 'og:decription', content: '中国語語彙ページ。 レベル別に単語を表示したり、音声再生、聞き流しができます' }
       ]
     }
   },
