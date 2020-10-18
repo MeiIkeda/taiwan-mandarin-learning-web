@@ -286,7 +286,7 @@
           ・以後
         </p>
         <SentenceFormat
-          :sentence="'洗完碗以後, 你可不可幫我倒垃圾?'"
+          :sentence="'洗完碗以後, 你可不可以幫我倒垃圾?'"
           :bopomofo="'ㄒㄧˇ ㄨㄢˊ ㄨㄢˇ ㄧˇ ㄏㄡˋ, ㄋㄧˇ ㄎㄜˇ ㄅㄨˋ ㄎㄜˇ ㄧˇ ㄅㄤ ㄨㄛˇ ㄉㄠˋ ㄌㄜˋ ㄙㄜˋ?'"
           :pinyin="'xi3 wan2 wan3 yi3 hou4, ni3 ke3 bu4 ke3 yi3 bang1 wo3 dao3 le4 se4?'"
           :translation="'お皿を洗った後、 ゴミ出しを手伝ってもらえますか?'"
@@ -348,7 +348,7 @@
         <SentenceFormat
           :sentence="'你買汽車的時候, 你因該試開車。'"
           :bopomofo="'ㄋㄧˇ ㄇㄞˇ ㄑㄧˋ ㄔㄜ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄋㄧˇ ㄧㄣ ㄍㄞ ㄕˋ ㄎㄞ ㄔㄜ.'"
-          :pinyin="'ni3 mai3 qi4 che1 de shi2 hou4, ni3 yin1 gai1 shi4 kai che1.'"
+          :pinyin="'ni3 mai3 qi4 che1 de shi2 hou4, ni3 yin1 gai1 shi4 kai1 che1.'"
           :translation="'車を買うときは、 試乗してみるべきです。'"
         />
         <br>
@@ -378,7 +378,7 @@
         <SentenceFormat
           :sentence="'如果失敗, 你可以再試一次。'"
           :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄕ ㄅㄞˋ, ㄋㄧˇ ㄎㄜˇ ㄧˇ ㄗㄞˋ ㄕˋ ㄧ ㄘˋ.'"
-          :pinyin="'ru2 guo3 shi1 bai, ni3 ke3 yi3 zai4 shi4 yi1 ci4.'"
+          :pinyin="'ru2 guo3 shi1 bai4, ni3 ke3 yi3 zai4 shi4 yi1 ci4.'"
           :translation="'失敗した場合は、 もう一度やってみる事ができます。'"
         />
         <br>
