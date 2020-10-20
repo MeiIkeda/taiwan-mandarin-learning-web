@@ -26,9 +26,9 @@
           ・計畫
         </p>
         <SentenceFormat
-          :sentence="'雖然他計畫了到八點完這個功課， 但他太累， 入睡覺了。'"
-          :bopomofo="'ㄙㄨㄟ ㄖㄢˊ ㄊㄚ ㄐㄧˋ ㄏㄨㄚˋ ㄌㄜ˙ ㄉㄠˋ ㄅㄚ ㄉㄧㄢˇ ㄨㄢˊ ㄓㄜˋ ㄍㄜˋ ㄍㄨㄥ ㄎㄜˋ， ㄉㄢˋ ㄊㄚ ㄊㄞˋ ㄌㄟˋ， ㄖㄨˋ ㄕㄨㄟˋ ㄐㄧㄠˋ ㄌㄜ˙.'"
-          :pinyin="'sui1 ran2 ta1 ji4 hua4 le dao4 ba1 dian3 wan2 zhe4 ge4 gong1 ke4, dan4 ta1 tai4 lei4, ru4 shui4 jiao4 le.'"
+          :sentence="'雖然他計畫八點做完這個功課， 但是他太累了， 不小心睡著了。'"
+          :bopomofo="'ㄙㄨㄟ ㄖㄢˊ ㄊㄚ ㄐㄧˋ ㄏㄨㄚˋ ㄅㄚ ㄉㄧㄢˇ ㄗㄨㄛˋ ㄨㄢˊ ㄓㄜˋ ㄍㄜˋ ㄍㄨㄥ ㄎㄜˋ， ㄉㄢˋ ㄕˋ ㄊㄚ ㄊㄞˋ ㄌㄟˋ ㄌㄜ˙， ㄅㄨˋ ㄒㄧㄠˇ ㄒㄧㄣ ㄕㄨㄟˋ ㄓㄠˊ ㄌㄜ˙.'"
+          :pinyin="'sui1 ran2 ta1 ji4 hua4 ba1 dian3 zuo4 wan2 zhe4 ge4 gong1 ke4, dan4 shi4 ta1 tai4 lei4 le, bu4 xiao3 xin1 shui4 zhao2 le.'"
           :translation="'彼はこの宿題を8時までに終えるつもりでしたが、疲れすぎて寝てしまいました。'"
         />
         <br>
@@ -36,9 +36,9 @@
           ・年
         </p>
         <SentenceFormat
-          :sentence="'你想學中文幾年?'"
-          :bopomofo="'ㄋㄧˇ ㄒㄧㄤˇ ㄒㄩㄝˊ ㄓㄨㄥ ㄨㄣˊ ㄐㄧˇ ㄋㄧㄢˊ?'"
-          :pinyin="'ni3 xiang3 xue2 zhong1 wen2 ji3 nian2?'"
+          :sentence="'你想學中文學幾年?'"
+          :bopomofo="'ㄋㄧˇ ㄒㄧㄤˇ ㄒㄩㄝˊ ㄓㄨㄥ ㄨㄣˊ ㄒㄩㄝˊ ㄐㄧˇ ㄋㄧㄢˊ?'"
+          :pinyin="'ni3 xiang3 xue2 zhong1 wen2 xue2 ji3 nian2?'"
           :translation="'何年中国語を学びたいですか?'"
         />
         <br>
@@ -46,9 +46,9 @@
           ・久
         </p>
         <SentenceFormat
-          :sentence="'這個課很有意思, 但是有點太久。'"
-          :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄎㄜˋ ㄏㄣˇ ㄧㄡˇ ㄧˋ ㄙ, ㄉㄢˋ ㄕˋ ㄧㄡˇ ㄉㄧㄢˇ ㄊㄞˋ ㄐㄧㄡˇ.'"
-          :pinyin="'zhe4 ge4 ke4 hen3 you3 yi4 si1, dan4 shi4 you3 dian3 tai4 jiu3.'"
+          :sentence="'這個課很有意思, 但是有點久。'"
+          :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄎㄜˋ ㄏㄣˇ ㄧㄡˇ ㄧˋ ㄙ, ㄉㄢˋ ㄕˋ ㄧㄡˇ ㄉㄧㄢˇ ㄐㄧㄡˇ.'"
+          :pinyin="'zhe4 ge4 ke4 hen3 you3 yi4 si1, dan4 shi4 you3 dian3 jiu3.'"
           :translation="'このクラスはとても面白いのですが、 少し長すぎます。'"
         />
         <br>
@@ -66,29 +66,30 @@
           ・先
         </p>
         <SentenceFormat
-          :sentence="'我們先吃晚餐, 那後會去散步吧。'"
-          :bopomofo="'ㄨㄛˇ ㄇㄣ˙ ㄒㄧㄢ ㄔ ㄨㄢˇ ㄘㄢ, ㄋㄚˋ ㄏㄡˋ ㄏㄨㄟˋ ㄑㄩˋ ㄙㄢˋ ㄅㄨˋ ㄅㄚ˙.'"
-          :pinyin="'wo3 men xian1 chi1 wan3 can1, na4 hou4 hui4 qu4 san4 bu4 ba.'"
+          :sentence="'我們先吃晚餐, 然後再去散步吧。'"
+          :bopomofo="'ㄨㄛˇ ㄇㄣ˙ ㄒㄧㄢ ㄔ ㄨㄢˇ ㄘㄢ, ㄖㄢˊ ㄏㄡˋ ㄗㄞˋ ㄑㄩˋ ㄙㄢˋ ㄅㄨˋ ㄅㄚ˙.'"
+          :pinyin="'wo3 men xian1 chi1 wan3 can1, ran2 hou4 zai4 qu4 san4 bu4 ba.'"
           :translation="'最初に夕食をとって、 それから散歩に行きましょう。'"
+          :memo="'※「先～, 再...」構文は未来形/過去形にも使えるが、 會/了などは使わなくてよい。'"
         />
         <br>
         <p>
           ・念
         </p>
         <SentenceFormat
-          :sentence="'念高中的學生常常吃漢堡。'"
-          :bopomofo="'ㄋㄧㄢˋ ㄍㄠ ㄓㄨㄥ ㄉㄜ˙ ㄒㄩㄝˊ ㄕㄥ ㄔㄤˊ ㄔㄤˊ ㄔ ㄏㄢˋ ㄅㄠˇ.'"
-          :pinyin="'nian4 gao1 zhong1 de xue2 sheng1 chang2 chang2 chi1 han4 bao3.'"
-          :translation="'高校生はよくハンバーガーを食べます。'"
+          :sentence="'我念高中的時候常常吃漢堡。'"
+          :bopomofo="'ㄨㄛˇ ㄋㄧㄢˋ ㄍㄠ ㄓㄨㄥ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄔㄤˊ ㄔㄤˊ ㄔ ㄏㄢˋ ㄅㄠˇ.'"
+          :pinyin="'wo3 nian4 gao1 zhong1 de shi2 hou4 chang2 chang2 chi1 han4 bao3.'"
+          :translation="'高校生の時はよくハンバーガーを食べました。'"
         />
         <br>
         <p>
           ・大學
         </p>
         <SentenceFormat
-          :sentence="'我念大學的時候, 我住在雅房。'"
-          :bopomofo="'ㄨㄛˇ ㄋㄧㄢˋ ㄉㄚˋ ㄒㄩㄝˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄨㄛˇ ㄓㄨˋ ㄗㄞˋ ㄧㄚˇ ㄈㄤˊ.'"
-          :pinyin="'wo3 nian4 da4 xue2 de shi2 hou4, wo3 zhu4 zai4 ya3 fang2.'"
+          :sentence="'我念大學的時候, 我住雅房。'"
+          :bopomofo="'ㄨㄛˇ ㄋㄧㄢˋ ㄉㄚˋ ㄒㄩㄝˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄨㄛˇ ㄓㄨˋ ㄧㄚˇ ㄈㄤˊ.'"
+          :pinyin="'wo3 nian4 da4 xue2 de shi2 hou4, wo3 zhu4 ya3 fang2.'"
           :translation="'大学時代はシェアルームに住んでいました。'"
         />
         <br>
@@ -116,9 +117,9 @@
           ・獎學金
         </p>
         <SentenceFormat
-          :sentence="'退還獎學金需要數年時間。'"
-          :bopomofo="'ㄊㄨㄟˋ ㄏㄨㄢˊ ㄐㄧㄤˇ ㄒㄩㄝˊ ㄐㄧㄣ ㄒㄩ ㄧㄠˋ ㄕㄨˋ ㄋㄧㄢˊ ㄕˊ ㄐㄧㄢ.'"
-          :pinyin="'tui4 huan2 jiang3 xue2 jin1 xu1 yao4 shu4 nian2 shi2 jian1.'"
+          :sentence="'退還獎學金需要好幾年。'"
+          :bopomofo="'ㄊㄨㄟˋ ㄏㄨㄢˊ ㄐㄧㄤˇ ㄒㄩㄝˊ ㄐㄧㄣ ㄒㄩ ㄧㄠˋ ㄏㄠˇ ㄐㄧˇ ㄋㄧㄢˊ.'"
+          :pinyin="'tui4 huan2 jiang3 xue2 jin1 xu1 yao4 hao3 ji3 nian2.'"
           :translation="'奨学金の返済には数年かかります。'"
         />
         <br>
@@ -126,9 +127,9 @@
           ・成績
         </p>
         <SentenceFormat
-          :sentence="'你的成績決定你的課程。'"
-          :bopomofo="'ㄋㄧˇ ㄉㄜ˙ ㄔㄥˊ ㄐㄧ ㄐㄩㄝˊ ㄉㄧㄥˋ ㄋㄧˇ ㄉㄜ˙ ㄎㄜˋ ㄔㄥˊ.'"
-          :pinyin="'ni3 de cheng2 ji4 jue2 ding4 ni3 de ke4 cheng2.'"
+          :sentence="'你的成績決定你上哪一班。'"
+          :bopomofo="'ㄋㄧˇ ㄉㄜ˙ ㄔㄥˊ ㄐㄧ ㄐㄩㄝˊ ㄉㄧㄥˋ ㄋㄧˇ ㄕㄤˋ ㄋㄚˇ ㄧ ㄅㄢ.'"
+          :pinyin="'ni3 de cheng2 ji4 jue2 ding4 ni3 shang4 na3 yi1 ban1.'"
           :translation="'あなたの成績によって、 クラスが決まります。'"
         />
         <br>
@@ -146,9 +147,9 @@
           ・公司
         </p>
         <SentenceFormat
-          :sentence="'那家公司利用每週休息兩天的工作制度。'"
-          :bopomofo="'ㄋㄚˋ ㄐㄧㄚ ㄍㄨㄥ ㄙ ㄌㄧˋ ㄩㄥˋ ㄇㄟˇ ㄓㄡ ㄒㄧㄡ ㄒㄧ ㄌㄧㄤˇ ㄊㄧㄢ ㄉㄜ˙ ㄍㄨㄥ ㄗㄨㄛˋ ㄓˋ ㄉㄨˋ.'"
-          :pinyin="'na4 jia1 gong1 si1 li4 yong4 mei3 zhou1 xiu1 xi1 liang3 tian1 de gong1 zuo1 zhi4 du4.'"
+          :sentence="'那家公司每週休息兩天。'"
+          :bopomofo="'ㄋㄚˋ ㄐㄧㄚ ㄍㄨㄥ ㄙ ㄇㄟˇ ㄓㄡ ㄒㄧㄡ ㄒㄧ ㄌㄧㄤˇ ㄊㄧㄢ.'"
+          :pinyin="'na4 jia1 gong1 si1 mei3 zhou1 xiu1 xi1 liang3 tian1.'"
           :translation="'あの会社は週休2日制を採用しています。'"
         />
         <br>
@@ -166,9 +167,9 @@
           ・希望
         </p>
         <SentenceFormat
-          :sentence="'我希望下一次考試中獲得好成績。'"
-          :bopomofo="'ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄒㄧㄚˋ ㄧ ㄘˋ ㄎㄠˇ ㄕˋ ㄓㄨㄥ ㄏㄨㄛˋ ㄉㄜˊ ㄏㄠˇ ㄔㄥˊ ㄐㄧ.'"
-          :pinyin="'wo3 xi1 wang4 xia4 yi1 ci4 kao3 shi4 zhong1 huo4 de2 hao3 cheng2 ji1.'"
+          :sentence="'我希望下一次考試獲得好的成績。'"
+          :bopomofo="'ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄒㄧㄚˋ ㄧ ㄘˋ ㄎㄠˇ ㄕˋ ㄏㄨㄛˋ ㄉㄜˊ ㄏㄠˇ ㄉㄜ˙ ㄔㄥˊ ㄐㄧ.'"
+          :pinyin="'wo3 xi1 wang4 xia4 yi1 ci4 kao3 shi4 huo4 de2 hao3 de cheng2 ji1.'"
           :translation="'次の試験では良い成績を取りたいです。'"
         />
         <br>
@@ -186,9 +187,9 @@
           ・到
         </p>
         <SentenceFormat
-          :sentence="'如果我們現在出門, 到九點會到火車站。'"
-          :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄛˇ ㄇㄣ˙ ㄒㄧㄢˋ ㄗㄞˋ ㄔㄨ ㄇㄣˊ, ㄉㄠˋ ㄐㄧㄡˇ ㄉㄧㄢˇ ㄏㄨㄟˋ ㄉㄠˋ ㄏㄨㄛˇ ㄔㄜ ㄓㄢˋ.'"
-          :pinyin="'ru2 guo3 wo3 men xian4 zai4 chu1 men2, dao4 jiu3 dian3 hui4 dao4 huo3 che1 zhan4.'"
+          :sentence="'如果我們現在出門, 九點會到火車站。'"
+          :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄛˇ ㄇㄣ˙ ㄒㄧㄢˋ ㄗㄞˋ ㄔㄨ ㄇㄣˊ, ㄐㄧㄡˇ ㄉㄧㄢˇ ㄏㄨㄟˋ ㄉㄠˋ ㄏㄨㄛˇ ㄔㄜ ㄓㄢˋ.'"
+          :pinyin="'ru2 guo3 wo3 men xian4 zai4 chu1 men2, jiu3 dian3 hui4 dao4 huo3 che1 zhan4.'"
           :translation="'今出かければ、 9時までに駅に着く事ができます。'"
         />
         <br>
@@ -206,9 +207,9 @@
           ・念書
         </p>
         <SentenceFormat
-          :sentence="'我想念書， 但是不能因為外面太吵。'"
-          :bopomofo="'ㄨㄛˇ ㄒㄧㄤˇ ㄋㄧㄢˋ ㄕㄨ， ㄉㄢˋ ㄕˋ ㄅㄨˋ ㄋㄥˊ ㄧㄣ ㄨㄟˋ ㄨㄞˋ ㄇㄧㄢˋ ㄊㄞˋ ㄔㄠˇ.'"
-          :pinyin="'wo3 xiang3 nian4 shu1, dan4 shi4 bu4 neng2 yin1 wei4 wai4 mian4 tai4 chao3.'"
+          :sentence="'我想念書， 但是外面太吵了, 不能念。'"
+          :bopomofo="'ㄨㄛˇ ㄒㄧㄤˇ ㄋㄧㄢˋ ㄕㄨ， ㄉㄢˋ ㄕˋ ㄨㄞˋ ㄇㄧㄢˋ ㄊㄞˋ ㄔㄠˇ, ㄅㄨˋ ㄋㄥˊ ㄋㄧㄢˋ.'"
+          :pinyin="'wo3 xiang3 nian4 shu1, dan4 shi4 wai4 mian4 tai4 chao3, bu4 neng2 nian4.'"
           :translation="'勉強したいのですが、 外がうるさすぎて出来ません。'"
         />
         <br>
@@ -216,10 +217,11 @@
           ・累
         </p>
         <SentenceFormat
-          :sentence="'如果床很硬， 那麼睡覺就很累。'"
-          :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄔㄨㄤˊ ㄏㄣˇ ㄧㄥˋ， ㄋㄚˋ ㄇㄜ˙ ㄕㄨㄟˋ ㄐㄧㄠˋ ㄐㄧㄡˋ ㄏㄣˇ ㄌㄟˋ.'"
-          :pinyin="'ru2 guo3 chuang2 hen3 ying4, na4 me shui4 jiao4 jiu4 hen3 lei4.'"
+          :sentence="'如果床很硬， 光睡覺也很累。'"
+          :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄔㄨㄤˊ ㄏㄣˇ ㄧㄥˋ， ㄍㄨㄤ ㄕㄨㄟˋ ㄐㄧㄠˋ ㄧㄝˇ ㄏㄣˇ ㄌㄟˋ.'"
+          :pinyin="'ru2 guo3 chuang2 hen3 ying4, guang1 shui4 jiao4 ye3 hen3 lei4.'"
           :translation="'ベッドが硬いと、 寝ているだけでも疲れます。'"
+          :memo="'※「光(ㄍㄨㄤ/guang1) + 動詞」で「～だけ」。'"
         />
         <br>
         <p>
@@ -236,9 +238,9 @@
           ・加油
         </p>
         <SentenceFormat
-          :sentence="'單詞「加油」不是只是在加油站使用， 還在歡呼什麼人的時候使用。'"
-          :bopomofo="'ㄉㄢ ㄘˊ  ㄐㄧㄚ ㄧㄡˊ ㄅㄨˊ ㄕˋ ㄓˇ ㄕˋ ㄗㄞˋ ㄐㄧㄚ ㄧㄡˊ ㄓㄢˋ ㄕˇ ㄩㄥˋ， ㄏㄞˊ ㄗㄞˋ ㄏㄨㄢ ㄏㄨ ㄕㄣˊ ㄇㄜ˙ ㄖㄣˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄕˇ ㄩㄥˋ.'"
-          :pinyin="'dan1 ci2 jia1 you2 bu2 shi4 zhi3 shi4 zai4 jia1 you2 zhan4 shi3 yong4, hai2 za4i huan1 hu1 shen2 me ren2 de shi2 hou4 shi3 yong4.'"
+          :sentence="'單詞「加油」不是只是在加油站使用， 還在支持什麼人的時候使用。'"
+          :bopomofo="'ㄉㄢ ㄘˊ  ㄐㄧㄚ ㄧㄡˊ ㄅㄨˊ ㄕˋ ㄓˇ ㄕˋ ㄗㄞˋ ㄐㄧㄚ ㄧㄡˊ ㄓㄢˋ ㄕˇ ㄩㄥˋ， ㄏㄞˊ ㄗㄞˋ ㄓ ㄔˊ ㄕㄣˊ ㄇㄜ˙ ㄖㄣˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄕˇ ㄩㄥˋ.'"
+          :pinyin="'dan1 ci2 jia1 you2 bu2 shi4 zhi3 shi4 zai4 jia1 you2 zhan4 shi3 yong4, hai2 za4i zhi1 chi2 shen2 me ren2 de shi2 hou4 shi3 yong4.'"
           :translation="'「加油」という言葉はガソリンスタンドでだけでなく、 誰かを応援するときにも使われます。'"
         />
         <br>
@@ -246,9 +248,9 @@
           ・工作
         </p>
         <SentenceFormat
-          :sentence="'工作的重要事是速度和正確。'"
-          :bopomofo="'ㄍㄨㄥ ㄗㄨㄛˋ ㄉㄜ˙ ㄓㄨㄥˋ ㄧㄠˋ ㄕˋ ㄕˋ ㄙㄨˋ ㄉㄨˋ ㄏㄢˋ ㄓㄥˋ ㄑㄩㄝˋ.'"
-          :pinyin="'gong1 zuo1 de zhong4 yao4 shi4 shi4 su4 du4 han4 zheng4 que4.'"
+          :sentence="'工作最重要的是速度和正確。'"
+          :bopomofo="'ㄍㄨㄥ ㄗㄨㄛˋ ㄗㄨㄟˋ ㄓㄨㄥˋ ㄧㄠˋ ㄉㄜ˙ ㄕˋ ㄙㄨˋ ㄉㄨˋ ㄏㄢˋ ㄓㄥˋ ㄑㄩㄝˋ.'"
+          :pinyin="'gong1 zuo4 zui4 zhong4 yao4 de shi4 su4 du4 han4 zheng4 que4.'"
           :translation="'仕事で重要なことはスピードと正確さです。'"
         />
         <br>
@@ -266,9 +268,9 @@
           ・做
         </p>
         <SentenceFormat
-          :sentence="'為了進去那棟大樓, 要做檢查。'"
-          :bopomofo="'ㄨㄟˋ ㄌㄜ˙ ㄐㄧㄣˋ ㄑㄩˋ ㄋㄚˋ ㄉㄨㄥˋ ㄉㄚˋ ㄌㄡˊ, ㄧㄠˋ ㄗㄨㄛˋ ㄐㄧㄢˇ ㄔㄚˊ.'"
-          :pinyin="'wei4 le jin4 qu4 na4 dong4 da4 lou2, yao4 zuo4 jian3 cha2.'"
+          :sentence="'進那棟大樓, 要做檢查。'"
+          :bopomofo="'ㄐㄧㄣˋ ㄋㄚˋ ㄉㄨㄥˋ ㄉㄚˋ ㄌㄡˊ, ㄧㄠˋ ㄗㄨㄛˋ ㄐㄧㄢˇ ㄔㄚˊ.'"
+          :pinyin="'jin4 na4 dong4 da4 lou2, yao4 zuo4 jian3 cha2.'"
           :translation="'その建物に入るには、 検査が必要です。'"
         />
         <br>
@@ -276,10 +278,10 @@
           ・生意
         </p>
         <SentenceFormat
-          :sentence="'為了在台灣做生意, 我們從什麼開始?'"
-          :bopomofo="'ㄨㄟˋ ㄌㄜ˙ ㄗㄞˋ ㄊㄞˊ ㄨㄢ ㄗㄨㄛˋ ㄕㄥ ㄧˋ, ㄨㄛˇ ㄇㄣ˙ ㄨㄥˊ ㄕㄣˊ ㄇㄜ˙ ㄎㄞ ㄕˇ?'"
-          :pinyin="'wei4 le zai4 tai2 wan1 zuo4 sheng1 yi4, wo3 men cong2 shen2 me kai1 shi3?'"
-          :translation="'台湾でビジネスをするためには、 何から始めれ婆いいですか?'"
+          :sentence="'為了在台灣做生意, 我們從什麼開始好呢?'"
+          :bopomofo="'ㄨㄟˋ ㄌㄜ˙ ㄗㄞˋ ㄊㄞˊ ㄨㄢ ㄗㄨㄛˋ ㄕㄥ ㄧˋ, ㄨㄛˇ ㄇㄣ˙ ㄘㄨㄥˊ ㄕㄣˊ ㄇㄜ˙ ㄎㄞ ㄕˇ ㄏㄠˇ ㄋㄜ˙?'"
+          :pinyin="'wei4 le zai4 tai2 wan1 zuo4 sheng1 yi4, wo3 men cong2 shen2 me kai1 shi3 hao3 ne?'"
+          :translation="'台湾でビジネスをするためには、 何から始めればいいですか?'"
         />
         <br>
         <p>
@@ -296,9 +298,9 @@
           ・好
         </p>
         <SentenceFormat
-          :sentence="'條件很好， 所以我訂了一份新的手機計劃。'"
-          :bopomofo="'ㄊㄧㄠˊ ㄐㄧㄢˋ ㄏㄣˇ ㄏㄠˇ， ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄉㄧㄥˋ ㄌㄜ˙ ㄧ ㄈㄣˋ ㄒㄧㄣ ㄉㄜ˙ ㄕㄡˇ ㄐㄧ ㄐㄧˋ ㄏㄨㄚˋ.'"
-          :pinyin="'tiao2 jian4 hen3 hao3, suo3 yi3 wo3 ding4 le yi1 fen4 xin1 de shou3 ji1 ji4 hua4.'"
+          :sentence="'條件很好， 所以我的新手機綁了約。'"
+          :bopomofo="'ㄊㄧㄠˊ ㄐㄧㄢˋ ㄏㄣˇ ㄏㄠˇ， ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄉㄜ˙ ㄒㄧㄣ ㄕㄡˇ ㄐㄧ ㄅㄤˇ ㄌㄜ˙ ㄩㄝ.'"
+          :pinyin="'tiao2 jian4 hen3 hao3, suo3 yi3 wo3 de xin1 shou3 ji1 bang3 le yue1.'"
           :translation="'条件が良いので、 新しい携帯電話のプランを契約しました。'"
         />
         <br>
@@ -306,10 +308,10 @@
           ・找
         </p>
         <SentenceFormat
-          :sentence="'除了主要業務， 我正在找打工。'"
-          :bopomofo="'ㄔㄨˊ ㄌㄜ˙ ㄓㄨˇ ㄧㄠˋ ㄧㄝˋ ㄨˋ， ㄨㄛˇ ㄓㄥˋ ㄗㄞˋ ㄓㄠˇ ㄉㄚˇ ㄍㄨㄥ.'"
-          :pinyin="'chu2 le zhu3 yao4 ye4 wu4, wo3 zheng4 zai4 zhao3 da3 gong1.'"
-          :translation="'本業に加えて、 パートタイムの仕事を探しています。'"
+          :sentence="'我正在找部分時間的工作。'"
+          :bopomofo="'ㄨㄛˇ ㄓㄥˋ ㄗㄞˋ ㄓㄠˇ ㄅㄨˋ ㄈㄣˋ ㄕˊ ㄐㄧㄢ ㄉㄜ˙ ㄍㄨㄥ ㄗㄨㄛˋ.'"
+          :pinyin="'wo3 zheng4 zai4 zhao3 bu4 fen4 shi2 jian1 de gong1 zuo4.'"
+          :translation="'今はパートタイムの仕事を探しています。'"
         />
         <br>
         <p>
@@ -346,9 +348,9 @@
           ・試
         </p>
         <SentenceFormat
-          :sentence="'你買汽車的時候, 你因該試開車。'"
-          :bopomofo="'ㄋㄧˇ ㄇㄞˇ ㄑㄧˋ ㄔㄜ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄋㄧˇ ㄧㄣ ㄍㄞ ㄕˋ ㄎㄞ ㄔㄜ.'"
-          :pinyin="'ni3 mai3 qi4 che1 de shi2 hou4, ni3 yin1 gai1 shi4 kai1 che1.'"
+          :sentence="'你買汽車的時候, 你因該試乘。'"
+          :bopomofo="'ㄋㄧˇ ㄇㄞˇ ㄑㄧˋ ㄔㄜ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄋㄧˇ ㄧㄣ ㄍㄞ ㄕˋ ㄔㄥˊ.'"
+          :pinyin="'ni3 mai3 qi4 che1 de shi2 hou4, ni3 yin1 gai1 shi4 cheng2.'"
           :translation="'車を買うときは、 試乗してみるべきです。'"
         />
         <br>
@@ -356,9 +358,9 @@
           ・難
         </p>
         <SentenceFormat
-          :sentence="'你可以在網路上查找難的問題的答案。'"
-          :bopomofo="'ㄋㄧˇ ㄎㄜˇ ㄧˇ ㄗㄞˋ ㄨㄤˇ ㄌㄨˋ ㄕㄤˋ ㄔㄚˊ ㄓㄠˇ ㄋㄢˊ ㄉㄜ˙ ㄨㄣˋ ㄊㄧˊ ㄉㄜ˙ ㄉㄚˊ ㄢˋ.'"
-          :pinyin="'ni3 ke3 yi3 zai4 wang3 lu4 shang4 cha2 zhao3 nan2 de wen4 ti2 de da2 an4.'"
+          :sentence="'很難的問題你可以在網路上查找答案。'"
+          :bopomofo="'ㄏㄣˇ ㄋㄢˊ ㄉㄜ˙ ㄨㄣˋ ㄊㄧˊ ㄋㄧˇ ㄎㄜˇ ㄧˇ ㄗㄞˋ ㄨㄤˇ ㄌㄨˋ ㄕㄤˋ ㄔㄚˊ ㄓㄠˇ ㄉㄚˊ ㄢˋ.'"
+          :pinyin="'hen3 nan2 de wen4 ti2 ni3 ke3 yi3 zai4 wang3 lu4 shang4 cha2 zhao3 da2 an4.'"
           :translation="'難しい問題は、 インターネットで答えを調べてもいいですよ。'"
         />
         <br>
@@ -366,10 +368,10 @@
           ・那麼
         </p>
         <SentenceFormat
-          :sentence="'我不想再去那麼無聊的地方。'"
-          :bopomofo="'ㄨㄛˇ ㄅㄨˋ ㄒㄧㄤˇ ㄗㄞˋ ㄑㄩˋ ㄋㄚˋ ㄇㄜ˙ ㄨˊ ㄌㄧㄠˊ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ.'"
-          :pinyin="'wo3 bu4 xiang3 zai4 qu4 na4 me wu2 liao2 de di4 fang1.'"
-          :translation="'そんなつまらないところにはもう行きたくないです。'"
+          :sentence="'那麼, 我不想再去無聊的地方。'"
+          :bopomofo="'ㄋㄚˋ ㄇㄜ˙, ㄨㄛˇ ㄅㄨˋ ㄒㄧㄤˇ ㄗㄞˋ ㄑㄩˋ ㄨˊ ㄌㄧㄠˊ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ.'"
+          :pinyin="'na4 me, wo3 bu4 xiang3 zai4 qu4 wu2 liao2 de di4 fang1.'"
+          :translation="'それなら、 つまらないところにはもう行きたくないです。'"
         />
         <br>
         <p>
