@@ -317,7 +317,7 @@
         </p>
         <SentenceFormat
           :sentence="'我要求工作的條件是我可以自由放假。'"
-          :bopomofo="'ㄨㄛˇ ㄧㄠ ㄑㄧㄡˊ ㄍㄨㄥ ㄗㄨㄛˋ ㄉㄜ˙ ㄊㄧㄠˊ ㄐㄧㄢˋ ㄕˋ ㄨㄛˇ ㄎㄜˇ ㄧ ㄗˋ ㄧㄡˊ ㄈㄤˋ ㄐㄧㄚˋ.'"
+          :bopomofo="'ㄨㄛˇ ㄧㄠˋ ㄑㄧㄡˊ ㄍㄨㄥ ㄗㄨㄛˋ ㄉㄜ˙ ㄊㄧㄠˊ ㄐㄧㄢˋ ㄕˋ ㄨㄛˇ ㄎㄜˇ ㄧ ㄗˋ ㄧㄡˊ ㄈㄤˋ ㄐㄧㄚˋ.'"
           :pinyin="'wo3 yao4 qiu2 gong1 zuo4 de tiao2 jian4 shi4 wo3 ke3 yi3 zi4 you2 fang4 jia4.'"
           :translation="'私が仕事に求める条件は、 休みが自由に取れるという事です。'"
         />
