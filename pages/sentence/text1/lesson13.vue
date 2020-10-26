@@ -176,17 +176,17 @@
           ・左右
         </p>
         <SentenceFormat
-          :sentence="'我記得那個路口左右有便利商店。'"
-          :bopomofo="'ㄨㄛˇ ㄐㄧˋ ㄉㄜ˙ ㄋㄚˋ ㄍㄜˋ ㄌㄨˋ ㄎㄡˇ ㄗㄨㄛˇ ㄧㄡˋ ㄧㄡˇ ㄅㄧㄢˋ ㄌㄧˋ ㄕㄤ ㄉㄧㄢˋ.'"
-          :pinyin="'wo3 ji4 de na4 ge4 lu4 kou3 zuo3 you4 you3 bian4 li4 shang1 dian4.'"
-          :translation="'その交差点のあたりにコンビニがあったのを覚えています。'"
+          :sentence="'那家便利店九點左右開。'"
+          :bopomofo="'ㄋㄚˋ ㄐㄧㄚ ㄅㄧㄢˋ ㄌㄧˋ ㄕㄤ ㄉㄧㄢˋ ㄐㄧㄡˇ ㄉㄧㄢˇ ㄗㄨㄛˇ ㄧㄡˋ ㄎㄞ.'"
+          :pinyin="'na4 jia1 bian4 li4 shang1 dian4 jiu3 dian3 zuo3 you4 ka1i.'"
+          :translation="'あのコンビニは9時ごろ開店します。'"
         />
         <br>
         <p>
           ・門口
         </p>
         <SentenceFormat
-          :sentence="'那個站著門口前面的先生是我昨天講的。'"
+          :sentence="'那個站著門口前面的先生是我昨天講的人。'"
           :bopomofo="'ㄋㄚˋ ㄍㄜˋ ㄓㄢˋ ㄓㄜ˙ ㄇㄣˊ ㄎㄡˇ ㄑㄧㄢˊ ㄇㄧㄢˋ ㄉㄧˊ ㄒㄧㄢ ㄕㄥ ㄕˋ ㄨㄛˇ ㄗㄨㄛˊ ㄊㄧㄢ ㄐㄧㄤˇ ㄉㄜ˙ ㄖㄣˊ.'"
           :pinyin="'na4 ge4 zhan4 zhe men2 kou3 qian2 mian4 de xian1 sheng1 shi4 wo3 zuo2 tian1 jiang3 de ren2.'"
           :translation="'ドアの前に立っている男性は私が昨日話した人です。'"
@@ -226,20 +226,20 @@
           ・好久不見
         </p>
         <SentenceFormat
-          :sentence="'好久不見, 比以前見面妳的頭髮變長了。'"
-          :bopomofo="'ㄏㄠˇ ㄐㄧㄡˇ ㄅㄨˊ ㄐㄧㄢˋ, ㄅㄧˇ ㄧˇ ㄑㄧㄢˊ ㄐㄧㄢˋ ㄇㄧㄢˋ ㄋㄧˇ ㄉㄜ˙ ㄊㄡˊ ㄈㄚˋ ㄅㄧㄢˋ ㄓㄤˇ ㄌㄜ˙.'"
-          :pinyin="'hao3 jiu3 bu2 jia4n, bi3 yi3 qian2 jian4 mian4 ni3 de tou2 fa4 bian4 zhang3 le.'"
-          :translation="'お久しぶりです、 前に会った時より髪が長くなりましたね。'"
+          :sentence="'好久不見, 比以前妳的頭髮變長了。'"
+          :bopomofo="'ㄏㄠˇ ㄐㄧㄡˇ ㄅㄨˊ ㄐㄧㄢˋ, ㄅㄧˇ ㄧˇ ㄑㄧㄢˊ ㄋㄧˇ ㄉㄜ˙ ㄊㄡˊ ㄈㄚˋ ㄅㄧㄢˋ ㄓㄤˇ ㄌㄜ˙.'"
+          :pinyin="'hao3 jiu3 bu2 jia4n, bi3 yi3 qian2 ni3 de tou2 fa4 bian4 zhang3 le.'"
+          :translation="'お久しぶりです、 前より髪が長くなりましたね。'"
         />
         <br>
         <p>
           ・不必客氣
         </p>
         <SentenceFormat
-          :sentence="'謝謝你送了禮物給我們. 不必客氣。'"
+          :sentence="'謝謝你送了禮物給我們. -不必客氣。'"
           :bopomofo="'ㄒㄧㄝˋ ㄒㄧㄝˋ ㄋㄧˇ ㄙㄨㄥˋ ㄌㄜ˙ ㄌㄧˇ ㄨˋ ㄍㄟˇ ㄨㄛˇ ㄇㄣ˙. ㄅㄨˋ ㄅㄧˋ ㄎㄜˋ ㄑㄧˋ.'"
           :pinyin="'xie4 xie4 ni3 song4 le li3 wu4 gei3 wo3 men. bu2 bi4 ke4 qi4.'"
-          :translation="'プレゼントを送っていただきありがとうございます。 どういたしまして。'"
+          :translation="'プレゼントを送っていただきありがとうございます。 -どういたしまして。'"
         />
         <br>
         <p>
