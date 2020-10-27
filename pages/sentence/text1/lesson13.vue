@@ -47,7 +47,7 @@
         </p>
         <SentenceFormat
           :sentence="'肚子餓的時候， 貓會回來的。'"
-          :bopomofo="'ㄉㄨˇ ㄗ˙ ㄜˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ， ㄇㄠ ㄏㄨㄟˋ ㄏㄨㄟˊ ㄌㄞˊ ㄉㄜ˙.'"
+          :bopomofo="'ㄉㄨˋ ㄗ˙ ㄜˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ， ㄇㄠ ㄏㄨㄟˋ ㄏㄨㄟˊ ㄌㄞˊ ㄉㄜ˙.'"
           :pinyin="'du4 zi3 e4 de shi2 hou4, mao1 hui4 hui2 lai2 de.'"
           :translation="'お腹が空いたら、 猫は帰ってきます。'"
         />
@@ -176,9 +176,9 @@
           ・左右
         </p>
         <SentenceFormat
-          :sentence="'那家便利店九點左右開。'"
+          :sentence="'那家便利商店九點左右開。'"
           :bopomofo="'ㄋㄚˋ ㄐㄧㄚ ㄅㄧㄢˋ ㄌㄧˋ ㄕㄤ ㄉㄧㄢˋ ㄐㄧㄡˇ ㄉㄧㄢˇ ㄗㄨㄛˇ ㄧㄡˋ ㄎㄞ.'"
-          :pinyin="'na4 jia1 bian4 li4 shang1 dian4 jiu3 dian3 zuo3 you4 ka1i.'"
+          :pinyin="'na4 jia1 bian4 li4 shang1 dian4 jiu3 dian3 zuo3 you4 kai1.'"
           :translation="'あのコンビニは9時ごろ開店します。'"
         />
         <br>
