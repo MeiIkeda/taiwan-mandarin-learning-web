@@ -148,9 +148,9 @@
           ・西班牙文
         </p>
         <SentenceFormat
-          :sentence="'西班牙文的發音有一點好像日文的。'"
-          :bopomofo="'ㄒㄧ ㄅㄢ ㄧㄚˊ ㄨㄣˊ ㄉㄜ˙ ㄈㄚ ㄧㄣ ㄧㄡˇ ㄧˋ ㄉㄧㄢˇ ㄏㄠˇ ㄒㄧㄤˋ ㄖˋ ㄨㄣˊ ㄉㄜ˙.'"
-          :pinyin="'xi1 ban1 ya2 wen2 de fa1 yin1 you3 yi1 dian3 hao3 xiang4 ri4 wen2 de.'"
+          :sentence="'西班牙文的發音有一點像日文的。'"
+          :bopomofo="'ㄒㄧ ㄅㄢ ㄧㄚˊ ㄨㄣˊ ㄉㄜ˙ ㄈㄚ ㄧㄣ ㄧㄡˇ ㄧˋ ㄉㄧㄢˇ ㄒㄧㄤˋ ㄖˋ ㄨㄣˊ ㄉㄜ˙.'"
+          :pinyin="'xi1 ban1 ya2 wen2 de fa1 yin1 you3 yi1 dian3 xiang4 ri4 wen2 de.'"
           :translation="'スペイン語の発音は日本語に少し似ています。'"
         />
         <br>
