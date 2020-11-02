@@ -118,7 +118,7 @@
         <SentenceFormat
           :sentence="'冬天很乾燥, 我們買加濕器吧。'"
           :bopomofo="'ㄉㄨㄥ ㄊㄧㄢ ㄏㄣˇ ㄍㄢ ㄗㄠˋ, ㄨㄛˇ ㄇㄣ˙ ㄇㄞˇ ㄐㄧㄚ ㄕ ㄑㄧˋ ㄅㄚ˙.'"
-          :pinyin="'dong1 tian1 hen3 gan2 zao4, wo3 men mai3 jia1 shi1 qi4 ba.'"
+          :pinyin="'dong1 tian1 hen3 gan1 zao4, wo3 men mai3 jia1 shi1 qi4 ba.'"
           :translation="'冬はとても乾燥するので、 加湿器を買いましょう。'"
         />
         <br>
