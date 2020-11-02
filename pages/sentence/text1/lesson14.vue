@@ -77,7 +77,7 @@
         </p>
         <SentenceFormat
           :sentence="'去長旅行的時候, 我想了在家我的貓。'"
-          :bopomofo="'ㄑㄩˋ ㄓㄤˇ ㄌㄩˇ ㄒㄧㄥˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄨㄛˇ ㄒㄧㄤˇ ㄌㄜ˙ ㄗㄞˋ ㄐㄧㄚ ㄨㄛˇ ㄉㄜ˙ ㄇㄠ.'"
+          :bopomofo="'ㄑㄩˋ ㄔㄤˊ ㄌㄩˇ ㄒㄧㄥˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄨㄛˇ ㄒㄧㄤˇ ㄌㄜ˙ ㄗㄞˋ ㄐㄧㄚ ㄨㄛˇ ㄉㄜ˙ ㄇㄠ.'"
           :pinyin="'qu4 chang2 lu3 xing2 de shi2 hou4, wo3 xiang3 le zai4 jia1 wo3 de mao1.'"
           :translation="'長い旅行に出た時は、 家にいる猫が恋しかったです。'"
         />
@@ -118,7 +118,7 @@
         <SentenceFormat
           :sentence="'冬天很乾燥, 我們買加濕器吧。'"
           :bopomofo="'ㄉㄨㄥ ㄊㄧㄢ ㄏㄣˇ ㄍㄢ ㄗㄠˋ, ㄨㄛˇ ㄇㄣ˙ ㄇㄞˇ ㄐㄧㄚ ㄕ ㄑㄧˋ ㄅㄚ˙.'"
-          :pinyin="'dong1 tian1 hen3 qian2 zao4, wo3 men mai3 jia1 shi1 qi4 ba.'"
+          :pinyin="'dong1 tian1 hen3 gan2 zao4, wo3 men mai3 jia1 shi1 qi4 ba.'"
           :translation="'冬はとても乾燥するので、 加湿器を買いましょう。'"
         />
         <br>
