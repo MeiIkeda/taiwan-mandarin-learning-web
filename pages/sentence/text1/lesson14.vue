@@ -248,7 +248,7 @@
         <SentenceFormat
           :sentence="'夏天去離島的旅行很人氣。'"
           :bopomofo="'ㄒㄧㄚˋ ㄊㄧㄢ ㄑㄩˋ ㄌㄧˊ ㄉㄠˇ ㄉㄜ˙ ㄌㄩˇ ㄒㄧㄥˊ ㄏㄣˇ ㄖㄣˊ ㄑㄧˋ.'"
-          :pinyin="'xia4 tian1 qu4 li4 dao3 de lu3 xing2 hen3 ren2 qi4.'"
+          :pinyin="'xia4 tian1 qu4 li2 dao3 de lu3 xing2 hen3 ren2 qi4.'"
           :translation="'夏は離島への旅行が人気です。'"
         />
         <br>
