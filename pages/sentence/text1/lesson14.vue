@@ -258,7 +258,7 @@
         <SentenceFormat
           :sentence="'好像誰灑了水, 地上濕濕的。'"
           :bopomofo="'ㄏㄠˇ ㄒㄧㄤˋ ㄕㄨㄟˊ ㄙㄚˇ ㄌㄜ˙ ㄕㄨㄟˇ, ㄉㄧˋ ㄕㄤˋ ㄕ ㄕ ㄉㄜ˙.'"
-          :pinyin="'hao3 xiang4 shei2 xian3 le shui3, di4 shang4 shi1 shi1 de.'"
+          :pinyin="'hao3 xiang4 shei2 sa3 le shui3, di4 shang4 shi1 shi1 de.'"
           :translation="'誰かが水をこぼしたようで、 地面が濡れています。'"
         />
         <br>
