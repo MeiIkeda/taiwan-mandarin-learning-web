@@ -26,9 +26,9 @@
           ・天氣
         </p>
         <SentenceFormat
-          :sentence="'根據天氣我選擇衣服。'"
-          :bopomofo="'ㄍㄣ ㄐㄩˋ ㄊㄧㄢ ㄑㄧˋ ㄨㄛˇ ㄒㄩㄢˇ ㄗㄜˊ ㄧ ㄈㄨˊ.'"
-          :pinyin="'gen1 ju4 tian1 qi4 wo3 xuan3 ze2 yi1 fu2.'"
+          :sentence="'我根據天氣來選擇衣服。'"
+          :bopomofo="'ㄨㄛˇ ㄍㄣ ㄐㄩˋ ㄊㄧㄢ ㄑㄧˋ ㄌㄞˊ ㄒㄩㄢˇ ㄗㄜˊ ㄧ ㄈㄨˊ.'"
+          :pinyin="'wo3 gen1 ju4 tian1 qi4 lai2 xuan3 ze2 yi1 fu2.'"
           :translation="'私は天気に合わせて服を選びます。'"
         />
         <br>
@@ -36,9 +36,9 @@
           ・冷
         </p>
         <SentenceFormat
-          :sentence="'雖然台灣差不多暖和, 冬天也有冷的日子。'"
-          :bopomofo="'ㄙㄨㄟ ㄖㄢˊ ㄊㄞˊ ㄨㄢ ㄔㄚˋ ㄅㄨˋ ㄉㄨㄛ ㄋㄨㄢˇ ㄏㄨㄛ˙, ㄉㄨㄥ ㄊㄧㄢ ㄧㄡˇ ㄌㄥˇ ㄉㄜ˙ ㄖˋ ㄗ˙.'"
-          :pinyin="'sui1 ran2 tai2 wan1 cha1 bu4 duo1 nuan3 huo, dong1 tian1 you3 leng3 de ri4 zi3.'"
+          :sentence="'雖然台灣大部分的天氣多暖和, 可是冬天也有冷的日子。'"
+          :bopomofo="'ㄙㄨㄟ ㄖㄢˊ ㄊㄞˊ ㄨㄢ ㄉㄚˋ ㄅㄨˋ ㄈㄣˋ ㄉㄜ˙ ㄊㄧㄢ ㄑㄧˋ ㄉㄨㄛ ㄋㄨㄢˇ ㄏㄨㄛ˙, ㄎㄜˇ ㄕˋ ㄉㄨㄥ ㄊㄧㄢ ㄧㄝˇ ㄧㄡˇ ㄌㄥˇ ㄉㄜ˙ ㄖˋ ㄗ˙.'"
+          :pinyin="'sui1 ran2 tai2 wan1 da4 bu4 fen4 de tian1 qi4 duo1 nuan3 huo, ke3 shi4 dong1 tian1 ye3 you3 leng3 de ri4 zi3.'"
           :translation="'台湾は大体暖かいですが、 冬は寒い日もあります。'"
         />
         <br>
@@ -46,9 +46,9 @@
           ・風
         </p>
         <SentenceFormat
-          :sentence="'因為風太大, 我的洗衣服飛掉了。'"
-          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄈㄥ ㄊㄞˋ ㄉㄚˋ, ㄨㄛˇ ㄉㄜ˙ ㄒㄧˇ ㄧ ㄈㄨˊ ㄈㄟ ㄉㄧㄠˋ ㄌㄜ˙.'"
-          :pinyin="'yin1 wei4 feng1 tai4 da4, wo3 de xi3 yi1 fu2 fei1 diao4 le.'"
+          :sentence="'因為風太大, 我的洗的衣服飛掉了。'"
+          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄈㄥ ㄊㄞˋ ㄉㄚˋ, ㄨㄛˇ ㄉㄜ˙ ㄒㄧˇ ㄉㄜ˙ ㄧ ㄈㄨˊ ㄈㄟ ㄉㄧㄠˋ ㄌㄜ˙.'"
+          :pinyin="'yin1 wei4 feng1 tai4 da4, wo3 de xi3 de yi1 fu2 fei1 diao4 le.'"
           :translation="'風が強すぎて、 洗濯物が飛んでしまいました。'"
         />
         <br>
@@ -66,9 +66,9 @@
           ・春天
         </p>
         <SentenceFormat
-          :sentence="'很多花春天在山上開。'"
-          :bopomofo="'ㄏㄣˇ ㄉㄨㄛ ㄏㄨㄚ ㄔㄨㄣ ㄊㄧㄢ ㄗㄞˋ ㄕㄢ ㄕㄤˋ ㄎㄞ.'"
-          :pinyin="'hen3 duo1 hua1 chun1 tian1 zai4 shan1 shang4 kai1.'"
+          :sentence="'春天在山上有很多花開了。'"
+          :bopomofo="'ㄔㄨㄣ ㄊㄧㄢ ㄗㄞˋ ㄕㄢ ㄕㄤˋ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄏㄨㄚ ㄎㄞ ㄌㄜ˙.'"
+          :pinyin="'chun1 tian1 zai4 shan1 shang4 you3 hen3 duo1 hua1 kai1 le.'"
           :translation="'春は山にたくさんの花が咲きます。'"
         />
         <br>
@@ -76,19 +76,20 @@
           ・想
         </p>
         <SentenceFormat
-          :sentence="'去長旅行的時候, 我想了在家我的貓。'"
-          :bopomofo="'ㄑㄩˋ ㄔㄤˊ ㄌㄩˇ ㄒㄧㄥˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄨㄛˇ ㄒㄧㄤˇ ㄌㄜ˙ ㄗㄞˋ ㄐㄧㄚ ㄨㄛˇ ㄉㄜ˙ ㄇㄠ.'"
-          :pinyin="'qu4 chang2 lu3 xing2 de shi2 hou4, wo3 xiang3 le zai4 jia1 wo3 de mao1.'"
+          :sentence="'旅行比較久的時候, 我想我家的貓了。'"
+          :bopomofo="'ㄌㄩˇ ㄒㄧㄥˊ ㄅㄧ ㄐㄧㄠˋ ㄐㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄨㄛˇ ㄒㄧㄤˇ ㄨㄛˇ ㄐㄧㄚ ㄉㄜ˙ ㄇㄠ ㄌㄜ˙.'"
+          :pinyin="'lu3 xing2 bi3 jiao4 jiu3 de shi2 hou4, wo3 xiang3 wo3 jia1 de mao1 le.'"
           :translation="'長い旅行に出た時は、 家にいる猫が恋しかったです。'"
+          :memo="'※ここでは「想」＝「想念」。'"
         />
         <br>
         <p>
           ・新年
         </p>
         <SentenceFormat
-          :sentence="'為了新年做準備, 這個星期會忙了。'"
-          :bopomofo="'ㄨㄟˋ ㄌㄜ˙ ㄒㄧㄣ ㄋㄧㄢˊ ㄗㄨㄛˋ ㄓㄨㄣˇ ㄅㄟˋ, ㄓㄜˋ ㄍㄜˋ ㄒㄧㄥ ㄑㄧ ㄏㄨㄟˋ ㄇㄤˊ ㄌㄜ˙.'"
-          :pinyin="'wei4 le xin1 nian2 zuo4 zhun3 bei4, zhe4 ge4 xing1 qi1 hui4 mang2 le.'"
+          :sentence="'為了新年的準備, 這個星期會很忙。'"
+          :bopomofo="'ㄨㄟˋ ㄌㄜ˙ ㄒㄧㄣ ㄋㄧㄢˊ ㄉㄜ˙ ㄓㄨㄣˇ ㄅㄟˋ, ㄓㄜˋ ㄍㄜˋ ㄒㄧㄥ ㄑㄧˊ ㄏㄨㄟˋ ㄏㄣˇ ㄇㄤˊ.'"
+          :pinyin="'wei4 le xin1 nian2 de zhun3 bei4, zhe4 ge4 xing1 qi2 hui4 hen3 mang2.'"
           :translation="'新年の準備のため、 今週は忙しくなります。'"
         />
         <br>
@@ -96,9 +97,9 @@
           ・快
         </p>
         <SentenceFormat
-          :sentence="'熱的季節快來到, 我得確認冷氣好不好。'"
-          :bopomofo="'ㄖㄜˋ ㄉㄜ˙ ㄐㄧˋ ㄐㄧㄝˊ ㄎㄨㄞˋ ㄌㄞˊ ㄉㄠˋ, ㄨㄛˇ ㄉㄟˇ ㄑㄩㄝˋ ㄖㄣˋ ㄌㄥˇ ㄑㄧˋ ㄏㄠˇ ㄅㄨˋ ㄏㄠˇ.'"
-          :pinyin="'re4 de ji4 jie2 kuai4 lai2 dao4, wo3 dei3 que4 ren4 leng3 qi4 hao3 bu4 hao3.'"
+          :sentence="'熱的季節快來了, 我得確認冷氣有沒有問題。'"
+          :bopomofo="'ㄖㄜˋ ㄉㄜ˙ ㄐㄧˋ ㄐㄧㄝˊ ㄎㄨㄞˋ ㄌㄞˊ ㄌㄜ˙, ㄨㄛˇ ㄉㄟˇ ㄑㄩㄝˋ ㄖㄣˋ ㄌㄥˇ ㄑㄧˋ ㄧㄡˇ ㄇㄟˊ ㄧㄡˇ ㄨㄣˋ ㄊㄧˊ.'"
+          :pinyin="'re4 de ji4 jie2 kuai4 lai2 le, wo3 dei3 que4 ren4 leng3 qi4 you3 mei2 you3 wen4 ti2.'"
           :translation="'暑い季節がもうすぐ来るので、 エアコンが大丈夫か確認しなければなりません。'"
         />
         <br>
@@ -106,9 +107,9 @@
           ・父母
         </p>
         <SentenceFormat
-          :sentence="'我父母因為無聊的事在吵架。'"
-          :bopomofo="'ㄨㄛˇ ㄈㄨˋ ㄇㄨˇ ㄧㄣ ㄨㄟˋ ㄨˊ ㄌㄧㄠˊ ㄉㄜ˙ ㄕˋ ㄗㄞˋ ㄔㄠˇ ㄐㄧㄚˋ.'"
-          :pinyin="'wo3 fu4 mu3 yin1 wei4 wu2 liao2 de shi4 zai4 chao3 jia4.'"
+          :sentence="'我父母為了無聊的事在吵架。'"
+          :bopomofo="'ㄨㄛˇ ㄈㄨˋ ㄇㄨˇ ㄨㄟˋ ㄌㄜ˙ ㄨˊ ㄌㄧㄠˊ ㄉㄜ˙ ㄕˋ ㄗㄞˋ ㄔㄠˇ ㄐㄧㄚˋ.'"
+          :pinyin="'wo3 fu4 mu3 wei4 le wu2 liao2 de shi4 zai4 chao3 jia4.'"
           :translation="'両親がつまらない事で喧嘩しています。'"
         />
         <br>
@@ -146,9 +147,9 @@
           ・紅葉
         </p>
         <SentenceFormat
-          :sentence="'不太遠的地方之中, 在哪裡可以看到紅葉?'"
-          :bopomofo="'ㄅㄨˋ ㄊㄞˋ ㄩㄢˇ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ ㄓ ㄓㄨㄥ, ㄗㄞˋ ㄋㄚˇ ㄌㄧˇ ㄎㄜˇ ㄧˇ ㄎㄢˋ ㄉㄠˋ ㄏㄨㄥˊ ㄧㄝˋ?'"
-          :pinyin="'bu4 tai4 yuan3 de di4 fang1 zhi1 zhong1, zai4 na3 li3 ke3 yi3 kan4 dao4 hong2 ye4?'"
+          :sentence="'不遠的地方中, 哪裡可以看到紅葉?'"
+          :bopomofo="'ㄅㄨˋ ㄩㄢˇ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ ㄓㄨㄥ, ㄋㄚˇ ㄌㄧˇ ㄎㄜˇ ㄧˇ ㄎㄢˋ ㄉㄠˋ ㄏㄨㄥˊ ㄧㄝˋ?'"
+          :pinyin="'bu4 yuan3 de di4 fang1 zhong1, na3 li3 ke3 yi3 kan4 dao4 hong2 ye4?'"
           :translation="'それほど遠くない場所だと、 どこで紅葉を見る事ができますか?'"
         />
         <br>
@@ -156,19 +157,19 @@
           ・只
         </p>
         <SentenceFormat
-          :sentence="'因為我不早起來, 只要吃午餐和晚餐。'"
-          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄅㄨˋ ㄗㄠˇ ㄑㄧˇ ㄌㄞˊ, ㄓˇ ㄧㄠˋ ㄔ ㄨˇ ㄘㄢ ㄏㄢˋ ㄨㄢˇ ㄘㄢ.'"
-          :pinyin="'yin1 wei4 wo3 bu4 zao3 qi3 lai2, zhi3 yao4 chi1 wu3 can1 han4 wan3 can1.'"
-          :translation="'早く起きないので、 ランチと夕食だけで食べます。'"
+          :sentence="'因為我不能早起, 所以只吃午餐跟晚餐。'"
+          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄅㄨˋ ㄋㄥˊ ㄗㄠˇ ㄑㄧˇ, ㄙㄨㄛˇ ㄧˇ ㄓˇ ㄔ ㄨˇ ㄘㄢ ㄍㄣ ㄨㄢˇ ㄘㄢ.'"
+          :pinyin="'yin1 wei4 wo3 bu4 neng2 zao3 qi3, suo3 yi3 zhi3 chi1 wu3 can1 gen1 wan3 can1.'"
+          :translation="'早く起きないので、 ランチと夕食だけ食べます。'"
         />
         <br>
         <p>
           ・玉山
         </p>
         <SentenceFormat
-          :sentence="'玉山是台灣的最高山, 夏天很多人去爬山。'"
-          :bopomofo="'ㄩˋ ㄕㄢ ㄕˋ ㄊㄞˊ ㄨㄢ ㄉㄜ˙ ㄗㄨㄟˋ ㄍㄠ ㄕㄢ, ㄒㄧㄚˋ ㄊㄧㄢ ㄏㄣˇ ㄉㄨㄛ ㄖㄣˊ ㄑㄩˋ ㄆㄚˊ ㄕㄢ.'"
-          :pinyin="'yu4 shan1 shi4 tai2 wan1 de zui4 gao1 shan1, xia4 tian1 hen3 duo1 ren2 qu4 pa2 shan1.'"
+          :sentence="'玉山是台灣的最高的山, 夏天很多人去爬山。'"
+          :bopomofo="'ㄩˋ ㄕㄢ ㄕˋ ㄊㄞˊ ㄨㄢ ㄉㄜ˙ ㄗㄨㄟˋ ㄍㄠ ㄉㄜ˙ ㄕㄢ, ㄒㄧㄚˋ ㄊㄧㄢ ㄏㄣˇ ㄉㄨㄛ ㄖㄣˊ ㄑㄩˋ ㄆㄚˊ ㄕㄢ.'"
+          :pinyin="'yu4 shan1 shi4 tai2 wan1 de zui4 gao1 de shan1, xia4 tian1 hen3 duo1 ren2 qu4 pa2 shan1.'"
           :translation="'玉山は台湾で最も高い山で、夏には多くの人が登山します。'"
         />
         <br>
@@ -176,9 +177,9 @@
           ・紐約
         </p>
         <SentenceFormat
-          :sentence="'在紐約，雪在堆積到腰部的高度。'"
-          :bopomofo="'ㄗㄞˋ ㄋㄧㄡˇ ㄩㄝ，ㄒㄩㄝˇ ㄗㄞˋ ㄉㄨㄟ ㄐㄧ ㄉㄠˋ ㄧㄠ ㄅㄨˋ ㄉㄜ˙ ㄍㄠ ㄉㄨˋ.'"
-          :pinyin="'zai4 niu3 yue1, xue3 zai4 dui1 ji1 dao4 yao1 bu4 de gao1 du4.'"
+          :sentence="'在紐約，雪積到腰部的高度了。'"
+          :bopomofo="'ㄗㄞˋ ㄋㄧㄡˇ ㄩㄝ，ㄒㄩㄝˇ ㄐㄧ ㄉㄠˋ ㄧㄠ ㄅㄨˋ ㄉㄜ˙ ㄍㄠ ㄉㄨˋ ㄌㄜ˙ .'"
+          :pinyin="'zai4 niu3 yue1, xue3 ji1 dao4 yao1 bu4 de gao1 du4 le.'"
           :translation="'ニューヨークでは、 腰の高さまで雪が積もっています。'"
         />
         <br>
@@ -206,30 +207,33 @@
           ・雨
         </p>
         <SentenceFormat
-          :sentence="'如果在雨中弄濕，會感冒。'"
-          :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄗㄞˋ ㄩˇ ㄓㄨㄥ ㄋㄨㄥˋ ㄕ，ㄏㄨㄟˋ ㄍㄢˇ ㄇㄠˋ.'"
-          :pinyin="'ru2 guo3 zai4 yu3 zhong1 nong4 shi1, hui4 gan3 mao4.'"
+          :sentence="'如果在雨中弄濕了，會感冒。'"
+          :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄗㄞˋ ㄩˇ ㄓㄨㄥ ㄋㄨㄥˋ ㄕ ㄌㄜ˙，ㄏㄨㄟˋ ㄍㄢˇ ㄇㄠˋ.'"
+          :pinyin="'ru2 guo3 zai4 yu3 zhong1 nong4 shi1 le, hui4 gan3 mao4.'"
           :translation="'雨に濡れると風邪をひきます。'"
+          :memo="'※ここでの「了」は「～したら」の意。'"
         />
         <br>
         <p>
           ・傘
         </p>
         <SentenceFormat
-          :sentence="'這傘可以用作普通傘也可以用作太陽傘。'"
-          :bopomofo="'ㄓㄜˋ ㄙㄢˇ ㄎㄜˇ ㄧˇ ㄩㄥˋ ㄗㄨㄛˋ ㄆㄨˇ ㄊㄨㄥ ㄙㄢˇ ㄧㄝˇ ㄎㄜˇ ㄧˇ ㄩㄥˋ ㄗㄨㄛˋ ㄊㄞˋ ㄧㄤˊ ㄙㄢˇ.'"
-          :pinyin="'zhe4 san3 ke3 yi3 yong4 zuo4 pu3 tong1 san3 ye3 ke3 yi3 yong4 zuo4 tai4 yang2 san3.'"
+          :sentence="'這傘可以用來作普通傘也可以用來作太陽傘。'"
+          :bopomofo="'ㄓㄜˋ ㄙㄢˇ ㄎㄜˇ ㄧˇ ㄩㄥˋ ㄌㄞˊ ㄗㄨㄛˋ ㄆㄨˇ ㄊㄨㄥ ㄙㄢˇ ㄧㄝˇ ㄎㄜˇ ㄧˇ ㄩㄥˋ ㄌㄞˊ ㄗㄨㄛˋ ㄊㄞˋ ㄧㄤˊ ㄙㄢˇ.'"
+          :pinyin="'zhe4 san3 ke3 yi3 yong4 lai2 zuo4 pu3 tong1 san3 ye3 ke3 yi3 yong4 lai2 zuo4 tai4 yang2 san3.'"
           :translation="'この傘は、 普通の傘としても日傘としても使えます。'"
+          :memo="'※「A用來B」＝「AをBのために用いる」 + 「作」＝「...とみなす」 → 「用來作」＝「～として使う」。'"
         />
         <br>
         <p>
           ・颱風
         </p>
         <SentenceFormat
-          :sentence="'我確認颱風預報後，會答案我是否去。'"
-          :bopomofo="'ㄨㄛˇ ㄑㄩㄝˋ ㄖㄣˋ ㄊㄞˊ ㄈㄥ ㄩˋ ㄅㄠˋ ㄏㄡˋ，ㄏㄨㄟˋ ㄉㄚˊ ㄢˋ ㄨㄛˇ ㄕˋ ㄈㄡˇ ㄑㄩˋ.'"
-          :pinyin="'wo3 que4 ren4 tai2 feng1 yu4 bao4 hou4, hui4 da2 an4 wo3 shi4 fou3 qu4.'"
+          :sentence="'我確認颱風預報後，再回復你我會不會去。'"
+          :bopomofo="'ㄨㄛˇ ㄑㄩㄝˋ ㄖㄣˋ ㄊㄞˊ ㄈㄥ ㄩˋ ㄅㄠˋ ㄏㄡˋ，ㄗㄞˋ ㄏㄨㄟˊ ㄈㄨˋ ㄋㄧˇ ㄨㄛˇ ㄏㄨㄟˋ ㄅㄨˊ ㄏㄨㄟˋ ㄑㄩˋ.'"
+          :pinyin="'wo3 que4 ren4 tai2 feng1 yu4 bao4 hou4, zai4 hui2 fu4 ni3 wo3 hui4 bu2 hui4 qu4.'"
           :translation="'台風予報を確認した後、 行くかどうか返事します。'"
+          :memo="'※「回復」=「返事をする」。'"
         />
         <br>
         <p>
@@ -246,19 +250,20 @@
           ・夏天
         </p>
         <SentenceFormat
-          :sentence="'夏天去離島的旅行很人氣。'"
-          :bopomofo="'ㄒㄧㄚˋ ㄊㄧㄢ ㄑㄩˋ ㄌㄧˊ ㄉㄠˇ ㄉㄜ˙ ㄌㄩˇ ㄒㄧㄥˊ ㄏㄣˇ ㄖㄣˊ ㄑㄧˋ.'"
-          :pinyin="'xia4 tian1 qu4 li2 dao3 de lu3 xing2 hen3 ren2 qi4.'"
+          :sentence="'夏天去離島旅行很有人氣。'"
+          :bopomofo="'ㄒㄧㄚˋ ㄊㄧㄢ ㄑㄩˋ ㄌㄧˊ ㄉㄠˇ ㄌㄩˇ ㄒㄧㄥˊ ㄏㄣˇ ㄧㄡˇ ㄖㄣˊ ㄑㄧˋ.'"
+          :pinyin="'xia4 tian1 qu4 li4 dao3 lu3 xing2 hen3 you3 ren2 qi4.'"
           :translation="'夏は離島への旅行が人気です。'"
+          :memo="'※「人気」は名詞。'"
         />
         <br>
         <p>
           ・濕
         </p>
         <SentenceFormat
-          :sentence="'好像誰灑了水, 地上濕濕的。'"
-          :bopomofo="'ㄏㄠˇ ㄒㄧㄤˋ ㄕㄨㄟˊ ㄙㄚˇ ㄌㄜ˙ ㄕㄨㄟˇ, ㄉㄧˋ ㄕㄤˋ ㄕ ㄕ ㄉㄜ˙.'"
-          :pinyin="'hao3 xiang4 shei2 sa3 le shui3, di4 shang4 shi1 shi1 de.'"
+          :sentence="'好像誰灑了水, 地上都濕濕的。'"
+          :bopomofo="'ㄏㄠˇ ㄒㄧㄤˋ ㄕㄨㄟˊ ㄙㄚˇ ㄌㄜ˙ ㄕㄨㄟˇ, ㄉㄧˋ ㄕㄤˋ ㄉㄡ ㄕ ㄕ ㄉㄜ˙.'"
+          :pinyin="'hao3 xiang4 shei2 sa3 le shui3, di4 shang4 dou1 shi1 shi1 de.'"
           :translation="'誰かが水をこぼしたようで、 地面が濡れています。'"
         />
         <br>
@@ -266,9 +271,9 @@
           ・討厭
         </p>
         <SentenceFormat
-          :sentence="'她真的討厭蟲，所以甚至看不到它們。'"
-          :bopomofo="'ㄊㄚ ㄓㄣ ㄉㄜ˙ ㄊㄠˇ ㄧㄢˋ ㄔㄨㄥˊ，ㄙㄨㄛˇ ㄧˇ ㄕㄣˋ ㄓˋ ㄎㄢˋ ㄅㄨˊ ㄉㄠˋ ㄊㄚ ㄇㄣ˙.'"
-          :pinyin="'ta1 zhen1 de tao3 yan4 chong2, suo3 yi3 shen4 zhi4 kan4 bu2 dao4 ta1 men.'"
+          :sentence="'她真的討厭蟲，所以沒辦法看到它們。'"
+          :bopomofo="'ㄊㄚ ㄓㄣ ㄉㄜ˙ ㄊㄠˇ ㄧㄢˋ ㄔㄨㄥˊ，ㄙㄨㄛˇ ㄧˇ ㄇㄟˊ ㄅㄢˋ ㄈㄚˇ ㄎㄢˋ ㄉㄠˋ ㄊㄚ ㄇㄣ˙.'"
+          :pinyin="'ta1 zhen1 de tao3 yan4 chong2, suo3 yi3 mei2 ban4 fa3 kan4 dao4 ta1 men.'"
           :translation="'彼女は本当に虫が嫌いなので、 見るのも無理です。'"
         />
         <br>
@@ -286,9 +291,9 @@
           ・更
         </p>
         <SentenceFormat
-          :sentence="'我告訴了他打掃，但現在房間更乱。'"
-          :bopomofo="'ㄨㄛˇ ㄍㄠˋ ㄙㄨˋ ㄌㄜ˙ ㄊㄚ ㄉㄚˇ ㄙㄠˇ，ㄉㄢˋ ㄒㄧㄢˋ ㄗㄞˋ ㄈㄤˊ ㄐㄧㄢ ㄍㄥˋ ㄌㄨㄢˋ.'"
-          :pinyin="'wo3 gao4 su4 le ta1 da3 sao3, dan4 xian4 zai4 fang2 jian1 geng4 luan4.'"
+          :sentence="'我告訴他要打掃，但是現在房間更亂了。'"
+          :bopomofo="'ㄨㄛˇ ㄍㄠˋ ㄙㄨˋ ㄊㄚ ㄧㄠˋ ㄉㄚˇ ㄙㄠˇ，ㄉㄢˋ ㄕˋ ㄒㄧㄢˋ ㄗㄞˋ ㄈㄤˊ ㄐㄧㄢ ㄍㄥˋ ㄌㄨㄢˋ ㄌㄜ˙.'"
+          :pinyin="'wo3 gao4 su4 ta1 yao4 da3 sao3, dan4 shi4 xian4 zai4 fang2 jian1 geng4 luan4 le.'"
           :translation="'彼に片付けるように言ったのに、 部屋は更に散らかっています。'"
         />
         <br>
@@ -296,30 +301,34 @@
           ・大家
         </p>
         <SentenceFormat
-          :sentence="'在捷運裡大家都用著手機。'"
-          :bopomofo="'ㄗㄞˋ ㄐㄧㄝˊ ㄩㄣˋ ㄌㄧˇ ㄉㄚˋ ㄐㄧㄚ ㄉㄡ ㄩㄥˋ ㄓㄨㄛˊ ㄕㄡˇ ㄐㄧ.'"
-          :pinyin="'zai4 jie2 yun4 li3 da4 jia1 dou1 yong4 zhe shou3 ji1.'"
+          :sentence="'捷運裡大家都在滑手機。'"
+          :bopomofo="'ㄐㄧㄝˊ ㄩㄣˋ ㄌㄧˇ ㄉㄚˋ ㄐㄧㄚ ㄉㄡ ㄗㄞˋ ㄏㄨㄚˊ ㄕㄡˇ ㄐㄧ.'"
+          :pinyin="'jie2 yun4 li3 da4 jia1 dou1 zai4 hua2 shou3 ji1.'"
           :translation="'MRTの中では誰もが携帯電話を触っています。'"
+          :memo="'※「在」と「著」の使い分け：「在」は今まさに行われている事(動作)に使う。' +
+            '「著」は継続している状態→例.「今天我穿著紅色的衣服(今日は赤い服を着ている)」/「我想留著長頭髮(髪を伸ばしている)」。'"
         />
         <br>
         <p>
           ・小心
         </p>
         <SentenceFormat
-          :sentence="'和火車之間有縫隙, 別不小心落掉東西。'"
-          :bopomofo="'ㄏㄢˋ ㄏㄨㄛˇ ㄔㄜ ㄓ ㄐㄧㄢ ㄧㄡˇ ㄈㄥˋ ㄒㄧˋ, ㄅㄧㄝˊ ㄅㄨˋ ㄒㄧㄠˇ ㄒㄧㄣ ㄌㄨㄛˋ ㄉㄧㄠˋ ㄉㄨㄥ ㄒㄧ˙.'"
-          :pinyin="'han4 huo3 che1 zhi1 jian1 you3 feng4 xi4, bie2 bu4 xiao3 xin1 luo4 diao4 dong1 xi.'"
-          :translation="'電車との間には隙間があるので、 誤って物を落とさないでください。'"
+          :sentence="'月台和火車之間有縫隙, 小心東西別掉了。'"
+          :bopomofo="'ㄩㄝˋ ㄊㄞˊ ㄏㄜˊ ㄏㄨㄛˇ ㄔㄜ ㄓ ㄐㄧㄢ ㄧㄡˇ ㄈㄥˋ ㄒㄧˋ, ㄒㄧㄠˇ ㄒㄧㄣ ㄉㄨㄥ ㄒㄧ ㄅㄧㄝˊ ㄉㄧㄠˋ ㄌㄜ˙.'"
+          :pinyin="'yue4 tai2 han4 huo3 che1 zhi1 jian1 you3 feng4 xi4, xiao3 xin1 dong1 xi1 bie2 diao4 le.'"
+          :translation="'電車とホームの間には隙間があるので、 誤って物を落とさないでください。'"
         />
         <br>
         <p>
           ・可怕
         </p>
         <SentenceFormat
-          :sentence="'大狗吠吠的樣子很可怕。'"
-          :bopomofo="'ㄉㄚˋ ㄍㄡˇ ㄈㄟˋ ㄈㄟˋ ㄉㄜ˙ ㄧㄤˋ ㄗ˙ ㄏㄣˇ ㄎㄜˇ ㄆㄚˋ.'"
-          :pinyin="'da4 gou3 fei4 fei4 de yang4 zi3 hen3 ke3 pa4.'"
+          :sentence="'大狗吠的樣子很可怕。'"
+          :bopomofo="'ㄉㄚˋ ㄍㄡˇ ㄈㄟˋ ㄉㄜ˙ ㄧㄤˋ ㄗ˙ ㄏㄣˇ ㄎㄜˇ ㄆㄚˋ.'"
+          :pinyin="'da4 gou3 fei4 de yang4 zi3 hen3 ke3 pa4.'"
           :translation="'大きな犬が吠えているのは怖いです。'"
+          :memo="'※「可怕」と「害怕」の違い：「可怕」は、人/事/物etcを形容して「怖い」。「害怕」は怖いと感じる事で、動詞として使える。' +
+            '例.「他看了可怕的電影以後，他害怕去洗手間=怖い映画を観た後、 トイレに行くのが怖い」。'"
         />
         <br>
         <p>
@@ -366,10 +375,10 @@
           ・慢走
         </p>
         <SentenceFormat
-          :sentence="'大家因該會來晚，我覺得我們可以少一點慢走。'"
-          :bopomofo="'ㄉㄚˋ ㄐㄧㄚ ㄧㄣ ㄍㄞ ㄏㄨㄟˋ ㄌㄞˊ ㄨㄢˇ，ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄨㄛˇ ㄇㄣ˙ ㄎㄜˇ ㄧˇ ㄕㄠˇ ㄧˋ ㄉㄧㄢˇ ㄇㄢˋ ㄗㄡˇ.'"
-          :pinyin="'da4 jia1 yin1 ga1i hui4 lai2 wan3, wo3 jue2 de wo3 men ke3 yi3 shao3 yi1 dian3 man4 zou3.'"
-          :translation="'みんな遅く来るだろうから、 私たちはもう少しゆっくり行っても大丈夫だと思います。'"
+          :sentence="'這個月是鬼月，你回家小心。 -慢走。'"
+          :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄩㄝˋ ㄕˋ ㄍㄨㄟˇ ㄩㄝˋ，ㄋㄧˇ ㄏㄨㄟˊ ㄐㄧㄚ ㄒㄧㄠˇ ㄒㄧㄣ。 -ㄇㄢˋ ㄗㄡˇ.'"
+          :pinyin="'zhe4 ge4 yue4 shi4 gui3 yue4, ni3 hui2 jia1 xiao3 xin1. -man4 zou3.'"
+          :translation="'今月は鬼月だから、 注意して帰って下さい。 -気を付けて。'"
         />
         <br>
       </div>
