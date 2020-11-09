@@ -179,16 +179,16 @@
           :sentence="'我會去書店拿新的雜誌。'"
           :bopomofo="'ㄨㄛˇ ㄏㄨㄟˋ ㄑㄩˋ ㄕㄨ ㄉㄧㄢˋ ㄋㄚˊ ㄒㄧㄣ ㄉㄜ˙ ㄗㄚˊ ㄓˋ.'"
           :pinyin="'wo3 hui4 qu4 shu1 dian4 na2 xin1 de za2 zhi4.'"
-          :translation="'本屋に行って、 新しい雑誌を買います。'"
+          :translation="'本屋に行って、 新しい雑誌を手に入れます。'"
         />
         <br>
         <p>
           ・把
         </p>
         <SentenceFormat
-          :sentence="'如果不看看，他把壽司給我的貓。'"
-          :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄅㄨˊ ㄎㄢˋ ㄎㄢˋ，ㄊㄚ ㄅㄚˇ ㄕㄡˋ ㄙ ㄍㄟˇ ㄨㄛˇ ㄉㄜ˙ ㄇㄠ.'"
-          :pinyin="'ru2 guo3 bu2 kan4 kan4, ta1 ba3 shou4 si1 gei3 wo3 de mao1.'"
+          :sentence="'如果你不看他，他把壽司給貓。'"
+          :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄅㄨˊ ㄎㄢˋ ㄊㄚ，ㄊㄚ ㄅㄚˇ ㄕㄡˋ ㄙ ㄍㄟˇ ㄇㄠ.'"
+          :pinyin="'ru2 guo3 ni3 bu2 kan4 ta1, ta1 ba3 shou4 si1 gei3 mao1.'"
           :translation="'見ていないと、 彼は寿司を猫にあげてしまいます。'"
         />
         <br>
@@ -216,9 +216,9 @@
           ・睡覺
         </p>
         <SentenceFormat
-          :sentence="'我今天睡覺了太長，脖子很痛。'"
-          :bopomofo="'ㄨㄛˇ ㄐㄧㄣ ㄊㄧㄢ ㄕㄨㄟˋ ㄐㄧㄠˋ ㄌㄜ˙ ㄊㄞˋ ㄔㄤˊ，ㄅㄛˊ ㄗ˙ ㄏㄣˇ ㄊㄨㄥˋ.'"
-          :pinyin="'wo3 jin1 tian1 shui4 jiao4 le tai4 chang2, bo2 zi3 hen3 tong4.'"
+          :sentence="'我今天睡了太長覺，脖子很痛。'"
+          :bopomofo="'ㄨㄛˇ ㄐㄧㄣ ㄊㄧㄢ ㄕㄨㄟˋ ㄌㄜ˙ ㄊㄞˋ ㄔㄤˊ ㄐㄧㄠˋ，ㄅㄛˊ ㄗ˙ ㄏㄣˇ ㄊㄨㄥˋ.'"
+          :pinyin="'wo3 jin1 tian1 shui4 le tai4 chang2 jiao4, bo2 zi3 hen3 tong4.'"
           :translation="'今日は寝すぎたので、 首が痛いです。'"
         />
         <br>
@@ -256,9 +256,9 @@
           ・肚子
         </p>
         <SentenceFormat
-          :sentence="'肚子餓了，你有什麼容易吃的東西?'"
-          :bopomofo="'ㄉㄨˇ ㄗ˙ ㄜˋ ㄌㄜ˙， ㄋㄧˇ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄖㄨㄥˊ ㄧˋ ㄔ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙?'"
-          :pinyin="'du4 zi3 e4 le, ni3 you3 shen2 me rong2 yi4 chi1 de dong1 xi?'"
+          :sentence="'肚子餓了，你有什麼容易吃的東西嗎?'"
+          :bopomofo="'ㄉㄨˇ ㄗ˙ ㄜˋ ㄌㄜ˙， ㄋㄧˇ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄖㄨㄥˊ ㄧˋ ㄔ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙ ㄇㄚ˙?'"
+          :pinyin="'du4 zi3 e4 le, ni3 you3 shen2 me rong2 yi4 chi1 de dong1 xi ma?'"
           :translation="'お腹がすいたのですが、 何か簡単に食べられるものはありますか?'"
         />
         <br>
@@ -358,7 +358,7 @@
         <SentenceFormat
           :sentence="'摸冰的東西太久，你的手會沒有感覺。'"
           :bopomofo="'ㄇㄛ ㄅㄧㄥ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ ㄊㄞˋ ㄐㄧㄡˇ，ㄋㄧˇ ㄉㄜ˙ ㄕㄡˇ ㄏㄨㄟˋ ㄇㄟˊ ㄧㄡˇ ㄍㄢˇ ㄐㄩㄝˊ.'"
-          :pinyin="'.mo1 bing1 de dong1 xi1 tai4 jiu3, ni3 de shou3 hui4 mei2 you3 gan3 jue2'"
+          :pinyin="'mo1 bing1 de dong1 xi1 tai4 jiu3, ni3 de shou3 hui4 mei2 you3 gan3 jue2'"
           :translation="'冷たいものに長時間触れていると、 手の感覚がなくなります。'"
         />
         <br>
@@ -426,9 +426,9 @@
           ・不用了
         </p>
         <SentenceFormat
-          :sentence="'你必須跟經理直接說法? -不用了。'"
-          :bopomofo="'ㄋㄧˇ ㄅㄧˋ ㄒㄩ ㄍㄣ ㄐㄧㄥ ㄌㄧˇ ㄓˊ ㄐㄧㄝ ㄕㄨㄛ ㄈㄚˇ? -ㄅㄨˊ  ㄩㄥˋ ㄌㄜ˙.'"
-          :pinyin="'ni3 bi4 xu1 gen1 jing1 li3 zhi2 jie1 shuo1 fa3? -bu2 yong4 le.'"
+          :sentence="'你必須跟經理直接說話? -不用了。'"
+          :bopomofo="'ㄋㄧˇ ㄅㄧˋ ㄒㄩ ㄍㄣ ㄐㄧㄥ ㄌㄧˇ ㄓˊ ㄐㄧㄝ ㄕㄨㄛ ㄏㄨㄚˋ? -ㄅㄨˊ  ㄩㄥˋ ㄌㄜ˙.'"
+          :pinyin="'ni3 bi4 xu1 gen1 jing1 li3 zhi2 jie1 shuo1 hua4? -bu2 yong4 le.'"
           :translation="'あなたはマネージャーと直接話す必要がありますか? -大丈夫です。'"
         />
         <br>
