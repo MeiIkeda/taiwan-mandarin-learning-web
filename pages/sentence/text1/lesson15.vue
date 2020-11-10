@@ -46,9 +46,9 @@
           ・流
         </p>
         <SentenceFormat
-          :sentence="'從天花板水在流, 我們怎麼辦?'"
-          :bopomofo="'ㄘㄨㄥˊ ㄊㄧㄢ ㄏㄨㄚ ㄅㄢˇ ㄕㄨㄟˇ ㄗㄞˋ ㄌㄧㄡˊ, ㄨㄛˇ ㄇㄣ˙ ㄗㄣˇ ㄇㄜ˙ ㄅㄢˋ.'"
-          :pinyin="'cong2 tian1 hua1 ban3 shui3 zai4 liu2, wo3 men zen3 me ban4?.'"
+          :sentence="'水從天花板流下來, 我們怎麼辦??'"
+          :bopomofo="'ㄕㄨㄟˇ ㄘㄨㄥˊ ㄊㄧㄢ ㄏㄨㄚ ㄅㄢˇ ㄌㄧㄡˊ ㄒㄧㄚˋ ㄌㄞˊ, ㄨㄛˇ ㄇㄣ˙ ㄗㄣˇ ㄇㄜ˙ ㄅㄢˋ.'"
+          :pinyin="'shui3 cong2 tian1 hua1 ban3 liu2 xia4 lai2, wo3 men zen3 me ban4?.'"
           :translation="'天井から水が流れています、 どうしましょう?'"
         />
         <br>
@@ -56,9 +56,9 @@
           ・鼻水
         </p>
         <SentenceFormat
-          :sentence="'因為花粉病，我的鼻水沒有停止。'"
-          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄏㄨㄚ ㄈㄣˇ ㄅㄧㄥˋ，ㄨㄛˇ ㄉㄜ˙ ㄅㄧˊ ㄕㄨㄟˇ ㄇㄟˊ ㄧㄡˇ ㄊㄧㄥˊ ㄓˇ.'"
-          :pinyin="'yin1 wei4 hua1 fen3 bing4, wo3 de bi2 shui3 mei2 you3 ting2 zhi3.'"
+          :sentence="'因為花粉症，我的鼻水停不下來。'"
+          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄏㄨㄚ ㄈㄣˇ ㄓㄥˋ，ㄨㄛˇ ㄉㄜ˙ ㄅㄧˊ ㄕㄨㄟˇ ㄊㄧㄥˊ ㄅㄨˊ ㄒㄧㄚˋ ㄌㄞˊ.'"
+          :pinyin="'yin1 wei4 hua1 fen3 zheng4, wo3 de bi2 shui3 ting2 bu2 xia4 lai2.'"
           :translation="'花粉症で、 鼻水が止まらない。'"
         />
         <br>
@@ -96,19 +96,19 @@
           ・差
         </p>
         <SentenceFormat
-          :sentence="'我的幹勁對工作太差了。'"
-          :bopomofo="'ㄨㄛˇ ㄉㄜ˙ ㄍㄢˋ ㄐㄧㄣˋ ㄉㄨㄟˋ ㄍㄨㄥ ㄗㄨㄛˋ ㄊㄞˋ ㄔㄚ ㄌㄜ˙.'"
-          :pinyin="'wo3 de gan4 jin4 dui4 gong1 zuo1 tai4 cha1 le.'"
-          :translation="'仕事に対するやる気がありません。'"
+          :sentence="'他對工作的態度很差。'"
+          :bopomofo="'ㄊㄚ ㄉㄨㄟˋ ㄍㄨㄥ ㄗㄨㄛˋ ㄉㄜ˙ ㄊㄞˋ ㄉㄨˋ ㄏㄣˇ ㄔㄚˋ.'"
+          :pinyin="'ta1 dui4 gong1 zuo4 de tai4 du4 hen3 cha1.'"
+          :translation="'彼の仕事に対する態度はひどいです。'"
         />
         <br>
         <p>
           ・喉嚨
         </p>
         <SentenceFormat
-          :sentence="'員工因為喉嚨腫了早回家了。'"
-          :bopomofo="'ㄩㄢˊ ㄍㄨㄥ ㄧㄣ ㄨㄟˋ ㄏㄡˊ ㄌㄨㄥˊ ㄓㄨㄥˇ ㄌㄜ˙ ㄗㄠˇ ㄏㄨㄟˊ ㄐㄧㄚ ㄌㄜ˙.'"
-          :pinyin="'yuan2 gong1 yin1 wei4 hou2 long2 zhong3 le zao3 hui2 jia1 le.'"
+          :sentence="'員工因為喉嚨腫起來了早一點回家了。'"
+          :bopomofo="'ㄩㄢˊ ㄍㄨㄥ ㄧㄣ ㄨㄟˋ ㄏㄡˊ ㄌㄨㄥˊ ㄓㄨㄥˇ ㄑㄧˇ ㄌㄞˊ ㄌㄜ˙ ㄗㄠˇ ㄧˋ ㄉㄧㄢˇ ㄏㄨㄟˊ ㄐㄧㄚ ㄌㄜ˙.'"
+          :pinyin="'yuan2 gong1 yin1 wei4 hou2 long2 zhong3 qi3 lai2 le zao3 yi1 dian3 hui2 jia1 le.'"
           :translation="'喉が腫れたため、従業員は早退しました。'"
         />
         <br>
@@ -136,9 +136,9 @@
           ・發燒
         </p>
         <SentenceFormat
-          :sentence="'如果你發燒不能進百貨公司。'"
-          :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄈㄚ ㄕㄠ ㄅㄨˋ ㄋㄥˊ ㄐㄧㄣˋ ㄅㄞˇ ㄏㄨㄛˋ ㄍㄨㄥ ㄙ.'"
-          :pinyin="'ru2 guo3 ni3 fa1 shao1 bu4 neng2 jin4 bai3 huo4 gong1 si1.'"
+          :sentence="'如果你發燒了, 就不能進百貨公司。'"
+          :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄈㄚ ㄕㄠ ㄌㄜ˙,  ㄐㄧㄡˋ ㄅㄨˋ ㄋㄥˊ ㄐㄧㄣˋ ㄅㄞˇ ㄏㄨㄛˋ ㄍㄨㄥ ㄙ.'"
+          :pinyin="'ru2 guo3 ni3 fa1 shao1 le, jiu4 bu4 neng2 jin4 bai3 huo4 gong1 si1.'"
           :translation="'熱があるとデパートには入れません。'"
         />
         <br>
@@ -146,19 +146,22 @@
           ・感冒
         </p>
         <SentenceFormat
-          :sentence="'狗狗不感冒人類的冒。'"
-          :bopomofo="'ㄍㄡˇ ㄍㄡˇ ㄅㄨˋ ㄍㄢˇ ㄇㄠˋ ㄖㄣˊ ㄌㄟˋ ㄉㄜ˙ ㄇㄠˋ.'"
-          :pinyin="'gou3 gou3 bu4 gan3 mao4 ren2 lei4 de mao4.'"
-          :translation="'犬は人間の風邪をひきません。'"
+          :sentence="'狗狗不會感冒。'"
+          :bopomofo="'ㄍㄡˇ ㄍㄡˇ ㄅㄨˊ ㄏㄨㄟˋ ㄍㄢˇ ㄇㄠˋ.'"
+          :pinyin="'gou3 gou3 bu2 hui4 gan3 mao4.'"
+          :translation="'犬は風邪をひきません。'"
+          :memo="'※「感冒」には動詞と名詞があり、 例文は動詞。 ' +
+            '名詞の例として、「狗狗不會得人的感冒(ㄍㄡˇ ㄍㄡˇ ㄅㄨˊ ㄏㄨㄟˋ ㄉㄜˊ ㄖㄣˊ ㄉㄜ˙ ㄍㄢˇ ㄇㄠˋ/' +
+            'gou3 gou3 bu2 hui4 de2 ren2 de gan3 mao4)」 = 「犬は人間の風邪をひきません」 '"
         />
         <br>
         <p>
           ・藥
         </p>
         <SentenceFormat
-          :sentence="'為了吃藥, 你要冷水還是熱水?'"
-          :bopomofo="'ㄨㄟˋ ㄌㄜ˙ ㄔ ㄧㄠˋ, ㄋㄧˇ ㄧㄠˋ ㄌㄥˇ ㄕㄨㄟˇ ㄏㄞˊ ㄕˋ ㄖㄜˋ ㄕㄨㄟˇ?'"
-          :pinyin="'wei4 le chi1 yao4, ni3 yao4 leng3 shui3 hai2 shi4 re4 shui3?'"
+          :sentence="'你要用冷水還是熱水吃藥?'"
+          :bopomofo="'ㄋㄧˇ ㄧㄠˋ ㄩㄥˋ ㄌㄥˇ ㄕㄨㄟˇ ㄏㄞˊ ㄕˋ ㄖㄜˋ ㄕㄨㄟˇ ㄔ ㄧㄠˋ?'"
+          :pinyin="'ni3 yao4 yong4 leng3 shui3 hai2 shi4 re4 shui3 chi1 yao4?'"
           :translation="'薬を飲むのに、 冷たい水とお湯どちらが欲しいですか?'"
         />
         <br>
@@ -166,20 +169,20 @@
           ・藥局
         </p>
         <SentenceFormat
-          :sentence="'我找了藥局很多時間了，但是不能找到。'"
-          :bopomofo="'ㄨㄛˇ ㄓㄠˇ ㄌㄜ˙ ㄧㄠˋ ㄐㄩˊ ㄏㄣˇ ㄉㄨㄛ ㄕˊ ㄐㄧㄢ ㄌㄜ˙， ㄉㄢˋ ㄕˋ ㄅㄨˋ ㄋㄥˊ ㄓㄠˇ ㄉㄠˋ.'"
-          :pinyin="'wo3 zhao3 le yao4 ju2 hen3 duo1 shi2 jian1 le, dan4 shi4 bu4 neng2 zhao3 dao4.'"
-          :translation="'長い時間薬局を探しているのですが、 見つかりません。'"
+          :sentence="'我找藥局找了很久，但是找不到。'"
+          :bopomofo="'ㄨㄛˇ ㄓㄠˇ ㄧㄠˋ ㄐㄩˊ ㄓㄠˇ ㄌㄜ˙ ㄏㄣˇ ㄐㄧㄡˇ，ㄉㄢˋ ㄕˋ ㄓㄠˇ ㄅㄨ˙ ㄉㄠˋ.'"
+          :pinyin="'wo3 zhao3 yao4 ju2 zhao3 le hen3 jiu3, dan4 shi4 zhao3 bu2 dao4.'"
+          :translation="'長い時間薬局を探したのですが、 見つかりません。'"
         />
         <br>
         <p>
           ・拿
         </p>
         <SentenceFormat
-          :sentence="'我會去書店拿新的雜誌。'"
-          :bopomofo="'ㄨㄛˇ ㄏㄨㄟˋ ㄑㄩˋ ㄕㄨ ㄉㄧㄢˋ ㄋㄚˊ ㄒㄧㄣ ㄉㄜ˙ ㄗㄚˊ ㄓˋ.'"
-          :pinyin="'wo3 hui4 qu4 shu1 dian4 na2 xin1 de za2 zhi4.'"
-          :translation="'本屋に行って、 新しい雑誌を手に入れます。'"
+          :sentence="'我會去朋友家拿新的雜誌。'"
+          :bopomofo="'ㄨㄛˇ ㄏㄨㄟˋ ㄑㄩˋ ㄆㄥˊ ㄧㄡˇ ㄐㄧㄚ ㄋㄚˊ ㄒㄧㄣ ㄉㄜ˙ ㄗㄚˊ ㄓˋ.'"
+          :pinyin="'wo3 hui4 qu4 peng2 you3 jia1 na2 xin1 de za2 zhi4.'"
+          :translation="'友達の家に行って、 新しい雑誌を手に入れます。'"
         />
         <br>
         <p>
@@ -196,9 +199,9 @@
           ・水
         </p>
         <SentenceFormat
-          :sentence="'今天天氣會很熱，所以我要給花園澆水。'"
-          :bopomofo="'ㄐㄧㄣ ㄊㄧㄢ ㄊㄧㄢ ㄑㄧˋ ㄏㄨㄟˋ ㄏㄣˇ ㄖㄜˋ，ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄧㄠˋ ㄍㄟˇ ㄏㄨㄚ ㄩㄢˊ ㄐㄧㄠ ㄕㄨㄟˇ.'"
-          :pinyin="'jin1 tian1 tian1 qi4 hui4 hen3 re4, suo3 yi3 wo3 yao4 gei3 hua1 yuan2 jiao1 shui3.'"
+          :sentence="'今天天氣會很熱，所以我要去院子灑水。'"
+          :bopomofo="'ㄐㄧㄣ ㄊㄧㄢ ㄊㄧㄢ ㄑㄧˋ ㄏㄨㄟˋ ㄏㄣˇ ㄖㄜˋ，ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄧㄠˋ ㄑㄩˋ ㄩㄢˋ ㄗ˙ ㄙㄚˇ ㄕㄨㄟˇ.'"
+          :pinyin="'jin1 tian1 tian1 qi4 hui4 hen3 re4, suo3 yi3 wo3 yao4 qu4 yuan4 zi3 sa3 shui3.'"
           :translation="'今日は暑くなりそうなので、庭に水を撒こうと思います。'"
         />
         <br>
@@ -206,9 +209,9 @@
           ・休息
         </p>
         <SentenceFormat
-          :sentence="'他想休息，但是他的狗在不停跑步。'"
-          :bopomofo="'ㄊㄚ ㄒㄧㄤˇ ㄒㄧㄡ ㄒㄧ， ㄉㄢˋ ㄕˋ ㄊㄚ ㄉㄜ˙ ㄍㄡˇ ㄗㄞˋ ㄅㄨˋ ㄊㄧㄥˊ ㄆㄠˇ ㄅㄨˋ.'"
-          :pinyin="'ta1 xiang3 xiu1 xi1, dan4 shi4 ta1 de gou3 zai4 bu4 ting2 pao3 bu4.'"
+          :sentence="'他想休息，但是他的狗繼續跑。'"
+          :bopomofo="'ㄊㄚ ㄒㄧㄤˇ ㄒㄧㄡ ㄒㄧˊ， ㄉㄢˋ ㄕˋ ㄊㄚ ㄉㄜ˙ ㄍㄡˇ ㄐㄧˋ ㄒㄩˋ ㄆㄠˇ.'"
+          :pinyin="'ta1 xiang3 xiu1 xi2, dan4 shi4 ta1 de gou3 ji4 xu4 pao3.'"
           :translation="'彼は休みたいのだけど、 彼の犬は走り続けています。'"
         />
         <br>
@@ -216,19 +219,19 @@
           ・睡覺
         </p>
         <SentenceFormat
-          :sentence="'我今天睡了太長覺，脖子很痛。'"
-          :bopomofo="'ㄨㄛˇ ㄐㄧㄣ ㄊㄧㄢ ㄕㄨㄟˋ ㄌㄜ˙ ㄊㄞˋ ㄔㄤˊ ㄐㄧㄠˋ，ㄅㄛˊ ㄗ˙ ㄏㄣˇ ㄊㄨㄥˋ.'"
-          :pinyin="'wo3 jin1 tian1 shui4 le tai4 chang2 jiao4, bo2 zi3 hen3 tong4.'"
-          :translation="'今日は寝すぎたので、 首が痛いです。'"
+          :sentence="'我今天睡了十個小時覺，脖子很痛。'"
+          :bopomofo="'ㄨㄛˇ ㄐㄧㄣ ㄊㄧㄢ ㄕㄨㄟˋ ㄌㄜ˙ ㄕˊ ㄍㄜˋ ㄒㄧㄠˇ ㄕˊ ㄐㄧㄠˋ，ㄅㄛˊ ㄗ˙ ㄏㄣˇ ㄊㄨㄥˋ.'"
+          :pinyin="'wo3 jin1 tian1 shui4 le shi2 ge4 xiao3 shi2 jiao4, bo2 zi3 hen3 tong4.'"
+          :translation="'今日は10時間も寝たので、 首が痛いです。'"
         />
         <br>
         <p>
           ・早一點
         </p>
         <SentenceFormat
-          :sentence="'如果可以的話，我想早一點起床。'"
-          :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄎㄜˇ ㄧˇ ㄉㄜ˙ ㄏㄨㄚˋ，ㄨㄛˇ ㄒㄧㄤˇ ㄗㄠˇ ㄧˋ ㄉㄧㄢˇ ㄑㄧˇ ㄔㄨㄤˊ.'"
-          :pinyin="'ru2 guo3 ke3 yi3 de hua4, wo3 xiang3 zao3 yi1 dian3 qi3 chuang2.'"
+          :sentence="'如果可以，我想早一點起床。'"
+          :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄎㄜˇ ㄧˇ，ㄨㄛˇ ㄒㄧㄤˇ ㄗㄠˇ ㄧˋ ㄉㄧㄢˇ ㄑㄧˇ ㄔㄨㄤˊ.'"
+          :pinyin="'ru2 guo3 ke3 yi3, wo3 xiang3 zao3 yi1 dian3 qi3 chuang2.'"
           :translation="'できれば、 もう少し早く起きたいです。'"
         />
         <br>
@@ -236,19 +239,20 @@
           ・臉色
         </p>
         <SentenceFormat
-          :sentence="'他發現著錢包丟了，他的臉色變藍。'"
-          :bopomofo="'ㄊㄚ ㄈㄚ ㄒㄧㄢˋ ㄓㄜ˙ ㄑㄧㄢˊ ㄅㄠ ㄉㄧㄡ ㄌㄜ˙， ㄊㄚ ㄉㄜ˙ ㄌㄧㄢˇ ㄙㄜˋ ㄅㄧㄢˋ ㄌㄢˊ.'"
-          :pinyin="'ta1 fa1 xian4 zhe qian2 bao1 diu1 le, ta1 de lian3 se4 bian4 lan2.'"
+          :sentence="'他發現錢包丟了，他的臉色變綠了。'"
+          :bopomofo="'ㄊㄚ ㄈㄚ ㄒㄧㄢˋ ㄑㄧㄢˊ ㄅㄠ ㄉㄧㄡ ㄌㄜ˙， ㄊㄚ ㄉㄜ˙ ㄌㄧㄢˇ ㄙㄜˋ ㄅㄧㄢˋ ㄌㄩˋ ㄌㄜ˙.'"
+          :pinyin="'ta1 fa1 xian4 qian2 bao1 diu1 le, ta1 de lian3 se4 bian4 lu4 le.'"
           :translation="'財布を紛失したことに気づいて、 彼の顔は青くなりました。'"
+          :memo="'※「顔が青くなる」は、中国語では「緑」の方がよく使う。 (「青」でも可)'"
         />
         <br>
         <p>
           ・難看
         </p>
         <SentenceFormat
-          :sentence="'他一定受傷了，現在走的樣子很難看。'"
-          :bopomofo="'ㄊㄚ ㄧˊ ㄉㄧㄥˋ ㄕㄡˋ ㄕㄤ ㄌㄜ˙， ㄒㄧㄢˋ ㄗㄞˋ ㄗㄡˇ ㄉㄜ˙ ㄧㄤˋ ㄗ˙ ㄏㄣˇ ㄋㄢˊ ㄎㄢˋ.'"
-          :pinyin="'ta1 yi1 ding4 shou4 shang1 le, xian4 zai4 zou3 de yang4 zi3 hen3 nan2 kan4.'"
+          :sentence="'他一定受傷了，現在走路的樣子很難看。'"
+          :bopomofo="'ㄊㄚ ㄧˊ ㄉㄧㄥˋ ㄕㄡˋ ㄕㄤ ㄌㄜ˙， ㄒㄧㄢˋ ㄗㄞˋ ㄗㄡˇ ㄌㄨˋ ㄉㄜ˙ ㄧㄤˋ ㄗ˙ ㄏㄣˇ ㄋㄢˊ ㄎㄢˋ.'"
+          :pinyin="'ta1 yi1 ding4 shou4 shang1 le, xian4 zai4 zou3 lu4 de yang4 zi3 hen3 nan2 kan4.'"
           :translation="'彼は怪我をした違いない、 歩く様子はとても調子が悪そうです。'"
         />
         <br>
@@ -266,9 +270,9 @@
           ・吐
         </p>
         <SentenceFormat
-          :sentence="'我的貓吐食物以後，總是吃一些草。'"
-          :bopomofo="'ㄨㄛˇ ㄉㄜ˙ ㄇㄠ ㄊㄨˇ ㄕˊ ㄨˋ ㄧˇ ㄏㄡˋ， ㄗㄨㄥˇ ㄕˋ ㄔ ㄧ ㄒㄧㄝ ㄘㄠˇ.'"
-          :pinyin="'wo3 de mao1 tu3 shi2 wu4 yi3 hou4, zong3 shi4 chi1 yi1 xie1 cao3.'"
+          :sentence="'我的貓吐了食物以後，總是吃一些草。'"
+          :bopomofo="'ㄨㄛˇ ㄉㄜ˙ ㄇㄠ ㄊㄨˋ ㄌㄜ˙ ㄕˊ ㄨˋ ㄧˇ ㄏㄡˋ， ㄗㄨㄥˇ ㄕˋ ㄔ ㄧ ㄒㄧㄝ ㄘㄠˇ.'"
+          :pinyin="'wo3 de mao1 tu4 le shi2 wu4 yi3 hou4, zong3 shi4 chi1 yi1 xie1 cao3.'"
           :translation="'私の猫は食べ物を吐いたあと、 いつも草を食べます。'"
         />
         <br>
@@ -276,20 +280,20 @@
           ・幾
         </p>
         <SentenceFormat
-          :sentence="'在家沒有洋蔥，我們買幾個吧。'"
-          :bopomofo="'ㄗㄞˋ ㄐㄧㄚ ㄇㄟˊ ㄧㄡˇ ㄧㄤˊ ㄘㄨㄥ，ㄨㄛˇ ㄇㄣ˙ ㄇㄞˇ ㄐㄧˇ ㄍㄜˋ ㄅㄚ˙ .'"
-          :pinyin="'zai4 jia1 mei2 you3 yang2 cong1, wo3 men mai3 ji3 ge4 ba.'"
-          :translation="'家に玉ねぎが無いので、 いくつか買いましょう。'"
+          :sentence="'家裡沒有洋蔥了，我們買幾個吧。'"
+          :bopomofo="'ㄐㄧㄚ ㄌㄧˇ ㄇㄟˊ ㄧㄡˇ ㄧㄤˊ ㄘㄨㄥ ㄌㄜ˙，ㄨㄛˇ ㄇㄣ˙ ㄇㄞˇ ㄐㄧˇ ㄍㄜˋ ㄅㄚ˙ .'"
+          :pinyin="'jia1 li3 mei2 you3 yang2 cong1 le, wo3 men mai3 ji3 ge4 ba.'"
+          :translation="'家の玉ねぎが無くなったので、 いくつか買いましょう。'"
         />
         <br>
         <p>
           ・次
         </p>
         <SentenceFormat
-          :sentence="'合格這個考試，你因該參加兩，三次。'"
-          :bopomofo="'ㄏㄜˊ ㄍㄜˊ ㄓㄜˋ ㄍㄜˋ ㄎㄠˇ ㄕˋ，ㄋㄧˇ ㄧㄣ ㄍㄞ ㄘㄢ ㄐㄧㄚ ㄌㄧㄤˇ，ㄙㄢ ㄘˋ.'"
-          :pinyin="'he2 ge2 zhe4 ge4 kao3 shi4, ni3 yin1 gai1 can1 jia1 liang3, san1 ci4.'"
-          :translation="'この試験に合格するには、2、3回は受験する必要があります。'"
+          :sentence="'要通過這個考試，得參加兩，三次。'"
+          :bopomofo="'ㄧㄠˋ ㄊㄨㄥ ㄍㄨㄛˋ ㄓㄜˋ ㄍㄜˋ ㄎㄠˇ ㄕˋ，ㄉㄟˇ ㄘㄢ ㄐㄧㄚ ㄌㄧㄤˇ，ㄙㄢ ㄘˋ.'"
+          :pinyin="'yao4 tong1 guo4 zhe4 ge4 kao3 shi4, dei3 can1 jia1 liang3, san1 ci4.'"
+          :translation="'この試験を通過するには、 2、3回受験する必要があります。'"
         />
         <br>
         <p>
@@ -326,19 +330,20 @@
           ・保險
         </p>
         <SentenceFormat
-          :sentence="'為了緊急的時，你因該加入保險。'"
-          :bopomofo="'ㄨㄟˋ ㄌㄜ˙ ㄐㄧㄣˇ ㄐㄧˊ ㄉㄜ˙ ㄕˊ， ㄋㄧˇ ㄧㄣ ㄍㄞ ㄐㄧㄚ ㄖㄨˋ ㄅㄠˇ ㄒㄧㄢˇ.'"
-          :pinyin="'wei4 le jin3 ji2 de shi2, ni3 yin1 gai1 jia1 ru4 bao3 xian3.'"
-          :translation="'緊急時のため、 保険には加入しておいた方がいいです。'"
+          :sentence="'為了緊急的時候，你因該有保險。'"
+          :bopomofo="'ㄨㄟˋ ㄌㄜ˙ ㄐㄧㄣˇ ㄐㄧˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ，ㄋㄧˇ ㄧㄣ ㄍㄞ ㄧㄡˇ ㄅㄠˇ ㄒㄧㄢˇ.'"
+          :pinyin="'wei4 le jin3 ji2 de shi2 hou4, ni3 yin1 gai1 you3 bao3 xian3.'"
+          :translation="'緊急時のため、 保険には入っておいた方がいいです。'"
+          :memo="'※「保険に加入する」という意味の、 「投保(ㄊㄡˊ ㄅㄠˇ/tou2 bao3)」という単語もある。'"
         />
         <br>
         <p>
           ・跟
         </p>
         <SentenceFormat
-          :sentence="'今天我看過他跟一個女人講話。'"
-          :bopomofo="'ㄐㄧㄣ ㄊㄧㄢ ㄨㄛˇ ㄎㄢˋ ㄍㄨㄛˋ ㄊㄚ ㄍㄣ ㄧˊ ㄍㄜˋ ㄋㄩˇ ㄖㄣˊ ㄐㄧㄤˇ ㄏㄨㄚˋ.'"
-          :pinyin="'jin1 tian1 wo3 kan4 guo4 ta1 gen1 yi1 ge4 nu3 ren2 jiang3 hua4.'"
+          :sentence="'今天我看到他跟一個女人講話。'"
+          :bopomofo="'ㄐㄧㄣ ㄊㄧㄢ ㄨㄛˇ ㄎㄢˋ ㄉㄠˋ ㄊㄚ ㄍㄣ ㄧˊ ㄍㄜˋ ㄋㄩˇ ㄖㄣˊ ㄐㄧㄤˇ ㄏㄨㄚˋ.'"
+          :pinyin="'jin1 tian1 wo3 kan4 dao4 ta1 gen1 yi1 ge4 nu3 ren2 jiang3 hua4.'"
           :translation="'今日、彼が女性と話しているのを見ました。'"
         />
         <br>
@@ -346,10 +351,11 @@
           ・油
         </p>
         <SentenceFormat
-          :sentence="'油很多的拉麵好吃，如果吃太多肚子變不舒服。'"
-          :bopomofo="'ㄧㄡˊ ㄏㄣˇ ㄉㄨㄛ ㄉㄜ˙ ㄌㄚ ㄇㄧㄢˋ ㄏㄠˇ ㄔ，ㄖㄨˊ ㄍㄨㄛˇ ㄔ ㄊㄞˋ ㄉㄨㄛ ㄉㄨˇ ㄗ˙ ㄅㄧㄢˋ ㄅㄨˋ ㄕㄨ ㄈㄨ˙.'"
-          :pinyin="'you2 hen3 duo1 de la1 mian4 hao3 chi1, ru2 guo3 chi1 tai4 duo1 du4 zi3 bian4 bu4 shu1 fu2.'"
+          :sentence="'油膩膩的拉麵好吃，但是如果吃太多肚子會不舒服。'"
+          :bopomofo="'ㄧㄡˊ ㄋㄧˋ ㄋㄧˋ ㄉㄜ˙ ㄌㄚ ㄇㄧㄢˋ ㄏㄠˇ ㄔ，ㄉㄢˋ ㄕˋ ㄖㄨˊ ㄍㄨㄛˇ ㄔ ㄊㄞˋ ㄉㄨㄛ ㄉㄨˋ ㄗ˙ ㄏㄨㄟˋ ㄅㄨˋ ㄕㄨ ㄈㄨ˙.'"
+          :pinyin="'you2 ni4 ni4 de la1 mian4 hao3 chi1, dan4 shi4 ru2 guo3 chi1 tai4 duo1 du4 zi3 hui4 bu2 shu1 fu2.'"
           :translation="'油たっぷりのラーメンは美味しいですが、 食べすぎるとお腹の調子が悪くなります。'"
+          :memo="'※「ネギたっぷりの」 = 「蔥滿滿的(ㄘㄨㄥ ㄇㄢˇ ㄇㄢˇ ㄉㄜ˙/cong1 man3 man3 de)」。'"
         />
         <br>
         <p>
@@ -366,19 +372,20 @@
           ・別
         </p>
         <SentenceFormat
-          :sentence="'別擔心，我能自己整理瀏海。'"
-          :bopomofo="'ㄅㄧㄝˊ ㄉㄢ ㄒㄧㄣ，ㄨㄛˇ ㄋㄥˊ ㄗˋ ㄐㄧˇ ㄓㄥˇ ㄌㄧˇ ㄌㄧㄡˊ ㄏㄞˇ.'"
-          :pinyin="'bie2 dan1 xin1, wo3 neng2 zi4 ji3 zheng3 li3 liu2 hai3.'"
+          :sentence="'別擔心，我能自己剪瀏海。'"
+          :bopomofo="'ㄅㄧㄝˊ ㄉㄢ ㄒㄧㄣ，ㄨㄛˇ ㄋㄥˊ ㄗˋ ㄐㄧˇ ㄐㄧㄢˇ ㄌㄧㄡˊ ㄏㄞˇ.'"
+          :pinyin="'bie2 dan1 xin1, wo3 neng2 zi4 ji3 jian3 liu2 hai3.'"
           :translation="'心配しないで下さい、 前髪は自分で切れます。'"
+          :memo="'※「整理瀏海(ㄓㄥˇ ㄌㄧˇ ㄌㄧㄡˊ ㄏㄞˇ/zheng3 li3 liu2 hai3)」 だと美容院などで綺麗に整える感覚。'"
         />
         <br>
         <p>
           ・關心
         </p>
         <SentenceFormat
-          :sentence="'阿媽關心那個孩子，每天跟他聊天。'"
-          :bopomofo="'ㄚ ㄇㄚ ㄍㄨㄢ ㄒㄧㄣ ㄋㄚˋ ㄍㄜˋ ㄏㄞˊ ㄗ˙， ㄇㄟˇ ㄊㄧㄢ ㄍㄣ ㄊㄚ ㄌㄧㄠˊ ㄊㄧㄢ.'"
-          :pinyin="'a1 ma1 guan1 xin1 na4 ge4 hai2 zi3, mei3 tian1 gen1 ta1 liao2 tian1.'"
+          :sentence="'阿嫲關心那個孩子，每天跟他聊天。'"
+          :bopomofo="'ㄚ ㄇㄚ˙ ㄍㄨㄢ ㄒㄧㄣ ㄋㄚˋ ㄍㄜˋ ㄏㄞˊ ㄗ˙， ㄇㄟˇ ㄊㄧㄢ ㄍㄣ ㄊㄚ ㄌㄧㄠˊ ㄊㄧㄢ.'"
+          :pinyin="'a1 ma guan1 xin1 na4 ge4 hai2 zi3, mei3 tian1 gen1 ta1 liao2 tian1.'"
           :translation="'おばあちゃんはその子供を気遣って、 毎日お喋りをします。'"
         />
         <br>
@@ -396,9 +403,9 @@
           ・睡
         </p>
         <SentenceFormat
-          :sentence="'如果他已經睡，別叫醒他。'"
-          :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄊㄚ ㄧˇ ㄐㄧㄥ ㄕㄨㄟˋ， ㄅㄧㄝˊ ㄐㄧㄠˋ ㄒㄧㄥˇ ㄊㄚ.'"
-          :pinyin="'ru2 guo3 ta1 yi3 jing1 shui4,  bie2 jiao4 xing3 ta1.'"
+          :sentence="'如果他已經睡了，別叫醒他。'"
+          :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄊㄚ ㄧˇ ㄐㄧㄥ ㄕㄨㄟˋ ㄌㄜ˙， ㄅㄧㄝˊ ㄐㄧㄠˋ ㄒㄧㄥˇ ㄊㄚ.'"
+          :pinyin="'ru2 guo3 ta1 yi3 jing1 shui4 le, bie2 jiao4 xing3 ta1.'"
           :translation="'彼がもう寝ているなら、 起こさないで下さい。'"
         />
         <br>
@@ -426,10 +433,10 @@
           ・不用了
         </p>
         <SentenceFormat
-          :sentence="'你必須跟經理直接說話? -不用了。'"
-          :bopomofo="'ㄋㄧˇ ㄅㄧˋ ㄒㄩ ㄍㄣ ㄐㄧㄥ ㄌㄧˇ ㄓˊ ㄐㄧㄝ ㄕㄨㄛ ㄏㄨㄚˋ? -ㄅㄨˊ  ㄩㄥˋ ㄌㄜ˙.'"
-          :pinyin="'ni3 bi4 xu1 gen1 jing1 li3 zhi2 jie1 shuo1 hua4? -bu2 yong4 le.'"
-          :translation="'あなたはマネージャーと直接話す必要がありますか? -大丈夫です。'"
+          :sentence="'你要袋子嗎? -不用了, 謝謝。'"
+          :bopomofo="'ㄋㄧˇ ㄧㄠˋ ㄉㄞˋ ㄗ˙ ㄇㄚ˙?  -ㄅㄨˊ ㄩㄥˋ ㄌㄜ˙, ㄒㄧㄝˋ ㄒㄧㄝˋ.'"
+          :pinyin="'ni3 yao4 dai4 zi3 ma2? -bu2 yong4 le, xie4 xie4.'"
+          :translation="'袋はいりますか? -結構です、 ありがとう。'"
         />
         <br>
         <p>
@@ -446,9 +453,9 @@
           ・回家
         </p>
         <SentenceFormat
-          :sentence="'我有很多得完的工作，我不知道什麼時候我能回家。'"
-          :bopomofo="'ㄨㄛˇ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄉㄜ˙ ㄨㄢˊ ㄉㄜ˙ ㄍㄨㄥ ㄗㄨㄛˋ，ㄅㄨˋ ㄓ ㄉㄠˋ ㄕㄣˊ ㄇㄜ˙ ㄕˊ ㄏㄡˋ ㄨㄛˇ ㄋㄥˊ ㄏㄨㄟˊ ㄐㄧㄚ.'"
-          :pinyin="'wo3 you3 hen3 duo1 dei3 wan2 de gong1 zuo4, bu4 zhi1 dao4 shen2 me shi2 hou4 wo3 neng2 hui2 jia1.'"
+          :sentence="'我有很多不做完不行的工作，不知道什麼時候我能回家。'"
+          :bopomofo="'ㄨㄛˇ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄅㄨˊ ㄗㄨㄛˋ ㄨㄢˊ ㄅㄨˋ ㄒㄧㄥˊ ㄉㄜ˙ ㄍㄨㄥ ㄗㄨㄛˋ，ㄅㄨˋ ㄓ ㄉㄠˋ ㄕㄣˊ ㄇㄜ˙ ㄕˊ ㄏㄡˋ ㄨㄛˇ ㄋㄥˊ ㄏㄨㄟˊ ㄐㄧㄚ.'"
+          :pinyin="'wo3 you3 hen3 duo1 bu2 zuo4 wan2 bu4 xing2 de gong1 zuo4, bu4 zhi1 dao4 shen2 me shi2 hou4 wo3 neng2 hui2 jia1.'"
           :translation="'終わらせなければいけない仕事がたくさんあるので、 いつ帰れるか分かりません。'"
         />
         <br>
