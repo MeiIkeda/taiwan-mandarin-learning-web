@@ -261,7 +261,7 @@
         </p>
         <SentenceFormat
           :sentence="'肚子餓了，你有什麼容易吃的東西嗎?'"
-          :bopomofo="'ㄉㄨˇ ㄗ˙ ㄜˋ ㄌㄜ˙， ㄋㄧˇ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄖㄨㄥˊ ㄧˋ ㄔ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙ ㄇㄚ˙?'"
+          :bopomofo="'ㄉㄨˋ ㄗ˙ ㄜˋ ㄌㄜ˙， ㄋㄧˇ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄖㄨㄥˊ ㄧˋ ㄔ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙ ㄇㄚ˙?'"
           :pinyin="'du4 zi3 e4 le, ni3 you3 shen2 me rong2 yi4 chi1 de dong1 xi ma?'"
           :translation="'お腹がすいたのですが、 何か簡単に食べられるものはありますか?'"
         />
