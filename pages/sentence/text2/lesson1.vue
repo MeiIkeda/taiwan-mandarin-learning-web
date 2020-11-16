@@ -148,7 +148,7 @@
         <SentenceFormat
           :sentence="'喜歡哪種超商是於你的嗜好。'"
           :bopomofo="'ㄒㄧˇ ㄏㄨㄢ ㄋㄚˇ ㄓㄨㄥˇ ㄔㄠ ㄕㄤ ㄕˋ ㄩˊ ㄋㄧˇ ㄉㄜ˙ ㄕˋ ㄏㄠˋ.'"
-          :pinyin="'xi3 huan1 na3 zhong3 chao1 shang1 shi4 yu1 ni3 de shi4 hao4.'"
+          :pinyin="'xi3 huan1 na3 zhong3 chao1 shang1 shi4 yu2 ni3 de shi4 hao4.'"
           :translation="'どのコンビニが好きかは、 好みによります。'"
         />
         <br>
@@ -166,9 +166,9 @@
           ・郵局
         </p>
         <SentenceFormat
-          :sentence="'郵局的營業時間是到四點還是五點?'"
-          :bopomofo="'ㄧㄡˊ ㄐㄩˊ ㄉㄜ˙ ㄧㄥˊ ㄧㄝˋ ㄕˊ ㄐㄧㄢ ㄕˋ ㄉㄠˋ ㄙˋ ㄉㄧㄢˇ ㄏㄞˊ ㄕˋ ㄨˇ ㄉㄧㄢˇ?'"
-          :pinyin="'you2 ju2 de ying2 ye4 shi2 jian1 shi4 dao4 si4 dian3 hai2 shi4 wu3 dian3?'"
+          :sentence="'郵局的營業時間是到四點或著五點?'"
+          :bopomofo="'ㄧㄡˊ ㄐㄩˊ ㄉㄜ˙ ㄧㄥˊ ㄧㄝˋ ㄕˊ ㄐㄧㄢ ㄕˋ ㄉㄠˋ ㄙˋ ㄉㄧㄢˇ ㄏㄨㄛˋ ㄓㄜ˙ ㄨˇ ㄉㄧㄢˇ?'"
+          :pinyin="'you2 ju2 de ying2 ye4 shi2 jian1 shi4 dao4 si4 dian3 huo4 zhe wu3 dian3?'"
           :translation="'郵便局の営業時間は4時までですか、それとも5時までですか?'"
         />
         <br>
@@ -186,7 +186,7 @@
           ・那邊
         </p>
         <SentenceFormat
-          :sentence="'你往右邊大概五分鐘,那邊有很多超商。'"
+          :sentence="'你往右邊大概五分鐘, 那邊有很多超商。'"
           :bopomofo="'ㄋㄧˇ ㄨㄤˇ ㄧㄡˋ ㄅㄧㄢ ㄉㄚˋ ㄍㄞˋ ㄨˇ ㄈㄣ ㄓㄨㄥ, ㄋㄚˋ ㄅㄧㄢ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄔㄠ ㄕㄤ.'"
           :pinyin="'ni3 wang3 you4 bian1 da4 gai4 wu3 fen1 zhong1, na4 bian1 you3 hen3 duo1 chao1 shang1.'"
           :translation="'右の方に5分ほど行くと、 コンビニがたくさんあります。'"
@@ -306,7 +306,7 @@
           ・經過
         </p>
         <SentenceFormat
-          :sentence="'雖然經過一些路口,我還沒找到超商了。'"
+          :sentence="'雖然經過一些路口, 我還沒找到超商了。'"
           :bopomofo="'ㄙㄨㄟ ㄖㄢˊ ㄐㄧㄥ ㄍㄨㄛˋ ㄧ ㄒㄧㄝ ㄌㄨˋ ㄎㄡˇ, ㄨㄛˇ ㄏㄞˊ ㄇㄟˊ ㄓㄠˇ ㄉㄠˋ ㄔㄠ ㄕㄤ ㄌㄜ˙.'"
           :pinyin="'sui1 ran2 jing1 guo4 yi1 xie1 lu4 kou3, wo3 hai2 mei2 zhao3 dao4 chao1 shang1 le.'"
           :translation="'いくつか交差点を通り過ぎましたが、 まだコンビニが見つかりません。'"
@@ -337,8 +337,8 @@
         </p>
         <SentenceFormat
           :sentence="'一邊滑手機一邊聽別人的話不好。'"
-          :bopomofo="'ㄧ ㄅㄧㄢ ㄏㄨㄚˊ ㄕㄡˇ ㄐㄧ ㄧ ㄅㄧㄢ ㄊㄧㄥ ㄅㄧㄝˊ ㄖㄣˊ ㄉㄜ˙ ㄏㄨㄚˋ ㄅㄨˋ ㄏㄠˇ.'"
-          :pinyin="'yi1 bian1 hua2 shou3 ji1 yi1 bian1 ting1 bie2 ren2 de hua4 bu4 hao3.'"
+          :bopomofo="'ㄧˋ ㄅㄧㄢ ㄏㄨㄚˊ ㄕㄡˇ ㄐㄧ ㄧˋ ㄅㄧㄢ ㄊㄧㄥ ㄅㄧㄝˊ ㄖㄣˊ ㄉㄜ˙ ㄏㄨㄚˋ ㄅㄨˋ ㄏㄠˇ.'"
+          :pinyin="'yi4 bian1 hua2 shou3 ji1 yi4 bian1 ting1 bie2 ren2 de hua4 bu4 hao3.'"
           :translation="'携帯をいじりながら人の話を聞くのは良くないです。'"
         />
         <br>
@@ -366,9 +366,9 @@
           ・背包
         </p>
         <SentenceFormat
-          :sentence="'我想把貓放在背包離去上班。'"
-          :bopomofo="'ㄨㄛˇ ㄒㄧㄤˇ ㄅㄚˇ ㄇㄠ ㄈㄤˋ ㄗㄞˋ ㄅㄟ ㄅㄠ ㄌㄧˊ ㄑㄩˋ ㄕㄤˋ ㄅㄢ.'"
-          :pinyin="'wo3 xiang3 ba3 mao1 fang4 zai4 bei1 bao1 li4 qu4 shang4 ban1.'"
+          :sentence="'我想把貓放在背包裡去上班。'"
+          :bopomofo="'ㄨㄛˇ ㄒㄧㄤˇ ㄅㄚˇ ㄇㄠ ㄈㄤˋ ㄗㄞˋ ㄅㄟ ㄅㄠ ㄌㄧˇ ㄑㄩˋ ㄕㄤˋ ㄅㄢ.'"
+          :pinyin="'wo3 xiang3 ba3 mao1 fang4 zai4 bei1 bao1 li3 qu4 shang4 ban1.'"
           :translation="'猫をリュックに入れて一緒に仕事に行きたいです。'"
         />
         <br>
@@ -386,8 +386,8 @@
           ・最後
         </p>
         <SentenceFormat
-          :sentence="'幸運的是，我得到了最後一個。'"
-          :bopomofo="'ㄒㄧㄥˋ ㄩㄣˋ ㄉㄜ˙ ㄕˋ，ㄨㄛˇ ㄉㄜˊ ㄉㄠˋ ㄌㄜ˙ ㄗㄨㄟˋ ㄏㄡˋ ㄧˊ ㄍㄜˋ.'"
+          :sentence="'幸運的是， 我得到了最後一個。'"
+          :bopomofo="'ㄒㄧㄥˋ ㄩㄣˋ ㄉㄜ˙ ㄕˋ，ㄨㄛˇ ㄉㄜˊ ㄉㄠˋ ㄌㄜ˙ ㄗㄨㄟˋ ㄏㄡˋ ㄧ ㄍㄜˋ.'"
           :pinyin="'xing4 yun4 de shi4, wo3 de2 dao4 le zui4 hou4 yi1 ge4.'"
           :translation="'幸いなことに、 私は最後の1つを手に入れました。'"
         />
@@ -396,7 +396,7 @@
           ・枝
         </p>
         <SentenceFormat
-          :sentence="'入國的時候，通常可以帶二十枝香煙。'"
+          :sentence="'入國的時候， 通常可以帶二十枝香煙。'"
           :bopomofo="'ㄖㄨˋ ㄍㄨㄛˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ，ㄊㄨㄥ ㄔㄤˊ ㄎㄜˇ ㄧˇ ㄉㄞˋ ㄦˋ ㄕˊ ㄓ ㄒㄧㄤ ㄧㄢ.'"
           :pinyin="'ru4 guo2 de shi2 hou4, tong1 chang2 ke3 yi3 dai4 er4 shi2 zhi1 xiang1 yan1.'"
           :translation="'入国の際、 通常20本のタバコを持ち込めます。'"
