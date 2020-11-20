@@ -458,10 +458,11 @@
           ・麵店
         </p>
         <SentenceFormat
-          :sentence="'麵店在日本和台灣的差距是湯的濃度。'"
-          :bopomofo="'ㄇㄧㄢˋ ㄉㄧㄢˋ ㄗㄞˋ ㄖˋ ㄅㄣˇ ㄏㄢˋ ㄊㄞˊ ㄨㄢ ㄉㄜ˙ ㄔㄚ ㄐㄩˋ ㄕˋ ㄊㄤ ㄉㄜ˙ ㄋㄨㄥˊ ㄉㄨˋ.'"
-          :pinyin="'mian4 dian4 zai4 ri4 ben3 han2 tai2 wan1 de cha1 ju4 shi4 tang1 de nong2 du4.'"
-          :translation="'日本と台湾のヌードルショップの違いはスープの濃さです。'"
+          :sentence="'日本和台灣麵店的不同在於湯的濃度。'"
+          :bopomofo="'ㄖˋ ㄅㄣˇ ㄏㄢˋ ㄊㄞˊ ㄨㄢ ㄇㄧㄢˋ ㄉㄧㄢˋ ㄉㄜ˙ ㄅㄨˋ ㄊㄨㄥˊ ㄗㄞˋ ㄩˊ ㄊㄤ ㄉㄜ˙ ㄋㄨㄥˊ ㄉㄨˋ.'"
+          :pinyin="'ri4 ben3 han4 tai2 wan1 mian4 dian4 de bu4 tong2 zai4 yu2 tang1 de nong2 du4.'"
+          :translation="'日本と台湾の麺の店の違いはスープの濃さです。'"
+          :memo="'※「不同(ㄅㄨˋ ㄊㄨㄥˊ/bu4 tong2)」は「差別(ㄔㄚ ㄅㄧㄝˊ/cha1 bie2)」、 「濃度(ㄋㄨㄥˊ ㄉㄨˋ/nong2 du4)」は「濃淡(/)」でも可。'"
         />
         <br>
       </div>
