@@ -216,10 +216,10 @@
           ・2號線
         </p>
         <SentenceFormat
-          :sentence="'。'"
-          :bopomofo="'.'"
-          :pinyin="'.'"
-          :translation="'。'"
+          :sentence="'2號線的捷運是反方向的， 你應該去1號線。'"
+          :bopomofo="'2 ㄏㄠˋ ㄒㄧㄢˋ ㄉㄜ˙ ㄐㄧㄝˊ ㄩㄣˋ ㄕˋ ㄈㄢˇ ㄈㄤ ㄒㄧㄤˋ ㄉㄜ˙， ㄋㄧˇ ㄧㄥ ㄍㄞ ㄑㄩˋ 1 ㄏㄠˋ ㄒㄧㄢˋ.'"
+          :pinyin="' 2 hao4 xian4 de jie2 yun4 shi4 fan3 fang1 xiang4 de, ni3 ying1 gai1 qu4 1 hao4 xian4.'"
+          :translation="'2番線の電車は反対方向へ行くので、 1番線に行った方がよいです。'"
         />
         <br>
         <p>
@@ -406,10 +406,10 @@
           ・地
         </p>
         <SentenceFormat
-          :sentence="'。'"
-          :bopomofo="'.'"
-          :pinyin="'.'"
-          :translation="'。'"
+          :sentence="'因為平日沒有塞車, 可以舒服地開車。'"
+          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄆㄧㄥˊ ㄖˋ ㄇㄛˋ ㄧㄡˇ ㄙㄞ ㄔㄜ, ㄎㄜˇ ㄧˇ ㄕㄨ ㄈㄨˊ ㄉㄜ˙ ㄎㄞ ㄔㄜ.'"
+          :pinyin="'yin1 wei4 ping2 ri4 mei2 you3 sai1 che1, ke3 yi3 shu1 fu2 de ka1i che1.'"
+          :translation="'平日は渋滞がないので、 快適に運転できます。'"
         />
         <br>
         <p>
@@ -476,10 +476,10 @@
           ・好好地
         </p>
         <SentenceFormat
-          :sentence="'。'"
-          :bopomofo="'.'"
-          :pinyin="'.'"
-          :translation="'。'"
+          :sentence="'兒子今天很好, 從早上好好地整理房間。'"
+          :bopomofo="'ㄦˊ ㄗ˙ ㄐㄧㄣ ㄊㄧㄢ ㄏㄣˇ ㄏㄠˇ, ㄘㄨㄥˊ ㄗㄠˇ ㄕㄤˋ ㄏㄠˇ ㄏㄠˇ ㄉㄜ˙ ㄓㄥˇ ㄌㄧˇ ㄈㄤˊ ㄐㄧㄢ.'"
+          :pinyin="'er2 zi3 jin1 tian1 hen3 hao3, cong2 zao3 shang4 hao3 hao3 de zheng3 li3 fang2 jian1.'"
+          :translation="'息子は今日とても良い子で、 朝からちゃんと部屋を片付けていました。'"
         />
         <br>
       </div>
