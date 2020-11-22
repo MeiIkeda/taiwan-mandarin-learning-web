@@ -166,20 +166,20 @@
           ・電腦展
         </p>
         <SentenceFormat
-          :sentence="'。'"
-          :bopomofo="'.'"
-          :pinyin="'.'"
-          :translation="'。'"
+          :sentence="'他每年去電腦展， 每次很驚訝技術的進步。'"
+          :bopomofo="'ㄊㄚ ㄇㄟˇ ㄋㄧㄢˊ ㄑㄩˋ ㄉㄧㄢˋ ㄋㄠˇ ㄓㄢˇ， ㄇㄟˇ ㄘˋ ㄏㄣˇ ㄐㄧㄥ ㄧㄚˋ ㄐㄧˋ ㄕㄨˋ ㄉㄜ˙ ㄐㄧㄣˋ ㄅㄨˋ.'"
+          :pinyin="'ta1 mei3 nian2 qu4 dian4 nao3 zhan3, mei3 ci4 hen3 jing1 ya4 ji4 shu4 de jin4 bu4.'"
+          :translation="'彼は毎年コンピューターの展示会に行きますが、 毎回技術の進歩に驚いています。'"
         />
         <br>
         <p>
           ・世貿展覽館
         </p>
         <SentenceFormat
-          :sentence="'。'"
-          :bopomofo="'.'"
-          :pinyin="'.'"
-          :translation="'。'"
+          :sentence="'世貿展覽館總是有什麼企畫展。'"
+          :bopomofo="'ㄕˋ ㄇㄠˋ ㄓㄢˇ ㄌㄢˇ ㄍㄨㄢˇ ㄗㄨㄥˇ ㄕˋ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄑㄧˇ ㄏㄨㄚˋ ㄓㄢˇ.'"
+          :pinyin="'shi4 mao4 zhan3 lan3 guan3 zong3 shi4 you3 shen2 me qi3 hua4 zhan3.'"
+          :translation="'世貿展覽館ではいつも何かの企画展を行っています。'"
         />
         <br>
         <p>
