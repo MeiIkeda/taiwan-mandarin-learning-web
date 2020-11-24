@@ -56,9 +56,9 @@
           ・對面
         </p>
         <SentenceFormat
-          :sentence="'在車站對面的大樓是我們會住的飯店。'"
-          :bopomofo="'ㄗㄞˋ ㄔㄜ ㄓㄢˋ ㄉㄨㄟˋ ㄇㄧㄢˋ ㄉㄧˊ ㄉㄚˋ ㄌㄡˊ ㄕˋ ㄨㄛˇ ㄇㄣ˙ ㄏㄨㄟˋ ㄓㄨˋ ㄉㄜ˙ ㄈㄢˋ ㄉㄧㄢˋ.'"
-          :pinyin="'zai4 che1 zhan4 dui4 mian4 de da4 lou2 shi4 wo3 men hui4 zhu4 de fan4 dian4.'"
+          :sentence="'車站對面的大樓是我們會住的飯店。'"
+          :bopomofo="'ㄔㄜ ㄓㄢˋ ㄉㄨㄟˋ ㄇㄧㄢˋ ㄉㄧˊ ㄉㄚˋ ㄌㄡˊ ㄕˋ ㄨㄛˇ ㄇㄣ˙ ㄏㄨㄟˋ ㄓㄨˋ ㄉㄜ˙ ㄈㄢˋ ㄉㄧㄢˋ.'"
+          :pinyin="'che1 zhan4 dui4 mian4 de da4 lou2 shi4 wo3 men hui4 zhu4 de fan4 dian4.'"
           :translation="'駅の向かいの建物が私達が泊まるホテルです。'"
         />
         <br>
@@ -77,8 +77,8 @@
         </p>
         <SentenceFormat
           :sentence="'你不必帶很多東西， 旅行只是兩天一夜。'"
-          :bopomofo="'ㄋㄧˇ ㄅㄨˋ ㄅㄧˋ ㄉㄞˋ ㄏㄣˇ ㄉㄨㄛ ㄉㄨㄥ ㄒㄧ˙， ㄌㄩˇ ㄒㄧㄥˊ ㄓˇ ㄕˋ ㄌㄧㄤˇ ㄊㄧㄢ ㄧ ㄧㄝˋ.'"
-          :pinyin="'ni3 bu4 bi4 dai4 hen3 duo1 dong1 xi, lu3 xing2 zhi3 shi4 liang3 tian1 yi1 ye4.'"
+          :bopomofo="'ㄋㄧˇ ㄅㄨˊ ㄅㄧˋ ㄉㄞˋ ㄏㄣˇ ㄉㄨㄛ ㄉㄨㄥ ㄒㄧ˙， ㄌㄩˇ ㄒㄧㄥˊ ㄓˇ ㄕˋ ㄌㄧㄤˇ ㄊㄧㄢ ㄧ ㄧㄝˋ.'"
+          :pinyin="'ni3 bu2 bi4 dai4 hen3 duo1 dong1 xi, lu3 xing2 zhi3 shi4 liang3 tian1 yi1 ye4.'"
           :translation="'たくさんものを持ってくる必要はありません、 1泊2日だけの旅行です。'"
         />
         <br>
@@ -196,9 +196,9 @@
           ・台北101
         </p>
         <SentenceFormat
-          :sentence="'新年的時刻， 在台北101有很壯觀的煙花。'"
-          :bopomofo="'ㄒㄧㄣ ㄋㄧㄢˊ ㄉㄜ˙ ㄕˊ ㄎㄜˋ， ㄗㄞˋ ㄊㄞˊ ㄅㄟˇ 101 ㄧㄡˇ ㄏㄣˇ ㄓㄨㄤˋ ㄍㄨㄢ ㄉㄜ˙ ㄧㄢ ㄏㄨㄚ.'"
-          :pinyin="'xin1 nian2 de shi2 ke4. zai4 tai2 bei3 101 you3 hen3 zhuang4 guan1 de yan1 hua1.'"
+          :sentence="'新年的時刻， 台北101有很壯觀的煙花。'"
+          :bopomofo="'ㄒㄧㄣ ㄋㄧㄢˊ ㄉㄜ˙ ㄕˊ ㄎㄜˋ， ㄊㄞˊ ㄅㄟˇ 101 ㄧㄡˇ ㄏㄣˇ ㄓㄨㄤˋ ㄍㄨㄢ ㄉㄜ˙ ㄧㄢ ㄏㄨㄚ.'"
+          :pinyin="'xin1 nian2 de shi2 ke4, tai2 bei3 101 you3 hen3 zhuang4 guan1 de yan1 hua1.'"
           :translation="'年越しの時刻には、 台北101で壮大な花火が上がります. 。'"
         />
         <br>
@@ -407,8 +407,8 @@
         </p>
         <SentenceFormat
           :sentence="'因為平日沒有塞車, 可以舒服地開車。'"
-          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄆㄧㄥˊ ㄖˋ ㄇㄛˋ ㄧㄡˇ ㄙㄞ ㄔㄜ, ㄎㄜˇ ㄧˇ ㄕㄨ ㄈㄨˊ ㄉㄜ˙ ㄎㄞ ㄔㄜ.'"
-          :pinyin="'yin1 wei4 ping2 ri4 mei2 you3 sai1 che1, ke3 yi3 shu1 fu2 de ka1i che1.'"
+          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄆㄧㄥˊ ㄖˋ ㄇㄛˋ ㄧㄡˇ ㄙㄞ ㄔㄜ, ㄎㄜˇ ㄧˇ ㄕㄨ ㄈㄨ˙ ㄉㄜ˙ ㄎㄞ ㄔㄜ.'"
+          :pinyin="'yin1 wei4 ping2 ri4 mei2 you3 sai1 che1, ke3 yi3 shu1 fu de ka1i che1.'"
           :translation="'平日は渋滞がないので、 快適に運転できます。'"
         />
         <br>
