@@ -126,9 +126,9 @@
           ・過
         </p>
         <SentenceFormat
-          :sentence="'我不記得是否我吃過這個店的香腸。'"
-          :bopomofo="'ㄨㄛˇ ㄅㄨˋ ㄐㄧˋ ㄉㄜ˙ ㄕˋ ㄈㄡˇ ㄨㄛˇ ㄔ ㄍㄨㄛˋ ㄓㄜˋ ㄍㄜˋ ㄉㄧㄢˋ ㄉㄜ˙ ㄒㄧㄤ ㄔㄤˊ.'"
-          :pinyin="'wo3 bu2 ji4 de shi4 fou3 wo3 chi1 guo4 zhe4 ge4 dian4 de xiang1 chang2.'"
+          :sentence="'我不記得是否我吃過這家店的香腸。'"
+          :bopomofo="'ㄨㄛˇ ㄅㄨˋ ㄐㄧˋ ㄉㄜ˙ ㄕˋ ㄈㄡˇ ㄨㄛˇ ㄔ ㄍㄨㄛˋ ㄓㄜˋ ㄐㄧㄚ ㄉㄧㄢˋ ㄉㄜ˙ ㄒㄧㄤ ㄔㄤˊ.'"
+          :pinyin="'wo3 bu2 ji4 de shi4 fou3 wo3 chi1 guo4 zhe4 ｊｉａ１ dian4 de xiang1 chang2.'"
           :translation="'このお店のソーセージを食べた事があるかどうか覚えていません。'"
         />
         <br>
@@ -337,8 +337,8 @@
         </p>
         <SentenceFormat
           :sentence="'因為我大學畢業的時候進入了公司， 我認識了老闆很久。'"
-          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄉㄚˋ ㄒㄩㄝˊ ㄅㄧˋ ㄧㄝˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄐㄧㄣˋ ㄖㄨˋ ㄌㄜ˙ ㄍㄨㄥ ㄙ， ㄨㄛˇ ㄖㄣˋ ㄕ˙ ㄌㄜ˙ ㄌㄠˇ ㄅㄢˇ ㄏㄣˇ ㄐㄧㄡˇ.'"
-          :pinyin="'yin1 wei4 wo3 da4 xue2 bi4 ye4 de shi2 hou4 jin4 ru4 le gong1 si1, wo3 ren4 shi2 le lao3 ban3 hen3 jiu3.'"
+          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄉㄚˋ ㄒㄩㄝˊ ㄅㄧˋ ㄧㄝˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄐㄧㄣˋ ㄖㄨˋ ㄌㄜ˙ ㄍㄨㄥ ㄙ， ㄨㄛˇ ㄖㄣˋ ㄕˋ ㄌㄜ˙ ㄌㄠˇ ㄅㄢˇ ㄏㄣˇ ㄐㄧㄡˇ.'"
+          :pinyin="'yin1 wei4 wo3 da4 xue2 bi4 ye4 de shi2 hou4 jin4 ru4 le gong1 si1, wo3 ren4 shi４ le lao3 ban3 hen3 jiu3.'"
           :translation="'大学を卒業する時に入社したので、 社長の事は長い間知っています。'"
         />
         <br>
