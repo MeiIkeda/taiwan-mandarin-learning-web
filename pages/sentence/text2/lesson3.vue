@@ -128,7 +128,7 @@
         <SentenceFormat
           :sentence="'我不記得是否我吃過這家店的香腸。'"
           :bopomofo="'ㄨㄛˇ ㄅㄨˋ ㄐㄧˋ ㄉㄜ˙ ㄕˋ ㄈㄡˇ ㄨㄛˇ ㄔ ㄍㄨㄛˋ ㄓㄜˋ ㄐㄧㄚ ㄉㄧㄢˋ ㄉㄜ˙ ㄒㄧㄤ ㄔㄤˊ.'"
-          :pinyin="'wo3 bu2 ji4 de shi4 fou3 wo3 chi1 guo4 zhe4 ｊｉａ１ dian4 de xiang1 chang2.'"
+          :pinyin="'wo3 bu2 ji4 de shi4 fou3 wo3 chi1 guo4 zhe4 jia1 dian4 de xiang1 chang2.'"
           :translation="'このお店のソーセージを食べた事があるかどうか覚えていません。'"
         />
         <br>
@@ -227,7 +227,7 @@
         </p>
         <SentenceFormat
           :sentence="'聽演講的時候， 手機得調為靜音模式。'"
-          :bopomofo="'ㄊㄧㄥ ㄧㄢˇ ㄐㄧㄤˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ， ㄕㄡˇ ㄐㄧ ㄉㄜˊ ㄉㄧㄠˋ ㄨㄟˋ ㄐㄧㄥˋ ㄧㄣ ㄇㄛˊ ㄕˋ.'"
+          :bopomofo="'ㄊㄧㄥ ㄧㄢˇ ㄐㄧㄤˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ， ㄕㄡˇ ㄐㄧ ㄉㄟˇ  ㄉㄧㄠˋ ㄨㄟˋ ㄐㄧㄥˋ ㄧㄣ ㄇㄛˊ ㄕˋ.'"
           :pinyin="'ting1 yan3 jiang3 de shi2 hou4, shou3 ji1 dei3 diao4 wei4 jing4 yin1 mo2 shi4.'"
           :translation="'講義を聞くときは、 携帯をマナーモードに設定する必要があります。'"
         />
@@ -237,8 +237,8 @@
         </p>
         <SentenceFormat
           :sentence="'噢， 我忘記了確認終點站在哪裡。'"
-          :bopomofo="'ㄛ， ㄨㄛˇ ㄨㄤˋ ㄐㄧˋ ㄌㄜ˙ ㄑㄩㄝˋ ㄖㄣˋ ㄓㄨㄥ ㄉㄧㄢˇ ㄓㄢˋ ㄗㄞˋ ㄋㄚˇ ㄌㄧˇ.'"
-          :pinyin="'o1, wo3 wang4 ji4 le que4 ren4 zhong1 dian3 zhan4 zai4 na3 li3.'"
+          :bopomofo="'ㄛˋ， ㄨㄛˇ ㄨㄤˋ ㄐㄧˋ ㄌㄜ˙ ㄑㄩㄝˋ ㄖㄣˋ ㄓㄨㄥ ㄉㄧㄢˇ ㄓㄢˋ ㄗㄞˋ ㄋㄚˇ ㄌㄧˇ.'"
+          :pinyin="'o4, wo3 wang4 ji4 le que4 ren4 zhong1 dian3 zhan4 zai4 na3 li3.'"
           :translation="'ああ、 終点がどこにあるか確認するのを忘れてしまいました。'"
         />
         <br>
@@ -288,7 +288,7 @@
         <SentenceFormat
           :sentence="'你一陣子不練習外國語言， 就忘記發音。'"
           :bopomofo="'ㄋㄧˇ ㄧ ㄓㄣˋ ㄗ˙ ㄅㄨˊ ㄌㄧㄢˋ ㄒㄧˊ ㄨㄞˋ ㄍㄨㄛˊ ㄩˇ ㄧㄢˊ， ㄐㄧㄡˋ ㄨㄤˋ ㄐㄧˋ ㄈㄚ ㄧㄣ.'"
-          :pinyin="'ni3 yi1 zhen4 zi3 bu2 lian4 xi2 wai4 guo2 yu3 yan2, jiu4 wang4 ji4 fa1 yin1.'"
+          :pinyin="'ni3 yi1 zhen4 zi bu2 lian4 xi2 wai4 guo2 yu3 yan2, jiu4 wang4 ji4 fa1 yin1.'"
           :translation="'しばらく外国語を練習しないでいると、 すぐ発音を忘れてしまいます。'"
         />
         <br>
@@ -338,7 +338,7 @@
         <SentenceFormat
           :sentence="'因為我大學畢業的時候進入了公司， 我認識了老闆很久。'"
           :bopomofo="'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄉㄚˋ ㄒㄩㄝˊ ㄅㄧˋ ㄧㄝˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄐㄧㄣˋ ㄖㄨˋ ㄌㄜ˙ ㄍㄨㄥ ㄙ， ㄨㄛˇ ㄖㄣˋ ㄕˋ ㄌㄜ˙ ㄌㄠˇ ㄅㄢˇ ㄏㄣˇ ㄐㄧㄡˇ.'"
-          :pinyin="'yin1 wei4 wo3 da4 xue2 bi4 ye4 de shi2 hou4 jin4 ru4 le gong1 si1, wo3 ren4 shi４ le lao3 ban3 hen3 jiu3.'"
+          :pinyin="'yin1 wei4 wo3 da4 xue2 bi4 ye4 de shi2 hou4 jin4 ru4 le gong1 si1, wo3 ren4 shi4 le lao3 ban3 hen3 jiu3.'"
           :translation="'大学を卒業する時に入社したので、 社長の事は長い間知っています。'"
         />
         <br>
@@ -388,7 +388,7 @@
         <SentenceFormat
           :sentence="'他在網路上學了餐桌禮儀， 所以現在了解怎麼吃法國料理。'"
           :bopomofo="'ㄊㄚ ㄗㄞˋ ㄨㄤˇ ㄌㄨˋ ㄕㄤˋ ㄒㄩㄝˊ ㄌㄜ˙ ㄘㄢ ㄓㄨㄛ ㄌㄧˇ ㄧˊ， ㄙㄨㄛˇ ㄧˇ ㄒㄧㄢˋ ㄗㄞˋ ㄌㄧㄠˇ ㄐㄧㄝˇ ㄗㄣˇ ㄇㄜ˙ ㄔ ㄈㄚˇ ㄍㄨㄛˊ ㄌㄧㄠˋ ㄌㄧˇ.'"
-          :pinyin="'ta1 zai4 wan3g lu4 shang4 xue2 le can1 zhuo1 li3 yi2, suo3 yi3 xian4 zai4 liao3 jie3 zen3 me chi1 fa3 guo2 liao4 li3.'"
+          :pinyin="'ta1 zai4 wang3 lu4 shang4 xue2 le can1 zhuo1 li3 yi2, suo3 yi3 xian4 zai4 liao3 jie3 zen3 me chi1 fa3 guo2 liao4 li3.'"
           :translation="'彼はインターネットでテーブルマナーを学んだので、 今ではフランス料理の食べ方が分かります。'"
         />
         <br>
