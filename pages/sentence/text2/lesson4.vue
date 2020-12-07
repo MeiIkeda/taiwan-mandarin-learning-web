@@ -59,7 +59,7 @@
         <SentenceFormat
           :sentence="'你可不可以向我介紹誰詳細了解外國工作機會?'"
           :bopomofo="'ㄋㄧˇ ㄎㄜˇ ㄅㄨˋ ㄎㄜˇ ㄧˇ ㄒㄧㄤˋ ㄨㄛˇ ㄐㄧㄝˋ ㄕㄠˋ ㄕㄨㄟˊ ㄒㄧㄤˊ ㄒㄧˋ ㄌㄧㄠˇ ㄐㄧㄝˇ ㄨㄞˋ ㄍㄨㄛˊ ㄍㄨㄥ ㄗㄨㄛˋ ㄐㄧ ㄏㄨㄟˋ?'"
-          :pinyin="'ni3 ke3 bu4 ke3 yi3 xiang4 wo3 jie4 shao4 shei2 xiang2 xi4 le jie3 wai4 guo2 gong1 zuo4 ji1 hui4?'"
+          :pinyin="'ni3 ke3 bu4 ke3 yi3 xiang4 wo3 jie4 shao4 shei2 xiang2 xi4 liao3 jie3 wai4 guo2 gong1 zuo4 ji1 hui4?'"
           :translation="'外国での仕事の機会について詳しく知っている人を紹介してもらえませんか?'"
         />
         <br>
@@ -87,9 +87,9 @@
           ・經驗
         </p>
         <SentenceFormat
-          :sentence="'我的經驗很少, 不能向那家職位應徵。'"
-          :bopomofo="'ㄨㄛˇ ㄉㄜ˙ ㄐㄧㄥ ㄧㄢˋ ㄏㄣˇ ㄕㄠˇ, ㄅㄨˋ ㄋㄥˊ ㄒㄧㄤˋ ㄋㄚˋ ㄐㄧㄚ ㄓˊ ㄨㄟˋ ㄧㄥ ㄓㄥ.'"
-          :pinyin="'wo3 de jing1 yan4 hen3 shao3, bu4 neng2 xiang4 na4 jia1 zhi2 wei4 ying1 zheng1.'"
+          :sentence="'我的經驗很少, 不能向那個職位應徵。'"
+          :bopomofo="'ㄨㄛˇ ㄉㄜ˙ ㄐㄧㄥ ㄧㄢˋ ㄏㄣˇ ㄕㄠˇ, ㄅㄨˋ ㄋㄥˊ ㄒㄧㄤˋ ㄋㄚˋ ㄍㄜ˙ ㄓˊ ㄨㄟˋ ㄧㄥ ㄓㄥ.'"
+          :pinyin="'wo3 de jing1 yan4 hen3 shao3, bu4 neng2 xiang4 na4 ge zhi2 wei4 ying1 zheng1.'"
           :translation="'私は経験が少ないので、 そのポジションに応募する事はできません。'"
         />
         <br>
@@ -259,7 +259,7 @@
         <SentenceFormat
           :sentence="'他離開歐洲之後已經過了三年,多少習慣了亞洲的料理。'"
           :bopomofo="'ㄊㄚ ㄌㄧˊ ㄎㄞ ㄡ ㄓㄡ ㄓ ㄏㄡˋ ㄧˇ ㄐㄧㄥ ㄍㄨㄛˋ ㄌㄜ˙ ㄙㄢ ㄋㄧㄢˊ, ㄉㄨㄛ ㄕㄠˇ ㄒㄧˊ ㄍㄨㄢˋ ㄌㄜ˙ ㄧㄚˋ ㄓㄡ ㄉㄜ˙ ㄌㄧㄠˋ ㄌㄧˇ.'"
-          :pinyin="'ta1 li4 kai1 ou1 zhou1 zhi1 hou4 yi3 jing1 guo4 le san1 nian2, duo1 shao3 xi2 guan4 le ya4 zhou1 de liao4 li3.'"
+          :pinyin="'ta1 li2 kai1 ou1 zhou1 zhi1 hou4 yi3 jing1 guo4 le san1 nian2, duo1 shao3 xi2 guan4 le ya4 zhou1 de liao4 li3.'"
           :translation="'ヨーロッパを離れて既に三年経ったので、 彼はアジアの料理に多少は慣れてきました。'"
         />
         <br>
@@ -268,8 +268,8 @@
         </p>
         <SentenceFormat
           :sentence="'她一邊做西班牙語翻譯的工作, 一邊養一個孩子。'"
-          :bopomofo="'ㄊㄚ ㄧ ㄅㄧㄢ ㄗㄨㄛˋ ㄒㄧ ㄅㄢ ㄧㄚˊ ㄩˇ ㄈㄢ ㄧˋ ㄉㄜ˙ ㄍㄨㄥ ㄗㄨㄛˋ, ㄧ ㄅㄧㄢ ㄧㄤˇ ㄧˊ ㄍㄜˋ ㄏㄞˊ ㄗ˙.'"
-          :pinyin="'ta1 yi1 bian1 zuo4 xi1 ban1 ya2 yu3 fan1 yi4 de gong1 zuo4, yi1 bian1 yang3 yi1 ge4 hai2 zi3.'"
+          :bopomofo="'ㄊㄚ ㄧˋ ㄅㄧㄢ ㄗㄨㄛˋ ㄒㄧ ㄅㄢ ㄧㄚˊ ㄩˇ ㄈㄢ ㄧˋ ㄉㄜ˙ ㄍㄨㄥ ㄗㄨㄛˋ, ㄧˋ ㄅㄧㄢ ㄧㄤˇ ㄧˊ ㄍㄜˋ ㄏㄞˊ ㄗ˙.'"
+          :pinyin="'ta1 yi4 bian1 zuo4 xi1 ban1 ya2 yu3 fan1 yi4 de gong1 zuo4, yi4 bian1 yang3 yi1 ge4 hai2 zi3.'"
           :translation="'彼女は子供を育てながらスペイン語の翻訳者として働いています。'"
         />
         <br>
@@ -318,8 +318,8 @@
         </p>
         <SentenceFormat
           :sentence="'我對履歷表得粘貼照片嗎?'"
-          :bopomofo="'ㄨㄛˇ ㄉㄨㄟˋ ㄌㄩˇ ㄌㄧˋ ㄅㄧㄠˇ ㄉㄜˊ ㄓㄢ ㄊㄧㄝ ㄓㄠˋ ㄆㄧㄢ ㄇㄚ˙?'"
-          :pinyin="'wo3 dui4 lu3 li4 biao3 dei3 zhan1 tie1 zhao4 pian4 ma.'"
+          :bopomofo="'ㄨㄛˇ ㄉㄨㄟˋ ㄌㄩˇ ㄌㄧˋ ㄅㄧㄠˇ ㄉㄟˇ ㄓㄢ ㄊㄧㄝ ㄓㄠˋ ㄆㄧㄢ ㄇㄚ˙?'"
+          :pinyin="'wo3 dui4 lu3 li4 biao3 dei3 zhan1 tie1 zhao4 pian4 ma?'"
           :translation="'履歴書に写真を貼り付ける必要がありますか?'"
         />
         <br>
@@ -367,9 +367,9 @@
           ・情形
         </p>
         <SentenceFormat
-          :sentence="'我盡可能考慮每個人的情況計畫旅行。'"
-          :bopomofo="'ㄨㄛˇ ㄐㄧㄣˋ ㄎㄜˇ ㄋㄥˊ ㄎㄠˇ ㄌㄩˋ ㄇㄟˇ ㄍㄜ˙ ㄖㄣˊ ㄉㄜ˙ ㄑㄧㄥˊ ㄎㄨㄤˋ ㄐㄧˋ ㄏㄨㄚˋ ㄌㄩˇ ㄒㄧㄥˊ.'"
-          :pinyin="'wo3 jin4 ke3 neng2 kao3 lu4 mei3 ge4 ren2 de qing2 kuang4 ji4 hua4 lu3 xing2.'"
+          :sentence="'我盡可能考慮每個人的情形計畫旅行。'"
+          :bopomofo="'ㄨㄛˇ ㄐㄧㄣˋ ㄎㄜˇ ㄋㄥˊ ㄎㄠˇ ㄌㄩˋ ㄇㄟˇ ㄍㄜ˙ ㄖㄣˊ ㄉㄜ˙ ㄑㄧㄥˊ ㄒㄧㄥˊ ㄐㄧˋ ㄏㄨㄚˋ ㄌㄩˇ ㄒㄧㄥˊ.'"
+          :pinyin="'wo3 jin4 ke3 neng2 kao3 lu4 mei3 ge4 ren2 de qing2 xing2 ji4 hua4 lu3 xing2.'"
           :translation="'できるだけみんなの状況を考えて旅行を計画します。'"
         />
         <br>
@@ -429,7 +429,7 @@
         <SentenceFormat
           :sentence="'因為孩子受傷了，我會馬上帶他去看醫生。'"
           :bopomofo="'ㄧㄣ ㄨㄟˋ ㄏㄞˊ ㄗ˙ ㄕㄡˋ ㄕㄤ ㄌㄜ˙， ㄨㄛˇ ㄏㄨㄟˋ ㄇㄚˇ ㄕㄤˋ ㄉㄞˋ ㄊㄚ ㄑㄩˋ ㄎㄢˋ ㄧ ㄕㄥ.'"
-          :pinyin="'yin1 wei4 hai2 zi3 shou4 shang1 le, wo3 hui4 ma3 shang4 dai4 ta1 qu4 kan4 yi3 sheng1.'"
+          :pinyin="'yin1 wei4 hai2 zi3 shou4 shang1 le, wo3 hui4 ma3 shang4 dai4 ta1 qu4 kan4 yi1 sheng1.'"
           :translation="'子供が怪我をしたので、 すぐに医者に診せに連れていきます。'"
         />
         <br>
@@ -467,9 +467,9 @@
           ・沒想到
         </p>
         <SentenceFormat
-          :sentence="'我沒想到飛往台北的航班會被取消。'"
-          :bopomofo="'ㄨㄛˇ ㄇㄟˊ ㄒㄧㄤˇ ㄉㄠˋ ㄈㄟ ㄨㄤˇ ㄊㄞˊ ㄅㄟˇ ㄉㄜ˙ ㄏㄤˊ ㄅㄢ ㄏㄨㄟˋ ㄅㄟˋ ㄑㄩˇ ㄒㄧㄠ.'"
-          :pinyin="'wo3 mei2 xiang3 dao4 fei1 wang3 tai2 bei3 de hang2 ban1 hui4 bei4 qu3 xiao1.'"
+          :sentence="'我沒想到飛往台北的航班被取消。'"
+          :bopomofo="'ㄨㄛˇ ㄇㄟˊ ㄒㄧㄤˇ ㄉㄠˋ ㄈㄟ ㄨㄤˇ ㄊㄞˊ ㄅㄟˇ ㄉㄜ˙ ㄏㄤˊ ㄅㄢ ㄅㄟˋ ㄑㄩˇ ㄒㄧㄠ.'"
+          :pinyin="'wo3 mei2 xiang3 dao4 fei1 wang3 tai2 bei3 de hang2 ban1 bei4 qu3 xiao1.'"
           :translation="'台北行きのフライトがキャンセルされるとは思っていませんでした。'"
         />
         <br>
