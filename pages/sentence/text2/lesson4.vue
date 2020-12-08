@@ -107,9 +107,9 @@
           ・當
         </p>
         <SentenceFormat
-          :sentence="'他現在那家超市當店員。'"
-          :bopomofo="'ㄊㄚ ㄒㄧㄢˋ ㄗㄞˋ ㄋㄚˋ ㄐㄧㄚ ㄔㄠ ㄕˋ ㄉㄤ ㄉㄧㄢˋ ㄩㄢˊ.'"
-          :pinyin="'ta1 xian4 zai4 na4 jia1 chao1 shi4 dang1 dian4 yuan2.'"
+          :sentence="'他現在在那家超市當店員。'"
+          :bopomofo="'ㄊㄚ ㄒㄧㄢˋ ㄗㄞˋ ㄗㄞˋ ㄋㄚˋ ㄐㄧㄚ ㄔㄠ ㄕˋ ㄉㄤ ㄉㄧㄢˋ ㄩㄢˊ.'"
+          :pinyin="'ta1 xian4 zai4 zai4 na4 jia1 chao1 shi4 dang1 dian4 yuan2.'"
           :translation="'彼は今あのスーパーで店員として働いています。'"
         />
         <br>
