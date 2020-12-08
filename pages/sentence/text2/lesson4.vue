@@ -197,9 +197,9 @@
           ・算
         </p>
         <SentenceFormat
-          :sentence="'當我算學費時， 我感到驚訝的是它太貴了。'"
-          :bopomofo="'ㄉㄤ ㄨㄛˇ ㄙㄨㄢˋ ㄒㄩㄝˊ ㄈㄟˋ ㄕˊ， ㄨㄛˇ ㄍㄢˇ ㄉㄠˋ ㄐㄧㄥ ㄧㄚˋ ㄉㄜ˙ ㄕˋ ㄊㄚ ㄊㄞˋ ㄍㄨㄟˋ ㄌㄜ˙.'"
-          :pinyin="'dang1 wo3 suan4 xue2 fei4 shi2, wo3 gan3 dao4 jing1 ya4 de shi4 ta1 tai4 gui4 le.'"
+          :sentence="'當我算學費時， 驚訝的是它太貴了。'"
+          :bopomofo="'ㄉㄤ ㄨㄛˇ ㄙㄨㄢˋ ㄒㄩㄝˊ ㄈㄟˋ ㄕˊ， ㄐㄧㄥ ㄧㄚˋ ㄉㄜ˙ ㄕˋ ㄊㄚ ㄊㄞˋ ㄍㄨㄟˋ ㄌㄜ˙.'"
+          :pinyin="'dang1 wo3 suan4 xue2 fei4 shi2, jing1 ya4 de shi4 ta1 tai4 gui4 le.'"
           :translation="'学費を計算したところ、 高すぎて驚きました。'"
         />
         <br>
