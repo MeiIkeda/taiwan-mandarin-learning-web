@@ -66,9 +66,9 @@
           ・婚禮
         </p>
         <SentenceFormat
-          :sentence="'參加婚禮前你應該去剪整理頭髮。'"
-          :bopomofo="'ㄘㄢ ㄐㄧㄚ ㄏㄨㄣ ㄌㄧˇ ㄑㄧㄢˊ ㄋㄧˇ ㄧㄥ ㄍㄞ ㄑㄩˋ ㄐㄧㄢˇ ㄓㄥˇ ㄌㄧˇ ㄊㄡˊ ㄈㄚˋ.'"
-          :pinyin="'can1 jia1 hun1 li3 qian2 ni3 ying1 gai1 qu4 jian3 zheng3 li3 tou2 fa4.'"
+          :sentence="'參加婚禮前你應該去整理頭髮。'"
+          :bopomofo="'ㄘㄢ ㄐㄧㄚ ㄏㄨㄣ ㄌㄧˇ ㄑㄧㄢˊ ㄋㄧˇ ㄧㄥ ㄍㄞ ㄑㄩˋ ㄓㄥˇ ㄌㄧˇ ㄊㄡˊ ㄈㄚˋ.'"
+          :pinyin="'can1 jia1 hun1 li3 qian2 ni3 ying1 gai1 qu4 zheng3 li3 tou2 fa4.'"
           :translation="'結婚式に出席する前にあなたは髪を切りに行った方がいいです。'"
         />
         <br>
@@ -88,7 +88,7 @@
         <SentenceFormat
           :sentence="'這個派對的氣氛休閒, 不必穿太正式。'"
           :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄆㄞˋ ㄉㄨㄟˋ ㄉㄜ˙ ㄑㄧˋ ㄈㄣ ㄒㄧㄡ ㄒㄧㄢˊ, ㄅㄨˊ ㄅㄧˋ ㄔㄨㄢ ㄊㄞˋ ㄓㄥˋ ㄕˋ.'"
-          :pinyin="'zhe4 ge4 pa4i dui4 de xi4 fen1 xiu1 jian1, bu2 bi4 chuan1 tai4 zheng4 shi4.'"
+          :pinyin="'zhe4 ge4 pai4 dui4 de qi4 fen1 xiu1 xian2, bu2 bi4 chuan1 tai4 zheng4 shi4.'"
           :translation="'このパーティはカジュアルな雰囲気なので、 フォーマルな服を着る必要はありません。'"
         />
         <br>
@@ -177,7 +177,7 @@
         </p>
         <SentenceFormat
           :sentence="'他們的關係很差， 所以讓他們坐分開的座位。'"
-          :bopomofo="'ㄊㄚ ㄇㄣ˙ ㄉㄜ˙ ㄍㄨㄢ ㄒㄧˋ ㄏㄣˇ ㄔㄚˋ， ㄙㄨㄛˇ ㄧˇ ㄖㄤˋ ㄊㄚ ㄇㄣ˙ ㄗㄨㄛˋ ㄈㄣ ㄎㄞ ㄉㄜ˙ ㄗㄨㄛˋ ㄨㄟˋ.'"
+          :bopomofo="'ㄊㄚ ㄇㄣ˙ ㄉㄜ˙ ㄍㄨㄢ ㄒㄧˋ ㄏㄣˇ ㄔㄚ， ㄙㄨㄛˇ ㄧˇ ㄖㄤˋ ㄊㄚ ㄇㄣ˙ ㄗㄨㄛˋ ㄈㄣ ㄎㄞ ㄉㄜ˙ ㄗㄨㄛˋ ㄨㄟˋ.'"
           :pinyin="'ta1 men de guan1 xi4 hen3 cha1, suo3 yi3 rang4 ta1 men zuo4 fen1 kai1 de zuo4 wei4.'"
           :translation="'彼らはとても仲が悪いので、 離れた席に座らせましょう。'"
         />
@@ -188,7 +188,7 @@
         <SentenceFormat
           :sentence="'圓圓的滿月看起來好吃的包子。'"
           :bopomofo="'ㄩㄢˊ ㄩㄢˊ ㄉㄜ˙ ㄇㄢˇ ㄩㄝˋ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄏㄠˇ ㄔ ㄉㄜ˙ ㄅㄠ ㄗ˙.'"
-          :pinyin="'yuan2 yuan2 de man3 yue4 kan4 qi3 lai2 hao3 chi1 de bao1 zi3.'"
+          :pinyin="'yuan2 yuan2 de man3 yue4 kan4 qi3 lai2 hao3 chi1 de bao1 zi.'"
           :translation="'真ん丸な満月は美味しい肉まんのように見えます。'"
         />
         <br>
@@ -198,7 +198,7 @@
         <SentenceFormat
           :sentence="'如果你不結婚， 就不必離婚。'"
           :bopomofo="'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄅㄨˋ ㄐㄧㄝˊ ㄏㄨㄣ， ㄐㄧㄡˋ ㄅㄨˊ ㄅㄧˋ ㄌㄧˊ ㄏㄨㄣ.'"
-          :pinyin="'ru2 guo3 ni3 bu4 jie2 hun1, jiu4 bu2 bi4 li4 hun1.'"
+          :pinyin="'ru2 guo3 ni3 bu4 jie2 hun1, jiu4 bu2 bi4 li2 hun1.'"
           :translation="'結婚しなければ、 離婚しなくて済みます。'"
         />
         <br>
@@ -208,7 +208,7 @@
         <SentenceFormat
           :sentence="'發薪日是對每各人很高興的日子。'"
           :bopomofo="'ㄈㄚ ㄒㄧㄣ ㄖˋ ㄕˋ ㄉㄨㄟˋ ㄇㄟˇ ㄍㄜˋ ㄖㄣˊ ㄏㄣˇ ㄍㄠ ㄒㄧㄥˋ ㄉㄜ˙ ㄖˋ ㄗ˙.'"
-          :pinyin="'fa1 xin1 ri4 shi4 dui4 mei3 ge4 ren2 hen3 gao1 xing1 de ri4 zi3.'"
+          :pinyin="'fa1 xin1 ri4 shi4 dui4 mei3 ge4 ren2 hen3 gao1 xing1 de ri4 zi.'"
           :translation="'給料日は誰にとっても幸せな日です。'"
         />
         <br>
@@ -258,7 +258,7 @@
         <SentenceFormat
           :sentence="'這個月有很多喜事, 放紅包的錢不夠。'"
           :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄩㄝˋ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄒㄧˇ ㄕˋ, ㄈㄤˋ ㄏㄨㄥˊ ㄅㄠ ㄉㄜ˙ ㄑㄧㄢˊ ㄅㄨˊ ㄍㄡˋ.'"
-          :pinyin="'zhe4 ge4 yue4 you3 hen3 duo1 xi3 shi4, fang4 hong2 ba1o de qian2 bu2 gou4.'"
+          :pinyin="'zhe4 ge4 yue4 you3 hen3 duo1 xi3 shi4, fang4 hong2 bao1 de qian2 bu2 gou4.'"
           :translation="'今月は祝い事がたくさんあるので、 赤い封筒に入れるお金が足りません。'"
         />
         <br>
@@ -288,7 +288,7 @@
         <SentenceFormat
           :sentence="'襪子裡有聖誕老人送的禮物。'"
           :bopomofo="'ㄨㄚˋ ㄗ˙ ㄌㄧˇ ㄧㄡˇ ㄕㄥˋ ㄉㄢˋ ㄌㄠˇ ㄖㄣˊ ㄙㄨㄥˋ ㄉㄜ˙ ㄌㄧˇ ㄨˋ.'"
-          :pinyin="'wa4 zi3 li3 you3 sheng4 dan4 lao3 ren2 song4 de li3 wu4.'"
+          :pinyin="'wa4 zi li3 you3 sheng4 dan4 lao3 ren2 song4 de li3 wu4.'"
           :translation="'靴下の中には、 サンタクロースのプレゼントが入っています。'"
         />
         <br>
@@ -318,7 +318,7 @@
         <SentenceFormat
           :sentence="'敬酒的時候動力太強了， 我摔碎了杯子。'"
           :bopomofo="'ㄐㄧㄥˋ ㄐㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄉㄨㄥˋ ㄌㄧˋ ㄊㄞˋ ㄑㄧㄤˊ ㄌㄜ˙， ㄨㄛˇ ㄕㄨㄞ ㄙㄨㄟˋ ㄌㄜ˙ ㄅㄟ ㄗ˙.'"
-          :pinyin="'jing4 jiu3 de shi2 hou4 dong4 li4 tai4 qiang2 le, wo3 shuai1 sui4 le bei1 zi3.'"
+          :pinyin="'jing4 jiu3 de shi2 hou4 dong4 li4 tai4 qiang2 le, wo3 shuai1 sui4 le bei1 zi.'"
           :translation="'乾杯の時勢いが良すぎて、 コップを割りました。'"
         />
         <br>
@@ -358,7 +358,7 @@
         <SentenceFormat
           :sentence="'青蛙我能摸, 但是是否能吃是另外的話。'"
           :bopomofo="'ㄑㄧㄥ ㄨㄚ ㄨㄛˇ ㄋㄥˊ ㄇㄛ, ㄉㄢˋ ㄕˋ ㄕˋ ㄈㄡˇ ㄋㄥˊ ㄔ ㄕˋ ㄌㄧㄥˋ ㄨㄞˋ ㄉㄜ˙ ㄏㄨㄚˋ.'"
-          :pinyin="'qi1ng wa1 wo3 neng2 mo1, dan4 shi4 shi4 fou3 neng3 chi1 shi4 ling4 wai4 de hua4.'"
+          :pinyin="'qing1 wa1 wo3 neng2 mo1, dan4 shi4 shi4 fou3 neng3 chi1 shi4 ling4 wai4 de hua4.'"
           :translation="'カエルに触る事はできますが、 食べられるかどうかは別問題です。'"
         />
         <br>
@@ -378,7 +378,7 @@
         <SentenceFormat
           :sentence="'離開家後， 我總是擔心我忘了東西。'"
           :bopomofo="'ㄌㄧˊ ㄎㄞ ㄐㄧㄚ ㄏㄡˋ， ㄨㄛˇ ㄗㄨㄥˇ ㄕˋ ㄉㄢ ㄒㄧㄣ ㄨㄛˇ ㄨㄤˋ ㄌㄜ˙ ㄉㄨㄥ ㄒㄧ˙.'"
-          :pinyin="'li4 kai1 jia1 hou4, wo3 zong3 shi4 dan1 xin1 wo3 wang4 le dong1 xi.'"
+          :pinyin="'li2 kai1 jia1 hou4, wo3 zong3 shi4 dan1 xin1 wo3 wang4 le dong1 xi.'"
           :translation="'家を出た後、 忘れ物をしていないかいつも心配になります。'"
         />
         <br>
@@ -417,8 +417,8 @@
         </p>
         <SentenceFormat
           :sentence="'在教室等了一會兒， 我意識到今天是放假。'"
-          :bopomofo="'ㄗㄞˋ ㄐㄧㄠˋ ㄕˋ ㄉㄥˇ ㄌㄜ˙ ㄧ ㄏㄨㄟˋ ㄦˊ， ㄨㄛˇ ㄧˋ ㄕˊ ㄉㄠˋ ㄐㄧㄣ ㄊㄧㄢ ㄕˋ ㄈㄤˋ ㄐㄧㄚˋ.'"
-          :pinyin="'zai4 jiao4 shi4 deng3 le yi1 hui4 er2, wo3 yi4 shi2 dao4 jin1 tian1 shi4 fang4 jia4.'"
+          :bopomofo="'ㄗㄞˋ ㄐㄧㄠˋ ㄕˋ ㄉㄥˇ ㄌㄜ˙ ㄧ ㄏㄨㄟˇ ㄦ， ㄨㄛˇ ㄧˋ ㄕˊ ㄉㄠˋ ㄐㄧㄣ ㄊㄧㄢ ㄕˋ ㄈㄤˋ ㄐㄧㄚˋ.'"
+          :pinyin="'zai4 jiao4 shi4 deng3 le yi1 hui3 er, wo3 yi4 shi2 dao4 jin1 tian1 shi4 fang4 jia4.'"
           :translation="'しばらく教室で待っていましたが、 今日は休日だと気づきました。'"
         />
         <br>
