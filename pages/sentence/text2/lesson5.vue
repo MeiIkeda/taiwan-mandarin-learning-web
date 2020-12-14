@@ -266,10 +266,10 @@
           ・請客
         </p>
         <SentenceFormat
-          :sentence="'請你幫我給在客廳的請客提供茶水。'"
-          :bopomofo="'ㄑㄧㄥˇ ㄋㄧˇ ㄅㄤ ㄨㄛˇ ㄍㄟˇ ㄗㄞˋ ㄎㄜˋ ㄊㄧㄥ ㄉㄜ˙ ㄑㄧㄥˇ ㄎㄜˋ ㄊㄧˊ ㄍㄨㄥ ㄔㄚˊ ㄕㄨㄟˇ.'"
-          :pinyin="'qing3 ni3 bang1 wo3 gei3 zai4 ke4 ting1 de qing3 ke4 ti2 gong1 cha2 shui3.'"
-          :translation="'居間にいるお客さんにお茶を出してください。'"
+          :sentence="'為了請客, 請你從客廳把你的東西拿出來。'"
+          :bopomofo="'ㄨㄟˋ ㄌㄜ˙ ㄑㄧㄥˇ ㄎㄜˋ, ㄑㄧㄥˇ ㄋㄧˇ ㄘㄨㄥˊ ㄎㄜˋ ㄊㄧㄥ ㄅㄚˇ ㄋㄧˇ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙ ㄋㄚˊ ㄔㄨ ㄌㄞˊ.'"
+          :pinyin="'wei4 le qing3 ke4, qing3 ni3 cong2 ke4 ting1 ba3 ni3 de dong1 xi na2 chu1 lai2.'"
+          :translation="'お客さんを迎えるために、 居間からあなたの荷物を出してください。'"
         />
         <br>
         <p>

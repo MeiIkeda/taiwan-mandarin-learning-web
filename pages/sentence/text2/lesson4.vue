@@ -148,7 +148,7 @@
         </p>
         <SentenceFormat
           :sentence="'義務教育的九年級生，他們準備上高中。'"
-          :bopomofo="'ㄏㄞˊ ㄧˋ ㄨˋ ㄐㄧㄠˋ ㄩˋ ㄉㄜ˙ ㄐㄧㄡˇ ㄋㄧㄢˊ ㄐㄧˊ ㄕㄥ， ㄊㄚ ㄇㄣ˙ ㄓㄨㄣˇ ㄅㄟˋ ㄕㄤˋ ㄍㄠ ㄓㄨㄥ.'"
+          :bopomofo="'ㄧˋ ㄨˋ ㄐㄧㄠˋ ㄩˋ ㄉㄜ˙ ㄐㄧㄡˇ ㄋㄧㄢˊ ㄐㄧˊ ㄕㄥ， ㄊㄚ ㄇㄣ˙ ㄓㄨㄣˇ ㄅㄟˋ ㄕㄤˋ ㄍㄠ ㄓㄨㄥ.'"
           :pinyin="'yi4 wu4 jiao4 yu4 de jiu3 nian2 ji2 sheng1, ta1 men zhun3 bei4 shang4 gao1 zhong1.'"
           :translation="'義務教育の9年次に学生は高校に行く準備をします。'"
         />
@@ -394,7 +394,7 @@
           ・說明
         </p>
         <SentenceFormat
-          :sentence="'同事要對參加的人說明怎麼使用公共設施。。'"
+          :sentence="'同事要對參加的人說明怎麼使用公共設施。'"
           :bopomofo="'ㄊㄨㄥˊ ㄕˋ ㄧㄠˋ ㄉㄨㄟˋ ㄘㄢ ㄐㄧㄚ  ㄉㄜ˙ ㄖㄣˊ ㄎㄨㄞˋ ㄧㄠˋ ㄕㄨㄛ ㄇㄧㄥˊ ㄗㄣˇ ㄇㄜ˙ ㄕˇ ㄩㄥˋ ㄍㄨㄥ ㄍㄨㄥˋ ㄕㄜˋ ㄕ.'"
           :pinyin="'tong2 shi4 yao4 dui4 can1 jia1 de ren2 kuai4 yao4 shuo1 ming2 zen3 me shi3 yong4 gong1 gong4 she4 shi1.'"
           :translation="'同僚がもうすぐ参加者に公共施設の使い方を説明します。'"
