@@ -86,9 +86,9 @@
           ・正式
         </p>
         <SentenceFormat
-          :sentence="'這個派對的氣氛休閒, 不必穿太正式。'"
-          :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄆㄞˋ ㄉㄨㄟˋ ㄉㄜ˙ ㄑㄧˋ ㄈㄣ ㄒㄧㄡ ㄒㄧㄢˊ, ㄅㄨˊ ㄅㄧˋ ㄔㄨㄢ ㄊㄞˋ ㄓㄥˋ ㄕˋ.'"
-          :pinyin="'zhe4 ge4 pai4 dui4 de qi4 fen1 xiu1 xian2, bu2 bi4 chuan1 tai4 zheng4 shi4.'"
+          :sentence="'這個派對的氣氛休閒, 不必穿太正式了。'"
+          :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄆㄞˋ ㄉㄨㄟˋ ㄉㄜ˙ ㄑㄧˋ ㄈㄣ ㄒㄧㄡ ㄒㄧㄢˊ, ㄅㄨˊ ㄅㄧˋ ㄔㄨㄢ ㄊㄞˋ ㄓㄥˋ ㄕˋ ㄌㄜ˙.'"
+          :pinyin="'zhe4 ge4 pai4 dui4 de qi4 fen1 xiu1 xian2, bu2 bi4 chuan1 tai4 zheng4 shi4 le.'"
           :translation="'このパーティはカジュアルな雰囲気なので、 フォーマルな服を着る必要はありません。'"
         />
         <br>
@@ -148,7 +148,7 @@
         <SentenceFormat
           :sentence="'請你到變白色攪拌蛋清。'"
           :bopomofo="'ㄑㄧㄥˇ ㄋㄧˇ ㄉㄠˋ ㄅㄧㄢˋ ㄅㄞˊ ㄙㄜˋ ㄐㄧㄠˇ ㄅㄢˋ ㄉㄢˋ ㄑㄧㄥ.'"
-          :pinyin="'qi3ng ni3 dao4 bian4 bai2 se4 jiao3 ban4 dan4 qing1.'"
+          :pinyin="'qing3 ni3 dao4 bian4 bai2 se4 jiao3 ban4 dan4 qing1.'"
           :translation="'卵白が白くなるまでかき混ぜてください。'"
         />
         <br>
@@ -256,9 +256,9 @@
           ・喜事
         </p>
         <SentenceFormat
-          :sentence="'這個月有很多喜事, 放紅包的錢不夠。'"
-          :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄩㄝˋ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄒㄧˇ ㄕˋ, ㄈㄤˋ ㄏㄨㄥˊ ㄅㄠ ㄉㄜ˙ ㄑㄧㄢˊ ㄅㄨˊ ㄍㄡˋ.'"
-          :pinyin="'zhe4 ge4 yue4 you3 hen3 duo1 xi3 shi4, fang4 hong2 bao1 de qian2 bu2 gou4.'"
+          :sentence="'這個月有很多喜事, 放進紅包的錢不夠。'"
+          :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄩㄝˋ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄒㄧˇ ㄕˋ, ㄈㄤˋ ㄐㄧㄣˋ ㄏㄨㄥˊ ㄅㄠ ㄉㄜ˙ ㄑㄧㄢˊ ㄅㄨˊ ㄍㄡˋ.'"
+          :pinyin="'zhe4 ge4 yue4 you3 hen3 duo1 xi3 shi4, fang4 jin4 hong2 bao1 de qian2 bu2 gou4.'"
           :translation="'今月は祝い事がたくさんあるので、 赤い封筒に入れるお金が足りません。'"
         />
         <br>
