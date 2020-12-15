@@ -67,8 +67,8 @@
         </p>
         <SentenceFormat
           :sentence="'參加婚禮前你應該去整理頭髮。'"
-          :bopomofo="'ㄘㄢ ㄐㄧㄚ ㄏㄨㄣ ㄌㄧˇ ㄑㄧㄢˊ ㄋㄧˇ ㄧㄥ ㄍㄞ ㄑㄩˋ ㄓㄥˇ ㄌㄧˇ ㄊㄡˊ ㄈㄚˋ.'"
-          :pinyin="'can1 jia1 hun1 li3 qian2 ni3 ying1 gai1 qu4 zheng3 li3 tou2 fa4.'"
+          :bopomofo="'ㄘㄢ ㄐㄧㄚ ㄏㄨㄣ ㄌㄧˇ ㄑㄧㄢˊ ㄋㄧˇ ㄧㄥ ㄍㄞ ㄑㄩˋ ㄓㄥˇ ㄌㄧˇ ㄊㄡˊ ㄈㄚˇ.'"
+          :pinyin="'can1 jia1 hun1 li3 qian2 ni3 ying1 gai1 qu4 zheng3 li3 tou2 fa3.'"
           :translation="'結婚式に出席する前にあなたは髪を切りに行った方がいいです。'"
         />
         <br>

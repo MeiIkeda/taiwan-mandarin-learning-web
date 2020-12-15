@@ -209,9 +209,9 @@
           ・按照
         </p>
         <SentenceFormat
-          :sentence="'按照市場價格來決定價格。'"
-          :bopomofo="'ㄢˋ ㄓㄠˋ ㄕˋ ㄔㄤˇ ㄐㄧㄚˋ ㄍㄜˊ ㄌㄞˊ ㄐㄩㄝˊ ㄉㄧㄥˋ ㄐㄧㄚˋ ㄍㄜˊ.'"
-          :pinyin="'an4 zhao4 shi4 chang2 jia4 ge2 lai2 jue2 ding4 jia4 ge2.'"
+          :sentence="'超市按照市場價格來決定價格。'"
+          :bopomofo="'ㄔㄠ ㄕˋ ㄢˋ ㄓㄠˋ ㄕˋ ㄔㄤˇ ㄐㄧㄚˋ ㄍㄜˊ ㄌㄞˊ ㄐㄩㄝˊ ㄉㄧㄥˋ ㄐㄧㄚˋ ㄍㄜˊ.'"
+          :pinyin="'chao1 shi4 an4 zhao4 shi4 chang2 jia4 ge2 lai2 jue2 ding4 jia4 ge2.'"
           :translation="'スーパーは市場価格に応じて価格を決定します。'"
         />
         <br>
