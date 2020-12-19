@@ -46,9 +46,9 @@
           ・河邊
         </p>
         <SentenceFormat
-          :sentence="'因為今天很暖和， 在河邊龜們都在灑太陽。'"
-          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄐㄧㄣ ㄊㄧㄢ ㄏㄣˇ ㄋㄨㄢˇ ㄏㄨㄛ˙， ㄗㄞˋ ㄏㄜˊ ㄅㄧㄢ ㄍㄨㄟ ㄇㄣ˙ ㄉㄡ ㄗㄞˋ ㄙㄚˇ ㄊㄞˋ ㄧㄤˊ.'"
-          :pinyin="'yin1 wei4 jin1 tian1 hen3 nuan3 huo, zai4 he2 bian1 gui1 men dou1 zai4 sa3 tai4 yang2.'"
+          :sentence="'因為今天很暖和， 在河邊的龜們都在灑太陽。'"
+          :bopomofo="'ㄧㄣ ㄨㄟˋ ㄐㄧㄣ ㄊㄧㄢ ㄏㄣˇ ㄋㄨㄢˇ ㄏㄨㄛ˙， ㄗㄞˋ ㄏㄜˊ ㄅㄧㄢ ㄉㄜ˙ ㄍㄨㄟ ㄇㄣ˙ ㄉㄡ ㄗㄞˋ ㄙㄚˇ ㄊㄞˋ ㄧㄤˊ.'"
+          :pinyin="'yin1 wei4 jin1 tian1 hen3 nuan3 huo, zai4 he2 bian1 de gui1 men dou1 zai4 sa3 tai4 yang2.'"
           :translation="'今日は暖かいので、 川べりの亀たちはみんな日向ぼっこしています。'"
         />
         <br>
@@ -97,7 +97,7 @@
         </p>
         <SentenceFormat
           :sentence="'紙質資料太多了， 我想將它們數字化。'"
-          :bopomofo="'ㄓˇ ㄓˊ ㄗ ㄌㄧㄠˋ ㄊㄞˋ ㄉㄨㄛ ㄌㄜ˙， ㄨㄛˇ ㄒㄧㄤˇ ㄐㄧㄤ ㄊㄚ ㄇㄣ˙ ㄕㄨˋ ㄗˋ ㄏㄨㄚˋ.'"
+          :bopomofo="'ㄓˇ ㄓˋ ㄗ ㄌㄧㄠˋ ㄊㄞˋ ㄉㄨㄛ ㄌㄜ˙， ㄨㄛˇ ㄒㄧㄤˇ ㄐㄧㄤ ㄊㄚ ㄇㄣ˙ ㄕㄨˋ ㄗˋ ㄏㄨㄚˋ.'"
           :pinyin="'zhi3 zhi4 zi1 liao4 tai4 duo1 le, wo3 xiang3 jiang1 ta1 men shu4 zi4 hua4.'"
           :translation="'紙の資料が多すぎるので、 デジタル化したいと思っています。'"
         />
@@ -197,8 +197,8 @@
         </p>
         <SentenceFormat
           :sentence="'這裡的氣候跟長頭髮的狗狗很合適。'"
-          :bopomofo="'ㄓㄜˋ ㄌㄧˇ ㄉㄜ˙ ㄑㄧˋ ㄏㄡˋ ㄍㄣ ㄔㄤˊ ㄊㄡˊ ㄈㄚ ㄉㄜ˙ ㄍㄡˇ ㄍㄡˇ ㄏㄣˇ ㄏㄜˊ ㄕˋ.'"
-          :pinyin="'zhe4 li3 de qi4 hou4 gen1 chang2 tou2 fa4 de gou3 gou3 hen3 he2 shi4.'"
+          :bopomofo="'ㄓㄜˋ ㄌㄧˇ ㄉㄜ˙ ㄑㄧˋ ㄏㄡˋ ㄍㄣ ㄔㄤˊ ㄊㄡˊ ㄈㄚˇ ㄉㄜ˙ ㄍㄡˇ ㄍㄡˇ ㄏㄣˇ ㄏㄜˊ ㄕˋ.'"
+          :pinyin="'zhe4 li3 de qi4 hou4 gen1 chang2 tou2 fa3 de gou3 gou3 hen3 he2 shi4.'"
           :translation="'ここの気候は、 毛の長い犬にとても適しています。'"
           :memo="'※「合適」? 「適合」?'"
         />
@@ -280,7 +280,7 @@
           :sentence="'請你一定得備份存隨身碟上的數據。'"
           :bopomofo="'ㄑㄧㄥˇ ㄋㄧˇ ㄧˊ ㄉㄧㄥˋ ㄉㄟˇ ㄅㄟˋ ㄈㄣˋ ㄘㄨㄣˊ ㄙㄨㄟˊ ㄕㄣ ㄉㄧㄝˊ ㄕㄤˋ ㄉㄜ˙ ㄕㄨˋ ㄐㄩˋ.'"
           :pinyin="'qing3 ni3 yi1 ding4 dei3 bei4 fen4 cun2 sui2 shen1 die2 shang4 de shu4 ju4.'"
-          :translation="'USBのデータは必ずバクアップして下さい。'"
+          :translation="'USBのデータは必ずバックアップして下さい。'"
         />
         <br>
         <p>
@@ -349,7 +349,7 @@
         <SentenceFormat
           :sentence="'她們在喝咖啡聊是非很多時間， 桌子上有很多空的杯子。'"
           :bopomofo="'ㄊㄚ ㄇㄣ˙ ㄗㄞˋ ㄏㄜ ㄎㄚ ㄈㄟ ㄌㄧㄠˊ ㄕˋ ㄈㄟ ㄏㄣˇ ㄉㄨㄛ ㄕˊ ㄐㄧㄢ, ㄓㄨㄛ ㄗ˙ ㄕㄤˋ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄎㄨㄥ ㄉㄜ˙ ㄅㄟ ㄗ˙.'"
-          :pinyin="'ta1 men zai4 he1 ka1 fei1 liao2 shi4 fei1 hen3 duo1 shi2 jian1, zhuo1 zi3 shang4 you3 hen3 duo1 kong1 de bei1 zi3.'"
+          :pinyin="'ta1 men zai4 he1 ka1 fei1 liao2 shi4 fei1 hen3 duo1 shi2 jian1, zhuo1 zi shang4 you3 hen3 duo1 kong1 de bei1 zi3.'"
           :translation="'彼女たちは長い時間コーヒーを飲みながら無駄話をしているので、 テーブルの上には空のコップがたくさんあります。。'"
         />
         <br>
@@ -359,7 +359,7 @@
         <SentenceFormat
           :sentence="'媽媽在椅子上站著試拿櫃子裡的東西， 看起來很危險。'"
           :bopomofo="'ㄇㄚ ㄇㄚ ㄗㄞˋ ㄧˇ ㄗ˙ ㄕㄤˋ ㄓㄢˋ ㄓㄜ˙ ㄕˋ ㄋㄚˊ ㄍㄨㄟˋ ㄗ˙ ㄌㄧˇ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ， ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄏㄣˇ ㄨㄟ ㄒㄧㄢˇ.'"
-          :pinyin="'ma1 ma1 zai4 yi3 zi3 shang4 zhan4 zhe shi4 na2 gui4 zi3 li3 de dong1 xi, kan4 qi3 lai2 hen3 wei1 xian3.'"
+          :pinyin="'ma1 ma1 zai4 yi3 zi shang4 zhan4 zhe shi4 na2 gui4 zi li3 de dong1 xi, kan4 qi3 lai2 hen3 wei1 xian3.'"
           :translation="'お母さんは椅子の上に立って戸棚から物を取ろうとしていますが、 見たところとても危ないです。'"
         />
         <br>
@@ -387,30 +387,30 @@
           ・吵
         </p>
         <SentenceFormat
-          :sentence="'。'"
-          :bopomofo="'.'"
-          :pinyin="'.'"
-          :translation="'。'"
+          :sentence="'貓對貓在外面打架， 很吵。'"
+          :bopomofo="'ㄇㄠ ㄉㄨㄟˋ ㄇㄠ ㄗㄞˋ ㄨㄞˋ ㄇㄧㄢˋ ㄉㄚˇ ㄐㄧㄚˋ， ㄏㄣˇ ㄔㄠˇ.'"
+          :pinyin="'mao1 dui4 mao1 zai4 wai4 mian4 da3 jia4, hen3 chao3.'"
+          :translation="'猫同士が表で喧嘩していて、 とてもうるさいです。'"
         />
         <br>
         <p>
           ・生活費
         </p>
         <SentenceFormat
-          :sentence="'。'"
-          :bopomofo="'.'"
-          :pinyin="'.'"
-          :translation="'。'"
+          :sentence="'我想減少生活費, 所以我想要搬到鄉下。'"
+          :bopomofo="'ㄨㄛˇ ㄒㄧㄤˇ ㄐㄧㄢˇ ㄕㄠˇ ㄕㄥ ㄏㄨㄛˊ ㄈㄟˋ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄒㄧㄤˇ ㄧㄠˋ ㄅㄢ ㄉㄠˋ ㄒㄧㄤ ㄒㄧㄚˋ.'"
+          :pinyin="'wo3 xiang3 jian3 shao3 sheng1 huo2 fei4, suo3 yi3 wo3 xiang3 yao4 ban1 dao4 xiang1 xia4.'"
+          :translation="'生活費を抑えたいので、 田舎に引っ越したいです。'"
         />
         <br>
         <p>
           ・低
         </p>
         <SentenceFormat
-          :sentence="'貓對貓在外面打架， 很吵。'"
-          :bopomofo="'ㄇㄠ ㄉㄨㄟˋ ㄇㄠ ㄗㄞˋ ㄨㄞˋ ㄇㄧㄢˋ ㄉㄚˇ ㄐㄧㄚˋ， ㄏㄣˇ ㄔㄠˇ.'"
-          :pinyin="'mao1 dui4 mao1 zai4 wai4 mian4 da3 jia4, hen3 chao3.'"
-          :translation="'猫同士が表で喧嘩していて、 とてもうるさいです。'"
+          :sentence="'我的血壓很低， 所以我不能早上上班。'"
+          :bopomofo="'ㄨㄛˇ ㄉㄜ˙ ㄒㄧㄝˇ ㄧㄚ ㄏㄣˇ ㄉㄧ， ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄅㄨˋ ㄋㄥˊ ㄗㄠˇ ㄕㄤˋ ㄕㄤˋ ㄅㄢ.'"
+          :pinyin="'wo3 de xie3 ya1 hen3 di1, suo3 yi3 wo3 bu4 neng2 zao3 shang4 shang4 ban1.'"
+          :translation="'血圧がとても低いので、 朝は出勤できません。'"
         />
         <br>
         <p>
