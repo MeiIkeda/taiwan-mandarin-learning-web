@@ -137,8 +137,8 @@
         </p>
         <SentenceFormat
           :sentence="'這個應用程式的免費期間快到期。'"
-          :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄧㄥˋ ㄩㄥˋ ㄔㄥˊ ㄕˋ ㄉㄜ˙ ㄇㄧㄢˇ ㄈㄟˋ ㄑㄧ ㄐㄧㄢ ㄎㄨㄞˋ ㄉㄠˋ ㄑㄧ.'"
-          :pinyin="'zhe4 ge4 ying4 yong4 cheng2 shi4 de mian3 fei4 qi1 jian1 kuai4 dao4 qi1.'"
+          :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄧㄥˋ ㄩㄥˋ ㄔㄥˊ ㄕˋ ㄉㄜ˙ ㄇㄧㄢˇ ㄈㄟˋ ㄑㄧ ㄐㄧㄢ ㄎㄨㄞˋ ㄉㄠˋ ㄑㄧˊ.'"
+          :pinyin="'zhe4 ge4 ying4 yong4 cheng2 shi4 de mian3 fei4 qi1 jian1 kuai4 dao4 qi2.'"
           :translation="'このアプリの無料期間はもうすぐ終了します。'"
         />
         <br>
