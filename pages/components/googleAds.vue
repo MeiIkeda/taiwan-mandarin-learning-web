@@ -1,6 +1,6 @@
 <template>
-  <div style="color: #3b8070" align="center">
-    <p>スポンサーリンク</p>
+  <div style="color: #3b8070; margin: 0; padding: 0" align="center">
+    <p>Ads by Google</p>
     <adsbygoogle v-bind:ad-slot="gslot" :ad-format="''" :ad-style="gadStyle" />
   </div>
 </template>
