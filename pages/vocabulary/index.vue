@@ -135,7 +135,6 @@
           :width="'730px'"
           :height="'100px'"
         />
-        <br>
         <h1 style="font-size:17px; font-weight: bold; text-align: center">
           台湾華語&nbsp;語彙ページ&nbsp;<br>(レベル別単語リスト、発音、聞き流しetc)
         </h1>

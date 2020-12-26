@@ -1,9 +1,10 @@
 <template>
   <div style="color: #3b8070" align="center">
+    <adsbygoogle v-bind:ad-slot="gslot" :ad-format="'horizontal'" :ad-style="gadStyle" style="display:block; margin: 0; padding: 0; border: #3b8070;" />
     <p style="margin: 0; padding: 0">
       Ads by Google
     </p>
-    <adsbygoogle v-bind:ad-slot="gslot" :ad-format="'horizontal'" :ad-style="gadStyle" style="display:block; margin: 0; padding: 0; border: #3b8070;" />
+    <br>
   </div>
 </template>
 
