@@ -383,11 +383,6 @@ export default {
   head () {
     return {
       title: '例文集 sentence',
-      script: [{
-        'data-ad-client': process.env.GA_ADSENSE_ID,
-        async: true,
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
-      }],
       meta: [
         { hid: 'keywords', name: 'keywords', content: '中国語, 台湾, 台湾華語, 繁体字, 単語, 聞き流し, ボポモフォ, 當代中文課程課, 例文' },
         { hid: 'description', name: 'description', content: 'テキスト「當代中文課程課」の勉強ページ。 1冊目・第10章で登場する新単語を使った例文や気づいた事など' },
