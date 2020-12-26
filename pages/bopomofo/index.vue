@@ -3,12 +3,7 @@
     <Header
       :name="'bopomofo'"
     />
-    <GoogleAds
-      :gslot="'8835446919'"
-      :display="'inline-block'"
-      :width="'730px'"
-      :height="'100px'"
-    />
+    <GoogleAds />
     <div class="main-image-bopomofo">
       <b-alert v-model="showErrorAlert" style="color: red; background-color: transparent; border-color: transparent" variant="info">
         {{ error_message }}
@@ -455,12 +450,7 @@
         </p>
       </div>
     </div>
-    <GoogleAds
-      :gslot="'8835446919'"
-      :display="'inline-block'"
-      :width="'730px'"
-      :height="'100px'"
-    />
+    <GoogleAds />
     <Footer
       :name="'bopomofo'"
     />

@@ -3,12 +3,7 @@
     <Header
       :name="'vocabulary'"
     />
-    <GoogleAds
-      :gslot="'8835446919'"
-      :display="'inline-block'"
-      :width="'730px'"
-      :height="'100px'"
-    />
+    <GoogleAds />
     <br>
     <div class="main-image-vocabulary">
       <br>
@@ -129,12 +124,8 @@
     </div>
     <div align="center">
       <div class="text-itself-vocabulary">
-        <GoogleAds
-          :gslot="'8835446919'"
-          :display="'inline-block'"
-          :width="'730px'"
-          :height="'100px'"
-        />
+        <GoogleAds />
+        <br>
         <h1 style="font-size:17px; font-weight: bold; text-align: center">
           台湾華語&nbsp;語彙ページ&nbsp;<br>(レベル別単語リスト、発音、聞き流しetc)
         </h1>
@@ -233,12 +224,7 @@
         </p>
       </div>
     </div>
-    <GoogleAds
-      :gslot="'8835446919'"
-      :display="'inline-block'"
-      :width="'750px'"
-      :height="'100px'"
-    />
+    <GoogleAds />
     <Footer
       :name="'vocabulary'"
     />

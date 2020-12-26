@@ -3,12 +3,7 @@
     <Header
       :name="'index'"
     />
-    <GoogleAds
-      :display="'inline-block'"
-      :width="'730px'"
-      :height="'100px'"
-      :gslot="'8835446919'"
-    />
+    <GoogleAds />
     <div class="main-image">
       <br>
       <div style="margin-left: auto; margin-right: auto">
@@ -117,12 +112,7 @@
       <br>
     </div>
     <br>
-    <GoogleAds
-      :display="'inline-block'"
-      :width="'730px'"
-      :height="'100px'"
-      :gslot="'8835446919'"
-    />
+    <GoogleAds />
     <Footer
       :name="'index'"
     />

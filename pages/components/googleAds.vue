@@ -1,40 +1,41 @@
 <template>
   <div style="color: #3b8070" align="center">
-    <adsbygoogle v-bind:ad-slot="gslot" :ad-format="'horizontal'" :ad-style="gadStyle" style="display:block; margin: 0; padding: 0; border: #3b8070;" />
-    <p style="margin: 0; padding: 0">
+    <adsbygoogle :ad-format="'horizontal'" :ad-style="gadStyle" style="display:block; margin: 10px 0 0 0; padding: 0; border: #3b8070;" />
+    <p style="margin: 0 10px 0 0; padding: 0">
       Ads by Google
     </p>
-    <br>
   </div>
 </template>
 
 <script>
 export default {
-  props: {
-    // eslint-disable-next-line vue/require-default-prop
-    gslot: String,
-    // eslint-disable-next-line vue/prop-name-casing,vue/require-default-prop
-    display: String,
-    // eslint-disable-next-line vue/require-default-prop
-    width: String,
-    // eslint-disable-next-line vue/require-default-prop
-    height: String
-  },
   data () {
     return {
+      // gslot: '8835446919',
+      widthSize: 767,
       gadStyle: {
-        slot: this.gslot,
-        display: this.display,
-        width: this.width,
-        height: this.height
+        display: 'inline-block',
+        width: this.widthSize > 767 ? '730px' : '300px'
       }
+    }
+  },
+  mounted () {
+    const widthSize = this.getWindowSize()
+    if (widthSize > 767) {
+      this.gadStyle.width = '730px'
+    } else {
+      this.gadStyle.width = '300px'
+    }
+  },
+  methods: {
+    getWindowSize () {
+      return window.innerWidth
     }
   }
 }
 </script>
 
 <style lang="stylus">
-
   .title_vocabulary
     font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
       'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif

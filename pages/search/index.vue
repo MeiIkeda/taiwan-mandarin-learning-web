@@ -3,12 +3,7 @@
     <Header
       :name="'search'"
     />
-    <GoogleAds
-      :gslot="'8835446919'"
-      :display="'inline-block'"
-      :width="'730px'"
-      :height="'100px'"
-    />
+    <GoogleAds />
     <div class="main-image-search">
       <br>
       <div>単語を入力して下さい</div>
@@ -151,12 +146,7 @@
         </p>
       </div>
     </div>
-    <GoogleAds
-      :gslot="'8835446919'"
-      :display="'inline-block'"
-      :width="'730px'"
-      :height="'100px'"
-    />
+    <GoogleAds />
     <Footer
       :name="'search'"
     />

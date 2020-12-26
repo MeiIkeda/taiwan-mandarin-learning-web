@@ -3,12 +3,7 @@
     <Header
       :name="'about'"
     />
-    <GoogleAds
-      :gslot="'8835446919'"
-      :display="'inline-block'"
-      :width="'730px'"
-      :height="'100px'"
-    />
+    <GoogleAds />
     <div class="main-text">
       <div class="text-itself-about">
         <br>
@@ -39,12 +34,7 @@
       </div>
     </div>
     <br>
-    <GoogleAds
-      :gslot="'8835446919'"
-      :display="'inline-block'"
-      :width="'730px'"
-      :height="'100px'"
-    />
+    <GoogleAds />
     <Footer
       :name="'about'"
     />
