@@ -32,11 +32,6 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
-    // script: [{
-    //   'data-ad-client': process.env.GA_ADSENSE_ID,
-    //   async: true,
-    //   src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
-    // }]
   },
   /*
   ** Customize the progress-bar color
@@ -71,12 +66,6 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/sentry',
     '@nuxtjs/google-adsense',
-    // {
-    // id: process.env.GA_ADSENSE_ID,
-    // pageLevelAds: true
-    // analyticsUacct: process.env.GA_TRACKING_ID,
-    // analyticsDomainName: process.env.DOMAIN
-    //  },
     '@nuxtjs/google-analytics',
     '@nuxtjs/sitemap'
   ],

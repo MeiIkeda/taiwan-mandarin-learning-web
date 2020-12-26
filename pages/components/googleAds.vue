@@ -11,11 +11,10 @@
 export default {
   data () {
     return {
-      // gslot: '8835446919',
       widthSize: 767,
       gadStyle: {
         display: 'inline-block',
-        width: this.widthSize > 767 ? '730px' : '300px'
+        width: this.widthSize > 767 ? '730px' : '400px'
       }
     }
   },
