@@ -3,10 +3,12 @@
     <Header
       :name="'vocabulary'"
     />
-    <div style="color: #3b8070" align="center">
-      <p>スポンサーリンク</p>
-      <adsbygoogle v-bind:ad-slot="'8835446919'" :ad-format="''" :ad-style="gadStyle" />
-    </div>
+    <GoogleAds
+      :gslot="'8835446919'"
+      :display="'inline-block'"
+      :width="'300px'"
+      :height="'50px'"
+    />
     <br>
     <div class="main-image-vocabulary">
       <br>
@@ -127,6 +129,12 @@
     </div>
     <div align="center">
       <div class="text-itself-vocabulary">
+        <GoogleAds
+          :display="'inline-block'"
+          :width="'300px'"
+          :height="'50px'"
+          gslot="'8835446919'"
+        />
         <br>
         <h1 style="font-size:17px; font-weight: bold; text-align: center">
           台湾華語&nbsp;語彙ページ&nbsp;<br>(レベル別単語リスト、発音、聞き流しetc)
@@ -226,14 +234,12 @@
         </p>
       </div>
     </div>
-    <!--    <head>-->
-    <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
-    <!--      <title />-->
-    <!--    </head>-->
-    <!--    <div style="color: #3b8070" align="center">-->
-    <!--      スポンサーリンク-->
-    <!--    </div>-->
-    <!--    <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
+    <GoogleAds
+      :gslot="'8835446919'"
+      :display="'inline-block'"
+      :width="'300px'"
+      :height="'50px'"
+    />
     <Footer
       :name="'vocabulary'"
     />
@@ -244,6 +250,7 @@
 import Header from '../components/header'
 import Footer from '../components/footer'
 import MySpeechSynthesis from '../../plugins/mySpeechSynthesis.js'
+import GoogleAds from '../components/googleAds'
 export default {
   head () {
     return {
@@ -262,7 +269,8 @@ export default {
   },
   components: {
     Header,
-    Footer
+    Footer,
+    GoogleAds
   },
   component: {
     MySpeechSynthesis
@@ -287,12 +295,7 @@ export default {
       timer: '',
       count: 0,
       showErrorAlert: false,
-      isSearching: false,
-      gadStyle: {
-        display: 'inline-block',
-        width: '300px',
-        height: '40px'
-      }
+      isSearching: false
     }
   },
 

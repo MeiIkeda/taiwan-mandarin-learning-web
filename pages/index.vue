@@ -3,15 +3,12 @@
     <Header
       :name="'index'"
     />
-    <!--    <head>-->
-    <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
-    <!--      <title />-->
-    <!--    </head>-->
-    <!--
-    <div style="color: #3b8070" align="center">
-      スポンサーリンク
-    </div>-->
-
+    <GoogleAds
+      :display="'inline-block'"
+      :width="'300px'"
+      :height="'50px'"
+      :gslot="'8835446919'"
+    />
     <div class="main-image">
       <br>
       <div style="margin-left: auto; margin-right: auto">
@@ -120,14 +117,12 @@
       <br>
     </div>
     <br>
-    <!--    <head>-->
-    <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
-    <!--      <title />-->
-    <!--    </head>-->
-    <!--
-    <div style="color: #3b8070" align="center">
-      スポンサーリンク
-    </div>-->
+    <GoogleAds
+      :display="'inline-block'"
+      :width="'300px'"
+      :height="'50px'"
+      :gslot="'8835446919'"
+    />
     <Footer
       :name="'index'"
     />
@@ -137,10 +132,12 @@
 <script>
 import Header from './components/header'
 import Footer from './components/footer'
+import GoogleAds from './components/googleAds'
 export default {
   components: {
     Header,
-    Footer
+    Footer,
+    GoogleAds
   },
 
   data () {

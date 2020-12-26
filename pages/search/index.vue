@@ -3,16 +3,12 @@
     <Header
       :name="'search'"
     />
-    <!--    <head>-->
-    <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
-    <!--      <title />-->
-    <!--    </head>-->
-    <!--
-    <div style="color: #3b8070" align="center">
-      スポンサーリンク
-    </div>
-    <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
-    -->
+    <GoogleAds
+      :gslot="'8835446919'"
+      :display="'inline-block'"
+      :width="'300px'"
+      :height="'50px'"
+    />
     <div class="main-image-search">
       <br>
       <div>単語を入力して下さい</div>
@@ -155,16 +151,12 @@
         </p>
       </div>
     </div>
-    <!--    <head>-->
-    <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
-    <!--      <title />-->
-    <!--    </head>-->
-    <!--
-    <div style="color: #3b8070" align="center">
-      スポンサーリンク
-    </div>
-    <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
-    -->
+    <GoogleAds
+      :gslot="'8835446919'"
+      :display="'inline-block'"
+      :width="'300px'"
+      :height="'50px'"
+    />
     <Footer
       :name="'search'"
     />
@@ -175,10 +167,12 @@
 import Header from '../components/header'
 import Footer from '../components/footer'
 import MySpeechSynthesis from '../../plugins/mySpeechSynthesis.js'
+import GoogleAds from '../components/googleAds'
 export default {
   components: {
     Header,
-    Footer
+    Footer,
+    GoogleAds
   },
   component: {
     MySpeechSynthesis

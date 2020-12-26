@@ -3,16 +3,12 @@
     <Header
       :name="'bopomofo'"
     />
-    <!--    <head>-->
-    <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
-    <!--      <title />-->
-    <!--    </head>-->
-    <!--
-    <div style="color: #3b8070" align="center">
-      スポンサーリンク
-    </div>
-    <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
-    -->
+    <GoogleAds
+      :gslot="'8835446919'"
+      :display="'inline-block'"
+      :width="'300px'"
+      :height="'50px'"
+    />
     <div class="main-image-bopomofo">
       <b-alert v-model="showErrorAlert" style="color: red; background-color: transparent; border-color: transparent" variant="info">
         {{ error_message }}
@@ -459,12 +455,12 @@
         </p>
       </div>
     </div>
-    <!--
-    <div style="color: #3b8070" align="center">
-      スポンサーリンク
-    </div>
-    <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
-    -->
+    <GoogleAds
+      :gslot="'8835446919'"
+      :display="'inline-block'"
+      :width="'300px'"
+      :height="'50px'"
+    />
     <Footer
       :name="'bopomofo'"
     />
@@ -475,6 +471,7 @@
 import MySpeechSynthesis from '../../plugins/mySpeechSynthesis.js'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import GoogleAds from '../components/googleAds'
 // // eslint-disable-next-line no-unused-vars
 // function speak2 (text) {
 //   // var text = document.querySelector('.text').value;
@@ -488,7 +485,8 @@ import Footer from '../components/footer'
 export default {
   components: {
     Header,
-    Footer
+    Footer,
+    GoogleAds
   },
   component: {
     MySpeechSynthesis
