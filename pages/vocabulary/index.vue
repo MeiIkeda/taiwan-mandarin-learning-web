@@ -7,7 +7,7 @@
       :gslot="'8835446919'"
       :display="'inline-block'"
       :width="'300px'"
-      :height="'50px'"
+      :height="'100px'"
     />
     <br>
     <div class="main-image-vocabulary">
