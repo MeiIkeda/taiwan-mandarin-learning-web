@@ -70,8 +70,12 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/sentry',
-    // TODO 全ページに同じタグで広告を表示させるため？一時退避
-    // '@nuxtjs/google-adsense',
+    '@nuxtjs/google-adsense', {
+      id: process.env.GA_ADSENSE_ID,
+      pageLevelAds: true,
+      analyticsUacct: process.env.GA_TRACKING_ID,
+      analyticsDomainName: process.env.DOMAIN
+    },
     '@nuxtjs/google-analytics',
     '@nuxtjs/sitemap'
   ],
@@ -84,13 +88,12 @@ export default {
     dsn: process.env.SENTRY_DSN, // Enter your project's DSN here
     config: {} // Additional config
   },
-  // TODO 全ページに同じタグで広告を表示させるため？一時退避
-  // 'google-adsense': {
-  //   id: process.env.GA_ADSENSE_ID,
-  //   pageLevelAds: true,
-  //   analyticsUacct: process.env.GA_TRACKING_ID,
-  //   analyticsDomainName: process.env.DOMAIN
-  // },
+  'google-adsense': {
+    id: process.env.GA_ADSENSE_ID,
+    pageLevelAds: true,
+    analyticsUacct: process.env.GA_TRACKING_ID,
+    analyticsDomainName: process.env.DOMAIN
+  },
   'google-analytics': {
     id: process.env.GA_TRACKING_ID
   },

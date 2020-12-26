@@ -3,16 +3,10 @@
     <Header
       :name="'vocabulary'"
     />
-    <!--    <head>-->
-    <!--      <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />-->
-    <!--      <title />-->
-    <!--    </head>-->
-    <!--
     <div style="color: #3b8070" align="center">
-      スポンサーリンク
+      <p>スポンサーリンク</p>
+      <adsbygoogle v-bind:ad-slot="'8835446919'"/>
     </div>
-    <script data-ad-client="ca-pub-9333963654003765" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
-    -->
     <div class="main-image-vocabulary">
       <br>
       <b-alert v-model="showErrorAlert" style="text-align:center; color: red; background-color: transparent; border-color: transparent" variant="info">
