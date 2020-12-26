@@ -5,8 +5,9 @@
     />
     <div style="color: #3b8070" align="center">
       <p>スポンサーリンク</p>
-      <adsbygoogle v-bind:ad-slot="'8835446919'" />
+      <adsbygoogle v-bind:ad-slot="'8835446919'" :ad-format="''" :ad-style="gadStyle" />
     </div>
+    <br>
     <div class="main-image-vocabulary">
       <br>
       <b-alert v-model="showErrorAlert" style="text-align:center; color: red; background-color: transparent; border-color: transparent" variant="info">
@@ -286,7 +287,12 @@ export default {
       timer: '',
       count: 0,
       showErrorAlert: false,
-      isSearching: false
+      isSearching: false,
+      gadStyle: {
+        display: 'inline-block',
+        width: '300px',
+        height: '40px'
+      }
     }
   },
 
