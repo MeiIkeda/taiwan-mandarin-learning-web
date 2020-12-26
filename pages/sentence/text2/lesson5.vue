@@ -6,8 +6,8 @@
     <GoogleAds
       :gslot="'8835446919'"
       :display="'inline-block'"
-      :width="'300px'"
-      :height="'50px'"
+      :width="'730px'"
+      :height="'100px'"
     />
     <div class="main-text1">
       <div class="text-itself-about">
@@ -469,8 +469,8 @@
     <GoogleAds
       :gslot="'8835446919'"
       :display="'inline-block'"
-      :width="'300px'"
-      :height="'50px'"
+      :width="'730px'"
+      :height="'100px'"
     />
     <Footer
       :name="'sentence'"

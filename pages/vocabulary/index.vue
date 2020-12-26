@@ -6,7 +6,7 @@
     <GoogleAds
       :gslot="'8835446919'"
       :display="'inline-block'"
-      :width="'300px'"
+      :width="'730px'"
       :height="'100px'"
     />
     <br>
@@ -130,10 +130,10 @@
     <div align="center">
       <div class="text-itself-vocabulary">
         <GoogleAds
+          :gslot="'8835446919'"
           :display="'inline-block'"
-          :width="'300px'"
-          :height="'50px'"
-          gslot="'8835446919'"
+          :width="'730px'"
+          :height="'100px'"
         />
         <br>
         <h1 style="font-size:17px; font-weight: bold; text-align: center">
@@ -237,8 +237,8 @@
     <GoogleAds
       :gslot="'8835446919'"
       :display="'inline-block'"
-      :width="'300px'"
-      :height="'50px'"
+      :width="'750px'"
+      :height="'100px'"
     />
     <Footer
       :name="'vocabulary'"

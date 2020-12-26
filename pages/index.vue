@@ -5,8 +5,8 @@
     />
     <GoogleAds
       :display="'inline-block'"
-      :width="'300px'"
-      :height="'50px'"
+      :width="'730px'"
+      :height="'100px'"
       :gslot="'8835446919'"
     />
     <div class="main-image">
@@ -119,8 +119,8 @@
     <br>
     <GoogleAds
       :display="'inline-block'"
-      :width="'300px'"
-      :height="'50px'"
+      :width="'730px'"
+      :height="'100px'"
       :gslot="'8835446919'"
     />
     <Footer
