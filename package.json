@@ -4,6 +4,9 @@
   "description": "台湾華語を学ぶサイト/Web application to learn Taiwan-Mandarin",
   "author": "Mei",
   "private": true,
+  "engines": {
+    "node": "13.x"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

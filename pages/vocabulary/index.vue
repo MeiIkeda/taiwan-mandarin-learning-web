@@ -5,7 +5,7 @@
     />
     <div style="color: #3b8070" align="center">
       <p>スポンサーリンク</p>
-      <adsbygoogle v-bind:ad-slot="'8835446919'"/>
+      <adsbygoogle v-bind:ad-slot="'8835446919'" />
     </div>
     <div class="main-image-vocabulary">
       <br>

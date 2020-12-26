@@ -70,12 +70,13 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/sentry',
-    '@nuxtjs/google-adsense', {
-      id: process.env.GA_ADSENSE_ID,
-      pageLevelAds: true,
-      analyticsUacct: process.env.GA_TRACKING_ID,
-      analyticsDomainName: process.env.DOMAIN
-    },
+    '@nuxtjs/google-adsense',
+    // {
+    // id: process.env.GA_ADSENSE_ID,
+    // pageLevelAds: true
+    // analyticsUacct: process.env.GA_TRACKING_ID,
+    // analyticsDomainName: process.env.DOMAIN
+    //  },
     '@nuxtjs/google-analytics',
     '@nuxtjs/sitemap'
   ],
