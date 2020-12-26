@@ -5,7 +5,6 @@
     />
     <GoogleAds />
     <div class="main-image-vocabulary">
-      <br>
       <b-alert v-model="showErrorAlert" style="text-align:center; color: red; background-color: transparent; border-color: transparent" variant="info">
         {{ error_message }}
       </b-alert>

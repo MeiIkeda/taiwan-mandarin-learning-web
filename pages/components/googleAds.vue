@@ -15,7 +15,7 @@ export default {
       widthSize: 767,
       gadStyle: {
         display: 'inline-block',
-        width: this.widthSize > 767 ? '730px' : '400px'
+        width: this.widthSize > 767 ? '730px' : '500px'
       }
     }
   },
