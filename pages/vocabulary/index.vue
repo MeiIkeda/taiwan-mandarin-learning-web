@@ -126,6 +126,7 @@
       <div class="text-itself-vocabulary">
         <GoogleAds />
         <br>
+        <hr width="80%">
         <h1 style="font-size:17px; font-weight: bold; text-align: center">
           台湾華語&nbsp;語彙ページ&nbsp;<br>(レベル別単語リスト、発音、聞き流しetc)
         </h1>
@@ -222,6 +223,7 @@
           </nuxt-link>
           に、一般的なボポモフォキーボードの並びを表示しています。<br>
         </p>
+        <hr width="80%">
       </div>
     </div>
     <GoogleAds />

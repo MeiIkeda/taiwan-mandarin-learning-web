@@ -276,6 +276,8 @@
     <br>
     <div align="center">
       <div class="text-itself-bopomofo">
+        <GoogleAds />
+        <hr width="80%">
         <h1 style="font-size:17px; font-weight: bold; text-align: center">
           台湾の発音記号ボポモフォ(注音)と中国語の一般的な発音記号ピンイン(拼音)
         </h1>
@@ -448,6 +450,7 @@
           聞き分けるのは非常に難しいです。<br>
           単体のボポモフォやこれらの発音を含む単語など、 とにかく聞いて発音する練習を繰り返す事で少しずつ慣れてくると思います。
         </p>
+        <hr width="80%">
       </div>
     </div>
     <GoogleAds />

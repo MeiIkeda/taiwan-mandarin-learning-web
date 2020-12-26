@@ -1,9 +1,10 @@
 <template>
   <div style="color: #3b8070" align="center">
     <adsbygoogle :ad-format="'horizontal'" :ad-style="gadStyle" style="display:block; margin: 10px 0 0 0; padding: 0; border: #3b8070;" />
-    <p style="margin: 0 10px 0 0; padding: 0">
+    <p style="margin: 0; padding: 0">
       Ads by Google
     </p>
+    <br>
   </div>
 </template>
 
