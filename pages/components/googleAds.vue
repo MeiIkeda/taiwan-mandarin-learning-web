@@ -1,7 +1,7 @@
 <template>
-  <div style="color: #3b8070; margin: 0; padding: 0" align="center">
-    <p>Ads by Google</p>
-    <adsbygoogle v-bind:ad-slot="gslot" :ad-format="''" :ad-style="gadStyle" />
+  <div style="color: #3b8070" align="center">
+    <p style="margin: 0; padding: 0">Ads by Google</p>
+    <adsbygoogle style="margin: 0; padding: 0" v-bind:ad-slot="gslot" :ad-format="''" :ad-style="gadStyle" />
   </div>
 </template>
 
