@@ -17,10 +17,10 @@
           ・垃圾
         </p>
         <SentenceFormat
-          :sentence="'可燃垃圾和不燃垃圾一定得分類。'"
-          :bopomofo="'ㄎㄜˇ ㄖㄢˊ ㄌㄜˋ ㄙㄜˋ ㄏㄢˋ ㄅㄨˋ ㄖㄢˊ ㄌㄜˋ ㄙㄜˋ ㄧˊ ㄉㄧㄥˋ ㄉㄟˇ ㄈㄣ ㄌㄟˋ.'"
-          :pinyin="'ke3 ran2 le4 se4 han4 bu4 ran2 la4 se4 yi1 ding4 dei4 fen1 lei4.'"
-          :translation="'可燃性のゴミと不燃性のゴミは分離する必要があります。'"
+          :sentence="'可燃垃圾和不燃垃圾一定得做分類。'"
+          :bopomofo="'ㄎㄜˇ ㄖㄢˊ ㄌㄜˋ ㄙㄜˋ ㄏㄢˋ ㄅㄨˋ ㄖㄢˊ ㄌㄜˋ ㄙㄜˋ ㄧˊ ㄉㄧㄥˋ ㄉㄟˇ ㄗㄨㄛˋ ㄈㄣ ㄌㄟˋ.'"
+          :pinyin="'ke3 ran2 le4 se4 han4 bu4 ran2 la4 se4 yi1 ding4 dei4 zuo4 fen1 lei4.'"
+          :translation="'可燃性のゴミと不燃性のゴミは分類する必要があります。'"
         />
         <br>
         <p>
@@ -79,7 +79,7 @@
         <SentenceFormat
           :sentence="'小學常常有奇怪的規定。'"
           :bopomofo="'ㄒㄧㄠˇ ㄒㄩㄝˊ ㄔㄤˊ ㄔㄤˊ ㄧㄡˇ ㄑㄧˊ ㄍㄨㄞˋ ㄉㄜ˙ ㄍㄨㄟ ㄉㄧㄥˋ.'"
-          :pinyin="'xiao3 xue2 chang2 chang2 you3 qi2 guai4 de gui4 ding4.'"
+          :pinyin="'xiao3 xue2 chang2 chang2 you3 qi2 guai4 de gui1 ding4.'"
           :translation="'小学校にはしばしば奇妙な規則があります。'"
         />
         <br>
@@ -88,8 +88,8 @@
         </p>
         <SentenceFormat
           :sentence="'你得捕魚, 要不然你的貓不能吃晚餐。'"
-          :bopomofo="'ㄋㄧˇ ㄉㄜˊ ㄅㄨˇ ㄩˊ, ㄧㄠˋ ㄅㄨˋ ㄖㄢˊ ㄋㄧˇ ㄉㄜ˙ ㄇㄠ ㄅㄨˋ ㄋㄥˊ ㄔ ㄨㄢˇ ㄘㄢ.'"
-          :pinyin="'ni3 de bu3 yu2, yao4 bu4 ran2 ni3 de mao1 bu4 neng2 chi1 wan3 can1.'"
+          :bopomofo="'ㄋㄧˇ ㄉㄟˇ ㄅㄨˇ ㄩˊ, ㄧㄠˋ ㄅㄨˋ ㄖㄢˊ ㄋㄧˇ ㄉㄜ˙ ㄇㄠ ㄅㄨˋ ㄋㄥˊ ㄔ ㄨㄢˇ ㄘㄢ.'"
+          :pinyin="'ni3 dei3 bu3 yu2, yao4 bu4 ran2 ni3 de mao1 bu4 neng2 chi1 wan3 can1.'"
           :translation="'釣りをしないと、 あなたの猫は夕飯を食べられませんよ。'"
         />
         <br>
@@ -209,7 +209,7 @@
         <SentenceFormat
           :sentence="'在超市每天閒人們都在聊傳聞。'"
           :bopomofo="'ㄗㄞˋ ㄔㄠ ㄕˋ ㄇㄟˇ ㄊㄧㄢ ㄒㄧㄢˊ ㄖㄣˊ ㄇㄣ˙ ㄉㄡ ㄗㄞˋ ㄌㄧㄠˊ ㄔㄨㄢˊ ㄨㄣˊ.'"
-          :pinyin="'zai4 chao1 shi4 mei3 tian1 jian1 ren2 men dou1 zai4 liao2 chuan2 wen2.'"
+          :pinyin="'zai4 chao1 shi4 mei3 tian1 xian2 ren2 men dou1 zai4 liao2 chuan2 wen2.'"
           :translation="'スーパーでは、 毎日暇な人たちが噂話をしています。'"
         />
         <br>
@@ -217,9 +217,9 @@
           ・忽然
         </p>
         <SentenceFormat
-          :sentence="'忽然餓了, 現在差不多不能步的狀態。'"
-          :bopomofo="'ㄏㄨ ㄖㄢˊ ㄜˋ ㄌㄜ˙, ㄒㄧㄢˋ ㄗㄞˋ ㄔㄚˋ ㄅㄨˋ ㄉㄨㄛ ㄅㄨˋ ㄋㄥˊ ㄅㄨˋ ㄉㄜ˙ ㄓㄨㄤˋ ㄊㄞˋ.'"
-          :pinyin="'hu1 ran2 e4 le, xian4 zai4 cha1 bu4 duo1 bu4 neng2 bu4 de zhuang4 tai4.'"
+          :sentence="'我忽然餓了, 現在差不多不能步的狀態。'"
+          :bopomofo="'ㄨㄛˇ ㄏㄨ ㄖㄢˊ ㄜˋ ㄌㄜ˙, ㄒㄧㄢˋ ㄗㄞˋ ㄔㄚˋ ㄅㄨˋ ㄉㄨㄛ ㄅㄨˋ ㄋㄥˊ ㄅㄨˋ ㄉㄜ˙ ㄓㄨㄤˋ ㄊㄞˋ.'"
+          :pinyin="'wo3 hu1 ran2 e4 le, xian4 zai4 cha1 bu4 duo1 bu4 neng2 bu4 de zhuang4 tai4.'"
           :translation="'突然お腹が空いて、 今ほとんど歩けない状態です。'"
         />
         <br>
@@ -309,7 +309,7 @@
         <SentenceFormat
           :sentence="'根據分類， 貓和獅子屬於同一貓科。'"
           :bopomofo="'ㄍㄣ ㄐㄩˋ ㄈㄣ ㄌㄟˋ， ㄇㄠ ㄏㄜˊ ㄕ ㄗ˙ ㄕㄨˇ ㄩˊ ㄊㄨㄥˊ ㄧ ㄇㄠ ㄎㄜ.'"
-          :pinyin="'gen1 ju4 fen lei4, mao1 han4 shi1 zi3 shu3 yu2 tong2 yi1 mao1 ke1.'"
+          :pinyin="'gen1 ju4 fen lei4, mao1 han4 shi1 zi shu3 yu2 tong2 yi1 mao1 ke1.'"
           :translation="'分類によると、 猫とライオンは同じネコ科に属しています。'"
         />
         <br>
@@ -347,9 +347,9 @@
           ・塑膠
         </p>
         <SentenceFormat
-          :sentence="'有時候我可能會覺得塑料包裝過多。'"
-          :bopomofo="'ㄧㄡˇ ㄕˊ ㄏㄡˋ ㄨㄛˇ ㄎㄜˇ ㄋㄥˊ ㄏㄨㄟˋ ㄐㄩㄝˊ ㄉㄜ˙ ㄙㄨˋ ㄌㄧㄠˋ ㄅㄠ ㄓㄨㄤ ㄍㄨㄛˋ ㄉㄨㄛ.'"
-          :pinyin="'you3 shi2 hou4 wo3 ke3 neng2 hui4 jue2 de su4 liao4 bao1 zhuang1 guo4 duo1.'"
+          :sentence="'有時候我可能會覺得塑膠包裝過多。'"
+          :bopomofo="'ㄧㄡˇ ㄕˊ ㄏㄡˋ ㄨㄛˇ ㄎㄜˇ ㄋㄥˊ ㄏㄨㄟˋ ㄐㄩㄝˊ ㄉㄜ˙ ㄙㄨˋ ㄐㄧㄠ ㄅㄠ ㄓㄨㄤ ㄍㄨㄛˋ ㄉㄨㄛ.'"
+          :pinyin="'you3 shi2 hou4 wo3 ke3 neng2 hui4 jue2 de su4 jiao1 bao1 zhuang1 guo4 duo1.'"
           :translation="'プラスチックの包装は過剰だと感じる時があります。'"
         />
         <br>
@@ -357,9 +357,9 @@
           ・資源
         </p>
         <SentenceFormat
-          :sentence="'紙, 塑料等那種資源能回收。'"
-          :bopomofo="'ㄓˇ, ㄙㄨˋ ㄌㄧㄠˋ ㄉㄥˇ ㄋㄚˋ ㄓㄨㄥˇ ㄗ ㄩㄢˊ ㄋㄥˊ ㄏㄨㄟˊ ㄕㄡ.'"
-          :pinyin="'zhi3, su4 liao4 deng3 na4 zhong3 zi1 yuan2 neng2 hui2 shou1.'"
+          :sentence="'紙, 塑膠等那種資源能回收。'"
+          :bopomofo="'ㄓˇ, ㄙㄨˋ ㄐㄧㄠ ㄉㄥˇ ㄋㄚˋ ㄓㄨㄥˇ ㄗ ㄩㄢˊ ㄋㄥˊ ㄏㄨㄟˊ ㄕㄡ.'"
+          :pinyin="'zhi3, su4 jiao1 deng3 na4 zhong3 zi1 yuan2 neng2 hui2 shou1.'"
           :translation="'紙やプラスチックなどの資源はリサイクルできます。'"
         />
         <br>
@@ -419,7 +419,7 @@
         <SentenceFormat
           :sentence="'他把捲起的衛生紙丟進去垃圾桶。'"
           :bopomofo="'ㄊㄚ ㄅㄚˇ ㄐㄩㄢˇ ㄑㄧˇ ㄉㄜ˙ ㄨㄟˋ ㄕㄥ ㄓˇ ㄉㄧㄡ ㄐㄧㄣˋ ㄑㄩˋ ㄌㄜˋ ㄙㄜˋ ㄊㄨㄥˇ.'"
-          :pinyin="'ta1 ba3 juan4 qi3 de wei4 sheng1 zhi3 diu1 jin4 qu4 la4 se4 tong3.'"
+          :pinyin="'ta1 ba3 juan3 qi3 de wei4 sheng1 zhi3 diu1 jin4 qu4 la4 se4 tong3.'"
           :translation="'彼は丸めたティッシュペーパーをゴミ箱に投げ入れました。'"
         />
         <br>
