@@ -58,7 +58,7 @@
         </p>
         <SentenceFormat
           :sentence="'我以為生菜和高麗菜是一樣的蔬菜。'"
-          :bopomofo="'ㄨㄛˇ ㄧˇ ㄨㄟˊ ㄕㄥ ㄘㄞˋ ㄏㄜˊ ㄍㄠ ㄌㄧˊ ㄘㄞˋ ㄕˋ ㄧˊ ㄧㄤˋ ㄉㄜ˙ ㄕㄨ ㄘㄞˋ.'"
+          :bopomofo="'ㄨㄛˇ ㄧˇ ㄨㄟˊ ㄕㄥ ㄘㄞˋ ㄏㄜˊ ㄍㄠ ㄌㄧˋ ㄘㄞˋ ㄕˋ ㄧˊ ㄧㄤˋ ㄉㄜ˙ ㄕㄨ ㄘㄞˋ.'"
           :pinyin="'wo3 yi3 wei2 sheng1 cai4 han4 gao1 li4 cai4 shi4 yi1 yang4 de shu1 cai4.'"
           :translation="'レタスとキャベツは同じ野菜だと思っていました。'"
         />
@@ -337,9 +337,9 @@
           ・瓶子
         </p>
         <SentenceFormat
-          :sentence="'請你破的瓶子用報紙包後丟掉。'"
-          :bopomofo="'ㄑㄧㄥˇ ㄋㄧˇ ㄆㄛˋ ㄉㄧˋ ㄆㄧㄥˊ ㄗ˙ ㄩㄥˋ ㄅㄠˋ ㄓˇ ㄅㄠ ㄏㄡˋ ㄉㄧㄡ ㄉㄧㄠˋ.'"
-          :pinyin="'qing3 ni3 po4 de ping2 zi yong4 bao4 zhi3 bao1 hou4 diu1 diao4.'"
+          :sentence="'請你把破的瓶子用報紙包後丟掉。'"
+          :bopomofo="'ㄑㄧㄥˇ ㄋㄧˇ ㄅㄚˇ ㄆㄛˋ ㄉㄧˋ ㄆㄧㄥˊ ㄗ˙ ㄩㄥˋ ㄅㄠˋ ㄓˇ ㄅㄠ ㄏㄡˋ ㄉㄧㄡ ㄉㄧㄠˋ.'"
+          :pinyin="'qing3 ni3 ba3 po4 de ping2 zi yong4 bao4 zhi3 bao1 hou4 diu1 diao4.'"
           :translation="'割れた瓶は新聞に包んで捨ててください。'"
         />
         <br>
@@ -429,7 +429,7 @@
         <SentenceFormat
           :sentence="'有人將垃圾倒在路上, 所以烏鴉正在聚集。'"
           :bopomofo="'ㄧㄡˇ ㄖㄣˊ ㄐㄧㄤ ㄌㄚ ㄐㄧ ㄉㄠˋ ㄗㄞˋ ㄌㄨˋ ㄕㄤˋ, ㄙㄨㄛˇ ㄧˇ ㄨ ㄧㄚ ㄓㄥˋ ㄗㄞˋ ㄐㄩˋ ㄐㄧˊ.'"
-          :pinyin="'you3 ren2 jiang1 la1 ji1 dao4 zai4 lu4 sha4ng, suo3 yi3 wu1 ya1 zheng4 zai4 ju4 ji2.'"
+          :pinyin="'you3 ren2 jiang1 la1 ji1 dao4 zai4 lu4 shang4, suo3 yi3 wu1 ya1 zheng4 zai4 ju4 ji2.'"
           :translation="'誰かが道路にゴミを捨てたので、カラスが集まっています。'"
         />
         <br>
