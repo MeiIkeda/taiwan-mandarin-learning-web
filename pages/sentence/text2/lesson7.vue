@@ -67,10 +67,10 @@
           ・回收
         </p>
         <SentenceFormat
-          :sentence="'這個衛生紙由回收紙製成。'"
-          :bopomofo="'ㄓㄜˋ ㄍㄜˋ ㄨㄟˋ ㄕㄥ ㄓˇ ㄧㄡˊ ㄏㄨㄟˊ ㄕㄡ ㄓˇ ㄓˋ ㄔㄥˊ.'"
-          :pinyin="'zhe4 ge4 wei4 sheng1 zhi3 you2 hui2 shou1 zhi3 zhi4 cheng2.'"
-          :translation="'このティッシュペーパーは再生紙から作られています。'"
+          :sentence="'我總是疑便當盒是否可以回收。'"
+          :bopomofo="'ㄨㄛˇ ㄗㄨㄥˇ ㄕˋ ㄧˊ ㄅㄧㄢˋ ㄉㄤ ㄏㄜˊ ㄕˋ ㄈㄡˇ ㄎㄜˇ ㄧˇ ㄏㄨㄟˊ ㄕㄡ.'"
+          :pinyin="'wo3 zong3 shi4 yi2 bian4 dang1 he2 shi4 fou3 ke3 yi3 hui2 shou1.'"
+          :translation="'弁当箱はリサイクルできるのかどうかいつも迷います。'"
         />
         <br>
         <p>
@@ -449,7 +449,7 @@ import Header from '../../components/header'
 import Footer from '../../components/footer'
 import MySpeechSynthesis from '../../../plugins/mySpeechSynthesis.js'
 import SentenceFormat from '../components/sentenceFormat'
-import GoogleAds from '../../components/googleAds'
+import GoogleAds from '../../components/googleAdsHorizontal'
 export default {
   components: {
     Header,

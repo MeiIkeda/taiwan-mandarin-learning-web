@@ -12,7 +12,7 @@
             {{ bopomofo }}<br>
             {{ pinyin }}<br>
             {{ translation }}<br>
-            <span v-if="memo != null">{{ memo }}<br></span>
+            <span v-if="memo != null">{{ memo }}</span>
           </td>
         </tr>
       </tbody>
