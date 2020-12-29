@@ -157,7 +157,7 @@
 import Header from '../components/header'
 import Footer from '../components/footer'
 import MySpeechSynthesis from '../../plugins/mySpeechSynthesis.js'
-import GoogleAds from '../components/googleAds'
+import GoogleAds from '../components/googleAdsHorizontal'
 export default {
   components: {
     Header,

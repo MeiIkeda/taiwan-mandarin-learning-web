@@ -464,7 +464,7 @@
 import MySpeechSynthesis from '../../plugins/mySpeechSynthesis.js'
 import Header from '../components/header'
 import Footer from '../components/footer'
-import GoogleAds from '../components/googleAds'
+import GoogleAds from '../components/googleAdsHorizontal'
 // // eslint-disable-next-line no-unused-vars
 // function speak2 (text) {
 //   // var text = document.querySelector('.text').value;

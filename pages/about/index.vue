@@ -45,7 +45,7 @@
 <script>
 import Header from '../components/header'
 import Footer from '../components/footer'
-import GoogleAds from '../components/googleAds'
+import GoogleAds from '../components/googleAdsHorizontal'
 export default {
   components: {
     Header,

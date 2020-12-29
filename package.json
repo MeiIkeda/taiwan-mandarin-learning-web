@@ -32,7 +32,8 @@
     "redirect-ssl": "^1.4.1",
     "vue": "^2.6.12",
     "vue-server-renderer": "^2.6.12",
-    "vue-template-compiler": "^2.6.12"
+    "vue-template-compiler": "^2.6.12",
+    "xlsx": "^0.16.9"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.0.1",
