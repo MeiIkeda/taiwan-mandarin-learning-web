@@ -21,7 +21,7 @@
               :memo="item.memo"
             />
             <br>
-            <div v-if="data.words.length !== data.words.indexOf(item) && data.words.indexOf(item) !== 0 && data.words.indexOf(item) % 7 === 0">
+            <div v-if="(data.words.length -1 !== data.words.indexOf(item) && data.words.length -2 !== data.words.indexOf(item)) && data.words.indexOf(item) !== 0 && data.words.indexOf(item) % 7 === 0">
               <GoogleAdsHorizontal />
             </div>
           </div>
