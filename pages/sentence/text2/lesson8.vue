@@ -59,10 +59,10 @@ export default {
           },
           {
             word: '見',
-            sentence: '我懂不見。',
-            bopomofo: 'ㄨㄛˇ ㄉㄨㄥˇ ㄅㄨˊ ㄐㄧㄢˋ.',
-            pinyin: 'wo3 dong3 bu2/bu4 jian4.',
-            translation: '。'
+            sentence: '這部電影的評論太難了， 我不懂。',
+            bopomofo: 'ㄓㄜˋ ㄅㄨˋ ㄉㄧㄢˋ ㄧㄥˇ ㄉㄜ˙ ㄆㄧㄥˊ ㄌㄨㄣˋ ㄊㄞˋ ㄋㄢˊ ㄌㄜ˙， ㄨㄛˇ ㄅㄨˋ ㄉㄨㄥˇ.',
+            pinyin: 'zhe4 bu4 dian4 ying3 de ping2 lun4 ta4i nan2 le, wo3 bu4 dong3.',
+            translation: 'この映画のレビューは難しすぎて、わかりません。'
           },
           {
             word: '推',
@@ -136,17 +136,17 @@ export default {
           },
           {
             word: '了',
-            sentence: '。',
-            bopomofo: '.',
-            pinyin: '.',
-            translation: '。'
+            sentence: '枕頭太高了， 入不了睡。',
+            bopomofo: 'ㄓㄣˇ ㄊㄡ˙ ㄊㄞˋ ㄍㄠ ㄌㄜ˙， ㄖㄨˋ ㄅㄨˋ ㄌㄧㄠˇ ㄕㄨㄟˋ.',
+            pinyin: 'zhen3 tou2 tai4 gao1 le, ru4 bu4 liao3 shui4.',
+            translation: '枕が高すぎて眠れません。'
           },
           {
             word: '下去',
-            sentence: '。',
-            bopomofo: '.',
-            pinyin: '.',
-            translation: '。'
+            sentence: '冷的季節來的時候, 我不想做得下去運動。',
+            bopomofo: 'ㄌㄥˇ ㄉㄜ˙ ㄐㄧˋ ㄐㄧㄝˊ ㄌㄞˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄨㄛˇ ㄅㄨˋ ㄒㄧㄤˇ ㄗㄨㄛˋ ㄉㄜˊ ㄒㄧㄚˋ ㄑㄩˋ ㄩㄣˋ ㄉㄨㄥˋ.',
+            pinyin: 'leng3 de ji4 jie2 lai2 de shi2 hou4, wo3 bu4 xiang3 zuo4 de xia4 qu4 yun4 dong4.',
+            translation: '寒い季節になったら、 運動を続けたくないです。'
           },
           {
             word: '興趣',
