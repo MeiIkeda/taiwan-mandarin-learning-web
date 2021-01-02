@@ -61,13 +61,13 @@ export default {
             word: '見',
             sentence: '這部電影的評論太難了， 我不懂。',
             bopomofo: 'ㄓㄜˋ ㄅㄨˋ ㄉㄧㄢˋ ㄧㄥˇ ㄉㄜ˙ ㄆㄧㄥˊ ㄌㄨㄣˋ ㄊㄞˋ ㄋㄢˊ ㄌㄜ˙， ㄨㄛˇ ㄅㄨˋ ㄉㄨㄥˇ.',
-            pinyin: 'zhe4 bu4 dian4 ying3 de ping2 lun4 ta4i nan2 le, wo3 bu4 dong3.',
+            pinyin: 'zhe4 bu4 dian4 ying3 de ping2 lun4 tai4 nan2 le, wo3 bu4 dong3.',
             translation: 'この映画のレビューは難しすぎて、わかりません。'
           },
           {
             word: '推',
-            sentence: '打開這個門不是推,拉就開了。',
-            bopomofo: 'ㄉㄚˇ ㄎㄞ ㄓㄜˋ ㄍㄜˋ ㄇㄣˊ ㄅㄨˊ ㄕˋ ㄊㄨㄟ  ㄌㄚ ㄐㄧㄡˋ ㄎㄞ ㄌㄜ˙.',
+            sentence: '打開這個門不是推, 拉就開了。',
+            bopomofo: 'ㄉㄚˇ ㄎㄞ ㄓㄜˋ ㄍㄜˋ ㄇㄣˊ ㄅㄨˊ ㄕˋ ㄊㄨㄟ, ㄌㄚ ㄐㄧㄡˋ ㄎㄞ ㄌㄜ˙.',
             pinyin: 'da3 kai1 zhe4 ge4 men2 bu2 shi4 tui1 la1 jiu4 kai1 le.',
             translation: 'このドアは押すのではなく、引くと開きます。'
           },
@@ -82,29 +82,29 @@ export default {
             word: '太極拳',
             sentence: '做太極拳的人們都善於早起。',
             bopomofo: 'ㄗㄨㄛˋ ㄊㄞˋ ㄐㄧˊ ㄑㄩㄢˊ ㄉㄜ˙ ㄖㄣˊ ㄇㄣ˙ ㄉㄡ ㄕㄢˋ ㄩˊ ㄗㄠˇ ㄑㄧˇ.',
-            pinyin: 'zuo4 tai4 ji3 quan2 de ren2 men dou1 shan4 yu2 zao3 qi3.',
+            pinyin: 'zuo4 tai4 ji2 quan2 de ren2 men dou1 shan4 yu2 zao3 qi3.',
             translation: '太極拳をする人たちはみんな早起きが得意です。'
           },
           {
             word: '師父',
-            sentence: '書法的師父特別嚴格,我不能遲到。',
+            sentence: '書法的師父特別嚴格, 我不能遲到。',
             bopomofo: 'ㄕㄨ ㄈㄚˇ ㄉㄜ˙ ㄕ ㄈㄨˋ ㄊㄜˋ ㄅㄧㄝˊ ㄧㄢˊ ㄍㄜˊ, ㄨㄛˇ ㄅㄨˋ ㄋㄥˊ ㄔˊ ㄉㄠˋ.',
             pinyin: 'shu1 fa3 de shi1 fu4 te4 bie2 yan2 ge2, wo3 bu4 neng2 chi2 dao4.',
-            translation: '書道の先生はとても厳しいので、遅刻できません。'
+            translation: '書道の先生はとても厳しいので、 遅刻できません。'
           },
           {
             word: '天分',
-            sentence: '看到貓的時候我總是覺得，可愛是一種天分。',
-            bopomofo: 'ㄎㄢˋ ㄉㄠˋ ㄇㄠ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄨㄛˇ ㄗㄨㄥˇ ㄕˋ ㄐㄩㄝˊ ㄉㄜ˙, ㄎㄜˇ ㄞˋ ㄕˋ ㄧ ㄓㄨㄥˇ ㄊㄧㄢ ㄈㄣˋ.',
-            pinyin: 'kan4 dao4 mao1 de shi2 hou4 wo3 zong3 shi4 jue2 de, ke3 ai4 shi4 yi1 zhong3 tian1 fen4.',
-            translation: '猫を見るといつも、可愛いのは一種の才能だと思います。'
+            sentence: '看到貓的時候我總是覺得， 可愛的是一種天分。',
+            bopomofo: 'ㄎㄢˋ ㄉㄠˋ ㄇㄠ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄨㄛˇ ㄗㄨㄥˇ ㄕˋ ㄐㄩㄝˊ ㄉㄜ˙, ㄎㄜˇ ㄞˋ ㄉㄜ˙ ㄕˋ ㄧ ㄓㄨㄥˇ ㄊㄧㄢ ㄈㄣˋ.',
+            pinyin: 'kan4 dao4 mao1 de shi2 hou4 wo3 zong3 shi4 jue2 de, ke3 ai4 de shi4 yi1 zhong3 tian1 fen4.',
+            translation: '猫を見るといつも、 可愛いのは一種の才能だと思います。'
           },
           {
             word: '懂',
             sentence: '他的說話很長， 所以很難懂他想說什麼。',
             bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄕㄨㄛ ㄏㄨㄚˋ ㄏㄣˇ ㄔㄤˊ,  ㄙㄨㄛˇ ㄧˇ ㄏㄣˇ ㄋㄢˊ ㄉㄨㄥˇ ㄊㄚ ㄒㄧㄤˇ ㄕㄨㄛ ㄕˊ ㄇㄛˇ.',
             pinyin: 'ta1 de shuo1 hua4 hen3 chang2, suo3 yi3 hen3 nan2 dong3 ta1 xiang3 shuo1 shen2 me.',
-            translation: '彼の話はとても長いので、何が言いたいのか理解するのは難しいです。'
+            translation: '彼の話はとても長いので、 何が言いたいのか理解するのは難しいです。'
           },
           {
             word: '起來',
@@ -116,7 +116,7 @@ export default {
           {
             word: '動作',
             sentence: '他的所有的動作太粗了, 所以他常常壞東西。',
-            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄉㄨㄥˋ ㄗㄨㄛˋ ㄊㄞˋ ㄘㄨ ㄌㄜ˙  ㄙㄨㄛˇ ㄧˇ ㄊㄚ ㄔㄤˊ ㄔㄤˊ ㄏㄨㄞˋ ㄉㄨㄥ ㄒㄧ.',
+            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄉㄨㄥˋ ㄗㄨㄛˋ ㄊㄞˋ ㄘㄨ ㄌㄜ˙, ㄙㄨㄛˇ ㄧˇ ㄊㄚ ㄔㄤˊ ㄔㄤˊ ㄏㄨㄞˋ ㄉㄨㄥ ㄒㄧ.',
             pinyin: 'ta1 de suo3 you3 de dong4 zuo4 tai4 cu1 le, suo3 yi3 ta1 chang2 chang2 huai4 dong1 xi.',
             translation: '`彼の動作は荒っぽすぎるので、 しばしば物を壊します。'
           },
@@ -129,15 +129,15 @@ export default {
           },
           {
             word: '腿',
-            sentence: '我一陣子沒走路, 現在腿沒有筋肉了。',
-            bopomofo: 'ㄨㄛˇ ㄧ ㄓㄣˋ ㄗ˙ ㄇㄟˊ ㄗㄡˇ ㄌㄨˋ, ㄒㄧㄢˋ ㄗㄞˋ ㄊㄨㄟˇ ㄇㄟˊ ㄧㄡˇ ㄐㄧㄣ ㄖㄡˋ ㄌㄜ˙.',
-            pinyin: 'wo3 yi1 zhen4 zi3 mei2 zou3 lu4, xian4 zai4 tui3 mei2 you3 jin1 rou4 le.',
+            sentence: '我一陣子沒走路, 所以現在腿沒有筋肉了。',
+            bopomofo: 'ㄨㄛˇ ㄧ ㄓㄣˋ ㄗ˙ ㄇㄟˊ ㄗㄡˇ ㄌㄨˋ, ㄙㄨㄛˇ ㄧˇ ㄒㄧㄢˋ ㄗㄞˋ ㄊㄨㄟˇ ㄇㄟˊ ㄧㄡˇ ㄐㄧㄣ ㄖㄡˋ ㄌㄜ˙.',
+            pinyin: 'wo3 yi1 zhen4 zi3 mei2 zou3 lu4, suo3 yi3 xian4 zai4 tui3 mei2 you3 jin1 rou4 le.',
             translation: 'しばらく歩いていなかったので、 足の筋肉が落ちました。'
           },
           {
             word: '了',
             sentence: '枕頭太高了， 入不了睡。',
-            bopomofo: 'ㄓㄣˇ ㄊㄡ˙ ㄊㄞˋ ㄍㄠ ㄌㄜ˙， ㄖㄨˋ ㄅㄨˋ ㄌㄧㄠˇ ㄕㄨㄟˋ.',
+            bopomofo: 'ㄓㄣˇ ㄊㄡˊ  ㄊㄞˋ ㄍㄠ ㄌㄜ˙， ㄖㄨˋ ㄅㄨˋ ㄌㄧㄠˇ ㄕㄨㄟˋ.',
             pinyin: 'zhen3 tou2 tai4 gao1 le, ru4 bu4 liao3 shui4.',
             translation: '枕が高すぎて眠れません。'
           },
@@ -164,23 +164,23 @@ export default {
           },
           {
             word: '有天分',
-            sentence: '雖然他不擅長學習,對運動有天分。',
+            sentence: '雖然他不擅長學習, 對運動有天分。',
             bopomofo: 'ㄙㄨㄟ ㄖㄢˊ ㄊㄚ ㄅㄨˊ ㄕㄢˋ ㄔㄤˊ ㄒㄩㄝˊ ㄒㄧˊ, ㄉㄨㄟˋ ㄩㄣˋ ㄉㄨㄥˋ ㄧㄡˇ ㄊㄧㄢ ㄈㄣˋ.',
             pinyin: 'sui1 ran2 ta1 bu2 shan4 chang2 xue2 xi2, dui4 yun4 dong4 you3 tian1 fen4.',
-            translation: '彼は勉強が苦手ですが、スポーツの才能があります。'
+            translation: '彼は勉強が苦手ですが、 スポーツの才能があります。'
           },
           {
             word: '學會',
-            sentence: '你為了認真學會中文需要一位老師。',
-            bopomofo: 'ㄋㄧˇ ㄨㄟˋ ㄌㄜ˙ ㄖㄣˋ ㄓㄣ ㄒㄩㄝˊ ㄏㄨㄟˋ ㄓㄨㄥ ㄨㄣˊ ㄒㄩ ㄧㄠˋ ㄧ ㄨㄟˋ ㄌㄠˇ ㄕ.',
-            pinyin: 'ni3 wei4 le ren4 zhen1 xue2 hui4 zhong1 wen2 xu1 yao4 yi1 wei4 lao3 shi1.',
-            translation: '真剣に中国語を学ぶには先生が必要です。'
+            sentence: '為了認真學會中文, 你需要一位老師。',
+            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄖㄣˋ ㄓㄣ ㄒㄩㄝˊ ㄏㄨㄟˋ ㄓㄨㄥ ㄨㄣˊ, ㄋㄧˇ ㄒㄩ ㄧㄠˋ ㄧ ㄨㄟˋ ㄌㄠˇ ㄕ.',
+            pinyin: 'wei4 le ren4 zhen1 xue2 hui4 zhong1 wen2, ni3 xu1 yao4 yi1 wei4 lao3 shi1.',
+            translation: '真剣に中国語を学ぶには、 先生が必要です。'
           },
           {
             word: '起不來',
-            sentence: '他早上自己起不來, 一定得去叫他。',
-            bopomofo: 'ㄊㄚ ㄗㄠˇ ㄕㄤˋ ㄗˋ ㄐㄧˇ ㄑㄧˇ ㄅㄨˋ ㄌㄞˊ, ㄧˊ ㄉㄧㄥˋ ㄉㄟˇ ㄑㄩˋ ㄐㄧㄠˋ ㄊㄚ.',
-            pinyin: 'ta1 zao3 shang4 zi4 ji3 qi3 bu4 lai2, yi1 ding4 dei3 qu4 jiao4 ta1.',
+            sentence: '他早上自己起不來, 你一定得去叫他。',
+            bopomofo: 'ㄊㄚ ㄗㄠˇ ㄕㄤˋ ㄗˋ ㄐㄧˇ ㄑㄧˇ ㄅㄨˋ ㄌㄞˊ, ㄋㄧˇ ㄧˊ ㄉㄧㄥˋ ㄉㄟˇ ㄑㄩˋ ㄐㄧㄠˋ ㄊㄚ.',
+            pinyin: 'ta1 zao3 shang4 zi4 ji3 qi3 bu4 lai2, ni3 yi1 ding4 dei3 qu4 jiao4 ta1.',
             translation: '彼は朝一人で起きられないので、 呼びに行かなくてはいけません。'
           },
           {
@@ -213,16 +213,16 @@ export default {
           },
           {
             word: '總是',
-            sentence: '你從後面感覺到視線並轉身的時候, 總是有隻貓。',
-            bopomofo: 'ㄋㄧˇ ㄘㄨㄥˊ ㄏㄡˋ ㄇㄧㄢˋ ㄍㄢˇ ㄐㄩㄝˊ ㄉㄠˋ ㄕˋ ㄒㄧㄢˋ ㄅㄧㄥˋ ㄓㄨㄢˇ ㄕㄣ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄗㄨㄥˇ ㄕˋ ㄧㄡˇ ㄓˇ ㄇㄠ.',
-            pinyin: 'ni3 cong2 hou4 mian4 gan3 jue2 dao4 shi4 xian4 bing4 zhuan3 shen1 de shi2 hou4, zong3 shi4 you3 zhi1 mao1.',
+            sentence: '從後面感覺到視線並轉身的時候, 總是有隻貓。',
+            bopomofo: 'ㄘㄨㄥˊ ㄏㄡˋ ㄇㄧㄢˋ ㄍㄢˇ ㄐㄩㄝˊ ㄉㄠˋ ㄕˋ ㄒㄧㄢˋ ㄅㄧㄥˋ ㄓㄨㄢˇ ㄕㄣ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄗㄨㄥˇ ㄕˋ ㄧㄡˇ ㄓˇ ㄇㄠ.',
+            pinyin: 'ncong2 hou4 mian4 gan3 jue2 dao4 shi4 xian4 bing4 zhuan3 shen1 de shi2 hou4, zong3 shi4 you3 zhi1 mao1.',
             translation: '後ろからの視線を感じて振り返ると、いつも猫がいます。'
           },
           {
             word: '完',
-            sentence: '快喝完啤酒了， 我們準備清酒吧。',
-            bopomofo: 'ㄎㄨㄞˋ ㄏㄜ ㄨㄢˊ ㄆㄧˊ ㄐㄧㄡˇ ㄌㄜ˙, ㄨㄛˇ ㄇㄣ˙ ㄓㄨㄣˇ ㄅㄟˋ ㄑㄧㄥ ㄐㄧㄡˇ ㄅㄚ.',
-            pinyin: 'kuai4 he1 wan2 pi2 jiu3 le, wo3 men zhun3 bei4 qing1 jiu3 ba.',
+            sentence: '快要喝完啤酒了， 我們準備清酒吧。',
+            bopomofo: 'ㄎㄨㄞˋ ㄧㄠˋ ㄏㄜ ㄨㄢˊ ㄆㄧˊ ㄐㄧㄡˇ ㄌㄜ˙, ㄨㄛˇ ㄇㄣ˙ ㄓㄨㄣˇ ㄅㄟˋ ㄑㄧㄥ ㄐㄧㄡˇ ㄅㄚ.',
+            pinyin: 'kuai4 yao4 he1 wan2 pi2 jiu3 le, wo3 men zhun3 bei4 qing1 jiu3 ba.',
             translation: 'ビールはもうすぐ飲み終えてしまうので、 日本酒を用意しましょう。'
           },
           {
@@ -235,7 +235,7 @@ export default {
           {
             word: '整天',
             sentence: '因為我有太多空閒時間, 我整天都在考慮食物。',
-            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄧㄡˇ ㄊㄞˋ ㄉㄨㄛ ㄎㄨㄥˋ ㄒㄧㄢˊ ㄕˊ ㄐㄧㄢ, ㄨㄛˇ ㄓㄥˇ ㄊㄧㄢ ㄉㄨ ㄗㄞˋ ㄎㄠˇ ㄌㄩˋ ㄕˊ ㄨˋ.',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄧㄡˇ ㄊㄞˋ ㄉㄨㄛ ㄎㄨㄥ ㄒㄧㄢˊ ㄕˊ ㄐㄧㄢ, ㄨㄛˇ ㄓㄥˇ ㄊㄧㄢ ㄉㄨ ㄗㄞˋ ㄎㄠˇ ㄌㄩˋ ㄕˊ ㄨˋ.',
             pinyin: 'yin1 wei4 wo3 you3 tai4 duo1 kong1 xian2 shi2 jian1, wo3 zheng3 tian1 dou1 zai4 kao3 lu4 shi2 wu4.',
             translation: '暇すぎるので、 一日中食べ物のことを考えています。'
           },
@@ -255,9 +255,9 @@ export default {
           },
           {
             word: '可能',
-            sentence: '貓睡覺時， 你可能會摸肚子。',
-            bopomofo: 'ㄇㄠ ㄕㄨㄟˋ ㄐㄧㄠˋ ㄕˊ, ㄋㄧˇ ㄎㄜˇ ㄋㄥˊ ㄏㄨㄟˋ ㄇㄛ ㄉㄨˇ ㄗ˙.',
-            pinyin: 'mao1 shui4 jiao4 shi2, ni3 ke3 neng2 hui4 mo1 du4 zi.',
+            sentence: '如果貓睡覺的時， 你可能會摸摸牠的肚子。',
+            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄇㄠ ㄕㄨㄟˋ ㄐㄧㄠˋ ㄉㄜ˙ ㄕˊ, ㄋㄧˇ ㄎㄜˇ ㄋㄥˊ ㄏㄨㄟˋ ㄇㄛ ㄇㄛ ㄊㄚ ㄉㄜ˙ ㄉㄨˇ ㄗ˙.',
+            pinyin: 'ru2 guo3 mao1 shui4 jiao4 de shi2, ni3 ke3 neng2 hui4 mo1 mo1 ta1 de du4 zi.',
             translation: '猫が寝ている間なら、お腹に触れるかもしれません。'
           },
           {
