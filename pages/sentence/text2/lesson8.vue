@@ -68,7 +68,7 @@ export default {
             word: '推',
             sentence: '打開這個門不是推, 拉就開了。',
             bopomofo: 'ㄉㄚˇ ㄎㄞ ㄓㄜˋ ㄍㄜˋ ㄇㄣˊ ㄅㄨˊ ㄕˋ ㄊㄨㄟ, ㄌㄚ ㄐㄧㄡˋ ㄎㄞ ㄌㄜ˙.',
-            pinyin: 'da3 kai1 zhe4 ge4 men2 bu2 shi4 tui1 la1 jiu4 kai1 le.',
+            pinyin: 'da3 kai1 zhe4 ge4 men2 bu2 shi4 tui1, la1 jiu4 kai1 le.',
             translation: 'このドアは押すのではなく、引くと開きます。'
           },
           {
@@ -143,9 +143,9 @@ export default {
           },
           {
             word: '下去',
-            sentence: '冷的季節來的時候, 我不想做得下去運動。',
-            bopomofo: 'ㄌㄥˇ ㄉㄜ˙ ㄐㄧˋ ㄐㄧㄝˊ ㄌㄞˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄨㄛˇ ㄅㄨˋ ㄒㄧㄤˇ ㄗㄨㄛˋ ㄉㄜˊ ㄒㄧㄚˋ ㄑㄩˋ ㄩㄣˋ ㄉㄨㄥˋ.',
-            pinyin: 'leng3 de ji4 jie2 lai2 de shi2 hou4, wo3 bu4 xiang3 zuo4 de xia4 qu4 yun4 dong4.',
+            sentence: '冷的季節來的時候, 運動, 我不想做得下去。',
+            bopomofo: 'ㄌㄥˇ ㄉㄜ˙ ㄐㄧˋ ㄐㄧㄝˊ ㄌㄞˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄩㄣˋ ㄉㄨㄥˋ, ㄨㄛˇ ㄅㄨˋ ㄒㄧㄤˇ ㄗㄨㄛˋ ㄉㄜˊ ㄒㄧㄚˋ ㄑㄩˋ.',
+            pinyin: 'leng3 de ji4 jie2 lai2 de shi2 hou4, yun4 dong4, wo3 bu4 xiang3 zuo4 de xia4 qu4.',
             translation: '寒い季節になったら、 運動を続けたくないです。'
           },
           {
@@ -206,9 +206,9 @@ export default {
           },
           {
             word: '公尺',
-            sentence: '霧太濃， 看不到十公尺遠。',
-            bopomofo: 'ㄨˋ ㄊㄞˋ ㄋㄨㄥˊ, ㄎㄢˋ ㄅㄨˊ ㄉㄠˋ ㄕˊ ㄍㄨㄥ ㄔˇ ㄩㄢˇ.',
-            pinyin: 'wu4 tai4 nong2, kan4 bu2 dao4 shi2 gong1 chi3 yuan3.',
+            sentence: '霧太濃得看不到十公尺遠。',
+            bopomofo: 'ㄨˋ ㄊㄞˋ ㄋㄨㄥˊ ㄉㄜ˙ ㄎㄢˋ ㄅㄨˊ ㄉㄠˋ ㄕˊ ㄍㄨㄥ ㄔˇ ㄩㄢˇ.',
+            pinyin: 'wu4 tai4 nong2 de kan4 bu2 dao4 shi2 gong1 chi3 yuan3.',
             translation: '霧が濃すぎて10メートル先も見ることができません。'
           },
           {
@@ -262,9 +262,9 @@ export default {
           },
           {
             word: '回',
-            sentence: '討老婆的歡心我買蛋糕回家。',
-            bopomofo: 'ㄊㄠˇ ㄌㄠˇ ㄆㄛˊ ㄉㄜ˙ ㄏㄨㄢ ㄒㄧㄣ ㄨㄛˇ ㄇㄞˇ ㄉㄢˋ ㄍㄠ ㄏㄨㄟˊ ㄐㄧㄚ.',
-            pinyin: 'tao3 lao3 po2 de huan1 xin1 wo3 mai3 dan4 gao1 hui2 jia1.',
+            sentence: '討老婆的歡心, 我要買蛋糕回家。',
+            bopomofo: 'ㄊㄠˇ ㄌㄠˇ ㄆㄛˊ ㄉㄜ˙ ㄏㄨㄢ ㄒㄧㄣ, ㄨㄛˇ ㄧㄠˋ ㄇㄞˇ ㄉㄢˋ ㄍㄠ ㄏㄨㄟˊ ㄐㄧㄚ.',
+            pinyin: 'tao3 lao3 po2 de huan1 xin1, wo3 yao4 mai3 dan4 gao1 hui2 jia1.',
             translation: '妻を喜ばせるために、ケーキを買って家に帰ります。'
           },
           {
