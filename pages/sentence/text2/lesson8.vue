@@ -101,9 +101,9 @@ export default {
           },
           {
             word: '懂',
-            sentence: '他的說話很長， 所以很難懂他想說什麼。',
-            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄕㄨㄛ ㄏㄨㄚˋ ㄏㄣˇ ㄔㄤˊ,  ㄙㄨㄛˇ ㄧˇ ㄏㄣˇ ㄋㄢˊ ㄉㄨㄥˇ ㄊㄚ ㄒㄧㄤˇ ㄕㄨㄛ ㄕˊ ㄇㄛˇ.',
-            pinyin: 'ta1 de shuo1 hua4 hen3 chang2, suo3 yi3 hen3 nan2 dong3 ta1 xiang3 shuo1 shen2 me.',
+            sentence: '他的說話很長， 所以懂他想說什麼很難。',
+            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄕㄨㄛ ㄏㄨㄚˋ ㄏㄣˇ ㄔㄤˊ,  ㄙㄨㄛˇ ㄧˇ ㄉㄨㄥˇ ㄊㄚ ㄒㄧㄤˇ ㄕㄨㄛ ㄕˊ ㄇㄛˇ ㄏㄣˇ ㄋㄢˊ .',
+            pinyin: 'ta1 de shuo1 hua4 hen3 chang2, suo3 yi3 dong3 ta1 xiang3 shuo1 shen2 me hen3 nan2.',
             translation: '彼の話はとても長いので、 何が言いたいのか理解するのは難しいです。'
           },
           {
@@ -269,9 +269,9 @@ export default {
           },
           {
             word: '影響',
-            sentence: '那個孩子看起來從動畫被影響。',
-            bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄏㄞˊ ㄗ˙ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄘㄨㄥˊ ㄉㄨㄥˋ ㄏㄨㄚˋ ㄅㄟˋ ㄧㄥˇ ㄒㄧㄤˇ.',
-            pinyin: 'na4 ge4 hai2 zi3 kan4 qi3 lai2 cong2 dong4 hua4 bei4 ying3 xiang3.',
+            sentence: '那個孩子看起來跟動畫被影響。',
+            bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄏㄞˊ ㄗ˙ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄍㄣ ㄉㄨㄥˋ ㄏㄨㄚˋ ㄅㄟˋ ㄧㄥˇ ㄒㄧㄤˇ.',
+            pinyin: 'na4 ge4 hai2 zi3 kan4 qi3 lai2 gen1 dong4 hua4 bei4 ying3 xiang3.',
             translation: 'あの子供はアニメの影響を受けているようです。'
           },
           {
