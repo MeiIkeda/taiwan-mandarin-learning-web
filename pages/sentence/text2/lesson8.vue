@@ -119,7 +119,7 @@ export default {
             sentence: '他的動作太粗魯了, 所以他常常弄壞東西。',
             bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄉㄨㄥˋ ㄗㄨㄛˋ ㄊㄞˋ ㄘㄨ ㄌㄨˇ ㄌㄜ˙, ㄙㄨㄛˇ ㄧˇ ㄊㄚ ㄔㄤˊ ㄔㄤˊ ㄋㄨㄥˋ ㄏㄨㄞˋ ㄉㄨㄥ ㄒㄧ˙.',
             pinyin: 'ta1 de dong4 zuo4 tai4 cu1 lu3 le, suo3 yi3 ta1 chang2 chang2 nong4 huai4 dong1 xi.',
-            translation: '`彼の動作は荒っぽすぎるので、 しばしば物を壊します。'
+            translation: '彼の動作は荒っぽすぎるので、 しばしば物を壊します。'
           },
           {
             word: '輕',
@@ -248,7 +248,7 @@ export default {
             sentence: '我沒有精神做晚飯, 今天想吃泡麵。',
             bopomofo: 'ㄨㄛˇ ㄇㄟˊ ㄧㄡˇ ㄐㄧㄥ ㄕㄣˊ ㄗㄨㄛˋ ㄨㄢˇ ㄈㄢˋ, ㄐㄧㄣ ㄊㄧㄢ ㄒㄧㄤˇ ㄔ ㄆㄠˋ ㄇㄧㄢˋ.',
             pinyin: 'wo3 mei2 you3 jing1 shen2 zuo4 wan3 fan4, jin1 tian1 xiang3 chi1 pao4 mian4.',
-            translation: '夕食を作る気力がないので、今日はインスタントヌードルを食べたいです。'
+            translation: '夕食を作る気力がないので、今日はインスタント麺を食べたいです。'
           },
           {
             word: '本來',
