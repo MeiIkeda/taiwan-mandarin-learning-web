@@ -215,7 +215,7 @@ export default {
             word: '總是',
             sentence: '從後面感覺到視線並轉身的時候, 總是有隻貓。',
             bopomofo: 'ㄘㄨㄥˊ ㄏㄡˋ ㄇㄧㄢˋ ㄍㄢˇ ㄐㄩㄝˊ ㄉㄠˋ ㄕˋ ㄒㄧㄢˋ ㄅㄧㄥˋ ㄓㄨㄢˇ ㄕㄣ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄗㄨㄥˇ ㄕˋ ㄧㄡˇ ㄓˇ ㄇㄠ.',
-            pinyin: 'ncong2 hou4 mian4 gan3 jue2 dao4 shi4 xian4 bing4 zhuan3 shen1 de shi2 hou4, zong3 shi4 you3 zhi1 mao1.',
+            pinyin: 'cong2 hou4 mian4 gan3 jue2 dao4 shi4 xian4 bing4 zhuan3 shen1 de shi2 hou4, zong3 shi4 you3 zhi1 mao1.',
             translation: '後ろからの視線を感じて振り返ると、いつも猫がいます。'
           },
           {
