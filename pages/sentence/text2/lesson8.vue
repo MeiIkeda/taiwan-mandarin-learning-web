@@ -174,10 +174,10 @@ export default {
           },
           {
             word: '學會',
-            sentence: '為了認真學會中文, 你需要一位老師。',
-            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄖㄣˋ ㄓㄣ ㄒㄩㄝˊ ㄏㄨㄟˋ ㄓㄨㄥ ㄨㄣˊ, ㄋㄧˇ ㄒㄩ ㄧㄠˋ ㄧ ㄨㄟˋ ㄌㄠˇ ㄕ.',
-            pinyin: 'wei4 le ren4 zhen1 xue2 hui4 zhong1 wen2, ni3 xu1 yao4 yi1 wei4 lao3 shi1.',
-            translation: '真剣に中国語を学ぶには、 先生が必要です。'
+            sentence: '為了學會中文, 你需要一位老師。',
+            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄒㄩㄝˊ ㄏㄨㄟˋ ㄓㄨㄥ ㄨㄣˊ, ㄋㄧˇ ㄒㄩ ㄧㄠˋ ㄧ ㄨㄟˋ ㄌㄠˇ ㄕ.',
+            pinyin: 'wei4 le xue2 hui4 zhong1 wen2, ni3 xu1 yao4 yi1 wei4 lao3 shi1.',
+            translation: '中国語をマスターするには、 先生が必要です。'
           },
           {
             word: '起不來',
