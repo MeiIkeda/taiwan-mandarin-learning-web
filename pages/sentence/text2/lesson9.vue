@@ -1,0 +1,414 @@
+<template>
+  <section>
+    <Header
+      :name="'sentence'"
+    />
+    <TextExampleSentenceFormat
+      :data="data"
+    />
+    <Footer
+      :name="'sentence'"
+    />
+    <br>
+  </section>
+</template>
+
+<script>
+import Header from '../../components/header'
+import Footer from '../../components/footer'
+import TextExampleSentenceFormat from '../components/textExampleSentenceFormat'
+export default {
+  components: {
+    Header,
+    Footer,
+    TextExampleSentenceFormat
+  },
+  head () {
+    return {
+      title: '例文集 sentence',
+      meta: [
+        { hid: 'keywords', name: 'keywords', content: '中国語, 台湾, 台湾華語, 繁体字, 単語, 聞き流し, ボポモフォ, 當代中文課程課, 例文' },
+        { hid: 'description', name: 'description', content: 'テキスト「當代中文課程課」の勉強ページ。 2冊目・第9章で登場する新単語を使った例文や気づいた事など' },
+        { hid: 'og:title', name: 'og:title', content: '中国語語彙　台湾華語 taiwan-mandarin | 台湾で学ぶ中国語の学習ノート' },
+        { hid: 'og:decription', name: 'og:decription', content: 'テキスト「當代中文課程課」の勉強ページ。 2冊目・第9章で登場する新単語を使った例文や気づいた事など' }
+      ]
+    }
+  },
+  data () {
+    return {
+      data: {
+        title: '當代中文課程課2・第9章',
+        words: [
+          {
+            word: '春假',
+            sentence: '這個春假之後，他的孩子將進入中學。',
+            bopomofo: 'ㄓㄜˋ ㄍㄜˋ ㄔㄨㄣ ㄐㄧㄚˋ ㄓ ㄏㄡˋ  ㄊㄚ ㄉㄜ˙ ㄏㄞˊ ㄗˇ ㄐㄧㄤ ㄐㄧㄣˋ ㄖㄨˋ ㄓㄨㄥ ㄒㄩㄝˊ.',
+            pinyin: 'zhe4 ge4 chun1 jia3/jia4 zhi1 hou4 ta1 de/di2/di4 hai2 zi3 jiang1/jiang4 jin4 ru4 zhong1/zhong4 xue2.',
+            translation: 'この春休みの後、彼の子供は中学校に入学します。',
+            memo: ''
+          },
+          {
+            word: '好',
+            sentence: '學校給學好的學生發獎學金。',
+            bopomofo: 'ㄒㄩㄝˊ ㄒㄧㄠˋ ㄍㄟˇ ㄒㄩㄝˊ ㄏㄠˇ ㄉㄜ˙ ㄒㄩㄝˊ ㄕㄥ ㄈㄚˋ ㄐㄧㄤˇ ㄒㄩㄝˊ ㄐㄧㄣ.',
+            pinyin: 'xue2 jiao4/xiao4 gei3 xue2 hao3/hao4 de/di2/di4 xue2 sheng1 fa1/fa4 jiang3 xue2 jin1.',
+            translation: '学校はよく勉強する生徒に奨学金を出します。',
+            memo: ''
+          },
+          {
+            word: '到',
+            sentence: '我於是理解到老鼠和倉鼠之間的區別。',
+            bopomofo: 'ㄨㄛˇ ㄩˊ ㄕˋ ㄌㄧˇ ㄐㄧㄝˇ ㄉㄠˋ ㄌㄠˇ ㄕㄨˇ ㄏㄜˊ ㄘㄤ ㄕㄨˇ ㄓ ㄐㄧㄢ ㄉㄜ˙ ㄑㄩ ㄅㄧㄝˊ.',
+            pinyin: 'wo3 wu1/yu1 shi4 li3 jie3 dao4 lao3 shu3 he2/he/huo/he4/hu2/huo2/huo4 cang1 shu3 zhi1 jian1/jian4 de/di2/di4 qu1 bie2/bie4.',
+            translation: '私はついに鼠とハムスターの違いを理解しました。',
+            memo: ''
+          },
+          {
+            word: '特色',
+            sentence: '大半の家の屋根が青いことがこの村の特徴です。',
+            bopomofo: 'ㄉㄚˋ ㄅㄢˋ  ㄐㄧㄚ  ㄨ ㄍㄣ  ㄑㄧㄥ       ㄘㄨㄣ  ㄊㄜˋ ㄓㄥ.',
+            pinyin: 'da4 ban4 jia1 wu1 gen1 qing1 cun1 te4 zhi3.',
+            translation: '這個村的特色是大部分的房子的屋頂是藍色的。',
+            memo: ''
+          },
+          {
+            word: '夠',
+            sentence: '我喝酒的不夠，我們去再一家居酒屋吧。',
+            bopomofo: 'ㄨㄛˇ ㄏㄜ ㄐㄧㄡˇ ㄉㄜ˙ ㄅㄨˋ ㄍㄡˋ  ㄨㄛˇ ㄇㄣ˙ ㄑㄩˋ ㄗㄞˋ ㄧ ㄐㄧㄚ ㄐㄩ ㄐㄧㄡˇ ㄨ ㄅㄚ˙.',
+            pinyin: 'wo3 he1 jiu3 de/di2/di4 bu2/bu4 gou4 wo3 men2/men qu4 zai4 yi1 jia1 ju1 jiu3 wu1 ba.',
+            translation: '飲み足りないので、もう一軒居酒屋に行きましょう。',
+            memo: ''
+          },
+          {
+            word: '顏色',
+            sentence: '你覺得這件紅色外套適合什麼顏色的鞋子呢?',
+            bopomofo: 'ㄋㄧˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄓㄜˋ ㄐㄧㄢˋ ㄏㄨㄥˊ ㄙㄜˋ ㄨㄞˋ ㄊㄠˋ ㄕˋ ㄏㄜˊ ㄕㄣˊ ㄇㄜ˙ ㄧㄢˊ ㄙㄜˋ ㄉㄜ˙ ㄒㄧㄝˊ ㄗˇ ㄋㄜ˙?',
+            pinyin: 'ni3 jiao4/jue2 de/de2/dei3 zhe4 jian4 hong2 se4 wai4 tao4 shi4 he2 shen2 me/mo2 yan2 se4 de/di2/di4 xie2 zi3 ne?',
+            translation: 'この赤いコートには何色の靴が合うと思いますか?',
+            memo: ''
+          },
+          {
+            word: '廟',
+            sentence: '這座城市有很多廟，所以每個星期都有一家廟舉行節日。',
+            bopomofo: 'ㄓㄜˋ ㄗㄨㄛˋ ㄔㄥˊ ㄕˋ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄇㄧㄠˋ  ㄙㄨㄛˇ ㄧˇ ㄇㄟˇ ㄍㄜˋ ㄒㄧㄥ ㄑㄧ ㄉㄡ ㄧㄡˇ ㄧ ㄐㄧㄚ ㄇㄧㄠˋ ㄐㄩˇ ㄒㄧㄥˊ ㄐㄧㄝˊㄖˋ.',
+            pinyin: 'zhe4 zuo4 cheng2 shi4 you3 hen3 duo1 miao4 suo3 yi3 mei3 ge4 xing1 qi1 dou1 you3 yi1 jia1 miao4 ju hang2/xing2/hang4/heng2 jie1/jie2 ri4.',
+            translation: '街にはお寺がたくさんあるので、毎週どこかしらでお祭りがあります。',
+            memo: ''
+          },
+          {
+            word: '像',
+            sentence: '那個孩子吃飯的樣子是像餓的一隻小狗。',
+            bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄏㄞˊ ㄗ˙ ㄔ ㄈㄢˋ ㄉㄜ˙ ㄧㄤˋ ㄗ˙ ㄕˋ ㄒㄧㄤˋ ㄜˋ ㄉㄜ˙ ㄧˋ ㄓ ㄒㄧㄠˇ ㄍㄡˇ.',
+            pinyin: 'na4 ge4 hai2 zi3 chi1 fan4 de/di2/di4 yang4 zi3 shi4 xiang4 e4 de/di2/di4 yi1 zhi1 xiao3 gou3.',
+            translation: 'あの子供が食事する様子はまるでお腹をすかせた子犬のようです。',
+            memo: ''
+          },
+          {
+            word: '教堂',
+            sentence: '在星期天，教堂裡到來的人很多。',
+            bopomofo: 'ㄗㄞˋ ㄒㄧㄥ ㄑㄧ ㄊㄧㄢ  ㄐㄧㄠˋ ㄊㄤˊ ㄌㄧˇ ㄉㄠˋ ㄌㄞˊ ㄉㄜ˙ ㄖㄣˊ ㄏㄣˇ ㄉㄨㄛ.',
+            pinyin: 'zai4 xing1 qi1 tian1 jiao1/jiao4 tang2 li3 dao4 lai2 de/di2/di4 ren2 hen3 duo1.',
+            translation: '日曜日には、たくさんの人が教会にやって来ます。',
+            memo: ''
+          },
+          {
+            word: '南部',
+            sentence: '在冬天台灣南部的天氣很好,但是非常乾燥.。',
+            bopomofo: 'ㄗㄞˋ ㄉㄨㄥ ㄊㄧㄢ ㄊㄞ ㄨㄢ ㄋㄢˊ ㄅㄨˋ ㄉㄜ˙ ㄊㄧㄢ ㄑㄧˋ ㄏㄣˇ ㄏㄠˇ  ㄉㄢˋ ㄕˋ ㄈㄟ ㄔㄤˊ ㄍㄢ ㄗㄠˋ.',
+            pinyin: 'zai4 dong1 tian1 tai2 wan1 nan2 bu4 de/di2/di4 tian1 xi4 hen3 hao3/hao4 dan4 shi4 fei1 chang2 qian2 zao4.',
+            translation: '冬の台湾南部の天気は良いですが、とても乾燥しています。',
+            memo: ''
+          },
+          {
+            word: '潛水',
+            sentence: '如果你擅長潛水,你可能採海膽.。',
+            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄕㄢˋ ㄔㄤˊ ㄑㄧㄢˊ ㄕㄨㄟˇ  ㄋㄧˇ ㄎㄜˇ ㄋㄥˊ ㄘㄞˇ ㄏㄞˇ ㄉㄢˇ.',
+            pinyin: 'ru2 guo3 ni3 shan4 chang2/zhang3 qian2 shui3 ni3 ke3 neng2 cai3 hai3 dan3.',
+            translation: 'ダイビングが上手なら、ウニを採れるかもしれません。',
+            memo: ''
+          },
+          {
+            word: '各',
+            sentence: '有各種尺寸，請嘗試一下。',
+            bopomofo: 'ㄧㄡˇ ㄍㄜˋ ㄓㄨㄥˇ ㄔˇ ㄘㄨㄣˋ  ㄑㄧㄥˇ ㄔㄤˊ ㄕˋ ㄧ ㄒㄧㄚˋ.',
+            pinyin: 'you3 ge4 zhong4/zhong3 chi3 cun4 qing3 chang2 shi4 yi1 xia4.',
+            translation: '色々なサイズがありますので、是非試着してみて下さい。',
+            memo: ''
+          },
+          {
+            word: '魚',
+            sentence: '晚餐是魚的時候，貓從做飯的時候開始不安靜。',
+            bopomofo: 'ㄨㄢˇ ㄘㄢ ㄕˋ ㄩˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ  ㄇㄠ ㄘㄨㄥˊ ㄗㄨㄛˋ ㄈㄢˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄎㄞ ㄕˇ ㄅㄨˋ ㄢ ㄐㄧㄥˋ.',
+            pinyin: 'wan3 can1 shi4 yu2 de/di2/di4 shi2 hou4 mao1 cong2 zuo4 fan4 de/di2/di4 shi2 hou4 kai1 shi3 bu2/bu4 an1 jing4.',
+            translation: '夕飯が魚の時は、調理している時から猫がソワソワし始めます。',
+            memo: ''
+          },
+          {
+            word: '酸',
+            sentence: '牛奶酸酸的是不太好,對嗎?',
+            bopomofo: 'ㄋㄧㄡˊ ㄋㄞˇ ㄙㄨㄢ ㄙㄨㄢ ㄉㄜ˙ ㄕˋ ㄅㄨˋ ㄊㄞˋ ㄏㄠˇ  ㄉㄨㄟˋ ㄇㄚ˙?',
+            pinyin: 'niu2 nai3 suan1 suan1 de/di2/di4 shi4 bu2/bu4 tai4 hao3/hao4 dui4 ma2?',
+            translation: '牛乳が酸っぱいのはあまり良くないんじゃないですか?',
+            memo: ''
+          },
+          {
+            word: '檸檬',
+            sentence: '放檸檬跟料理一起看起來時尚，所以我很推薦。',
+            bopomofo: 'ㄈㄤˋ ㄋㄧㄥˊ ㄇㄥˊ ㄍㄣ ㄌㄧㄠˋ ㄌㄧˇ ㄧˋ ㄑㄧˇ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄕˊ ㄕㄤˋ  ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄏㄣˇ ㄊㄨㄟ ㄐㄧㄢˋ.',
+            pinyin: 'fang4 ning2 meng2 gen1 liao4 li3 yi1 qi3 kan4/kan1 qi3 lai2 shi2 shang4 suo3 yi3 wo3 hen3 tui1 jian4.',
+            translation: 'レモンを料理に添えるとお洒落に見えるので、とてもお勧めです。',
+            memo: ''
+          },
+          {
+            word: '味道',
+            sentence: '我個人覺得便宜的紅酒的味道比貴的更好。',
+            bopomofo: 'ㄨㄛˇ ㄍㄜˋ ㄖㄣˊ ㄐㄩㄝˊ ㄉㄜ˙ ㄆㄧㄢˊ ㄧˊ ㄉㄜ˙ ㄏㄨㄥˊ ㄐㄧㄡˇ ㄉㄜ˙ ㄨㄟˋ ㄉㄠˋ ㄅㄧˇ ㄍㄨㄟˋ ㄉㄜ˙ ㄍㄥˋ ㄏㄠˇ.',
+            pinyin: 'wo3 ge4 ren2 jiao4/jue2 de/de2/dei3 bian4 yi2 de/di2/di4 hong2 jiu3 de/di2/di4 wei4 dao4 bi3 gui4 de/di2/di4 geng1/geng4 hao3/hao4.',
+            translation: '個人的には安い赤ワインの方が高いものよりも美味しいと思います。',
+            memo: ''
+          },
+          {
+            word: '泰國',
+            sentence: '我很喜歡泰國菜，所以我要買椰奶。',
+            bopomofo: 'ㄨㄛˇ ㄏㄣˇ ㄒㄧˇ ㄏㄨㄢ ㄊㄞˋ ㄍㄨㄛˊ ㄘㄞˋ  ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄧㄠˋ ㄇㄞˇ ㄧㄝ ㄋㄞˇ.',
+            pinyin: 'wo3 hen3 xi3 huan tai4 guo2 cai4 suo3 yi3 wo3 yao1/yao4 mai3 ye1 nai3.',
+            translation: 'タイ料理が大好きなので、ココナッツミルクを買いたいです。',
+            memo: ''
+          },
+          {
+            word: '比起來',
+            sentence: '台灣的醬油的顏色跟日本的比起來重。',
+            bopomofo: 'ㄊㄞˊ ㄨㄢ ㄉㄜ˙ ㄐㄧㄤˋ ㄧㄡˊ ㄉㄜ˙ ㄧㄢˊ ㄙㄜˋ ㄍㄣ ㄖˋ ㄅㄣˇ ㄉㄜ˙ ㄅㄧˇ ㄑㄧˇ ㄌㄞˊ ㄓㄨㄥˋ.',
+            pinyin: 'tai2 wan1 de/di2/di4 jiang4 you2 de/di2/di4 yan2 se4 gen1 ri4 ben3 de/di2/di4 bi3 qi3 lai2 chong2/zhong4.',
+            translation: '台湾の醤油の色は日本のものよりも濃いです。',
+            memo: ''
+          },
+          {
+            word: '極了',
+            sentence: '貓的毛蓬蓬極了,摸的很舒服。',
+            bopomofo: 'ㄇㄠ ㄉㄜ˙ ㄇㄠˊ ㄆㄥˊ ㄆㄥˊ ㄐㄧˊ ㄌㄜ˙  ㄇㄛ ㄉㄜ˙ ㄏㄣˇ ㄕㄨ ㄈㄨˊ.',
+            pinyin: 'mao1 de/di2/di4 mao2 peng2 peng2 ji3 le/liao3 mo1/mo2 de/di2/di4 hen3 shu1 fu2.',
+            translation: '猫の毛は最高にふわふわで、触り心地がとても良いです。',
+            memo: ''
+          },
+          {
+            word: '忘不了',
+            sentence: '在某年的尾牙我失去差不多全部的記憶是忘不了的經驗。',
+            bopomofo: 'ㄗㄞˋ ㄇㄡˇ ㄋㄧㄢˊ ㄉㄜ˙ ㄨㄟˇ ㄧㄚˊ ㄨㄛˇ ㄕ ㄑㄩˋ ㄔㄚˋ ㄅㄨˋ ㄉㄨㄛ ㄑㄩㄢˊ ㄅㄨˋ ㄉㄜ˙ ㄐㄧˋ ㄧˋ ㄕˋ ㄨㄤˋ ㄅㄨˋ ㄌㄧㄠˇ ㄉㄜ˙ ㄐㄧㄥ ㄧㄢˋ.',
+            pinyin: 'zai4 mou3 nian2 de/di2/di4 wei3 ya2 wo3 shi1 qu4 cha1/cha4/chai1/ci1 bu2/bu4 duo1 quan2 bu4 de/di2/di4 ji4 yi4 shi4 wang4 bu2/bu4 le/liao3 de/di2/di4 jing1 yan4.',
+            translation: 'ある年の忘年会でほぼ全て記憶を失くしたのは、忘れられない経験です。',
+            memo: ''
+          },
+          {
+            word: '鄉下',
+            sentence: '網路很發達了，最近你甚至可以在鄉下做城市的工作。',
+            bopomofo: 'ㄨㄤˇ ㄌㄨˋ ㄏㄣˇ ㄈㄚ ㄉㄚˊ ㄌㄜ˙  ㄗㄨㄟˋ ㄐㄧㄣˋ ㄋㄧˇ ㄕㄣˋ ㄓˋ ㄎㄜˇ ㄧˇ ㄗㄞˋ ㄒㄧㄤ ㄒㄧㄚˋ ㄗㄨㄛˋ ㄔㄥˊ ㄕˋ ㄉㄜ˙ ㄍㄨㄥ ㄗㄨㄛˋ.',
+            pinyin: 'wang3 lu4 hen3 fa1/fa4 da2 le/liao3 zui4 jin4 ni3 shen4 zhi4 ke3 yi3 zai4 xiang1 xia4 zuo4 cheng2 shi4 de/di2/di4 gong1 zuo1/zuo4.',
+            translation: 'ネットが非常に発達したので、最近では田舎で都市の仕事をすることさえできます。',
+            memo: ''
+          },
+          {
+            word: '氣氛',
+            sentence: '因為我有一個不耐煩的同事,工作氣氛不是很好。',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄧㄡˇ ㄧˊ ㄍㄜˋ ㄅㄨˋ ㄋㄞˋ ㄈㄢˊ ㄉㄜ˙ ㄊㄨㄥˊ ㄕˋ  ㄍㄨㄥ ㄗㄨㄛˋ ㄑㄧˋ ㄈㄣ ㄅㄨˊ ㄕˋ ㄏㄣˇ ㄏㄠˇ.',
+            pinyin: 'yin1 wei2/wei4 wo3 you3 yi1 ge4 bu2/bu4 nai4 fan2 de/di2/di4 tong2 shi4 gong1 zuo1/zuo4 xi4 fen1 bu2/bu4 shi4 hen3 hao3/hao4.',
+            translation: 'イライラしている同僚がいるので、職場の雰囲気はあまり良くないです。。',
+            memo: ''
+          },
+          {
+            word: '鎮',
+            sentence: '新聞說一隻熊走進去了一個山上附近的小鎮。',
+            bopomofo: 'ㄒㄧㄣ ㄨㄣˊ ㄕㄨㄛ ㄧˋ ㄓ ㄒㄩㄥˊ ㄗㄡˇ ㄐㄧㄣˋ ㄑㄩˋ ㄌㄜ˙ ㄧˊ ㄍㄜˋ ㄕㄢ ㄕㄤˋ ㄈㄨˋ ㄐㄧㄣˋ ㄉㄜ˙ ㄒㄧㄠˇ ㄓㄣˋ.',
+            pinyin: 'xin1 wen2 shuo1 yi1 zhi1 xiong2 zou3 jin4 qu4 le/liao3 yi1 ge4 shan1 shang4 fu4 jin4 de/di2/di4 xiao3 zhen4.',
+            translation: 'そのニュースによると、クマが山の近くの小さな町に入ったらしい。',
+            memo: ''
+          },
+          {
+            word: '不同',
+            sentence: '北部和南部的菜不同,如果你喜歡甜甜的應該到南部去.。',
+            bopomofo: 'ㄅㄟˇ ㄅㄨˋ ㄏㄜˊ ㄋㄢˊ ㄅㄨˋ ㄉㄜ˙ ㄘㄞˋ ㄅㄨˋ ㄊㄨㄥˊ  ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄒㄧˇ ㄏㄨㄢ ㄊㄧㄢˊ ㄊㄧㄢˊ ㄉㄜ˙ ㄧㄥˋ ㄍㄞ ㄉㄠˋ ㄋㄢˊ ㄅㄨˋ ㄑㄩˋ.',
+            pinyin: 'bei3 bu4 he2/he/huo/he4/hu2/huo2/huo4 nan2 bu4 de/di2/di4 cai4 bu2/bu4 tong2 ru2 guo3 ni3 xi3 huan tian2 tian2 de/di2/di4 ying1/ying4 gai1 dao4 nan2 bu4 qu4.',
+            translation: '北部と南部の料理は異なっていて、もしあなたが甘い味が好きなら南部に行くべきです。',
+            memo: ''
+          },
+          {
+            word: '現代',
+            sentence: '現代的問題和過去的完全不同,我們得考慮新解決方法。',
+            bopomofo: 'ㄒㄧㄢˋ ㄉㄞˋ ㄉㄜ˙ ㄨㄣˋ ㄊㄧˊ ㄏㄜˊ ㄍㄨㄛˋ ㄑㄩˋ ㄉㄜ˙ ㄨㄢˊ ㄑㄩㄢˊ ㄅㄨˋ ㄊㄨㄥˊ  ㄨㄛˇ ㄇㄣ˙ ㄉㄜˊ ㄎㄠˇ ㄌㄩˋ ㄒㄧㄣ ㄐㄧㄝˇ ㄐ ㄩㄝˊ ㄈㄤ ㄈㄚˇ.',
+            pinyin: 'xian4 dai4 de/di2/di4 wen4 ti2 he2/he/huo/he4/hu2/huo2/huo4 guo4 qu4 de/di2/di4 wan2 quan2 bu2/bu4 tong2 wo3 men2/men de/de2/dei3 kao3 lv4 xin1 jie3 jue2 fang1 fa3.',
+            translation: '現代の問題は過去とはまったく異なり、新しい解決策を検討する必要があります。',
+            memo: ''
+          },
+          {
+            word: '公寓',
+            sentence: '在這家公寓大部分的居民都像學生，他們每天都有派對。',
+            bopomofo: 'ㄗㄞˋ ㄓㄜˋ ㄐㄧㄚ ㄍㄨㄥ ㄩˋ ㄉㄚˋ ㄅㄨˋ ㄈㄣˋ ㄉㄜ˙ ㄐㄩ ㄇㄧㄣˊ ㄉㄡ ㄒㄧㄤˋ ㄒㄩㄝˊ ㄕㄥ  ㄊㄚ ㄇㄣ˙ ㄇㄟˇ ㄊㄧㄢ ㄉㄨ ㄧㄡˇ ㄆㄞˋ ㄉ ㄨㄟˋ.',
+            pinyin: 'zai4 zhe4 jia1 gong1 yu4 da4 bu4 fen1/fen4/fen de/di2/di4 ju1 min2 dou1 xiang4 xue2 sheng1 ta1 men2/men mei3 tian1 dou1 you3 pai4 dui4.',
+            translation: 'このアパートの住人のほとんどは学生のようで、毎日パーティーを開いています。',
+            memo: ''
+          },
+          {
+            word: '馬路',
+            sentence: '馬路有躺的喝醉人,有人可以對應嗎?',
+            bopomofo: 'ㄇㄚˇ ㄌㄨˋ ㄧㄡˇ ㄊㄤˇ ㄉㄜ˙ ㄏㄜ ㄗㄨㄟˋ ㄖㄣˊ  ㄧㄡˇ ㄖㄣˊ ㄎㄜˇ ㄧˇ ㄉㄨㄟˋ ㄧㄥˋ ㄇㄚ˙?',
+            pinyin: 'ma3 lu4 you3 tang3 de/di2/di4 he1 zui4 ren2 you3 ren2 ke3 yi3 dui4 ying1/ying4 ma2?',
+            translation: '道に寝転んでいる酔っ払いがいますが、誰か何とかしてくれませんか?',
+            memo: ''
+          },
+          {
+            word: '寬',
+            sentence: '貓的額頭不寬。',
+            bopomofo: 'ㄇㄠ ㄉㄜ˙ ㄜˊ ㄊㄡˊ ㄅㄨˋ ㄎㄨㄢ.',
+            pinyin: 'mao1 de/di2/di4 e2 tou2 bu2/bu4 kuan1.',
+            translation: '猫の額は広くない。',
+            memo: ''
+          },
+          {
+            word: '汽車',
+            sentence: '在鄉下需要汽車，所以你應該及早獲得駕照。',
+            bopomofo: 'ㄗㄞˋ ㄒㄧㄤ ㄒㄧㄚˋ ㄒㄩ ㄧㄠˋ ㄑㄧˋ ㄔㄜ  ㄙㄨㄛˇ ㄧˇ ㄋㄧˇ ㄧㄥ ㄍㄞ ㄐㄧˊ ㄗㄠˇ ㄏㄨㄛˋ ㄉㄜˊ ㄐㄧㄚˋ ㄓㄠˋ.',
+            pinyin: 'zai4 xiang1 xia4 xu1 yao1/yao4 qi4 che1 suo3 yi3 ni3 ying1/ying4 gai1 ji2 zao3 huo4 de/de2/dei3 jia4 zhao4.',
+            translation: '田舎では車が必要なので、早めに免許を取りに行った方がいいですよ。',
+            memo: ''
+          },
+          {
+            word: '建築',
+            sentence: '她喜歡西式建築，經常去來拍照。',
+            bopomofo: 'ㄊㄚ ㄒㄧˇ ㄏㄨㄢ ㄒㄧ ㄕˋ ㄐㄧㄢˋ ㄓㄨˋ  ㄐㄧㄥ ㄔㄤˊ ㄑㄩˋ ㄌㄞˊ ㄆㄞ ㄓㄠˋ.',
+            pinyin: 'ta1 xi3 huan xi1 shi4 jian4 zhu4 jing1 chang2 qu4 lai2 pai1 zhao4.',
+            translation: '彼女は洋風の建築が好きで、よく写真を撮りに行っています。',
+            memo: ''
+          },
+          {
+            word: '老',
+            sentence: '背包客旅館分散地在老城區。',
+            bopomofo: 'ㄅㄟ ㄅㄠ ㄎㄜˋ ㄌㄩˇ ㄍㄨㄢˇ ㄈㄣ ㄙㄢˇ ㄉㄧˋ ㄗㄞˋ ㄌㄠˇ ㄔㄥˊ ㄑㄩ.',
+            pinyin: 'bei1/bei4 bao1 ke4 lv3 guan3 fen1/fen4/fen san3/san4 di4 zai4 lao3 cheng2 qu1.',
+            translation: 'バックパッカー宿は旧市街に点在しています。',
+            memo: ''
+          },
+          {
+            word: '層',
+            sentence: '我想搬到高的層因為那裡應該沒有蟲。',
+            bopomofo: 'ㄨㄛˇ ㄒㄧㄤˇ ㄅㄢ ㄉㄠˋ ㄍㄠ ㄉㄜ˙ ㄘㄥˊ ㄧㄣ ㄨㄟˋ ㄋㄚˋ ㄌㄧˇ ㄧㄥ ㄍㄞ ㄇㄟˊ ㄧㄡˇ ㄔㄨㄥˊ.',
+            pinyin: 'wo3 xiang3 ban1 dao4 gao1 de/di2/di4 ceng2 yin1 wei2/wei4 na4 li3 ying1/ying4 gai1 mei2/mo4 you3 chong2.',
+            translation: '虫がいないはずなので高層階に引っ越したいです。',
+            memo: ''
+          },
+          {
+            word: '北部',
+            sentence: '我以為夏天涼快的北部很好,但是看到冬天的狀態後我改變了主意。',
+            bopomofo: 'ㄨㄛˇ ㄧˇ ㄨㄟˊ ㄒㄧㄚˋ ㄊㄧㄢ ㄌㄧㄤˊ ㄎㄨㄞˋ ㄉㄜ˙ ㄅㄟˇ ㄅㄨˋ ㄏㄣˇ ㄏㄠˇ  ㄉㄢˋ ㄕˋ ㄎㄢˋ ㄉㄠˋ ㄉㄨㄥ ㄊㄧㄢ ㄉㄜ˙ ㄓㄨㄤˋ ㄊㄞˋ ㄏㄡˋ ㄨㄛˇ ㄍㄞˇ ㄅㄧㄢˋ ㄌㄜ˙ ㄓㄨˇ ㄧˋ.',
+            pinyin: 'wo3 yi3 wei2/wei4 xia4 tian1 liang2 kuai4 de/di2/di4 bei3 bu4 hen3 hao3/hao4 dan4 shi4 kan4/kan1 dao4 dong1 tian1 de/di2/di4 zhuang4 tai4 hou4 wo3 gai3 bian4 le/liao3 zhu3 yi4.',
+            translation: '夏が涼しい北部は良いと思っていましたが、冬の様子を見て気が変わりました。',
+            memo: ''
+          },
+          {
+            word: '熱情',
+            sentence: '在城市我不常與人交往，所以我感動了鄉下人的熱情。',
+            bopomofo: 'ㄗㄞˋ ㄔㄥˊ ㄕˋ ㄨㄛˇ ㄅㄨˋ ㄔㄤˊ ㄩˊ ㄖㄣˊ ㄐㄧㄠ ㄨㄤˇ  ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄍㄢˇ ㄉㄨㄥˋ ㄌㄜ˙ ㄒㄧㄤ ㄒㄧㄚˋ ㄖㄣˊ ㄉㄜ˙ ㄖㄜˋ ㄑㄧㄥˊ.',
+            pinyin: 'zai4 cheng2 shi4 wo3 bu2/bu4 chang2 yu2 ren2 jiao1 wang3 suo3 yi3 wo3 gan3 dong4 le/liao3 xiang1 xia4 ren2 de/di2/di4 re4 qing2.',
+            translation: '都会ではあまり人と関わらないので、田舎の人の親切さに感動しました。',
+            memo: ''
+          },
+          {
+            word: '擠',
+            sentence: '你有沒有體驗在東京最擠的時間的捷運?',
+            bopomofo: 'ㄋㄧˇ ㄧㄡˇ ㄇㄟˊ ㄧㄡˇ ㄊㄧˇ ㄧㄢˋ ㄗㄞˋ ㄉㄨㄥ ㄐㄧㄥ ㄗㄨㄟˋ ㄐㄧˇ ㄉㄜ˙ ㄕˊ ㄐㄧㄢ ㄉㄜ˙ ㄐㄧㄝˊ ㄩㄣˋ?',
+            pinyin: 'ni3 you3 mei2/mo4 you3 ti3 yan4 zai4 dong1 jing1 zui4 ji3 de/di2/di4 shi2 jian1/jian4 de/di2/di4 jie2 yun4?',
+            translation: '東京の最も混雑した時間帯の電車を体験したことがありますか?',
+            memo: ''
+          },
+          {
+            word: '飲料',
+            sentence: '台灣有的飲料架非常方便。',
+            bopomofo: 'ㄊㄞˊ ㄨㄢ ㄧㄡˇ ㄉㄜ˙ ㄧㄣˇ ㄌㄧㄠˋ ㄐㄧㄚˋ ㄈㄟ ㄔㄤˊ ㄈㄤ ㄅㄧㄢˋ.',
+            pinyin: 'tai2 wan1 you3 de/di2/di4 yin3 liao4 jia4 fei1 chang2 fang1 bian4.',
+            translation: '台湾の飲み物ホルダーはとても便利です。',
+            memo: ''
+          },
+          {
+            word: '巴黎',
+            sentence: '巴黎有一座有名的塔，所以我想爬上它。',
+            bopomofo: 'ㄅㄚ ㄌㄧˊ ㄧㄡˇ ㄧ ㄗㄨㄛˋ ㄧㄡˇ ㄇㄧㄥˊ ㄉㄜ˙ ㄊㄚˇ  ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄒㄧㄤˇ ㄆㄚˊ ㄕㄤˋ ㄊㄚ.',
+            pinyin: 'ba1 li2 you3 yi1 zuo4 you3 ming2 de/di2/di4 ta3 suo3 yi3 wo3 xiang3 pa2 shang4 ta1.',
+            translation: 'パリには有名な塔があるので、登ってみたいです。',
+            memo: ''
+          },
+          {
+            word: '高雄市',
+            sentence: '早上從台南到高雄市的機場去坐公車最好。',
+            bopomofo: 'ㄗㄠˇ ㄕㄤˋ ㄘㄨㄥˊ ㄊㄞˊ ㄋㄢˊ ㄉㄠˋ ㄍㄠ ㄒㄩㄥˊ ㄕˋ ㄉㄜ˙ ㄐㄧ ㄔㄤˇ ㄑㄩˋ ㄗㄨㄛˋ ㄍㄨㄥ ㄔㄜ ㄗㄨㄟˋ ㄏㄠˇ.',
+            pinyin: 'zao3 shang4 cong2 tai2 nan2 dao4 gao1 xiong2 shi4 de/di2/di4 ji1 chang2/chang3 qu4 zuo4 gong1 che1 zui4 hao3/hao4.',
+            translation: '早朝に台南から高雄の空港に行くには、バスに乗るのが最善です。',
+            memo: ''
+          },
+          {
+            word: '中南部',
+            sentence: '中南部的人差不多會說台語。',
+            bopomofo: 'ㄓㄨㄥ ㄋㄢˊ ㄅㄨˋ ㄉㄜ˙ ㄖㄣˊ ㄔㄚˋ ㄅㄨˋ ㄉㄨㄛ ㄏㄨㄟˋ ㄕㄨㄛ ㄊㄞˊ ㄩˇ.',
+            pinyin: 'zhong1/zhong4 nan2 bu4 de/di2/di4 ren2 cha1/cha4/chai1/ci1 bu2/bu4 duo1 hui4 shuo1 tai2 yu3.',
+            translation: '中南部の人々はほとんど台湾語を話せます。',
+            memo: ''
+          },
+          {
+            word: '買得起',
+            sentence: '電鍋又便利又安全,真的買得起。',
+            bopomofo: 'ㄉㄧㄢˋ ㄍㄨㄛ ㄧㄡˋ ㄅㄧㄢˋ ㄌㄧˋ ㄧㄡˋ ㄢ ㄑㄩㄢˊ  ㄓㄣ ㄉㄜ˙ ㄇㄞˇ ㄉㄜ˙ ㄑㄧˇ.',
+            pinyin: 'dian4 guo1 you4 bian4 li4 you4 an1 quan2 zhen1 de/di2/di4 mai3 de/de2/dei3 qi3.',
+            translation: '電気蒸し器は便利で安全で、本当に買う価値があります。',
+            memo: ''
+          },
+          {
+            word: '百貨公司',
+            sentence: '百貨公司的東西比較貴,我要先去小小的店購物。',
+            bopomofo: 'ㄅㄞˇ ㄏㄨㄛˋ ㄍㄨㄥ ㄙ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ ㄅㄧˇ ㄐㄧㄠˋ ㄍㄨㄟˋ  ㄨㄛˇ ㄧㄠˋ ㄒㄧㄢ ㄑㄩˋ ㄒㄧㄠˇ ㄒㄧㄠˇ ㄉㄜ˙ ㄉㄧㄢˋ ㄍㄡˋ ㄨˋ.',
+            pinyin: 'bai3 huo4 gong1 si1 de/di2/di4 dong1 xi1 bi3 jiao4 gui4 wo3 yao1/yao4 xian1 qu4 xiao3 xiao3 de/di2/di4 dian4 gou4 wu4.',
+            translation: 'デパートの品物は高めなので、先に小さな店に買い物に行きます。',
+            memo: ''
+          },
+          {
+            word: '越來越',
+            sentence: '因為天氣越來越冷,我上次出去的是兩個星期前。',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄊㄧㄢ ㄑㄧˋ ㄩㄝˋ ㄌㄞˊ ㄩㄝˋ ㄌㄥˇ  ㄨㄛˇ ㄕㄤˋ ㄘˋ ㄔㄨ ㄑㄩˋ ㄉㄜ˙ ㄕˋ ㄌㄧㄤˇ ㄍㄜˋ ㄒㄧㄥ ㄑㄧ ㄑㄧㄢˊ.',
+            pinyin: 'yin1 wei2/wei4 tian1 xi4 yue4 lai2 yue4 leng3 wo3 shang4 ci4 chu1 qu4 de/di2/di4 shi4 liang3 ge4 xing1 qi1 qian2.',
+            translation: 'どんどん寒くなってきているので、最後に出かけたのは二週間前です。',
+            memo: ''
+          }
+        ]
+      }
+    }
+  }
+}
+</script>
+
+<style lang="stylus">
+  .text-itself-about
+    text-align: left
+    margin: 0 250px
+    @media screen and (max-width : 767px)
+      margin: 0 20px
+    //@media screen and (min-width : 1024px)
+    // ここにタブレット・PCの記述
+  .main-text1
+    /*animation: fadeIn 1.5s ease 0s 1 normal*/
+    /*-webkit-animation: fadeIn 1.5s ease 0s 1 normal*/
+    text-align: center
+    // background-image: url('../../static/img/sunset_4.jpg') !important
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;/*点線*/
+    width: 95%
+    height: 100%
+    background-size: cover
+    margin: 0 auto
+    @media screen and (max-width : 767px)
+      width: 100%
+  /* じわっと画像が表示される */
+  @keyframes fadeIn  /*上のbody内で呼び出しているアニメーションと名前をそろえる*/
+    0% {opacity: 0} /* 始め */
+    100% {opacity: 1} /* 終わり */
+  /*古いブラウザ用*/
+  @-webkit-keyframes fadeIn
+    0% {opacity: 0}
+    100% {opacity: 1}
+</style>
