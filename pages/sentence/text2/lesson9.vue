@@ -91,7 +91,7 @@ export default {
             word: '廟',
             sentence: '這座城市有很多廟， 所以每個星期都有一家廟舉行節日。',
             bopomofo: 'ㄓㄜˋ ㄗㄨㄛˋ ㄔㄥˊ ㄕˋ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄇㄧㄠˋ, ㄙㄨㄛˇ ㄧˇ ㄇㄟˇ ㄍㄜˋ ㄒㄧㄥ ㄑㄧ ㄉㄡ ㄧㄡˇ ㄧ ㄐㄧㄚ ㄇㄧㄠˋ ㄐㄩˇ ㄒㄧㄥˊ ㄐㄧㄝˊㄖˋ.',
-            pinyin: 'zhe4 zuo4 cheng2 shi4 you3 hen3 duo1 miao4, suo3 yi3 mei3 ge4 xing1 qi1 dou1 you3 yi1 jia1 miao4 ju xing2 jie2 ri4.',
+            pinyin: 'zhe4 zuo4 cheng2 shi4 you3 hen3 duo1 miao4, suo3 yi3 mei3 ge4 xing1 qi1 dou1 you3 yi1 jia1 miao4 ju3 xing2 jie2 ri4.',
             translation: '街にはお寺がたくさんあるので、 毎週どこかしらでお祭りがあります。',
             memo: ''
           },
@@ -99,7 +99,7 @@ export default {
             word: '像',
             sentence: '那個孩子吃飯的樣子是像餓的一隻小狗。',
             bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄏㄞˊ ㄗ˙ ㄔ ㄈㄢˋ ㄉㄜ˙ ㄧㄤˋ ㄗ˙ ㄕˋ ㄒㄧㄤˋ ㄜˋ ㄉㄜ˙ ㄧˋ ㄓ ㄒㄧㄠˇ ㄍㄡˇ.',
-            pinyin: 'na4 ge4 hai2 zi3 chi1 fan4 de yang4 zi shi4 xiang4 e4 de yi1 zhi1 xiao3 gou3.',
+            pinyin: 'na4 ge4 hai2 zi chi1 fan4 de yang4 zi shi4 xiang4 e4 de yi1 zhi1 xiao3 gou3.',
             translation: 'あの子供が食事する様子はまるでお腹をすかせた子犬のようです。',
             memo: ''
           },
@@ -113,18 +113,18 @@ export default {
           },
           {
             word: '南部',
-            sentence: '在冬天台灣南部的天氣很好, 但是非常乾燥.。',
+            sentence: '在冬天台灣南部的天氣很好, 但是非常乾燥。',
             bopomofo: 'ㄗㄞˋ ㄉㄨㄥ ㄊㄧㄢ ㄊㄞ ㄨㄢ ㄋㄢˊ ㄅㄨˋ ㄉㄜ˙ ㄊㄧㄢ ㄑㄧˋ ㄏㄣˇ ㄏㄠˇ, ㄉㄢˋ ㄕˋ ㄈㄟ ㄔㄤˊ ㄍㄢ ㄗㄠˋ.',
             pinyin: 'zai4 dong1 tian1 tai2 wan1 nan2 bu4 de tian1 qi4 hen3 hao3, dan4 shi4 fei1 chang2 gan1 zao4.',
-            translation: '冬の台湾南部の天気は良いですが、とても乾燥しています。',
+            translation: '冬の台湾南部の天気は良いですが、 とても乾燥しています。',
             memo: ''
           },
           {
             word: '潛水',
-            sentence: '如果你擅長潛水,你可能採海膽。',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄕㄢˋ ㄔㄤˊ ㄑㄧㄢˊ ㄕㄨㄟˇ  ㄋㄧˇ ㄎㄜˇ ㄋㄥˊ ㄘㄞˇ ㄏㄞˇ ㄉㄢˇ.',
-            pinyin: 'ru2 guo3 ni3 shan4 chang2 qian2 shui3 ni3 ke3 neng2 cai3 hai3 dan3.',
-            translation: 'ダイビングが上手なら、ウニを採れるかもしれません。',
+            sentence: '如果你擅長潛水, 你可能採海膽。',
+            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄕㄢˋ ㄔㄤˊ ㄑㄧㄢˊ ㄕㄨㄟˇ, ㄋㄧˇ ㄎㄜˇ ㄋㄥˊ ㄘㄞˇ ㄏㄞˇ ㄉㄢˇ.',
+            pinyin: 'ru2 guo3 ni3 shan4 chang2 qian2 shui3, ni3 ke3 neng2 cai3 hai3 dan3.',
+            translation: 'ダイビングが上手なら、 ウニを採れるかもしれません。',
             memo: ''
           },
           {
@@ -209,8 +209,8 @@ export default {
           },
           {
             word: '氣氛',
-            sentence: '因為我有一個不耐煩的同事,工作氣氛不是很好。',
-            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄧㄡˇ ㄧˊ ㄍㄜˋ ㄅㄨˋ ㄋㄞˋ ㄈㄢˊ ㄉㄜ˙ ㄊㄨㄥˊ ㄕˋ, ㄍㄨㄥ ㄗㄨㄛˋ ㄑㄧˋ ㄈㄣ ㄅㄨˊ ㄕˋ ㄏㄣˇ ㄏㄠˇ.',
+            sentence: '因為我有一個不耐煩的同事, 工作氣氛不是很好。',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄧㄡˇ ㄧˊ ㄍㄜˋ ㄅㄨˊ ㄋㄞˋ ㄈㄢˊ ㄉㄜ˙ ㄊㄨㄥˊ ㄕˋ, ㄍㄨㄥ ㄗㄨㄛˋ ㄑㄧˋ ㄈㄣ ㄅㄨˊ ㄕˋ ㄏㄣˇ ㄏㄠˇ.',
             pinyin: 'yin1 wei4 wo3 you3 yi1 ge4 bu2 nai4 fan2 de tong2 shi4, gong1 zuo4 qi4 fen1 bu2 shi4 hen3 hao3.',
             translation: 'イライラしている同僚がいるので、職場の雰囲気はあまり良くないです。',
             memo: ''
@@ -233,8 +233,8 @@ export default {
           },
           {
             word: '現代',
-            sentence: '現代的問題和過去的完全不同,我們得考慮新解決方法。',
-            bopomofo: 'ㄒㄧㄢˋ ㄉㄞˋ ㄉㄜ˙ ㄨㄣˋ ㄊㄧˊ ㄏㄢˋ ㄍㄨㄛˋ ㄑㄩˋ ㄉㄜ˙ ㄨㄢˊ ㄑㄩㄢˊ ㄅㄨˋ ㄊㄨㄥˊ, ㄨㄛˇ ㄇㄣ˙ ㄉㄟˇ ㄎㄠˇ ㄌㄩˋ ㄒㄧㄣ ㄐㄧㄝˇ ㄐ ㄩㄝˊ ㄈㄤ ㄈㄚˇ.',
+            sentence: '現代的問題和過去的完全不同, 我們得考慮新解決方法。',
+            bopomofo: 'ㄒㄧㄢˋ ㄉㄞˋ ㄉㄜ˙ ㄨㄣˋ ㄊㄧˊ ㄏㄢˋ ㄍㄨㄛˋ ㄑㄩˋ ㄉㄜ˙ ㄨㄢˊ ㄑㄩㄢˊ ㄅㄨˋ ㄊㄨㄥˊ, ㄨㄛˇ ㄇㄣ˙ ㄉㄟˇ ㄎㄠˇ ㄌㄩˋ ㄒㄧㄣ ㄐㄧㄝˇ ㄐㄩㄝˊ ㄈㄤ ㄈㄚˇ.',
             pinyin: 'xian4 dai4 de wen4 ti2 han4 guo4 qu4 de wan2 quan2 bu4 tong2, wo3 men dei3 kao3 lu4 xin1 jie3 jue2 fang1 fa3.',
             translation: '現代の問題は過去とはまったく異なり、新しい解決策を検討する必要があります。',
             memo: ''
@@ -249,9 +249,9 @@ export default {
           },
           {
             word: '馬路',
-            sentence: '馬路有躺的喝醉人, 有人可以對應嗎?',
-            bopomofo: 'ㄇㄚˇ ㄌㄨˋ ㄧㄡˇ ㄊㄤˇ ㄉㄜ˙ ㄏㄜ ㄗㄨㄟˋ ㄖㄣˊ, ㄧㄡˇ ㄖㄣˊ ㄎㄜˇ ㄧˇ ㄉㄨㄟˋ ㄧㄥˋ ㄇㄚ˙?',
-            pinyin: 'ma3 lu4 you3 tang3 de he1 zui4 ren2, you3 ren2 ke3 yi3 dui4 ying4 ma2?',
+            sentence: '馬路有躺著喝醉人, 有人可以對應嗎?',
+            bopomofo: 'ㄇㄚˇ ㄌㄨˋ ㄧㄡˇ ㄊㄤˇ ㄓㄜ˙ ㄏㄜ ㄗㄨㄟˋ ㄖㄣˊ, ㄧㄡˇ ㄖㄣˊ ㄎㄜˇ ㄧˇ ㄉㄨㄟˋ ㄧㄥˋ ㄇㄚ˙?',
+            pinyin: 'ma3 lu4 you3 tang3 zhe he1 zui4 ren2, you3 ren2 ke3 yi3 dui4 ying4 ma2?',
             translation: '道に寝転んでいる酔っ払いがいますが、 誰か何とかしてくれませんか?',
             memo: ''
           },
@@ -274,8 +274,8 @@ export default {
           {
             word: '建築',
             sentence: '她喜歡西式建築， 經常去來拍照。',
-            bopomofo: 'ㄊㄚ ㄒㄧˇ ㄏㄨㄢ ㄒㄧ ㄕˋ ㄐㄧㄢˋ ㄓㄨˋ  ㄐㄧㄥ ㄔㄤˊ ㄑㄩˋ ㄌㄞˊ ㄆㄞ ㄓㄠˋ.',
-            pinyin: 'ta1 xi3 huan1 xi1 shi4 jian4 zhu4 jing1 chang2 qu4 lai2 pai1 zhao4.',
+            bopomofo: 'ㄊㄚ ㄒㄧˇ ㄏㄨㄢ ㄒㄧ ㄕˋ ㄐㄧㄢˋ ㄓㄨˋ, ㄐㄧㄥ ㄔㄤˊ ㄑㄩˋ ㄌㄞˊ ㄆㄞ ㄓㄠˋ.',
+            pinyin: 'ta1 xi3 huan1 xi1 shi4 jian4 zhu4, jing1 chang2 qu4 lai2 pai1 zhao4.',
             translation: '彼女は洋風の建築が好きで、 よく写真を撮りに行っています。',
             memo: ''
           },
@@ -313,9 +313,9 @@ export default {
           },
           {
             word: '擠',
-            sentence: '你有沒有體驗在東京最擠的時間的捷運?',
-            bopomofo: 'ㄋㄧˇ ㄧㄡˇ ㄇㄟˊ ㄧㄡˇ ㄊㄧˇ ㄧㄢˋ ㄗㄞˋ ㄉㄨㄥ ㄐㄧㄥ ㄗㄨㄟˋ ㄐㄧˇ ㄉㄜ˙ ㄕˊ ㄐㄧㄢ ㄉㄜ˙ ㄐㄧㄝˊ ㄩㄣˋ?',
-            pinyin: 'ni3 you3 mei2 you3 ti3 yan4 zai4 dong1 jing1 zui4 ji3 de shi2 jian1 de jie2 yun4?',
+            sentence: '你有沒有在東京最擠的時間的捷運坐的體驗?',
+            bopomofo: 'ㄋㄧˇ ㄧㄡˇ ㄇㄟˊ ㄧㄡˇ ㄗㄞˋ ㄉㄨㄥ ㄐㄧㄥ ㄗㄨㄟˋ ㄐㄧˇ ㄉㄜ˙ ㄕˊ ㄐㄧㄢ ㄉㄜ˙ ㄐㄧㄝˊ ㄩㄣˋ ㄗㄨㄛˋ ㄉㄜ˙ ㄊㄧˇ ㄧㄢˋ ?',
+            pinyin: 'ni3 you3 mei2 you3 zai4 dong1 jing1 zui4 ji3 de shi2 jian1 de jie2 yun4 zuo4 de ti3 yan4?',
             translation: '東京の最も混雑した時間帯の電車を体験したことがありますか?',
             memo: ''
           },
@@ -337,9 +337,9 @@ export default {
           },
           {
             word: '高雄市',
-            sentence: '早上從台南到高雄市的機場去坐公車最好。',
-            bopomofo: 'ㄗㄠˇ ㄕㄤˋ ㄘㄨㄥˊ ㄊㄞˊ ㄋㄢˊ ㄉㄠˋ ㄍㄠ ㄒㄩㄥˊ ㄕˋ ㄉㄜ˙ ㄐㄧ ㄔㄤˇ ㄑㄩˋ ㄗㄨㄛˋ ㄍㄨㄥ ㄔㄜ ㄗㄨㄟˋ ㄏㄠˇ.',
-            pinyin: 'zao3 shang4 cong2 tai2 nan2 dao4 gao1 xiong2 shi4 de ji1 chang2 qu4 zuo4 gong1 che1 zui4 hao3',
+            sentence: '早上從台南到高雄市的機場坐公車去最好。',
+            bopomofo: 'ㄗㄠˇ ㄕㄤˋ ㄘㄨㄥˊ ㄊㄞˊ ㄋㄢˊ ㄉㄠˋ ㄍㄠ ㄒㄩㄥˊ ㄕˋ ㄉㄜ˙ ㄐㄧ ㄔㄤˇ ㄗㄨㄛˋ ㄍㄨㄥ ㄔㄜ ㄑㄩˋ ㄗㄨㄟˋ ㄏㄠˇ.',
+            pinyin: 'zao3 shang4 cong2 tai2 nan2 dao4 gao1 xiong2 shi4 de ji1 chang2 zuo4 gong1 che1 qu4 zui4 hao3',
             translation: '早朝に台南から高雄の空港に行くには、バスに乗るのが最善です。',
             memo: ''
           },
