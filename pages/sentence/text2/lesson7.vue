@@ -37,7 +37,7 @@ export default {
   data () {
     return {
       data: {
-        title: '',
+        title: '當代中文課程課2・第7章',
         words: [
           {
             word: '垃圾',
