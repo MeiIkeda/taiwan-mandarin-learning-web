@@ -398,7 +398,7 @@
               </b-button>
             </td>
             <td>
-              <b-button @click="speak_bopomofo('嗎')" style="background-color: #f7f8fb; color: black">
+              <b-button @click="speak_bopomofo('吗')" style="background-color: #f7f8fb; color: black">
                 ㄇㄚ˙
               </b-button>
             </td>
