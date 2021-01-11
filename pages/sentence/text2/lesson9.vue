@@ -81,9 +81,9 @@ export default {
           },
           {
             word: '顏色',
-            sentence: '你覺得這件紅色外套適合什麼顏色的鞋子呢?',
-            bopomofo: 'ㄋㄧˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄓㄜˋ ㄐㄧㄢˋ ㄏㄨㄥˊ ㄙㄜˋ ㄨㄞˋ ㄊㄠˋ ㄕˋ ㄏㄜˊ ㄕㄣˊ ㄇㄜ˙ ㄧㄢˊ ㄙㄜˋ ㄉㄜ˙ ㄒㄧㄝˊ ㄗˇ ㄋㄜ˙?',
-            pinyin: 'ni3 jue2 de zhe4 jian4 hong2 se4 wai4 tao4 shi4 he2 shen2 me yan2 se4 de xie2 zi ne?',
+            sentence: '你覺得這件紅色的外套適合什麼顏色的鞋子呢?',
+            bopomofo: 'ㄋㄧˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄓㄜˋ ㄐㄧㄢˋ ㄏㄨㄥˊ ㄙㄜˋ ㄉㄜ˙ ㄨㄞˋ ㄊㄠˋ ㄕˋ ㄏㄜˊ ㄕㄣˊ ㄇㄜ˙ ㄧㄢˊ ㄙㄜˋ ㄉㄜ˙ ㄒㄧㄝˊ ㄗ˙ ㄋㄜ˙?',
+            pinyin: 'ni3 jue2 de zhe4 jian4 hong2 se4 de wai4 tao4 shi4 he2 shen2 me yan2 se4 de xie2 zi ne?',
             translation: 'この赤いコートには何色の靴が合うと思いますか?',
             memo: ''
           },
@@ -97,18 +97,18 @@ export default {
           },
           {
             word: '像',
-            sentence: '那個孩子吃飯的樣子是像餓的一隻小狗。',
-            bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄏㄞˊ ㄗ˙ ㄔ ㄈㄢˋ ㄉㄜ˙ ㄧㄤˋ ㄗ˙ ㄕˋ ㄒㄧㄤˋ ㄜˋ ㄉㄜ˙ ㄧˋ ㄓ ㄒㄧㄠˇ ㄍㄡˇ.',
-            pinyin: 'na4 ge4 hai2 zi chi1 fan4 de yang4 zi shi4 xiang4 e4 de yi1 zhi1 xiao3 gou3.',
+            sentence: '那個孩子吃飯的樣子像餓的一隻小狗。',
+            bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄏㄞˊ ㄗ˙ ㄔ ㄈㄢˋ ㄉㄜ˙ ㄧㄤˋ ㄗ˙ ㄒㄧㄤˋ ㄜˋ ㄉㄜ˙ ㄧˋ ㄓ ㄒㄧㄠˇ ㄍㄡˇ.',
+            pinyin: 'na4 ge4 hai2 zi chi1 fan4 de yang4 zi shi4 e4 de yi1 zhi1 xiao3 gou3.',
             translation: 'あの子供が食事する様子はまるでお腹をすかせた子犬のようです。',
             memo: ''
           },
           {
             word: '教堂',
-            sentence: '在星期天，教堂裡到來的人很多。',
-            bopomofo: 'ㄗㄞˋ ㄒㄧㄥ ㄑㄧ ㄊㄧㄢ  ㄐㄧㄠˋ ㄊㄤˊ ㄌㄧˇ ㄉㄠˋ ㄌㄞˊ ㄉㄜ˙ ㄖㄣˊ ㄏㄣˇ ㄉㄨㄛ.',
-            pinyin: 'zai4 xing1 qi1 tian1 jiao4 tang2 li3 dao4 lai2 de ren2 hen3 duo1.',
-            translation: '日曜日には、たくさんの人が教会にやって来ます。',
+            sentence: '在星期天， 教堂裡有很多來到的人。',
+            bopomofo: 'ㄗㄞˋ ㄒㄧㄥ ㄑㄧ ㄊㄧㄢ, ㄐㄧㄠˋ ㄊㄤˊ ㄌㄧˇ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄌㄞˊ ㄉㄠˋ ㄉㄜ˙ ㄖㄣˊ.',
+            pinyin: 'zai4 xing1 qi1 tian1, jiao4 tang2 li3 you3 hen3 duo1 lai2 dao4 de ren2.',
+            translation: '日曜日には、 たくさんの人が教会にやって来ます。',
             memo: ''
           },
           {
@@ -129,9 +129,9 @@ export default {
           },
           {
             word: '各',
-            sentence: '有各種尺寸， 請嘗試一下。',
-            bopomofo: 'ㄧㄡˇ ㄍㄜˋ ㄓㄨㄥˇ ㄔˇ ㄘㄨㄣˋ, ㄑㄧㄥˇ ㄔㄤˊ ㄕˋ ㄧ ㄒㄧㄚˋ.',
-            pinyin: 'you3 ge4 zhong3 chi3 cun4, qing3 chang2 shi4 yi1 xia4.',
+            sentence: '有各種尺寸， 請試穿一下。',
+            bopomofo: 'ㄧㄡˇ ㄍㄜˋ ㄓㄨㄥˇ ㄔˇ ㄘㄨㄣˋ, ㄑㄧㄥˇ ㄕˋ ㄔㄨㄢ ㄧ ㄒㄧㄚˋ.',
+            pinyin: 'you3 ge4 zhong3 chi3 cun4, qing3 shi4 chuan2 yi1 xia4.',
             translation: '色々なサイズがありますので、 是非試着してみて下さい。',
             memo: ''
           },
@@ -209,10 +209,10 @@ export default {
           },
           {
             word: '氣氛',
-            sentence: '因為我有一個不耐煩的同事, 工作氣氛不是很好。',
-            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄧㄡˇ ㄧˊ ㄍㄜˋ ㄅㄨˊ ㄋㄞˋ ㄈㄢˊ ㄉㄜ˙ ㄊㄨㄥˊ ㄕˋ, ㄍㄨㄥ ㄗㄨㄛˋ ㄑㄧˋ ㄈㄣ ㄅㄨˊ ㄕˋ ㄏㄣˇ ㄏㄠˇ.',
-            pinyin: 'yin1 wei4 wo3 you3 yi1 ge4 bu2 nai4 fan2 de tong2 shi4, gong1 zuo4 qi4 fen1 bu2 shi4 hen3 hao3.',
-            translation: 'イライラしている同僚がいるので、職場の雰囲気はあまり良くないです。',
+            sentence: '因為我有一個不耐煩的同事, 工作的氣氛不是很好。',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄧㄡˇ ㄧˊ ㄍㄜˋ ㄅㄨˊ ㄋㄞˋ ㄈㄢˊ ㄉㄜ˙ ㄊㄨㄥˊ ㄕˋ, ㄍㄨㄥ ㄗㄨㄛˋ ㄉㄜ˙ ㄑㄧˋ ㄈㄣ ㄅㄨˊ ㄕˋ ㄏㄣˇ ㄏㄠˇ.',
+            pinyin: 'yin1 wei4 wo3 you3 yi1 ge4 bu2 nai4 fan2 de tong2 shi4, gong1 zuo4 de qi4 fen1 bu2 shi4 hen3 hao3.',
+            translation: 'イライラしている同僚がいるので、 職場の雰囲気はあまり良くないです。',
             memo: ''
           },
           {
@@ -225,7 +225,7 @@ export default {
           },
           {
             word: '不同',
-            sentence: '北部和南部的菜不同, 如果你喜歡甜甜的應該到南部去.。',
+            sentence: '北部和南部的菜不同, 如果你喜歡甜甜的應該到南部去。',
             bopomofo: 'ㄅㄟˇ ㄅㄨˋ ㄏㄢˋ ㄋㄢˊ ㄅㄨˋ ㄉㄜ˙ ㄘㄞˋ ㄅㄨˋ ㄊㄨㄥˊ, ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄒㄧˇ ㄏㄨㄢ ㄊㄧㄢˊ ㄊㄧㄢˊ ㄉㄜ˙ ㄧㄥˋ ㄍㄞ ㄉㄠˋ ㄋㄢˊ ㄅㄨˋ ㄑㄩˋ.',
             pinyin: 'bei3 bu4 han4 nan2 bu4 de cai4 bu4 tong2, ru2 guo3 ni3 xi3 huan tian2 tian2 de ying1 gai1 dao4 nan2 bu4 qu4.',
             translation: '北部と南部の料理は異なっているので、 もしあなたが甘い味が好きなら南部に行くべきです。',
@@ -249,9 +249,9 @@ export default {
           },
           {
             word: '馬路',
-            sentence: '馬路有躺著喝醉人, 有人可以對應嗎?',
-            bopomofo: 'ㄇㄚˇ ㄌㄨˋ ㄧㄡˇ ㄊㄤˇ ㄓㄜ˙ ㄏㄜ ㄗㄨㄟˋ ㄖㄣˊ, ㄧㄡˇ ㄖㄣˊ ㄎㄜˇ ㄧˇ ㄉㄨㄟˋ ㄧㄥˋ ㄇㄚ˙?',
-            pinyin: 'ma3 lu4 you3 tang3 zhe he1 zui4 ren2, you3 ren2 ke3 yi3 dui4 ying4 ma2?',
+            sentence: '馬路有一個躺著喝醉人, 有人可以對應嗎?',
+            bopomofo: 'ㄇㄚˇ ㄌㄨˋ ㄧㄡˇ ㄧ ㄍㄜˋ ㄊㄤˇ ㄓㄜ˙ ㄏㄜ ㄗㄨㄟˋ ㄖㄣˊ, ㄧㄡˇ ㄖㄣˊ ㄎㄜˇ ㄧˇ ㄉㄨㄟˋ ㄧㄥˋ ㄇㄚ˙?',
+            pinyin: 'ma3 lu4 you3 yi1 ge4 tang3 zhe he1 zui4 ren2, you3 ren2 ke3 yi3 dui4 ying4 ma2?',
             translation: '道に寝転んでいる酔っ払いがいますが、 誰か何とかしてくれませんか?',
             memo: ''
           },
@@ -305,9 +305,9 @@ export default {
           },
           {
             word: '熱情',
-            sentence: '在城市我不常與人交往， 所以我感動了鄉下人的熱情。',
-            bopomofo: 'ㄗㄞˋ ㄔㄥˊ ㄕˋ ㄨㄛˇ ㄅㄨˋ ㄔㄤˊ ㄩˊ ㄖㄣˊ ㄐㄧㄠ ㄨㄤˇ , ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄍㄢˇ ㄉㄨㄥˋ ㄌㄜ˙ ㄒㄧㄤ ㄒㄧㄚˋ ㄖㄣˊ ㄉㄜ˙ ㄖㄜˋ ㄑㄧㄥˊ.',
-            pinyin: 'zai4 cheng2 shi4 wo3 bu4 chang2 yu2 ren2 jiao1 wang3, suo3 yi3 wo3 gan3 dong4 le xiang1 xia4 ren2 de re4 qing2.',
+            sentence: '在城市我不常跟別人交流， 所以我感動了鄉下的人的熱情。',
+            bopomofo: 'ㄗㄞˋ ㄔㄥˊ ㄕˋ ㄨㄛˇ ㄅㄨˋ ㄔㄤˊ ㄍㄣ ㄅㄧㄝˊ ㄖㄣˊ ㄐㄧㄠ ㄌㄧㄡˊ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄍㄢˇ ㄉㄨㄥˋ ㄌㄜ˙ ㄒㄧㄤ ㄒㄧㄚˋ ㄉㄜ˙ ㄖㄣˊ ㄉㄜ˙ ㄖㄜˋ ㄑㄧㄥˊ.',
+            pinyin: 'zai4 cheng2 shi4 wo3 bu4 chang2 gen1 bie2 ren2 jiao1 liu2, suo3 yi3 wo3 gan3 dong4 le xiang1 xia4 de ren2 de re4 qing2.',
             translation: '都会ではあまり人と関わらないので、 田舎の人の親切さに感動しました。',
             memo: ''
           },
