@@ -274,8 +274,8 @@ export default {
           {
             word: '建築',
             sentence: '她喜歡西式建築， 經常去來拍照。',
-            bopomofo: 'ㄊㄚ ㄒㄧˇ ㄏㄨㄢ ㄒㄧ ㄕˋ ㄐㄧㄢˋ ㄓㄨˋ, ㄐㄧㄥ ㄔㄤˊ ㄑㄩˋ ㄌㄞˊ ㄆㄞ ㄓㄠˋ.',
-            pinyin: 'ta1 xi3 huan1 xi1 shi4 jian4 zhu4, jing1 chang2 qu4 lai2 pai1 zhao4.',
+            bopomofo: 'ㄊㄚ ㄒㄧˇ ㄏㄨㄢ ㄒㄧ ㄕˋ ㄐㄧㄢˋ ㄓㄨˊ, ㄐㄧㄥ ㄔㄤˊ ㄑㄩˋ ㄌㄞˊ ㄆㄞ ㄓㄠˋ.',
+            pinyin: 'ta1 xi3 huan1 xi1 shi4 jian4 zhu2, jing1 chang2 qu4 lai2 pai1 zhao4.',
             translation: '彼女は洋風の建築が好きで、 よく写真を撮りに行っています。',
             memo: ''
           },
