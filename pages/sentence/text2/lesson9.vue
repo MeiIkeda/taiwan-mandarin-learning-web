@@ -353,10 +353,10 @@ export default {
           },
           {
             word: '買得起',
-            sentence: '電鍋又便利又安全, 真的買得起。',
-            bopomofo: 'ㄉㄧㄢˋ ㄍㄨㄛ ㄧㄡˋ ㄅㄧㄢˋ ㄌㄧˋ ㄧㄡˋ ㄢ ㄑㄩㄢˊ, ㄓㄣ ㄉㄜ˙ ㄇㄞˇ ㄉㄜ˙ ㄑㄧˇ.',
-            pinyin: 'dian4 guo1 you4 bian4 li4 you4 an1 quan2, zhen1 de mai3 de qi3.',
-            translation: '電気蒸し器は便利で安全で、 本当に買う価値があります。',
+            sentence: '電鍋又便利又安全, 如果你買得起應該獲得一個。',
+            bopomofo: 'ㄉㄧㄢˋ ㄍㄨㄛ ㄧㄡˋ ㄅㄧㄢˋ ㄌㄧˋ ㄧㄡˋ ㄢ ㄑㄩㄢˊ, ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄇㄞˇ ㄉㄜ˙ ㄑㄧˇ ㄧㄥ ㄍㄞ ㄏㄨㄛˋ ㄉㄜˊ ㄧˊ ㄍㄜˋ.',
+            pinyin: 'dian4 guo1 you4 bian4 li4 you4 an1 quan2, ru2 guo3 ni3 mai3 de qi3 ying1 gai1 huo4 de2 yi2 ge4.',
+            translation: '電気蒸し器は便利で安全なので、 買う余裕があれば手に入れるべきです。',
             memo: ''
           },
           {
