@@ -131,7 +131,7 @@ export default {
             word: '各',
             sentence: '有各種尺寸， 請試穿一下。',
             bopomofo: 'ㄧㄡˇ ㄍㄜˋ ㄓㄨㄥˇ ㄔˇ ㄘㄨㄣˋ, ㄑㄧㄥˇ ㄕˋ ㄔㄨㄢ ㄧ ㄒㄧㄚˋ.',
-            pinyin: 'you3 ge4 zhong3 chi3 cun4, qing3 shi4 chuan2 yi1 xia4.',
+            pinyin: 'you3 ge4 zhong3 chi3 cun4, qing3 shi4 chuan1 yi1 xia4.',
             translation: '色々なサイズがありますので、 是非試着してみて下さい。',
             memo: ''
           },
@@ -169,10 +169,10 @@ export default {
           },
           {
             word: '泰國',
-            sentence: '我很喜歡泰國菜， 所以我要買椰奶。',
-            bopomofo: 'ㄨㄛˇ ㄏㄣˇ ㄒㄧˇ ㄏㄨㄢ ㄊㄞˋ ㄍㄨㄛˊ ㄘㄞˋ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄧㄠˋ ㄇㄞˇ ㄧㄝ ㄋㄞˇ.',
-            pinyin: 'wo3 hen3 xi3 huan1 tai4 guo2 cai4, suo3 yi3 wo3 yao4 mai3 ye1 nai3.',
-            translation: 'タイ料理が大好きなので、 ココナッツミルクを買いたいです。',
+            sentence: '我喜歡加很多椰奶的泰國菜。',
+            bopomofo: 'ㄨㄛˇ ㄒㄧˇ ㄏㄨㄢ ㄐㄧㄚ ㄏㄣˇ ㄉㄨㄛ ㄧㄝ ㄋㄞˇ ㄉㄜ˙ ㄊㄞˋ ㄍㄨㄛˊ ㄘㄞˋ.',
+            pinyin: 'wo3 xi3 huan1 jia1 hen3 duo1 ye1 nai3 de tai4 guo2 cai4.',
+            translation: 'ココナッツミルクをたっぷり使ったタイ料理が好きです。',
             memo: ''
           },
           {
@@ -251,7 +251,7 @@ export default {
             word: '馬路',
             sentence: '馬路有一個躺著喝醉人, 有人可以對應嗎?',
             bopomofo: 'ㄇㄚˇ ㄌㄨˋ ㄧㄡˇ ㄧ ㄍㄜˋ ㄊㄤˇ ㄓㄜ˙ ㄏㄜ ㄗㄨㄟˋ ㄖㄣˊ, ㄧㄡˇ ㄖㄣˊ ㄎㄜˇ ㄧˇ ㄉㄨㄟˋ ㄧㄥˋ ㄇㄚ˙?',
-            pinyin: 'ma3 lu4 you3 yi1 ge4 tang3 zhe he1 zui4 ren2, you3 ren2 ke3 yi3 dui4 ying4 ma2?',
+            pinyin: 'ma3 lu4 you3 yi1 ge4 tang3 zhe he1 zui4 ren2, you3 ren2 ke3 yi3 dui4 ying4 ma?',
             translation: '道に寝転んでいる酔っ払いがいますが、 誰か何とかしてくれませんか?',
             memo: ''
           },
