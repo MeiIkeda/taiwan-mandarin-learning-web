@@ -59,7 +59,7 @@ export default {
             word: '餃子',
             sentence: '台灣的超市賣的餃子種類很多。',
             bopomofo: 'ㄊㄞˊ ㄨㄢ ㄉㄜ˙ ㄔㄠ ㄕˋ ㄇㄞˋ ㄉㄜ˙ ㄐㄧㄠˇ ㄗ˙ ㄓㄨㄥˇ ㄌㄟˋ ㄏㄣˇ ㄉㄨㄛ.',
-            pinyin: 'tai2 wan1 de chao1 shi4 mai4 de jiao3 zi3 zhong3 lei4 hen3 duo1.',
+            pinyin: 'tai2 wan1 de chao1 shi4 mai4 de jiao3 zi zhong3 lei4 hen3 duo1.',
             translation: '台湾のスーパーマーケットでは、 さまざまな種類の餃子を販売しています。',
             memo: ''
           },
@@ -89,9 +89,9 @@ export default {
           },
           {
             word: '門',
-            sentence: '門鑰匙壞了， 所以我要打電話給房東。',
-            bopomofo: 'ㄇㄣˊ ㄧㄠˋ ㄕ˙ ㄏㄨㄞˋ ㄌㄜ˙, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄧㄠˋ ㄉㄚˇ ㄉㄧㄢˋ ㄏㄨㄚˋ ㄍㄟˇ ㄈㄤˊ ㄉㄨㄥ.',
-            pinyin: 'men2 yao4 shi huai4 le, suo3 yi3 wo3 yao4 da3 dian4 hua4 gei3 fang2 dong1.',
+            sentence: '門的鑰匙壞了， 所以我要打電話給房東。',
+            bopomofo: 'ㄇㄣˊ ㄉㄜ˙ ㄧㄠˋ ㄕ˙ ㄏㄨㄞˋ ㄌㄜ˙, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄧㄠˋ ㄉㄚˇ ㄉㄧㄢˋ ㄏㄨㄚˋ ㄍㄟˇ ㄈㄤˊ ㄉㄨㄥ.',
+            pinyin: 'men2 de yao4 shi huai4 le, suo3 yi3 wo3 yao4 da3 dian4 hua4 gei3 fang2 dong1.',
             translation: 'ドアの鍵が壊れているので、 家主に電話します。',
             memo: ''
           },
@@ -122,7 +122,7 @@ export default {
           {
             word: '下',
             sentence: '我們買了的大量食物在冰箱裡放不下。',
-            bopomofo: 'ㄨㄛˇ ㄇㄣ˙ ㄇㄞˇ ㄌㄜ˙ ㄉㄜ˙ ㄉㄚˋ ㄌㄧㄤˋ ㄕˊ ㄨˋ ㄗㄞˋ ㄅㄧㄥ ㄒㄧㄤ ㄌㄧˇ ㄈㄤˋ ㄅㄨˋ ㄒㄧㄚˋ.',
+            bopomofo: 'ㄨㄛˇ ㄇㄣ˙ ㄇㄞˇ ㄌㄜ˙ ㄉㄜ˙ ㄉㄚˋ ㄌㄧㄤˋ ㄕˊ ㄨˋ ㄗㄞˋ ㄅㄧㄥ ㄒㄧㄤ ㄌㄧˇ ㄈㄤˋ ㄅㄨˊ ㄒㄧㄚˋ.',
             pinyin: 'wo3 men mai3 le de da4 liang4 shi2 wu4 zai4 bing1 xiang1 li3 fang4 bu2 xia4.',
             translation: '私たちが買った大量の食べ物は冷蔵庫に収まりませんでした。',
             memo: ''
@@ -153,33 +153,33 @@ export default {
           },
           {
             word: '煮',
-            sentence: '菜可以外面買, 我只煮白飯。',
-            bopomofo: 'ㄘㄞˋ ㄎㄜˇ ㄧˇ ㄨㄞˋ ㄇㄧㄢˋ ㄇㄞˇ, ㄨㄛˇ ㄓˇ ㄓㄨˇ ㄅㄞˊ ㄈㄢˋ.',
-            pinyin: 'cai4 ke3 yi3 wai4 mian4 mai3, wo3 zhi3 zhu3 bai2 fan4.',
+            sentence: '菜可以在外面買, 我只煮白飯。',
+            bopomofo: 'ㄘㄞˋ ㄎㄜˇ ㄧˇ ㄗㄞˋ　ㄨㄞˋ ㄇㄧㄢˋ ㄇㄞˇ, ㄨㄛˇ ㄓˇ ㄓㄨˇ ㄅㄞˊ ㄈㄢˋ.',
+            pinyin: 'cai4 ke3 yi3 zai4 wai4 mian4 mai3, wo3 zhi3 zhu3 bai2 fan4.',
             translation: 'おかずは外で買えるので、 ご飯だけ炊きます。',
             memo: ''
           },
           {
             word: '壞',
-            sentence: '如果在夏天冷氣壞掉我就哭了。',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄗㄞˋ ㄒㄧㄚˋ ㄊㄧㄢ ㄌㄥˇ ㄑㄧˋ ㄏㄨㄞˋ ㄉㄧㄠˋ ㄨㄛˇ ㄐㄧㄡˋ ㄎㄨ ㄌㄜ˙.',
-            pinyin: 'ru2 guo3 zai4 xia4 tian1 leng3 qi4 huai4 diao4 wo3 jiu4 ku1 le.',
+            sentence: '如果在夏天冷氣壞掉了我就哭了。',
+            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄗㄞˋ ㄒㄧㄚˋ ㄊㄧㄢ ㄌㄥˇ ㄑㄧˋ ㄏㄨㄞˋ ㄉㄧㄠˋ ㄌㄜ˙ ㄨㄛˇ ㄐㄧㄡˋ ㄎㄨ ㄌㄜ˙.',
+            pinyin: 'ru2 guo3 zai4 xia4 tian1 leng3 qi4 huai4 diao4 le wo3 jiu4 ku1 le.',
             translation: '夏にエアコンが壊れたら泣きます。',
             memo: ''
           },
           {
             word: '破',
-            sentence: '舊的書被破掉得很簡單, 要注意。',
-            bopomofo: 'ㄐㄧㄡˋ ㄉㄜ˙ ㄕㄨ ㄅㄟˋ ㄆㄛˋ ㄉㄧㄠˋ ㄉㄜ˙ ㄏㄣˇ ㄐㄧㄢˇ ㄉㄢ, ㄧㄠˋ ㄓㄨˋ ㄧˋ.',
-            pinyin: 'jiu4 de shu1 bei4 po4 diao4 de hen3 jian3 dan1, yao4 zhu4 yi4.',
-            translation: '古い本は簡単に破れるので、 注意してください。',
+            sentence: '舊的書一翻就破了, 要注意。',
+            bopomofo: 'ㄐㄧㄡˋ ㄉㄜ˙ ㄕㄨ ㄧ ㄈㄢ ㄐㄧㄡˋ ㄆㄛˋ ㄌㄜ˙, ㄧㄠˋ ㄓㄨˋ ㄧˋ.',
+            pinyin: 'jiu4 de shu1 yi1 fan1 jiu4 po4 le, yao4 zhu4 yi4.',
+            translation: '古い本はめくっただけで簡単に破れるので、 注意してください。',
             memo: ''
           },
           {
             word: '餡兒',
             sentence: '為了餡兒變香, 請你放很多大蒜。',
-            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄒㄧㄢˋ ㄦˊ ㄅㄧㄢˋ ㄒㄧㄤ, ㄑㄧㄥˇ ㄋㄧˇ ㄈㄤˋ ㄏㄣˇ ㄉㄨㄛ ㄉㄚˋ ㄙㄨㄢˋ.',
-            pinyin: 'wei4 le xian4 er2 bian4 xiang1, qing3 ni3 fang4 hen3 duo1 da4 suan4.',
+            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄒㄧㄢˋ ㄦ ㄅㄧㄢˋ ㄒㄧㄤ, ㄑㄧㄥˇ ㄋㄧˇ ㄈㄤˋ ㄏㄣˇ ㄉㄨㄛ ㄉㄚˋ ㄙㄨㄢˋ.',
+            pinyin: 'wei4 le xian4 er1 bian4 xiang1, qing3 ni3 fang4 hen3 duo1 da4 suan4.',
             translation: '餡の風味を良くするために、 ニンニクをたくさん入れてください。',
             memo: ''
           },
@@ -225,9 +225,9 @@ export default {
           },
           {
             word: '鍋子',
-            sentence: '我該如何清洗鐵鍋子?',
-            bopomofo: 'ㄨㄛˇ ㄍㄞ ㄖㄨˊ ㄏㄜˊ ㄑㄧㄥ ㄒㄧˇ ㄊㄧㄝˇ ㄍㄨㄛ ㄗ˙?',
-            pinyin: 'wo3 gai1 ru2 he2 qing1 xi3 tie guo1 zi?',
+            sentence: '我怎麼洗鐵製的鍋子?',
+            bopomofo: 'ㄨㄛˇ ㄗㄣˇ ㄇㄜ˙ ㄒㄧˇ ㄊㄧㄝˇ ㄓˋ ㄉㄜ˙ ㄍㄨㄛ ㄗ˙?',
+            pinyin: 'wo3 zen3 me xi3 tie3 zhi4 de guo1 zi?',
             translation: '鉄の鍋はどうやって洗えばいいですか?',
             memo: ''
           },
@@ -235,7 +235,7 @@ export default {
             word: '筷子',
             sentence: '你能不能用筷子把豆子拿起來?',
             bopomofo: 'ㄋㄧˇ ㄋㄥˊ ㄅㄨˋ ㄋㄥˊ ㄩㄥˋ ㄎㄨㄞˋ ㄗ˙ ㄅㄚˇ ㄉㄡˋ ㄗ˙ ㄋㄚˊ ㄑㄧˇ ㄌㄞˊ?',
-            pinyin: 'ni3 neng2 bu4 neng2 yong4 kuai4 zi ba3 dou4 zi3 na2 qi3 lai2?',
+            pinyin: 'ni3 neng2 bu4 neng2 yong4 kuai4 zi ba3 dou4 zi na2 qi3 lai2?',
             translation: 'お箸を使って豆を持ち上げられますか?',
             memo: ''
           },
@@ -258,7 +258,7 @@ export default {
           {
             word: '看不出來',
             sentence: '那個先生看不出來當醫生。',
-            bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄒㄧㄢ ㄕㄥ ㄎㄢˋ ㄅㄨ˙ ㄔㄨ ㄌㄞˊ ㄉㄤ ㄧ ㄕㄥ.',
+            bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄒㄧㄢ ㄕㄥ ㄎㄢˋ ㄅㄨˋ ㄔㄨ ㄌㄞˊ ㄉㄤ ㄧ ㄕㄥ.',
             pinyin: 'na4 ge4 xian1 sheng1 kan4 bu4 chu1 lai2 dang1 yi1 sheng1.',
             translation: 'あの人は医者には見えません。',
             memo: ''
@@ -290,8 +290,8 @@ export default {
           {
             word: '皮',
             sentence: '為了別破掉很薄的春捲皮, 他們在很認真地包。',
-            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄅㄧㄝˊ ㄆㄛˋ ㄉㄧㄠˋ ㄏㄣˇ ㄅㄠˊ ㄉㄜ˙ ㄔㄨㄣ ㄐㄩㄢˇ ㄆㄧˊ, ㄊㄚ ㄇㄣ˙ ㄗㄞˋ ㄏㄣˇ ㄖㄣˋ ㄓㄣ ㄉㄧˋ ㄅㄠ.',
-            pinyin: 'wei4 le bie2 po4 diao4 hen3 bao2 de chun1 juan4 pi2, ta1 men zai4 hen3 ren4 zhen1 di4 bao1.',
+            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄅㄧㄝˊ ㄆㄛˋ ㄉㄧㄠˋ ㄏㄣˇ ㄅㄠˊ ㄉㄜ˙ ㄔㄨㄣ ㄐㄩㄢˇ ㄆㄧˊ, ㄊㄚ ㄇㄣ˙ ㄗㄞˋ ㄏㄣˇ ㄖㄣˋ ㄓㄣ ㄉㄜ˙ ㄅㄠ.',
+            pinyin: 'wei4 le bie2 po4 diao4 hen3 bao2 de chun1 juan4 pi2, ta1 men zai4 hen3 ren4 zhen1 de bao1.',
             translation: 'とても薄い春巻きの皮を破らないように、 彼らはそれをとても丁寧に巻いています。',
             memo: ''
           },
@@ -331,7 +331,7 @@ export default {
             word: '拌',
             sentence: '為了別煮糊了， 請你把鍋子拌均勻。',
             bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄅㄧㄝˊ ㄓㄨˇ ㄏㄨˊ ㄌㄜ˙, ㄑㄧㄥˇ ㄋㄧˇ ㄅㄚˇ ㄍㄨㄛ ㄗ˙ ㄅㄢˋ ㄐㄩㄣ ㄩㄣˊ.',
-            pinyin: 'wei4 le bie2 zhu3 hu2 le, qing3 ni3 ba3 guo1 zi3 ban4 jun1 yun2.',
+            pinyin: 'wei4 le bie2 zhu3 hu2 le, qing3 ni3 ba3 guo1 zi ban4 jun1 yun2.',
             translation: '焦げないように、 鍋をよくかき混ぜてください。',
             memo: ''
           },
