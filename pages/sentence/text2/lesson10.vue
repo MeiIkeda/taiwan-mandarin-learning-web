@@ -41,19 +41,21 @@ export default {
         words: [
           {
             word: '馬丁',
-            sentence: '馬丁是比較冷的地方來的, 對他台灣的天氣很熱。',
-            bopomofo: 'ㄇㄚˇ ㄉㄧㄥ ㄕˋ ㄅㄧˇ ㄐㄧㄠˋ ㄌㄥˇ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ ㄌㄞˊ ㄉㄜ˙  ㄉㄨㄟˋ ㄊㄚ ㄊㄞˊ ㄨㄢ ㄉㄜ˙ ㄊㄧㄢ ㄑㄧˋ ㄏㄣˇ ㄖㄜˋ.',
-            pinyin: 'ma3 ding1 shi4 bi3 jiao4 leng3 de di4 fang1 lai2 de, dui4 ta1 tai2 wan1 de tian1 qi4 hen3 re4.',
+            sentence: '馬丁從比較冷的地方來的, 台灣的天氣對他很熱。',
+            bopomofo: 'ㄇㄚˇ ㄉㄧㄥ ㄘㄨㄥˊ ㄅㄧˇ ㄐㄧㄠˋ ㄌㄥˇ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ ㄌㄞˊ ㄉㄜ˙, ㄊㄞˊ ㄨㄢ ㄉㄜ˙ ㄊㄧㄢ ㄑㄧˋ ㄉㄨㄟˋ ㄊㄚ ㄏㄣˇ ㄖㄜˋ.',
+            pinyin: 'ma3 ding1 cong2 bi3 jiao4 leng3 de di4 fang1 lai2 de, tai2 wan1 de tian1 qi4 dui4 ta1 hen3 re4.',
             translation: 'マーティンは比較的寒い地域から来たので、 彼にとって台湾は暑いです。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '包',
-            sentence: '禮物跟彩色的紙被包。',
-            bopomofo: 'ㄌㄧˇ ㄨˋ ㄍㄣ ㄘㄞˇ ㄙㄜˋ ㄉㄜ˙ ㄓˇ ㄅㄟˋ ㄅㄠ.',
-            pinyin: 'li3 wu4 gen1 cai3 se4 de zhi3 bei4 bao1.',
+            sentence: '禮物用彩色的紙包起來。',
+            bopomofo: 'ㄌㄧˇ ㄨˋ ㄩㄥˋ ㄘㄞˇ ㄙㄜˋ ㄉㄜ˙ ㄓˇ ㄅㄠ ㄑㄧˇ ㄌㄞˊ.',
+            pinyin: 'li3 wu4 yong4 cai3 se4 de zhi3 bao1 qi3 lai2.',
             translation: 'プレゼントはカラフルな紙で包まれています。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '餃子',
@@ -65,27 +67,30 @@ export default {
           },
           {
             word: '脫',
-            sentence: '房子裡有一點熱, 但是如果脫外套似乎冷。',
-            bopomofo: 'ㄈㄤˊ ㄗ˙ ㄌㄧˇ ㄧㄡˇ ㄧˋ ㄉㄧㄢˇ ㄖㄜˋ, ㄉㄢˋ ㄕˋ ㄖㄨˊ ㄍㄨㄛˇ ㄊㄨㄛ ㄨㄞˋ ㄊㄠˋ ㄙˋ ㄏㄨ ㄌㄥˇ.',
-            pinyin: 'fang2 zi li3 you3 yi1 dian3 re4, dan4 shi4 ru2 guo3 tuo1 wai4 tao4 si4 hu1 leng3.',
+            sentence: '房子裡有一點熱, 但是如果脫外套會冷。',
+            bopomofo: 'ㄈㄤˊ ㄗ˙ ㄌㄧˇ ㄧㄡˇ ㄧˋ ㄉㄧㄢˇ ㄖㄜˋ,  ㄉㄢˋ ㄕˋ ㄖㄨˊ ㄍㄨㄛˇ ㄊㄨㄛ ㄨㄞˋ ㄊㄠˋ ㄏㄨㄟˋ ㄌㄥˇ.',
+            pinyin: 'fang2 zi li3 you3 yi1 dian3 re4, dan4 shi4 ru2 guo3 tuo1 wai4 tao4 hui4 leng3.',
             translation: '家の中は少し暑いですが、 コートを脱ぐと寒そうです。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '鞋',
-            sentence: '到山上去你不應該穿皮鞋。',
-            bopomofo: 'ㄉㄠˋ ㄕㄢ ㄕㄤˇ ㄑㄩˋ ㄋㄧˇ ㄅㄨˋ ㄧㄥ ㄍㄞ ㄔㄨㄢ ㄆㄧˊ ㄒㄧㄝˊ.',
-            pinyin: 'dao4 shan1 shang4 qu4 ni3 bu4 ying1 gai1 chuan1 pi2 xie2.',
-            translation: '山に行く時に革靴は履かない方がいいですよ。',
-            memo: ''
+            sentence: '你不應該穿著皮鞋爬山。',
+            bopomofo: 'ㄋㄧˇ ㄅㄨˋ ㄧㄥ ㄍㄞ ㄔㄨㄢ ㄓㄜ˙ ㄆㄧˊ ㄒㄧㄝˊ ㄆㄚˊ ㄕㄢ.',
+            pinyin: 'ni3 bu4 ying1 gai1 chuan1 zhe pi2 xie2 pa2 shan1.',
+            translation: '山登りする時に革靴は履かない方がいいですよ。',
+            memo: '',
+            changed: '★'
           },
           {
             word: '關',
-            sentence: '蟲可能到房間進來, 關窗戶。',
-            bopomofo: 'ㄔㄨㄥˊ ㄎㄜˇ ㄋㄥˊ ㄉㄠˋ ㄈㄤˊ ㄐㄧㄢ ㄐㄧㄣˋ ㄌㄞˊ, ㄍㄨㄢ ㄔㄨㄤ ㄏㄨˋ.',
-            pinyin: 'chong2 ke3 neng2 dao4 fang2 jian1 jin4 lai2, guan1 chuang1 hu4.',
+            sentence: '蟲可能進到房間來, 請把窗戶關上。',
+            bopomofo: 'ㄔㄨㄥˊ ㄎㄜˇ ㄋㄥˊ ㄐㄧㄣˋ ㄉㄠˋ ㄈㄤˊ ㄐㄧㄢ ㄌㄞˊ, ㄑㄧㄥˇ ㄅㄚˇ ㄔㄨㄤ ㄏㄨˋ ㄍㄨㄢ ㄕㄤˋ.',
+            pinyin: 'chong2 ke3 neng2 jin4 dao4 fang2 jian1 lai2, qing3 ba3 chuang1 hu4 guan1 shang4.',
             translation: '虫が部屋に入ってくるかもしれないので、 窓を閉めてください。',
-            memo: ''
+            memo: '※ここでの「上」は補語。',
+            changed: '★'
           },
           {
             word: '門',
@@ -97,11 +102,12 @@ export default {
           },
           {
             word: '春捲',
-            sentence: '你喜歡的春捲裡的食材是什麼?',
-            bopomofo: 'ㄋㄧˇ ㄒㄧˇ ㄏㄨㄢ ㄉㄜ˙ ㄔㄨㄣ ㄐㄩㄢˇ ㄌㄧˇ ㄉㄜ˙ ㄕˊ ㄘㄞˊ ㄕˋ ㄕㄣˊ ㄇㄜ˙?',
-            pinyin: 'ni3 xi3 huan1 de chun1 juan4 li3 de shi2 cai2 shi4 shen2 me?',
+            sentence: '你喜歡放在春捲裡的材料是什麼?',
+            bopomofo: 'ㄋㄧˇ ㄒㄧˇ ㄏㄨㄢ ㄈㄤˋ ㄗㄞˋ ㄔㄨㄣ ㄐㄩㄢˇ ㄌㄧˇ ㄉㄜ˙ ㄘㄞˊ ㄌㄧㄠˋ ㄕˋ ㄕㄣˊ ㄇㄜ˙?',
+            pinyin: 'ni3 xi3 huan1 fang4 zai4 chun1 juan4 li3 de cai2 liao4 shi4 shen2 me?',
             translation: '春巻きの具で好きなものは何ですか?',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '泡菜',
@@ -113,43 +119,48 @@ export default {
           },
           {
             word: '飯廳',
-            sentence: '我打掃飯廳很乾淨, 但是別的房間都是隨便。',
-            bopomofo: 'ㄨㄛˇ ㄉㄚˇ ㄙㄠˇ ㄈㄢˋ ㄊㄧㄥ ㄏㄣˇ ㄍㄢ ㄐㄧㄥˋ, ㄉㄢˋ ㄕˋ ㄅㄧㄝˊ ㄉㄜ˙ ㄈㄤˊ ㄐㄧㄢ ㄉㄡ ㄕˋ ㄙㄨㄟˊ ㄅㄧㄢˋ.',
-            pinyin: 'wo3 da3 sao3 fan4 ting1 hen3 gan1 jing4, dan4 shi4 bie2 de fang2 jian1 dou1 shi4 sui2 bian4.',
+            sentence: '我打掃飯廳打掃得很乾淨, 但是別的房間都很隨便。',
+            bopomofo: 'ㄨㄛˇ ㄉㄚˇ ㄙㄠˇ ㄈㄢˋ ㄊㄧㄥ ㄉㄚˇ ㄙㄠˇ ㄉㄜ˙ ㄏㄣˇ ㄍㄢ ㄐㄧㄥˋ, ㄉㄢˋ ㄕˋ ㄅㄧㄝˊ ㄉㄜ˙ ㄈㄤˊ ㄐㄧㄢ ㄉㄡ ㄏㄣˇ ㄙㄨㄟˊ ㄅㄧㄢˋ.',
+            pinyin: 'wo3 da3 sao3 fan4 ting1 da3 sao3 de hen3 qian2 jing4, dan4 shi4 bie2 de fang2 jian1 dou1 hen3 sui2 bian4.',
             translation: 'ダイニングルームはきれいに掃除しますが、 他の部屋は適当です。',
-            memo: ''
+            memo: '※「隨便」は形容詞。',
+            changed: '★'
           },
           {
             word: '下',
-            sentence: '我們買了的大量食物在冰箱裡放不下。',
-            bopomofo: 'ㄨㄛˇ ㄇㄣ˙ ㄇㄞˇ ㄌㄜ˙ ㄉㄜ˙ ㄉㄚˋ ㄌㄧㄤˋ ㄕˊ ㄨˋ ㄗㄞˋ ㄅㄧㄥ ㄒㄧㄤ ㄌㄧˇ ㄈㄤˋ ㄅㄨˊ ㄒㄧㄚˋ.',
-            pinyin: 'wo3 men mai3 le de da4 liang4 shi2 wu4 zai4 bing1 xiang1 li3 fang4 bu2 xia4.',
+            sentence: '冰箱裡放不下我們買的大量食物。',
+            bopomofo: 'ㄅㄧㄥ ㄒㄧㄤ ㄌㄧˇ ㄈㄤˋ ㄅㄨˊ ㄒㄧㄚˋ ㄨㄛˇ ㄇㄣ˙ ㄇㄞˇ ㄉㄜ˙ ㄉㄚˋ ㄌㄧㄤˋ ㄕˊ ㄨˋ.',
+            pinyin: 'bing1 xiang1 li3 fang4 bu2 xia4 wo3 men mai3 de da4 liang4 shi2 wu4.',
             translation: '私たちが買った大量の食べ物は冷蔵庫に収まりませんでした。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '洗',
-            sentence: '如果你要洗貓， 你應該穿長袖別被抓。',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄧㄠˋ ㄒㄧˇ ㄇㄠ, ㄋㄧˇ ㄧㄥ ㄍㄞ ㄔㄨㄢ ㄔㄤˊ ㄒㄧㄡˋ ㄅㄧㄝˊ ㄅㄟˋ ㄓㄨㄚ.',
-            pinyin: 'ru2 guo3 ni3 yao4 xi3 mao1, ni3 ying1 gai1 chuan1 chang2 xiu4 bie2 bei4 zhua1.',
-            translation: '猫を洗う時は、 引っかかれないように長袖を着るべきです。',
-            memo: ''
+            sentence: '你洗貓睡覺用的被子的時候, 牠哭嗎?',
+            bopomofo: 'ㄋㄧˇ ㄒㄧˇ ㄇㄠ ㄕㄨㄟˋ ㄐㄧㄠˋ ㄩㄥˋ ㄉㄜ˙ ㄅㄟˋ ㄗ˙ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄊㄚ ㄎㄨ ㄇㄚ˙?',
+            pinyin: 'ni3 xi3 mao1 shui4 jiao4 yong4 de bei4 zi de shi2 hou4, ta1 ku1 ma?',
+            translation: '寝る時用のブランケットを洗ってしまったら、 猫は泣きますか?',
+            memo: '',
+            changed: '★'
           },
           {
             word: '做菜',
-            sentence: '使用微波爐能縮短做菜時間。',
-            bopomofo: 'ㄕˇ ㄩㄥˋ ㄨㄟ ㄅㄛ ㄌㄨˊ ㄋㄥˊ ㄙㄨㄛ ㄉㄨㄢˇ ㄗㄨㄛˋ ㄘㄞˋ ㄕˊ ㄐㄧㄢ.',
-            pinyin: 'shi3 yong4 wei1 bo1 lu2 neng2 suo1 duan3 zuo4 cai4 shi2 jian1.',
+            sentence: '使用微波爐能縮短做菜的時間。',
+            bopomofo: 'ㄕˇ ㄩㄥˋ ㄨㄟ ㄅㄛ ㄌㄨˊ ㄋㄥˊ ㄙㄨㄛ ㄉㄨㄢˇ ㄗㄨㄛˋ ㄘㄞˋ ㄉㄜ˙ ㄕˊ ㄐㄧㄢ.',
+            pinyin: 'shi3 yong4 wei1 bo1 lu2 neng2 suo1 duan3 zuo4 cai4 de shi2 jian1.',
             translation: '電子レンジを使うと、 調理時間を短縮できます。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '水餃',
-            sentence: '水餃的醬你買還是自己做?',
-            bopomofo: 'ㄕㄨㄟˇ ㄐㄧㄠˇ ㄉㄜ˙ ㄐㄧㄤˋ ㄋㄧˇ ㄇㄞˇ ㄏㄞˊ ㄕˋ ㄗˋ ㄐㄧˇ ㄗㄨㄛˋ?',
-            pinyin: 'shui3 jiao3 de jiang4 ni3 mai3 hai2 shi4 zi4 ji3 zuo4?',
+            sentence: '水餃的醬你要買還是自己做?',
+            bopomofo: 'ㄕㄨㄟˇ ㄐㄧㄠˇ ㄉㄜ˙ ㄐㄧㄤˋ ㄋㄧˇ ㄧㄠˋ ㄇㄞˇ ㄏㄞˊ ㄕˋ ㄗˋ ㄐㄧˇ ㄗㄨㄛˋ?',
+            pinyin: 'shui3 jiao3 de jiang4 ni3 yao4 mai3 hai2 shi4 zi4 ji3 zuo4?',
             translation: '水餃子のタレは買いますか、 それとも自分で作りますか?',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '煮',
@@ -161,11 +172,12 @@ export default {
           },
           {
             word: '壞',
-            sentence: '如果在夏天冷氣壞掉了我就哭了。',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄗㄞˋ ㄒㄧㄚˋ ㄊㄧㄢ ㄌㄥˇ ㄑㄧˋ ㄏㄨㄞˋ ㄉㄧㄠˋ ㄌㄜ˙ ㄨㄛˇ ㄐㄧㄡˋ ㄎㄨ ㄌㄜ˙.',
-            pinyin: 'ru2 guo3 zai4 xia4 tian1 leng3 qi4 huai4 diao4 le wo3 jiu4 ku1 le.',
-            translation: '夏にエアコンが壊れたら泣きます。',
-            memo: ''
+            sentence: '天氣壞的時候不能出門。',
+            bopomofo: 'ㄊㄧㄢ ㄑㄧˋ ㄏㄨㄞˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄅㄨˋ ㄋㄥˊ ㄔㄨ ㄇㄣˊ.',
+            pinyin: 'tian1 qi4 huai4 de shi2 hou4 bu4 neng2 chu1 men2.',
+            translation: '天気が悪い時は表に出られません。',
+            memo: '',
+            changed: '★'
           },
           {
             word: '破',
@@ -177,19 +189,21 @@ export default {
           },
           {
             word: '餡兒',
-            sentence: '為了餡兒變香, 請你放很多大蒜。',
-            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄒㄧㄢˋ ㄦ ㄅㄧㄢˋ ㄒㄧㄤ, ㄑㄧㄥˇ ㄋㄧˇ ㄈㄤˋ ㄏㄣˇ ㄉㄨㄛ ㄉㄚˋ ㄙㄨㄢˋ.',
-            pinyin: 'wei4 le xian4 er1 bian4 xiang1, qing3 ni3 fang4 hen3 duo1 da4 suan4.',
-            translation: '餡の風味を良くするために、 ニンニクをたくさん入れてください。',
-            memo: ''
+            sentence: '為了讓餡兒變香, 請你多放一點大蒜。',
+            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄖㄤˋ ㄒㄧㄢˋ ㄦ ㄅㄧㄢˋ ㄒㄧㄤ, ㄑㄧㄥˇ ㄋㄧˇ ㄉㄨㄛ ㄈㄤˋ ㄧˋ ㄉㄧㄢˇ ㄉㄚˋ ㄙㄨㄢˋ.',
+            pinyin: 'wei4 le rang4 xian4 er1 bian4 xiang1, qing3 ni3 duo1 fang4 yi1 dian3 da4 suan4.',
+            translation: '餡の風味を良くするために、 もっとニンニクを入れてください。',
+            memo: '',
+            changed: '★'
           },
           {
             word: '扁',
-            sentence: '他的肚子以前扁, 但是因為啤酒現在變厚。',
-            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄉㄨˇ ㄗ˙ ㄧˇ ㄑㄧㄢˊ ㄅㄧㄢˇ, ㄉㄢˋ ㄕˋ ㄧㄣ ㄨㄟˋ ㄆㄧˊ ㄐㄧㄡˇ ㄒㄧㄢˋ ㄗㄞˋ ㄅㄧㄢˋ ㄏㄡˋ.',
-            pinyin: 'ta1 de du4 zi yi3 qian2 bian3, dan4 shi4 yin1 wei4 pi2 jiu3 xian4 zai4 bian4 hou4.',
-            translation: '彼のお腹は以前ぺったんこでしたが、 今はビールのせいで大きくなりました。',
-            memo: ''
+            sentence: '他的肚子以前扁扁的, 但是因為啤酒現在變啤酒肚了。',
+            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄉㄨˇ ㄗ˙ ㄧˇ ㄑㄧㄢˊ ㄅㄧㄢˇ ㄅㄧㄢˇ ㄉㄜ˙, ㄉㄢˋ ㄕˋ ㄧㄣ ㄨㄟˋ ㄆㄧˊ ㄐㄧㄡˇ ㄒㄧㄢˋ ㄗㄞˋ ㄅㄧㄢˋ ㄆㄧˊ ㄐㄧㄡˇ ㄉㄨˋ ㄌㄜ˙.',
+            pinyin: 'ta1 de du4 zi yi3 qian2 bian3 bian3 de, dan4 shi4 yin1 wei4 pi2 jiu3 xian4 zai4 bian4 pi2 jiu3 du4 le.',
+            translation: '彼のお腹は以前はペッタンコでしたが、 今はビールのせいでビール腹になりました。',
+            memo: '※「掰掰袖」=「プヨプヨの二の腕」、 「蘿蔔腿」=「大根足」。',
+            changed: '★'
           },
           {
             word: '材料',
@@ -209,19 +223,21 @@ export default {
           },
           {
             word: '飽',
-            sentence: '即使我吃飽了， 我也有飯就吃。',
-            bopomofo: 'ㄐㄧˊ ㄕˇ ㄨㄛˇ ㄔ ㄅㄠˇ ㄌㄜ˙, ㄨㄛˇ ㄧㄝˇ ㄧㄡˇ ㄈㄢˋ ㄐㄧㄡˋ ㄔ.',
-            pinyin: 'ji2 shi3 wo3 chi1 bao3 le, wo3 ye3 you3 fan4 jiu4 chi1.',
+            sentence: '即使我吃飽了， 有食物還是會吃',
+            bopomofo: 'ㄐㄧˊ ㄕˇ ㄨㄛˇ ㄔ ㄅㄠˇ ㄌㄜ˙,  ㄧㄡˇ ㄕˊ ㄨˋ ㄏㄞˊ ㄕˋ ㄏㄨㄟˋ ㄔ.',
+            pinyin: 'ji2 shi3 wo3 chi1 bao3 le, you3 shi2 wu4 hai2 shi4 hui4 chi1.',
             translation: 'たとえ満腹でも、 食べ物があれば食べます。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '光',
-            sentence: '如果你能在十秒鐘內喝光一升啤酒， 你就獲得到一萬元。',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄋㄥˊ ㄗㄞˋ ㄕˊ ㄇㄧㄠˇ ㄓㄨㄥ ㄋㄟˋ ㄏㄜ ㄍㄨㄤ ㄧ ㄕㄥ ㄆㄧˊ ㄐㄧㄡˇ, ㄋㄧˇ ㄐㄧㄡˋ ㄏㄨㄛˋ ㄉㄜˊ ㄉㄠˋ ㄧ ㄨㄢˋ ㄩㄢˊ.',
-            pinyin: 'ru2 guo3 ni3 neng2 zai4 shi2 miao3 zhong1 nei4 he1 guang1 yi1 sheng1 pi2 jiu3, ni3 jiu4 huo4 de2 dao4 yi1 wan4 yuan2.',
+            sentence: '如果你能在十秒鐘內喝光一升啤酒， 就能獲得一萬元。',
+            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄋㄥˊ ㄗㄞˋ ㄕˊ ㄇㄧㄠˇ ㄓㄨㄥ ㄋㄟˋ ㄏㄜ ㄍㄨㄤ ㄧ ㄕㄥ ㄆㄧˊ ㄐㄧㄡˇ, ㄐㄧㄡˋ ㄋㄥˊ ㄏㄨㄛˋ ㄉㄜˊ ㄧ ㄨㄢˋ ㄩㄢˊ.',
+            pinyin: 'ru2 guo3 ni3 neng2 zai4 shi2 miao3 zhong1 nei4 he1 guang1 yi1 sheng1 pi2 jiu3, jiu4 neng2 huo4 de2 yi1 wan4 yuan2.',
             translation: '1リットルのビールを10秒で飲み干せたら、 1万元貰えます。',
-            memo: ''
+            memo: '※「獲得」 = 「得到」。',
+            changed: '★'
           },
           {
             word: '鍋子',
@@ -249,11 +265,12 @@ export default {
           },
           {
             word: '韓國',
-            sentence: '用各種蔬菜的韓國料理對健康很好。',
-            bopomofo: 'ㄩㄥˋ ㄍㄜˋ ㄓㄨㄥˇ ㄕㄨ ㄘㄞˋ ㄉㄜ˙ ㄏㄢˊ ㄍㄨㄛˊ ㄌㄧㄠˋ ㄌㄧˇ ㄉㄨㄟˋ ㄐㄧㄢˋ ㄎㄤ ㄏㄣˇ ㄏㄠˇ.',
-            pinyin: 'yong4 ge4 zhong3 shu1 cai4 de han2 guo2 liao4 li3 dui4 jian4 kang1 hen3 hao3.',
+            sentence: '用各種蔬菜做的韓國菜對健康很好。',
+            bopomofo: 'ㄩㄥˋ ㄍㄜˋ ㄓㄨㄥˇ ㄕㄨ ㄘㄞˋ ㄗㄨㄛˋ ㄉㄜ˙ ㄏㄢˊ ㄍㄨㄛˊ ㄘㄞˋ ㄉㄨㄟˋ ㄐㄧㄢˋ ㄎㄤ ㄏㄣˇ ㄏㄠˇ.',
+            pinyin: 'yong4 ge4 zhong3 shu1 cai4 zuo4 de han2 guo2 cai4 dui4 jian4 kang1 hen3 hao3.',
             translation: 'さまざまな野菜を使った韓国料理はとても健康的です。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '看不出來',
@@ -276,7 +293,7 @@ export default {
             sentence: '這個學期完的時候弟弟要回家。',
             bopomofo: 'ㄓㄜˋ ㄍㄜˋ ㄒㄩㄝˊ ㄑㄧ ㄨㄢˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄉㄧˋ ㄉㄧ˙ ㄧㄠˋ ㄏㄨㄟˊ ㄐㄧㄚ.',
             pinyin: 'zhe4 ge4 xue2 qi1 wan2 de shi2 hou4 di4 di4 yao4 hui2 jia1.',
-            translation: '私の兄は今学期の終わりに家に帰ってきます。',
+            translation: '私の弟は今学期の終わりに家に帰ってきます。',
             memo: ''
           },
           {
@@ -289,19 +306,21 @@ export default {
           },
           {
             word: '皮',
-            sentence: '為了別破掉很薄的春捲皮, 他們在很認真地包。',
-            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄅㄧㄝˊ ㄆㄛˋ ㄉㄧㄠˋ ㄏㄣˇ ㄅㄠˊ ㄉㄜ˙ ㄔㄨㄣ ㄐㄩㄢˇ ㄆㄧˊ, ㄊㄚ ㄇㄣ˙ ㄗㄞˋ ㄏㄣˇ ㄖㄣˋ ㄓㄣ ㄉㄜ˙ ㄅㄠ.',
-            pinyin: 'wei4 le bie2 po4 diao4 hen3 bao2 de chun1 juan4 pi2, ta1 men zai4 hen3 ren4 zhen1 de bao1.',
+            sentence: '為了不讓很薄的春捲皮破掉, 他們很認真地包。',
+            bopomofo: 'ㄨㄟˋ ㄌㄧㄠˇ ㄅㄨˊ  ㄖㄤˋ ㄏㄣˇ ㄅㄠˊ ㄉㄜ˙ ㄔㄨㄣ ㄐㄩㄢˇ ㄆㄧˊ ㄆㄛˋ ㄉㄧㄠˋ, ㄊㄚ ㄇㄣ˙ ㄏㄣˇ ㄖㄣˋ ㄓㄣ ㄉㄜ˙ ㄅㄠ.',
+            pinyin: 'wei4 le bu2 rang4 hen3 bao2 de chun1 juan4 pi2 po4 diao4, ta1 men hen3 ren4 zhen1 de bao1.',
             translation: 'とても薄い春巻きの皮を破らないように、 彼らはそれをとても丁寧に巻いています。',
-            memo: ''
+            memo: '※「薄」の発音：「ㄅㄠˊ/bao2(台湾)」、 「ㄅㄛˊ/bo2(中国)」。',
+            changed: '★'
           },
           {
             word: '嚐',
-            sentence: '我做飯做得不太好, 所以我的負責是嚐嚐。',
-            bopomofo: 'ㄨㄛˇ ㄗㄨㄛˋ ㄈㄢˋ ㄗㄨㄛˋ ㄉㄜˊ ㄅㄨˋ ㄊㄞˋ ㄏㄠˇ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄉㄜ˙ ㄈㄨˋ ㄗㄜˊ ㄕˋ ㄔㄤˊ ㄔㄤˊ.',
-            pinyin: 'wo3 zuo4 fan4 zuo4 de bu2 tai4 hao3, suo3 yi3 wo3 de fu4 ze2 shi4 chang2 chang2.',
+            sentence: '我做飯做得不太好, 所以我負責嚐味道。',
+            bopomofo: 'ㄨㄛˇ ㄗㄨㄛˋ ㄈㄢˋ ㄗㄨㄛˋ ㄉㄜˊ ㄅㄨˋ ㄊㄞˋ ㄏㄠˇ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄈㄨˋ ㄗㄜˊ ㄔㄤˊ ㄨㄟˋ ㄉㄠˋ.',
+            pinyin: 'wo3 zuo4 fan4 zuo4 de bu2 tai4 hao3, suo3 yi3 wo3 fu4 ze2 chang2 wei4 dao4.',
             translation: 'あまり料理が得意ではないので、 味見を担当しています。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '大白菜',
@@ -321,19 +340,21 @@ export default {
           },
           {
             word: '鹽',
-            sentence: '鹽是在烤牛排之直前請搖。',
-            bopomofo: 'ㄧㄢˊ ㄕˋ ㄗㄞˋ ㄎㄠˇ ㄋㄧㄡˊ ㄆㄞˊ ㄓ ㄓˊ ㄑㄧㄢˊ ㄑㄧㄥˇ ㄧㄠˊ.',
-            pinyin: 'yan2 shi4 zai4 kao3 niu2 pai2 zhi1 zhi2 qian2 qing3 yao2.',
+            sentence: '鹽是在烤牛排之前撒一下。',
+            bopomofo: 'ㄧㄢˊ ㄕˋ ㄗㄞˋ ㄎㄠˇ ㄋㄧㄡˊ ㄆㄞˊ ㄓ ㄑㄧㄢˊ ㄙㄚ ㄧ ㄒㄧㄚˋ.',
+            pinyin: 'yan2 shi4 zai4 kao3 niu2 pai2 zhi1 qian2 sa1 yi1 xia4.',
             translation: '塩はステーキを焼く直前に振って下さい。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '拌',
-            sentence: '為了別煮糊了， 請你把鍋子拌均勻。',
-            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄅㄧㄝˊ ㄓㄨˇ ㄏㄨˊ ㄌㄜ˙, ㄑㄧㄥˇ ㄋㄧˇ ㄅㄚˇ ㄍㄨㄛ ㄗ˙ ㄅㄢˋ ㄐㄩㄣ ㄩㄣˊ.',
-            pinyin: 'wei4 le bie2 zhu3 hu2 le, qing3 ni3 ba3 guo1 zi ban4 jun1 yun2.',
+            sentence: '為了別煮焦， 鍋子請你充分拌勻。',
+            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄅㄧㄝˊ ㄓㄨˇ ㄐㄧㄠ, ㄍㄨㄛ ㄗ˙ ㄑㄧㄥˇ ㄋㄧˇ ㄔㄨㄥ ㄈㄣˋ ㄅㄢˋ ㄩㄣˊ.',
+            pinyin: 'wei4 le bie2 zhu3 jiao1, guo1 zi qing3 ni3 chong1 fen4 ban4 yun2.',
             translation: '焦げないように、 鍋をよくかき混ぜてください。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '辣椒',
@@ -361,35 +382,39 @@ export default {
           },
           {
             word: '玻璃',
-            sentence: '他們不使用玻璃餐具，可能是因為他們有寶貝。',
-            bopomofo: 'ㄊㄚ ㄇㄣ˙ ㄅㄨˋ ㄕˇ ㄩㄥˋ ㄅㄛ ㄌㄧˊ ㄘㄢ ㄐㄩˋ, ㄎㄜˇ ㄋㄥˊ ㄕˋ ㄧㄣ ㄨㄟˋ ㄊㄚ ㄇㄣ˙ ㄧㄡˇ ㄅㄠˇ ㄅㄟˋ.',
-            pinyin: 'ta1 men bu4 shi3 yong4 bo1 li2 can1 ju4, ke3 neng2 shi4 yin1 wei4 ta1 men you3 bao3 bei4.',
+            sentence: '他們不使用玻璃餐具，可能是因為他們有寶寶。',
+            bopomofo: 'ㄊㄚ ㄇㄣ˙ ㄅㄨˋ ㄕˇ ㄩㄥˋ ㄅㄛ ㄌㄧˊ ㄘㄢ ㄐㄩˋ, ㄎㄜˇ ㄋㄥˊ ㄕˋ ㄧㄣ ㄨㄟˋ ㄊㄚ ㄇㄣ˙ ㄧㄡˇ ㄅㄠˇ ㄅㄠˇ.',
+            pinyin: 'ta1 men bu4 shi3 yong4 bo1 li2 can1 ju4, ke3 neng2 shi4 yin1 wei4 ta1 men you3 bao3 bao3.',
             translation: '赤ちゃんがいるからか、 彼らはガラス製の食器を使いません。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '壽司',
-            sentence: '壽司可以吃跟筷子還是手。',
-            bopomofo: 'ㄕㄡˋ ㄙ ㄎㄜˇ ㄧˇ ㄔ ㄍㄣ ㄎㄨㄞˋ ㄗ˙ ㄏㄞˊ ㄕˋ ㄕㄡˇ.',
-            pinyin: 'shou4 si1 ke3 yi3 chi1 gen1 kuai4 zi3 hai2 shi4 shou3.',
+            sentence: '壽司可以用筷子吃或是手吃。',
+            bopomofo: 'ㄕㄡˋ ㄙ ㄎㄜˇ ㄧˇ ㄩㄥˋ ㄎㄨㄞˋ ㄗ˙ ㄔ ㄏㄨㄛˋ ㄕˋ ㄕㄡˇ ㄔ.',
+            pinyin: 'shou4 si1 ke3 yi3 yong4 kuai4 zi chi1 huo4 shi4 shou3 chi1.',
             translation: '寿司は箸でも手でも食べられます。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '像',
-            sentence: '你去聽講演的時候， 應該帶可以做筆記的東西像筆記本。',
-            bopomofo: 'ㄋㄧˇ ㄑㄩˋ ㄊㄧㄥ ㄐㄧㄤˇ ㄧㄢˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄧㄥ ㄍㄞ ㄉㄞˋ ㄎㄜˇ ㄧˇ ㄗㄨㄛˋ ㄅㄧˇ ㄐㄧˋ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙ ㄒㄧㄤˋ ㄅㄧˇ ㄐㄧˋ ㄅㄣˇ.',
-            pinyin: 'ni3 qu4 ting1 jiang3 yan3 de shi2 hou4, ying1 gai1 dai4 ke3 yi3 zuo4 bi3 ji4 de dong1 xi xiang4 bi3 ji4 ben3.',
+            sentence: '你去聽演講的時候， 應該帶可以做筆記的東西像筆記本。',
+            bopomofo: 'ㄋㄧˇ ㄑㄩˋ ㄊㄧㄥ ㄧㄢˇ ㄐㄧㄤˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄧㄥ ㄍㄞ ㄉㄞˋ ㄎㄜˇ ㄧˇ ㄗㄨㄛˋ ㄅㄧˇ ㄐㄧˋ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙ ㄒㄧㄤˋ ㄅㄧˇ ㄐㄧˋ ㄅㄣˇ.',
+            pinyin: 'ni3 qu4 ting1 yan3 jiang3 de shi2 hou4, ying1 gai1 dai4 ke3 yi3 zuo4 bi3 ji4 de dong1 xi xiang4 bi3 ji4 ben3.',
             translation: '講義に行くときは、 ノートのようにメモできるものを持参してください。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '食物',
-            sentence: '因為他很有對食物的講究, 找一家一起去的餐廳不簡單。',
-            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄊㄚ ㄏㄣˇ ㄧㄡˇ ㄉㄨㄟˋ ㄕˊ ㄨˋ ㄉㄜ˙ ㄐㄧㄤˇ ㄐㄧㄡ, ㄓㄠˇ ㄧ ㄐㄧㄚ ㄧˋ ㄑㄧˇ ㄑㄩˋ ㄉㄜ˙ ㄘㄢ ㄊㄧㄥ ㄅㄨˋ ㄐㄧㄢˇ ㄉㄢ.',
-            pinyin: 'yin1 wei4 ta1 hen3 you3 dui4 shi2 wu4 de jiang3 jiu1, zhao3 yi1 jia1 yi1 qi3 qu4 de can1 ting1 bu4 jian3 dan1.',
+            sentence: '因為他對食物很講究, 找到一家能一起去的餐廳不簡單。',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄊㄚ ㄉㄨㄟˋ ㄕˊ ㄨˋ ㄏㄣˇ ㄐㄧㄤˇ ㄐㄧㄡ, ㄓㄠˇ ㄉㄠˋ ㄧ ㄐㄧㄚ ㄋㄥˊ ㄧˋ ㄑㄧˇ ㄑㄩˋ ㄉㄜ˙ ㄘㄢ ㄊㄧㄥ ㄅㄨˋ ㄐㄧㄢˇ ㄉㄢ.',
+            pinyin: 'yin1 wei4 ta1 dui4 shi2 wu4 hen3 jiang3 jiu1, zhao3 dao4 yi1 jia1 neng2 yi1 qi3 qu4 de can1 ting1 bu4 jian3 dan1.',
             translation: '彼は食べ物にとてもこだわっているので、 一緒に行くレストランを見つけるのは簡単ではありません。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '做起來',
@@ -400,6 +425,7 @@ export default {
             memo: ''
           }
         ]
+
       }
     }
   }
