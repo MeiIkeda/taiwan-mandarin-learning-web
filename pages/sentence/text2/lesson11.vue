@@ -105,9 +105,9 @@ export default {
           },
           {
             word: '原住民',
-            sentence: '這裡原住民做的當地菜很好吃, 不能吃其他地方。',
-            bopomofo: 'ㄓㄜˋ ㄌㄧˇ ㄩㄢˊ ㄓㄨˋ ㄇㄧㄣˊ ㄗㄨㄛˋ ㄉㄜ˙ ㄉㄤˋ ㄉㄧˋ ㄘㄞˋ ㄏㄣˇ ㄏㄠˇ ㄔ, ㄅㄨˋ ㄋㄥˊ ㄔ ㄑㄧˊ ㄊㄚ ㄉㄧˋ ㄈㄤ.',
-            pinyin: 'zhe4 li3 yuan2 zhu4 min2 zuo4 de dang4 di4 cai4 hen3 hao3 chi1, bu4 neng2 chi1 qi2 ta1 di4 fang1.',
+            sentence: '這裡原住民做的當地菜很好吃, 在其他地方不能吃到。',
+            bopomofo: 'ㄓㄜˋ ㄌㄧˇ ㄩㄢˊ ㄓㄨˋ ㄇㄧㄣˊ ㄗㄨㄛˋ ㄉㄜ˙ ㄉㄤ ㄉㄧˋ ㄘㄞˋ ㄏㄣˇ ㄏㄠˇ ㄔ, ㄗㄞˋ ㄑㄧˊ ㄊㄚ ㄉㄧˋ ㄈㄤ ㄅㄨˋ ㄋㄥˊ ㄔ ㄉㄠˋ.',
+            pinyin: 'zhe4 li3 yuan2 zhu4 min2 zuo4 de dang1 di4 cai4 hen3 hao3 chi1, zai4 qi2 ta1 di4 fang1 bu4 neng2 chi1 dao4.',
             translation: 'ここの原住民が作る郷土料理はとても美味しく、 他の場所では食べられません。',
             memo: ''
           },
@@ -153,9 +153,9 @@ export default {
           },
           {
             word: '不見',
-            sentence: '我放桌上的生魚片不見了, 貓是可疑的。',
-            bopomofo: 'ㄨㄛˇ ㄈㄤˋ ㄓㄨㄛ ㄕㄤˋ ㄉㄜ˙ ㄕㄥ ㄩˊ ㄆㄧㄢˋ ㄅㄨˊ ㄐㄧㄢˋ ㄌㄜ˙, ㄇㄠ ㄕˋ ㄎㄜˇ ㄧˊ ㄉㄜ˙.',
-            pinyin: 'wo3 fang4 zhuo1 shang4 de sheng1 yu2 pian4 bu2 jian4 le, mao1 shi4 ke3 yi2 de.',
+            sentence: '我放的桌上的生魚片不見了, 貓是可疑的。',
+            bopomofo: 'ㄨㄛˇ ㄈㄤˋ ㄉㄜ˙ ㄓㄨㄛ ㄕㄤˋ ㄉㄜ˙ ㄕㄥ ㄩˊ ㄆㄧㄢˋ ㄅㄨˊ ㄐㄧㄢˋ ㄌㄜ˙, ㄇㄠ ㄕˋ ㄎㄜˇ ㄧˊ ㄉㄜ˙.',
+            pinyin: 'wo3 fang4 de zhuo1 shang4 de sheng1 yu2 pian4 bu2 jian4 le, mao1 shi4 ke3 yi2 de.',
             translation: 'テーブルの上に置いた刺身が無くなっているので、 猫が怪しいです。',
             memo: ''
           },
@@ -203,7 +203,7 @@ export default {
             word: '台中',
             sentence: '如果你想爬山, 先到旁邊的城市台中去就好。',
             bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄒㄧㄤˇ ㄆㄚˊ ㄕㄢ, ㄒㄧㄢ ㄉㄠˋ ㄆㄤˊ ㄅㄧㄢ ㄉㄜ˙ ㄔㄥˊ ㄕˋ ㄊㄞˊ ㄓㄨㄥ ㄑㄩˋ ㄐㄧㄡˋ ㄏㄠˇ.',
-            pinyin: 'ru2 guo3 ni3 xiang3 pa2 shan1 xian1, dao4 pang2 bian1 de cheng2 shi4 tai2 zhong1 qu4 jiu4 hao3.',
+            pinyin: 'ru2 guo3 ni3 xiang3 pa2 shan1, xian1 dao4 pang2 bian1 de cheng2 shi4 tai2 zhong1 qu4 jiu4 hao3.',
             translation: '山登りがしたければ、 まずは隣の大都市である台中に行って下さい。',
             memo: ''
           },
@@ -241,9 +241,9 @@ export default {
           },
           {
             word: '遍',
-            sentence: '以為我不能相信他吃完冰箱裡所有的食物, 我確認了二, 三遍。',
-            bopomofo: 'ㄧˇ ㄨㄟˊ ㄨㄛˇ ㄅㄨˋ ㄋㄥˊ ㄒㄧㄤ ㄒㄧㄣˋ ㄊㄚ ㄔ ㄨㄢˊ ㄅㄧㄥ ㄒㄧㄤ ㄌㄧˇ ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄨˋ, ㄨㄛˇ ㄑㄩㄝˋ ㄖㄣˋ ㄌㄜ˙ ㄦˋ, ㄙㄢ ㄅㄧㄢˋ.',
-            pinyin: 'yi3 wei4 wo3 bu4 neng2 xiang1 xin4 ta1 chi1 wan2 bing1 xiang1 li3 suo3 you3 de shi2 wu4, wo3 que4 ren4 le er4 san1 bian4.',
+            sentence: '因為我不能相信他吃完冰箱裡所有的食物, 我確認了二, 三遍。',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄅㄨˋ ㄋㄥˊ ㄒㄧㄤ ㄒㄧㄣˋ ㄊㄚ ㄔ ㄨㄢˊ ㄅㄧㄥ ㄒㄧㄤ ㄌㄧˇ ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄨˋ, ㄨㄛˇ ㄑㄩㄝˋ ㄖㄣˋ ㄌㄜ˙ ㄦˋ, ㄙㄢ ㄅㄧㄢˋ.',
+            pinyin: 'yin1 wei4 wo3 bu4 neng2 xiang1 xin4 ta1 chi1 wan2 bing1 xiang1 li3 suo3 you3 de shi2 wu4, wo3 que4 ren4 le er4 san1 bian4.',
             translation: '彼が冷蔵庫の中の食べ物を全部食べたとは信じられなかったので、 2、 3回確認しました。',
             memo: ''
           },
@@ -346,7 +346,7 @@ export default {
           {
             word: '上',
             sentence: '他穿上破掉的褲子， 周圍的人在凝視他。',
-            bopomofo: 'ㄊㄚ ㄔㄨㄢ ㄕㄤ˙ ㄆㄛˋ ㄉㄧㄠˋ ㄉㄜ˙ ㄎㄨˋ ㄗ˙   ㄓㄡ ㄨㄟˊ ㄉㄜ˙ ㄖㄣˊ ㄗㄞˋ ㄋㄧㄥˊ ㄕˋ ㄊㄚ.',
+            bopomofo: 'ㄊㄚ ㄔㄨㄢ ㄕㄤˋ ㄆㄛˋ ㄉㄧㄠˋ ㄉㄜ˙ ㄎㄨˋ ㄗ˙   ㄓㄡ ㄨㄟˊ ㄉㄜ˙ ㄖㄣˊ ㄗㄞˋ ㄋㄧㄥˊ ㄕˋ ㄊㄚ.',
             pinyin: 'ta1 chuan1 shang4 po4 diao4 de ku4 zi, zhou1 wei2 de ren2 zai4 ning2 shi4 ta1.',
             translation: '彼は敗れたパンツを履いているので、 周りの人がジロジロ見ています。',
             memo: ''
@@ -355,7 +355,7 @@ export default {
             word: '又',
             sentence: '他是一個開朗又輕鬆的人, 不會太擔心。',
             bopomofo: 'ㄊㄚ ㄕˋ ㄧˊ ㄍㄜˋ ㄎㄞ ㄌㄤˇ ㄧㄡˋ ㄑㄧㄥ ㄙㄨㄥ ㄉㄜ˙ ㄖㄣˊ, ㄅㄨˊ ㄏㄨㄟˋ ㄊㄞˋ ㄉㄢ ㄒㄧㄣ.',
-            pinyin: 'ta1 shi4 yi1 ge4 kai1 lang3 you4 qing1 song4 de ren2, bu2 hui4 tai4 dan1 xin1.',
+            pinyin: 'ta1 shi4 yi1 ge4 kai1 lang3 you4 qing1 song1 de ren2, bu2 hui4 tai4 dan1 xin1.',
             translation: '彼は陽気で気楽な人なので、 あまり悩んだりしません。',
             memo: ''
           },
