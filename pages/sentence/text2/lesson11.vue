@@ -50,8 +50,8 @@ export default {
           {
             word: '假期',
             sentence: '趁比較長的假期他會去國外旅行。',
-            bopomofo: 'ㄔㄣˋ ㄅㄧˇ ㄐㄧㄠˋ ㄔㄤˊ ㄉㄜ˙ ㄐㄧㄚˋ ㄑㄧ ㄊㄚ ㄏㄨㄟˋ ㄑㄩˋ ㄍㄨㄛˊ ㄨㄞˋ ㄌㄩˇ ㄒㄧㄥˊ.',
-            pinyin: 'chen4 bi3 jiao4 chang2 de jia4 qi1 ta1 hui4 qu4 guo2 wai4 lu3 xing2.',
+            bopomofo: 'ㄔㄣˋ ㄅㄧˇ ㄐㄧㄠˋ ㄔㄤˊ ㄉㄜ˙ ㄐㄧㄚˋ ㄑㄧˊ ㄊㄚ ㄏㄨㄟˋ ㄑㄩˋ ㄍㄨㄛˊ ㄨㄞˋ ㄌㄩˇ ㄒㄧㄥˊ.',
+            pinyin: 'chen4 bi3 jiao4 chang2 de jia4 qi2 ta1 hui4 qu4 guo2 wai4 lu3 xing2.',
             translation: '比較的長い休暇を使って、 彼は海外に旅行します。',
             memo: ''
           },
@@ -121,10 +121,10 @@ export default {
           },
           {
             word: '後來',
-            sentence: '後來一個朋友會來家玩, 我會準備茶。',
-            bopomofo: 'ㄏㄡˋ ㄌㄞˊ ㄧˊ ㄍㄜˋ ㄆㄥˊ ㄧㄡˇ ㄏㄨㄟˋ ㄌㄞˊ ㄐㄧㄚ ㄨㄢˊ, ㄨㄛˇ ㄏㄨㄟˋ ㄓㄨㄣˇ ㄅㄟˋ ㄔㄚˊ.',
-            pinyin: 'hou4 lai2 yi1 ge4 peng2 you3 hui4 lai2 jia1 wan2, wo3 hui4 zhun3 bei4 cha2.',
-            translation: 'あとで友達が家に遊びに来るので、 お茶を準備します。',
+            sentence: '我以前早上總是吃白飯, 後來改變了吃麵包。',
+            bopomofo: 'ㄨㄛˇ ㄧˇ ㄑㄧㄢˊ ㄗㄠˇ ㄕㄤˋ ㄗㄨㄥˇ ㄕˋ ㄔ ㄅㄞˊ ㄈㄢˋ, ㄏㄡˋ ㄌㄞˊ ㄍㄞˇ ㄅㄧㄢˋ ㄌㄜ˙ ㄔ ㄇㄧㄢˋ ㄅㄠ.',
+            pinyin: 'wo3 yi3 qian2 zao3 shang4 zong3 shi4 chi1 bai2 fan4, hou4 lai2 gai3 bian4 le chi1 mian4 bao1.',
+            translation: '以前は朝ご飯に白米を食べていましたが、 その後パンを食べるようになりました。',
             memo: ''
           },
           {
@@ -241,9 +241,9 @@ export default {
           },
           {
             word: '遍',
-            sentence: '因為我不能相信他吃完冰箱裡所有的食物, 我確認了二, 三遍。',
-            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄅㄨˋ ㄋㄥˊ ㄒㄧㄤ ㄒㄧㄣˋ ㄊㄚ ㄔ ㄨㄢˊ ㄅㄧㄥ ㄒㄧㄤ ㄌㄧˇ ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄨˋ, ㄨㄛˇ ㄑㄩㄝˋ ㄖㄣˋ ㄌㄜ˙ ㄦˋ, ㄙㄢ ㄅㄧㄢˋ.',
-            pinyin: 'yin1 wei4 wo3 bu4 neng2 xiang1 xin4 ta1 chi1 wan2 bing1 xiang1 li3 suo3 you3 de shi2 wu4, wo3 que4 ren4 le er4 san1 bian4.',
+            sentence: '因為我不能相信他吃完冰箱裡所有的食物, 我從上到下確認了二, 三遍。',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄅㄨˋ ㄋㄥˊ ㄒㄧㄤ ㄒㄧㄣˋ ㄊㄚ ㄔ ㄨㄢˊ ㄅㄧㄥ ㄒㄧㄤ ㄌㄧˇ ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄨˋ, ㄨㄛˇ ㄘㄨㄥˊ ㄕㄤˋ ㄉㄠˋ ㄒㄧㄚˋ ㄑㄩㄝˋ ㄖㄣˋ ㄌㄜ˙ ㄦˋ, ㄙㄢ ㄅㄧㄢˋ.',
+            pinyin: 'yin1 wei4 wo3 bu4 neng2 xiang1 xin4 ta1 chi1 wan2 bing1 xiang1 li3 suo3 you3 de shi2 wu4, wo3 cong2 shang4 dao4 xia4 que4 ren4 le er4 san1 bian4.',
             translation: '彼が冷蔵庫の中の食べ物を全部食べたとは信じられなかったので、 2、 3回確認しました。',
             memo: ''
           },
@@ -385,9 +385,9 @@ export default {
           },
           {
             word: '曬太陽',
-            sentence: '最近一直在下雨， 所以我想差不多曬太陽。',
-            bopomofo: 'ㄗㄨㄟˋ ㄐㄧㄣˋ ㄧ ㄓˊ ㄗㄞˋ ㄒㄧㄚˋ ㄩˇ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄒㄧㄤˇ ㄔㄚ ㄅㄨˋ ㄉㄨㄛ ㄕㄞˋ ㄊㄞˋ ㄧㄤˊ.',
-            pinyin: 'zui4 jin4 yi1 zhi2 zai4 xia4 yu3, suo3 yi3 wo3 xiang3 cha1 bu4 duo1 shai4 tai4 yang2.',
+            sentence: '最近一直下雨， 所以我想差不多曬太陽。',
+            bopomofo: 'ㄗㄨㄟˋ ㄐㄧㄣˋ ㄧ ㄓˊ ㄒㄧㄚˋ ㄩˇ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄒㄧㄤˇ ㄔㄚ ㄅㄨˋ ㄉㄨㄛ ㄕㄞˋ ㄊㄞˋ ㄧㄤˊ.',
+            pinyin: 'zui4 jin4 yi1 zhi2 xia4 yu3, suo3 yi3 wo3 xiang3 cha1 bu4 duo1 shai4 tai4 yang2.',
             translation: '最近はずっと雨なので、 そろそろ日光を浴びたいです。',
             memo: ''
           },
