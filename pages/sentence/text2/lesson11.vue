@@ -137,9 +137,9 @@ export default {
           },
           {
             word: '沙灘',
-            sentence: '我要躺著沙灘喝啤酒。',
-            bopomofo: 'ㄨㄛˇ ㄧㄠˋ ㄊㄤˇ ㄓㄜ˙ ㄕㄚ ㄊㄢ ㄏㄜ ㄆㄧˊ ㄐㄧㄡˇ.',
-            pinyin: 'wo3 yao4 tang3 zhe sha1 tan1 he1 pi2 jiu3.',
+            sentence: '我要躺著沙灘上喝啤酒。',
+            bopomofo: 'ㄨㄛˇ ㄧㄠˋ ㄊㄤˇ ㄓㄜ˙ ㄕㄚ ㄊㄢ ㄕㄤˋ ㄏㄜ ㄆㄧˊ ㄐㄧㄡˇ.',
+            pinyin: 'wo3 yao4 tang3 zhe sha1 tan1 shang4 he1 pi2 jiu3.',
             translation: 'ビーチに寝転がってビールを飲みたいです。',
             memo: ''
           },
@@ -345,9 +345,9 @@ export default {
           },
           {
             word: '上',
-            sentence: '他穿上破掉的褲子， 周圍的人在凝視他。',
-            bopomofo: 'ㄊㄚ ㄔㄨㄢ ㄕㄤˋ ㄆㄛˋ ㄉㄧㄠˋ ㄉㄜ˙ ㄎㄨˋ ㄗ˙   ㄓㄡ ㄨㄟˊ ㄉㄜ˙ ㄖㄣˊ ㄗㄞˋ ㄋㄧㄥˊ ㄕˋ ㄊㄚ.',
-            pinyin: 'ta1 chuan1 shang4 po4 diao4 de ku4 zi, zhou1 wei2 de ren2 zai4 ning2 shi4 ta1.',
+            sentence: '他穿上破掉的褲子， 周圍的人都在凝視他。',
+            bopomofo: 'ㄊㄚ ㄔㄨㄢ ㄕㄤˋ ㄆㄛˋ ㄉㄧㄠˋ ㄉㄜ˙ ㄎㄨˋ ㄗ˙, ㄓㄡ ㄨㄟˊ ㄉㄜ˙ ㄖㄣˊ ㄉㄡ ㄗㄞˋ ㄋㄧㄥˊ ㄕˋ ㄊㄚ.',
+            pinyin: 'ta1 chuan1 shang4 po4 diao4 de ku4 zi, zhou1 wei2 de ren2 dou1 zai4 ning2 shi4 ta1.',
             translation: '彼は敗れたパンツを履いているので、 周りの人がジロジロ見ています。',
             memo: ''
           },
