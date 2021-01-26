@@ -153,10 +153,10 @@ export default {
           },
           {
             word: '不見',
-            sentence: '我放的桌上的生魚片不見了, 貓是可疑的。',
-            bopomofo: 'ㄨㄛˇ ㄈㄤˋ ㄉㄜ˙ ㄓㄨㄛ ㄕㄤˋ ㄉㄜ˙ ㄕㄥ ㄩˊ ㄆㄧㄢˋ ㄅㄨˊ ㄐㄧㄢˋ ㄌㄜ˙, ㄇㄠ ㄕˋ ㄎㄜˇ ㄧˊ ㄉㄜ˙.',
-            pinyin: 'wo3 fang4 de zhuo1 shang4 de sheng1 yu2 pian4 bu2 jian4 le, mao1 shi4 ke3 yi2 de.',
-            translation: 'テーブルの上に置いた刺身が無くなっているので、 猫が怪しいです。',
+            sentence: '我放的桌上的生魚片不見了, 貓是懷疑的。',
+            bopomofo: 'ㄨㄛˇ ㄈㄤˋ ㄉㄜ˙ ㄓㄨㄛ ㄕㄤˋ ㄉㄜ˙ ㄕㄥ ㄩˊ ㄆㄧㄢˋ ㄅㄨˊ ㄐㄧㄢˋ ㄌㄜ˙, ㄇㄠ ㄕˋ ㄏㄨㄞˊ ㄧˊ ㄉㄜ˙.',
+            pinyin: 'wo3 fang4 de zhuo1 shang4 de sheng1 yu2 pian4 bu2 jian4 le, mao1 shi4 huai2 yi2  de.',
+            translation: 'テーブルの上に置いた刺身が無くなっているので、 猫が疑わしいです。',
             memo: ''
           },
           {
