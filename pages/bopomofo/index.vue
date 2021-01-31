@@ -18,13 +18,13 @@
           <tbody>
             <tr>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.b)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.b }}
+                <b-button @click="speak_bopomofo(charactor.b)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.b.bopomofo }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.d)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.d }}
+                <b-button @click="speak_bopomofo(charactor.d)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.d.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
@@ -39,8 +39,8 @@
               </td>
 
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.zh)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.zh }}
+                <b-button @click="speak_bopomofo(charactor.zh)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.zh.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
@@ -54,28 +54,28 @@
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.a)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.a }}
+                <b-button @click="speak_bopomofo(charactor.a)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.a.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.ai)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.ai }}
+                <b-button @click="speak_bopomofo(charactor.ai)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.ai.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.an)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.an }}
+                <b-button @click="speak_bopomofo(charactor.an)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.an.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.er)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.er }}
+                <b-button @click="speak_bopomofo(charactor.er)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.er.bopomofo  }}
                 </b-button>
               </td>
             </tr>
             <tr>
-              <td>{{ pinyin.b }}</td><td>{{ pinyin.d }}</td><td /><td /><td>{{ pinyin.zh }}</td><td /><td /><td>{{ pinyin.a }}</td><td>{{ pinyin.ai }}</td><td>{{ pinyin.an }}</td><td>{{ pinyin.er }}</td>
+              <td>{{ charactor.b.pinyin }}</td><td>{{ charactor.d.pinyin }}</td><td /><td /><td>{{ charactor.zh.pinyin }}</td><td /><td /><td>{{ charactor.a.pinyin }}</td><td>{{ charactor.ai.pinyin }}</td><td>{{ charactor.an.pinyin }}</td><td>{{ charactor.er.pinyin }}</td>
             </tr>
           </tbody>
         </table>
@@ -84,57 +84,57 @@
           <tbody>
             <tr>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.p)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.p }}
+                <b-button @click="speak_bopomofo(charactor.p)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.p.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.t)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.t }}
+                <b-button @click="speak_bopomofo(charactor.t)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.t.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.g)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.g }}
+                <b-button @click="speak_bopomofo(charactor.g)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.g.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.j)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.j }}
+                <b-button @click="speak_bopomofo(charactor.j)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.j.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.ch)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.ch }}
+                <b-button @click="speak_bopomofo(charactor.ch)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.ch.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.z)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.z }}
+                <b-button @click="speak_bopomofo(charactor.z)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.z.bopomofo  }}
                 </b-button>
               </td><td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.y)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.y }}
+                <b-button @click="speak_bopomofo(charactor.y)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.y.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.o)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.o }}
+                <b-button @click="speak_bopomofo(charactor.o)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.o.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.ei)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.ei }}
+                <b-button @click="speak_bopomofo(charactor.ei)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.ei.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.en)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.en }}
+                <b-button @click="speak_bopomofo(charactor.en)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.en.bopomofo  }}
                 </b-button>
               </td>
             </tr>
             <tr>
-              <td>{{ pinyin.p }}</td><td>{{ pinyin.t }}</td><td>{{ pinyin.g }}</td><td>{{ pinyin.j }}</td><td>{{ pinyin.ch }}</td><td>{{ pinyin.z }}</td><td>{{ pinyin.y }}</td><td>{{ pinyin.o }}</td><td>{{ pinyin.ei }}</td><td>{{ pinyin.en }}</td>
+              <td>{{ charactor.p.pinyin }}</td><td>{{ charactor.t.pinyin }}</td><td>{{ charactor.g.pinyin }}</td><td>{{ charactor.j.pinyin }}</td><td>{{ charactor.ch.pinyin }}</td><td>{{ charactor.z.pinyin }}</td><td>{{ charactor.y.pinyin }}</td><td>{{ charactor.o.pinyin }}</td><td>{{ charactor.ei.pinyin }}</td><td>{{ charactor.en.pinyin }}</td>
             </tr>
           </tbody>
         </table>
@@ -144,57 +144,57 @@
           <tbody>
             <tr>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.m)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.m }}
+                <b-button @click="speak_bopomofo(charactor.m)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.m.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.n)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.n }}
+                <b-button @click="speak_bopomofo(charactor.n)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.n.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.k)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.k }}
+                <b-button @click="speak_bopomofo(charactor.k)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.k.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.q)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.q }}
+                <b-button @click="speak_bopomofo(charactor.q)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.q.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.sh)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.sh }}
+                <b-button @click="speak_bopomofo(charactor.sh)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.sh.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.c)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.c }}
+                <b-button @click="speak_bopomofo(charactor.c)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.c.bopomofo }}
                 </b-button>
               </td><td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.w)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.w }}
+                <b-button @click="speak_bopomofo(charactor.w)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.w.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.e)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.e }}
+                <b-button @click="speak_bopomofo(charactor.e)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.e.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.ao)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.ao }}
+                <b-button @click="speak_bopomofo(charactor.ao)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.ao.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.ang)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.ang }}
+                <b-button @click="speak_bopomofo(charactor.ang)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.ang.bopomofo  }}
                 </b-button>
               </td>
             </tr>
             <tr>
-              <td>{{ pinyin.m }}</td><td>{{ pinyin.n }}</td><td>{{ pinyin.k }}</td><td>{{ pinyin.q }}</td><td>{{ pinyin.sh }}</td><td>{{ pinyin.c }}</td><td>{{ pinyin.w }}</td><td>{{ pinyin.e }}</td><td>{{ pinyin.ao }}</td><td>{{ pinyin.ang }}</td>
+              <td>{{ charactor.m.pinyin }}</td><td>{{ charactor.n.pinyin }}</td><td>{{ charactor.k.pinyin }}</td><td>{{ charactor.q.pinyin }}</td><td>{{ charactor.sh.pinyin }}</td><td>{{ charactor.c.pinyin }}</td><td>{{ charactor.w.pinyin }}</td><td>{{ charactor.e.pinyin }}</td><td>{{ charactor.ao.pinyin }}</td><td>{{ charactor.ang.pinyin }}</td>
             </tr>
           </tbody>
         </table>
@@ -203,57 +203,57 @@
           <tbody>
             <tr>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.f)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.f }}
+                <b-button @click="speak_bopomofo(charactor.f)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.f.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.l)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.l }}
+                <b-button @click="speak_bopomofo(charactor.l)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.l.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.h)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.h }}
+                <b-button @click="speak_bopomofo(charactor.h)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.h.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.x)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.x }}
+                <b-button @click="speak_bopomofo(charactor.x)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.x.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.r)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.r }}
+                <b-button @click="speak_bopomofo(charactor.r)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.r.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.s)" style="background-color: #f0fff0; color: black">
-                  {{ bopomofo.s }}
+                <b-button @click="speak_bopomofo(charactor.s)" style="background-color: #f0fff0; color: black">
+                  {{ charactor.s.bopomofo  }}
                 </b-button>
               </td><td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.yu)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.yu }}
+                <b-button @click="speak_bopomofo(charactor.yu)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.yu.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.eh)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.eh }}
+                <b-button @click="speak_bopomofo(charactor.eh)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.eh.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.ou)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.ou }}
+                <b-button @click="speak_bopomofo(charactor.ou)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.ou.bopomofo  }}
                 </b-button>
               </td>
               <td style="width:20px;">
-                <b-button @click="speak_bopomofo(bopomofo.eng)" style="background-color: #f0f8ff; color: black">
-                  {{ bopomofo.eng }}
+                <b-button @click="speak_bopomofo(charactor.eng)" style="background-color: #f0f8ff; color: black">
+                  {{ charactor.eng.bopomofo  }}
                 </b-button>
               </td>
             </tr>
             <tr>
-              <td>{{ pinyin.f }}</td><td>{{ pinyin.l }}</td><td>{{ pinyin.h }}</td><td>{{ pinyin.x }}</td><td>{{ pinyin.r }}</td><td>{{ pinyin.s }}</td><td>{{ pinyin.yu }}</td><td>{{ pinyin.eh }}</td><td>{{ pinyin.ou }}</td><td>{{ pinyin.eng }}</td>
+              <td>{{ charactor.f.pinyin }}</td><td>{{ charactor.l.pinyin }}</td><td>{{ charactor.h.pinyin }}</td><td>{{ charactor.x.pinyin }}</td><td>{{ charactor.r.pinyin }}</td><td>{{ charactor.s.pinyin }}</td><td>{{ charactor.yu.pinyin }}</td><td>{{ charactor.eh.pinyin }}</td><td>{{ charactor.ou.pinyin }}</td><td>{{ charactor.eng.pinyin }}</td>
             </tr>
           </tbody>
         </table>
@@ -495,83 +495,158 @@ export default {
         four: 'ˋ',
         five: '˙'
       },
-      bopomofo: {
-        b: 'ㄅ',
-        p: 'ㄆ',
-        m: 'ㄇ',
-        f: 'ㄈ',
-        d: 'ㄉ',
-        t: 'ㄊ',
-        n: 'ㄋ',
-        l: 'ㄌ',
-        g: 'ㄍ',
-        k: 'ㄎ',
-        h: 'ㄏ',
-        j: 'ㄐ',
-        q: 'ㄑ',
-        x: 'ㄒ',
-        zh: 'ㄓ',
-        ch: 'ㄔ',
-        sh: 'ㄕ',
-        r: 'ㄖ',
-        z: 'ㄗ',
-        c: 'ㄘ',
-        s: 'ㄙ',
-        a: 'ㄚ',
-        o: 'ㄛ',
-        e: 'ㄜ',
-        eh: 'ㄝ',
-        ai: 'ㄞ',
-        ei: 'ㄟ',
-        ao: 'ㄠ',
-        ou: 'ㄡ',
-        an: 'ㄢ',
-        en: 'ㄣ',
-        ang: 'ㄤ',
-        eng: 'ㄥ',
-        er: 'ㄦ',
-        y: 'ㄧ',
-        w: 'ㄨ',
-        yu: 'ㄩ'
-      },
-      pinyin: {
-        b: 'b',
-        p: 'p',
-        m: 'm',
-        f: 'f',
-        d: 'd',
-        t: 't',
-        n: 'n',
-        l: 'l',
-        g: 'g',
-        k: 'k',
-        h: 'h',
-        j: 'j',
-        q: 'q',
-        x: 'x',
-        zh: 'zhi/zh',
-        ch: 'chi/ch',
-        sh: 'shi/sh',
-        r: 'ri/r',
-        z: 'zi/z',
-        c: 'ci/c',
-        s: 'si/s',
-        a: 'a',
-        o: 'o',
-        e: 'e',
-        eh: 'ê',
-        ai: 'ai',
-        ei: 'ei',
-        ao: 'ao',
-        ou: 'ou',
-        an: 'an',
-        en: 'en',
-        ang: 'ang',
-        eng: 'eng',
-        er: 'er',
-        y: 'i/y',
-        w: 'u/w',
-        yu: 'ü/yu'
+      charactor: {
+        b: {
+          bopomofo: 'ㄅ',
+          pinyin: 'b',
+          read: 'b'
+        },
+        p: {
+          bopomofo: 'ㄆ',
+          pinyin: 'p',
+          read: 'p'
+        },
+        m: { bopomofo: 'ㄇ',
+          pinyin: 'm',
+          read: 'm'
+        },
+        f: { bopomofo: 'ㄈ',
+          pinyin: 'f',
+          read: 'f'
+        },
+        d: { bopomofo: 'ㄉ',
+          pinyin: 'd',
+          read: 'd'
+        },
+        t: { bopomofo: 'ㄊ',
+          pinyin: 't',
+          read: 't'
+        },
+        n: { bopomofo: 'ㄋ',
+          pinyin: 'n',
+          read: 'n'
+        },
+        l: { bopomofo: 'ㄌ',
+          pinyin: 'l',
+          read: 'l'
+        },
+        g: { bopomofo: 'ㄍ',
+          pinyin: 'g',
+          read: 'g'
+        },
+        k: { bopomofo: 'ㄎ',
+          pinyin: 'k',
+          read: 'k'
+        },
+        h: { bopomofo: 'ㄏ',
+          pinyin: 'h',
+          read: 'h'
+        },
+        j: { bopomofo: 'ㄐ',
+          pinyin: 'j',
+          read: 'j'
+        },
+        q: { bopomofo: 'ㄑ',
+          pinyin: 'q',
+          read: 'q'
+        },
+        x: { bopomofo: 'ㄒ',
+          pinyin: 'x',
+          read: 'x'
+        },
+        zh: { bopomofo: 'ㄓ',
+          pinyin: 'zhi/zh',
+          read: 'zh'
+        },
+        ch: { bopomofo: 'ㄔ',
+          pinyin: 'chi/ch',
+          read: 'ch'
+        },
+        sh: { bopomofo: 'ㄕ',
+          pinyin: 'shi/sh',
+          read: 'sh'
+        },
+        r: { bopomofo: 'ㄖ',
+          pinyin: 'ri/r',
+          read: 'r'
+        },
+        z: { bopomofo: 'ㄗ',
+          pinyin: 'zi/z',
+          read: 'z'
+        },
+        c: { bopomofo: 'ㄘ',
+          pinyin: 'ci/c',
+          read: 'c'
+        },
+        s: { bopomofo: 'ㄙ',
+          pinyin: 'si/s',
+          read: 's'
+        },
+        a: { bopomofo: 'ㄚ',
+          pinyin: 'a',
+          read: 'a'
+        },
+        o: { bopomofo: 'ㄛ',
+          pinyin: 'o',
+          read: 'o'
+        },
+        e: { bopomofo: 'ㄜ',
+          pinyin: 'e',
+          read: 'e'
+        },
+        eh: { bopomofo: 'ㄝ',
+          pinyin: 'ê',
+          read: 'eh'
+        },
+        ai: { bopomofo: 'ㄞ',
+          pinyin: 'ai',
+          read: 'ai'
+        },
+        ei: { bopomofo: 'ㄟ',
+          pinyin: 'ei',
+          read: 'ei'
+        },
+        ao: { bopomofo: 'ㄠ',
+          pinyin: 'ao',
+          read: 'ao'
+        },
+        ou: { bopomofo: 'ㄡ',
+          pinyin: 'ou',
+          read: 'ou'
+        },
+        an: { bopomofo: 'ㄢ',
+          pinyin: 'an',
+          read: 'an'
+        },
+        en: { bopomofo: 'ㄣ',
+          pinyin: 'en',
+          read: 'en'
+        },
+        ang: { bopomofo: 'ㄤ',
+          pinyin: 'ang',
+          read: 'ang'
+        },
+        eng: { bopomofo: 'ㄥ',
+          pinyin: 'eng',
+          read: 'eng'
+        },
+        er: { bopomofo: 'ㄦ',
+          pinyin: 'er',
+          read: 'er'
+        },
+        y: {
+          bopomofo: 'ㄧ',
+          pinyin: 'yi/i',
+          read: 'y'
+        },
+        w: { bopomofo: 'ㄨ',
+          pinyin: 'wu/u',
+          read: 'w'
+        },
+        yu: { bopomofo: 'ㄩ',
+          pinyin: 'yu/ü',
+          read: 'yu'
+        }
       },
       error_message: '',
       showErrorAlert: false
@@ -601,7 +676,7 @@ export default {
         }
       }
       this.showErrorAlert = false
-      const message = MySpeechSynthesis.methods.mySpeak(char, voices)
+      const message = MySpeechSynthesis.methods.mySpeak(char.bopomofo, voices)
       if (message !== 'success') {
         this.error_message = 'お使いのブラウザは音声再生に対応していない可能性があります。 (Google Chrome推奨)'
         this.$sentry.captureException(new Error('Error = ' + message))
