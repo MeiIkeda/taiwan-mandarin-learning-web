@@ -121,9 +121,9 @@ export default {
           },
           {
             word: '胖',
-            sentence: '他穿衣服看起來瘦, 但是其實相當胖。',
-            bopomofo: 'ㄊㄚ ㄔㄨㄢ ㄧ ㄈㄨ˙ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄕㄡˋ, ㄉㄢˋ ㄕˋ ㄑㄧˊ ㄕˊ ㄒㄧㄤˋ ㄉㄤ ㄆㄤˋ.',
-            pinyin: 'ta1 chuan1 yi1 fu2 kan4 qi3 lai2 shou4, dan4 shi4 qi2 shi2 xiang4 dang1 pang4.',
+            sentence: '他穿著衣服看起來瘦, 但是其實相當胖。',
+            bopomofo: 'ㄊㄚ ㄔㄨㄢ ㄓㄜ˙　ㄧ ㄈㄨ˙ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄕㄡˋ, ㄉㄢˋ ㄕˋ ㄑㄧˊ ㄕˊ ㄒㄧㄤˋ ㄉㄤ ㄆㄤˋ.',
+            pinyin: 'ta1 chuan1 zhe yi1 fu2 kan4 qi3 lai2 shou4, dan4 shi4 qi2 shi2 xiang4 dang1 pang4.',
             translation: '彼は服を着ていると痩せているように見えますが、　実際にはかなり太っています。',
             memo: ''
           },
@@ -147,7 +147,7 @@ export default {
             word: '樣',
             sentence: '桌子上的三樣菜都是用高麗菜做的。',
             bopomofo: 'ㄓㄨㄛ ㄗ˙ ㄕㄤˋ ㄉㄜ˙ ㄙㄢ ㄧㄤˋ ㄘㄞˋ ㄉㄡ ㄕˋ ㄩㄥˋ ㄍㄠ ㄌㄧˊ ㄘㄞˋ ㄗㄨㄛˋ ㄉㄜ˙.',
-            pinyin: 'zhuo1 zi shang4 de san1 yang4 cai4 dou1 shi4 yong4 gao1 li4 cai4 zuo4 de.',
+            pinyin: 'zhuo1 zi shang4 de san1 yang4 cai4 dou1 shi4 yong4 gao1 li2 cai4 zuo4 de.',
             translation: 'テーブルの上の3つの料理はすべてキャベツで作られています。',
             memo: ''
           },
@@ -163,7 +163,7 @@ export default {
             word: '女孩',
             sentence: '女孩們正在吃著冰淇淋吵吵地聊天。',
             bopomofo: 'ㄋㄩˇ ㄏㄞˊ ㄇㄣ˙ ㄓㄥˋ ㄗㄞˋ ㄔ ㄓㄜ˙ ㄅㄧㄥ ㄑㄧˊ ㄌㄧㄣˊ ㄔㄠ ㄔㄠ˙ ㄉㄧˋ ㄌㄧㄠˊ ㄊㄧㄢ.',
-            pinyin: 'nu3 hai2 men zheng4 zai4 chi1 zhe bing1 qi2 lin2 chao3 chao3 di4 liao2 tian1.',
+            pinyin: 'nu3 hai2 men zheng4 zai4 chi1 zhe bing1 qi2 lin2 chao3 chao3 de liao2 tian1.',
             translation: '女の子たちはアイスクリームを食べながら騒々しくおしゃべりしています。',
             memo: ''
           },
@@ -203,7 +203,7 @@ export default {
             word: '西方',
             sentence: '西方來的像漢堡的菜越來越一般的。',
             bopomofo: 'ㄒㄧ ㄈㄤ ㄌㄞˊ ㄉㄜ˙ ㄒㄧㄤˋ ㄏㄢˋ ㄅㄠˇ ㄉㄜ˙ ㄘㄞˋ ㄩㄝˋ ㄌㄞˊ ㄩㄝˋ ㄧˋ ㄅㄢ ㄉㄜ˙.',
-            pinyin: 'xi1 fang1 lai2 de xiang4 han4 bao3 de cai4 yue4 lai2 yue4 yi1 ban1 de.',
+            pinyin: 'xi1 fang1 lai2 de xiang4 han4 bao3 de cai4 yue4 lai2 yue4 yi4 ban1 de.',
             translation: '西洋から来たハンバーガーのような料理はますます一般的になっています。',
             memo: ''
           },
@@ -299,7 +299,7 @@ export default {
             word: '關係',
             sentence: '養多隻寵物的時候, 牠們的關係很重要。',
             bopomofo: 'ㄧㄤˇ ㄉㄨㄛ ㄓˇ ㄔㄨㄥˇ ㄨˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ. ㄊㄚ ㄇㄣ˙ ㄉㄜ˙ ㄍㄨㄢ ㄒㄧˋ ㄏㄣˇ ㄓㄨㄥˋ ㄧㄠˋ.',
-            pinyin: 'yang3 duo1 zhi1 chong3 wu4 de shi2 hou4, ta1 men de guan1 xi4 hen3 zhong4 yao4.',
+            pinyin: 'yang3 duo1 zhi3 chong3 wu4 de shi2 hou4, ta1 men de guan1 xi4 hen3 zhong4 yao4.',
             translation: '複数のペットを飼育する場合、 ペット同士の関係はとても重要です。',
             memo: ''
           },
@@ -393,9 +393,9 @@ export default {
           },
           {
             word: '營養',
-            sentence: '即使是一粒飯粒也有營養， 所以我不會留下。',
-            bopomofo: 'ㄐㄧˊ ㄕˇ ㄕˋ ㄧ ㄌㄧˋ ㄈㄢˋ ㄌㄧˋ ㄧㄝˇ ㄧㄡˇ ㄧㄥˊ ㄧㄤˇ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄅㄨˊ ㄏㄨㄟˋ ㄌㄧㄡˊ ㄒㄧㄚˋ.',
-            pinyin: 'ji2 shi3 shi4 yi1 li4 fan4 li4 ye3 you3 ying2 yang3, suo3 yi3 wo3 bu2 hui4 liu2 xia4.',
+            sentence: '連一粒飯粒也有營養， 所以我不會留下。',
+            bopomofo: 'ㄌㄧㄢˊ ㄧ ㄌㄧˋ ㄈㄢˋ ㄌㄧˋ ㄧㄝˇ ㄧㄡˇ ㄧㄥˊ ㄧㄤˇ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄅㄨˊ ㄏㄨㄟˋ ㄌㄧㄡˊ ㄒㄧㄚˋ.',
+            pinyin: 'lian2 yi1 li4 fan4 li4 ye3 you3 ying2 yang3, suo3 yi3 wo3 bu2 hui4 liu2 xia4.',
             translation: '一粒のお米でも栄養価があるので、 残さないで食べます。',
             memo: ''
           },
