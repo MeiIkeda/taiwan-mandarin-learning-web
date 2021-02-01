@@ -155,7 +155,7 @@ export default {
             word: '好奇',
             sentence: '我很好奇晚上我的貓到哪裡去。',
             bopomofo: 'ㄨㄛˇ ㄏㄣˇ ㄏㄠˋ ㄑㄧˊ ㄨㄢˇ ㄕㄤˋ ㄨㄛˇ ㄉㄜ˙ ㄇㄠ ㄉㄠˋ ㄋㄚˇ ㄌㄧˇ ㄑㄩˋ.',
-            pinyin: 'wo3 hen3 hao3 qi2 wan3 shang4 wo3 de mao1 dao4 na3 li3 qu4.',
+            pinyin: 'wo3 hen3 hao4 qi2 wan3 shang4 wo3 de mao1 dao4 na3 li3 qu4.',
             translation: '猫が夜どこに行くのかとても気になります。',
             memo: ''
           },
