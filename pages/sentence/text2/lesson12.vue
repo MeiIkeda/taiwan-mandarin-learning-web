@@ -226,10 +226,10 @@ export default {
           {
             word: '炸',
             sentence: '我嘗試了炸起司, 那個很下紅酒。',
-            bopomofo: 'ㄨㄛˇ ㄔㄤˊ ㄕˋ ㄌㄜ˙ ㄓㄚˋ ㄑㄧˇ ㄙ, ㄋㄚˋ ㄍㄜˋ ㄏㄣˇ ㄒㄧㄚˋ ㄏㄨㄥˊ ㄐㄧㄡˇ.',
-            pinyin: 'wo3 chang2 shi4 le zha4 qi3 si1, na4 ge4 hen3 xia4 hong2 jiu3.',
+            bopomofo: 'ㄨㄛˇ ㄔㄤˊ ㄕˋ ㄌㄜ˙ ㄓㄚˊ ㄑㄧˇ ㄙ, ㄋㄚˋ ㄍㄜˋ ㄏㄣˇ ㄒㄧㄚˋ ㄏㄨㄥˊ ㄐㄧㄡˇ.',
+            pinyin: 'wo3 chang2 shi4 le zha2 qi3 si1, na4 ge4 hen3 xia4 hong2 jiu3.',
             translation: '試しにチーズを揚げてみたら、 赤ワインとよく合いました。',
-            memo: ''
+            memo: '※発音'
           },
           {
             word: '烤',
