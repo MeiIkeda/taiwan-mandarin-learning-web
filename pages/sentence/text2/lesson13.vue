@@ -90,8 +90,8 @@ export default {
           {
             word: '功能',
             sentence: '我平常只上網， 我不在乎電腦的功能。',
-            bopomofo: 'ㄨㄛˇ ㄆㄧㄥˊ ㄔㄤˊ ㄓˇ ㄕㄤˋ ㄨㄤˇ, ㄨㄛˇ ㄅㄨˋ ㄗㄞˋ ㄏㄨ˙ ㄉㄧㄢˋ ㄋㄠˇ ㄉㄜ˙ ㄍㄨㄥ ㄋㄥˊ.',
-            pinyin: 'wo3 ping2 chang2 zhi3 shang4 wang3, wo3 bu4 zai4 hu1 dian4 nao3 de gong1 neng2.',
+            bopomofo: 'ㄨㄛˇ ㄆㄧㄥˊ ㄔㄤˊ ㄓˇ ㄕㄤˋ ㄨㄤˇ, ㄨㄛˇ ㄅㄨˊ ㄗㄞˋ ㄏㄨ˙ ㄉㄧㄢˋ ㄋㄠˇ ㄉㄜ˙ ㄍㄨㄥ ㄋㄥˊ.',
+            pinyin: 'wo3 ping2 chang2 zhi3 shang4 wang3, wo3 bu2 zai4 hu1 dian4 nao3 de gong1 neng2.',
             translation: '私は普段ネットをするだけなので、 パソコンの性能は気にしません。',
             memo: ''
           },
@@ -146,8 +146,8 @@ export default {
           {
             word: '班機',
             sentence: '連續假期的班機什麼時候應該訂位?',
-            bopomofo: 'ㄌㄧㄢˊ ㄒㄩˋ ㄐㄧㄚˋ ㄑㄧ ㄉㄜ˙ ㄅㄢ ㄐㄧ ㄕㄣˊ ㄇㄜ˙ ㄕˊ ㄏㄡˋ ㄧㄥ ㄍㄞ ㄉㄧㄥˋ ㄨㄟˋ?',
-            pinyin: 'lian2 xu4 jia4 qi1 de ban1 ji1 shen2 me shi2 hou4 ying1 gai1 ding4 wei4?',
+            bopomofo: 'ㄌㄧㄢˊ ㄒㄩˋ ㄐㄧㄚˋ ㄑㄧˊ ㄉㄜ˙ ㄅㄢ ㄐㄧ ㄕㄣˊ ㄇㄜ˙ ㄕˊ ㄏㄡˋ ㄧㄥ ㄍㄞ ㄉㄧㄥˋ ㄨㄟˋ?',
+            pinyin: 'lian2 xu4 jia4 qi2 de ban1 ji1 shen2 me shi2 hou4 ying1 gai1 ding4 wei4?',
             translation: '連休中のフライトはいつ予約するのがいいですか?',
             memo: ''
           },
@@ -161,11 +161,11 @@ export default {
           },
           {
             word: '電',
-            sentence: '我手機的電不夠， 你可不可藉給我充電器?',
-            bopomofo: 'ㄨㄛˇ ㄕㄡˇ ㄐㄧ ㄉㄜ˙ ㄉㄧㄢˋ ㄅㄨˋ ㄍㄡˋ, ㄋㄧˇ ㄎㄜˇ ㄅㄨˋ ㄎㄜˇ ㄐㄧˊ ㄍㄟˇ ㄨㄛˇ ㄔㄨㄥ ㄉㄧㄢˋ ㄑㄧˋ?',
-            pinyin: 'wo3 shou3 ji1 de dian4 bu2 gou4, ni3 ke3 bu4 ke3 jie4 gei3 wo3 chong1 dian4 qi4?',
+            sentence: '我手機的電不夠， 你可不可以藉給我充電器?',
+            bopomofo: 'ㄨㄛˇ ㄕㄡˇ ㄐㄧ ㄉㄜ˙ ㄉㄧㄢˋ ㄅㄨˊ ㄍㄡˋ, ㄋㄧˇ ㄎㄜˇ ㄅㄨˋ ㄎㄜˇ ㄧˇ ㄐㄧˊ ㄍㄟˇ ㄨㄛˇ ㄔㄨㄥ ㄉㄧㄢˋ ㄑㄧˋ?',
+            pinyin: 'wo3 shou3 ji1 de dian4 bu2 gou4, ni3 ke3 bu4 ke3 ji2 gei3 wo3 chong1 dian4 qi4?',
             translation: '携帯の充電が足りないので、 充電器を貸してくれませんか?',
-            memo: ''
+            memo: '※「藉」の発音'
           },
           {
             word: '充電',
@@ -187,7 +187,7 @@ export default {
             word: '喔',
             sentence: '別急， 悠閒慢活地做工作喔!',
             bopomofo: 'ㄅㄧㄝˊ ㄐㄧˊ, ㄧㄡ ㄒㄧㄢˊ ㄇㄢˋ ㄏㄨㄛˊ ㄉㄜ˙ ㄗㄨㄛˋ ㄍㄨㄥ ㄗㄨㄛˋ ㄛ!',
-            pinyin: 'bie2 ji2, you1 jian1 man4 huo2 de zuo4 gong1 zuo4 o1!',
+            pinyin: 'bie2 ji2, you1 xian2 man4 huo2 de zuo4 gong1 zuo4 o1!',
             translation: '急がず、 ゆっくり仕事して下さいね!',
             memo: ''
           },
@@ -210,7 +210,7 @@ export default {
           {
             word: '撿到',
             sentence: '我希望貓咪不再撿到蟲。',
-            bopomofo: 'ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄇㄠ ㄇㄧ ㄅㄨˋ ㄗㄞˋ ㄐㄧㄢˇ ㄉㄠˋ ㄔㄨㄥˊ.',
+            bopomofo: 'ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄇㄠ ㄇㄧ ㄅㄨˊ ㄗㄞˋ ㄐㄧㄢˇ ㄉㄠˋ ㄔㄨㄥˊ.',
             pinyin: 'wo3 xi1 wang4 mao1 mi1 bu2 zai4 jian3 dao4 chong2.',
             translation: '猫がもう虫を拾ってこないように願っています。',
             memo: ''
@@ -250,8 +250,8 @@ export default {
           {
             word: '消息',
             sentence: '最近在網路上可以查消息， 讀報紙的機會少了。',
-            bopomofo: 'ㄗㄨㄟˋ ㄐㄧㄣˋ ㄗㄞˋ ㄨㄤˇ ㄌㄨˋ ㄕㄤˋ ㄎㄜˇ ㄧˇ ㄔㄚˊ ㄒㄧㄠ ㄒㄧ, ㄉㄨˊ ㄅㄠˋ ㄓˇ ㄉㄜ˙ ㄐㄧ ㄏㄨㄟˋ ㄕㄠˇ ㄌㄜ˙.',
-            pinyin: 'zui4 jin4 zai4 wang3 lu4 shang4 ke3 yi3 cha2 xiao1 xi1, du2 bao4 zhi3 de ji1 hui4 shao3 le.',
+            bopomofo: 'ㄗㄨㄟˋ ㄐㄧㄣˋ ㄗㄞˋ ㄨㄤˇ ㄌㄨˋ ㄕㄤˋ ㄎㄜˇ ㄧˇ ㄔㄚˊ ㄒㄧㄠ ㄒㄧˊ, ㄉㄨˊ ㄅㄠˋ ㄓˇ ㄉㄜ˙ ㄐㄧ ㄏㄨㄟˋ ㄕㄠˇ ㄌㄜ˙.',
+            pinyin: 'zui4 jin4 zai4 wang3 lu4 shang4 ke3 yi3 cha2 xiao1 xi2, du2 bao4 zhi3 de ji1 hui4 shao3 le.',
             translation: '最近はネットでニュースをチェックできるので、 新聞を読む機会が減りました。',
             memo: ''
           },
