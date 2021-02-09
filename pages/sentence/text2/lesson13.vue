@@ -81,7 +81,7 @@ export default {
           },
           {
             word: '簡訊',
-            sentence: '他的簡訊太長了， 讀地我總是累。',
+            sentence: '他的簡訊太長了， 讀得我總是累。',
             bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄐㄧㄢˇ ㄒㄩㄣˋ ㄊㄞˋ ㄓㄤˇ ㄌㄜ˙, ㄉㄨˊ ㄉㄜ˙ ㄨㄛˇ ㄗㄨㄥˇ ㄕˋ ㄌㄟˋ.',
             pinyin: 'ta1 de jian3 xun4 tai4 chang2 le, du2 de wo3 zong3 shi4 lei4.',
             translation: '彼のテキストメッセージは長すぎて、 読むのにいつも疲れてしまいます。',
@@ -188,7 +188,7 @@ export default {
             sentence: '別急， 悠閒慢活地做工作喔!',
             bopomofo: 'ㄅㄧㄝˊ ㄐㄧˊ, ㄧㄡ ㄒㄧㄢˊ ㄇㄢˋ ㄏㄨㄛˊ ㄉㄜ˙ ㄗㄨㄛˋ ㄍㄨㄥ ㄗㄨㄛˋ ㄛ!',
             pinyin: 'bie2 ji2, you1 xian2 man4 huo2 de zuo4 gong1 zuo4 o1!',
-            translation: '急がず、 ゆっくり仕事して下さいね!',
+            translation: '急がず、 のんびり仕事して下さいね!',
             memo: ''
           },
           {
@@ -385,9 +385,9 @@ export default {
           },
           {
             word: '面對面',
-            sentence: '我不願意跟老闆面對面談薪水的話。',
-            bopomofo: 'ㄨㄛˇ ㄅㄨˊ ㄩㄢˋ ㄧˋ ㄍㄣ ㄌㄠˇ ㄅㄢˇ ㄇㄧㄢˋ ㄉㄨㄟˋ ㄇㄧㄢˋ ㄊㄢˊ ㄒㄧㄣ ㄕㄨㄟˇ ㄉㄜ˙ ㄏㄨㄚˋ.',
-            pinyin: 'wo3 bu2 yuan4 yi4 gen1 lao3 ban3 mian4 dui4 mian4 tan2 xin1 shui3 de hua4.',
+            sentence: '我不願意跟老闆面對面地談薪水的話。',
+            bopomofo: 'ㄨㄛˇ ㄅㄨˊ ㄩㄢˋ ㄧˋ ㄍㄣ ㄌㄠˇ ㄅㄢˇ ㄇㄧㄢˋ ㄉㄨㄟˋ ㄇㄧㄢˋ　ㄉㄜ˙ ㄊㄢˊ ㄒㄧㄣ ㄕㄨㄟˇ ㄉㄜ˙ ㄏㄨㄚˋ.',
+            pinyin: 'wo3 bu2 yuan4 yi4 gen1 lao3 ban3 mian4 dui4 mian4 de tan2 xin1 shui3 de hua4.',
             translation: '給料について社長と面と向かって話すのは気が進みません。',
             memo: ''
           }
