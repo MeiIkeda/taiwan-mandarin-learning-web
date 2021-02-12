@@ -42,8 +42,8 @@ export default {
           {
             word: '將來',
             sentence: '如果我們不保護環境, 將來動物的棲息地越來越少了。',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄛˇ ㄇㄣ˙ ㄅㄨˋ ㄅㄠˇ ㄏㄨˋ ㄏㄨㄢˊ ㄐㄧㄥˋ, ㄐㄧㄤ ㄌㄞˊ ㄉㄨㄥˋ ㄨˋ ㄉㄜ˙ ㄑㄧ ㄒㄧ ㄉㄧˋ ㄩㄝˋ ㄌㄞˊ ㄩㄝˋ ㄕㄠˇ ㄌㄜ˙.',
-            pinyin: 'ru2 guo3 wo3 men bu4 bao3 hu4 huan2 jing4, jiang1 lai2 dong4 wu4 de qi1 xi1 di4 yue4 lai2 yue4 shao3 le.',
+            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄛˇ ㄇㄣ˙ ㄅㄨˋ ㄅㄠˇ ㄏㄨˋ ㄏㄨㄢˊ ㄐㄧㄥˋ, ㄐㄧㄤ ㄌㄞˊ ㄉㄨㄥˋ ㄨˋ ㄉㄜ˙ ㄑㄧ ㄒㄧˊ ㄉㄧˋ ㄩㄝˋ ㄌㄞˊ ㄩㄝˋ ㄕㄠˇ ㄌㄜ˙.',
+            pinyin: 'ru2 guo3 wo3 men bu4 bao3 hu4 huan2 jing4, jiang1 lai2 dong4 wu4 de qi1 xi2 di4 yue4 lai2 yue4 shao3 le.',
             translation: '私たちが環境を保護しなければ、 将来的に動物の生息地はますます少なくなるでしょう。',
             memo: '※もう一回'
           },
@@ -84,7 +84,8 @@ export default {
             sentence: '這個城市發展得很快, 你不快一點, 好房子都被買走了。',
             bopomofo: 'ㄓㄜˋ ㄍㄜˋ ㄔㄥˊ ㄕˋ ㄈㄚ ㄓㄢˇ ㄉㄜ˙ ㄏㄣˇ ㄎㄨㄞˋ, ㄋㄧˇ ㄅㄨˊ ㄎㄨㄞˋ ㄧˋ ㄉㄧㄢˇ, ㄏㄠˇ ㄈㄤˊ ㄗˇ ㄉㄡ ㄅㄟˋ ㄇㄞˇ ㄗㄡˇ ㄌㄜ˙.',
             pinyin: 'zhe4 ge4 cheng2 shi4 fa1 zhan3 de hen3 kuai4, ni3 bu2 kuai4 yi1 dian3, hao3 fang2 zi dou1 bei4 mai3 zou3 le.',
-            translation: 'この都市は急速に発展しているので、 早くしないと良い家はみんな買われてしまいますよ・。'
+            translation: 'この都市は急速に発展しているので、 早くしないと良い家はみんな買われてしまいますよ・。',
+            memo: '※終了'
           },
           {
             word: '連',
@@ -92,7 +93,7 @@ export default {
             bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄏㄞˊ ㄗ˙ ㄏㄣˇ ㄊㄧㄠˊ ㄆㄧˊ, ㄌㄧㄢˊ ㄍㄨㄥ ㄗㄨㄛˋ ㄕㄤˋ ㄒㄩ ㄧㄠˋ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙ ㄉㄡ ㄅㄟˋ ㄊㄚ ㄉㄞˋ ㄗㄡˇ ㄌㄜ˙.',
             pinyin: 'na4 ge4 hai2 zi hen3 tiao2 pi2, lian2 gong1 zuo4 shang4 xu1 yao4 de dong1 xi dou1 bei4 ta1 dai4 zou3 le.',
             translation: 'あの子はとてもイタズラ好きで、 仕事に必要なものもみんな持って行ってしまいます。',
-            memo: '※ここでの「上」は「方面」のニュアンス → 「仕事で使うもの」の意味。'
+            memo: '※終了、ここでの「上」は「方面」のニュアンス → 「仕事で使うもの」の意味。'
           },
           {
             word: '想法',
@@ -131,7 +132,7 @@ export default {
             sentence: '我在每個月的發薪日把所有的薪水提走了， 不能實現存一百萬的夢想。',
             bopomofo: 'ㄨㄛˇ ㄗㄞˋ ㄇㄟˇ ㄍㄜˋ ㄩㄝˋ ㄉㄜ˙ ㄈㄚ ㄒㄧㄣ ㄖˋ ㄅㄚˇ ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄒㄧㄣ ㄕㄨㄟˇ ㄊㄧˊ ㄗㄡˇ ㄌㄜ˙, ㄅㄨˋ ㄋㄥˊ ㄕˊ ㄒㄧㄢˋ ㄘㄨㄣˊ ㄧ ㄅㄞˇ ㄨㄢˋ ㄉㄜ˙ ㄇㄥˋ ㄒㄧㄤˇ.',
             pinyin: 'wo3 zai4 mei3 ge4 yue4 de fa1 xin1 ri4 ba3 suo3 you3 de xin1 shui3 ti2 zou3 le, bu4 neng2 shi2 xian4 cun2 yi1 bai3 wan4 de meng4 xiang3.',
-            translation: '私は毎月給料日に給料を全額引き出してしまうので、 100万円貯める夢は実現不可能です。',
+            translation: '私は毎月給料日に給料を全額引き出してしまうので、 100万元貯める夢は実現不可能です。',
             memo: '※終了'
           },
           {
@@ -178,7 +179,7 @@ export default {
             word: '說到',
             sentence: '我希望媽媽不說到我的這個學期的成績。',
             bopomofo: 'ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄇㄚ ㄇㄚ ㄅㄨˋ ㄕㄨㄛ ㄉㄠˋ ㄨㄛˇ ㄉㄜ˙ ㄓㄜˋ ㄍㄜˋ ㄒㄩㄝˊ ㄑㄧ ㄉㄜ˙ ㄔㄥˊ ㄐㄧ.',
-            pinyin: 'wo3 xi1 wang4 ma1 ma1 bu4 shuo1 dao4 wo3 de zhe4 ge4 xue2 qi1 de cheng2 ji4.',
+            pinyin: 'wo3 xi1 wang4 ma1 ma1 bu4 shuo1 dao4 wo3 de zhe4 ge4 xue2 qi1 de cheng2 ji1.',
             translation: 'お母さんが、 今学期の私の成績について言及しないとよいのですが。',
             memo: ''
           },
@@ -249,8 +250,8 @@ export default {
           {
             word: '企業',
             sentence: '連很大的企業有的時候破產了。',
-            bopomofo: 'ㄌㄧㄢˊ ㄏㄣˇ ㄉㄚˋ ㄉㄜ˙ ㄑㄧˇ ㄧㄝˋ ㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄆㄛˋ ㄔㄢˇ ㄌㄜ˙.',
-            pinyin: 'lian2 hen3 da4 de qi3 ye4 you3 de shi2 hou4 po4 chan3 le.',
+            bopomofo: 'ㄌㄧㄢˊ ㄏㄣˇ ㄉㄚˋ ㄉㄜ˙ ㄑㄧˋ ㄧㄝˋ ㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄆㄛˋ ㄔㄢˇ ㄌㄜ˙.',
+            pinyin: 'lian2 hen3 da4 de qi4 ye4 you3 de shi2 hou4 po4 chan3 le.',
             translation: '大企業でさえも、 時には倒産する事があります。',
             memo: ''
           },
@@ -264,9 +265,9 @@ export default {
           },
           {
             word: '系',
-            sentence: '科學系的學生常常熬夜研究室念書。',
-            bopomofo: 'ㄎㄜ ㄒㄩㄝˊ ㄒㄧˋ ㄉㄜ˙ ㄒㄩㄝˊ ㄕㄥ ㄔㄤˊ ㄔㄤˊ ㄠˊ ㄧㄝˋ ㄧㄢˊ ㄐㄧㄡ ㄕˋ ㄋㄧㄢˋ ㄕㄨ.',
-            pinyin: 'ke1 xue2 xi4 de xue2 sheng1 chang2 chang2 ao2 ye4 yan2 jiu1 shi4 nian4 shu1.',
+            sentence: '科學系的學生常常熬夜在研究室念書。',
+            bopomofo: 'ㄎㄜ ㄒㄩㄝˊ ㄒㄧˋ ㄉㄜ˙ ㄒㄩㄝˊ ㄕㄥ ㄔㄤˊ ㄔㄤˊ ㄠˊ ㄧㄝˋ ㄗㄞˋ ㄧㄢˊ ㄐㄧㄡ ㄕˋ ㄋㄧㄢˋ ㄕㄨ.',
+            pinyin: 'ke1 xue2 xi4 de xue2 sheng1 chang2 chang2 ao2 ye4 zai4 yan2 jiu1 shi4 nian4 shu1.',
             translation: '理系の学生はしばしば夜中まで研究室で勉強します。',
             memo: ''
           },
@@ -384,9 +385,9 @@ export default {
           },
           {
             word: '能力',
-            sentence: '我希望有跟貓咪說話的能力。',
-            bopomofo: 'ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄧㄡˇ ㄍㄣ ㄇㄠ ㄇㄧ ㄕㄨㄛ ㄏㄨㄚˋ ㄉㄜ˙ ㄋㄥˊ ㄌㄧˋ.',
-            pinyin: 'wo3 xi1 wang4 you3 gen1 mao1 mi1 shuo1 hua4 de neng2 li4.',
+            sentence: '我希望有跟貓咪能說話的能力。',
+            bopomofo: 'ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄧㄡˇ ㄍㄣ ㄇㄠ ㄇㄧ ㄋㄥˊㄕㄨㄛ ㄏㄨㄚˋ ㄉㄜ˙ ㄋㄥˊ ㄌㄧˋ.',
+            pinyin: 'wo3 xi1 wang4 you3 gen1 mao1 mi1 neng2 shuo1 hua4 de neng2 li4.',
             translation: '猫と話ができる能力があったらなと思います。',
             memo: ''
           },
@@ -401,8 +402,8 @@ export default {
           {
             word: '企業管理系(企管系)',
             sentence: '企業管理系畢業的大概百分之幾人成為總裁呢?',
-            bopomofo: 'ㄑㄧˇ ㄧㄝˋ ㄍㄨㄢˇ ㄌㄧˇ ㄒㄧˋ ㄅㄧˋ ㄧㄝˋ ㄉㄜ˙ ㄉㄚˋ ㄍㄞˋ ㄅㄞˇ ㄈㄣ ㄓ ㄐㄧˇ ㄖㄣˊ ㄔㄥˊ ㄨㄟˊ ㄗㄨㄥˇ ㄘㄞˊ ㄋㄜ˙?',
-            pinyin: 'qi3 ye4 guan3 li3 xi4 bi4 ye4 de da4 gai4 bai3 fen1 zhi1 ji3 ren2 cheng2 wei2 zong3 cai2 ne?',
+            bopomofo: 'ㄑㄧˋ ㄧㄝˋ ㄍㄨㄢˇ ㄌㄧˇ ㄒㄧˋ ㄅㄧˋ ㄧㄝˋ ㄉㄜ˙ ㄉㄚˋ ㄍㄞˋ ㄅㄞˇ ㄈㄣ ㄓ ㄐㄧˇ ㄖㄣˊ ㄔㄥˊ ㄨㄟˊ ㄗㄨㄥˇ ㄘㄞˊ ㄋㄜ˙?',
+            pinyin: 'qi4 ye4 guan3 li3 xi4 bi4 ye4 de da4 gai4 bai3 fen1 zhi1 ji3 ren2 cheng2 wei2 zong3 cai2 ne?',
             translation: '経営学部を卒業した人の何パーセントくらいが社長になるのですか?',
             memo: ''
           },
