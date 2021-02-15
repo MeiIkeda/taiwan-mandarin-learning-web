@@ -201,10 +201,10 @@ export default {
           },
           {
             word: '捨不得',
-            sentence: '下雨的日子我很捨不得騎機車。',
-            bopomofo: 'ㄒㄧㄚˋ ㄩˇ ㄉㄜ˙ ㄖˋ ㄗ˙ ㄨㄛˇ ㄏㄣˇ ㄕㄜˇ ㄅㄨˋ ㄉㄜˊ ㄑㄧˊ ㄐㄧ ㄔㄜ.',
-            pinyin: 'xia4 yu3 de ri4 zi wo3 hen3 she3 bu4 de2 qi2 ji1 che1.',
-            translation: '雨の日にバイクに乗るのは気が進みません。',
+            sentence: '我真捨不得了離開旅行時遇見很可愛的狗。',
+            bopomofo: 'ㄨㄛˇ ㄓㄣ ㄕㄜˇ ㄅㄨˋ ㄉㄜ˙ ㄌㄜ˙ ㄌㄧˊ ㄎㄞ ㄌㄩˇ ㄒㄧㄥˊ ㄕˊ ㄩˋ ㄐㄧㄢˋ ㄏㄣˇ ㄎㄜˇ ㄞˋ ㄉㄜ˙ ㄍㄡˇ.',
+            pinyin: 'wo3 zhen1 she3 bu4 de le li4 kai1 lu3 xing2 shi2 yu4 jian4 hen3 ke3 ai4 de gou3.',
+            translation: '旅行の時に出会った可愛い犬と別れるのは本当に寂しかったです。',
             memo: ''
           },
           {
@@ -225,10 +225,10 @@ export default {
           },
           {
             word: '聲調',
-            sentence: '如果我的聲調有誤, 有時候單詞的意思變壞壞的嗎?',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄛˇ ㄉㄜ˙ ㄕㄥ ㄉㄧㄠˋ ㄧㄡˇ ㄨˋ,  ㄧㄡˇ ㄕˊ ㄏㄡˋ ㄉㄢ ㄘˊ ㄉㄜ˙ ㄧˋ ㄙ ㄅㄧㄢˋ ㄏㄨㄞˋ ㄏㄨㄞˋ ㄉㄜ˙ ㄇㄚ˙?',
-            pinyin: 'ru2 guo3 wo3 de sheng1 diao4 you3 wu4, you3 shi2 hou4 dan1 ci2 de yi4 si1 bian4 huai4 huai4 de ma?',
-            translation: 'イントネーションを間違うと、 中国語の単語が悪い言葉になってしまう事はありますか?',
+            sentence: '如果我的聲調有誤, 有時候人們不懂單詞的意思嗎?',
+            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄛˇ ㄉㄜ˙ ㄕㄥ ㄉㄧㄠˋ ㄧㄡˇ ㄨˋ,  ㄧㄡˇ ㄕˊ ㄏㄡˋ ㄖㄣˊ ㄇㄣ˙ ㄅㄨˋ ㄉㄨㄥˇ ㄉㄢ ㄘˊ ㄉㄜ˙ ㄧˋ ㄙ ㄇㄚ˙?',
+            pinyin: 'ru2 guo3 wo3 de sheng1 diao4 you3 wu4, you3 shi2 hou4 ren2 men bu4 dong3 dan1 ci2 de yi4 si1 ma?',
+            translation: 'イントネーションを間違うと、 単語の意味を理解してもらえない事はありますか?',
             memo: ''
           },
           {
@@ -315,7 +315,7 @@ export default {
             word: '教書',
             sentence: '教授想花盡可能多的時間在自己的研究上, 其實覺得教書很麻煩。',
             bopomofo: 'ㄐㄧㄠˋ ㄕㄡˋ ㄒㄧㄤˇ ㄏㄨㄚ ㄐㄧㄣˋ ㄎㄜˇ ㄋㄥˊ ㄉㄨㄛ ㄉㄜ˙ ㄕˊ ㄐㄧㄢ ㄗㄞˋ ㄗˋ ㄐㄧˇ ㄉㄜ˙ ㄧㄢˊ ㄐㄧㄡ ㄕㄤˋ, ㄑㄧˊ ㄕˊ ㄐㄩㄝˊ ㄉㄜ˙ ㄐㄧㄠ ㄕㄨ ㄏㄣˇ ㄇㄚˊ ㄈㄢˊ.',
-            pinyin: 'jiao4 shou4 xiang3 hua1 jin4 ke3 neng2 duo1 de shi2 jian1 zai4 zi4 ji3 de yan2 jiu1 shang4, qi2 shi2 jue2 de jiao4 shu1 hen3 ma2 fan2.',
+            pinyin: 'jiao4 shou4 xiang3 hua1 jin4 ke3 neng2 duo1 de shi2 jian1 zai4 zi4 ji3 de yan2 jiu1 shang4, qi2 shi2 jue2 de jiao1 shu1 hen3 ma2 fan2.',
             translation: '教授はできるだけ多くの時間を自身の研究に費やしたいと思っていて、 教えるのは実際面倒だと思っています。',
             memo: ''
           },
@@ -347,7 +347,7 @@ export default {
             word: '翻譯',
             sentence: '為了做翻譯工作, 除了外國語言的能力你的母語能力也要進步了。',
             bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄗㄨㄛˋ ㄈㄢ ㄧˋ ㄍㄨㄥ ㄗㄨㄛˋ, ㄔㄨˊ ㄌㄜ˙ ㄨㄞˋ ㄍㄨㄛˊ ㄩˇ ㄧㄢˊ ㄉㄜ˙ ㄋㄥˊ ㄌㄧˋ ㄋㄧˇ ㄉㄜ˙ ㄇㄨˇ ㄩˇ ㄋㄥˊ ㄌㄧˋ ㄧㄝˇ ㄧㄠˋ ㄐㄧㄣˋ ㄅㄨˋ ㄌㄜ˙.',
-            pinyin: 'wei4 le zuo4 fan1 yi4 gong1 zuo4, chu2 le wai4 guo2 yu3 yan2 de neng2 li4 ni3 de mu3 yu3 neng2 li4 ye3 yao4 jin4 bu4 le/.',
+            pinyin: 'wei4 le zuo4 fan1 yi4 gong1 zuo4, chu2 le wai4 guo2 yu3 yan2 de neng2 li4 ni3 de mu3 yu3 neng2 li4 ye3 yao4 jin4 bu4 le.',
             translation: '翻訳の仕事をするためには、 外国語能力に加えて母国語能力も向上させる必要があります。',
             memo: ''
           },
@@ -393,9 +393,9 @@ export default {
           },
           {
             word: '加拿大',
-            sentence: '加拿大是家很大的國家, 西部跟東部的天氣差很多。',
-            bopomofo: 'ㄐㄧㄚ ㄋㄚˊ ㄉㄚˋ ㄕˋ ㄐㄧㄚ ㄏㄣˇ ㄉㄚˋ ㄉㄜ˙ ㄍㄨㄛˊ ㄐㄧㄚ, ㄒㄧ ㄅㄨˋ ㄍㄣ ㄉㄨㄥ ㄅㄨˋ ㄉㄜ˙ ㄊㄧㄢ ㄑㄧˋ ㄔㄚˋ ㄏㄣˇ ㄉㄨㄛ.',
-            pinyin: 'jia1 na2 da4 shi4 jia1 hen3 da4 de guo2 jia1, xi1 bu4 gen1 dong1 bu4 de tian1 qi4 cha1 hen3 duo1.',
+            sentence: '加拿大是很大的國家, 西部跟東部的天氣差很多。',
+            bopomofo: 'ㄐㄧㄚ ㄋㄚˊ ㄉㄚˋ ㄕˋ ㄏㄣˇ ㄉㄚˋ ㄉㄜ˙ ㄍㄨㄛˊ ㄐㄧㄚ, ㄒㄧ ㄅㄨˋ ㄍㄣ ㄉㄨㄥ ㄅㄨˋ ㄉㄜ˙ ㄊㄧㄢ ㄑㄧˋ ㄔㄚˋ ㄏㄣˇ ㄉㄨㄛ.',
+            pinyin: 'jia1 na2 da4 shi4 hen3 da4 de guo2 jia1, xi1 bu4 gen1 dong1 bu4 de tian1 qi4 cha1 hen3 duo1.',
             translation: 'カナダはとても大きな国で、 西と東の天気は大分異なります。',
             memo: ''
           },
