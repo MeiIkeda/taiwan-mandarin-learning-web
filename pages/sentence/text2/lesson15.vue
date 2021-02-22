@@ -126,7 +126,7 @@ export default {
           },
           {
             word: '★吉祥',
-            sentence: '紅色的東西是不是都吉祥?',
+            sentence: '紅色的東西是不是都是吉利的（好的）?',
             bopomofo: 'ㄏㄨㄥˊ ㄙㄜˋ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ ㄕˋ ㄅㄨˊ ㄕˋ ㄉㄡ ㄐㄧˊ ㄒㄧㄤˊ?',
             pinyin: 'hong2 se4 de dong1 xi shi4 bu2 shi4 dou1 ji2 xiang2?',
             translation: '赤い色のものは全て縁起が良いのですか?',
@@ -135,7 +135,7 @@ export default {
           },
           {
             word: '☆年紀',
-            sentence: '大概從三十歲起， 我不太清楚記得自己的年紀。。',
+            sentence: '大概從三十歲起， 我不太清楚記得自己的年紀。',
             bopomofo: 'ㄉㄚˋ ㄍㄞˋ ㄘㄨㄥˊ ㄙㄢ ㄕˊ ㄙㄨㄟˋ ㄑㄧˇ, ㄨㄛˇ ㄅㄨˊ ㄊㄞˋ ㄑㄧㄥ ㄔㄨˇ ㄐㄧˋ ㄉㄜ˙ ㄗˋ ㄐㄧˇ ㄉㄜ˙ ㄋㄧㄢˊ ㄐㄧˋ.',
             pinyin: 'da4 gai4 cong2 san1 shi2 sui4 qi3, wo3 bu2 tai4 qing1 chu3 ji4 de zi4 ji3 de nian2 ji4.',
             translation: '30歳くらいの時から、 自分の年齢がよく分からなくなってきました。',
@@ -152,12 +152,12 @@ export default {
             changed: '★'
           },
           {
-            word: '☆除夕夜',
+            word: '★除夕夜',
             sentence: '不喝酒就不算是除夕夜了。',
             bopomofo: 'ㄅㄨˋ ㄏㄜ ㄐㄧㄡˇ ㄐㄧㄡˋ ㄅㄨˊ ㄙㄨㄢˋ ㄕˋ ㄔㄨˊ ㄒㄧˋ ㄧㄝˋ ㄌㄜ˙.',
             pinyin: 'bu4 he1 jiu3 jiu4 bu2 suan4 shi4 chu2 xi4 ye4 le.',
             translation: 'お酒を飲まなければ大晦日ではありません',
-            memo: '',
+            memo: '※「就(不)算是」:「～とみなす(みなさない)」?',
             changed: '★'
           },
           {
@@ -266,9 +266,9 @@ export default {
             word: '★說法',
             sentence: '那個教授的話非常有邏輯, 總是很清楚。',
             bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄐㄧㄠˋ ㄕㄡˋ ㄉㄜ˙ ㄏㄨㄚˋ ㄈㄟ ㄔㄤˊ ㄧㄡˇ ㄌㄨㄛˊ ㄐㄧ˙, ㄗㄨㄥˇ ㄕˋ ㄏㄣˇ ㄑㄧㄥ ㄔㄨˇ.',
-            pinyin: 'na4 ge4 jiao4 shou4 de hua4 fei1 chang2 you3 ji2, zong3 shi4 hen3 qing1 chu3.',
+            pinyin: 'na4 ge4 jiao4 shou4 de hua4 fei1 chang2 you3 luo2 ji2, zong3 shi4 hen3 qing1 chu3.',
             translation: '教授の話し方は非常に論理的で、 常に明確です。',
-            memo: '',
+            memo: '※「邏輯」の発音',
             changed: '★'
           },
           {
@@ -290,7 +290,7 @@ export default {
             changed: '★'
           },
           {
-            word: '☆平安',
+            word: '★平安',
             sentence: '從昨天媽媽生氣了， 家裡漂著不安定的氣氛。',
             bopomofo: 'ㄘㄨㄥˊ ㄗㄨㄛˊ ㄊㄧㄢ ㄇㄚ ㄇㄚ ㄕㄥ ㄑㄧˋ ㄌㄜ˙, ㄐㄧㄚ ㄌㄧˇ ㄆㄧㄠˋ ㄓㄜ˙ ㄅㄨˋ ㄢ ㄉㄧㄥˋ ㄉㄜ˙ ㄑㄧˋ ㄈㄣ.',
             pinyin: 'cong2 zuo2 tian1 ma1 ma1 sheng1 qi4 le, jia1 li3 piao4 zhe bu4 an1 ding4 de qi4 fen1.',
