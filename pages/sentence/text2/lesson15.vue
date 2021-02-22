@@ -93,8 +93,8 @@ export default {
           {
             word: '圍爐',
             sentence: '分開住的家人在除夕夜也會聚在一起圍爐。',
-            bopomofo: 'ㄈㄣ ㄎㄞ ㄓㄨˋ ㄉㄜ˙ ㄐㄧㄚ ㄖㄣˊ ㄗㄞˋ ㄔㄨˊ ㄒㄧ ㄧㄝˋ ㄧㄝˇ ㄏㄨㄟˋ ㄐㄩˋ ㄗㄞˋ ㄧˋ ㄑㄧˇ ㄨㄟˊ ㄌㄨˊ.',
-            pinyin: 'fen1 kai1 zhu4 de jia1 ren2 zai4 chu2 xi1 ye4 ye3 hui4 ju4 zai4 yi1 qi3 wei2 lu2.',
+            bopomofo: 'ㄈㄣ ㄎㄞ ㄓㄨˋ ㄉㄜ˙ ㄐㄧㄚ ㄖㄣˊ ㄗㄞˋ ㄔㄨˊ ㄒㄧˋ ㄧㄝˋ ㄧㄝˇ ㄏㄨㄟˋ ㄐㄩˋ ㄗㄞˋ ㄧˋ ㄑㄧˇ ㄨㄟˊ ㄌㄨˊ.',
+            pinyin: 'fen1 kai1 zhu4 de jia1 ren2 zai4 chu2 xi4 ye4 ye3 hui4 ju4 zai4 yi1 qi3 wei2 lu2.',
             translation: '離れて暮らしている家族も、 大晦日にはみんなで集まります。',
             memo: '',
             changed: '★'
@@ -104,7 +104,7 @@ export default {
             sentence: '他醉得很厲害， 一直說著我聽不明白的話。',
             bopomofo: 'ㄊㄚ ㄗㄨㄟˋ ㄉㄜ˙ ㄏㄣˇ ㄌㄧˋ ㄏㄞˋ, ㄧ ㄓˊ ㄕㄨㄛ ㄓㄜ˙ ㄨㄛˇ ㄊㄧㄥ ㄅㄨˋ ㄇㄧㄥˊ ㄅㄞˊ ㄉㄜ˙ ㄏㄨㄚˋ.',
             pinyin: 'ta1 zui4 de hen3 li4 hai4, yi1 zhi2 shuo1 zhe wo3 ting1 bu4 ming2 bai2 de hua4.',
-            translation: '彼はひどく酔っぱらって、 意味が分からない事を話続けています。',
+            translation: '彼はひどく酔っぱらって、 意味が分からない事を話し続けています。',
             memo: '',
             changed: '★'
           },
@@ -130,7 +130,7 @@ export default {
             bopomofo: 'ㄏㄨㄥˊ ㄙㄜˋ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ ㄕˋ ㄅㄨˊ ㄕˋ ㄉㄡ ㄐㄧˊ ㄒㄧㄤˊ?',
             pinyin: 'hong2 se4 de dong1 xi shi4 bu2 shi4 dou1 ji2 xiang2?',
             translation: '赤い色のものは全て縁起が良いのですか?',
-            memo: '吉祥?',
+            memo: '',
             changed: '★'
           },
           {
@@ -154,8 +154,8 @@ export default {
           {
             word: '除夕夜',
             sentence: '不喝酒就不算是除夕夜了。',
-            bopomofo: 'ㄅㄨˋ ㄏㄜ ㄐㄧㄡˇ ㄐㄧㄡˋ ㄅㄨˊ ㄙㄨㄢˋ ㄕˋ ㄔㄨˊ ㄒㄧ ㄧㄝˋ ㄌㄜ˙.',
-            pinyin: 'bu4 he1 jiu3 jiu4 bu2 suan4 shi4 chu2 xi1 ye4 le.',
+            bopomofo: 'ㄅㄨˋ ㄏㄜ ㄐㄧㄡˇ ㄐㄧㄡˋ ㄅㄨˊ ㄙㄨㄢˋ ㄕˋ ㄔㄨˊ ㄒㄧˋ ㄧㄝˋ ㄌㄜ˙.',
+            pinyin: 'bu4 he1 jiu3 jiu4 bu2 suan4 shi4 chu2 xi4 ye4 le.',
             translation: 'お酒を飲まなければ大晦日ではありません',
             memo: '',
             changed: '★'
