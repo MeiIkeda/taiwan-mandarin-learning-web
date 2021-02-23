@@ -40,7 +40,7 @@ export default {
         title: '當代中文課程課2・第15章',
         words: [
           {
-            word: '☆春節',
+            word: '春節',
             sentence: '春節收到的烏魚子爸爸把它吃完了。',
             bopomofo: 'ㄔㄨㄣ ㄐㄧㄝˊ ㄕㄡ ㄉㄠˋ ㄉㄜ˙ ㄨ ㄩˊ ㄗˇ ㄅㄚˋ ㄅㄚˋ ㄅㄚˇ ㄊㄚ ㄔ ㄨㄢˊ ㄌㄜ˙.',
             pinyin: 'chun1 jie2 shou1 dao4 de wu1 yu2 zi3 ba4 ba4 ba3 ta1 chi1 wan2 le.',
@@ -70,10 +70,10 @@ export default {
             bopomofo: 'ㄋㄧˇ ㄅㄨˊ ㄧㄠˋ ㄉㄚˇ ㄖㄠˇ ㄗㄞˋ ㄎㄢˋ ㄉㄨㄥˋ ㄇㄢˋ ㄉㄜ˙ ㄉㄧˋ ㄉㄧ˙, ㄧㄠˋ ㄅㄨˋ ㄖㄢˊ ㄊㄚ ㄧˊ ㄉㄧㄥˋ ㄏㄨㄟˋ ㄏㄣˇ ㄕㄥ ㄑㄧˋ ㄉㄜ˙.',
             pinyin: 'ni3 bu2 yao4 da3 rao3 zai4 kan4 dong4 man4 de di4 di, yao4 bu4 ran2 ta1 yi1 ding4 hui4 hen3 sheng1 qi4 de.',
             translation: 'アニメを見ている弟の邪魔をしないで下さい、 さもないと怒られますよ。',
-            memo: ''
+            memo: '「打擾(ㄉㄚˇ ㄖㄠˇ/da3 rao3)」=「打攪(ㄉㄚˇ ㄐㄧㄠˇ/da3 jiao3)」 : 「邪魔をする」。'
           },
           {
-            word: '☆女兒',
+            word: '女兒',
             sentence: '女兒想把小狗抱起來， 讓牠很害怕。',
             bopomofo: 'ㄋㄩˇ ㄦˊ ㄒㄧㄤˇ ㄅㄚˇ ㄒㄧㄠˇ ㄍㄡˇ ㄅㄠˋ ㄑㄧˇ ㄌㄞˊ, ㄖㄤˋ ㄊㄚ ㄏㄣˇ ㄏㄞˋ ㄆㄚˋ.',
             pinyin: 'nu3 er2 xiang3 ba3 xiao3 gou3 bao4 qi3 lai2, rang4 ta1 hen3 hai4 pa4.',
@@ -82,7 +82,7 @@ export default {
             changed: '★'
           },
           {
-            word: '☆國外',
+            word: '國外',
             sentence: '去外國時， 你什麼時候換錢?',
             bopomofo: 'ㄑㄩˋ ㄨㄞˋ ㄍㄨㄛˊ ㄕˊ, ㄋㄧˇ ㄕㄣˊ ㄇㄜ˙ ㄕˊ ㄏㄡˋ ㄏㄨㄢˋ ㄑㄧㄢˊ?',
             pinyin: 'qu4 wai4 guo2 shi2, ni3 shen2 me shi2 hou4 huan4 qian2?',
@@ -91,7 +91,7 @@ export default {
             changed: '★'
           },
           {
-            word: '☆圍爐',
+            word: '圍爐',
             sentence: '分開住的家人在除夕夜也會聚在一起圍爐。',
             bopomofo: 'ㄈㄣ ㄎㄞ ㄓㄨˋ ㄉㄜ˙ ㄐㄧㄚ ㄖㄣˊ ㄗㄞˋ ㄔㄨˊ ㄒㄧˋ ㄧㄝˋ ㄧㄝˇ ㄏㄨㄟˋ ㄐㄩˋ ㄗㄞˋ ㄧˋ ㄑㄧˇ ㄨㄟˊ ㄌㄨˊ.',
             pinyin: 'fen1 kai1 zhu4 de jia1 ren2 zai4 chu2 xi4 ye4 ye3 hui4 ju4 zai4 yi1 qi3 wei2 lu2.',
@@ -100,7 +100,7 @@ export default {
             changed: '★'
           },
           {
-            word: '☆意思',
+            word: '意思',
             sentence: '他醉得很厲害， 一直說著我聽不明白的話。',
             bopomofo: 'ㄊㄚ ㄗㄨㄟˋ ㄉㄜ˙ ㄏㄣˇ ㄌㄧˋ ㄏㄞˋ, ㄧ ㄓˊ ㄕㄨㄛ ㄓㄜ˙ ㄨㄛˇ ㄊㄧㄥ ㄅㄨˋ ㄇㄧㄥˊ ㄅㄞˊ ㄉㄜ˙ ㄏㄨㄚˋ.',
             pinyin: 'ta1 zui4 de hen3 li4 hai4, yi1 zhi2 shuo1 zhe wo3 ting1 bu4 ming2 bai2 de hua4.',
@@ -125,16 +125,16 @@ export default {
             memo: ''
           },
           {
-            word: '★吉祥',
-            sentence: '紅色的東西是不是都吉祥? / 紅色的東西是不是都是吉利的（好的）?',
-            bopomofo: 'ㄏㄨㄥˊ ㄙㄜˋ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ ㄕˋ ㄅㄨˊ ㄕˋ ㄉㄡ ㄐㄧˊ ㄒㄧㄤˊ?',
-            pinyin: 'hong2 se4 de dong1 xi shi4 bu2 shi4 dou1 ji2 xiang2?',
-            translation: '赤い色のものは全て縁起が良いのですか?',
-            memo: '',
+            word: '吉祥',
+            sentence: '中國的吉祥物差不多都是紅色的?',
+            bopomofo: 'ㄓㄨㄥ ㄍㄨㄛˊ ㄉㄜ˙ ㄐㄧˊ ㄒㄧㄤˊ ㄨˋ ㄔㄚ ㄅㄨˋ ㄉㄨㄛ ㄉㄡ ㄕˋ ㄏㄨㄥˊ ㄙㄜˋ ㄉㄜ˙?',
+            pinyin: 'zhong1 guo2 de ji2 xiang2 wu4 cha1 bu4 duo1 dou1 shi4 hong2 se4 de?',
+            translation: '中国の縁起が良いものはほとんど全て赤い色をしているのですか?',
+            memo: '※「吉祥物(ㄐㄧˊ ㄒㄧㄤˊ ㄨˋ/ji2 xiang2 wu4)」=「縁起が良いもの」、「吉祥話(ㄐㄧˊ ㄒㄧㄤˊ ㄏㄨㄚˋ/ji2 xiang2 hua4)」=「縁起の良い言葉」。',
             changed: '★'
           },
           {
-            word: '☆年紀',
+            word: '年紀',
             sentence: '大概從三十歲起， 我不太清楚記得自己的年紀。',
             bopomofo: 'ㄉㄚˋ ㄍㄞˋ ㄘㄨㄥˊ ㄙㄢ ㄕˊ ㄙㄨㄟˋ ㄑㄧˇ, ㄨㄛˇ ㄅㄨˊ ㄊㄞˋ ㄑㄧㄥ ㄔㄨˇ ㄐㄧˋ ㄉㄜ˙ ㄗˋ ㄐㄧˇ ㄉㄜ˙ ㄋㄧㄢˊ ㄐㄧˋ.',
             pinyin: 'da4 gai4 cong2 san1 shi2 sui4 qi3, wo3 bu2 tai4 qing1 chu3 ji4 de zi4 ji3 de nian2 ji4.',
@@ -143,7 +143,7 @@ export default {
             changed: '★'
           },
           {
-            word: '☆過年',
+            word: '過年',
             sentence: '鞭炮聲有過年的氣氛我很喜歡， 不過貓看起來不太開心。',
             bopomofo: 'ㄅㄧㄢ ㄆㄠˋ ㄕㄥ ㄧㄡˇ ㄍㄨㄛˋ ㄋㄧㄢˊ ㄉㄜ˙ ㄑㄧˋ ㄈㄣ ㄨㄛˇ ㄏㄣˇ ㄒㄧˇ ㄏㄨㄢ, ㄅㄨˊ ㄍㄨㄛˋ ㄇㄠ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄅㄨˊ ㄊㄞˋ ㄎㄞ ㄒㄧㄣ.',
             pinyin: 'bian1 pao4 sheng1 you3 guo4 nian2 de qi4 fen1 wo3 hen3 xi3 huan1, bu2 guo4 mao1 kan4 qi3 lai2 bu2 tai4 kai1 xin1.',
@@ -152,25 +152,25 @@ export default {
             changed: '★'
           },
           {
-            word: '★除夕夜',
+            word: '除夕夜',
             sentence: '不喝酒就不算是除夕夜了。',
             bopomofo: 'ㄅㄨˋ ㄏㄜ ㄐㄧㄡˇ ㄐㄧㄡˋ ㄅㄨˊ ㄙㄨㄢˋ ㄕˋ ㄔㄨˊ ㄒㄧˋ ㄧㄝˋ ㄌㄜ˙.',
             pinyin: 'bu4 he1 jiu3 jiu4 bu2 suan4 shi4 chu2 xi4 ye4 le.',
             translation: 'お酒を飲まなければ大晦日ではありません',
-            memo: '※「就(不)算是」:「～とみなす(みなさない)」?',
+            memo: '※「算(ㄙㄨㄢˋ/suan4)」:「～とみなす、 ～といえる」。',
             changed: '★'
           },
           {
-            word: '☆睡著',
-            sentence: '坐在教室前面的學生似乎睡著了， 頭腦左右搖晃著。',
-            bopomofo: 'ㄗㄨㄛˋ ㄗㄞˋ ㄐㄧㄠˋ ㄕˋ ㄑㄧㄢˊ ㄇㄧㄢˋ ㄉㄧˊ ㄒㄩㄝˊ ㄕㄥ ㄙˋ ㄏㄨ ㄕㄨㄟˋ ㄓㄠˊ ㄌㄜ˙, ㄊㄡˊ ㄋㄠˇ ㄗㄨㄛˇ ㄧㄡˋ ㄧㄠˊ ㄏㄨㄤˋ ㄓㄜ˙.',
-            pinyin: 'zuo4 zai4 jiao4 shi4 qian2 mian4 de xue2 sheng1 si4 hu1 shui4 zhao2 le, tou2 nao3 zuo3 you4 yao2 huang4 zhe.',
-            translation: '教室の前に座っている生徒は寝てしまっているようで、 頭が左右に揺れています。',
-            memo: '',
+            word: '睡著',
+            sentence: '坐在教室前面的學生似乎睡著了， 她在釣魚。',
+            bopomofo: 'ㄗㄨㄛˋ ㄗㄞˋ ㄐㄧㄠˋ ㄕˋ ㄑㄧㄢˊ ㄇㄧㄢˋ ㄉㄧˊ ㄒㄩㄝˊ ㄕㄥ ㄙˋ ㄏㄨ ㄕㄨㄟˋ ㄓㄠˊ ㄌㄜ˙, ㄊㄚ ㄗㄞˋ ㄉㄧㄠˋ ㄩˊ.',
+            pinyin: 'zuo4 zai4 jiao4 shi4 qian2 mian4 de xue2 sheng1 si4 hu1 shui4 zhao2 le, ta1 zai4 diao4 yu2.',
+            translation: '教室の前に座っている生徒は寝てしまっているようで、 頭が前後に揺れています。',
+            memo: '※「釣魚」：「(眠っていて、 魚を釣っている時のように)頭が前後に揺れる」。 「搖晃(ㄧㄠˊ ㄏㄨㄤˋ/yao2 huang4)」：「揺れる」。',
             changed: '★'
           },
           {
-            word: '☆壓歲錢',
+            word: '壓歲錢',
             sentence: '把生魚片代替壓歲錢給貓。',
             bopomofo: 'ㄅㄚˇ ㄕㄥ ㄩˊ ㄆㄧㄢˋ ㄉㄞˋ ㄊㄧˋ ㄧㄚ ㄙㄨㄟˋ ㄑㄧㄢˊ ㄍㄟˇ ㄇㄠ.',
             pinyin: 'ba3 sheng1 yu2 pian4 dai4 ti4 ya1 sui4 qian2 gei3 mao1.',
@@ -179,15 +179,16 @@ export default {
             changed: '★'
           },
           {
-            word: '☆恭喜發財',
-            sentence: '如果孩子說「恭喜發財」, 你的錢一定會出去。',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄏㄞˊ ㄗ˙ ㄕㄨㄛ  ㄍㄨㄥ ㄒㄧˇ ㄈㄚ ㄘㄞˊ, ㄋㄧˇ ㄉㄜ˙ ㄑㄧㄢˊ ㄧˊ ㄉㄧㄥˋ ㄏㄨㄟˋ ㄔㄨ ㄑㄩˋ.',
-            pinyin: 'ru2 guo3 hai2 zi shuo1 gong1 xi3 fa1 cai2, ni3 de qian2 yi1 ding4 hui4 chu1 qu4.',
+            word: '恭喜發財',
+            sentence: '如果孩子說「恭喜發財」, 你的錢一定要發出去。',
+            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄏㄞˊ ㄗ˙ ㄕㄨㄛ  ㄍㄨㄥ ㄒㄧˇ ㄈㄚ ㄘㄞˊ, ㄋㄧˇ ㄉㄜ˙ ㄑㄧㄢˊ ㄧˊ ㄉㄧㄥˋ ㄧㄠˋ ㄈㄚ ㄔㄨ ㄑㄩˋ.',
+            pinyin: 'ru2 guo3 hai2 zi shuo1 gong1 xi3 fa1 cai2, ni3 de qian2 yi1 ding4 yao4 fa1 chu1 qu4.',
             translation: '子どもが「お金が貯まりますように」と言うと、 あなたのお金はなくなります。',
-            memo: '※「恭喜發財」：「おめでとう」「お金が貯まりますように」の意味。 子どもが紅包(お年玉のようなもの)を貰う時に言う。'
+            memo: '※「恭喜發財」：「おめでとう」「お金が貯まりますように」の意味。 子どもが紅包(お年玉のようなもの)を貰う時に言う。',
+            changed: '★'
           },
           {
-            word: '☆好了',
+            word: '好了',
             sentence: '好了， 現在還是早上八點， 我能再睡一兩個小時。',
             bopomofo: 'ㄏㄠˇ ㄌㄜ˙, ㄒㄧㄢˋ ㄗㄞˋ ㄏㄞˊ ㄕˋ ㄗㄠˇ ㄕㄤˋ ㄅㄚ ㄉㄧㄢˇ, ㄨㄛˇ ㄋㄥˊ ㄗㄞˋ ㄕㄨㄟˋ ㄧ ㄌㄧㄤˇ ㄍㄜˋ ㄒㄧㄠˇ ㄕˊ.',
             pinyin: 'hao3 le, xian4 zai4 hai2 shi4 zao3 shang4 ba1 dian3, wo3 neng2 zai4 shui4 yi1 liang3 ge4 xiao3 shi2.',
@@ -220,7 +221,7 @@ export default {
             memo: ''
           },
           {
-            word: '☆春聯',
+            word: '春聯',
             sentence: '春聯上寫的句子在說什麼呢?',
             bopomofo: 'ㄔㄨㄣ ㄌㄧㄢˊ ㄕㄤˋ ㄒㄧㄝˇ ㄉㄜ˙ ㄐㄩˋ ㄗ˙ ㄗㄞˋ ㄕㄨㄛ ㄕˊ ㄇㄛˇ ㄋㄜ˙?',
             pinyin: 'chun1 lian2 shang4 xie3 de ju4 zi3 zai4 shuo1 shen2 me ne?',
@@ -229,7 +230,7 @@ export default {
             changed: '★'
           },
           {
-            word: '☆除夕',
+            word: '除夕',
             sentence: '除夕你打不打算去看煙火?',
             bopomofo: 'ㄔㄨˊ ㄒㄧˋ ㄋㄧˇ ㄉㄚˇ ㄅㄨˋ ㄉㄚˇ ㄙㄨㄢˋ ㄑㄩˋ ㄎㄢˋ ㄧㄢ ㄏㄨㄛˇ?',
             pinyin: 'chu2 xi4 ni3 da3 bu4 da3 suan4 qu4 kan4 yan1 huo3?',
@@ -239,14 +240,14 @@ export default {
           },
           {
             word: '年糕',
-            sentence: '年糕的材料和味道因地區而異。',
-            bopomofo: 'ㄋㄧㄢˊ ㄍㄠ ㄉㄜ˙ ㄘㄞˊ ㄌㄧㄠˋ ㄏㄢˋ ㄨㄟˋ ㄉㄠˋ ㄧㄣ ㄉㄧˋ ㄑㄩ ㄦˊ ㄧˋ.',
-            pinyin: 'nian2 gao1 de cai2 liao4 han4 wei4 dao4 yin1 di4 qu1 er2 yi4.',
+            sentence: '年糕的材料和味道因地而異。',
+            bopomofo: 'ㄋㄧㄢˊ ㄍㄠ ㄉㄜ˙ ㄘㄞˊ ㄌㄧㄠˋ ㄏㄢˋ ㄨㄟˋ ㄉㄠˋ ㄧㄣ ㄉㄧˋ ㄦˊ ㄧˋ.',
+            pinyin: 'nian2 gao1 de cai2 liao4 han4 wei4 dao4 yin1 di4 er2 yi4.',
             translation: '年糕の材料や味は地域によって異なります。',
             memo: '※「年糕」：旧正月（春節）に食べる餅のこと。'
           },
           {
-            word: '☆橘子',
+            word: '橘子',
             sentence: '住鄉下的親戚每年送給我們很多橘子。',
             bopomofo: 'ㄓㄨˋ ㄒㄧㄤ ㄒㄧㄚˋ ㄉㄜ˙ ㄑㄧㄣ ㄑㄧ ㄇㄟˇ ㄋㄧㄢˊ ㄙㄨㄥˋ ㄍㄟˇ ㄨㄛˇ ㄇㄣ˙ ㄏㄣˇ ㄉㄨㄛ ㄐㄩˊ ㄗ˙.',
             pinyin: 'zhu4 xiang1 xia4 de qin1 qi1 mei3 nian2 song4 gei3 wo3 men hen3 duo1 ju2 zi.',
@@ -263,16 +264,16 @@ export default {
             memo: '※「守歲」：大晦日に、 年が明けるまで起きていること。'
           },
           {
-            word: '★說法',
-            sentence: '那個教授的說法很邏輯, 總是很明白。 / 那個教授的話非常有邏輯, 總是很清楚。',
-            bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄐㄧㄠˋ ㄕㄡˋ ㄉㄜ˙ ㄏㄨㄚˋ ㄈㄟ ㄔㄤˊ ㄧㄡˇ ㄌㄨㄛˊ ㄐㄧ˙, ㄗㄨㄥˇ ㄕˋ ㄏㄣˇ ㄑㄧㄥ ㄔㄨˇ.',
-            pinyin: 'na4 ge4 jiao4 shou4 de hua4 fei1 chang2 you3 luo2 ji2, zong3 shi4 hen3 qing1 chu3.',
-            translation: '教授の話し方は非常に論理的で、 常に明確です。',
-            memo: '※「邏輯」の発音',
+            word: '說法',
+            sentence: '他們的說法都不一樣, 我不知道應該相信誰說的。',
+            bopomofo: 'ㄊㄚ ㄇㄣ˙ ㄉㄜ˙ ㄕㄨㄛ ㄈㄚˇ ㄉㄡ ㄅㄨˋ ㄧˊ ㄧㄤˋ, ㄨㄛˇ ㄅㄨˋ ㄓ ㄉㄠˋ ㄧㄥ ㄍㄞ ㄒㄧㄤ ㄒㄧㄣˋ ㄕㄨㄟˊ ㄕㄨㄛ ㄉㄜ˙.',
+            pinyin: 'ta1 men de shuo1 fa3 dou1 bu4 yi1 yang4, wo3 bu4 zhi1 dao4 ying1 gai1 xiang1 xin4 shei2 shuo1 de.',
+            translation: '彼らの話し方はみんな違うので、 誰を信じればよいのか分かりません。',
+            memo: '',
             changed: '★'
           },
           {
-            word: '☆晚',
+            word: '晚',
             sentence: '我寄到國外的行李很晚才到達。',
             bopomofo: 'ㄨㄛˇ ㄐㄧˋ ㄉㄠˋ ㄍㄨㄛˊ ㄨㄞˋ ㄉㄜ˙ ㄒㄧㄥˊ ㄌㄧˇ ㄏㄣˇ ㄨㄢˇ ㄘㄞˊ ㄉㄠˋ ㄉㄚˊ.',
             pinyin: 'wo3 ji4 dao4 guo2 wai4 de xing2 li3 hen3 wan3 cai2 dao4 da2.',
@@ -281,7 +282,7 @@ export default {
             changed: '★'
           },
           {
-            word: '☆活',
+            word: '活',
             sentence: '公園裡有一隻活了很久的老貓， 牠總是在睡午覺。',
             bopomofo: 'ㄍㄨㄥ ㄩㄢˊ ㄌㄧˇ ㄧㄡˇ ㄧˋ ㄓ ㄏㄨㄛˊ ㄌㄜ˙ ㄏㄣˇ ㄐㄧㄡˇ ㄉㄜ˙ ㄌㄠˇ ㄇㄠ, ㄊㄚ ㄗㄨㄥˇ ㄕˋ ㄗㄞˋ ㄕㄨㄟˋ ㄨˇ ㄐㄧㄠˋ.',
             pinyin: 'gong1 yuan2 li3 you3 yi1 zhi1 huo2 le hen3 jiu3 de lao3 mao1, ta1 zong3 shi4 zai4 shui4 wu3 jiao4.',
@@ -290,21 +291,22 @@ export default {
             changed: '★'
           },
           {
-            word: '★平安',
-            sentence: '從昨天媽媽生氣了, 家裡有不平安的氣氛。 / 從昨天媽媽生氣了， 家裡漂著不安定的氣氛。',
-            bopomofo: 'ㄘㄨㄥˊ ㄗㄨㄛˊ ㄊㄧㄢ ㄇㄚ ㄇㄚ ㄕㄥ ㄑㄧˋ ㄌㄜ˙, ㄐㄧㄚ ㄌㄧˇ ㄆㄧㄠˋ ㄓㄜ˙ ㄅㄨˋ ㄢ ㄉㄧㄥˋ ㄉㄜ˙ ㄑㄧˋ ㄈㄣ.',
-            pinyin: 'cong2 zuo2 tian1 ma1 ma1 sheng1 qi4 le, jia1 li3 piao4 zhe bu4 an1 ding4 de qi4 fen1.',
-            translation: '昨日からお母さんがイライラしているので、 家の中には不穏な空気が漂っています。',
-            memo: '',
+            word: '平安',
+            sentence: '我希望孩子平安地長大。',
+            bopomofo: 'ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄏㄞˊ ㄗˇ ㄆㄧㄥˊ ㄢ ㄉㄜ˙ ㄓㄤˇ ㄉㄚˋ.',
+            pinyin: 'wo3 xi1 wang4 hai2 zi ping2 an1 de zhang3 da4.',
+            translation: '子どもが健康に安全に大きくなる事を願っています。',
+            memo: '「平安符(ㄆㄧㄥˊ ㄢ ㄈㄨˊ/ping2 an1 fu2)」：「御守り」。',
             changed: '★'
           },
           {
             word: '出門',
-            sentence: '他在十點起床, 慢慢地吃早飯, 下午二點才出門了。',
-            bopomofo: 'ㄊㄚ ㄗㄞˋ ㄕˊ ㄉㄧㄢˇ ㄑㄧˇ ㄔㄨㄤˊ, ㄇㄢˋ ㄇㄢˋ ㄉㄜ˙ ㄔ ㄗㄠˇ ㄈㄢˋ, ㄒㄧㄚˋ ㄨˇ ㄦˋ ㄉㄧㄢˇ ㄘㄞˊ ㄔㄨ ㄇㄣˊ ㄌㄜ˙.',
-            pinyin: 'ta1 zai4 shi2 dian3 qi3 chuang2, man4 man4 de chi1 zao3 fan4, xia4 wu3 er4 dian3 cai2 chu1 men2 le.',
+            sentence: '他在十點起床, 慢慢地吃早飯, 下午兩點才出門的。',
+            bopomofo: 'ㄊㄚ ㄗㄞˋ ㄕˊ ㄉㄧㄢˇ ㄑㄧˇ ㄔㄨㄤˊ, ㄇㄢˋ ㄇㄢˋ ㄉㄜ˙ ㄔ ㄗㄠˇ ㄈㄢˋ, ㄒㄧㄚˋ ㄨˇ ㄌㄧㄤˇ ㄉㄧㄢˇ ㄘㄞˊ ㄔㄨ ㄇㄣˊ ㄉㄜ˙.',
+            pinyin: 'ta1 zai4 shi2 dian3 qi3 chuang2, man4 man4 de chi1 zao3 fan4, xia4 wu3 liang3 dian3 cai2 chu1 men2 de.',
             translation: '彼は10時に起きてゆっくり朝食を食べ、 午後2時にようやく出かけて行きました。',
-            memo: ''
+            memo: '',
+            changed: '★'
           },
           {
             word: '拜年',
@@ -315,16 +317,16 @@ export default {
             memo: ''
           },
           {
-            word: '☆又',
-            sentence: '你又吃了超過賞味期限的食物把肚子搞壞了?',
-            bopomofo: 'ㄋㄧˇ ㄧㄡˋ ㄔ ㄌㄜ˙ ㄔㄠ ㄍㄨㄛˋ ㄕㄤˇ ㄨㄟˋ ㄑㄧ ㄒㄧㄢˋ ㄉㄜ˙ ㄕˊ ㄨˋ ㄅㄚˇ ㄉㄨˇ ㄗ˙ ㄍㄠˇ ㄏㄨㄞˋ ㄌㄜ˙?',
-            pinyin: 'ni3 you4 chi1 le chao1 guo4 shang3 wei4 qi1 xian4 de shi2 wu4 ba3 du4 zi gao3 huai4 le?',
+            word: '又',
+            sentence: '你又吃了過期的食物把肚子搞壞了?',
+            bopomofo: 'ㄋㄧˇ ㄧㄡˋ ㄔ ㄌㄜ˙　ㄍㄨㄛˋ ㄑㄧ ㄉㄜ˙ ㄕˊ ㄨˋ ㄅㄚˇ ㄉㄨˇ ㄗ˙ ㄍㄠˇ ㄏㄨㄞˋ ㄌㄜ˙?',
+            pinyin: 'ni3 you4 chi1 le guo4 qi1 de shi2 wu4 ba3 du4 zi gao3 huai4 le?',
             translation: 'また賞味期限切れの食べ物を食べてお腹を壊したんですか?',
             memo: '',
             changed: '★'
           },
           {
-            word: '☆起來',
+            word: '起來',
             sentence: '他似乎沒了幹勁， 最近懶散起來了。',
             bopomofo: 'ㄊㄚ ㄙˋ ㄏㄨ ㄇㄟˊ ㄌㄜ˙ ㄍㄢˋ ㄐㄧㄣˋ, ㄗㄨㄟˋ ㄐㄧㄣˋ ㄌㄢˇ ㄙㄢˇ ㄑㄧˇ ㄌㄞˊ ㄌㄜ˙.',
             pinyin: 'ta1 si4 hu1 mei2 le gan4 jin4, zui4 jin4 lan3 san3 qi3 lai2 le.',
@@ -341,16 +343,16 @@ export default {
             memo: ''
           },
           {
-            word: '★貼上',
-            sentence: '在牆上一個學生把單詞表貼上，我覺得那種學習方法很聰明。 / 有學生把單字貼在牆上， 我覺得那種學習方式很聰明。',
-            bopomofo: 'ㄧㄡˇ ㄒㄩㄝˊ ㄕㄥ ㄅㄚˇ ㄉㄢ ㄗˋ ㄊㄧㄝ ㄗㄞˋ ㄑㄧㄤˊ ㄕㄤˋ, ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄋㄚˋ ㄓㄨㄥˇ ㄒㄩㄝˊ ㄒㄧˊ ㄈㄤ ㄕˋ ㄏㄣˇ ㄘㄨㄥ ㄇㄧㄥˊ.',
-            pinyin: 'you3 xue2 sheng1 ba3 dan1 zi4 tie1 zai4 qiang2 shang4, wo3 jue2 de na4 zhong3 xue2 xi2 fang1 shi4 hen3 cong1 ming2.',
-            translation: 'ある学生が壁に単語リストを張り付けていて、 とても賢い学習方法だなと思いました。',
+            word: '貼上',
+            sentence: '有的人喜歡冰箱門貼上「滿」這個字。',
+            bopomofo: 'ㄧㄡˇ ㄉㄜ˙ ㄖㄣˊ ㄒㄧˇ ㄏㄨㄢ ㄅㄧㄥ ㄒㄧㄤ ㄇㄣˊ ㄊㄧㄝ ㄕㄤˋ  ㄇㄢˇ  ㄓㄜˋ ㄍㄜˋ ㄗˋ.',
+            pinyin: 'you3 de ren2 xi3 huan1 bing1 xiang1 men2 tie1 shang4 man3 zhe4 ge4 zi4.',
+            translation: '冷蔵庫の扉に「満」という文字を貼るのが好きな人もいます。',
             memo: '',
             changed: '★'
           },
           {
-            word: '☆年年有餘',
+            word: '年年有餘',
             sentence: '他失業了， 跟他說「年年有餘」不知道是好還是壞。',
             bopomofo: 'ㄊㄚ ㄕ ㄧㄝˋ ㄌㄜ˙, ㄍㄣ ㄊㄚ ㄕㄨㄛ  ㄋㄧㄢˊ ㄋㄧㄢˊ ㄧㄡˇ ㄩˊ  ㄅㄨˋ ㄓ ㄉㄠˋ ㄕˋ ㄏㄠˇ ㄏㄨㄢˊ ㄕˋ ㄏㄨㄞˋ.',
             pinyin: 'ta1 shi1 ye4 le, gen1 ta1 shuo1 nian2 nian2 you3 yu2 bu4 zhi1 dao4 shi4 hao3 hai2 shi4 huai4.',
@@ -359,16 +361,16 @@ export default {
             changed: '★'
           },
           {
-            word: '★步步高升',
-            sentence: '她上了很好的公司， 一直步步高升。 / 她進了很好的公司， 出人頭地了（慢慢地往上爬了）。',
-            bopomofo: 'ㄊㄚ ㄐㄧㄣˋ ㄌㄜ˙ ㄏㄣˇ ㄏㄠˇ ㄉㄜ˙ ㄍㄨㄥ ㄙ, ㄔㄨ ㄖㄣˊ ㄊㄡˊ ㄉㄧˋ ㄌㄜ˙. (ㄇㄢˋ ㄇㄢˋ ㄉㄧˋ ㄨㄤˇ ㄕㄤˋ ㄆㄚˊ ㄌㄜ˙).',
-            pinyin: 'ta1 jin4 le hen3 hao3 de gong1 si1, chu1 ren2 tou2 de le. (man4 man4 di4 wang3 shang4 pa2 le).',
-            translation: '彼女は良い会社に入って、 出世し続けています。',
+            word: '步步高升',
+            sentence: '年糕的「糕」是「步步高升」的「高」的意思。',
+            bopomofo: 'ㄋㄧㄢˊ ㄍㄠ ㄉㄜ˙  ㄍㄠ  ㄕˋ  ㄅㄨˋ ㄅㄨˋ ㄍㄠ ㄕㄥ  ㄉㄜ˙  ㄍㄠ  ㄉㄜ˙ ㄧˋ ㄙ.',
+            pinyin: 'nian2 gao1 de gao1 shi4 bu4 bu4 gao1 sheng1 de gao1 de yi4 si1.',
+            translation: '「年糕」の「糕」は「步步高升」という言葉の「高」を意味します。',
             memo: '※「步步高升」：「出世できますように」という意味。',
             changed: '★'
           },
           {
-            word: '☆大吉大利',
+            word: '大吉大利',
             sentence: '那個孩子似乎學到了一個新單詞， 走著對大家說「大吉大利」。',
             bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄏㄞˊ ㄗ˙ ㄙˋ ㄏㄨ ㄒㄩㄝˊ ㄉㄠˋ ㄌㄜ˙ ㄧˊ ㄍㄜˋ ㄒㄧㄣ ㄉㄢ ㄘˊ, ㄗㄡˇ ㄓㄜ˙ ㄉㄨㄟˋ ㄉㄚˋ ㄐㄧㄚ ㄕㄨㄛ  ㄉㄚˋ ㄐㄧˊ ㄉㄚˋ ㄌㄧˋ.',
             pinyin: 'na4 ge4 hai2 zi si4 hu1 xue2 dao4 le yi1 ge4 xin1 dan1 ci2, zou3 zhe dui4 da4 jia1 shuo1 da4 ji2 da4 li4.',
@@ -377,7 +379,7 @@ export default {
             changed: '★'
           },
           {
-            word: '☆放鞭炮',
+            word: '放鞭炮',
             sentence: '你覺得只要帶著安全帽進放鞭炮的地方就安全了嗎?',
             bopomofo: 'ㄋㄧˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄓˇ ㄧㄠˋ ㄉㄞˋ ㄓㄜ˙ ㄢ ㄑㄩㄢˊ ㄇㄠˋ ㄐㄧㄣˋ ㄈㄤˋ ㄅㄧㄢ ㄆㄠˋ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ ㄐㄧㄡˋ ㄢ ㄑㄩㄢˊ ㄌㄜ˙ ㄇㄚ˙?',
             pinyin: 'ni3 jue2 de zhi3 yao4 dai4 zhe an1 quan2 mao4 jin4 fang4 bian1 pao4 de di4 fang1 jiu4 an1 quan2 le ma2?',
@@ -386,21 +388,21 @@ export default {
             changed: '★'
           },
           {
-            word: '★大年初一',
-            sentence: '在大年初一我每年一直睡覺和吃東西。 / 每年大年初一， 我不是吃就是睡。',
+            word: '大年初一',
+            sentence: '每年大年初一， 我不是吃就是睡。',
             bopomofo: 'ㄇㄟˇ ㄋㄧㄢˊ ㄉㄚˋ ㄋㄧㄢˊ ㄔㄨ ㄧ, ㄨㄛˇ ㄅㄨˊ ㄕˋ ㄔ ㄐㄧㄡˋ ㄕˋ ㄕㄨㄟˋ.',
             pinyin: 'mei3 nian2 da4 nian2 chu1 yi1, wo3 bu2 shi4 chi1 jiu4 shi4 shui4.',
             translation: '毎年、 元旦は寝るか食べるかしかしていません。',
-            memo: '※「不是吃就是睡」?',
+            memo: '※「不是A就是B」：「AもBのどちらか」。',
             changed: '★'
           },
           {
-            word: '★大年初五',
-            sentence: '大年初五， 上班族都希望有能帶回時間的魔法。 / 大年初五， 上班族們都希望擁有回到過去的魔法。',
+            word: '大年初五',
+            sentence: '大年初五， 上班族們都希望擁有回到過去的魔法。',
             bopomofo: 'ㄉㄚˋ ㄋㄧㄢˊ ㄔㄨ ㄨˇ, ㄕㄤˋ ㄅㄢ ㄗㄨˊ ㄇㄣ˙ ㄉㄡ ㄒㄧ ㄨㄤˋ ㄩㄥ ㄧㄡˇ ㄏㄨㄟˊ ㄉㄠˋ ㄍㄨㄛˋ ㄑㄩˋ ㄉㄜ˙ ㄇㄛˊ ㄈㄚˇ.',
             pinyin: 'da4 nian2 chu1 wu3, shang4 ban1 zu2 men dou1 xi1 wang4 yong1 you3 hui2 dao4 guo4 qu4 de mo2 fa3.',
             translation: '正月の五日目、 サラリーマンはみんな時間を戻す魔法があればいいのにと思います。',
-            memo: '',
+            memo: '※「回到過去(ㄏㄨㄟˊ ㄉㄠˋ ㄍㄨㄛˋ ㄑㄩˋ/ hui2 dao4 guo4 qu4)」または「時間倒流(ㄕˊ ㄐㄧㄢ ㄉㄠˋ ㄌㄧㄡˊ/shi2 jian1 dao4 liu2)」：「時間を戻す」。',
             changed: '★'
           }
         ]
