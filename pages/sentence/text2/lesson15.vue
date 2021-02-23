@@ -126,7 +126,7 @@ export default {
           },
           {
             word: '★吉祥',
-            sentence: '紅色的東西是不是都是吉利的（好的）?',
+            sentence: '紅色的東西是不是都吉祥? / 紅色的東西是不是都是吉利的（好的）?',
             bopomofo: 'ㄏㄨㄥˊ ㄙㄜˋ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ ㄕˋ ㄅㄨˊ ㄕˋ ㄉㄡ ㄐㄧˊ ㄒㄧㄤˊ?',
             pinyin: 'hong2 se4 de dong1 xi shi4 bu2 shi4 dou1 ji2 xiang2?',
             translation: '赤い色のものは全て縁起が良いのですか?',
@@ -146,7 +146,7 @@ export default {
             word: '☆過年',
             sentence: '鞭炮聲有過年的氣氛我很喜歡， 不過貓看起來不太開心。',
             bopomofo: 'ㄅㄧㄢ ㄆㄠˋ ㄕㄥ ㄧㄡˇ ㄍㄨㄛˋ ㄋㄧㄢˊ ㄉㄜ˙ ㄑㄧˋ ㄈㄣ ㄨㄛˇ ㄏㄣˇ ㄒㄧˇ ㄏㄨㄢ, ㄅㄨˊ ㄍㄨㄛˋ ㄇㄠ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄅㄨˊ ㄊㄞˋ ㄎㄞ ㄒㄧㄣ.',
-            pinyin: 'bian1 pao4 sheng1 you3 guo4 nian2 de qi4 fen1 wo3 hen3 xi3 huanq, bu2 guo4 mao1 kan4 qi3 lai2 bu2 tai4 kai1 xin1.',
+            pinyin: 'bian1 pao4 sheng1 you3 guo4 nian2 de qi4 fen1 wo3 hen3 xi3 huan1, bu2 guo4 mao1 kan4 qi3 lai2 bu2 tai4 kai1 xin1.',
             translation: '爆竹の音はお正月の雰囲気がして私はとても好きなのですが、 猫は嬉しくなさそうです。',
             memo: '',
             changed: '★'
@@ -264,7 +264,7 @@ export default {
           },
           {
             word: '★說法',
-            sentence: '那個教授的話非常有邏輯, 總是很清楚。',
+            sentence: '那個教授的說法很邏輯, 總是很明白。 / 那個教授的話非常有邏輯, 總是很清楚。',
             bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄐㄧㄠˋ ㄕㄡˋ ㄉㄜ˙ ㄏㄨㄚˋ ㄈㄟ ㄔㄤˊ ㄧㄡˇ ㄌㄨㄛˊ ㄐㄧ˙, ㄗㄨㄥˇ ㄕˋ ㄏㄣˇ ㄑㄧㄥ ㄔㄨˇ.',
             pinyin: 'na4 ge4 jiao4 shou4 de hua4 fei1 chang2 you3 luo2 ji2, zong3 shi4 hen3 qing1 chu3.',
             translation: '教授の話し方は非常に論理的で、 常に明確です。',
@@ -291,7 +291,7 @@ export default {
           },
           {
             word: '★平安',
-            sentence: '從昨天媽媽生氣了， 家裡漂著不安定的氣氛。',
+            sentence: '從昨天媽媽生氣了, 家裡有不平安的氣氛。 / 從昨天媽媽生氣了， 家裡漂著不安定的氣氛。',
             bopomofo: 'ㄘㄨㄥˊ ㄗㄨㄛˊ ㄊㄧㄢ ㄇㄚ ㄇㄚ ㄕㄥ ㄑㄧˋ ㄌㄜ˙, ㄐㄧㄚ ㄌㄧˇ ㄆㄧㄠˋ ㄓㄜ˙ ㄅㄨˋ ㄢ ㄉㄧㄥˋ ㄉㄜ˙ ㄑㄧˋ ㄈㄣ.',
             pinyin: 'cong2 zuo2 tian1 ma1 ma1 sheng1 qi4 le, jia1 li3 piao4 zhe bu4 an1 ding4 de qi4 fen1.',
             translation: '昨日からお母さんがイライラしているので、 家の中には不穏な空気が漂っています。',
@@ -342,7 +342,7 @@ export default {
           },
           {
             word: '★貼上',
-            sentence: '有學生把單字貼在牆上， 我覺得那種學習方式很聰明。',
+            sentence: '在牆上一個學生把單詞表貼上，我覺得那種學習方法很聰明。 / 有學生把單字貼在牆上， 我覺得那種學習方式很聰明。',
             bopomofo: 'ㄧㄡˇ ㄒㄩㄝˊ ㄕㄥ ㄅㄚˇ ㄉㄢ ㄗˋ ㄊㄧㄝ ㄗㄞˋ ㄑㄧㄤˊ ㄕㄤˋ, ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄋㄚˋ ㄓㄨㄥˇ ㄒㄩㄝˊ ㄒㄧˊ ㄈㄤ ㄕˋ ㄏㄣˇ ㄘㄨㄥ ㄇㄧㄥˊ.',
             pinyin: 'you3 xue2 sheng1 ba3 dan1 zi4 tie1 zai4 qiang2 shang4, wo3 jue2 de na4 zhong3 xue2 xi2 fang1 shi4 hen3 cong1 ming2.',
             translation: 'ある学生が壁に単語リストを張り付けていて、 とても賢い学習方法だなと思いました。',
@@ -360,7 +360,7 @@ export default {
           },
           {
             word: '★步步高升',
-            sentence: '她進了很好的公司， 出人頭地了（慢慢地往上爬了）。',
+            sentence: '她上了很好的公司， 一直步步高升。 / 她進了很好的公司， 出人頭地了（慢慢地往上爬了）。',
             bopomofo: 'ㄊㄚ ㄐㄧㄣˋ ㄌㄜ˙ ㄏㄣˇ ㄏㄠˇ ㄉㄜ˙ ㄍㄨㄥ ㄙ, ㄔㄨ ㄖㄣˊ ㄊㄡˊ ㄉㄧˋ ㄌㄜ˙. (ㄇㄢˋ ㄇㄢˋ ㄉㄧˋ ㄨㄤˇ ㄕㄤˋ ㄆㄚˊ ㄌㄜ˙).',
             pinyin: 'ta1 jin4 le hen3 hao3 de gong1 si1, chu1 ren2 tou2 de le. (man4 man4 di4 wang3 shang4 pa2 le).',
             translation: '彼女は良い会社に入って、 出世し続けています。',
@@ -387,16 +387,16 @@ export default {
           },
           {
             word: '★大年初一',
-            sentence: '每年大年初一， 我不是吃就是睡。',
+            sentence: '在大年初一我每年一直睡覺和吃東西。 / 每年大年初一， 我不是吃就是睡。',
             bopomofo: 'ㄇㄟˇ ㄋㄧㄢˊ ㄉㄚˋ ㄋㄧㄢˊ ㄔㄨ ㄧ, ㄨㄛˇ ㄅㄨˊ ㄕˋ ㄔ ㄐㄧㄡˋ ㄕˋ ㄕㄨㄟˋ.',
             pinyin: 'mei3 nian2 da4 nian2 chu1 yi1, wo3 bu2 shi4 chi1 jiu4 shi4 shui4.',
             translation: '毎年、 元旦は寝るか食べるかしかしていません。',
-            memo: '',
+            memo: '※「不是吃就是睡」?',
             changed: '★'
           },
           {
             word: '★大年初五',
-            sentence: '大年初五， 上班族們都希望擁有回到過去的魔法。',
+            sentence: '大年初五， 上班族都希望有能帶回時間的魔法。 / 大年初五， 上班族們都希望擁有回到過去的魔法。',
             bopomofo: 'ㄉㄚˋ ㄋㄧㄢˊ ㄔㄨ ㄨˇ, ㄕㄤˋ ㄅㄢ ㄗㄨˊ ㄇㄣ˙ ㄉㄡ ㄒㄧ ㄨㄤˋ ㄩㄥ ㄧㄡˇ ㄏㄨㄟˊ ㄉㄠˋ ㄍㄨㄛˋ ㄑㄩˋ ㄉㄜ˙ ㄇㄛˊ ㄈㄚˇ.',
             pinyin: 'da4 nian2 chu1 wu3, shang4 ban1 zu2 men dou1 xi1 wang4 yong1 you3 hui2 dao4 guo4 qu4 de mo2 fa3.',
             translation: '正月の五日目、 サラリーマンはみんな時間を戻す魔法があればいいのにと思います。',
