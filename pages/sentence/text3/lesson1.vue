@@ -95,10 +95,10 @@ export default {
             sentence: '老師太嚴了， 第一天就嚇跑學生了。',
             bopomofo: 'ㄌㄠˇ ㄕ ㄊㄞˋ ㄧㄢˊ ㄌㄜ˙, ㄉㄧˋ ㄧˋ ㄊㄧㄢ ㄐㄧㄡˋ ㄒㄧㄚˋ ㄆㄠˇ ㄒㄩㄝˊ ㄕㄥ ㄌㄜ˙.',
             pinyin: 'lao3 shi1 tai4 yan2 le, di4 yi4 tian1 jiu4 xia4 pao3 xue2 sheng1 le.',
-            translation: '先生が厳しすぎたので、 生徒は初日に全員が逃げてしまいました。',
-            memo: '※「老師太嚴得學生都在第一天就逃跑了' +
-              '（ㄌㄠˇ ㄕ ㄊㄞˋ ㄧㄢˊ ㄉㄜ˙ ㄒㄩㄝˊ ㄕㄥ ㄉㄡ ㄗㄞˋ ㄉㄧˋ ㄧˋ ㄊㄧㄢ ㄐㄧㄡˋ ㄊㄠˊ ㄆㄠˇ ㄌㄜ˙.' +
-              '/lao3 shi1 tai4 yan2 de xue2 sheng1 dou1 zai4 di4 yi4 tian1 jiu4 tao2 pao3 le.）」でも可。',
+            translation: '先生が厳しすぎたので、 生徒は初日に逃げてしまいました。',
+            memo: '※「老師太嚴得學生在第一天就逃跑了' +
+              '（ㄌㄠˇ ㄕ ㄊㄞˋ ㄧㄢˊ ㄉㄜ˙ ㄒㄩㄝˊ ㄕㄥ ㄗㄞˋ ㄉㄧˋ ㄧˋ ㄊㄧㄢ ㄐㄧㄡˋ ㄊㄠˊ ㄆㄠˇ ㄌㄜ˙.' +
+              '/lao3 shi1 tai4 yan2 de xue2 sheng1 zai4 di4 yi4 tian1 jiu4 tao2 pao3 le.）」でも可。',
             changed: '☆'
           },
           {
@@ -165,7 +165,7 @@ export default {
             word: '清楚',
             sentence: '貓的好惡很清楚， 如果牠咬你了， 就別再抱牠了。',
             bopomofo: 'ㄇㄠ ㄉㄜ˙ ㄏㄠˋ ㄨˋ ㄏㄣˇ ㄑㄧㄥ ㄔㄨˇ, ㄖㄨˊ ㄍㄨㄛˇ ㄊㄚ ㄧㄠˇ ㄋㄧˇ ㄌㄜ˙, ㄐㄧㄡˋ ㄅㄧㄝˊ ㄗㄞˋ ㄅㄠˋ ㄊㄚ ㄌㄜ˙.',
-            pinyin: 'mao1 de hao3 wu4 hen3 qing1 chu3, ru2 guo3 ta1 yao3 ni3 le, jiu4 bie2 zai4 bao4 tuo2 le.',
+            pinyin: 'mao1 de hao3 wu4 hen3 qing1 chu3, ru2 guo3 ta1 yao3 ni3 le, jiu4 bie2 zai4 bao4 ta1 le.',
             translation: '猫の好き嫌いははっきりしているので、 もしあなたを咬むようなら、 抱っこは諦めた方がいいですよ。',
             memo: '',
             changed: '☆'
