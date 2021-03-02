@@ -158,7 +158,7 @@ export default {
             bopomofo: 'ㄉㄨㄟˋ ㄩˊ ㄖㄨˊ ㄏㄜˊ ㄐㄧㄣˋ ㄒㄧㄥˊ ㄍㄨㄥ ㄗㄨㄛˋ ㄕㄣˊ ㄇㄜ˙ ㄉㄡ ㄇㄟˊ ㄕㄨㄛ ㄇㄧㄥˊ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄗˋ ㄐㄧˇ ㄕㄤˋ ㄨㄤˇ ㄔㄚˊ ㄓㄠˇ ㄈㄤ ㄈㄚˇ.',
             pinyin: 'dui4 yu2 ru2 he2 jin4 xing2 gong1 zuo4 shen2 me dou1 mei2 shuo1 ming2, suo3 yi3 wo3 zi4 ji3 shang4 wang3 cha2 zhao3 fang1 fa3.',
             translation: '仕事の進め方について何も説明が無いので、 ネットで調べて自分で何とかします。',
-            memo: '※「對於」「關於」 : 「～について」。',
+            memo: '※「對於(ㄉㄨㄟˋ ㄩˊ/dui4 yu2)」 = 「關於(ㄍㄨㄢ ㄩˊ/guan1 yu2)」 : 「～について」。',
             changed: '☆'
           },
           {
