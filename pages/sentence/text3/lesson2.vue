@@ -49,10 +49,10 @@ export default {
           },
           {
             word: '外套',
-            sentence: '網路購買很方便, 但是在購買外套前我想親眼檢查。',
-            bopomofo: 'ㄨㄤˇ ㄌㄨˋ ㄍㄡˋ ㄇㄞˇ ㄏㄣˇ ㄈㄤ ㄅㄧㄢˋ, ㄉㄢˋ ㄕˋ ㄗㄞˋ ㄍㄡˋ ㄇㄞˇ ㄨㄞˋ ㄊㄠˋ ㄑㄧㄢˊ ㄨㄛˇ ㄒㄧㄤˇ ㄑㄧㄣ ㄧㄢˇ ㄐㄧㄢˇ ㄔㄚˊ.',
-            pinyin: 'wang3 lu4 gou4 mai3 hen3 fang1 bian4, dan4 shi4 zai4 gou4 mai3 wai4 tao4 qian2 wo3 xiang3 qin1 yan3 jian3 cha2.',
-            translation: 'オンラインショッピングはとても便利ですが、 上着は買う前に自分の目で確認したいです。',
+            sentence: '網路購買很方便, 但是在買外套前我想親眼檢查。',
+            bopomofo: 'ㄨㄤˇ ㄌㄨˋ ㄍㄡˋ ㄇㄞˇ ㄏㄣˇ ㄈㄤ ㄅㄧㄢˋ, ㄉㄢˋ ㄕˋ ㄗㄞˋ ㄇㄞˇ ㄨㄞˋ ㄊㄠˋ ㄑㄧㄢˊ ㄨㄛˇ ㄒㄧㄤˇ ㄑㄧㄣ ㄧㄢˇ ㄐㄧㄢˇ ㄔㄚˊ.',
+            pinyin: 'wang3 lu4 gou4 mai3 hen3 fang1 bian4, dan4 shi4 zai4 mai3 wai4 tao4 qian2 wo3 xiang3 qin1 yan3 jian3 cha2.',
+            translation: 'オンラインショッピングはとても便利ですが、 上着は買う前に自分の目で見て確認したいです。',
             memo: ''
           },
           {
@@ -65,9 +65,9 @@ export default {
           },
           {
             word: '商品',
-            sentence: '在那家店新商品每星期六發售。',
-            bopomofo: 'ㄗㄞˋ ㄋㄚˋ ㄐㄧㄚ ㄉㄧㄢˋ ㄒㄧㄣ ㄕㄤ ㄆㄧㄣˇ ㄇㄟˇ ㄒㄧㄥ ㄑㄧ ㄌㄧㄡˋ ㄈㄚ ㄕㄡˋ.',
-            pinyin: 'zai4 na4 jia1 dian4 xin1 shang1 pin3 mei3 xing1 qi1 liu4 fa1 shou4.',
+            sentence: '那家店的新商品在每星期六發售。',
+            bopomofo: 'ㄋㄚˋ ㄐㄧㄚ ㄉㄧㄢˋ ㄉㄜ˙ ㄒㄧㄣ ㄕㄤ ㄆㄧㄣˇ ㄗㄞˋ ㄇㄟˇ ㄒㄧㄥ ㄑㄧ ㄌㄧㄡˋ ㄈㄚ ㄕㄡˋ.',
+            pinyin: 'na4 jia1 dian4 de xin1 shang1 pin3 zai4 mei3 xing1 qi1 liu4 fa1 shou4.',
             translation: 'その店では、 毎週土曜に新商品が発売されます。',
             memo: ''
           },
@@ -81,9 +81,9 @@ export default {
           },
           {
             word: '省',
-            sentence: '這幾天沒有下雨， 所以我們把水必須省。',
-            bopomofo: 'ㄓㄜˋ ㄐㄧˇ ㄊㄧㄢ ㄇㄟˊ ㄧㄡˇ ㄒㄧㄚˋ ㄩˇ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄇㄣ˙ ㄅㄚˇ ㄕㄨㄟˇ ㄅㄧˋ ㄒㄩ ㄕㄥˇ.',
-            pinyin: 'zhe4 ji3 tian1 mei2 you3 xia4 yu3, suo3 yi3 wo3 mmen ba3 shui3 bi4 xu1 sheng3.',
+            sentence: '這幾天沒有下雨， 所以我們得省水。',
+            bopomofo: 'ㄓㄜˋ ㄐㄧˇ ㄊㄧㄢ ㄇㄟˊ ㄧㄡˇ ㄒㄧㄚˋ ㄩˇ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄇㄣ˙ ㄉㄟˇ ㄕㄥˇ ㄕㄨㄟˇ.',
+            pinyin: 'zhe4 ji3 tian1 mei2 you3 xia4 yu3, suo3 yi3 wo3 men dei3 sheng3 shui3.',
             translation: '最近は雨が降らないので、 水を節約する必要があります。',
             memo: ''
           },
@@ -116,7 +116,7 @@ export default {
             sentence: '他不擅長早上, 起床後的樣子好像冬眠後的一隻熊。',
             bopomofo: 'ㄊㄚ ㄅㄨˋ ㄕㄢˋ ㄔㄤˊ ㄗㄠˇ ㄕㄤˋ, ㄑㄧˇ ㄔㄨㄤˊ ㄏㄡˋ ㄉㄜ˙ ㄧㄤˋ ㄗ˙ ㄏㄠˇ ㄒㄧㄤˋ ㄉㄨㄥ ㄇㄧㄢˊ ㄏㄡˋ ㄉㄜ˙ ㄧˋ ㄓ ㄒㄩㄥˊ.',
             pinyin: 'ta1 bu2 shan4 chang2 zao3 shang4, qi3 chuang2 hou4 de yang4 zi hao3 xiang4 dong1 mian2 hou4 de yi1 zhi1 xiong2.',
-            translation: '彼は朝が苦手で、 起きた直後は見た感じ冬眠明けの熊のようです。',
+            translation: '彼は朝が苦手で、 起きた直後は見たところ冬眠明けの熊のようです。',
             memo: ''
           },
           {
@@ -233,9 +233,9 @@ export default {
           },
           {
             word: '退',
-            sentence: '退到我購買的物品相當需要勇氣。',
-            bopomofo: 'ㄊㄨㄟˋ ㄉㄠˋ ㄨㄛˇ ㄍㄡˋ ㄇㄞˇ ㄉㄜ˙ ㄨˋ ㄆㄧㄣˇ ㄒㄧㄤ ㄉㄤ ㄒㄩ ㄧㄠˋ ㄩㄥˇ ㄑㄧˋ.',
-            pinyin: 'tui4 dao4 wo3 gou4 mai3 de wu4 pin3 xiang1 dang1 xu1 yao4 yong3 qi4.',
+            sentence: '退到購買的物品相當需要勇氣。',
+            bopomofo: 'ㄊㄨㄟˋ ㄉㄠˋ ㄍㄡˋ ㄇㄞˇ ㄉㄜ˙ ㄨˋ ㄆㄧㄣˇ ㄒㄧㄤ ㄉㄤ ㄒㄩ ㄧㄠˋ ㄩㄥˇ ㄑㄧˋ.',
+            pinyin: 'tui4 dao4 gou4 mai3 de wu4 pin3 xiang1 dang1 xu1 yao4 yong3 qi4.',
             translation: '買ったものを返品するのは、 かなり勇気が要ります。',
             memo: ''
           },
@@ -257,9 +257,9 @@ export default {
           },
           {
             word: '週年慶',
-            sentence: '你忘記週年慶的話老婆會生氣了, 你一定得記得。',
-            bopomofo: 'ㄋㄧˇ ㄨㄤˋ ㄐㄧˋ ㄓㄡ ㄋㄧㄢˊ ㄑㄧㄥˋ ㄉㄜ˙ ㄏㄨㄚˋ ㄌㄠˇ ㄆㄛˊ ㄏㄨㄟˋ ㄕㄥ ㄑㄧˋ ㄌㄜ˙, ㄋㄧˇ ㄧˊ ㄉㄧㄥˋ ㄉㄟˇ ㄐㄧˋ ㄉㄜ˙.',
-            pinyin: 'ni3 wang4 ji4 zhou1 nian2 qing4 de hua4 lao3 po2 hui4 sheng1 qi4 le, ni3 yi1 ding4 dei3 ji4 de.',
+            sentence: '你忘記週年慶的話老婆會生氣的, 你一定得記得。',
+            bopomofo: 'ㄋㄧˇ ㄨㄤˋ ㄐㄧˋ ㄓㄡ ㄋㄧㄢˊ ㄑㄧㄥˋ ㄉㄜ˙ ㄏㄨㄚˋ ㄌㄠˇ ㄆㄛˊ ㄏㄨㄟˋ ㄕㄥ ㄑㄧˋ ㄉㄜ˙, ㄋㄧˇ ㄧˊ ㄉㄧㄥˋ ㄉㄟˇ ㄐㄧˋ ㄉㄜ˙.',
+            pinyin: 'ni3 wang4 ji4 zhou1 nian2 qing4 de hua4 lao3 po2 hui4 sheng1 qi4 de, ni3 yi1 ding4 dei3 ji4 de.',
             translation: '記念日を忘れると奥さんが怒りますから、 必ず覚えていないといけません。',
             memo: ''
           },
@@ -273,10 +273,10 @@ export default {
           },
           {
             word: '試穿',
-            sentence: '為什麼試穿時好看的衣服在家穿的時候不好看?',
-            bopomofo: 'ㄨㄟˋ ㄕˊ ㄇㄜ˙ ㄕˋ ㄔㄨㄢ ㄕˊ ㄏㄠˇ ㄎㄢˋ ㄉㄜ˙ ㄧ ㄈㄨˊ ㄗㄞˋ ㄐㄧㄚ ㄔㄨㄢ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄅㄨˋ ㄏㄠˇ ㄎㄢˋ?',
-            pinyin: 'wei4 shen2 me shi4 chuan1 shi2 hao3 kan4 de yi1 fu2 zai4 jia1 chuan1 de shi2 hou4 bu4 hao3 kan4?',
-            translation: '試着する時には格好よく見えた服が、 家で着るとそうでもないのはなぜですか?',
+            sentence: '為什麼試穿的時候好看的衣服在家穿的時候不好看?',
+            bopomofo: 'ㄨㄟˋ ㄕˊ ㄇㄜ˙ ㄕˋ ㄔㄨㄢ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄏㄠˇ ㄎㄢˋ ㄉㄜ˙ ㄧ ㄈㄨˊ ㄗㄞˋ ㄐㄧㄚ ㄔㄨㄢ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄅㄨˋ ㄏㄠˇ ㄎㄢˋ?',
+            pinyin: 'wei4 shen2 me shi4 chuan1 de shi2 hou4 hao3 kan4 de yi1 fu2 zai4 jia1 chuan1 de shi2 hou4 bu4 hao3 kan4?',
+            translation: '試着した時には格好よく見えた服が、 家で着るとそうでもないのはなぜですか?',
             memo: ''
           },
           {
@@ -289,10 +289,10 @@ export default {
           },
           {
             word: '弄丢',
-            sentence: '雖然我告訴了很多次， 他都會弄丢錢包， 我希望你適可而止。',
-            bopomofo: 'ㄙㄨㄟ ㄖㄢˊ ㄨㄛˇ ㄍㄠˋ ㄙㄨˋ ㄌㄜ˙ ㄏㄣˇ ㄉㄨㄛ ㄘˋ, ㄊㄚ ㄉㄡ ㄏㄨㄟˋ ㄋㄨㄥˋ ㄉㄧㄡ ㄑㄧㄢˊ ㄅㄠ, ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄋㄧˇ ㄕˋ ㄎㄜˇ ㄦˊ ㄓˇ.',
-            pinyin: 'sui1 ran2 wo3 gao4 su4 le hen3 duo1 ci4, ta1 dou1 hui4 nong4 diu1 qian2 bao1, wo3 xi1 wang4 ni3 shi4 ke3 er2 zhi3.',
-            translation: '私が何度言っても彼は財布を失くすので、 もういい加減にして欲しいです。',
+            sentence: '雖然我告訴了很多次， 他還常弄丢錢包， 我希望你適可而止。',
+            bopomofo: 'ㄙㄨㄟ ㄖㄢˊ ㄨㄛˇ ㄍㄠˋ ㄙㄨˋ ㄌㄜ˙ ㄏㄣˇ ㄉㄨㄛ ㄘˋ, ㄊㄚ ㄏㄞˊ ㄔㄤˊ ㄋㄨㄥˋ ㄉㄧㄡ ㄑㄧㄢˊ ㄅㄠ, ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄋㄧˇ ㄕˋ ㄎㄜˇ ㄦˊ ㄓˇ.',
+            pinyin: 'sui1 ran2 wo3 gao4 su4 le hen3 duo1 ci4, ta1 hai2 chang2 nong4 diu1 qian2 bao1, wo3 xi1 wang4 ni3 shi4 ke3 er2 zhi3.',
+            translation: '私が何度言っても彼は頻繁に財布を失くすので、 もういい加減にして欲しいです。',
             memo: ''
           },
           {
@@ -321,9 +321,9 @@ export default {
           },
           {
             word: '門市',
-            sentence: '在網路購物還不錯， 但是我更喜歡在門市聊著店員買東西。',
-            bopomofo: 'ㄗㄞˋ ㄨㄤˇ ㄌㄨˋ ㄍㄡˋ ㄨˋ ㄏㄞˊ ㄅㄨˋ ㄘㄨㄛˋ, ㄉㄢˋ ㄕˋ ㄨㄛˇ ㄍㄥˋ ㄒㄧˇ ㄏㄨㄢ ㄗㄞˋ ㄇㄣˊ ㄕˋ ㄌㄧㄠˊ ㄓㄜ˙ ㄉㄧㄢˋ ㄩㄢˊ ㄇㄞˇ ㄉㄨㄥ ㄒㄧ˙.',
-            pinyin: 'zai4 wang3 lu4 gou4 wu4 hai2 bu2 cuo4, dan4 shi4 wo3 geng4 xi3 huan1 zai4 men2 shi4 liao2 zhe dian4 yuan2 mai3 dong1 xi.',
+            sentence: '網上購物還不錯， 但是我更喜歡在門市聊著店員買東西。',
+            bopomofo: 'ㄨㄤˇ ㄕㄤˋ ㄍㄡˋ ㄨˋ ㄏㄞˊ ㄅㄨˋ ㄘㄨㄛˋ, ㄉㄢˋ ㄕˋ ㄨㄛˇ ㄍㄥˋ ㄒㄧˇ ㄏㄨㄢ ㄗㄞˋ ㄇㄣˊ ㄕˋ ㄌㄧㄠˊ ㄓㄜ˙ ㄉㄧㄢˋ ㄩㄢˊ ㄇㄞˇ ㄉㄨㄥ ㄒㄧ˙.',
+            pinyin: 'wang3 shang4 gou4 wu4 hai2 bu2 cuo4, dan4 shi4 wo3 geng4 xi3 huan1 zai4 men2 shi4 liao2 zhe dian4 yuan2 mai3 dong1 xi.',
             translation: 'オンラインショッピングも悪く無いですが、 小売店で店員さんと話しながら買い物をする方が好みです。',
             memo: ''
           },
@@ -337,10 +337,10 @@ export default {
           },
           {
             word: '月租型',
-            sentence: '付錢型， 跟月租型比起來年租型優惠得多。',
-            bopomofo: 'ㄈㄨˋ ㄑㄧㄢˊ ㄒㄧㄥˊ, ㄍㄣ ㄩㄝˋ ㄗㄨ ㄒㄧㄥˊ ㄅㄧˇ ㄑㄧˇ ㄌㄞˊ ㄋㄧㄢˊ ㄗㄨ ㄒㄧㄥˊ ㄧㄡ ㄏㄨㄟˋ ㄉㄜ˙ ㄉㄨㄛ.',
-            pinyin: 'fu4 qian2 xing2, gen1 yue4 zu1 xing2 bi3 qi3 lai2 nian2 zu1 xing2 you1 hui4 de duo1.',
-            translation: '支払いは、 月払いよりも年払いの方がはるかにお得です。',
+            sentence: '說到付錢， 跟月租型比起來年租型優惠得多。',
+            bopomofo: 'ㄕㄨㄛ ㄉㄠˋ ㄈㄨˋ ㄑㄧㄢˊ, ㄍㄣ ㄩㄝˋ ㄗㄨ ㄒㄧㄥˊ ㄅㄧˇ ㄑㄧˇ ㄌㄞˊ ㄋㄧㄢˊ ㄗㄨ ㄒㄧㄥˊ ㄧㄡ ㄏㄨㄟˋ ㄉㄜ˙ ㄉㄨㄛ.',
+            pinyin: 'shuo1 dao4 fu4 qian2, gen1 yue4 zu1 xing2 bi3 qi3 lai2 nian2 zu1 xing2 you1 hui4 de duo1.',
+            translation: '支払いに関しては、 月払いよりも年払いの方がはるかにお得です。',
             memo: ''
           },
           {
@@ -356,15 +356,15 @@ export default {
             sentence: '我只不喜歡甜的食物， 並不是我不喜歡你做的。',
             bopomofo: 'ㄨㄛˇ ㄓˇ ㄅㄨˋ ㄒㄧˇ ㄏㄨㄢ ㄊㄧㄢˊ ㄉㄜ˙ ㄕˊ ㄨˋ, ㄅㄧㄥˋ ㄅㄨˊ ㄕˋ ㄨㄛˇ ㄅㄨˋ ㄒㄧˇ ㄏㄨㄢ ㄋㄧˇ ㄗㄨㄛˋ ㄉㄜ˙.',
             pinyin: 'wo3 zhi3 bu4 xi3 huan1 tian2 de shi2 wu4, bing4 bu2 shi4 wo3 bu4 xi3 huan1 ni3 zuo4 de.',
-            translation: '私はただ甘いものが嫌いなだけで、 けしてあなたの作ったものが好きではないという事ではありません。',
+            translation: '私はただ甘いものが嫌いなだけで、 けしてあなたの作ったものが嫌いという事ではありません。',
             memo: ''
           },
           {
             word: '包括',
-            sentence: '我希望冬天用的外套下次的銷售時能被包括。',
-            bopomofo: 'ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄉㄨㄥ ㄊㄧㄢ ㄩㄥˋ ㄉㄜ˙ ㄨㄞˋ ㄊㄠˋ ㄒㄧㄚˋ ㄘˋ ㄉㄜ˙ ㄒㄧㄠ ㄕㄡˋ ㄕˊ ㄋㄥˊ ㄅㄟˋ ㄅㄠ ㄎㄨㄛˋ.',
-            pinyin: 'wo3 xi1 wang4 dong1 tian1 yong4 de wai4 tao4 xia4 ci4 de xiao1 shou4 shi2 neng2 bei4 bao1 kuo4.',
-            translation: '次のセールの時には冬用の上着が割引されるといいなと思っています。',
+            sentence: '我希望下次的銷售包括冬天用的外套。',
+            bopomofo: 'ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄒㄧㄚˋ ㄘˋ ㄉㄜ˙ ㄒㄧㄠ ㄕㄡˋ ㄅㄠ ㄎㄨㄛˋ ㄉㄨㄥ ㄊㄧㄢ ㄩㄥˋ ㄉㄜ˙ ㄨㄞˋ ㄊㄠˋ.',
+            pinyin: 'wo3 xi1 wang4 xia4 ci4 de xiao1 shou4 bao1 kuo4 dong1 tian1 yong4 de wai4 tao4.',
+            translation: '次のセールには冬用の上着が含まれるといいなと思っています。',
             memo: ''
           },
           {
@@ -401,10 +401,10 @@ export default {
           },
           {
             word: '頓',
-            sentence: '他敲門了兩三頓， 但是沒有人出來他放棄了回家。',
-            bopomofo: 'ㄊㄚ ㄑㄧㄠ ㄇㄣˊ ㄌㄜ˙ ㄌㄧㄤˇ ㄙㄢ ㄉㄨㄣˋ, ㄉㄢˋ ㄕˋ ㄇㄟˊ ㄧㄡˇ ㄖㄣˊ ㄔㄨ ㄌㄞˊ ㄊㄚ ㄈㄤˋ ㄑㄧˋ ㄌㄜ˙ ㄏㄨㄟˊ ㄐㄧㄚ.',
-            pinyin: 'ta1 qiao1 men2 le liang3 san1 dun4, dan4 shi4 mei2 you3 ren2 chu1 lai2 ta1 fang4 qi4 le hui2 jia1.',
-            translation: '彼は2、3回ドアをノックしたのですが、 誰も出てこなかったので、 諦めて家に帰りました。',
+            sentence: '他敲門了兩三頓但是沒有人出來, 他放棄了回家。',
+            bopomofo: 'ㄊㄚ ㄑㄧㄠ ㄇㄣˊ ㄌㄜ˙ ㄌㄧㄤˇ ㄙㄢ ㄉㄨㄣˋ, ㄉㄢˋ ㄕˋ ㄇㄟˊ ㄧㄡˇ ㄖㄣˊ ㄔㄨ ㄌㄞˊ, ㄊㄚ ㄈㄤˋ ㄑㄧˋ ㄌㄜ˙ ㄏㄨㄟˊ ㄐㄧㄚ.',
+            pinyin: 'ta1 qiao1 men2 le liang3 san1 dun4 dan4 shi4 mei2 you3 ren2 chu1 lai2, ta1 fang4 qi4 le hui2 jia1.',
+            translation: '彼は2、3回ドアをノックしたのですが誰も出てこなかったので、 諦めて家に帰りました。',
             memo: ''
           },
           {
@@ -412,7 +412,7 @@ export default {
             sentence: '對專家問一下的話我們可能找到辦法。',
             bopomofo: 'ㄉㄨㄟˋ ㄓㄨㄢ ㄐㄧㄚ ㄨㄣˋ ㄧ ㄒㄧㄚˋ ㄉㄜ˙ ㄏㄨㄚˋ ㄨㄛˇ ㄇㄣ˙ ㄎㄜˇ ㄋㄥˊ ㄓㄠˇ ㄉㄠˋ ㄅㄢˋ ㄈㄚˇ.',
             pinyin: 'dui4 zhuan1 jia1 wen4 yi1 xia4 de hua4 wo3 men ke3 neng2 zhao3 dao4 ban4 fa3.',
-            translation: '専門家に尋ねれば、 方法が見つかるかもしれません。',
+            translation: '専門家に尋ねてみたら、 方法が見つかるかもしれません。',
             memo: ''
           },
           {
@@ -420,14 +420,14 @@ export default {
             sentence: '我並沒試偷你的蛋糕， 我的手自動拿到了。',
             bopomofo: 'ㄨㄛˇ ㄅㄧㄥˋ ㄇㄟˊ ㄕˋ ㄊㄡ ㄋㄧˇ ㄉㄜ˙ ㄉㄢˋ ㄍㄠ, ㄨㄛˇ ㄉㄜ˙ ㄕㄡˇ ㄗˋ ㄉㄨㄥˋ ㄋㄚˊ ㄉㄠˋ ㄌㄜ˙.',
             pinyin: 'wo3 bing4 mei2 shi4 tou1 ni3 de dan4 gao1, wo3 de shou3 zi4 dong4 na2 dao4 le.',
-            translation: '私はけしてあなたのケーキを盗もうとしたのではなく、 私の手が勝手に取ったのです。',
+            translation: '私はけしてあなたのケーキを盗もうとしたのではなく、 手が勝手に取ったのです。',
             memo: ''
           },
           {
             word: '關機',
-            sentence: '把電腦關機後別問我做別的工作。',
-            bopomofo: 'ㄅㄚˇ ㄉㄧㄢˋ ㄋㄠˇ ㄍㄨㄢ ㄐㄧ ㄏㄡˋ ㄅㄧㄝˊ ㄨㄣˋ ㄨㄛˇ ㄗㄨㄛˋ ㄅㄧㄝˊ ㄉㄜ˙ ㄍㄨㄥ ㄗㄨㄛˋ.',
-            pinyin: 'ba3 dian4 nao3 guan1 ji1 hou4 bie2 wen4 wo3 zuo4 bie2 de gong1 zuo4.',
+            sentence: '把電腦關機後別問我做工作。',
+            bopomofo: 'ㄅㄚˇ ㄉㄧㄢˋ ㄋㄠˇ ㄍㄨㄢ ㄐㄧ ㄏㄡˋ ㄅㄧㄝˊ ㄨㄣˋ ㄨㄛˇ ㄗㄨㄛˋ ㄍㄨㄥ ㄗㄨㄛˋ.',
+            pinyin: 'ba3 dian4 nao3 guan1 ji1 hou4 bie2 wen4 wo3 zuo4 gong1 zuo4.',
             translation: 'コンピューターの電源を切った後に仕事を頼むのはやめて下さい。',
             memo: ''
           },
@@ -441,10 +441,10 @@ export default {
           },
           {
             word: '缴費',
-            sentence: '每個現金提款時需要缴一百塊費， 所以我平常用刷卡。',
-            bopomofo: 'ㄇㄟˇ ㄍㄜˋ ㄒㄧㄢˋ ㄐㄧㄣ ㄊㄧˊ ㄎㄨㄢˇ ㄕˊ ㄒㄩ ㄧㄠˋ ㄐㄧㄠˇ ㄧ ㄅㄞˇ ㄎㄨㄞˋ ㄈㄟˋ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄆㄧㄥˊ ㄔㄤˊ ㄩㄥˋ ㄕㄨㄚ ㄎㄚˇ.',
-            pinyin: 'mei3 ge4 xian4 jin1 ti2 kuan3 shi2 xu1 yao4 jiao3 yi1 bai3 kuai4 fei4, suo3 yi3 wo3 ping2 chang2 yong4 shua1 ka3.',
-            translation: '現金を引き出す度に100元支払う必要があるので、 私は普段クレジットカードを使います。',
+            sentence: '提款現金的時候需要缴一百塊費， 所以我平常刷卡。',
+            bopomofo: 'ㄊㄧˊ ㄎㄨㄢˇ ㄒㄧㄢˋ ㄐㄧㄣ　ㄉㄜ˙　ㄕˊ ㄏㄡˋ ㄒㄩ ㄧㄠˋ ㄐㄧㄠˇ ㄧ ㄅㄞˇ ㄎㄨㄞˋ ㄈㄟˋ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄆㄧㄥˊ ㄔㄤˊ ㄕㄨㄚ ㄎㄚˇ.',
+            pinyin: 'ti2 kuan3 xian4 jin1 de shi2 hou4 xu1 yao4 jiao3 yi1 bai3 kuai4 fei4, suo3 yi3 wo3 ping2 chang2 shua1 ka3.',
+            translation: '現金を引き出す時は毎回100元支払わなくてはいけないので、 私は普段クレジットカードを使います。',
             memo: ''
           },
           {
@@ -465,10 +465,10 @@ export default {
           },
           {
             word: '吃到飽',
-            sentence: '去吃到飽後， 我們總是太飽了走不了路。',
-            bopomofo: 'ㄑㄩˋ ㄔ ㄉㄠˋ ㄅㄠˇ ㄏㄡˋ, ㄨㄛˇ ㄇㄣ˙ ㄗㄨㄥˇ ㄕˋ ㄊㄞˋ ㄅㄠˇ ㄌㄜ˙ ㄗㄡˇ ㄅㄨˋ ㄌㄧㄠˇ ㄌㄨˋ.',
-            pinyin: 'qu4 chi1 dao4 bao3 hou4, wo3 men zong3 shi4 tai4 bao3 le zou3 bu4 liao3 lu4.',
-            translation: '食べ放題をした後はいつも、 お腹がいっぱいになりすぎて歩けなくなります。',
+            sentence: '去吃到飽後， 我們總是太飽得走不了路。',
+            bopomofo: 'ㄑㄩˋ ㄔ ㄉㄠˋ ㄅㄠˇ ㄏㄡˋ, ㄨㄛˇ ㄇㄣ˙ ㄗㄨㄥˇ ㄕˋ ㄊㄞˋ ㄅㄠˇ ㄉㄜ˙ ㄗㄡˇ ㄅㄨˋ ㄌㄧㄠˇ ㄌㄨˋ.',
+            pinyin: 'qu4 chi1 dao4 bao3 hou4, wo3 men zong3 shi4 tai4 bao3 de zou3 bu4 liao3 lu4.',
+            translation: '食べ放題に行った後はいつも、 お腹がいっぱいで歩けなくなります。',
             memo: ''
           },
           {
