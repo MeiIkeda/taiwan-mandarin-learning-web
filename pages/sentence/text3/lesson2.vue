@@ -247,7 +247,7 @@ export default {
             word: '★退',
             sentence: '退貨相當需要勇氣。',
             bopomofo: 'ㄊㄨㄟˋ ㄏㄨㄛˋ ㄒㄧㄤ ㄉㄤ ㄒㄩ ㄧㄠˋ ㄩㄥˇ ㄑㄧˋ.',
-            pinyin: 'tui4 huo4 xiang1 dang1 xu1 yao4 yong3 xi4.',
+            pinyin: 'tui4 huo4 xiang1 dang1 xu1 yao4 yong3 qi4.',
             translation: '買ったものを返品するのは、 かなり勇気が要ります。',
             memo: '※「貨」は「買ったもの」？',
             changed: '☆'
@@ -288,7 +288,7 @@ export default {
           },
           {
             word: '試穿',
-            sentence: '為什麼試穿的時候看起來很好看， 在家穿的時候卻不是那樣？?',
+            sentence: '為什麼試穿的時候看起來很好看， 在家穿的時候卻不是那樣?',
             bopomofo: 'ㄨㄟˋ ㄕˊ ㄇㄜ˙ ㄕˋ ㄔㄨㄢ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄏㄣˇ ㄏㄠˇ ㄎㄢˋ, ㄗㄞˋ ㄐㄧㄚ ㄔㄨㄢ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄑㄩㄝˋ ㄅㄨˊ ㄕˋ ㄋㄚˋ ㄧㄤˋ?',
             pinyin: 'wei4 shen2 me shi4 chuan1 de shi2 hou4 kan4 qi3 lai2 hen3 hao3 kan4, zai4 jia1 chuan1 de shi2 hou4 que4 bu2 shi4 na4 yang4?',
             translation: '試着した時には格好よく見えた服が、 家で着るとそうでもないのはなぜですか?',
@@ -305,12 +305,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '弄丢',
+            word: '★弄丢',
             sentence: '我已經說了好幾次了， 還是常弄丟錢包， 我希望他適可而止。',
             bopomofo: 'ㄨㄛˇ ㄧˇ ㄐㄧㄥ ㄕㄨㄛ ㄌㄜ˙ ㄏㄠˇ ㄐㄧˇ ㄘˋ ㄌㄜ˙, ㄏㄞˊ ㄕˋ ㄔㄤˊ ㄋㄨㄥˋ ㄉㄧㄡ ㄑㄧㄢˊ ㄅㄠ, ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄊㄚ ㄕˋ ㄎㄜˇ ㄦˊ ㄓˇ.',
             pinyin: 'wo3 yi3 jing1 shuo1 le hao3 ji3 ci4 le, hai2 shi4 chang2 nong4 diu1 qian2 bao1, wo3 xi1 wang4 ta1 shi4 ke3 er2 zhi3.',
             translation: '私が何度言っても彼は頻繁に財布を失くすので、 もういい加減にして欲しいです。',
-            memo: '',
+            memo: '※「適可」:「いい加減に」?',
             changed: '☆'
           },
           {
@@ -325,7 +325,7 @@ export default {
             word: '★糾紛',
             sentence: '喜歡的食物先吃還是留到最後吃是沒完沒了的爭論。',
             bopomofo: 'ㄒㄧˇ ㄏㄨㄢ ㄉㄜ˙ ㄕˊ ㄨˋ ㄒㄧㄢ ㄔ ㄏㄞˊ ㄕˋ ㄌㄧㄡˊ ㄉㄠˋ ㄗㄨㄟˋ ㄏㄡˋ ㄔ ㄕˋ ㄇㄟˊ ㄨㄢˊ ㄇㄟˊ ㄌㄧㄠˇ ㄉㄜ˙ ㄓㄥ ㄌㄨㄣˋ.',
-            pinyin: 'xi3 huan1 de shi2 wu4 xian1 chi1 hai2 shi4 liu2 dao4 zui4 hou4 chi1 shi4 mei2 wan2 mei2 le de zheng1 lun4.',
+            pinyin: 'xi3 huan1 de shi2 wu4 xian1 chi1 hai2 shi4 liu2 dao4 zui4 hou4 chi1 shi4 mei2 wan2 mei2 liao3 de zheng1 lun4.',
             translation: '好きな食べ物を先に食べるか最後の一口に残すかは、 終わる事の無い論争です。',
             memo: '※「糾紛」は使えない?',
             changed: '☆'
@@ -444,12 +444,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '自動',
+            word: '★自動',
             sentence: '我並沒有要偷你的蛋糕， 只是隨手碰到了而已。',
             bopomofo: 'ㄨㄛˇ ㄅㄧㄥˋ ㄇㄟˊ ㄧㄡˇ ㄧㄠˋ ㄊㄡ ㄋㄧˇ ㄉㄜ˙ ㄉㄢˋ ㄍㄠ, ㄓˇ ㄕˋ ㄙㄨㄟˊ ㄕㄡˇ ㄆㄥˋ ㄉㄠˋ ㄌㄜ˙ ㄦˊ ㄧˇ.',
             pinyin: 'wo3 bing4 mei2 you3 yao4 tou1 ni3 de dan4 gao1, zhi3 shi4 sui2 shou3 peng4 dao4 le er2 yi3.',
             translation: '私はけしてあなたのケーキを盗もうとしたのではなく、 手が勝手に取ったのです。',
-            memo: '',
+            memo: '※「而已(ㄦˊ ㄧˇ/er2 yi3)」 : 「～にすぎない」。 「隨手碰到」 : 「手が勝手に」? 「自動」を使うには?',
             changed: '☆'
           },
           {
@@ -471,8 +471,8 @@ export default {
             changed: '☆'
           },
           {
-            word: '缴費',
-            sentence: '提款現金的時候需要缴一百塊費， 所以我平常刷卡。',
+            word: '繳費',
+            sentence: '提款現金的時候需要繳一百塊費， 所以我平常刷卡。',
             bopomofo: 'ㄊㄧˊ ㄎㄨㄢˇ ㄒㄧㄢˋ ㄐㄧㄣ　ㄉㄜ˙　ㄕˊ ㄏㄡˋ ㄒㄩ ㄧㄠˋ ㄐㄧㄠˇ ㄧ ㄅㄞˇ ㄎㄨㄞˋ ㄈㄟˋ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄆㄧㄥˊ ㄔㄤˊ ㄕㄨㄚ ㄎㄚˇ.',
             pinyin: 'ti2 kuan3 xian4 jin1 de shi2 hou4 xu1 yao4 jiao3 yi1 bai3 kuai4 fei4, suo3 yi3 wo3 ping2 chang2 shua1 ka3.',
             translation: '現金を引き出す時は毎回100元支払わなくてはいけないので、 私は普段クレジットカードを使います。',
@@ -487,12 +487,12 @@ export default {
             memo: ''
           },
           {
-            word: '換成',
+            word: '★換成',
             sentence: '我正在考慮換成電信公司發表的新資費方案。',
             bopomofo: 'ㄨㄛˇ ㄓㄥˋ ㄗㄞˋ ㄎㄠˇ ㄌㄩˋ ㄏㄨㄢˋ ㄔㄥˊ ㄉㄧㄢˋ ㄒㄧㄣˋ ㄍㄨㄥ ㄙ ㄈㄚ ㄅㄧㄠˇ ㄉㄜ˙ ㄒㄧㄣ ㄗ ㄈㄟˋ ㄈㄤ ㄢˋ.',
             pinyin: 'wo3 zheng4 zai4 kao3 lu4 huan4 cheng2 dian4 xin4 gong1 si1 fa1 biao3 de xin1 zi1 fei4 fang1 an4.',
             translation: '現在、 通信会社が発表した新しい料金パッケージへの切り替えを検討しています。',
-            memo: '',
+            memo: '※「資費方案」 : 「料金パッケージ」?',
             changed: '☆'
           },
           {
