@@ -202,12 +202,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '麻煩',
+            word: '★麻煩',
             sentence: '麻煩您配合做問卷調查?',
             bopomofo: 'ㄇㄚˊ ㄈㄢˊ ㄋㄧㄣˊ ㄆㄟˋ ㄏㄜˊ ㄗㄨㄛˋ ㄨㄣˋ ㄐㄩㄢˋ ㄉㄧㄠˋ ㄔㄚˊ?',
             pinyin: 'ma2 fan2 nin2 pei4 he2 zuo4 wen4 juan4 diao4 cha2?',
             translation: 'アンケートにご協力いただけないでしょうか?',
-            memo: ''
+            memo: '※「配合」:協力する、「問卷調查」:アンケート調査?'
           },
           {
             word: '簽名',
@@ -226,12 +226,12 @@ export default {
             memo: ''
           },
           {
-            word: '發票',
+            word: '★發票',
             sentence: '我覺得把發票當作抽獎是個非常好的主意。',
             bopomofo: 'ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄅㄚˇ ㄈㄚ ㄆㄧㄠˋ ㄉㄤˋ ㄗㄨㄛˋ ㄔㄡ ㄐㄧㄤˇ ㄕˋ ㄍㄜˋ ㄈㄟ ㄔㄤˊ ㄏㄠˇ ㄉㄜ˙ ㄓㄨˇ ㄧˋ.',
             pinyin: 'wo3 jue2 de ba3 fa1 piao4 dang4 zuo4 chou1 jiang3 shi4 ge4 fei1 chang2 hao3 de zhu3 yi4.',
             translation: 'レシートをくじとして使うのは、 すごく良いアイデアだと思います。',
-            memo: '',
+            memo: '※「當作(発音:ㄉㄤ?)」は「用作」では駄目?',
             changed: '☆'
           },
           {
@@ -403,7 +403,7 @@ export default {
             word: '顧客',
             sentence: '顧客的個資是機密， 不應洩漏。',
             bopomofo: 'ㄍㄨˋ ㄎㄜˋ ㄉㄜ˙ ㄍㄜˋ ㄗ ㄕˋ ㄐㄧ ㄇㄧˋ, ㄅㄨˋ ㄧㄥ ㄒㄧㄝˋ ㄌㄡˋ.',
-            pinyin: 'gu4 ke4 de ge4 zi1 shi4 ji1 mi4, bu4 ying1 yi4 lou4.',
+            pinyin: 'gu4 ke4 de ge4 zi1 shi4 ji1 mi4, bu4 ying1 xie4 lou4.',
             translation: '顧客の個人情報は機密情報なので、 漏らしてはいけません。',
             memo: '※「顧客的個人信息是機密的， 不應洩露(ㄍㄨˋ ㄎㄜˋ ㄉㄜ˙ ㄍㄜˋ ㄖㄣˊ ㄒㄧㄣˋ ㄒㄧ ㄕˋ ㄐㄧ ㄇㄧˋ ㄉㄜ˙, ㄅㄨˋ ㄧㄥ ㄒㄧㄝˋ ㄌㄨˋ/gu4 ke4 de ge4 ren2 xin4 xi1 shi4 ji1 mi4 de, bu4 ying1 yi4 lu4)」でも可。',
             changed: '☆'
@@ -492,7 +492,7 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄓㄥˋ ㄗㄞˋ ㄎㄠˇ ㄌㄩˋ ㄏㄨㄢˋ ㄔㄥˊ ㄉㄧㄢˋ ㄒㄧㄣˋ ㄍㄨㄥ ㄙ ㄈㄚ ㄅㄧㄠˇ ㄉㄜ˙ ㄒㄧㄣ ㄗ ㄈㄟˋ ㄈㄤ ㄢˋ.',
             pinyin: 'wo3 zheng4 zai4 kao3 lu4 huan4 cheng2 dian4 xin4 gong1 si1 fa1 biao3 de xin1 zi1 fei4 fang1 an4.',
             translation: '現在、 通信会社が発表した新しい料金パッケージへの切り替えを検討しています。',
-            memo: '※「資費方案」 : 「料金パッケージ」?',
+            memo: '※「資費方案」 : 「料金プラン」?',
             changed: '☆'
           },
           {
@@ -514,7 +514,7 @@ export default {
             changed: '☆'
           },
           {
-            word: '客服中心',
+            word: '★客服中心',
             sentence: '給客服中心打電話很難通， 聊天比較快。',
             bopomofo: 'ㄍㄟˇ ㄎㄜˋ ㄈㄨˊ ㄓㄨㄥ ㄒㄧㄣ ㄉㄚˇ ㄉㄧㄢˋ ㄏㄨㄚˋ ㄏㄣˇ ㄋㄢˊ ㄊㄨㄥ, ㄌㄧㄠˊ ㄊㄧㄢ ㄅㄧˇ ㄐㄧㄠˋ ㄎㄨㄞˋ.',
             pinyin: 'gei3 ke4 fu2 zhong1 xin1 da3 dian4 hua4 hen3 nan2 tong1, liao2 tian1 bi3 jiao4 kuai4.',
