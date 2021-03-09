@@ -41,9 +41,9 @@ export default {
         words: [
           {
             word: '起',
-            sentence: '今天賣的牛排價格是兩百元起。',
-            bopomofo: 'ㄐㄧㄣ ㄊㄧㄢ ㄇㄞˋ ㄉㄜ˙ ㄋㄧㄡˊ ㄆㄞˊ ㄐㄧㄚˋ ㄍㄜˊ ㄕˋ ㄌㄧㄤˇ ㄅㄞˇ ㄩㄢˊ ㄑㄧˇ.',
-            pinyin: 'jin1 tian1 mai4 de niu2 pai2 jia4 ge2 shi4 liang3 bai3 yuan2 qi3.',
+            sentence: '今天賣的牛排價格是兩百元起(跳)。',
+            bopomofo: 'ㄐㄧㄣ ㄊㄧㄢ ㄇㄞˋ ㄉㄜ˙ ㄋㄧㄡˊ ㄆㄞˊ ㄐㄧㄚˋ ㄍㄜˊ ㄕˋ ㄌㄧㄤˇ ㄅㄞˇ ㄩㄢˊ ㄑㄧˇ(ㄊㄧㄠˋ).',
+            pinyin: 'jin1 tian1 mai4 de niu2 pai2 jia4 ge2 shi4 liang3 bai3 yuan2 qi3 (tiao4).',
             translation: '今日のステーキの価格は200元からです。',
             memo: ''
           },
@@ -70,7 +70,7 @@ export default {
             bopomofo: 'ㄋㄚˋ ㄐㄧㄚ ㄉㄧㄢˋ ㄉㄜ˙ ㄒㄧㄣ ㄕㄤ ㄆㄧㄣˇ ㄗㄞˋ ㄇㄟˇ ㄒㄧㄥ ㄑㄧ ㄌㄧㄡˋ ㄈㄚ ㄕㄡˋ.',
             pinyin: 'na4 jia1 dian4 de xin1 shang1 pin3 zai4 mei3 xing1 qi1 liu4 fa1 shou4.',
             translation: 'その店では、 毎週土曜に新商品が発売されます。',
-            memo: ''
+            memo: '※「発売」 : 「發售(ㄈㄚ ㄕㄡˋ/fa1 shou4)」 または「發行(ㄈㄚ ㄒㄧㄥˊ/fa1 xing2)」。'
           },
           {
             word: '折扣',
@@ -93,8 +93,8 @@ export default {
           {
             word: '牌子',
             sentence: '我對牌子沒有講究, 所以購物時我到各家商店逛逛。',
-            bopomofo: 'ㄨㄛˇ ㄉㄨㄟˋ ㄆㄞˊ ㄗ˙ ㄇㄟˊ ㄧㄡˇ ㄐㄧㄤˇ ㄐㄧㄡ, ㄙㄨㄛˇ ㄧˇ ㄍㄡˋ ㄨˋ ㄕˊ ㄨㄛˇ ㄉㄠˋ ㄍㄜˋ ㄐㄧㄚ ㄕㄤ ㄉㄧㄢˋ ㄍㄨㄤˋ ㄍㄨㄤˋ.',
-            pinyin: 'wo3 dui4 pai2 zi mei2 you3 jiang3 jiu1, suo3 yi3 gou4 wu4 shi2 wo3 dao4 ge4 jia1 shang1 dian4 guang4 guang4.',
+            bopomofo: 'ㄨㄛˇ ㄉㄨㄟˋ ㄆㄞˊ ㄗ˙ ㄇㄟˊ ㄧㄡˇ ㄐㄧㄤˇ ㄐㄧㄡˋ, ㄙㄨㄛˇ ㄧˇ ㄍㄡˋ ㄨˋ ㄕˊ ㄨㄛˇ ㄉㄠˋ ㄍㄜˋ ㄐㄧㄚ ㄕㄤ ㄉㄧㄢˋ ㄍㄨㄤˋ ㄍㄨㄤˋ.',
+            pinyin: 'wo3 dui4 pai2 zi mei2 you3 jiang3 jiu4, suo3 yi3 gou4 wu4 shi2 wo3 dao4 ge4 jia1 shang1 dian4 guang4 guang4.',
             translation: 'ブランドにこだわりは無いので、 色々な店に立ち寄ります。',
             memo: ''
           },
@@ -131,7 +131,7 @@ export default {
             bopomofo: 'ㄏㄣˇ ㄌㄟˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄓˇ ㄧㄠˋ ㄇㄛ ㄇㄛ ㄇㄠ, ㄐㄧㄡˋ ㄏㄨㄟˋ ㄐㄩㄝˊ ㄉㄜ˙ ㄏㄣˇ ㄌㄧㄠˊ ㄩˋ.',
             pinyin: 'hen3 lei4 de shi2 hou4 zhi3 yao4 mo1 mo1 mao1, jiu4 hui4 jue2 de hen3 liao2 yu4.',
             translation: '疲れた時は、 猫を撫でるだけで癒されますよ。',
-            memo: '※「很累的時候只要摸貓, 你就會放鬆了(ㄏㄣˇ ㄌㄟˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄓˇ ㄧㄠˋ ㄇㄛ ㄇㄠ, ㄋㄧˇ ㄐㄧㄡˋ ㄏㄨㄟˋ ㄈㄤˋ ㄙㄨㄥ ㄌㄜ˙/hen3 lei4 de shi2 hou4 zhi3 yao4 mo1 mao1, ni3 jiu4 hui4 fang4 song4 le)」でも可。',
+            memo: '※「療癒系(ㄌㄧㄠˊ ㄩˋ ㄒㄧˋ/liao2 yu4 xi4)」 : 「癒し系」。 「很累的時候只要摸貓, 你就會放鬆了(ㄏㄣˇ ㄌㄟˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄓˇ ㄧㄠˋ ㄇㄛ ㄇㄠ, ㄋㄧˇ ㄐㄧㄡˋ ㄏㄨㄟˋ ㄈㄤˋ ㄙㄨㄥ ㄌㄜ˙/hen3 lei4 de shi2 hou4 zhi3 yao4 mo1 mao1, ni3 jiu4 hui4 fang4 song4 le)」でも可。',
             changed: '☆'
           },
           {
@@ -144,11 +144,12 @@ export default {
           },
           {
             word: '短',
-            sentence: '我在找沒有徽標的短袖襯衫, 你有沒有黑色的?',
-            bopomofo: 'ㄨㄛˇ ㄗㄞˋ ㄓㄠˇ ㄇㄟˊ ㄧㄡˇ ㄏㄨㄟ ㄅㄧㄠ ㄉㄧˋ ㄉㄨㄢˇ ㄒㄧㄡˋ ㄔㄣˋ ㄕㄢ, ㄋㄧˇ ㄧㄡˇ ㄇㄟˊ ㄧㄡˇ ㄏㄟ ㄙㄜˋ ㄉㄜ˙?',
-            pinyin: 'wo3 zai4 zhao3 mei2 you3 hui1 biao1 de duan3 xiu4 chen4 shan1, ni3 you3 mei2 you3 hei1 se4 de?',
+            sentence: '我在找沒有標籤的短袖襯衫, 你有沒有黑色的?',
+            bopomofo: 'ㄨㄛˇ ㄗㄞˋ ㄓㄠˇ ㄇㄟˊ ㄧㄡˇ ㄅㄧㄠ ㄑㄧㄢ ㄉㄜ˙ ㄉㄨㄢˇ ㄒㄧㄡˋ ㄔㄣˋ ㄕㄢ, ㄋㄧˇ ㄧㄡˇ ㄇㄟˊ ㄧㄡˇ ㄏㄟ ㄙㄜˋ ㄉㄜ˙?',
+            pinyin: 'wo3 zai4 zhao3 mei2 you3 biao1 qian1 de duan3 xiu4 chen4 shan1, ni3 you3 mei2 you3 hei1 se4 de?',
             translation: 'ロゴのない半袖シャツを探しているのですが、 黒いものはありますか?',
-            memo: ''
+            memo: '※「標籤(ㄅㄧㄠ ㄑㄧㄢ/biao1 qian1)」 : 「ロゴ」、 「品牌標籤(ㄆㄧㄣˇ ㄆㄞˊ ㄅㄧㄠ ㄑㄧㄢ/pin3 pai2 biao1 qian1)」 : 「ブランドのラベル」。',
+            changed: '☆'
           },
           {
             word: '羊毛',
@@ -202,12 +203,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '★麻煩',
+            word: '麻煩',
             sentence: '麻煩您配合做問卷調查?',
             bopomofo: 'ㄇㄚˊ ㄈㄢˊ ㄋㄧㄣˊ ㄆㄟˋ ㄏㄜˊ ㄗㄨㄛˋ ㄨㄣˋ ㄐㄩㄢˋ ㄉㄧㄠˋ ㄔㄚˊ?',
             pinyin: 'ma2 fan2 nin2 pei4 he2 zuo4 wen4 juan4 diao4 cha2?',
             translation: 'アンケートにご協力いただけないでしょうか?',
-            memo: '※「配合」:協力する、「問卷調查」:アンケート調査?'
+            memo: '※「配合(ㄆㄟˋ ㄏㄜˊ/pei4 he2)」 : 「協力する」、 「問卷調查(ㄨㄣˋ ㄐㄩㄢˋ ㄉㄧㄠˋ ㄔㄚˊ/wen4 juan4 diao4 cha2)」 「意見調查(ㄧˋ ㄐㄧㄢˋ ㄉㄧㄠˋ ㄔㄚˊ/yi4 jian4 diao4 cha2)」 : 「アンケート」。'
           },
           {
             word: '簽名',
@@ -219,19 +220,20 @@ export default {
           },
           {
             word: '破洞',
-            sentence: '為什麼起司破很多洞?',
-            bopomofo: 'ㄨㄟˋ ㄕˊ ㄇㄜ˙ ㄑㄧˇ ㄙ ㄆㄛˋ ㄏㄣˇ ㄉㄨㄛ ㄉㄨㄥˋ?',
-            pinyin: 'wei4 shen2 me qi3 si1 po4 hen3 duo1 dong4?',
-            translation: 'どうしてチーズにはたくさん穴が開いているのですか?',
-            memo: ''
+            sentence: '紗窗破了洞以後， 蚊子會進來。',
+            bopomofo: 'ㄕㄚ ㄔㄨㄤ ㄆㄛˋ ㄌㄜ˙ ㄉㄨㄥˋ ㄧˇ ㄏㄡˋ, ㄨㄣˊ ㄗ˙ ㄏㄨㄟˋ ㄐㄧㄣˋ ㄌㄞˊ.',
+            pinyin: 'sha1 chuang1 po4 le dong4 yi3 hou4, wen2 zi hui4 jin4 lai2.',
+            translation: '網戸に穴が開くと、 蚊が入ってきます。',
+            memo: '',
+            changed: '☆'
           },
           {
-            word: '★發票',
+            word: '發票',
             sentence: '我覺得把發票當作抽獎是個非常好的主意。',
-            bopomofo: 'ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄅㄚˇ ㄈㄚ ㄆㄧㄠˋ ㄉㄤˋ ㄗㄨㄛˋ ㄔㄡ ㄐㄧㄤˇ ㄕˋ ㄍㄜˋ ㄈㄟ ㄔㄤˊ ㄏㄠˇ ㄉㄜ˙ ㄓㄨˇ ㄧˋ.',
-            pinyin: 'wo3 jue2 de ba3 fa1 piao4 dang4 zuo4 chou1 jiang3 shi4 ge4 fei1 chang2 hao3 de zhu3 yi4.',
-            translation: 'レシートをくじとして使うのは、 すごく良いアイデアだと思います。',
-            memo: '※「當作(発音:ㄉㄤ?)」は「用作」では駄目?',
+            bopomofo: 'ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄅㄚˇ ㄈㄚ ㄆㄧㄠˋ ㄉㄤ ㄗㄨㄛˋ ㄔㄡ ㄐㄧㄤˇ ㄕˋ ㄍㄜˋ ㄈㄟ ㄔㄤˊ ㄏㄠˇ ㄉㄜ˙ ㄓㄨˇ ㄧˋ.',
+            pinyin: 'wo3 jue2 de ba3 fa1 piao4 dang1 zuo4 chou1 jiang3 shi4 ge4 fei1 chang2 hao3 de zhu3 yi4.',
+            translation: 'レシートをくじにするのは、 すごく良いアイデアだと思います。',
+            memo: '',
             changed: '☆'
           },
           {
@@ -244,17 +246,17 @@ export default {
             changed: '☆'
           },
           {
-            word: '★退',
+            word: '退',
             sentence: '退貨相當需要勇氣。',
             bopomofo: 'ㄊㄨㄟˋ ㄏㄨㄛˋ ㄒㄧㄤ ㄉㄤ ㄒㄩ ㄧㄠˋ ㄩㄥˇ ㄑㄧˋ.',
             pinyin: 'tui4 huo4 xiang1 dang1 xu1 yao4 yong3 qi4.',
             translation: '買ったものを返品するのは、 かなり勇気が要ります。',
-            memo: '※「貨」は「買ったもの」？',
+            memo: '',
             changed: '☆'
           },
           {
             word: '換',
-            sentence: '讀完書以後，我跟朋友互換書本。',
+            sentence: '讀完書以後， 我跟朋友互換書本。',
             bopomofo: 'ㄉㄨˊ ㄨㄢˊ ㄕㄨ ㄧˇ ㄏㄡˋ, ㄨㄛˇ ㄍㄣ ㄆㄥˊ ㄧㄡˇ ㄏㄨˋ ㄏㄨㄢˋ ㄕㄨ ㄅㄣˇ.',
             pinyin: 'du2 wan2 shu1 yi3 hou4, wo3 gen1 peng2 you3 hu4 huan4 shu1 ben3.',
             translation: '本を読んだ後、 私は友達とお互いの本を交換します。',
@@ -296,21 +298,21 @@ export default {
             changed: '☆'
           },
           {
-            word: '★打完折',
+            word: '打完折',
             sentence: ' 六瓶啤酒打完折後是一百塊錢， 怎麼樣都得拿。',
             bopomofo: ' ㄌㄧㄡˋ ㄆㄧㄥˊ ㄆㄧˊ ㄐㄧㄡˇ ㄉㄚˇ ㄨㄢˊ ㄓㄜˊ ㄏㄡˋ ㄕˋ ㄧ ㄅㄞˇ ㄎㄨㄞˋ ㄑㄧㄢˊ, ㄗㄣˇ ㄇㄜ˙ ㄧㄤˋ ㄉㄡ ㄉㄟˇ ㄋㄚˊ.',
             pinyin: 'liu4 ping2 pi2 jiu3 da3 wan2 zhe2 hou4 shi4 yi1 bai3 kuai4 qian2, zen3 me yang4 dou1 dei3 na2.',
-            translation: '6本入りのビールが割引後100元です、 何が何でも手に入れないといけません。',
-            memo: '「怎麼樣都得」=「何がなんでも」?',
+            translation: '6本入りのビールが割引後100元です、 何がなんでも手に入れないといけません。',
+            memo: '「怎麼樣都得(ㄗㄣˇ ㄇㄜ˙ ㄧㄤˋ ㄉㄡ ㄉㄟˇ/zen3 me yang4 dou1 dei3)」/「怎樣都得(ㄗㄣˇ ㄧㄤˋ ㄉㄡ ㄉㄟˇ/zen3 yang4 dou1 dei3)」 : 「何がなんでも」。',
             changed: '☆'
           },
           {
-            word: '★弄丢',
+            word: '弄丢',
             sentence: '我已經說了好幾次了， 還是常弄丟錢包， 我希望他適可而止。',
             bopomofo: 'ㄨㄛˇ ㄧˇ ㄐㄧㄥ ㄕㄨㄛ ㄌㄜ˙ ㄏㄠˇ ㄐㄧˇ ㄘˋ ㄌㄜ˙, ㄏㄞˊ ㄕˋ ㄔㄤˊ ㄋㄨㄥˋ ㄉㄧㄡ ㄑㄧㄢˊ ㄅㄠ, ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄊㄚ ㄕˋ ㄎㄜˇ ㄦˊ ㄓˇ.',
             pinyin: 'wo3 yi3 jing1 shuo1 le hao3 ji3 ci4 le, hai2 shi4 chang2 nong4 diu1 qian2 bao1, wo3 xi1 wang4 ta1 shi4 ke3 er2 zhi3.',
             translation: '私が何度言っても彼は頻繁に財布を失くすので、 もういい加減にして欲しいです。',
-            memo: '※「適可」:「いい加減に」?',
+            memo: '※「適可(ㄕˋ ㄎㄜˇ/shi4 ke3)」 : 「いい加減に」。',
             changed: '☆'
           },
           {
@@ -322,12 +324,12 @@ export default {
             memo: ''
           },
           {
-            word: '★糾紛',
-            sentence: '喜歡的食物先吃還是留到最後吃是沒完沒了的爭論。',
-            bopomofo: 'ㄒㄧˇ ㄏㄨㄢ ㄉㄜ˙ ㄕˊ ㄨˋ ㄒㄧㄢ ㄔ ㄏㄞˊ ㄕˋ ㄌㄧㄡˊ ㄉㄠˋ ㄗㄨㄟˋ ㄏㄡˋ ㄔ ㄕˋ ㄇㄟˊ ㄨㄢˊ ㄇㄟˊ ㄌㄧㄠˇ ㄉㄜ˙ ㄓㄥ ㄌㄨㄣˋ.',
-            pinyin: 'xi3 huan1 de shi2 wu4 xian1 chi1 hai2 shi4 liu2 dao4 zui4 hou4 chi1 shi4 mei2 wan2 mei2 liao3 de zheng1 lun4.',
-            translation: '好きな食べ物を先に食べるか最後の一口に残すかは、 終わる事の無い論争です。',
-            memo: '※「糾紛」は使えない?',
+            word: '糾紛',
+            sentence: '不要談別人家的糾紛。',
+            bopomofo: 'ㄅㄨˊ ㄧㄠˋ ㄊㄢˊ ㄅㄧㄝˊ ㄖㄣˊ ㄐㄧㄚ ㄉㄜ˙ ㄐㄧㄡ ㄈㄣ.',
+            pinyin: 'bu2 yao4 tan2 bie2 ren2 jia1 de jiu1 fen1.',
+            translation: '人の家のいざこざについて話す必要はありません。',
+            memo: '',
             changed: '☆'
           },
           {
@@ -427,10 +429,10 @@ export default {
           },
           {
             word: '頓',
-            sentence: '他敲門敲了兩三下但是沒有人出來， 所以放棄回家去了。',
-            bopomofo: 'ㄊㄚ ㄑㄧㄠ ㄇㄣˊ ㄑㄧㄠ ㄌㄜ˙ ㄌㄧㄤˇ ㄙㄢ ㄒㄧㄚˋ ㄉㄢˋ ㄕˋ ㄇㄟˊ ㄧㄡˇ ㄖㄣˊ ㄔㄨ ㄌㄞˊ, ㄙㄨㄛˇ ㄧˇ ㄈㄤˋ ㄑㄧˋ ㄏㄨㄟˊ ㄐㄧㄚ ㄑㄩˋ ㄌㄜ˙.',
-            pinyin: 'ta1 qiao1 men2 qiao1 le liang3 san1 xia4 dan4 shi4 mei2 you3 ren2 chu1 lai2, suo3 yi3 fang4 qi4 hui2 jia1 qu4 le.',
-            translation: '彼は2、3回ドアをノックしたのですが誰も出てこなかったので、 諦めて家に帰りました。',
+            sentence: '爸爸很晚回家了, 被媽媽罵了一頓。',
+            bopomofo: 'ㄅㄚˋ ㄅㄚ˙ ㄏㄣˇ ㄨㄢˇ ㄏㄨㄟˊ ㄐㄧㄚ ㄌㄜ˙, ㄅㄟˋ ㄇㄚ ㄇㄚ ㄇㄚˋ ㄌㄜ˙ ㄧ ㄉㄨㄣˋ.',
+            pinyin: 'ba4 ba hen3 wan3 hui2 jia1 le, bei4 ma1 ma1 ma4 le yi1 dun4.',
+            translation: 'お父さんは帰ってくるのが遅かったので、 お母さんに怒られました。',
             memo: '',
             changed: '☆'
           },
@@ -444,12 +446,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '★自動',
-            sentence: '我並沒有要偷你的蛋糕， 只是隨手碰到了而已。',
-            bopomofo: 'ㄨㄛˇ ㄅㄧㄥˋ ㄇㄟˊ ㄧㄡˇ ㄧㄠˋ ㄊㄡ ㄋㄧˇ ㄉㄜ˙ ㄉㄢˋ ㄍㄠ, ㄓˇ ㄕˋ ㄙㄨㄟˊ ㄕㄡˇ ㄆㄥˋ ㄉㄠˋ ㄌㄜ˙ ㄦˊ ㄧˇ.',
-            pinyin: 'wo3 bing4 mei2 you3 yao4 tou1 ni3 de dan4 gao1, zhi3 shi4 sui2 shou3 peng4 dao4 le er2 yi3.',
-            translation: '私はけしてあなたのケーキを盗もうとしたのではなく、 手が勝手に取ったのです。',
-            memo: '※「而已(ㄦˊ ㄧˇ/er2 yi3)」 : 「～にすぎない」。 「隨手碰到」 : 「手が勝手に」? 「自動」を使うには?',
+            word: '自動',
+            sentence: '房子裡的娃娃晚上自動動起來。',
+            bopomofo: 'ㄈㄤˊ ㄗ˙ ㄌㄧˇ ㄉㄜ˙ ㄨㄚˊ ㄨㄚ˙ ㄨㄢˇ ㄕㄤˋ ㄗˋ ㄉㄨㄥˋ ㄉㄨㄥˋ ㄑㄧˇ ㄌㄞˊ.',
+            pinyin: 'fang2 zi li3 de wa2 wa wan3 shang4 zi4 dong4 dong4 qi3 lai2.',
+            translation: '部屋の人形は、 夜ひとりでに動きます。',
+            memo: '※「自動(ㄗˋ ㄉㄨㄥˋ/zi4 dong4)」の反対語は「手動(ㄕㄡˇ ㄉㄨㄥˋ/shou3 dong4)」「被動(ㄅㄟˋ ㄉㄨㄥˋ/bei4 dong4)」。',
             changed: '☆'
           },
           {
@@ -463,20 +465,21 @@ export default {
           },
           {
             word: '修理',
-            sentence: '你的機車已經修了好幾次了， 我覺得你快要買新的了。',
-            bopomofo: 'ㄋㄧˇ ㄉㄜ˙ ㄐㄧ ㄔㄜ ㄧˇ ㄐㄧㄥ ㄒㄧㄡ ㄌㄜ˙ ㄏㄠˇ ㄐㄧˇ ㄘˋ ㄌㄜ˙, ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄋㄧˇ ㄎㄨㄞˋ ㄧㄠˋ ㄇㄞˇ ㄒㄧㄣ ㄉㄜ˙ ㄌㄜ˙.',
-            pinyin: 'ni3 de ji1 che1 yi3 jing1 xiu1 le hao3 ji3 ci4 le, wo3 jue2 de ni3 kuai4 yao4 mai3 xin1 de le.',
+            sentence: '你的機車已經修理了好幾次了， 我覺得你快要買新的了。',
+            bopomofo: 'ㄋㄧˇ ㄉㄜ˙ ㄐㄧ ㄔㄜ ㄧˇ ㄐㄧㄥ ㄒㄧㄡ ㄌㄧˇ ㄌㄜ˙ ㄏㄠˇ ㄐㄧˇ ㄘˋ ㄌㄜ˙, ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄋㄧˇ ㄎㄨㄞˋ ㄧㄠˋ ㄇㄞˇ ㄒㄧㄣ ㄉㄜ˙ ㄌㄜ˙.',
+            pinyin: 'ni3 de ji1 che1 yi3 jing1 xiu1 li3 le hao3 ji3 ci4 le, wo3 jue2 de ni3 kuai4 yao4 mai3 xin1 de le.',
             translation: 'あなたのモーターバイクは既に何度か修理しているので、 そろそろ新しいものを買うべきだと思います。',
             memo: '',
             changed: '☆'
           },
           {
             word: '繳費',
-            sentence: '提款現金的時候需要繳一百塊費， 所以我平常刷卡。',
-            bopomofo: 'ㄊㄧˊ ㄎㄨㄢˇ ㄒㄧㄢˋ ㄐㄧㄣ　ㄉㄜ˙　ㄕˊ ㄏㄡˋ ㄒㄩ ㄧㄠˋ ㄐㄧㄠˇ ㄧ ㄅㄞˇ ㄎㄨㄞˋ ㄈㄟˋ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄆㄧㄥˊ ㄔㄤˊ ㄕㄨㄚ ㄎㄚˇ.',
-            pinyin: 'ti2 kuan3 xian4 jin1 de shi2 hou4 xu1 yao4 jiao3 yi1 bai3 kuai4 fei4, suo3 yi3 wo3 ping2 chang2 shua1 ka3.',
-            translation: '現金を引き出す時は毎回100元支払わなくてはいけないので、 私は普段クレジットカードを使います。',
-            memo: ''
+            sentence: '提款現金的時候需要繳費， 所以我平常刷卡。',
+            bopomofo: 'ㄊㄧˊ ㄎㄨㄢˇ ㄒㄧㄢˋ ㄐㄧㄣ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄒㄩ ㄧㄠˋ ㄐㄧㄠˇ ㄈㄟˋ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄆㄧㄥˊ ㄔㄤˊ ㄕㄨㄚ ㄎㄚˇ.',
+            pinyin: 'ti2 kuan3 xian4 jin1 de shi2 hou4 xu1 yao4 jiao3 fei4, suo3 yi3 wo3 ping2 chang2 shua1 ka3.',
+            translation: '現金を引き出す時は毎回費用がかかるので、 私は普段クレジットカードを使います。',
+            memo: '',
+            changed: '☆'
           },
           {
             word: '預付卡',
@@ -487,12 +490,12 @@ export default {
             memo: ''
           },
           {
-            word: '★換成',
+            word: '換成',
             sentence: '我正在考慮換成電信公司發表的新資費方案。',
             bopomofo: 'ㄨㄛˇ ㄓㄥˋ ㄗㄞˋ ㄎㄠˇ ㄌㄩˋ ㄏㄨㄢˋ ㄔㄥˊ ㄉㄧㄢˋ ㄒㄧㄣˋ ㄍㄨㄥ ㄙ ㄈㄚ ㄅㄧㄠˇ ㄉㄜ˙ ㄒㄧㄣ ㄗ ㄈㄟˋ ㄈㄤ ㄢˋ.',
             pinyin: 'wo3 zheng4 zai4 kao3 lu4 huan4 cheng2 dian4 xin4 gong1 si1 fa1 biao3 de xin1 zi1 fei4 fang1 an4.',
-            translation: '現在、 通信会社が発表した新しい料金パッケージへの切り替えを検討しています。',
-            memo: '※「資費方案」 : 「料金プラン」?',
+            translation: '現在、 通信会社が発表した新しい料金プランへの切り替えを検討しています。',
+            memo: '※「資費方案(ㄗ ㄈㄟˋ ㄈㄤ ㄢˋ/zi1 fei4 fang1 an4)」 : 「料金プラン」。',
             changed: '☆'
           },
           {
@@ -505,21 +508,22 @@ export default {
             changed: '☆'
           },
           {
-            word: '★嚇一跳',
-            sentence: '貓嚇到的時候， 眼睛變得很圓。',
-            bopomofo: 'ㄇㄠ ㄒㄧㄚˋ ㄉㄠˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄧㄢˇ ㄐㄧㄥ ㄅㄧㄢˋ ㄉㄜ˙ ㄏㄣˇ ㄩㄢˊ.',
-            pinyin: 'mao1 xia4 dao4 de shi2 hou4, yan3 jing1 bian4 de hen3 yuan2.',
+            word: '嚇一跳',
+            sentence: '貓嚇一跳的時候， 眼睛變得很圓。',
+            bopomofo: 'ㄇㄠ ㄒㄧㄚˋ ㄧ ㄊㄧㄠˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄧㄢˇ ㄐㄧㄥ ㄅㄧㄢˋ ㄉㄜ˙ ㄏㄣˇ ㄩㄢˊ.',
+            pinyin: 'mao1 xia4 yi1 tiao4 de shi2 hou4, yan3 jing1 bian4 de hen3 yuan2.',
             translation: '猫が驚いた時は、 目がまん丸になります。',
-            memo: '嚇一跳？',
+            memo: '',
             changed: '☆'
           },
           {
-            word: '★客服中心',
-            sentence: '給客服中心打電話很難通， 聊天比較快。',
-            bopomofo: 'ㄍㄟˇ ㄎㄜˋ ㄈㄨˊ ㄓㄨㄥ ㄒㄧㄣ ㄉㄚˇ ㄉㄧㄢˋ ㄏㄨㄚˋ ㄏㄣˇ ㄋㄢˊ ㄊㄨㄥ, ㄌㄧㄠˊ ㄊㄧㄢ ㄅㄧˇ ㄐㄧㄠˋ ㄎㄨㄞˋ.',
-            pinyin: 'gei3 ke4 fu2 zhong1 xin1 da3 dian4 hua4 hen3 nan2 tong1, liao2 tian1 bi3 jiao4 kuai4.',
+            word: '客服中心',
+            sentence: '給客服中心打電話很難通， 跟客服聯繫比較快。',
+            bopomofo: 'ㄍㄟˇ ㄎㄜˋ ㄈㄨˊ ㄓㄨㄥ ㄒㄧㄣ ㄉㄚˇ ㄉㄧㄢˋ ㄏㄨㄚˋ ㄏㄣˇ ㄋㄢˊ ㄊㄨㄥ, ㄍㄣ ㄎㄜˋ ㄈㄨˊ ㄌㄧㄢˊ ㄒㄧˋ ㄅㄧˇ ㄐㄧㄠˋ ㄎㄨㄞˋ.',
+            pinyin: 'gei3 ke4 fu2 zhong1 xin1 da3 dian4 hua4 hen3 nan2 tong1, gen1 ke4 fu2 lian2 xi4 bi3 jiao4 kuai4.',
             translation: 'カスタマーサービスセンターに電話をしても中々繋がらないので、 チャットの方が早いですよ。',
-            memo: '※（意思不懂）'
+            memo: '※「聯繫(ㄌㄧㄢˊ ㄒㄧˋ/lian2 xi4)」 : 「Email、 メッセージなど」。',
+            changed: '☆'
           }
         ]
       }
