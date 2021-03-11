@@ -52,7 +52,7 @@ export default {
             sentence: '網路購物雖然方便， 但買外套以前我想親自檢查。',
             bopomofo: 'ㄨㄤˇ ㄌㄨˋ ㄍㄡˋ ㄨˋ ㄙㄨㄟ ㄖㄢˊ ㄈㄤ ㄅㄧㄢˋ   ㄉㄢˋ ㄇㄞˇ ㄨㄞˋ ㄊㄠˋ ㄧˇ ㄑㄧㄢˊ ㄨㄛˇ ㄒㄧㄤˇ ㄑㄧㄣ ㄗˋ ㄐㄧㄢˇ ㄔㄚˊ.',
             pinyin: 'wang3 lu4 gou4 wu4 sui1 ran2 fang1 bian4, dan4 mai3 wai4 tao4 yi3 qian2 wo3 xiang3 qin1 zi4 jian3 cha2.',
-            translation: 'オンラインショッピングはとても便利ですが、 上着は買う前に自分の目で見て確認したいです。',
+            translation: 'オンラインショッピングはとても便利ですが、 コートは買う前に自分の目で見て確認したいです。',
             memo: '',
             changed: '☆'
           },
