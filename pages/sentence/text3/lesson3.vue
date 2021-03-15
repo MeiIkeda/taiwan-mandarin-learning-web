@@ -143,18 +143,18 @@ export default {
             changed: '☆'
           },
           {
-            word: '難怪',
+            word: '★難怪',
             sentence: '因為那個大胃王把五公斤的歐姆蛋包飯吃光了, 難怪他嚇傻了。',
             bopomofo: 'ㄧㄣ ㄨㄟˋ ㄋㄚˋ ㄍㄜˋ ㄉㄚˋ ㄨㄟˋ ㄨㄤˊ ㄅㄚˇ ㄨˇ ㄍㄨㄥ ㄐㄧㄣ ㄉㄜ˙ ㄡ ㄇㄨˇ ㄉㄢˋ ㄅㄠ ㄈㄢˋ ㄔ ㄍㄨㄤ ㄌㄜ˙, ㄋㄢˊ ㄍㄨㄞˋ ㄊㄚ ㄒㄧㄚˋ ㄕㄚˇ ㄌㄜ˙.',
             pinyin: 'yin1 wei4 na4 ge4 da4 wei4 wang2 ba3 wu3 gong1 jin1 de ou1 mu3 dan4 bao1 fan4 chi1 guang1 le, nan2 guai4 ta1 xia4 sha3 le.',
             translation: 'その大食いの人は5キロのオムライスを平らげたので、 彼が驚いてポカンとしたのも不思議ではありません。',
-            memo: ''
+            memo: '※「嚇傻了(ㄒㄧㄚˋ ㄕㄚˇ ㄌㄜ˙)」の発音?'
           },
           {
             word: '季節',
             sentence: '季節變化的時候, 我皮膚總是有一點粗糙。',
             bopomofo: 'ㄐㄧˋ ㄐㄧㄝˊ ㄅㄧㄢˋ ㄏㄨㄚˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄨㄛˇ ㄆㄧˊ ㄈㄨ ㄗㄨㄥˇ ㄕˋ ㄧㄡˇ ㄧˋ ㄉㄧㄢˇ ㄘㄨ ㄘㄠ.',
-            pinyin: 'ji4 jie2 bian4 hua4 de shi2 hou4, wo3 pi2 fu1 zong3 shi4 you3 yi1 dian3 cu1 cao1.',
+            pinyin: 'ji4 jie2 bian4 hua4 de shi2 hou4, wo3 pi2 fu1 zong3 shi4 you3 yi4 dian3 cu1 cao1.',
             translation: '季節の変わり目は、 いつも少し肌が荒れます。',
             memo: '',
             changed: '☆'
@@ -170,8 +170,8 @@ export default {
           },
           {
             word: '海鮮',
-            sentence: '這趟旅行的目的地是海邊, 一定有很好吃得海鮮料理。',
-            bopomofo: 'ㄓㄜˋ ㄊㄤˋ ㄌㄩˇ ㄒㄧㄥˊ ㄉㄜ˙ ㄇㄨˋ ㄉㄧˋ ㄉㄧˋ ㄕˋ ㄏㄞˇ ㄅㄧㄢ, ㄧˊ ㄉㄧㄥˋ ㄧㄡˇ ㄏㄣˇ ㄏㄠˇ ㄔ ㄉㄜˊ ㄏㄞˇ ㄒㄧㄢ ㄌㄧㄠˋ ㄌㄧˇ.',
+            sentence: '這趟旅行的目的地是海邊, 一定有很好吃的海鮮料理。',
+            bopomofo: 'ㄓㄜˋ ㄊㄤˋ ㄌㄩˇ ㄒㄧㄥˊ ㄉㄜ˙ ㄇㄨˋ ㄉㄧˋ ㄉㄧˋ ㄕˋ ㄏㄞˇ ㄅㄧㄢ, ㄧ ㄉㄧㄥˋ ㄧㄡˇ ㄏㄣˇ ㄏㄠˇ ㄔ ㄉㄜ˙ ㄏㄞˇ ㄒㄧㄢ ㄌㄧㄠˋ ㄌㄧˇ.',
             pinyin: 'zhe4 tang4 lu3 xing2 de mu4 di4 di4 shi4 hai3 bian1, yi1 ding4 you3 hen3 hao3 chi1 de hai3 xian1 liao4 li3.',
             translation: '今回の旅行の目的地は海沿いなので、 おいしいシーフード料理があるに違いありません。',
             memo: ''
@@ -230,8 +230,8 @@ export default {
           },
           {
             word: '乾',
-            sentence: '夏天在使用吹風機的時侯也會出汗， 頭髮不容易乾。',
-            bopomofo: 'ㄒㄧㄚˋ ㄊㄧㄢ ㄗㄞˋ ㄕˇ ㄩㄥˋ ㄔㄨㄟ ㄈㄥ ㄐㄧ ㄉㄜ˙ ㄕˊ ㄏㄡˊ ㄧㄝˇ ㄏㄨㄟˋ ㄔㄨ ㄏㄢˋ, ㄊㄡˊ ㄈㄚˋ ㄅㄨˋ ㄖㄨㄥˊ ㄧˋ ㄍㄢ.',
+            sentence: '夏天在使用吹風機的時候也會出汗， 頭髮不容易乾。',
+            bopomofo: 'ㄒㄧㄚˋ ㄊㄧㄢ ㄗㄞˋ ㄕˇ ㄩㄥˋ ㄔㄨㄟ ㄈㄥ ㄐㄧ ㄉㄜ˙ ㄕˊ ㄏㄡˋ  ㄧㄝˇ ㄏㄨㄟˋ ㄔㄨ ㄏㄢˋ, ㄊㄡˊ ㄈㄚˋ ㄅㄨˋ ㄖㄨㄥˊ ㄧˋ ㄍㄢ.',
             pinyin: 'xia4 tian1 zai4 shi3 yong4 chui1 feng1 ji1 de shi2 hou4 ye3 hui4 chu1 han4, tou2 fa4 bu4 rong2 yi4 gan1.',
             translation: '夏はドライヤーを使っている間にも汗をかくので、 髪がなかなか乾きません。',
             memo: '',
@@ -240,8 +240,8 @@ export default {
           {
             word: '發霉',
             sentence: '因為我一直宅在家裡， 所以感覺身體快發霉了。',
-            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄗㄨㄥˇ ㄕˋ ㄧ ㄓˊ ㄗㄞˋ ㄐㄧㄚ ㄊㄤˇ, ㄨㄛˇ ㄍㄢˇ ㄐㄩㄝˊ ㄕㄣ ㄊㄧˇ ㄎㄨㄞˋ ㄧㄠˋ ㄈㄚ ㄇㄟˊ.',
-            pinyin: 'yin1 wei4 zong3 shi4 yi1 zhi2 zai4 jia1 tang3, wo3 gan3 jue2 shen1 ti3 kuai4 yao4 fa1 mei2.',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄧ ㄓˊ ㄓㄞˊ ㄗㄞˋ ㄐㄧㄚ ㄌㄧˇ， ㄙㄨㄛˇ ㄧˇ ㄍㄢˇ ㄐㄩㄝˊ ㄕㄣ ㄊㄧˇ ㄎㄨㄞˋ ㄈㄚ ㄇㄟˊ ㄌㄜ˙.',
+            pinyin: 'yin1 wei4 wo3 yi1 zhi2 zhai2 zai4 jia1 li3, suo3 yi3 gan3 jue2 shen1 ti3 kuai4 fa1 mei2 le.',
             translation: 'いつも家にいるので、 そろそろ体からカビが生えてきそうです。',
             memo: ''
           },
@@ -438,7 +438,7 @@ export default {
             word: '拜',
             sentence: '寺廟舉行許多拜神的儀式。',
             bopomofo: 'ㄙˋ ㄇㄧㄠˋ ㄐㄩˇ ㄒㄧㄥˊ ㄒㄩˇ ㄉㄨㄛ ㄅㄞˋ ㄕㄣˊ ㄉㄜ˙ ㄧˊ ㄕˋ.',
-            pinyin: 'si4 miao4 ju xing2 xu3 duo1 bai4 shen2 de yi2 shi4.',
+            pinyin: 'si4 miao4 ju3 xing2 xu3 duo1 bai4 shen2 de yi2 shi4.',
             translation: 'お寺では、 神々を祀るためのたくさんの儀式を行います。',
             memo: '',
             changed: '☆'
@@ -446,7 +446,7 @@ export default {
           {
             word: '神',
             sentence: '他像神一樣崇拜一位漫畫家。',
-            bopomofo: 'ㄊㄚ ㄒㄧㄤˋ ㄕㄣˊ ㄧˊ ㄧㄤˋ ㄔㄨㄥˊ ㄅㄞˋ ㄧ ㄨㄟˋ ㄇㄢˋ ㄏㄨㄚˋ ㄐㄧㄚ.',
+            bopomofo: 'ㄊㄚ ㄒㄧㄤˋ ㄕㄣˊ ㄧ ㄧㄤˋ ㄔㄨㄥˊ ㄅㄞˋ ㄧ ㄨㄟˋ ㄇㄢˋ ㄏㄨㄚˋ ㄐㄧㄚ.',
             pinyin: 'ta1 xiang4 shen2 yi1 yang4 chong2 bai4 yi1 wei4 man4 hua4 jia1.',
             translation: '彼はある漫画家をまるで神様のように崇拝しています。',
             memo: ''
@@ -454,8 +454,8 @@ export default {
           {
             word: '拜拜',
             sentence: '他單相思， 所以我聽說他會去拜月下老人。',
-            bopomofo: 'ㄊㄚ ㄉㄢ ㄒㄧㄤˋ ㄙ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄊㄧㄥ ㄕㄨㄛ ㄊㄚ ㄏㄨㄟˋ ㄑㄩˋ ㄅㄞˋ ㄩㄝˋ ㄒㄧㄚˋ ㄌㄠˇ ㄖㄣˊ.',
-            pinyin: 'ta1 dan1 xiang4 si1, suo3 yi3 wo3 ting1 shuo1 ta1 hui4 qu4 bai4 yue4 xia4 lao3 ren2.',
+            bopomofo: 'ㄊㄚ ㄉㄢ ㄒㄧㄤ ㄙ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄊㄧㄥ ㄕㄨㄛ ㄊㄚ ㄏㄨㄟˋ ㄑㄩˋ ㄅㄞˋ ㄩㄝˋ ㄒㄧㄚˋ ㄌㄠˇ ㄖㄣˊ.',
+            pinyin: 'ta1 dan1 xiang1 si1, suo3 yi3 wo3 ting1 shuo1 ta1 hui4 qu4 bai4 yue4 xia4 lao3 ren2.',
             translation: '彼は片思いをしているので、　月下老人にお参りをしに行くそうです。',
             memo: ''
           },
@@ -495,8 +495,8 @@ export default {
           },
           {
             word: '瘟疫',
-            sentence: '即使瘟疫不普遍的時侯， 洗手漱口也很重要。',
-            bopomofo: 'ㄐㄧˊ ㄕˇ ㄨㄣ ㄧˋ ㄅㄨˋ ㄆㄨˇ ㄅㄧㄢˋ ㄉㄜ˙ ㄕˊ ㄏㄡˊ, ㄒㄧˇ ㄕㄡˇ ㄕㄨˋ ㄎㄡˇ ㄧㄝˇ ㄏㄣˇ ㄓㄨㄥˋ ㄧㄠˋ.',
+            sentence: '即使瘟疫不普遍的時候， 洗手漱口也很重要。',
+            bopomofo: 'ㄐㄧˊ ㄕˇ ㄨㄣ ㄧˋ ㄅㄨˋ ㄆㄨˇ ㄅㄧㄢˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ, ㄒㄧˇ ㄕㄡˇ ㄕㄨˋ ㄎㄡˇ ㄧㄝˇ ㄏㄣˇ ㄓㄨㄥˋ ㄧㄠˋ.',
             pinyin: 'ji2 shi3 wen1 yi4 bu4 pu3 bian4 de shi2 hou4, xi3 shou3 shu4 kou3 ye3 hen3 zhong4 yao4.',
             translation: '疫病が流行っていない時でも、 手洗いうがいはとても大事です。',
             memo: ''
@@ -637,8 +637,8 @@ export default {
           },
           {
             word: '★雄黄酒',
-            sentence: '在端午節的時侯喝的雄黄酒的作用作為一種解毒劑。',
-            bopomofo: 'ㄗㄞˋ ㄉㄨㄢ ㄨˇ ㄐㄧㄝˊ ㄉㄜ˙ ㄕˊ ㄏㄡˊ ㄏㄜ ㄉㄜ˙ ㄒㄩㄥˊ ㄏㄨㄤˊ ㄐㄧㄡˇ ㄉㄜ˙ ㄗㄨㄛˋ ㄩㄥˋ ㄗㄨㄛˋ ㄨㄟˊ ㄧ ㄓㄨㄥˇ ㄐㄧㄝˇ ㄉㄨˊ ㄐㄧˋ.',
+            sentence: '在端午節的時候喝的雄黄酒的作用作為一種解毒劑。',
+            bopomofo: 'ㄗㄞˋ ㄉㄨㄢ ㄨˇ ㄐㄧㄝˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄏㄜ ㄉㄜ˙ ㄒㄩㄥˊ ㄏㄨㄤˊ ㄐㄧㄡˇ ㄉㄜ˙ ㄗㄨㄛˋ ㄩㄥˋ ㄗㄨㄛˋ ㄨㄟˊ ㄧ ㄓㄨㄥˇ ㄐㄧㄝˇ ㄉㄨˊ ㄐㄧˋ.',
             pinyin: 'zai4 duan1 wu3 jie2 de shi2 hou4 he1 de xiong2 huang2 jiu3 de zuo4 yong4 zuo4 wei2 yi1 zhong3 jie3 du2 ji4.',
             translation: '端午の節句の時に飲まれる雄黄酒は、 一種の解毒剤としての働きをします。',
             memo: '※「作為(ㄗㄨㄛˋ ㄨㄟˊ)」の発音?',
@@ -664,7 +664,7 @@ export default {
           {
             word: '過節',
             sentence: '看書， 聽音樂， 大家以各自的方式過節。',
-            bopomofo: 'ㄎㄢˋ ㄕㄨㄊㄧㄥ ㄧㄣ ㄩㄝˋㄉㄚˋ ㄐㄧㄚ ㄧˇ ㄍㄜˋ ㄗˋ ㄉㄜ˙ ㄈㄤ ㄕˋ ㄍㄨㄛˋ ㄐㄧㄝˊ.',
+            bopomofo: 'ㄎㄢˋ ㄕㄨ, ㄊㄧㄥ ㄧㄣ ㄩㄝˋ, ㄉㄚˋ ㄐㄧㄚ ㄧˇ ㄍㄜˋ ㄗˋ ㄉㄜ˙ ㄈㄤ ㄕˋ ㄍㄨㄛˋ ㄐㄧㄝˊ.',
             pinyin: 'kan4 shu1, ting1 yin1 yue4, da4 jia1 yi3 ge4 zi4 de fang1 shi4 guo4 jie2.',
             translation: '本を読んだり、 音楽を聴いたり、 みんな思い思いに休日を過ごしています。',
             memo: '※「看看書, 聽聽音樂， 每個人按照自己的方式過假日」でも可。'
