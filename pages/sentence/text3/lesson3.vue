@@ -177,12 +177,12 @@ export default {
             memo: ''
           },
           {
-            word: '新鮮',
+            word: '★新鮮',
             sentence: '新鮮的生魚片甚至不必要醬油。',
             bopomofo: 'ㄒㄧㄣ ㄒㄧㄢ ㄉㄜ˙ ㄕㄥ ㄩˊ ㄆㄧㄢˋ ㄕㄣˋ ㄓˋ ㄅㄨˋ ㄅㄧˋ ㄧㄠˋ ㄐㄧㄤˋ ㄧㄡˊ.',
             pinyin: 'xin1 xian1 de sheng1 yu2 pian4 shen4 zhi4 bu2 bi4 yao4 jiang4 you2.',
             translation: '新鮮な刺身は、 醤油すら必要ありません。',
-            memo: '',
+            memo: '※「不必要」の「不」?',
             changed: '☆'
           },
           {
@@ -214,7 +214,7 @@ export default {
             word: '差',
             sentence: '跟你認為的比起來, 好吃的臭豆腐和不好吃的差多了。',
             bopomofo: 'ㄍㄣ ㄋㄧˇ ㄖㄣˋ ㄨㄟˊ ㄉㄜ˙ ㄅㄧˇ ㄑㄧˇ ㄌㄞˊ, ㄏㄠˇ ㄔ ㄉㄜ˙ ㄔㄡˋ ㄉㄡˋ ㄈㄨˇ ㄏㄢˋ ㄅㄨˋ ㄏㄠˇ ㄔ ㄉㄜ˙ ㄔㄚˋ ㄉㄨㄛ ㄌㄜ˙.',
-            pinyin: 'gen1 ni3 ren4 wei4 de bi3 qi3 lai2, hao3 chi1 de chou4 dou4 fu3 han4 bu4 hao3 chi1 de cha1 duo1 le.',
+            pinyin: 'gen1 ni3 ren4 wei2 de bi3 qi3 lai2, hao3 chi1 de chou4 dou4 fu3 han4 bu4 hao3 chi1 de cha1 duo1 le.',
             translation: '美味しい臭豆腐とまずい臭豆腐の差は、 あなたが思っているよりも大きいです。',
             memo: '',
             changed: '☆'
@@ -231,8 +231,8 @@ export default {
           {
             word: '乾',
             sentence: '夏天在使用吹風機的時候也會出汗， 頭髮不容易乾。',
-            bopomofo: 'ㄒㄧㄚˋ ㄊㄧㄢ ㄗㄞˋ ㄕˇ ㄩㄥˋ ㄔㄨㄟ ㄈㄥ ㄐㄧ ㄉㄜ˙ ㄕˊ ㄏㄡˋ  ㄧㄝˇ ㄏㄨㄟˋ ㄔㄨ ㄏㄢˋ, ㄊㄡˊ ㄈㄚˋ ㄅㄨˋ ㄖㄨㄥˊ ㄧˋ ㄍㄢ.',
-            pinyin: 'xia4 tian1 zai4 shi3 yong4 chui1 feng1 ji1 de shi2 hou4 ye3 hui4 chu1 han4, tou2 fa4 bu4 rong2 yi4 gan1.',
+            bopomofo: 'ㄒㄧㄚˋ ㄊㄧㄢ ㄗㄞˋ ㄕˇ ㄩㄥˋ ㄔㄨㄟ ㄈㄥ ㄐㄧ ㄉㄜ˙ ㄕˊ ㄏㄡˋ  ㄧㄝˇ ㄏㄨㄟˋ ㄔㄨ ㄏㄢˋ, ㄊㄡˊ ㄈㄚˇ ㄅㄨˋ ㄖㄨㄥˊ ㄧˋ ㄍㄢ.',
+            pinyin: 'xia4 tian1 zai4 shi3 yong4 chui1 feng1 ji1 de shi2 hou4 ye3 hui4 chu1 han4, tou2 fa3 bu4 rong2 yi4 gan1.',
             translation: '夏はドライヤーを使っている間にも汗をかくので、 髪がなかなか乾きません。',
             memo: '',
             changed: '☆'
@@ -380,7 +380,7 @@ export default {
             word: '當中',
             sentence: '小動物當中， 她最喜歡松鼠。',
             bopomofo: 'ㄒㄧㄠˇ ㄉㄨㄥˋ ㄨˋ ㄉㄤ ㄓㄨㄥ, ㄊㄚ ㄗㄨㄟˋ ㄒㄧˇ ㄏㄨㄢ ㄙㄨㄥ ㄕㄨˇ.',
-            pinyin: 'xiao3 dong4 wu4 dang1 zhong1, ta1 zui4 xi3 huan song1 shu3.',
+            pinyin: 'xiao3 dong4 wu4 dang1 zhong1, ta1 zui4 xi3 huan1 song1 shu3.',
             translation: '小動物の中で、 彼女のお気に入りはリスです。',
             memo: '',
             changed: '☆'
