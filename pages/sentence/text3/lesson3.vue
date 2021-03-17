@@ -107,12 +107,12 @@ export default {
             memo: ''
           },
           {
-            word: '★温度',
+            word: '温度',
             sentence: '溫泉的溫度太高了， 變成水煮蛋了。',
             bopomofo: 'ㄨㄣ ㄑㄩㄢˊ ㄉㄜ˙ ㄨㄣ ㄉㄨˋ ㄊㄞˋ ㄍㄠ ㄌㄜ˙, ㄅㄧㄢˋ ㄔㄥˊ ㄕㄨㄟˇ ㄓㄨˇ ㄉㄢˋ ㄌㄜ˙.',
             pinyin: 'wen1 quan2 de wen1 du4 tai4 gao1 le, bian4 cheng2 shui3 zhu3 dan4 le.',
             translation: '温泉の温度が高すぎて、 ゆで卵になってしまいますよ。',
-            memo: '※「ユデダコ」の中国語?',
+            memo: '',
             changed: '☆'
           },
           {
@@ -125,30 +125,31 @@ export default {
             changed: '☆'
           },
           {
-            word: '★感覺',
-            sentence: '貓身上的灰塵好像揚起來了， 應該要給牠洗澡了。',
-            bopomofo: 'ㄇㄠ ㄕㄣ ㄕㄤˋ ㄉㄜ˙ ㄏㄨㄟ ㄔㄣˊ ㄏㄠˇ ㄒㄧㄤˋ ㄧㄤˊ ㄑㄧˇ ㄌㄞˊ ㄌㄜ˙, ㄧㄥ ㄍㄞ ㄧㄠˋ ㄍㄟˇ ㄊㄚ ㄒㄧˇ ㄗㄠˇ ㄌㄜ˙.',
-            pinyin: 'mao1 shen1 shang4 de hui1 chen2 hao3 xiang4 yang2 qi3 lai2 le, ying1 gai1 yao4 gei3 ta1 xi3 zao3 le.',
-            translation: '猫が少し埃っぽい感じがするので、 そろそろお風呂に入れた方がいいかもしれません。',
-            memo: '※「感覺」は使えない?',
+            word: '感覺',
+            sentence: '我感覺貓身上有很多灰塵, 應該要給牠洗澡了。',
+            bopomofo: 'ㄨㄛˇ ㄍㄢˇ ㄐㄩㄝˊ ㄇㄠ ㄕㄣ ㄕㄤˋ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄏㄨㄟ ㄔㄣˊ, ㄧㄥ ㄍㄞ ㄧㄠˋ ㄍㄟˇ ㄊㄚ ㄒㄧˇ ㄗㄠˇ ㄌㄜ˙.',
+            pinyin: 'wo3 gan3 jue2 mao1 shen1 shang4 you3 hen3 duo1 hui1 chen2, ying1 gai1 yao4 gei3 ta1 xi3 zao3 le.',
+            translation: '猫が少し埃っぽい気がするので、 そろそろお風呂に入れた方がいいかもしれません。',
+            memo: '',
             changed: '☆'
           },
           {
-            word: '★實際',
-            sentence: '事實上，青春期的孩子或多或少都得了中二病。',
-            bopomofo: 'ㄕˋ ㄕˊ ㄕㄤˋ, ㄑㄧㄥ ㄔㄨㄣ ㄑㄧ ㄉㄜ˙ ㄏㄞˊ ㄗ˙ ㄏㄨㄛˋ ㄉㄨㄛ ㄏㄨㄛˋ ㄕㄠˇ ㄉㄡ ㄉㄜˊ ㄌㄜ˙ ㄓㄨㄥ ㄦˋ ㄅㄧㄥˋ.',
-            pinyin: 'shi4 shi2 shang4, qing1 chun1 qi1 de hai2 zi huo4 duo1 huo4 shao3 dou1 de2 le zhong1 er4 bing4.',
-            translation: '実際、 思春期の子供はみんな多かれ少なかれ中二病を患っています。',
-            memo: '※中文沒有清楚的解釋， 但是簡單來說就是「裝大人」的意思。',
+            word: '實際',
+            sentence: '實際上， 青春期的孩子或多或少都想裝大人。',
+            bopomofo: 'ㄕˊ ㄐㄧˋ ㄕㄤˋ, ㄑㄧㄥ ㄔㄨㄣ ㄑㄧ ㄉㄜ˙ ㄏㄞˊ ㄗ˙ ㄏㄨㄛˋ ㄉㄨㄛ ㄏㄨㄛˋ ㄕㄠˇ ㄉㄡ ㄒㄧㄤˇ ㄓㄨㄤ ㄉㄚˋ ㄖㄣˊ.',
+            pinyin: 'shi2 ji4 shang4, qing1 chun1 qi1 de hai2 zi huo4 duo1 huo4 shao3 dou1 xiang3 zhuang1 da4 ren2.',
+            translation: '実際、 思春期の子供はみんな多かれ少なかれ大人のふりをしたがっています。',
+            memo: '',
             changed: '☆'
           },
           {
-            word: '★難怪',
-            sentence: '因為那個大胃王把五公斤的歐姆蛋包飯吃光了, 難怪他嚇傻了。',
-            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄋㄚˋ ㄍㄜˋ ㄉㄚˋ ㄨㄟˋ ㄨㄤˊ ㄅㄚˇ ㄨˇ ㄍㄨㄥ ㄐㄧㄣ ㄉㄜ˙ ㄡ ㄇㄨˇ ㄉㄢˋ ㄅㄠ ㄈㄢˋ ㄔ ㄍㄨㄤ ㄌㄜ˙, ㄋㄢˊ ㄍㄨㄞˋ ㄊㄚ ㄒㄧㄚˋ ㄕㄚˇ ㄌㄜ˙.',
-            pinyin: 'yin1 wei4 na4 ge4 da4 wei4 wang2 ba3 wu3 gong1 jin1 de ou1 mu3 dan4 bao1 fan4 chi1 guang1 le, nan2 guai4 ta1 xia4 sha3 le.',
+            word: '難怪',
+            sentence: '因為那個大胃王把五公斤的蛋包飯吃光了, 難怪他會嚇傻。',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄋㄚˋ ㄍㄜˋ ㄉㄚˋ ㄨㄟˋ ㄨㄤˊ ㄅㄚˇ ㄨˇ ㄍㄨㄥ ㄐㄧㄣ ㄉㄜ˙ ㄉㄢˋ ㄅㄠ ㄈㄢˋ ㄔ ㄍㄨㄤ ㄌㄜ˙, ㄋㄢˊ ㄍㄨㄞˋ ㄊㄚ ㄏㄨㄟˋ ㄒㄧㄚˋ ㄕㄚˇ.',
+            pinyin: 'yin1 wei4 na4 ge4 da4 wei4 wang2 ba3 wu3 gong1 jin1 de dan4 bao1 fan4 chi1 guang1 le, nan2 guai4 ta1 hui4 xia4 sha3.',
             translation: 'その大食いの人は5キロのオムライスを平らげたので、 彼が驚いてポカンとしたのも不思議ではありません。',
-            memo: '※「嚇傻了(ㄒㄧㄚˋ ㄕㄚˇ ㄌㄜ˙)」の発音?'
+            memo: '',
+            changed: '☆'
           },
           {
             word: '季節',
@@ -160,12 +161,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '★火鍋',
+            word: '火鍋',
             sentence: '叔叔的個性很大剌剌, 即使把鳳梨放在火鍋裡他也不會察覺到。',
             bopomofo: 'ㄕㄨ ㄕㄨ ㄉㄜ˙ ㄍㄜˋ ㄒㄧㄥˋ ㄏㄣˇ ㄉㄚˋ ㄌㄚˋ ㄌㄚˋ, ㄐㄧˊ ㄕˇ ㄅㄚˇ ㄈㄥˋ ㄌㄧˊ ㄈㄤˋ ㄗㄞˋ ㄏㄨㄛˇ ㄍㄨㄛ ㄌㄧˇ ㄊㄚ ㄧㄝˇ ㄅㄨˊ ㄏㄨㄟˋ ㄔㄚˊ ㄐㄩㄝˊ ㄉㄠˋ.',
             pinyin: 'shu1 shu1 de ge4 xing4 hen3 da4 la4 la4, ji2 shi3 ba3 feng4 li2 fang4 zai4 huo3 guo1 li3 ta1 ye3 bu2 hui4 cha2 jue2 dao4.',
             translation: 'おじさんはとても大雑把な性格をしているので、 鍋にパイナップルを入れても気が付きません。',
-            memo: '※「察覺到」:「気付く」? 「注意到」とは違う?',
+            memo: '※「察覺到」 = 「見つける、 発見する」、 「注意到」 = 「(見て)気付く」。',
             changed: '☆'
           },
           {
@@ -177,12 +178,12 @@ export default {
             memo: ''
           },
           {
-            word: '★新鮮',
-            sentence: '新鮮的生魚片甚至不必要醬油。',
-            bopomofo: 'ㄒㄧㄣ ㄒㄧㄢ ㄉㄜ˙ ㄕㄥ ㄩˊ ㄆㄧㄢˋ ㄕㄣˋ ㄓˋ ㄅㄨˋ ㄅㄧˋ ㄧㄠˋ ㄐㄧㄤˋ ㄧㄡˊ.',
-            pinyin: 'xin1 xian1 de sheng1 yu2 pian4 shen4 zhi4 bu2 bi4 yao4 jiang4 you2.',
+            word: '新鮮',
+            sentence: '新鮮的生魚片甚至不需要醬油。',
+            bopomofo: 'ㄒㄧㄣ ㄒㄧㄢ ㄉㄜ˙ ㄕㄥ ㄩˊ ㄆㄧㄢˋ ㄕㄣˋ ㄓˋ ㄅㄨˋ ㄒㄩ ㄧㄠˋ ㄐㄧㄤˋ ㄧㄡˊ.',
+            pinyin: 'xin1 xian1 de sheng1 yu2 pian4 shen4 zhi4 bu4 xu1 yao4 jiang4 you2.',
             translation: '新鮮な刺身は、 醤油すら必要ありません。',
-            memo: '※「不必要」の「不」?',
+            memo: '',
             changed: '☆'
           },
           {
@@ -254,12 +255,13 @@ export default {
             memo: ''
           },
           {
-            word: '★雨季',
-            sentence: '由於雨季， 你只要在外面把要洗的衣服掛就能弄得乾乾淨淨。',
-            bopomofo: 'ㄧㄡˊ ㄩˊ ㄩˇ ㄐㄧˋ, ㄋㄧˇ ㄓˇ ㄧㄠˋ ㄗㄞˋ ㄨㄞˋ ㄇㄧㄢˋ ㄅㄚˇ ㄧㄠˋ ㄒㄧˇ ㄉㄜ˙ ㄧ ㄈㄨˊ ㄍㄨㄚˋ ㄐㄧㄡˋ ㄋㄥˊ ㄋㄨㄥˋ ㄉㄜˊ ㄍㄢˋ ㄍㄢ ㄐㄧㄥˋ ㄐㄧㄥˋ.',
-            pinyin: 'you2 yu2 yu3 ji4, ni3 zhi3 yao4 zai4 wai4 mian4 ba3 yao4 xi3 de yi1 fu2 gua4 jiu4 neng2 nong4 de gan1 gan1 jing4 jing4.',
-            translation: '雨季のおかげで、 洗濯物は外に干しておくだけで綺麗になります。',
-            memo: '※意思不懂'
+            word: '雨季',
+            sentence: '託雨季的福， 你只要把要洗的衣服掛在外面， 就能洗得乾乾淨淨。',
+            bopomofo: 'ㄊㄨㄛ ㄩˇ ㄐㄧˋ ㄉㄜ˙ ㄈㄨˊ, ㄋㄧˇ ㄓˇ ㄧㄠˋ ㄅㄚˇ ㄧㄠˋ ㄒㄧˇ ㄉㄜ˙ ㄧ ㄈㄨˊ ㄍㄨㄚˋ ㄗㄞˋ ㄨㄞˋ ㄇㄧㄢˋ, ㄐㄧㄡˋ ㄋㄥˊ ㄒㄧˇ ㄉㄜ˙ ㄍㄢ ㄍㄢ ㄐㄧㄥˋ ㄐㄧㄥˋ.',
+            pinyin: 'tuo1 yu3 ji4 de fu2, ni3 zhi3 yao4 ba3 yao4 xi3 de yi1 fu2 gua4 zai4 wai4 mian4, jiu4 neng2 xi3 de gan1 gan1 jing4 jing4.',
+            translation: '雨季のおかげで、 洗濯物は外に干しておくだけで綺麗に洗えます。',
+            memo: '',
+            changed: '☆'
           },
           {
             word: '涼快',
@@ -280,10 +282,10 @@ export default {
           },
           {
             word: '悶',
-            sentence: '睡覺的時候覺得呼吸困難就醒來了， 原來是貓坐在我的胸口上。',
-            bopomofo: 'ㄕㄨㄟˋ ㄐㄧㄠˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄐㄩㄝˊ ㄉㄜ˙ ㄏㄨ ㄒㄧ ㄎㄨㄣˋ ㄋㄢˊ ㄐㄧㄡˋ ㄒㄧㄥˇ ㄌㄞˊ ㄌㄜ˙, ㄩㄢˊ ㄌㄞˊ ㄕˋ ㄇㄠ ㄗㄨㄛˋ ㄗㄞˋ ㄨㄛˇ ㄉㄜ˙ ㄒㄩㄥ ㄎㄡˇ ㄕㄤˋ.',
-            pinyin: 'shui4 jiao4 de shi2 hou4 jue2 de hu1 xi1 kun4 nan2 jiu4 xing3 lai2 le, yuan2 lai2 shi4 mao1 zuo4 zai4 wo3 de xiong1 kou3 shang4.',
-            translation: '寝ている時に息苦しくて目が覚めたら、 猫が胸の上に座っていました。',
+            sentence: '單相思的時候她悶悶地很想喝酒。',
+            bopomofo: 'ㄉㄢ ㄒㄧㄤ ㄙ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄊㄚ ㄇㄣˋ ㄇㄣˋ ㄉㄜ˙ ㄏㄣˇ ㄒㄧㄤˇ ㄏㄜ ㄐㄧㄡˇ.',
+            pinyin: 'dan1 xiang1 si1 de shi2 hou4 ta1 men4 men4 de hen3 xiang3 he1 jiu3.',
+            translation: '片思い中、 彼女は思い悩んでお酒を飲みたくなります。',
             memo: '',
             changed: '☆'
           },
@@ -314,12 +316,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '★颳風',
+            word: '颳風',
             sentence: '山上颳大風， 你應該把防風外套帶著。',
             bopomofo: 'ㄕㄢ ㄕㄤˋ ㄍㄨㄚ ㄉㄚˋ ㄈㄥ, ㄋㄧˇ ㄧㄥ ㄍㄞ ㄅㄚˇ ㄈㄤˊ ㄈㄥ ㄨㄞˋ ㄊㄠˋ ㄉㄞˋ ㄓㄜ˙.',
             pinyin: 'shan1 shang4 gua1 da4 feng1, ni3 ying1 gai1 ba3 fang2 feng1 wai4 tao4 dai4 zhe.',
             translation: '山では風が強い事があるので、 防風ジャケットを持って行った方がいいです。',
-            memo: '※「颳風」の意味は「風が強い」ではない?',
+            memo: '※「颳風(ㄍㄨㄚ ㄈㄥ/gua1 feng1)」は「強い風」、 「微風(ㄨㄟ ㄈㄥ/wei1 feng1)」は「そよ風」。',
             changed: '☆'
           },
           {
@@ -350,12 +352,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '★後母臉',
-            sentence: '一聽到後母就想到嚴格， 但是我婆婆對我沒有那樣。',
-            bopomofo: 'ㄧ ㄊㄧㄥ ㄉㄠˋ ㄏㄡˋ ㄇㄨˇ ㄐㄧㄡˋ ㄒㄧㄤˇ ㄉㄠˋ ㄧㄢˊ ㄍㄜˊ, ㄉㄢˋ ㄕˋ ㄨㄛˇ ㄆㄛˊ ㄆㄛˊ ㄉㄨㄟˋ ㄨㄛˇ ㄇㄟˊ ㄧㄡˇ ㄋㄚˋ ㄧㄤˋ.',
-            pinyin: 'yi1 ting dao4 hou4 mu3 jiu4 xiang3 dao4 yan2 ge2, dan4 shi4 wo3 po2 po2 dui4 wo3 mei2 you3 na4 yang4.',
-            translation: '義母は私にとても甘いので、 「継母の顔」のような厳しさとは無縁です。',
-            memo: '※「後母臉」を使うには?',
+            word: '後母臉',
+            sentence: '春天後母臉, 就是春天天氣變化很大的意思。',
+            bopomofo: 'ㄔㄨㄣ ㄊㄧㄢ ㄏㄡˋ ㄇㄨˇ ㄌㄧㄢˇ, ㄐㄧㄡˋ ㄕˋ ㄔㄨㄣ ㄊㄧㄢ ㄊㄧㄢ ㄑㄧˋ ㄅㄧㄢˋ ㄏㄨㄚˋ ㄏㄣˇ ㄉㄚˋ ㄉㄜ˙ ㄧˋ ㄙ.',
+            pinyin: 'chun1 tian1 hou4 mu3 lian3, jiu4 shi4 chun1 tian1 tian1 qi4 bian4 hua4 hen3 da4 de yi4 si1.',
+            translation: '「春天後母臉」とは、 春の天気が変わりやすい事を意味します。',
+            memo: '',
             changed: '☆'
           },
           {
@@ -395,11 +397,12 @@ export default {
           },
           {
             word: '農曆',
-            sentence: '農曆的每個月一號都是新月。',
-            bopomofo: 'ㄋㄨㄥˊ ㄌㄧˋ ㄉㄜ˙ ㄇㄟˇ ㄍㄜˋ ㄩㄝˋ ㄧ ㄏㄠˋ ㄉㄡ ㄕˋ ㄒㄧㄣ ㄩㄝˋ.',
-            pinyin: 'nong2 li4 de mei3 ge4 yue4 yi1 hao4 dou1 shi4 xin1 yue4.',
+            sentence: '農曆的每個月一號都是沒有月亮的日子。',
+            bopomofo: 'ㄋㄨㄥˊ ㄌㄧˋ ㄉㄜ˙ ㄇㄟˇ ㄍㄜˋ ㄩㄝˋ ㄧ ㄏㄠˋ ㄉㄡ ㄕˋ ㄇㄟˊ ㄧㄡˇ ㄩㄝˋ ㄌㄧㄤˋ ㄉㄜ˙ ㄖˋ ㄗ˙.',
+            pinyin: 'nong2 li4 de mei3 ge4 yue4 yi1 hao4 dou1 shi4 mei2 you3 yue4 liang4 de ri4 zi.',
             translation: '太陰暦の毎月1日は新月です。',
-            memo: ''
+            memo: '',
+            changed: '☆'
           },
           {
             word: '農業',
@@ -419,12 +422,13 @@ export default {
             memo: ''
           },
           {
-            word: '★難得',
-            sentence: '很難得的鳥就在院子裡, 我們試拍照吧。',
-            bopomofo: 'ㄏㄣˇ ㄋㄢˊ ㄉㄜˊ ㄉㄜ˙ ㄋㄧㄠˇ ㄐㄧㄡˋ ㄗㄞˋ ㄩㄢˋ ㄗ˙ ㄌㄧˇ, ㄨㄛˇ ㄇㄣ˙ ㄕˋ ㄆㄞ ㄓㄠˋ ㄅㄚ˙.',
-            pinyin: 'hen3 nan2 de2 de niao3 jiu4 zai4 yuan4 zi li3, wo3 men shi4 pai1 zhao4 ba.',
-            translation: '珍しい鳥が庭にいるので、 写真を撮ってみましょう。',
-            memo: '※解答：「很少見到的鳥在院子裡， 我們拍拍看吧」。 「難得」は使えない? 意味は「珍しい」ではなく「得難い」?'
+            word: '難得',
+            sentence: '很少見到的鳥在院子裡， 這是很難得的機會, 我們拍拍看吧。',
+            bopomofo: 'ㄏㄣˇ ㄕㄠˇ ㄐㄧㄢˋ ㄉㄠˋ ㄉㄜ˙ ㄋㄧㄠˇ ㄗㄞˋ ㄩㄢˋ ㄗ˙ ㄌㄧˇ, ㄓㄜˋ ㄕˋ ㄏㄣˇ ㄋㄢˊ ㄉㄜˊ ㄉㄜ˙ ㄐㄧ ㄏㄨㄟˋ, ㄨㄛˇ ㄇㄣ˙ ㄆㄞ ㄆㄞ ㄎㄢˋ ㄅㄚ˙.',
+            pinyin: 'hen3 shao3 jian4 dao4 de niao3 zai4 yuan4 zi li3, zhe4 shi4 hen3 nan2 de2 de ji1 hui4, wo3 men pai1 pai1 kan4 ba.',
+            translation: '珍しい鳥が庭にいます。 これは中々無い機会なので、 写真を撮ってみましょう。',
+            memo: '',
+            changed: '☆'
           },
           {
             word: '祭祖',
@@ -453,17 +457,18 @@ export default {
           },
           {
             word: '拜拜',
-            sentence: '他單相思， 所以我聽說他會去拜月下老人。',
-            bopomofo: 'ㄊㄚ ㄉㄢ ㄒㄧㄤ ㄙ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄊㄧㄥ ㄕㄨㄛ ㄊㄚ ㄏㄨㄟˋ ㄑㄩˋ ㄅㄞˋ ㄩㄝˋ ㄒㄧㄚˋ ㄌㄠˇ ㄖㄣˊ.',
-            pinyin: 'ta1 dan1 xiang1 si1, suo3 yi3 wo3 ting1 shuo1 ta1 hui4 qu4 bai4 yue4 xia4 lao3 ren2.',
-            translation: '彼は片思いをしているので、　月下老人にお参りをしに行くそうです。',
-            memo: ''
+            sentence: '他單相思， 所以我聽說他會去月下老人的廟拜拜。',
+            bopomofo: 'ㄊㄚ ㄉㄢ ㄒㄧㄤ ㄙ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄊㄧㄥ ㄕㄨㄛ ㄊㄚ ㄏㄨㄟˋ ㄑㄩˋ ㄩㄝˋ ㄒㄧㄚˋ ㄌㄠˇ ㄖㄣˊ ㄉㄜ˙ ㄇㄧㄠˋ ㄅㄞˋ ㄅㄞˋ.',
+            pinyin: 'ta1 dan1 xiang1 si1, suo3 yi3 wo3 ting1 shuo1 ta1 hui4 qu4 yue4 xia4 lao3 ren2 de miao4 bai4 bai4.',
+            translation: '彼は片思いをしているので、 月下老人にお参りをしに行くそうです。',
+            memo: '',
+            changed: '☆'
           },
           {
             word: '蚊蟲',
-            sentence: '她很討厭蚊蟲, 總是關著紗窗。',
-            bopomofo: 'ㄊㄚ ㄏㄣˇ ㄊㄠˇ ㄧㄢˋ ㄨㄣˊ ㄔㄨㄥˊ, ㄗㄨㄥˇ ㄕˋ ㄍㄨㄢ ㄓㄜ˙ ㄕㄚ ㄔㄨㄤ.',
-            pinyin: 'ta1 hen3 tao3 yan4 wen2 chong2, zong3 shi4 guan1 zhe sha1 chuang1.',
+            sentence: '她很討厭蚊蟲, 總是把紗窗關著不打開。',
+            bopomofo: 'ㄊㄚ ㄏㄣˇ ㄊㄠˇ ㄧㄢˋ ㄨㄣˊ ㄔㄨㄥˊ, ㄗㄨㄥˇ ㄕˋ ㄅㄚˇ ㄕㄚ ㄔㄨㄤ ㄍㄨㄢ ㄓㄜ˙ ㄅㄨˋ ㄉㄚˇ ㄎㄞ.',
+            pinyin: 'ta1 hen3 tao3 yan4 wen2 chong2, zong3 shi4 ba3 sha1 chuang1 guan1 zhe bu4 da3 kai1.',
             translation: '彼女は虫がすごく苦手なので、 いつも網戸を閉めています。',
             memo: '',
             changed: '☆'
@@ -511,11 +516,12 @@ export default {
           },
           {
             word: '多少',
-            sentence: '我來農場做工作三個月了, 多少習慣了自然生活。',
-            bopomofo: 'ㄨㄛˇ ㄌㄞˊ ㄋㄨㄥˊ ㄔㄤˇ ㄗㄨㄛˋ ㄍㄨㄥ ㄗㄨㄛˋ ㄙㄢ ㄍㄜ˙ ㄩㄝˋ ㄌㄜ˙, ㄉㄨㄛ ㄕㄠˇ ㄒㄧˊ ㄍㄨㄢˋ ㄌㄜ˙ ㄗˋ ㄖㄢˊ ㄕㄥ ㄏㄨㄛˊ.',
-            pinyin: 'wo3 lai2 nong2 chang3 zuo4 gong1 zuo4 san1 ge4 yue4 le, duo1 shao3 xi2 guan4 le zi4 ran2 sheng1 huo2.',
+            sentence: '我來農場工作三個月了, 多少習慣了自然生活。',
+            bopomofo: 'ㄨㄛˇ ㄌㄞˊ ㄋㄨㄥˊ ㄔㄤˇ ㄍㄨㄥ ㄗㄨㄛˋ ㄙㄢ ㄍㄜ˙ ㄩㄝˋ ㄌㄜ˙, ㄉㄨㄛ ㄕㄠˇ ㄒㄧˊ ㄍㄨㄢˋ ㄌㄜ˙ ㄗˋ ㄖㄢˊ ㄕㄥ ㄏㄨㄛˊ.',
+            pinyin: 'wo3 lai2 nong2 chang2 gong1 zuo4 san1 ge4 yue4 le, duo1 shao3 xi2 guan4 le zi4 ran2 sheng1 huo2.',
             translation: '農場に来て働きだしてから3ヵ月が経って、 自然の中での生活にもいくらか慣れてきました。',
-            memo: ''
+            memo: '',
+            changed: '☆'
           },
           {
             word: '作用',
@@ -527,9 +533,9 @@ export default {
           },
           {
             word: '迷信',
-            sentence: '雖然迷信， 但是他馬上就相信的單純的人。',
-            bopomofo: 'ㄙㄨㄟ ㄖㄢˊ ㄇㄧˊ ㄒㄧㄣˋ, ㄉㄢˋ ㄕˋ ㄊㄚ ㄇㄚˇ ㄕㄤˋ ㄐㄧㄡˋ ㄒㄧㄤ ㄒㄧㄣˋ ㄉㄜ˙ ㄉㄢ ㄔㄨㄣˊ ㄉㄜ˙ ㄖㄣˊ.',
-            pinyin: 'sui1 ran2 mi2 xin4, dan4 shi4 ta1 ma3 shang4 jiu4 xiang1 xin4 de dan1 chun2 de ren2.',
+            sentence: '雖然迷信， 但是他是馬上就相信了的單純的人。',
+            bopomofo: 'ㄙㄨㄟ ㄖㄢˊ ㄇㄧˊ ㄒㄧㄣˋ, ㄉㄢˋ ㄕˋ ㄊㄚ ㄕˋ ㄇㄚˇ ㄕㄤˋ ㄐㄧㄡˋ ㄒㄧㄤ ㄒㄧㄣˋ ㄌㄜ˙ ㄉㄜ˙ ㄉㄢ ㄔㄨㄣˊ ㄉㄜ˙ ㄖㄣˊ.',
+            pinyin: 'sui1 ran2 mi2 xin4, dan4 shi4 ta1 shi4 ma3 shang4 jiu4 xiang1 xin4 le de dan1 chun2 de ren2.',
             translation: '彼は、 迷信でもすぐに信じてしまう素直な人です。',
             memo: '',
             changed: '☆'
@@ -549,7 +555,7 @@ export default {
             bopomofo: 'ㄔㄥˊ ㄕˋ ㄉㄜ˙ ㄈㄚ ㄓㄢˇ ㄙㄨㄟ ㄖㄢˊ ㄕˋ ㄏㄠˇ ㄕˋ, ㄉㄢˋ ㄕˋ ㄨㄛˇ ㄉㄨㄟˋ ㄕ ㄑㄩˋ ㄇㄧㄣˊ ㄗㄨˊ ㄉㄨˊ ㄊㄜˋ ㄨㄣˊ ㄏㄨㄚˋ ㄍㄢˇ ㄉㄠˋ ㄧˊ ㄏㄢˋ.',
             pinyin: 'cheng2 shi4 de fa1 zhan3 sui1 ran2 shi4 hao3 shi4, dan4 shi4 wo3 dui4 shi1 qu4 min2 zu2 du2 te4 wen2 hua4 gan3 dao4 yi2 han4.',
             translation: '街の発展は良い事ですが、 民族独自の文化が失われるのは少し寂しい気もします。',
-            memo: '※「遺憾」「複雜」「難過」。',
+            memo: '',
             changed: '☆'
           },
           {
@@ -579,11 +585,12 @@ export default {
           },
           {
             word: '團聚',
-            sentence: '同學們都很期待著十年來的第一次團聚。',
-            bopomofo: 'ㄊㄨㄥˊ ㄒㄩㄝˊ ㄇㄣ˙ ㄉㄡ ㄏㄣˇ ㄑㄧ ㄉㄞˋ ㄓㄜ˙ ㄕˊ ㄋㄧㄢˊ ㄌㄞˊ ㄉㄜ˙ ㄉㄧˋ ㄧ ㄘˋ ㄊㄨㄢˊ ㄐㄩˋ.',
-            pinyin: 'tong2 xue2 men dou1 hen3 qi1 dai4 zhe shi2 nian2 lai2 de di4 yi1 ci4 tuan2 ju4.',
-            translation: '同級生たちはみんな、 10年ぶりの再会を楽しみにしています。',
-            memo: ''
+            sentence: '過節的時候分開住的家人都團聚在一起。',
+            bopomofo: 'ㄍㄨㄛˋ ㄐㄧㄝˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄈㄣ ㄎㄞ ㄓㄨˋ ㄉㄜ˙ ㄐㄧㄚ ㄖㄣˊ ㄉㄡ ㄊㄨㄢˊ ㄐㄩˋ ㄗㄞˋ ㄧ ㄑㄧˇ.',
+            pinyin: 'guo4 jie2 de shi2 hou4 fen1 kai1 zhu4 de jia1 ren2 dou1 tuan2 ju4 zai4 yi1 qi3.',
+            translation: '休日には、 離れて暮らしている家族みんなが再会します。',
+            memo: '',
+            changed: '☆'
           },
           {
             word: '月餅',
@@ -636,12 +643,12 @@ export default {
             memo: ''
           },
           {
-            word: '★雄黄酒',
+            word: '雄黄酒',
             sentence: '在端午節的時候喝的雄黄酒的作用作為一種解毒劑。',
             bopomofo: 'ㄗㄞˋ ㄉㄨㄢ ㄨˇ ㄐㄧㄝˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄏㄜ ㄉㄜ˙ ㄒㄩㄥˊ ㄏㄨㄤˊ ㄐㄧㄡˇ ㄉㄜ˙ ㄗㄨㄛˋ ㄩㄥˋ ㄗㄨㄛˋ ㄨㄟˊ ㄧ ㄓㄨㄥˇ ㄐㄧㄝˇ ㄉㄨˊ ㄐㄧˋ.',
             pinyin: 'zai4 duan1 wu3 jie2 de shi2 hou4 he1 de xiong2 huang2 jiu3 de zuo4 yong4 zuo4 wei2 yi1 zhong3 jie3 du2 ji4.',
             translation: '端午の節句の時に飲まれる雄黄酒は、 一種の解毒剤としての働きをします。',
-            memo: '※「作為(ㄗㄨㄛˋ ㄨㄟˊ)」の発音?',
+            memo: '',
             changed: '☆'
           },
           {
