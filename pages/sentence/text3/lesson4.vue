@@ -101,21 +101,21 @@ export default {
             changed: '☆'
           },
           {
-            word: '牆',
+            word: '★牆',
             sentence: '說到牆上的圖案， 你果然還是認為心形圖案很奇怪嗎?',
             bopomofo: 'ㄕㄨㄛ ㄉㄠˋ ㄑㄧㄤˊ ㄕㄤˋ ㄉㄜ˙ ㄊㄨˊ ㄢˋ, ㄋㄧˇ ㄍㄨㄛˇ ㄖㄢˊ ㄏㄞˊ ㄕˋ ㄖㄣˋ ㄨㄟˊ ㄒㄧㄣ ㄒㄧㄥˊ ㄊㄨˊ ㄢˋ ㄏㄣˇ ㄑㄧˊ ㄍㄨㄞˋ ㄇㄚ˙?',
             pinyin: 'shuo1 dao4 qiang2 shang4 de tu2 an4, ni3 guo3 ran2 hai2 shi4 ren4 wei2 xin1 xing2 tu2 an4 hen3 qi2 guai4 ma?',
             translation: '壁の模様についてなのですが、 やはりハート型は変だと思いますか?',
-            memo: '',
+            memo: '※「果然還是」 = 「やはり」?',
             changed: '☆'
           },
           {
-            word: '耐心',
+            word: '★耐心',
             sentence: '他很忍著不喝酒， 所以在他面前喝酒的話他會很可憐的。',
             bopomofo: 'ㄊㄚ ㄏㄣˇ ㄖㄣˇ ㄓㄜ˙ ㄅㄨˋ ㄏㄜ ㄐㄧㄡˇ, ㄙㄨㄛˇ ㄧˇ ㄗㄞˋ ㄊㄚ ㄇㄧㄢˋ ㄑㄧㄢˊ ㄏㄜ ㄐㄧㄡˇ ㄉㄜ˙ ㄏㄨㄚˋ ㄊㄚ ㄏㄨㄟˋ ㄏㄣˇ ㄎㄜˇ ㄌㄧㄢˊ ㄉㄜ˙.',
             pinyin: 'ta1 hen3 ren3 zhe bu4 he1 jiu3, suo3 yi3 zai4 ta1 mian4 qian2 he1 jiu3 de hua4 ta1 hui4 hen3 ke3 lian2 de.',
             translation: '彼は忍耐強く禁酒しているので、 彼の前で飲んだら可哀想ですよ。',
-            memo: '',
+            memo: '※「耐心(ㄋㄞˋ ㄒㄧㄣ/nai4 xin1)」は使えない?',
             changed: '☆'
           },
           {
@@ -181,7 +181,7 @@ export default {
           },
           {
             word: '理想',
-            sentence: '妳的理想太高了, 哪裏有那麼完美的男生?',
+            sentence: '妳的理想太高了, 哪裡有那麼完美的男生?',
             bopomofo: 'ㄋㄞˇ ㄉㄜ˙ ㄌㄧˇ ㄒㄧㄤˇ ㄊㄞˋ ㄍㄠ ㄌㄜ˙, ㄋㄚˇ ㄌㄧˇ ㄧㄡˇ ㄋㄚˋ ㄇㄜ˙ ㄨㄢˊ ㄇㄟˇ ㄉㄧˊ ㄋㄢˊ ㄕㄥ?',
             pinyin: 'ni3 de li3 xiang3 tai4 gao1 le, na3 li3 you3 na4 me wan2 mei3 de nan2 sheng1?',
             translation: 'あなたの理想は高すぎますよ、 どこにそんな完璧な男性がいるんですか?',
@@ -320,8 +320,8 @@ export default {
           {
             word: '校外教學',
             sentence: '校外教學的內容差不多都是參觀有歷史的建築。',
-            bopomofo: 'ㄒㄧㄠˋ ㄨㄞˋ ㄐㄧㄠˋ ㄒㄩㄝˊ ㄉㄜ˙ ㄋㄟˋ ㄖㄨㄥˊ ㄔㄚ ㄅㄨˋ ㄉㄨㄛ ㄉㄡ ㄕˋ ㄘㄢ ㄍㄨㄢ ㄧㄡˇ ㄌㄧˋ ㄕˇ ㄉㄜ˙ ㄐㄧㄢˋ ㄓㄨˋ.',
-            pinyin: 'xiao4 wai4 jiao4 xue2 de nei4 rong2 cha1 bu4 duo1 dou1 shi4 can1 guan1 you3 li4 shi3 de jian4 zhu4.',
+            bopomofo: 'ㄒㄧㄠˋ ㄨㄞˋ ㄐㄧㄠˋ ㄒㄩㄝˊ ㄉㄜ˙ ㄋㄟˋ ㄖㄨㄥˊ ㄔㄚ ㄅㄨˋ ㄉㄨㄛ ㄉㄡ ㄕˋ ㄘㄢ ㄍㄨㄢ ㄧㄡˇ ㄌㄧˋ ㄕˇ ㄉㄜ˙ ㄐㄧㄢˋ ㄓㄨˊ.',
+            pinyin: 'xiao4 wai4 jiao4 xue2 de nei4 rong2 cha1 bu4 duo1 dou1 shi4 can1 guan1 you3 li4 shi3 de jian4 zhu2.',
             translation: '校外学習の内容はほとんど全て、 歴史的建造物への訪問です。',
             memo: ''
           },
@@ -414,7 +414,7 @@ export default {
             word: '古蹟',
             sentence: '他的祖父愛好旅遊古蹟， 歷史知識很豐富。',
             bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄗㄨˇ ㄈㄨˋ ㄞˋ ㄏㄠˋ ㄌㄩˇ ㄧㄡˊ ㄍㄨˇ ㄐㄧ, ㄌㄧˋ ㄕˇ ㄓ ㄕˊ ㄏㄣˇ ㄈㄥ ㄈㄨˋ.',
-            pinyin: 'ta1 de zu3 fu4 ai4 hao3 lu3 you2 gu3 ji1, li4 shi3 zhi1 shi2 hen3 feng1 fu4.',
+            pinyin: 'ta1 de zu3 fu4 ai4 hao4 lu3 you2 gu3 ji1, li4 shi3 zhi1 shi2 hen3 feng1 fu4.',
             translation: '彼のおじいさんは史跡巡りが好きで、 歴史についてとても物知りです。',
             memo: ''
           },
@@ -482,7 +482,7 @@ export default {
             bopomofo: 'ㄧㄡˇ ㄍㄨㄥ ㄗㄨㄛˋ ㄉㄜ˙ ㄖˋ ㄗ˙ ㄇㄟˊ ㄧㄡˇ ㄕˊ ㄐㄧㄢ ㄔ ㄨˇ ㄘㄢ.',
             pinyin: 'you3 gong1 zuo4 de ri4 zi mei2 you3 shi2 jian1 chi1 wu3 can1.',
             translation: '仕事がある日は、 昼食をとる時間があまりありません。',
-            memo: '※「頓」の使い方?',
+            memo: '※「頓(ㄉㄨㄣˋ/dun4)」の使い方?',
             changed: '☆'
           },
           {
@@ -534,7 +534,7 @@ export default {
             bopomofo: 'ㄆㄥˊ ㄧㄡˇ ㄍㄟˇ ㄨㄛˇ ㄉㄜ˙ ㄧ ㄈㄨˊ ㄐㄧㄡˇ ㄔㄥˊ ㄒㄧㄣ   ㄨㄛˇ ㄏㄣˇ ㄍㄢˇ ㄒㄧㄝˋ. (ㄅㄨˋ ㄕㄥˋ ㄍㄢˇ ㄐㄧ).',
             pinyin: 'peng2 you3 gei3 wo3 de yi1 fu2 jiu3 cheng2 xin1, wo3 hen3 gan3 xie4. (bu2 sheng4 gan3 ji1).',
             translation: '友達がくれた服はほぼ新品で、 とても有難いです。',
-            memo: '※「欣賞」の使い方?',
+            memo: '※「欣賞(ㄒㄧㄣ ㄕㄤˇ/xin1 shang3)」の使い方?',
             changed: '☆'
           },
           {
