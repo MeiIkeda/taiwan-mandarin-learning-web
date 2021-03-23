@@ -69,7 +69,7 @@ export default {
             word: '★天燈',
             sentence: '你在天燈上會寫什麼願望? （你在天燈上會許什麼心願?）',
             bopomofo: 'ㄋㄧˇ ㄗㄞˋ ㄊㄧㄢ ㄉㄥ ㄕㄤˋ ㄏㄨㄟˋ ㄒㄧㄝˇ ㄕㄣˊ ㄇㄜ˙ ㄩㄢˋ ㄨㄤˋ? (ㄋㄧˇ ㄗㄞˋ ㄊㄧㄢ ㄉㄥ ㄕㄤˋ ㄏㄨㄟˋ ㄒㄩˇ ㄕㄣˊ ㄇㄜ˙ ㄒㄧㄣ ㄩㄢˋ)?',
-            pinyin: 'ni3 zai4 tian1 deng1 shang4 hui4 xie3 shen2 me yuan4 wang4? (ni3 zai4 tian1 deng1 shang4 hui4 xu3 shen2 me/mo2 xin1 yuan4?)',
+            pinyin: 'ni3 zai4 tian1 deng1 shang4 hui4 xie3 shen2 me yuan4 wang4? (ni3 zai4 tian1 deng1 shang4 hui4 xu3 shen2 me xin1 yuan4?)',
             translation: 'あなたはランタンにどんな願い事を書きますか?',
             memo: '※寫（動詞），許願也是動詞。',
             changed: '☆'
@@ -86,17 +86,17 @@ export default {
             word: '訊號',
             sentence: '大家都習慣了有手機的生活, 如果沒有訊號會覺得很困擾的。',
             bopomofo: 'ㄉㄚˋ ㄐㄧㄚ ㄉㄡ ㄒㄧˊ ㄍㄨㄢˋ ㄌㄜ˙ ㄧㄡˇ ㄕㄡˇ ㄐㄧ ㄉㄜ˙ ㄕㄥ ㄏㄨㄛˊ, ㄖㄨˊ ㄍㄨㄛˇ ㄇㄟˊ ㄧㄡˇ ㄒㄩㄣˋ ㄏㄠˋ ㄏㄨㄟˋ ㄐㄩㄝˊ ㄉㄜ˙ ㄏㄣˇ ㄎㄨㄣˋ ㄖㄠˇ ㄉㄜ˙.',
-            pinyin: 'da4 jia1 dou1 xi2 guan4 le you3 shou3 ji1 de sheng1 huo2, ru2 guo3 mei2 you3 xun4 hao4 hui4 jue2 de hen3 kun4 rao3 de',
+            pinyin: 'da4 jia1 dou1 xi2 guan4 le you3 shou3 ji1 de sheng1 huo2, ru2 guo3 mei2 you3 xun4 hao4 hui4 jue2 de hen3 kun4 rao3 de.',
             translation: '誰もが携帯のある生活に慣れてしまっているので、 電波が無いと困ります。',
             memo: '',
             changed: '☆'
           },
           {
             word: '元宵',
-            sentence: '元宵是個有名的節日, 連很多從外國來的也來看看。',
-            bopomofo: 'ㄩㄢˊ ㄒㄧㄠ ㄕˋ ㄍㄜˋ ㄧㄡˇ ㄇㄧㄥˊ ㄉㄜ˙ ㄐㄧㄝˊ ㄖˋ, ㄌㄧㄢˊ ㄏㄣˇ ㄉㄨㄛ ㄘㄨㄥˊ ㄨㄞˋ ㄍㄨㄛˊ ㄌㄞˊ ㄉㄜ˙ ㄧㄝˇ ㄌㄞˊ ㄎㄢˋ ㄎㄢˋ.',
-            pinyin: 'yuan2 xiao1 shi4 ge4 you3 ming2 de jie2 ri4, lian2 hen3 duo1 cong2 wai4 guo2 lai2 de ye3 lai2 kan4 kan4.',
-            translation: 'ランタンフェスティバルは有名なお祭りで、 海外からも多くの人が見に訪れます。',
+            sentence: '元宵節的時候吃的元宵跟湯圓有什麼不同?',
+            bopomofo: 'ㄩㄢˊ ㄒㄧㄠ ㄐㄧㄝˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄔ ㄉㄜ˙ ㄩㄢˊ ㄒㄧㄠ ㄍㄣ ㄊㄤ ㄩㄢˊ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄅㄨˋ ㄊㄨㄥˊ?',
+            pinyin: 'yuan2 xiao1 jie2 de shi2 hou4 chi1 de yuan2 xiao1 gen1 tang1 yuan2 you3 shen2 me bu4 tong2?',
+            translation: 'ランタンフェスティバルの時に食べる元宵と湯圓の違いは何ですか?',
             memo: '',
             changed: '☆'
           },
@@ -182,7 +182,7 @@ export default {
           {
             word: '理想',
             sentence: '妳的理想太高了, 哪裡有那麼完美的男生?',
-            bopomofo: 'ㄋㄞˇ ㄉㄜ˙ ㄌㄧˇ ㄒㄧㄤˇ ㄊㄞˋ ㄍㄠ ㄌㄜ˙, ㄋㄚˇ ㄌㄧˇ ㄧㄡˇ ㄋㄚˋ ㄇㄜ˙ ㄨㄢˊ ㄇㄟˇ ㄉㄧˊ ㄋㄢˊ ㄕㄥ?',
+            bopomofo: 'ㄋㄧˇ ㄉㄜ˙ ㄌㄧˇ ㄒㄧㄤˇ ㄊㄞˋ ㄍㄠ ㄌㄜ˙, ㄋㄚˇ ㄌㄧˇ ㄧㄡˇ ㄋㄚˋ ㄇㄜ˙ ㄨㄢˊ ㄇㄟˇ ㄉㄧˊ ㄋㄢˊ ㄕㄥ?',
             pinyin: 'ni3 de li3 xiang3 tai4 gao1 le, na3 li3 you3 na4 me wan2 mei3 de nan2 sheng1?',
             translation: 'あなたの理想は高すぎますよ、 どこにそんな完璧な男性がいるんですか?',
             memo: '',
@@ -225,7 +225,7 @@ export default {
           },
           {
             word: '煙火',
-            sentence: '煙花師們在從船上發射煙花。',
+            sentence: '煙火師們在從船上發射煙火。',
             bopomofo: 'ㄧㄢ　ㄏㄨㄛˇ ㄕ ㄇㄣ˙ ㄗㄞˋ ㄘㄨㄥˊ ㄔㄨㄢˊ ㄕㄤˋ ㄈㄚ ㄕㄜˋ ㄧㄢ　ㄏㄨㄛˇ.',
             pinyin: 'yan1 huo3 shi1 men zai4 cong2 chuan2 shang4 fa1 she4 yan1 huo3.',
             translation: '花火師たちは、 船から花火を打ち上げています。',
@@ -260,8 +260,8 @@ export default {
           {
             word: '★感覺',
             sentence: '春天的微風讓覺得我很舒爽。（爽快）。',
-            bopomofo: 'ㄔㄨㄣ ㄊㄧㄢ ㄉㄜ˙ ㄨㄟ ㄈㄥ ㄖㄤˋ ㄐㄩㄝˊ ㄉㄜ˙ ㄨㄛˇ ㄏㄣˇ ㄕㄨ ㄕㄨㄤˇ. (ㄕㄨㄤˇ ㄎㄨㄞˋ).',
-            pinyin: 'chun1 tian1 de wei1 feng1 rang4 jue2 de wo3 hen3 shu1 shuang3. (shuang3 kuai4).',
+            bopomofo: 'ㄔㄨㄣ ㄊㄧㄢ ㄉㄜ˙ ㄨㄟˊ ㄈㄥ ㄖㄤˋ ㄐㄩㄝˊ ㄉㄜ˙ ㄨㄛˇ ㄏㄣˇ ㄕㄨ ㄕㄨㄤˇ. (ㄕㄨㄤˇ ㄎㄨㄞˋ).',
+            pinyin: 'chun1 tian1 de wei2 feng1 rang4 jue2 de wo3 hen3 shu1 shuang3. (shuang3 kuai4).',
             translation: '春のそよ風が、 とてもさわやかな気分にさせてくれます。',
             memo: '※「讓我」?',
             changed: '☆'
@@ -302,11 +302,12 @@ export default {
           },
           {
             word: '元宵節',
-            sentence: '元宵節的時候吃的元宵跟湯圓有什麼不同?',
-            bopomofo: 'ㄩㄢˊ ㄒㄧㄠ ㄐㄧㄝˊ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄔ ㄉㄜ˙ ㄩㄢˊ ㄒㄧㄠ ㄍㄣ ㄊㄤ ㄩㄢˊ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄅㄨˋ ㄊㄨㄥˊ?',
-            pinyin: 'yuan2 xiao1 jie2 de shi2 hou4 chi1 de yuan2 xiao1 gen1 tang1 yuan2 you3 shen2 me bu4 tong2?',
-            translation: 'ランタンフェスティバルの時に食べる元宵と湯圓の違いは何ですか?',
-            memo: ''
+            sentence: '元宵是個有名的節日, 連很多從外國來的也來看看。',
+            bopomofo: 'ㄩㄢˊ ㄒㄧㄠ ㄐㄧㄝˊ ㄕˋ ㄍㄜˋ ㄧㄡˇ ㄇㄧㄥˊ ㄉㄜ˙ ㄐㄧㄝˊ ㄖˋ, ㄌㄧㄢˊ ㄏㄣˇ ㄉㄨㄛ ㄘㄨㄥˊ ㄨㄞˋ ㄍㄨㄛˊ ㄌㄞˊ ㄉㄜ˙ ㄧㄝˇ ㄌㄞˊ ㄎㄢˋ ㄎㄢˋ.',
+            pinyin: 'yuan2 xiao1 jie2 shi4 ge4 you3 ming2 de jie2 ri4, lian2 hen3 duo1 cong2 wai4 guo2 lai2 de ye3 lai2 kan4 kan4.',
+            translation: 'ランタンフェスティバルは有名なお祭りで、 海外からも多くの人が見に訪れます。',
+            memo: '',
+            changed: '☆'
           },
           {
             word: '孔廟',
@@ -320,8 +321,8 @@ export default {
           {
             word: '校外教學',
             sentence: '校外教學的內容差不多都是參觀有歷史的建築。',
-            bopomofo: 'ㄒㄧㄠˋ ㄨㄞˋ ㄐㄧㄠˋ ㄒㄩㄝˊ ㄉㄜ˙ ㄋㄟˋ ㄖㄨㄥˊ ㄔㄚ ㄅㄨˋ ㄉㄨㄛ ㄉㄡ ㄕˋ ㄘㄢ ㄍㄨㄢ ㄧㄡˇ ㄌㄧˋ ㄕˇ ㄉㄜ˙ ㄐㄧㄢˋ ㄓㄨˊ.',
-            pinyin: 'xiao4 wai4 jiao4 xue2 de nei4 rong2 cha1 bu4 duo1 dou1 shi4 can1 guan1 you3 li4 shi3 de jian4 zhu2.',
+            bopomofo: 'ㄒㄧㄠˋ ㄨㄞˋ ㄐㄧㄠ ㄒㄩㄝˊ ㄉㄜ˙ ㄋㄟˋ ㄖㄨㄥˊ ㄔㄚ ㄅㄨˋ ㄉㄨㄛ ㄉㄡ ㄕˋ ㄘㄢ ㄍㄨㄢ ㄧㄡˇ ㄌㄧˋ ㄕˇ ㄉㄜ˙ ㄐㄧㄢˋ ㄓㄨˊ.',
+            pinyin: 'xiao4 wai4 jiao1 xue2 de nei4 rong2 cha1 bu4 duo1 dou1 shi4 can1 guan1 you3 li4 shi3 de jian4 zhu2.',
             translation: '校外学習の内容はほとんど全て、 歴史的建造物への訪問です。',
             memo: ''
           },
