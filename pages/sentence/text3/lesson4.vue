@@ -302,7 +302,7 @@ export default {
           },
           {
             word: '元宵節',
-            sentence: '元宵是個有名的節日, 連很多從外國來的也來看看。',
+            sentence: '元宵節是個有名的節日, 連很多從外國來的也來看看。',
             bopomofo: 'ㄩㄢˊ ㄒㄧㄠ ㄐㄧㄝˊ ㄕˋ ㄍㄜˋ ㄧㄡˇ ㄇㄧㄥˊ ㄉㄜ˙ ㄐㄧㄝˊ ㄖˋ, ㄌㄧㄢˊ ㄏㄣˇ ㄉㄨㄛ ㄘㄨㄥˊ ㄨㄞˋ ㄍㄨㄛˊ ㄌㄞˊ ㄉㄜ˙ ㄧㄝˇ ㄌㄞˊ ㄎㄢˋ ㄎㄢˋ.',
             pinyin: 'yuan2 xiao1 jie2 shi4 ge4 you3 ming2 de jie2 ri4, lian2 hen3 duo1 cong2 wai4 guo2 lai2 de ye3 lai2 kan4 kan4.',
             translation: 'ランタンフェスティバルは有名なお祭りで、 海外からも多くの人が見に訪れます。',
