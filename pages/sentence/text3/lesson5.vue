@@ -50,11 +50,12 @@ export default {
           },
           {
             word: '唉',
-            sentence: '唉， 我剛剛喝的不是水而是醋!',
-            bopomofo: 'ㄞ， ㄨㄛˇ ㄍㄤ ㄍㄤ ㄏㄜ ㄉㄜ˙ ㄅㄨˊ ㄕˋ ㄕㄨㄟˇ ㄦˊ ㄕˋ ㄘㄨˋ!',
-            pinyin: 'ai1, wo3 gang1 gang1 he1 de bu2 shi4 shui3 er2 shi4 cu4!',
-            translation: 'うわっ、 水を飲んだと思ったらお酢でした!',
-            memo: ''
+            sentence: '唉， 今天整天貓不在家我真想念牠.',
+            bopomofo: 'ㄞ, ㄐㄧㄣ ㄊㄧㄢ ㄓㄥˇ ㄊㄧㄢ ㄇㄠ ㄅㄨˊ ㄗㄞˋ ㄐㄧㄚ ㄨㄛˇ ㄓㄣ ㄒㄧㄤˇ ㄋㄧㄢˋ ㄊㄚ.',
+            pinyin: 'ai1, jin1 tian1 zheng3 tian1 mao1 bu2 zai4 jia1 wo3 zhen1 xiang3 nian4 ta1.',
+            translation: 'はあ、 今日は一日中猫がいないので寂しいです。',
+            memo: '',
+            changed: '☆'
           },
           {
             word: '演唱會',
@@ -66,9 +67,9 @@ export default {
           },
           {
             word: '塞車',
-            sentence: '高速公路塞車塞了很久了, 司機在被弄得很煩。',
-            bopomofo: 'ㄍㄠ ㄙㄨˋ ㄍㄨㄥ ㄌㄨˋ ㄙㄞ ㄔㄜ ㄙㄞ ㄌㄜ˙ ㄏㄣˇ ㄐㄧㄡˇ ㄌㄜ˙, ㄙ ㄐㄧ ㄗㄞˋ ㄅㄟˋ ㄋㄨㄥˋ ㄉㄜ˙ ㄏㄣˇ ㄈㄢˊ.',
-            pinyin: 'gao1 su4 gong1 lu4 sai1 che1 sai1 le hen3 jiu3 le, si1 ji1 zai4 bei4 nong4 de hen3 fan2.',
+            sentence: '高速公路塞車塞了很久了, 司機被弄得很煩。',
+            bopomofo: 'ㄍㄠ ㄙㄨˋ ㄍㄨㄥ ㄌㄨˋ ㄙㄞ ㄔㄜ ㄙㄞ ㄌㄜ˙ ㄏㄣˇ ㄐㄧㄡˇ ㄌㄜ˙, ㄙ ㄐㄧ ㄅㄟˋ ㄋㄨㄥˋ ㄉㄜ˙ ㄏㄣˇ ㄈㄢˊ.',
+            pinyin: 'gao1 su4 gong1 lu4 sai1 che1 sai1 le hen3 jiu3 le, si1 ji1 bei4 nong4 de hen3 fan2.',
             translation: '高速道路は長い間渋滞していて、 運転手はイライラしています。',
             memo: '',
             changed: '☆'
@@ -125,11 +126,11 @@ export default {
           },
           {
             word: '迷',
-            sentence: '他對公仔太迷了，所以他女朋友跟他分手了。',
+            sentence: '他對公仔太迷了， 所以他女朋友跟他分手了。',
             bopomofo: 'ㄊㄚ ㄉㄨㄟˋ ㄍㄨㄥ ㄗㄞˇ ㄊㄞˋ ㄇㄧˊ ㄌㄜ˙, ㄙㄨㄛˇ ㄧˇ ㄊㄚ ㄋㄩˇ ㄆㄥˊ ㄧㄡˇ ㄍㄣ ㄊㄚ ㄈㄣ ㄕㄡˇ ㄌㄜ˙.',
             pinyin: 'ta1 dui4 gong1 zai3 tai4 mi2 le, suo3 yi3 ta1 nu3 peng2 you3 gen1 ta1 fen1 shou3 le.',
             translation: '彼はフィギュアを集める事に夢中になりすぎているので、 ガールフレンドから別れを告げられました。',
-            memo: '※「人形」 : 「公仔(ㄍㄨㄥ ㄗㄞˇ/gong1 zai3)」または「人物模型(ㄖㄣˊ ㄨˋ ㄇㄛˊ ㄒㄧㄥˊ /ren2 wu4 mo2 xing2)」',
+            memo: '※「人形」 : 「公仔(ㄍㄨㄥ ㄗㄞˇ/gong1 zai3, 香港由来の言葉)」または「人物模型(ㄖㄣˊ ㄨˋ ㄇㄛˊ ㄒㄧㄥˊ /ren2 wu4 mo2 xing2)」',
             changed: '☆'
           },
           {
@@ -151,9 +152,9 @@ export default {
           },
           {
             word: '不如',
-            sentence: '雖然所有的壽司都很好吃, 但是不如用海邊的新鮮魚做的。',
-            bopomofo: 'ㄙㄨㄟ ㄖㄢˊ ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄕㄡˋ ㄙ ㄉㄡ ㄏㄣˇ ㄏㄠˇ ㄔ, ㄉㄢˋ ㄕˋ ㄅㄨˋ ㄖㄨˊ ㄩㄥˋ ㄏㄞˇ ㄅㄧㄢ ㄉㄜ˙ ㄒㄧㄣ ㄒㄧㄢ ㄩˊ ㄗㄨㄛˋ ㄉㄜ˙.',
-            pinyin: 'sui1 ran2 suo3 you3 de shou4 si1 dou1 hen3 hao3 chi1, dan4 shi4 bu4 ru2 yong4 hai3 bian1 de xin1 xian1 yu2 zuo4 de.',
+            sentence: '雖然所有的壽司都很好吃, 但是不如用海邊新鮮的魚做的。',
+            bopomofo: 'ㄙㄨㄟ ㄖㄢˊ ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄕㄡˋ ㄙ ㄉㄡ ㄏㄣˇ ㄏㄠˇ ㄔ, ㄉㄢˋ ㄕˋ ㄅㄨˋ ㄖㄨˊ ㄩㄥˋ ㄏㄞˇ ㄅㄧㄢ ㄒㄧㄣ ㄒㄧㄢ ㄉㄜ˙　ㄩˊ ㄗㄨㄛˋ ㄉㄜ˙.',
+            pinyin: 'sui1 ran2 suo3 you3 de shou4 si1 dou1 hen3 hao3 chi1, dan4 shi4 bu4 ru2 yong4 hai3 bian1 xin1 xian1 de yu2 zuo4 de.',
             translation: 'お寿司はどれも美味しいですが、 海沿いの新鮮な魚を使ったものには敵いません。',
             memo: '「～に劣る」 : 「不如(ㄅㄨˋ ㄖㄨˊ/bu4 ru2)」または「比不上(ㄅㄧˇ ㄅㄨˊ ㄕㄤˇ/bi3 bu2 shang4)」。',
             changed: '☆'
@@ -195,9 +196,9 @@ export default {
           },
           {
             word: '漫畫',
-            sentence: '最近漫畫的內容很複雜了, 我得讀兩三遍才可以理解。',
-            bopomofo: 'ㄗㄨㄟˋ ㄐㄧㄣˋ ㄇㄢˋ ㄏㄨㄚˋ ㄉㄜ˙ ㄋㄟˋ ㄖㄨㄥˊ ㄏㄣˇ ㄈㄨˋ ㄗㄚˊ ㄌㄜ˙, ㄨㄛˇ ㄉㄟˇ ㄉㄨˊ ㄌㄧㄤˇ ㄙㄢ ㄅㄧㄢˋ ㄘㄞˊ ㄎㄜˇ ㄧˇ ㄌㄧˇ ㄐㄧㄝˇ.',
-            pinyin: 'zui4 jin4 man4 hua4 de nei4 rong2 hen3 fu4 za2 le, wo3 de du2 liang3 san1 bian4 cai2 ke3 yi3 li3 jie3.',
+            sentence: '最近漫畫的內容變複雜了, 我得讀兩三遍才可以理解。',
+            bopomofo: 'ㄗㄨㄟˋ ㄐㄧㄣˋ ㄇㄢˋ ㄏㄨㄚˋ ㄉㄜ˙ ㄋㄟˋ ㄖㄨㄥˊ ㄅㄧㄢˋ ㄈㄨˋ ㄗㄚˊ ㄌㄜ˙, ㄨㄛˇ ㄉㄟˇ ㄉㄨˊ ㄌㄧㄤˇ ㄙㄢ ㄅㄧㄢˋ ㄘㄞˊ ㄎㄜˇ ㄧˇ ㄌㄧˇ ㄐㄧㄝˇ.',
+            pinyin: 'zui4 jin4 man4 hua4 de nei4 rong2 bian4 fu4 za2 le, wo3 de du2 liang3 san1 bian4 cai2 ke3 yi3 li3 jie3.',
             translation: '最近の漫画はとても複雑なので、 理解するためには2、3回読まなくてはいけません。',
             memo: ''
           },
@@ -324,36 +325,36 @@ export default {
           },
           {
             word: '撞衫',
-            sentence: '在捷運我跟坐在我旁邊的人的襯衫撞衫了，很尷尬。',
-            bopomofo: 'ㄗㄞˋ ㄐㄧㄝˊ ㄩㄣˋ ㄨㄛˇ ㄍㄣ ㄗㄨㄛˋ ㄗㄞˋ ㄨㄛˇ ㄆㄤˊ ㄅㄧㄢ ㄉㄜ˙ ㄖㄣˊ ㄉㄜ˙ ㄔㄣˋ ㄕㄢ ㄓㄨㄤˋ ㄕㄢ ㄌㄜ˙, ㄏㄣˇ ㄍㄢ ㄍㄚˋ.',
-            pinyin: 'zai4 jie2 yun4 wo3 gen1 zuo4 zai4 wo3 pang2 bian1 de ren2 de chen4 shan1 zhuang4 shan1 le, hen3 gan1 ga4.',
-            translation: '電車で隣に座っている人とシャツがかぶってしまって、 とても気まずいです。',
+            sentence: '在捷運我跟坐在我旁邊的人撞衫了， 很尷尬。',
+            bopomofo: 'ㄗㄞˋ ㄐㄧㄝˊ ㄩㄣˋ ㄨㄛˇ ㄍㄣ ㄗㄨㄛˋ ㄗㄞˋ ㄨㄛˇ ㄆㄤˊ ㄅㄧㄢ ㄉㄜ˙ ㄖㄣˊ ㄓㄨㄤˋ ㄕㄢ ㄌㄜ˙, ㄏㄣˇ ㄍㄢ ㄍㄚˋ.',
+            pinyin: 'zai4 jie2 yun4 wo3 gen1 zuo4 zai4 wo3 pang2 bian1 de ren2 zhuang4 shan1 le, hen3 gan1 ga4.',
+            translation: '電車で隣に座っている人と服がかぶってしまって、 とても気まずいです。',
             memo: '',
             changed: '☆'
           },
           {
-            word: '★它',
-            sentence: '她很討厭恐怖電影, 我覺得你不要讓她看比較好。',
-            bopomofo: 'ㄊㄚ ㄏㄣˇ ㄊㄠˇ ㄧㄢˋ ㄎㄨㄥˇ ㄅㄨˋ ㄉㄧㄢˋ ㄧㄥˇ, ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄋㄧˇ ㄅㄨˊ ㄧㄠˋ ㄖㄤˋ ㄊㄚ ㄎㄢˋ ㄅㄧˇ ㄐㄧㄠˋ ㄏㄠˇ.',
-            pinyin: 'ta1 hen3 tao3 yan4 kong3 bu4 dian4 ying3, wo3 jue2 de ni3 bu2 yao4 rang4 ta1 kan4 bi3 jiao4 hao3.',
-            translation: '彼女はホラー映画が大嫌いなので、 それは彼女に見せない方がいいと思います。',
-            memo: '※「它」を使うには',
+            word: '它',
+            sentence: '現在開始喝啤酒， 把它拿出來吧!',
+            bopomofo: 'ㄒㄧㄢˋ ㄗㄞˋ ㄎㄞ ㄕˇ ㄏㄜ ㄆㄧˊ ㄐㄧㄡˇ, ㄅㄚˇ ㄊㄚ ㄋㄚˊ ㄔㄨ ㄌㄞˊ ㄅㄚ˙!',
+            pinyin: 'xian4 zai4 kai1 shi3 he1 pi2 jiu3, ba3 ta1 na2 chu1 lai2 ba!',
+            translation: 'さぁ、 ビールを飲み始めましょう!',
+            memo: '',
             changed: '☆'
           },
           {
             word: '塞',
-            sentence: '因為我們要去野餐, 她正在背包裡塞了很多零食。',
-            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄇㄣ˙ ㄧㄠˋ ㄑㄩˋ ㄧㄝˇ ㄘㄢ, ㄊㄚ ㄓㄥˋ ㄗㄞˋ ㄅㄟ ㄅㄠ ㄌㄧˇ ㄙㄞ ㄌㄜ˙ ㄏㄣˇ ㄉㄨㄛ ㄌㄧㄥˊ ㄕˊ.',
-            pinyin: 'yin1 wei4 wo3 men yao4 qu4 ye3 can1, ta1 zheng4 zai4 bei1 bao1 li3 sai1 le hen3 duo1 ling2 shi2.',
+            sentence: '因為我們要去野餐, 她正在往背包裡塞了很多零食。',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄇㄣ˙ ㄧㄠˋ ㄑㄩˋ ㄧㄝˇ ㄘㄢ, ㄊㄚ ㄓㄥˋ ㄗㄞˋ ㄨㄤˇ ㄅㄟ ㄅㄠ ㄌㄧˇ ㄙㄞ ㄌㄜ˙ ㄏㄣˇ ㄉㄨㄛ ㄌㄧㄥˊ ㄕˊ.',
+            pinyin: 'yin1 wei4 wo3 men yao4 qu4 ye3 can1, ta1 zheng4 zai4 wang3 bei1 bao1 li3 sai1 le hen3 duo1 ling2 shi2.',
             translation: 'ピクニックに行くので、 彼女はお菓子をたくさんバックパックに詰め込んでいます。',
             memo: '',
             changed: '☆'
           },
           {
             word: '當季',
-            sentence: '用當季的食材的料理最好吃。',
-            bopomofo: 'ㄩㄥˋ ㄉㄤ ㄐㄧˋ ㄉㄜ˙ ㄕˊ ㄘㄞˊ ㄉㄜ˙ ㄌㄧㄠˋ ㄌㄧˇ ㄗㄨㄟˋ ㄏㄠˇ ㄔ.',
-            pinyin: 'yong4 dang1 ji4 de shi2 cai2 de liao4 li3 zui4 hao3 chi1.',
+            sentence: '用當季的食材來料理最好吃。',
+            bopomofo: 'ㄩㄥˋ ㄉㄤ ㄐㄧˋ ㄉㄜ˙ ㄕˊ ㄘㄞˊ ㄌㄞˊ ㄌㄧㄠˋ ㄌㄧˇ ㄗㄨㄟˋ ㄏㄠˇ ㄔ.',
+            pinyin: 'yong4 dang1 ji4 de shi2 cai2 lai2 liao4 li3 zui4 hao3 chi1.',
             translation: '旬の食材を使った料理が一番おいしいです。',
             memo: ''
           },
@@ -380,15 +381,15 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄇㄣ˙ ㄐㄧㄚ ㄉㄜ˙ ㄓㄨˇ ㄐㄧㄠˇ ㄨˊ ㄧˊ ㄕˋ ㄇㄠ.',
             pinyin: 'wo3 men jia1 de zhu3 jiao3 wu2 yi2 shi4 mao1.',
             translation: '我が家の主役はまぎれもなく猫です。',
-            memo: ''
+            memo: '※「主角」の発音 : 台湾では「ㄓㄨˇ ㄐㄧㄠˇ/zhu3 jiao3」、 中国では「ㄓㄨˇ ㄐㄩㄝ/zhu3 jue2」が多い。'
           },
           {
-            word: '★甜美',
-            sentence: '所有的主人都認為他們的寵物是最可愛的。',
-            bopomofo: 'ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄓㄨˇ ㄖㄣˊ ㄉㄡ ㄖㄣˋ ㄨㄟˊ ㄊㄚ ㄇㄣ˙ ㄉㄜ˙ ㄔㄨㄥˇ ㄨˋ ㄕˋ ㄗㄨㄟˋ ㄎㄜˇ ㄞˋ ㄉㄜ˙.',
-            pinyin: 'suo3 you3 de zhu3 ren2 dou1 ren4 wei2 ta1 men de chong3 wu4 shi4 zui4 ke3 ai4 de.',
-            translation: '飼い主はみんな、 自分のペットが一番可愛いと思っています。',
-            memo: '※「甜美」を使うには',
+            word: '甜美',
+            sentence: '受歡迎的偶像， 她長得很甜美。',
+            bopomofo: 'ㄕㄡˋ ㄏㄨㄢ ㄧㄥˊ ㄉㄜ˙ ㄡˇ ㄒㄧㄤˋ, ㄊㄚ ㄓㄤˇ ㄉㄜ˙ ㄏㄣˇ ㄊㄧㄢˊ ㄇㄟˇ.',
+            pinyin: 'shou4 huan1 ying2 de ou3 xiang4, ta1 zhang3 de hen3 tian2 mei3.',
+            translation: '人気アイドルは、 とても可愛いです。',
+            memo: '',
             changed: '☆'
           },
           {
@@ -408,12 +409,12 @@ export default {
             memo: ''
           },
           {
-            word: '★害',
-            sentence: '他最喜歡的偶像的結婚了，害他喝一頓悶酒。',
-            bopomofo: 'ㄊㄚ ㄗㄨㄟˋ ㄒㄧˇ ㄏㄨㄢ ㄉㄜ˙ ㄡˇ ㄒㄧㄤˋ ㄉㄜ˙ ㄐㄧㄝˊ ㄏㄨㄣ ㄌㄜ˙, ㄏㄞˋ ㄊㄚ ㄏㄜ ㄧ ㄉㄨㄣˋ ㄇㄣˋ ㄐㄧㄡˇ.',
-            pinyin: 'ta1 zui4 xi3 huan1 de ou3 xiang4 de jie2 hun1 le, hai4 ta1 he1 yi1 dun4 men4 jiu3.',
+            word: '害',
+            sentence: '他最喜歡的偶像結婚了， 害他喝一頓悶酒。',
+            bopomofo: 'ㄊㄚ ㄗㄨㄟˋ ㄒㄧˇ ㄏㄨㄢ ㄉㄜ˙ ㄡˇ ㄒㄧㄤˋ ㄐㄧㄝˊ ㄏㄨㄣ ㄌㄜ˙, ㄏㄞˋ ㄊㄚ ㄏㄜ ㄧ ㄉㄨㄣˋ ㄇㄣˋ ㄐㄧㄡˇ.',
+            pinyin: 'ta1 zui4 xi3 huan1 de ou3 xiang4 jie2 hun1 le, hai4 ta1 he1 yi1 dun4 men4 jiu3.',
             translation: 'お気に入りのアイドルが結婚したので、 彼はやけ酒をしました。',
-            memo: '※「偶像的?」',
+            memo: '',
             changed: '☆'
           },
           {
@@ -487,11 +488,12 @@ export default {
           },
           {
             word: '產品',
-            sentence: '如果有可以把土豆皮自動剝的產品， 你會購買嗎?',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄧㄡˇ ㄎㄜˇ ㄧˇ ㄅㄚˇ ㄊㄨˇ ㄉㄡˋ ㄆㄧˊ ㄗˋ ㄉㄨㄥˋ ㄅㄛ ㄉㄜ˙ ㄔㄢˇ ㄆㄧㄣˇ, ㄋㄧˇ ㄏㄨㄟˋ ㄍㄡˋ ㄇㄞˇ ㄇㄚ˙?',
-            pinyin: 'ru2 guo3 you3 ke3 yi3 ba3 tu3 dou4 pi2 zi4 dong4 bo1 de chan3 pin3, ni3 hui4 gou4 mai3 ma?',
+            sentence: '如果有可以把馬鈴薯皮自動剝的產品， 你會購買嗎?',
+            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄧㄡˇ ㄎㄜˇ ㄧˇ ㄅㄚˇ ㄇㄚˇ ㄌㄧㄥˊ ㄕㄨˇ ㄆㄧˊ ㄗˋ ㄉㄨㄥˋ ㄅㄛ ㄉㄜ˙ ㄔㄢˇ ㄆㄧㄣˇ, ㄋㄧˇ ㄏㄨㄟˋ ㄍㄡˋ ㄇㄞˇ ㄇㄚ˙?',
+            pinyin: 'ru2 guo3 you3 ke3 yi3 ba3 ma3 ling2 shu3 pi2 zi4 dong4 bo1 de chan3 pin3, ni3 hui4 gou4 mai3 ma?',
             translation: 'もしジャガイモの皮を自動的に剥いてくれる製品があったら、 買いますか?',
-            memo: ''
+            memo: '',
+            changed: '☆'
           },
           {
             word: '電子',
