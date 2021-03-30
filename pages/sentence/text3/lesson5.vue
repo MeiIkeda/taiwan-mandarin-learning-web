@@ -100,11 +100,11 @@ export default {
           },
           {
             word: '樂團',
-            sentence: '他組成一支學生樂團, 在年輕人之間（當中）很受歡迎。',
-            bopomofo: 'ㄊㄚ ㄗㄨˇ ㄔㄥˊ ㄧ ㄓ ㄒㄩㄝˊ ㄕㄥ ㄩㄝˋ ㄊㄨㄢˊ, ㄗㄞˋ ㄋㄧㄢˊ ㄑㄧㄥ ㄖㄣˊ ㄓ ㄐㄧㄢ (ㄉㄤ ㄓㄨㄥ) ㄏㄣˇ ㄕㄡˋ ㄏㄨㄢ ㄧㄥˊ.',
-            pinyin: 'ta1 zu3 cheng2 yi1 zhi1 xue2 sheng1 yue4 tuan2, zai4 nian2 qing1 ren2 zhi1 jian1 (dang1 zhong1) hen3 shou4 huan1 ying2.',
+            sentence: '他組成一支學生樂團, 在年輕人之間很受歡迎。',
+            bopomofo: 'ㄊㄚ ㄗㄨˇ ㄔㄥˊ ㄧ ㄓ ㄒㄩㄝˊ ㄕㄥ ㄩㄝˋ ㄊㄨㄢˊ, ㄗㄞˋ ㄋㄧㄢˊ ㄑㄧㄥ ㄖㄣˊ ㄓ ㄐㄧㄢ ㄏㄣˇ ㄕㄡˋ ㄏㄨㄢ ㄧㄥˊ.',
+            pinyin: 'ta1 zu3 cheng2 yi1 zhi1 xue2 sheng1 yue4 tuan2, zai4 nian2 qing1 ren2 zhi1 jian1 hen3 shou4 huan1 ying2.',
             translation: '彼は学生バンドを組んでいて、 若者の間で非常に人気があります。',
-            memo: '',
+            memo: '※「之間(ㄓ ㄐㄧㄢ/zhi1 jian1)」 = 「當中(ㄉㄤ ㄓㄨㄥ/dang1 zhong1)」でも可。',
             changed: '☆'
           },
           {
@@ -161,7 +161,7 @@ export default {
           {
             word: '現場',
             sentence: '現代不必去現場, 你只要用網路差不多所有的事情在家都能辦到。',
-            bopomofo: 'ㄒㄧㄢˋ ㄉㄞˋ ㄅㄨˊ ㄅㄧˋ ㄑㄩˋ ㄒㄧㄢˋ ㄔㄤˇ, ㄋㄧˇ ㄓˇ ㄧㄠˋ ㄩㄥˋ ㄨㄤˇ ㄌㄨˋ ㄔㄚˋ ㄅㄨˋ ㄉㄨㄛ ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄕˋ ㄑㄧㄥˊ ㄗㄞˋ ㄐㄧㄚ ㄉㄡ ㄋㄥˊ ㄅㄢˋ ㄉㄠˋ.',
+            bopomofo: 'ㄒㄧㄢˋ ㄉㄞˋ ㄅㄨˊ ㄅㄧˋ ㄑㄩˋ ㄒㄧㄢˋ ㄔㄤˇ, ㄋㄧˇ ㄓˇ ㄧㄠˋ ㄩㄥˋ ㄨㄤˇ ㄌㄨˋ ㄔㄚ ㄅㄨˋ ㄉㄨㄛ ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄕˋ ㄑㄧㄥˊ ㄗㄞˋ ㄐㄧㄚ ㄉㄡ ㄋㄥˊ ㄅㄢˋ ㄉㄠˋ.',
             pinyin: 'xian4 dai4 bu2 bi4 qu4 xian4 chang3, ni3 zhi3 yao4 yong4 wang3 lu4 cha1 bu4 duo1 suo3 you3 de shi4 qing2 zai4 jia1 dou1 neng2 ban4 dao4.',
             translation: '今は現場に行かなくても、 ネットさえあれば大体の事は家で済ませられます。',
             memo: '',
@@ -196,7 +196,7 @@ export default {
           {
             word: '漫畫',
             sentence: '最近漫畫的內容很複雜了, 我得讀兩三遍才可以理解。',
-            bopomofo: 'ㄗㄨㄟˋ ㄐㄧㄣˋ ㄇㄢˋ ㄏㄨㄚˋ ㄉㄜ˙ ㄋㄟˋ ㄖㄨㄥˊ ㄏㄣˇ ㄈㄨˋ ㄗㄚˊ ㄌㄜ˙, ㄨㄛˇ ㄉㄜˊ ㄉㄨˊ ㄌㄧㄤˇ ㄙㄢ ㄅㄧㄢˋ ㄘㄞˊ ㄎㄜˇ ㄧˇ ㄌㄧˇ ㄐㄧㄝˇ.',
+            bopomofo: 'ㄗㄨㄟˋ ㄐㄧㄣˋ ㄇㄢˋ ㄏㄨㄚˋ ㄉㄜ˙ ㄋㄟˋ ㄖㄨㄥˊ ㄏㄣˇ ㄈㄨˋ ㄗㄚˊ ㄌㄜ˙, ㄨㄛˇ ㄉㄟˇ ㄉㄨˊ ㄌㄧㄤˇ ㄙㄢ ㄅㄧㄢˋ ㄘㄞˊ ㄎㄜˇ ㄧˇ ㄌㄧˇ ㄐㄧㄝˇ.',
             pinyin: 'zui4 jin4 man4 hua4 de nei4 rong2 hen3 fu4 za2 le, wo3 de du2 liang3 san1 bian4 cai2 ke3 yi3 li3 jie3.',
             translation: '最近の漫画はとても複雑なので、 理解するためには2、3回読まなくてはいけません。',
             memo: ''
@@ -327,7 +327,7 @@ export default {
             sentence: '在捷運我跟坐在我旁邊的人的襯衫撞衫了，很尷尬。',
             bopomofo: 'ㄗㄞˋ ㄐㄧㄝˊ ㄩㄣˋ ㄨㄛˇ ㄍㄣ ㄗㄨㄛˋ ㄗㄞˋ ㄨㄛˇ ㄆㄤˊ ㄅㄧㄢ ㄉㄜ˙ ㄖㄣˊ ㄉㄜ˙ ㄔㄣˋ ㄕㄢ ㄓㄨㄤˋ ㄕㄢ ㄌㄜ˙, ㄏㄣˇ ㄍㄢ ㄍㄚˋ.',
             pinyin: 'zai4 jie2 yun4 wo3 gen1 zuo4 zai4 wo3 pang2 bian1 de ren2 de chen4 shan1 zhuang4 shan1 le, hen3 gan1 ga4.',
-            translation: '電車で隣に座っている人とTシャツがかぶってしまって、 とても気まずいです。',
+            translation: '電車で隣に座っている人とシャツがかぶってしまって、 とても気まずいです。',
             memo: '',
             changed: '☆'
           },
@@ -585,7 +585,7 @@ export default {
             memo: ''
           },
           {
-            word: '淺蓝色',
+            word: '淺藍色',
             sentence: '淺藍色的天空下一朵雲也沒有。',
             bopomofo: 'ㄑㄧㄢˇ ㄌㄢˊ ㄙㄜˋ ㄉㄜ˙ ㄊㄧㄢ ㄎㄨㄥ ㄒㄧㄚˋ ㄧ ㄉㄨㄛˇ ㄩㄣˊ ㄧㄝˇ ㄇㄟˊ ㄧㄡˇ.',
             pinyin: 'qian3 lan2 se4 de tian1 kong1 xia4 yi1 duo3 yun2 ye3 mei2 you3.',
