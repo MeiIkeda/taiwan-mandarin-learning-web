@@ -92,7 +92,10 @@ export default {
       return 'success'
     },
     loadVoices () {
-      const voices = window.speechSynthesis.getVoices()
+      let voices = null
+      if (window.speechSynthesis != null) {
+        voices = window.speechSynthesis.getVoices()
+      }
       return voices
     }
   }
