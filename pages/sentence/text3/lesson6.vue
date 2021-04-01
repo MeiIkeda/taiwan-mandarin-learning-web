@@ -125,7 +125,7 @@ export default {
             sentence: '她一直談我不知道的連續劇, 聽下去得真辛苦。',
             bopomofo: 'ㄊㄚ ㄧ ㄓˊ ㄊㄢˊ ㄨㄛˇ ㄅㄨˋ ㄓ ㄉㄠˋ ㄉㄜ˙ ㄌㄧㄢˊ ㄒㄩˋ ㄐㄩˋ, ㄊㄧㄥ ㄒㄧㄚˋ ㄑㄩˋ ㄉㄜ˙ ㄓㄣ ㄒㄧㄣ ㄎㄨˇ.',
             pinyin: 'ta1 yi1 zhi2 tan2 wo3 bu4 zhi1 dao4 de lian2 xu4 ju4, ting1 xia4 qu4 de zhen1 xin1 ku3.',
-            translation: '彼女は私が知らない連続ドラマにつて話続けていて、 効き続けるのは疲れます。',
+            translation: '彼女は私が知らない連続ドラマについてずっと話しているので、 聞き続けるのは疲れます。',
             memo: ''
           },
           {
@@ -493,7 +493,7 @@ export default {
             sentence: '自然有很多無法人工創造的美。',
             bopomofo: 'ㄗˋ ㄖㄢˊ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄨˊ ㄈㄚˇ ㄖㄣˊ ㄍㄨㄥ ㄔㄨㄤˋ ㄗㄠˋ ㄉㄜ˙ ㄇㄟˇ.',
             pinyin: 'zi4 ran2 you3 hen3 duo1 wu2 fa3 ren2 gong1 chuang4 zao4 de mei3.',
-            translation: '自然には、 人工的には作り出せない美しさが存在します。',
+            translation: '自然には、 人工的には作り出せない美しさがあります。',
             memo: ''
           },
           {
