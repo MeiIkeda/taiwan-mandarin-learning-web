@@ -140,7 +140,7 @@ export default {
             word: '地位',
             sentence: '不必執著於什麼社會地位, 輕鬆的生活是最好的。',
             bopomofo: 'ㄅㄨˊ ㄅㄧˋ ㄓˊ ㄓㄨㄛˊ ㄩˊ ㄕㄣˊ ㄇㄜ˙ ㄕㄜˋ ㄏㄨㄟˋ ㄉㄧˋ ㄨㄟˋ, ㄑㄧㄥ ㄙㄨㄥ ㄉㄜ˙ ㄕㄥ ㄏㄨㄛˊ ㄕˋ ㄗㄨㄟˋ ㄏㄠˇ ㄉㄜ˙.',
-            pinyin: 'bu2 bi4 zhi2 zhuo2 yu2 shen2 me she4 hui4 di4 wei4, qing1 song4 de sheng1 huo2 shi4 zui4 hao3 de.',
+            pinyin: 'bu2 bi4 zhi2 zhuo2 yu2 shen2 me she4 hui4 di4 wei4, qing1 song1 de sheng1 huo2 shi4 zui4 hao3 de.',
             translation: '社会的地位に執着する必要はありません、 気楽な生活が一番です。',
             memo: '',
             changed: '☆'
@@ -416,7 +416,7 @@ export default {
           },
           {
             word: '★支持',
-            sentence: '他工作量增加了,有人可以支援他嗎?',
+            sentence: '他工作量增加了, 有人可以支援他嗎?',
             bopomofo: 'ㄊㄚ ㄍㄨㄥ ㄗㄨㄛˋ ㄌㄧㄤˋ ㄗㄥ ㄐㄧㄚ ㄌㄜ˙, ㄧㄡˇ ㄖㄣˊ ㄎㄜˇ ㄧˇ ㄓ ㄩㄢˊ ㄊㄚ ㄇㄚ˙?',
             pinyin: 'ta1 gong1 zuo4 liang4 zeng1 jia1 le, you3 ren2 ke3 yi3 zhi1 yuan2 ta1 ma?',
             translation: '彼の仕事量が増えているので、 誰かサポートできる人はいますか?',
@@ -424,12 +424,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '文章',
+            word: '★文章',
             sentence: '我很困， 文章的內容完全進不了腦袋裏。',
             bopomofo: 'ㄨㄛˇ ㄏㄣˇ ㄎㄨㄣˋ, ㄨㄣˊ ㄓㄤ ㄉㄜ˙ ㄋㄟˋ ㄖㄨㄥˊ ㄨㄢˊ ㄑㄩㄢˊ ㄐㄧㄣˋ ㄅㄨˋ ㄌㄧㄠˇ ㄋㄠˇ ㄉㄞˋ ㄌㄧˇ.',
             pinyin: 'wo3 hen3 kun4, wen2 zhang1 de nei4 rong2 wan2 quan2 jin4 bu4 liao3 nao3 dai4 li3.',
             translation: 'とても眠いので、 記事の内容が全く頭に入ってきません。',
-            memo: '',
+            memo: '※「裏」でOK?',
             changed: '☆'
           },
           {
@@ -547,12 +547,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '休閒',
+            word: '★休閒',
             sentence: '如果我事先知道派對的氣氛那麼休閒, 我就不會穿西裝了。',
             bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄛˇ ㄕˋ ㄒㄧㄢ ㄓ ㄉㄠˋ ㄆㄞˋ ㄉㄨㄟˋ ㄉㄜ˙ ㄑㄧˋ ㄈㄣ ㄋㄚˋ ㄇㄜ˙ ㄒㄧㄡ ㄒㄧㄢˊ, ㄨㄛˇ ㄐㄧㄡˋ ㄅㄨˊ ㄏㄨㄟˋ ㄔㄨㄢ ㄒㄧ ㄓㄨㄤ ㄌㄜ˙.',
             pinyin: 'ru2 guo3 wo3 shi4 xian1 zhi1 dao4 pai4 dui4 de qi4 fen1 na4 me xiu1 xian2, wo3 jiu4 bu2 hui4 chuan1 xi1 zhuang1 le.',
             translation: 'カジュアルな雰囲気のパーティだと事前に知っていたら、 スーツは着てこなかったのですが。',
-            memo: '',
+            memo: '※「休閒」 = 「余暇の」？ 「カジュアル」ではない？',
             changed: '☆'
           },
           {
