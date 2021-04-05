@@ -38,13 +38,13 @@ export default {
     return {
       // 単語数：65
       data: {
-        title: '當代中文課程課3・第5章',
+        title: '當代中文課程課3・第6章',
         words: [
           {
             word: '李文彥',
             sentence: '李文彥不但常被別人騙, 還常把東西弄丟。',
             bopomofo: 'ㄌㄧˇ ㄨㄣˊ ㄧㄢˋ ㄅㄨˊ  ㄉㄢˋ ㄔㄤˊ ㄅㄟˋ ㄅㄧㄝˊ ㄖㄣˊ ㄆㄧㄢˋ, ㄏㄞˊ ㄔㄤˊ ㄅㄚˇ ㄉㄨㄥ ㄒㄧ ㄋㄨㄥˋ ㄉㄧㄡ.',
-            pinyin: 'li3 wen2 yan4 bu2 dan4 chang2 bei4 bie2 ren2 pian4, hai2 chang2 ba3 dong1 xi1 nong4 diu1.',
+            pinyin: 'li3 wen2 yan4 bu2 dan4 chang2 bei4 bie2 ren2 pian4, hai2 chang2 ba3 dong1 xi nong4 diu1.',
             translation: '李文彥は騙されやすいだけではなく、 よく物も失くします。',
             memo: ''
           },
@@ -112,8 +112,8 @@ export default {
           {
             word: '天然',
             sentence: '味道好的話， 天然的魚或是養殖的我都不講究。',
-            bopomofo: 'ㄨㄟˋ ㄉㄠˋ ㄏㄠˇ ㄉㄜ˙ ㄏㄨㄚˋ, ㄊㄧㄢ ㄖㄢˊ ㄉㄜ˙ ㄩˊ ㄏㄨㄛˋ ㄕˋ ㄧㄤˇ ㄓˊ ㄉㄜ˙ ㄨㄛˇ ㄉㄡ ㄅㄨˋ ㄐㄧㄤˇ ㄐㄧㄡ.',
-            pinyin: 'wei4 dao4 hao3 de hua4, tian1 ran2 de yu2 huo4 shi4 yang3 zhi2 de wo3 dou1 bu4 jiang3 jiu1.',
+            bopomofo: 'ㄨㄟˋ ㄉㄠˋ ㄏㄠˇ ㄉㄜ˙ ㄏㄨㄚˋ, ㄊㄧㄢ ㄖㄢˊ ㄉㄜ˙ ㄩˊ ㄏㄨㄛˋ ㄕˋ ㄧㄤˇ ㄓˊ ㄉㄜ˙ ㄨㄛˇ ㄉㄡ ㄅㄨˋ ㄐㄧㄤˇ ㄐㄧㄡˋ.',
+            pinyin: 'wei4 dao4 hao3 de hua4, tian1 ran2 de yu2 huo4 shi4 yang3 zhi2 de wo3 dou1 bu4 jiang3 jiu4.',
             translation: '美味しければ、 天然魚か養殖魚かは気にしません。',
             memo: '',
             changed: '☆'
@@ -132,7 +132,7 @@ export default {
             sentence: '她一直談我不知道的連續劇, 聽得我都覺得累了。',
             bopomofo: 'ㄊㄚ ㄧ ㄓˊ ㄊㄢˊ ㄨㄛˇ ㄅㄨˋ ㄓ ㄉㄠˋ ㄉㄜ˙ ㄌㄧㄢˊ ㄒㄩˋ ㄐㄩˋ, ㄊㄧㄥ ㄉㄜ˙ ㄨㄛˇ ㄉㄡ ㄐㄩㄝˊ ㄉㄜ˙ ㄌㄟˋ ㄌㄜ˙.',
             pinyin: 'ta1 yi1 zhi2 tan2 wo3 bu4 zhi1 dao4 de lian2 xu4 ju4, ting1 de wo3 dou1 jue2 de lei4 le.',
-            translation: '彼女は私が知らない連続ドラマについてずっと話しているので、 聞き続けるのは疲れます。',
+            translation: '彼女は私が知らない連続ドラマについてずっと話しているので、 聞くのは疲れます。',
             memo: '※「聽得我都覺得累了(ㄊㄧㄥ ㄉㄜ˙ ㄨㄛˇ ㄉㄡ ㄐㄩㄝˊ ㄉㄜ˙ ㄌㄟˋ ㄌㄜ˙/ting1 de wo3 dou1 jue2 de lei4 le)」 =　「我聽得很辛苦」(ㄨㄛˇ ㄊㄧㄥ ㄉㄜ˙ ㄏㄣˇ ㄒㄧㄣ ㄎㄨˇ/wo3 ting1 de hen3 xin1 ku3)でも可',
             changed: '☆'
           },
@@ -312,9 +312,9 @@ export default {
           },
           {
             word: '★看天吃飯',
-            sentence: '他每天過著拮据的生活, 希望他能找到好工作。',
-            bopomofo: 'ㄊㄚ ㄇㄟˇ ㄊㄧㄢ ㄍㄨㄛˋ ㄓㄜ˙ ㄐㄧㄝˊ ㄐㄩ ㄉㄜ˙ ㄕㄥ ㄏㄨㄛˊ, ㄒㄧ ㄨㄤˋ ㄊㄚ ㄋㄥˊ ㄓㄠˇ ㄉㄠˋ ㄏㄠˇ ㄍㄨㄥ ㄗㄨㄛˋ.',
-            pinyin: 'ta1 mei3 tian1 guo4 zhe jie2 ju4 de sheng1 huo2, xi1 wang4 ta1 neng2 zhao3 dao4 hao3 gong1 zuo4.',
+            sentence: '他每天過著拮据的生活, 大家都希望他能找到好工作。',
+            bopomofo: 'ㄊㄚ ㄇㄟˇ ㄊㄧㄢ ㄍㄨㄛˋ ㄓㄜ˙ ㄐㄧㄝˊ ㄐㄩ ㄉㄜ˙ ㄕㄥ ㄏㄨㄛˊ, ㄉㄚˋ ㄐㄧㄚ ㄉㄡ ㄒㄧ ㄨㄤˋ ㄊㄚ ㄋㄥˊ ㄓㄠˇ ㄉㄠˋ ㄏㄠˇ ㄍㄨㄥ ㄗㄨㄛˋ.',
+            pinyin: 'ta1 mei3 tian1 guo4 zhe jie2 ju4 de sheng1 huo2, da4 jia1 dou1 xi1 wang4 ta1 neng2 zhao3 dao4 hao3 gong1 zuo4.',
             translation: '彼はその日暮らしの生活をしているので、 みんな彼が良い仕事を見つけるよう祈っています。',
             memo: '※「拮据(ㄐㄧㄝˊ ㄐㄩ/jie2 ju4)」？ 「看天吃飯」？',
             changed: '☆'
@@ -347,12 +347,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '產地',
+            word: '★產地',
             sentence: '小學教科書中也提到了該地區是花生的產地。',
             bopomofo: 'ㄒㄧㄠˇ ㄒㄩㄝˊ ㄐㄧㄠˋ ㄎㄜ ㄕㄨ ㄓㄨㄥ ㄧㄝˇ ㄊㄧˊ ㄉㄠˋ ㄌㄜ˙ ㄍㄞ ㄉㄧˋ ㄑㄩ ㄕˋ ㄏㄨㄚ ㄕㄥ ㄉㄜ˙ ㄔㄢˇ ㄉㄧˋ.',
             pinyin: 'xiao3 xue2 jiao4 ke1 shu1 zhong1 ye3 ti2 dao4 le gai1 di4 qu1 shi4 hua1 sheng1 de chan3 di4.',
-            translation: 'この辺りがピーナッツの産地だという事は、小学校の教科書にも載っています。',
-            memo: '※「花生」：台湾華語でピーナッツ。 ちなみにピーナッツは台湾語では「土豆」 だが、 同じ漢字で中国では「ジャガイモ」となる。'
+            translation: 'その辺りがピーナッツの産地だという事は、小学校の教科書にも載っています。',
+            memo: '※「教科書」の発音？ 「花生」：台湾華語でピーナッツ。 ちなみにピーナッツは台湾語では「土豆」 だが、 同じ漢字で中国では「ジャガイモ」となる。'
           },
           {
             word: '盡量',
@@ -373,7 +373,7 @@ export default {
           {
             word: '對待',
             sentence: '如果你好好地對待衣服, 可以穿得久一點。',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄏㄠˇ ㄏㄠˇ ㄉㄜ˙ ㄉㄨㄟˋ ㄉㄞˋ ㄧ ㄈㄨˊ, ㄎㄜˇ ㄧˇ ㄔㄨㄢ ㄉㄜ˙ ㄐㄧㄡˇ ㄧˋ ㄉㄧㄢˇ.',
+            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄏㄠˇ ㄏㄠˇ ㄉㄜ˙ ㄉㄨㄟˋ ㄉㄞˋ ㄧ ㄈㄨˊ, ㄎㄜˇ ㄧˇ ㄔㄨㄢ ㄉㄜ˙ ㄐㄧㄡˇ ㄧ ㄉㄧㄢˇ.',
             pinyin: 'ru2 guo3 ni3 hao3 hao3 de dui4 dai4 yi1 fu2, ke3 yi3 chuan1 de jiu3 yi1 dian3.',
             translation: 'きちんと取り扱えば、 服は長く着られますよ。',
             memo: '',
@@ -454,7 +454,7 @@ export default {
             word: '★師傅',
             sentence: '西點師傅教了弟子怎麼把奶油打到蓬鬆。',
             bopomofo: 'ㄒㄧ ㄉㄧㄢˇ ㄕ ㄈㄨ ㄐㄧㄠ ㄌㄜ˙ ㄉㄧˋ ㄗˇ ㄗㄣˇ ㄇㄜ˙ ㄅㄚˇ ㄋㄞˇ ㄧㄡˊ ㄉㄚˇ ㄉㄠˋ ㄆㄥˊ ㄙㄨㄥ.',
-            pinyin: 'xi1 dian3 shi1 fu4 jiao1 le di4 zi3 zen3 me ba3 nai3 you2 da3 dao4 peng2 song4.',
+            pinyin: 'xi1 dian3 shi1 fu4 jiao1 le di4 zi3 zen3 me ba3 nai3 you2 da3 dao4 peng2 song1.',
             translation: 'パティシエの師匠は、 弟子たちにホイップクリームのふわふわな泡立て方を教えました。',
             memo: '※「弟子(ㄉㄧˋ ㄗˇ)」の発音？',
             changed: '☆'
@@ -488,8 +488,8 @@ export default {
           {
             word: '拜訪',
             sentence: '叔叔拜訪的時候他總是帶酒來， 所以今晚會宴會。',
-            bopomofo: 'ㄕㄨ ㄕㄨ ㄅㄞˋ ㄈㄤˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄊㄚ ㄗㄨㄥˇ ㄕˋ ㄉㄞˋ ㄐㄧㄡˇ ㄌㄞˊ, ㄙㄨㄛˇ ㄧˇ ㄐㄧㄣ ㄨㄢˇ ㄏㄨㄟˋ ㄧㄢˋ ㄏㄨㄟˋ.',
-            pinyin: 'shu1 shu1 bai4 fang3 de shi2 hou4 ta1 zong3 shi4 dai4 jiu3 lai2, suo3 yi3 jin1 wan3 hui4 yan4 hui4.',
+            bopomofo: 'ㄕㄨˊ ㄕㄨ˙ ㄅㄞˋ ㄈㄤˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄊㄚ ㄗㄨㄥˇ ㄕˋ ㄉㄞˋ ㄐㄧㄡˇ ㄌㄞˊ, ㄙㄨㄛˇ ㄧˇ ㄐㄧㄣ ㄨㄢˇ ㄏㄨㄟˋ ㄧㄢˋ ㄏㄨㄟˋ.',
+            pinyin: 'shu2 shu bai4 fang3 de shi2 hou4 ta1 zong3 shi4 dai4 jiu3 lai2, suo3 yi3 jin1 wan3 hui4 yan4 hui4.',
             translation: 'おじさんが訪ねてくる時はいつもお酒を持ってくるので、 今夜は宴会です。',
             memo: ''
           },
@@ -599,18 +599,18 @@ export default {
             changed: '☆'
           },
           {
-            word: '出問題',
-            sentence: '新發售的商品出問題, 客戶的查詢蜂擁而至。',
+            word: '★出問題',
+            sentence: '★新發售的商品出問題, 客戶的查詢蜂擁而至。',
             bopomofo: 'ㄒㄧㄣ ㄈㄚ ㄕㄡˋ ㄉㄜ˙ ㄕㄤ ㄆㄧㄣˇ ㄔㄨ ㄨㄣˋ ㄊㄧˊ, ㄎㄜˋ ㄏㄨˋ ㄉㄜ˙ ㄔㄚˊ ㄒㄩㄣˊ ㄈㄥ ㄩㄥ ㄦˊ ㄓˋ.',
             pinyin: 'xin1 fa1 shou4 de shang1 pin3 chu1 wen4 ti2, ke4 hu4 de cha2 xun2 feng1 yong1 er2 zhi4.',
             translation: '新しく発売した商品に問題があったため、 お客さんからの問い合わせが殺到しています。',
-            memo: ''
+            memo: '※「蜂擁而至」の発音？'
           },
           {
             word: '一方面',
             sentence: '他並不是討厭工作, 而是一方面他想每天輕鬆生活。',
             bopomofo: 'ㄊㄚ ㄅㄧㄥˋ ㄅㄨˊ ㄕˋ ㄊㄠˇ ㄧㄢˋ ㄍㄨㄥ ㄗㄨㄛˋ, ㄦˊ ㄕˋ ㄧ ㄈㄤ ㄇㄧㄢˋ ㄊㄚ ㄒㄧㄤˇ ㄇㄟˇ ㄊㄧㄢ ㄑㄧㄥ ㄙㄨㄥ ㄕㄥ ㄏㄨㄛˊ.',
-            pinyin: 'ta1 bing4 bu2 shi4 tao3 yan4 gong1 zuo4, er2 shi4 yi1 fang1 mian4 ta1 xiang3 mei3 tian1 qing1 song4 sheng1 huo2.',
+            pinyin: 'ta1 bing4 bu2 shi4 tao3 yan4 gong1 zuo4, er2 shi4 yi1 fang1 mian4 ta1 xiang3 mei3 tian1 qing1 song1 sheng1 huo2.',
             translation: '彼は仕事が嫌いではありませんが、 一方で毎日ゴロゴロして暮らしたいと思っています。',
             memo: '',
             changed: '☆'
