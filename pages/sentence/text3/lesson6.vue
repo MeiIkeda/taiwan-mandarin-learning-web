@@ -133,7 +133,7 @@ export default {
             bopomofo: 'ㄊㄚ ㄧ ㄓˊ ㄊㄢˊ ㄨㄛˇ ㄅㄨˋ ㄓ ㄉㄠˋ ㄉㄜ˙ ㄌㄧㄢˊ ㄒㄩˋ ㄐㄩˋ, ㄊㄧㄥ ㄉㄜ˙ ㄨㄛˇ ㄉㄡ ㄐㄩㄝˊ ㄉㄜ˙ ㄌㄟˋ ㄌㄜ˙.',
             pinyin: 'ta1 yi1 zhi2 tan2 wo3 bu4 zhi1 dao4 de lian2 xu4 ju4, ting1 de wo3 dou1 jue2 de lei4 le.',
             translation: '彼女は私が知らない連続ドラマについてずっと話しているので、 聞くのは疲れます。',
-            memo: '※「聽得我都覺得累了(ㄊㄧㄥ ㄉㄜ˙ ㄨㄛˇ ㄉㄡ ㄐㄩㄝˊ ㄉㄜ˙ ㄌㄟˋ ㄌㄜ˙/ting1 de wo3 dou1 jue2 de lei4 le)」 =　「我聽得很辛苦」(ㄨㄛˇ ㄊㄧㄥ ㄉㄜ˙ ㄏㄣˇ ㄒㄧㄣ ㄎㄨˇ/wo3 ting1 de hen3 xin1 ku3)でも可',
+            memo: '※「聽得我都覺得累了(ㄊㄧㄥ ㄉㄜ˙ ㄨㄛˇ ㄉㄡ ㄐㄩㄝˊ ㄉㄜ˙ ㄌㄟˋ ㄌㄜ˙/ting1 de wo3 dou1 jue2 de lei4 le)」 = 「我聽得很辛苦」(ㄨㄛˇ ㄊㄧㄥ ㄉㄜ˙ ㄏㄣˇ ㄒㄧㄣ ㄎㄨˇ/wo3 ting1 de hen3 xin1 ku3)でも可。',
             changed: '☆'
           },
           {
@@ -195,7 +195,7 @@ export default {
             bopomofo: 'ㄉㄨㄟˋ ㄩˊ ㄇㄡˇ ㄒㄧㄝ ㄖㄣˊ ㄌㄞˊ ㄕㄨㄛ, ㄏㄣˇ ㄋㄢˊ ㄐㄧㄝ ㄕㄡˋ ㄖㄜˋ ㄉㄞˋ ㄑㄧˋ ㄏㄡˋ ㄉㄜ˙ ㄍㄠ ㄨㄣ ㄏㄢˋ ㄔㄠˊ ㄕ.',
             pinyin: 'dui4 yu2 mou3 xie1 ren2 lai2 shuo1, hen3 nan2 jie1 shou4 re4 dai4 qi4 hou4 de gao1 wen1 han4 chao2 shi1.',
             translation: '人によっては、 熱帯気候の暑さと湿気は耐えがたいです。',
-            memo: '※「對於(ㄉㄨㄟˋ ㄩˊ/dui4 yu2)」 : 「～に対して、 ～について」、 「某些(ㄇㄡˇ ㄒㄧㄝ/mou3 xie1)」 : 「いくらかの、 一部の」'
+            memo: '※「對於(ㄉㄨㄟˋ ㄩˊ/dui4 yu2)」 : 「～に対して、 ～について」、 「某些(ㄇㄡˇ ㄒㄧㄝ/mou3 xie1)」 : 「いくらかの、 一部の」。'
           },
           {
             word: '長',
@@ -577,7 +577,7 @@ export default {
             bopomofo: 'ㄐㄧˊ ㄕˇ ㄅㄨˊ ㄕˋ ㄕㄥ ㄏㄨㄛˊ ㄅㄧˋ ㄒㄩ ㄆㄧㄣˇ, ㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄨㄛˇ ㄧㄝˇ ㄏㄨㄟˋ ㄔㄨㄥ ㄉㄨㄥˋ ㄒㄧㄠ ㄈㄟˋ.',
             pinyin: 'ji2 shi3 bu2 shi4 sheng1 huo2 bi4 xu1 pin3, you3 de shi2 hou4 wo3 ye3 hui4 chong1 dong4 xiao1 fei4.',
             translation: '生活必需品でなくても、 衝動買いしてしまう事がたまにあります。',
-            memo: '※「即使⋯也⋯」。',
+            memo: '※「即使..., 也～」 : 「...だとしても～」。',
             changed: '☆'
           },
           {
