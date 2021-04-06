@@ -66,21 +66,21 @@ export default {
             memo: ''
           },
           {
-            word: '★種',
-            sentence: '我種了的一棵樹看起來快要結實了。',
-            bopomofo: 'ㄨㄛˇ ㄓㄨㄥˋ ㄌㄜ˙ ㄉㄜ˙ ㄧ ㄎㄜ ㄕㄨˋ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄎㄨㄞˋ ㄧㄠˋ ㄐㄧㄝˊ ㄕˊ ㄌㄜ˙.',
-            pinyin: 'wo3 zhong4 le de yi1 ke1 shu4 kan4 qi3 lai2 kuai4 yao4 jie2 shi2 le.',
+            word: '種',
+            sentence: '我種了的一棵樹看起來快要結果了。',
+            bopomofo: 'ㄨㄛˇ ㄓㄨㄥˋ ㄌㄜ˙ ㄉㄜ˙ ㄧ ㄎㄜ ㄕㄨˋ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄎㄨㄞˋ ㄧㄠˋ ㄐㄧㄝˊ ㄍㄨㄛˇ ㄌㄜ˙.',
+            pinyin: 'wo3 zhong4 le de yi1 ke1 shu4 kan4 qi3 lai2 kuai4 yao4 jie2 guo3 le.',
             translation: '私が植えた木に、 そろそろ実がなりそうです。',
-            memo: '※「結實(ㄐㄧㄝˊ ㄕˊ/jie2 shi2)」 = 「出果(ㄔㄨ ㄍㄨㄛˇ/chu1 guo3)」でも可。',
+            memo: '',
             changed: '☆'
           },
           {
             word: '蔬菜',
             sentence: '我覺得酪梨是蔬菜, 但是他硬說是水果。',
-            bopomofo: 'ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄌㄠˋ ㄌㄧˊ ㄕˋ ㄕㄨ ㄘㄞˋ, ㄉㄢˋ ㄕˋ ㄊㄚ ㄧㄥˋ ㄕㄨㄛ ㄕˋ ㄕㄨㄟˇ ㄍㄨㄛˇ.',
-            pinyin: 'wo3 jue2 de lao4 li2 shi4 shu1 cai4, dan4 shi4 ta1 ying4 shuo1 shi4 shui3 guo3.',
+            bopomofo: 'ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄌㄨㄛˋ ㄌㄧˊ ㄕˋ ㄕㄨ ㄘㄞˋ, ㄉㄢˋ ㄕˋ ㄊㄚ ㄧㄥˋ ㄕㄨㄛ ㄕˋ ㄕㄨㄟˇ ㄍㄨㄛˇ.',
+            pinyin: 'wo3 jue2 de luo4 li2 shi4 shu1 cai4, dan4 shi4 ta1 ying4 shuo1 shi4 shui3 guo3.',
             translation: 'アボカドは野菜だと思うのですが、 彼は果物だと言って譲りません。',
-            memo: ''
+            memo: '※「酪梨」の発音は、 台湾では「ㄌㄨㄛˋ ㄌㄧˊ/luo4 li2」。'
           },
           {
             word: '農夫',
@@ -88,7 +88,7 @@ export default {
             bopomofo: 'ㄊㄚ ㄉㄤ ㄋㄨㄥˊ ㄈㄨ ㄓㄨㄥˋ ㄓˊ ㄋㄨㄥˊ ㄗㄨㄛˋ ㄨˋ, ㄉㄢˋ ㄊㄨㄥˊ ㄕˊ ㄧㄝˇ ㄐㄧㄥ ㄧㄥˊ ㄧ ㄐㄧㄚ ㄘㄢ ㄊㄧㄥ.',
             pinyin: 'ta1 dang1 nong2 fu1 zhong4 zhi2 nong2 zuo4 wu4, dan4 tong2 shi2 ye3 jing1 ying2 yi1 jia1 can1 ting1.',
             translation: '彼は百姓として農作物を栽培していますが、 同時にレストランも経営しています。',
-            memo: '※「種植(ㄓㄨㄥˋ ㄓˊ)」の発音?',
+            memo: '',
             changed: '☆'
           },
           {
@@ -102,11 +102,11 @@ export default {
           },
           {
             word: '農藥',
-            sentence: '沒用農藥的蔬菜是雖然很理想, 但是花太多時間跟錢了。',
-            bopomofo: 'ㄇㄟˊ ㄩㄥˋ ㄋㄨㄥˊ ㄧㄠˋ ㄉㄜ˙ ㄕㄨ ㄘㄞˋ ㄕˋ ㄙㄨㄟ ㄖㄢˊ ㄏㄣˇ ㄌㄧˇ ㄒㄧㄤˇ,  ㄉㄢˋ ㄕˋ ㄏㄨㄚ ㄊㄞˋ ㄉㄨㄛ ㄕˊ ㄐㄧㄢ ㄍㄣ ㄑㄧㄢˊ ㄌㄜ˙.',
-            pinyin: 'mei2 yong4 nong2 yao4 de shu1 cai4 shi4 sui1 ran2 hen3 li3 xiang3, dan4 shi4 hua1 tai4 duo1 shi2 jian1 gen1 qian2 le.',
+            sentence: '沒用農藥的蔬菜是很理想, 但是花太多時間跟錢了。',
+            bopomofo: 'ㄇㄟˊ ㄩㄥˋ ㄋㄨㄥˊ ㄧㄠˋ ㄉㄜ˙ ㄕㄨ ㄘㄞˋ ㄕˋ ㄏㄣˇ ㄌㄧˇ ㄒㄧㄤˇ,  ㄉㄢˋ ㄕˋ ㄏㄨㄚ ㄊㄞˋ ㄉㄨㄛ ㄕˊ ㄐㄧㄢ ㄍㄣ ㄑㄧㄢˊ ㄌㄜ˙.',
+            pinyin: 'mei2 yong4 nong2 yao4 de shu1 cai4 shi4 hen3 li3 xiang3, dan4 shi4 hua1 tai4 duo1 shi2 jian1 gen1 qian2 le.',
             translation: '無農薬の野菜が理想ですが、 時間とお金がかかりすぎます。',
-            memo: '',
+            memo: '※「是 + 形容詞」 = 意味は「けど」。 「雖然(ㄙㄨㄟ ㄖㄢˊ/sui1 ran2)」と同様。',
             changed: '☆'
           },
           {
@@ -119,12 +119,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '★堆肥',
-            sentence: '花快要枯萎了, 所以給它澆水和施肥。',
-            bopomofo: 'ㄏㄨㄚ ㄎㄨㄞˋ ㄧㄠˋ ㄎㄨ ㄨㄟˇ ㄌㄜ˙, ㄙㄨㄛˇ ㄧˇ ㄍㄟˇ ㄊㄚ ㄐㄧㄠ ㄕㄨㄟˇ ㄏㄢˇ ㄕ ㄈㄟˊ.',
-            pinyin: 'hua1 kuai4 yao4 ku1 wei3 le, suo3 yi3 gei3 ta1 jiao1 shui3 han4 shi1 fei2.',
-            translation: 'お花が枯れかけているので、 お水と肥料をあげてみましよう。',
-            memo: '※「堆肥」 は 「施肥」と同じ？',
+            word: '堆肥',
+            sentence: '花快要枯萎了, 需要給它水和堆肥。',
+            bopomofo: 'ㄏㄨㄚ ㄎㄨㄞˋ ㄧㄠˋ ㄎㄨ ㄨㄟˇ ㄌㄜ˙, ㄒㄩ ㄧㄠˋ ㄍㄟˇ ㄊㄚ ㄕㄨㄟˇ ㄏㄢˋ ㄉㄨㄟ ㄈㄟˊ.',
+            pinyin: 'hua1 kuai4 yao4 ku1 wei3 le, xu1 yao4 gei3 ta1 shui3 han4 dui1 fei2.',
+            translation: 'お花が枯れかけているので、 お水と肥料をあげる必要があります。',
+            memo: '',
             changed: '☆'
           },
           {
@@ -190,7 +190,7 @@ export default {
             memo: ''
           },
           {
-            word: '★氣候',
+            word: '氣候',
             sentence: '對於某些人來說， 很難接受熱帶氣候的高溫和潮濕。',
             bopomofo: 'ㄉㄨㄟˋ ㄩˊ ㄇㄡˇ ㄒㄧㄝ ㄖㄣˊ ㄌㄞˊ ㄕㄨㄛ, ㄏㄣˇ ㄋㄢˊ ㄐㄧㄝ ㄕㄡˋ ㄖㄜˋ ㄉㄞˋ ㄑㄧˋ ㄏㄡˋ ㄉㄜ˙ ㄍㄠ ㄨㄣ ㄏㄢˋ ㄔㄠˊ ㄕ.',
             pinyin: 'dui4 yu2 mou3 xie1 ren2 lai2 shuo1, hen3 nan2 jie1 shou4 re4 dai4 qi4 hou4 de gao1 wen1 han4 chao2 shi1.',
@@ -209,10 +209,10 @@ export default {
           {
             word: '熟',
             sentence: '奶奶給我們的水果已經熟了, 現在是吃的好時機。',
-            bopomofo: 'ㄋㄞˇ ㄋㄞ˙ ㄍㄟˇ ㄨㄛˇ ㄇㄣ˙ ㄉㄜ˙ ㄕㄨㄟˇ ㄍㄨㄛˇ ㄧˇ ㄐㄧㄥ ㄕㄨˊ ㄌㄜ˙, ㄒㄧㄢˋ ㄗㄞˋ ㄕˋ ㄔ ㄉㄜ˙ ㄏㄠˇ ㄕˊ ㄐㄧ.',
-            pinyin: 'nai3 nai gei3 wo3 men de shui3 guo3 yi3 jing1 shu2 le, xian4 zai4 shi4 chi1 de hao3 shi2 ji1.',
+            bopomofo: 'ㄋㄞˇ ㄋㄞ˙ ㄍㄟˇ ㄨㄛˇ ㄇㄣ˙ ㄉㄜ˙ ㄕㄨㄟˇ ㄍㄨㄛˇ ㄧˇ ㄐㄧㄥ ㄕㄡˊ ㄌㄜ˙, ㄒㄧㄢˋ ㄗㄞˋ ㄕˋ ㄔ ㄉㄜ˙ ㄏㄠˇ ㄕˊ ㄐㄧ.',
+            pinyin: 'nai3 nai gei3 wo3 men de shui3 guo3 yi3 jing1 shou2 le, xian4 zai4 shi4 chi1 de hao3 shi2 ji1.',
             translation: 'おばあちゃんがくれた果物は既に熟していて、 食べるには良い頃合いです。',
-            memo: ''
+            memo: '※「熟」の発音 : 台湾では「ㄕㄡˊ/shou2」、 中国では「ㄕㄨˊ/shu2」が多い。'
           },
           {
             word: '片',
@@ -238,7 +238,7 @@ export default {
             bopomofo: 'ㄐㄧㄝˇ ㄐㄧㄝ˙ ㄗㄞˋ ㄅㄠˋ ㄩㄢˋ ㄓㄠˋ ㄍㄨˋ ㄊㄚ ㄉㄜ˙ ㄇㄟˋ ㄇㄟ˙, ㄉㄢˋ ㄕˋ ㄊㄚ ㄉㄜ˙ ㄌㄧㄢˇ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄧㄡˇ ㄉㄧㄢˇ ㄎㄞ ㄒㄧㄣ.',
             pinyin: 'jie3 jie zai4 bao4 yuan4 zhao4 gu4 ta1 de mei4 mei, dan4 shi4 ta1 de lian3 kan4 qi3 lai2 you3 dian3 kai1 xin1.',
             translation: 'お姉ちゃんは文句を言いながら妹の世話をしていますが、 顔はまんざらでもありません。',
-            memo: '※「開心(ㄎㄞ ㄒㄧㄣ/kai1 xin1)」 = 「暗爽(ㄢˋ ㄕㄨㄤˇ/an4 shuang3)」でも可。',
+            memo: '※「開心(ㄎㄞ ㄒㄧㄣ/kai1 xin1)」 = 「暗爽(ㄢˋ ㄕㄨㄤˇ/an4 shuang3)」(台湾語から来た語)でも可。',
             changed: '☆'
           },
           {
@@ -270,9 +270,9 @@ export default {
           },
           {
             word: '摘下來',
-            sentence: '把葡萄摘下來後, 我們就做葡萄酒吧。',
-            bopomofo: 'ㄅㄚˇ ㄆㄨˊ ㄊㄠˊ ㄓㄞ ㄒㄧㄚˋ ㄌㄞˊ ㄏㄡˋ, ㄨㄛˇ ㄇㄣ˙ ㄐㄧㄡˋ ㄗㄨㄛˋ ㄆㄨˊ ㄊㄠˊ ㄐㄧㄡˇ ㄅㄚ˙.',
-            pinyin: 'ba3 pu2 tao2 zhai1 xia4 lai2 hou4, wo3 men jiu4 zuo4 pu2 tao2 jiu3 ba.',
+            sentence: '把葡萄摘下來後, 我們就釀葡萄酒吧。',
+            bopomofo: 'ㄅㄚˇ ㄆㄨˊ ㄊㄠˊ ㄓㄞ ㄒㄧㄚˋ ㄌㄞˊ ㄏㄡˋ, ㄨㄛˇ ㄇㄣ˙ ㄐㄧㄡˋ ㄋㄧㄤˋ ㄆㄨˊ ㄊㄠˊ ㄐㄧㄡˇ ㄅㄚ˙.',
+            pinyin: 'ba3 pu2 tao2 zhai1 xia4 lai2 hou4, wo3 men jiu4 niang4 pu2 tao2 jiu3 ba.',
             translation: 'ブドウを摘んだら、 ワインを作りましょう。',
             memo: ''
           },
@@ -311,12 +311,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '★看天吃飯',
-            sentence: '他每天過著拮据的生活, 大家都希望他能找到好工作。',
-            bopomofo: 'ㄊㄚ ㄇㄟˇ ㄊㄧㄢ ㄍㄨㄛˋ ㄓㄜ˙ ㄐㄧㄝˊ ㄐㄩ ㄉㄜ˙ ㄕㄥ ㄏㄨㄛˊ, ㄉㄚˋ ㄐㄧㄚ ㄉㄡ ㄒㄧ ㄨㄤˋ ㄊㄚ ㄋㄥˊ ㄓㄠˇ ㄉㄠˋ ㄏㄠˇ ㄍㄨㄥ ㄗㄨㄛˋ.',
-            pinyin: 'ta1 mei3 tian1 guo4 zhe jie2 ju4 de sheng1 huo2, da4 jia1 dou1 xi1 wang4 ta1 neng2 zhao3 dao4 hao3 gong1 zuo4.',
-            translation: '彼はその日暮らしの生活をしているので、 みんな彼が良い仕事を見つけるよう祈っています。',
-            memo: '※「拮据(ㄐㄧㄝˊ ㄐㄩ/jie2 ju4)」？ 「看天吃飯」？',
+            word: '看天吃飯',
+            sentence: '漁夫的工作是看天吃飯, 沒有穩定的收入。',
+            bopomofo: 'ㄩˊ ㄈㄨ ㄉㄜ˙ ㄍㄨㄥ ㄗㄨㄛˋ ㄕˋ ㄎㄢˋ ㄊㄧㄢ ㄔ ㄈㄢˋ, ㄇㄟˊ ㄧㄡˇ ㄨㄣˇ ㄉㄧㄥˋ ㄉㄜ˙ ㄕㄡ ㄖㄨˋ.',
+            pinyin: 'yu2 fu1 de gong1 zuo4 shi4 kan4 tian1 chi1 fan4, mei2 you3 wen3 ding4 de shou1 ru4.',
+            translation: '漁師の仕事は天候次第なので、 収入は安定しません。',
+            memo: '',
             changed: '☆'
           },
           {
@@ -330,9 +330,9 @@ export default {
           },
           {
             word: '市集',
-            sentence: '外國的市集賣著很多稀有的品物, 逛起來很有趣。',
-            bopomofo: 'ㄨㄞˋ ㄍㄨㄛˊ ㄉㄜ˙ ㄕˋ ㄐㄧˊ ㄇㄞˋ ㄓㄜ˙ ㄏㄣˇ ㄉㄨㄛ ㄒㄧ ㄧㄡˇ ㄉㄜ˙ ㄆㄧㄣˇ ㄨˋ, ㄍㄨㄤˋ ㄑㄧˇ ㄌㄞˊ ㄏㄣˇ ㄧㄡˇ ㄑㄩˋ.',
-            pinyin: 'wai4 guo2 de shi4 ji2 mai4 zhe hen3 duo1 xi1 you3 de pin3 wu4, guang4 qi3 lai2 hen3 you3 qu4.',
+            sentence: '外國的市集賣著很多稀有的物品, 逛起來很有趣。',
+            bopomofo: 'ㄨㄞˋ ㄍㄨㄛˊ ㄉㄜ˙ ㄕˋ ㄐㄧˊ ㄇㄞˋ ㄓㄜ˙ ㄏㄣˇ ㄉㄨㄛ ㄒㄧ ㄧㄡˇ ㄉㄜ˙ ㄨˋ ㄆㄧㄣˇ, ㄍㄨㄤˋ ㄑㄧˇ ㄌㄞˊ ㄏㄣˇ ㄧㄡˇ ㄑㄩˋ.',
+            pinyin: 'wai4 guo2 de shi4 ji2 mai4 zhe hen3 duo1 xi1 you3 de wu4 pin3, guang4 qi3 lai2 hen3 you3 qu4.',
             translation: '外国の市場には珍しい品物がたくさんあり、 とても面白いです。',
             memo: '',
             changed: '☆'
@@ -347,12 +347,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '★產地',
+            word: '產地',
             sentence: '小學教科書中也提到了該地區是花生的產地。',
             bopomofo: 'ㄒㄧㄠˇ ㄒㄩㄝˊ ㄐㄧㄠˋ ㄎㄜ ㄕㄨ ㄓㄨㄥ ㄧㄝˇ ㄊㄧˊ ㄉㄠˋ ㄌㄜ˙ ㄍㄞ ㄉㄧˋ ㄑㄩ ㄕˋ ㄏㄨㄚ ㄕㄥ ㄉㄜ˙ ㄔㄢˇ ㄉㄧˋ.',
             pinyin: 'xiao3 xue2 jiao4 ke1 shu1 zhong1 ye3 ti2 dao4 le gai1 di4 qu1 shi4 hua1 sheng1 de chan3 di4.',
             translation: 'その辺りがピーナッツの産地だという事は、小学校の教科書にも載っています。',
-            memo: '※「教科書」の発音？ 「花生」：台湾華語でピーナッツ。 ちなみにピーナッツは台湾語では「土豆」 だが、 同じ漢字で中国では「ジャガイモ」となる。'
+            memo: '※「花生」：台湾華語でピーナッツ。 ちなみにピーナッツは台湾語では「土豆」 だが、 同じ漢字で中国では「ジャガイモ」となる。'
           },
           {
             word: '盡量',
@@ -364,9 +364,9 @@ export default {
           },
           {
             word: '友善',
-            sentence: '如果我可以選擇, 我會選友善環境的品物。',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄛˇ ㄎㄜˇ ㄧˇ ㄒㄩㄢˇ ㄗㄜˊ, ㄨㄛˇ ㄏㄨㄟˋ ㄒㄩㄢˇ ㄧㄡˇ ㄕㄢˋ ㄏㄨㄢˊ ㄐㄧㄥˋ ㄉㄜ˙ ㄆㄧㄣˇ ㄨˋ.',
-            pinyin: 'ru2 guo3 wo3 ke3 yi3 xuan3 ze2, wo3 hui4 xuan3 you3 shan4 huan2 jing4 de pin3 wu4.',
+            sentence: '如果我可以選擇, 我會選友善環境的物品。',
+            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄛˇ ㄎㄜˇ ㄧˇ ㄒㄩㄢˇ ㄗㄜˊ, ㄨㄛˇ ㄏㄨㄟˋ ㄒㄩㄢˇ ㄧㄡˇ ㄕㄢˋ ㄏㄨㄢˊ ㄐㄧㄥˋ ㄉㄜ˙ ㄨˋ ㄆㄧㄣˇ.',
+            pinyin: 'ru2 guo3 wo3 ke3 yi3 xuan3 ze2, wo3 hui4 xuan3 you3 shan4 huan2 jing4 de wu4 pin3.',
             translation: '選択肢があるなら、 エコフレンドリーな品物を選びます。',
             memo: ''
           },
@@ -398,38 +398,38 @@ export default {
           },
           {
             word: '寧可',
-            sentence: '我認為拉麵的麵不是配角， 當然是主角。',
-            bopomofo: 'ㄨㄛˇ ㄖㄣˋ ㄨㄟˊ ㄌㄚ ㄇㄧㄢˋ ㄉㄧˊ ㄇㄧㄢˋ ㄅㄨˊ ㄕˋ ㄆㄟˋ ㄐㄧㄠˇ, ㄉㄤ ㄖㄢˊ ㄕˋ ㄓㄨˇ ㄐㄧㄠˇ.',
-            pinyin: 'wo3 ren4 wei2 la1 mian4 de mian4 bu2 shi4 pei4 jiao3, dang1 ran2 shi4 zhu3 jiao3.',
-            translation: 'ラーメンの麺は脇役ではなく、 むしろ主役だと思います。',
+            sentence: '我寧可不吃早餐, 也要多睡一下。',
+            bopomofo: 'ㄨㄛˇ ㄋㄧㄥˊ ㄎㄜˇ ㄅㄨˋ ㄔ ㄗㄠˇ ㄘㄢ, ㄧㄝˇ ㄧㄠˋ ㄉㄨㄛ ㄕㄨㄟˋ ㄧ ㄒㄧㄚˋ.',
+            pinyin: 'wo3 ning2 ke3 bu4 chi1 zao3 can1, ye3 ao4 duo1 shui4 yi1 xia4.',
+            translation: '少しでも長く寝る為なら、 朝ご飯を食べない用がむしろ良いです。',
             memo: '',
             changed: '☆'
           },
           {
             word: '跑',
-            sentence: '我這個幾年也沒什麼活動， 只去逛街買東西也可能會有肌肉痛。',
-            bopomofo: 'ㄨㄛˇ ㄓㄜˋ ㄍㄜˋ ㄐㄧˇ ㄋㄧㄢˊ ㄧㄝˇ ㄇㄟˊ ㄕㄣˊ ㄇㄜ˙ ㄏㄨㄛˊ ㄉㄨㄥˋ, ㄓˇ ㄑㄩˋ ㄍㄨㄤˋ ㄐㄧㄝ ㄇㄞˇ ㄉㄨㄥ ㄒㄧ˙ ㄧㄝˇ ㄎㄜˇ ㄋㄥˊ ㄏㄨㄟˋ ㄧㄡˇ ㄐㄧ ㄖㄡˋ ㄊㄨㄥˋ.',
-            pinyin: 'wo3 zhe4 ge4 ji3 nian2 ye3 mei2 shen2 me huo2 dong4, zhi3 qu4 guang4 jie1 mai3 dong1 xi ye3 ke3 neng2 hui4 you3 ji1 rou4 tong4.',
-            translation: 'ここ数年は一切活動していないので、 買い物に行くだけでも筋肉痛になります。',
+            sentence: '我記得跑過這條路好像可以到漂亮的海邊去。',
+            bopomofo: 'ㄨㄛˇ ㄐㄧˋ ㄉㄜ˙ ㄆㄠˇ ㄍㄨㄛˋ ㄓㄜˋ ㄊㄧㄠˊ ㄌㄨˋ ㄏㄠˇ ㄒㄧㄤˋ ㄎㄜˇ ㄧˇ ㄉㄠˋ ㄆㄧㄠˋ ㄌㄧㄤˋ ㄉㄜ˙ ㄏㄞˇ ㄅㄧㄢ ㄑㄩˋ.',
+            pinyin: 'wo3 ji4 de pao3 guo4 zhe4 tiao2 lu4 hao3 xiang4 ke3 yi3 dao4 piao4 liang4 de hai3 bian1 qu4.',
+            translation: 'この道を行くと、 きれいな海辺に着いたような事を覚えています。',
             memo: '',
             changed: '☆'
           },
           {
-            word: '★支持',
-            sentence: '他工作量增加了, 有人可以支援他嗎?',
-            bopomofo: 'ㄊㄚ ㄍㄨㄥ ㄗㄨㄛˋ ㄌㄧㄤˋ ㄗㄥ ㄐㄧㄚ ㄌㄜ˙, ㄧㄡˇ ㄖㄣˊ ㄎㄜˇ ㄧˇ ㄓ ㄩㄢˊ ㄊㄚ ㄇㄚ˙?',
-            pinyin: 'ta1 gong1 zuo4 liang4 zeng1 jia1 le, you3 ren2 ke3 yi3 zhi1 yuan2 ta1 ma?',
-            translation: '彼の仕事量が増えているので、 誰かサポートできる人はいますか?',
-            memo: '※「支持」の使い方？',
+            word: '支持',
+            sentence: '他的生意最近有困難， 我想支持他， 所以我盡量去他那裡買東西。',
+            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄕㄥ ㄧˋ ㄗㄨㄟˋ ㄐㄧㄣˋ ㄧㄡˇ ㄎㄨㄣˋ ㄋㄢˊ, ㄨㄛˇ ㄒㄧㄤˇ ㄓ ㄔˊ ㄊㄚ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄐㄧㄣˇ ㄌㄧㄤˋ ㄑㄩˋ ㄊㄚ ㄋㄚˋ ㄌㄧˇ ㄇㄞˇ ㄉㄨㄥ ㄒㄧ˙.',
+            pinyin: 'ta1 de sheng1 yi4 zui4 jin4 you3 kun4 nan2, wo3 xiang3 zhi1 chi2 ta1, suo3 yi3 wo3 jin4 liang4 qu4 ta1 na4 li3 mai3 dong1 xi.',
+            translation: '彼の仕事が最近大変なので、 応援する為に、 できる限り彼のところで買い物をします。',
+            memo: '',
             changed: '☆'
           },
           {
-            word: '★文章',
-            sentence: '我很困， 文章的內容完全進不了腦袋裏。',
+            word: '文章',
+            sentence: '我很睏， 文章的內容完全進不了腦袋裡。',
             bopomofo: 'ㄨㄛˇ ㄏㄣˇ ㄎㄨㄣˋ, ㄨㄣˊ ㄓㄤ ㄉㄜ˙ ㄋㄟˋ ㄖㄨㄥˊ ㄨㄢˊ ㄑㄩㄢˊ ㄐㄧㄣˋ ㄅㄨˋ ㄌㄧㄠˇ ㄋㄠˇ ㄉㄞˋ ㄌㄧˇ.',
             pinyin: 'wo3 hen3 kun4, wen2 zhang1 de nei4 rong2 wan2 quan2 jin4 bu4 liao3 nao3 dai4 li3.',
             translation: 'とても眠いので、 記事の内容が全く頭に入ってきません。',
-            memo: '※「裏」でOK?',
+            memo: '',
             changed: '☆'
           },
           {
@@ -451,12 +451,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '★師傅',
-            sentence: '西點師傅教了弟子怎麼把奶油打到蓬鬆。',
-            bopomofo: 'ㄒㄧ ㄉㄧㄢˇ ㄕ ㄈㄨ ㄐㄧㄠ ㄌㄜ˙ ㄉㄧˋ ㄗˇ ㄗㄣˇ ㄇㄜ˙ ㄅㄚˇ ㄋㄞˇ ㄧㄡˊ ㄉㄚˇ ㄉㄠˋ ㄆㄥˊ ㄙㄨㄥ.',
-            pinyin: 'xi1 dian3 shi1 fu4 jiao1 le di4 zi3 zen3 me ba3 nai3 you2 da3 dao4 peng2 song1.',
+            word: '師傅',
+            sentence: '西點師傅教了徒弟怎麼把奶油打到蓬鬆。',
+            bopomofo: 'ㄒㄧ ㄉㄧㄢˇ ㄕ ㄈㄨ ㄐㄧㄠ ㄌㄜ˙ ㄊㄨˊ ㄉㄧˋ ㄗㄣˇ ㄇㄜ˙ ㄅㄚˇ ㄋㄞˇ ㄧㄡˊ ㄉㄚˇ ㄉㄠˋ ㄆㄥˊ ㄙㄨㄥ.',
+            pinyin: 'xi1 dian3 shi1 fu4 jiao1 le tu2 di4 zen3 me ba3 nai3 you2 da3 dao4 peng2 song1.',
             translation: 'パティシエの師匠は、 弟子たちにホイップクリームのふわふわな泡立て方を教えました。',
-            memo: '※「弟子(ㄉㄧˋ ㄗˇ)」の発音？',
+            memo: '',
             changed: '☆'
           },
           {
@@ -469,7 +469,7 @@ export default {
             changed: '☆'
           },
           {
-            word: '★長大',
+            word: '長大',
             sentence: '你的貓不是長大了而是應該說胖了才對?',
             bopomofo: 'ㄋㄧˇ ㄉㄜ˙ ㄇㄠ ㄅㄨˊ ㄕˋ ㄓㄤˇ ㄉㄚˋ ㄌㄜ˙ ㄦˊ ㄕˋ ㄧㄥ ㄍㄞ ㄕㄨㄛ ㄆㄤˋ ㄌㄜ˙ ㄘㄞˊ ㄉㄨㄟˋ?',
             pinyin: 'ni3 de mao1 bu2 shi4 zhang3 da4 le er2 shi4 ying1 gai1 shuo1 pang4 le cai2 dui4?',
@@ -478,7 +478,7 @@ export default {
             changed: '☆'
           },
           {
-            word: '★幫助',
+            word: '幫助',
             sentence: '我想算一下貓有多少鬍鬚, 請你幫助我?',
             bopomofo: 'ㄨㄛˇ ㄒㄧㄤˇ ㄙㄨㄢˋ ㄧ ㄒㄧㄚˋ ㄇㄠ ㄧㄡˇ ㄉㄨㄛ ㄕㄠˇ ㄏㄨˊ ㄒㄩ, ㄑㄧㄥˇ ㄋㄧˇ ㄅㄤ ㄓㄨˋ ㄨㄛˇ?',
             pinyin: 'wo3 xiang3 suan4 yi1 xia4 mao1 you3 duo1 shao3 hu2 xu1, qing3 ni3 bang1 zhu4 wo3?',
@@ -539,20 +539,20 @@ export default {
           },
           {
             word: '變成',
-            sentence: '世界變得更方便了，在家做得到任何事情了。',
-            bopomofo: 'ㄕˋ ㄐㄧㄝˋ ㄅㄧㄢˋ ㄉㄜ˙ ㄍㄥˋ ㄈㄤ ㄅㄧㄢˋ ㄌㄜ˙, ㄗㄞˋ ㄐㄧㄚ ㄗㄨㄛˋ ㄉㄜˊ ㄉㄠˋ ㄖㄣˋ ㄏㄜˊ ㄕˋ ㄑㄧㄥˊ ㄌㄜ˙.',
-            pinyin: 'shi4 jie4 bian4 de geng4 fang1 bian4 le, zai4 jia1 zuo4 de2 dao4 ren4 he2 shi4 qing2 le.',
-            translation: '世の中はとても便利になって、 なんでも家でできるようになりました。',
+            sentence: '白色加黑色會變成灰色。',
+            bopomofo: 'ㄅㄞˊ ㄙㄜˋ ㄐㄧㄚ ㄏㄟ ㄙㄜˋ ㄏㄨㄟˋ ㄅㄧㄢˋ ㄔㄥˊ ㄏㄨㄟ ㄙㄜˋ.',
+            pinyin: 'bai2 se4 jia1 hei1 se4 hui4 bian4 cheng2 hui1 se4.',
+            translation: '白と黒を混ぜると灰色になります。',
             memo: '',
             changed: '☆'
           },
           {
-            word: '★休閒',
+            word: '休閒',
             sentence: '如果我事先知道派對的氣氛那麼休閒, 我就不會穿西裝了。',
             bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄛˇ ㄕˋ ㄒㄧㄢ ㄓ ㄉㄠˋ ㄆㄞˋ ㄉㄨㄟˋ ㄉㄜ˙ ㄑㄧˋ ㄈㄣ ㄋㄚˋ ㄇㄜ˙ ㄒㄧㄡ ㄒㄧㄢˊ, ㄨㄛˇ ㄐㄧㄡˋ ㄅㄨˊ ㄏㄨㄟˋ ㄔㄨㄢ ㄒㄧ ㄓㄨㄤ ㄌㄜ˙.',
             pinyin: 'ru2 guo3 wo3 shi4 xian1 zhi1 dao4 pai4 dui4 de qi4 fen1 na4 me xiu1 xian2, wo3 jiu4 bu2 hui4 chuan1 xi1 zhuang1 le.',
             translation: 'カジュアルな雰囲気のパーティだと事前に知っていたら、 スーツは着てこなかったのですが。',
-            memo: '※「休閒」 = 「余暇の」？ 「カジュアル」ではない？',
+            memo: '',
             changed: '☆'
           },
           {
@@ -599,12 +599,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '★出問題',
-            sentence: '★新發售的商品出問題, 客戶的查詢蜂擁而至。',
-            bopomofo: 'ㄒㄧㄣ ㄈㄚ ㄕㄡˋ ㄉㄜ˙ ㄕㄤ ㄆㄧㄣˇ ㄔㄨ ㄨㄣˋ ㄊㄧˊ, ㄎㄜˋ ㄏㄨˋ ㄉㄜ˙ ㄔㄚˊ ㄒㄩㄣˊ ㄈㄥ ㄩㄥ ㄦˊ ㄓˋ.',
-            pinyin: 'xin1 fa1 shou4 de shang1 pin3 chu1 wen4 ti2, ke4 hu4 de cha2 xun2 feng1 yong1 er2 zhi4.',
+            word: '出問題',
+            sentence: '新發售的商品出問題, 客戶的查詢蜂擁而至。',
+            bopomofo: 'ㄒㄧㄣ ㄈㄚ ㄕㄡˋ ㄉㄜ˙ ㄕㄤ ㄆㄧㄣˇ ㄔㄨ ㄨㄣˋ ㄊㄧˊ, ㄎㄜˋ ㄏㄨˋ ㄉㄜ˙ ㄔㄚˊ ㄒㄩㄣˊ ㄈㄥˇ ㄩㄥ ㄦˊ ㄓˋ.',
+            pinyin: 'xin1 fa1 shou4 de shang1 pin3 chu1 wen4 ti2, ke4 hu4 de cha2 xun2 feng1 yong3 er2 zhi4.',
             translation: '新しく発売した商品に問題があったため、 お客さんからの問い合わせが殺到しています。',
-            memo: '※「蜂擁而至」の発音？'
+            memo: ''
           },
           {
             word: '一方面',
