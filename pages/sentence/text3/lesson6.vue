@@ -190,12 +190,12 @@ export default {
             memo: ''
           },
           {
-            word: '氣候',
+            word: '★氣候',
             sentence: '對於某些人來說， 很難接受熱帶氣候的高溫和潮濕。',
             bopomofo: 'ㄉㄨㄟˋ ㄩˊ ㄇㄡˇ ㄒㄧㄝ ㄖㄣˊ ㄌㄞˊ ㄕㄨㄛ, ㄏㄣˇ ㄋㄢˊ ㄐㄧㄝ ㄕㄡˋ ㄖㄜˋ ㄉㄞˋ ㄑㄧˋ ㄏㄡˋ ㄉㄜ˙ ㄍㄠ ㄨㄣ ㄏㄢˋ ㄔㄠˊ ㄕ.',
             pinyin: 'dui4 yu2 mou3 xie1 ren2 lai2 shuo1, hen3 nan2 jie1 shou4 re4 dai4 qi4 hou4 de gao1 wen1 han4 chao2 shi1.',
             translation: '人によっては、 熱帯気候の暑さと湿気は耐えがたいです。',
-            memo: ''
+            memo: '※「對於(ㄉㄨㄟˋ ㄩˊ/dui4 yu2)」 : 「～に対して、 ～について」、 「某些(ㄇㄡˇ ㄒㄧㄝ/mou3 xie1)」 : 「いくらかの、 一部の」'
           },
           {
             word: '長',
@@ -469,21 +469,21 @@ export default {
             changed: '☆'
           },
           {
-            word: '長大',
+            word: '★長大',
             sentence: '你的貓不是長大了而是應該說胖了才對?',
             bopomofo: 'ㄋㄧˇ ㄉㄜ˙ ㄇㄠ ㄅㄨˊ ㄕˋ ㄓㄤˇ ㄉㄚˋ ㄌㄜ˙ ㄦˊ ㄕˋ ㄧㄥ ㄍㄞ ㄕㄨㄛ ㄆㄤˋ ㄌㄜ˙ ㄘㄞˊ ㄉㄨㄟˋ?',
             pinyin: 'ni3 de mao1 bu2 shi4 zhang3 da4 le er2 shi4 ying1 gai1 shuo1 pang4 le cai2 dui4?',
             translation: 'あなたの猫は、 成長したと言うよりはむしろ太ったんじゃないですか?',
-            memo: '',
+            memo: '※「應該說(ㄧㄥ ㄍㄞ ㄕㄨㄛ/ying1 gai1 shuo1)」 : 「言うべき」。',
             changed: '☆'
           },
           {
-            word: '幫助',
+            word: '★幫助',
             sentence: '我想算一下貓有多少鬍鬚, 請你幫助我?',
             bopomofo: 'ㄨㄛˇ ㄒㄧㄤˇ ㄙㄨㄢˋ ㄧ ㄒㄧㄚˋ ㄇㄠ ㄧㄡˇ ㄉㄨㄛ ㄕㄠˇ ㄏㄨˊ ㄒㄩ, ㄑㄧㄥˇ ㄋㄧˇ ㄅㄤ ㄓㄨˋ ㄨㄛˇ?',
             pinyin: 'wo3 xiang3 suan4 yi1 xia4 mao1 you3 duo1 shao3 hu2 xu1, qing3 ni3 bang1 zhu4 wo3?',
             translation: '猫には髭が何本あるのか数えてみたいのですが、 手伝ってくれませんか?',
-            memo: '※「幫助」 = 「幫幫」でも可。'
+            memo: '※「幫助（ㄅㄤ ㄓㄨˋ/bang1 zhu4）」 = 「幫幫（ㄅㄤ ㄅㄤ/bang1 bang1）」でも可。'
           },
           {
             word: '拜訪',
