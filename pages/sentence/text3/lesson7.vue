@@ -102,12 +102,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '過世',
+            word: '★過世',
             sentence: '如果我突然過世了， 誰可以把我的日記隱藏起來?',
             bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄛˇ ㄊㄨ ㄖㄢˊ ㄍㄨㄛˋ ㄕˋ ㄌㄜ˙, ㄕㄨㄟˊ ㄎㄜˇ ㄧˇ ㄅㄚˇ ㄨㄛˇ ㄉㄜ˙ ㄖˋ ㄐㄧˋ ㄧㄣˇ ㄘㄤˊ ㄑㄧˇ ㄌㄞˊ?',
             pinyin: 'ru2 guo3 wo3 tu1 ran2 guo4 shi4 le, shei2 ke3 yi3 ba3 wo3 de ri4 ji4 yin3 cang2 qi3 lai2?',
             translation: '私が突然この世を去ったら、 誰が私の日記を隠してくれるでしょうか?',
-            memo: '',
+            memo: '※「隱藏起來」?',
             changed: '☆'
           },
           {
@@ -208,21 +208,21 @@ export default {
             changed: '☆'
           },
           {
-            word: '分手',
+            word: '★分手',
             sentence: '因為分手了的重傷， 他看上去一副魂不守舍的樣子。',
             bopomofo: 'ㄧㄣ ㄨㄟˋ ㄈㄣ ㄕㄡˇ ㄌㄜ˙ ㄉㄜ˙ ㄓㄨㄥˋ ㄕㄤ, ㄊㄚ ㄎㄢˋ ㄕㄤ˙ ㄑㄩ˙ ㄧ ㄈㄨˋ ㄏㄨㄣˊ ㄅㄨˋ ㄕㄡˇ ㄕㄜˋ ㄉㄜ˙ ㄧㄤˋ ㄗ˙.',
             pinyin: 'yin1 wei4 fen1 shou3 le de zhong4 shang1, ta1 kan4 shang4 qu4 yi1 fu4 hun2 bu4 shou3 she4 de yang4 zi.',
             translation: '破局したダメージで、 彼はまるで抜け殻のようになっています。',
-            memo: '',
+            memo: '※「不守舍」',
             changed: '☆'
           },
           {
-            word: '緊張',
+            word: '★緊張',
             sentence: '我不常出去， 所以只是坐捷運救很緊張。',
             bopomofo: 'ㄨㄛˇ ㄅㄨˋ ㄔㄤˊ ㄔㄨ ㄑㄩˋ, ㄙㄨㄛˇ ㄧˇ ㄓˇ ㄕˋ ㄗㄨㄛˋ ㄐㄧㄝˊ ㄩㄣˋ ㄐㄧㄡˋ ㄏㄣˇ ㄐㄧㄣˇ ㄓㄤ.',
             pinyin: 'wo3 bu4 chang2 chu1 qu4, suo3 yi3 zhi3 shi4 zuo4 jie2 yun4 jiu4 hen3 jin3 zhang1.',
             translation: 'あまり外に出る事がないので、 電車に乗るだけでも緊張します。',
-            memo: '',
+            memo: '※「救」 → 「就」?',
             changed: '☆'
           },
           {
@@ -291,7 +291,7 @@ export default {
             bopomofo: 'ㄊㄚ ㄋㄧˋ ㄞˋ ㄇㄠ ㄅㄧㄥˋ ㄑㄧㄝˇ ㄗㄨㄥˇ ㄕˋ ㄗㄞˋ ㄊㄚ ㄕㄣ ㄅㄧㄢ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄅㄨˋ ㄓ ㄉㄠˋ ㄊㄚ ㄏㄞˊ ㄕˋ ㄇㄠ ㄕˋ ㄔㄨㄥˇ ㄨˋ.',
             pinyin: 'ta1 ni4 ai4 mao1 bing4 qie3 zong3 shi4 zai4 ta1 shen1 bian1, suo3 yi3 wo3 bu4 zhi1 dao4 ta1 hai2 shi4 mao1 shi4 chong3 wu4.',
             translation: '彼は猫を溺愛していていつも側にいるので、 彼と猫どちらがペットなのか分かりません。',
-            memo: ''
+            memo: '※「並且」 : 「尚且つ、 しかも」。'
           },
           {
             word: '單身',
@@ -497,12 +497,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '追',
+            word: '★追',
             sentence: '她是對他可望而不可及的， 追是沒有用的。',
             bopomofo: 'ㄊㄚ ㄕˋ ㄉㄨㄟˋ ㄊㄚ ㄎㄜˇ ㄨㄤˋ ㄦˊ ㄅㄨˋ ㄎㄜˇ ㄐㄧˊ ㄉㄜ˙, ㄓㄨㄟ ㄕˋ ㄇㄟˊ ㄧㄡˇ ㄩㄥˋ ㄉㄜ˙.',
             pinyin: 'ta1 shi4 dui4 ta1 ke3 wang4 er2 bu4 ke3 ji2 de, zhui1 shi4 mei2 you3 yong4 de.',
             translation: '彼女は彼にとって高嶺の花なので、 追いかけるのは無意味です。',
-            memo: '',
+            memo: '※「可望而不可及的」 : 「遠くから眺める事はできるが、 近づくことはできない憧れの存在」。',
             changed: '☆'
           },
           {
@@ -613,16 +613,16 @@ export default {
             bopomofo: 'ㄧㄣ ㄨㄟˋ ㄊㄚ ㄉㄜ˙ ㄈㄨˋ ㄇㄨˇ ㄔㄨㄥˇ ㄏㄨㄞˋ ㄊㄚ ㄌㄜ˙, ㄙㄨㄛˇ ㄧˇ ㄙㄨㄟˊ ㄊㄚ ㄗˋ ㄗㄞˋ ㄓㄤˇ ㄉㄚˋ.',
             pinyin: 'yin1 wei4 ta1 de fu4 mu3 chong3 huai4 ta1 le, suo3 yi3 sui2 ta1 zi4 zai4 zhang3 da4.',
             translation: '両親は彼を甘やかして育てたので、 彼はのびのびと育ちました。',
-            memo: '※「教養」を使うには?',
+            memo: '※「教養」を使うには? 「隨」の意味?',
             changed: '☆'
           },
           {
-            word: '接受',
+            word: '★接受',
             sentence: '他們不能接受彼此的看法， 所以相互保持著距離。',
             bopomofo: 'ㄊㄚ ㄇㄣ˙ ㄅㄨˋ ㄋㄥˊ ㄐㄧㄝ ㄕㄡˋ ㄅㄧˇ ㄘˇ ㄉㄜ˙ ㄎㄢˋ ㄈㄚˇ, ㄙㄨㄛˇ ㄧˇ ㄒㄧㄤ ㄏㄨˋ ㄅㄠˇ ㄔˊ ㄓㄜ˙ ㄐㄩˋ ㄌㄧˊ.',
             pinyin: 'ta1 men bu4 neng2 jie1 shou4 bi3 ci3 de kan4 fa3, suo3 yi3 xiang1 hu4 bao3 chi2 zhe ju4 li4.',
             translation: '彼らはお互いの考えを受け入れることができないので、 距離をおいています。',
-            memo: '',
+            memo: '※「お互い」 : 「彼此(ㄅㄧˇ ㄘˇ/bi3 ci3)」または「相互(ㄒㄧㄤ ㄏㄨˋ/xiang1 hu4)」。',
             changed: '☆'
           },
           {
