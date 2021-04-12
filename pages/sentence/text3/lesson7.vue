@@ -213,7 +213,7 @@ export default {
             bopomofo: 'ㄧㄣ ㄨㄟˋ ㄈㄣ ㄕㄡˇ ㄌㄜ˙ ㄉㄜ˙ ㄓㄨㄥˋ ㄕㄤ, ㄊㄚ ㄎㄢˋ ㄕㄤ˙ ㄑㄩ˙ ㄧ ㄈㄨˋ ㄏㄨㄣˊ ㄅㄨˋ ㄕㄡˇ ㄕㄜˋ ㄉㄜ˙ ㄧㄤˋ ㄗ˙.',
             pinyin: 'yin1 wei4 fen1 shou3 le de zhong4 shang1, ta1 kan4 shang4 qu4 yi1 fu4 hun2 bu4 shou3 she4 de yang4 zi.',
             translation: '破局したダメージで、 彼はまるで抜け殻のようになっています。',
-            memo: '※「不守舍」',
+            memo: '※「不守舍」の意味、 「看上去」 : 「～に見える」?',
             changed: '☆'
           },
           {
@@ -306,7 +306,7 @@ export default {
             word: '醫院',
             sentence: '我的狗沒想到會去醫院， 正在恐懼得顫抖著。',
             bopomofo: 'ㄨㄛˇ ㄉㄜ˙ ㄍㄡˇ ㄇㄟˊ ㄒㄧㄤˇ ㄉㄠˋ ㄏㄨㄟˋ ㄑㄩˋ ㄧ ㄩㄢˋ, ㄓㄥˋ ㄗㄞˋ ㄎㄨㄥˇ ㄐㄩˋ ㄉㄜ˙ ㄔㄢˋ ㄉㄡˇ ㄓㄜ˙.',
-            pinyin: 'wo3 de gou3 mei2 xiang3 dao4 hui4 qu4 yi3 yuan4, zheng4 zai4 kong3 ju4 de chan4 dou3 zhe.',
+            pinyin: 'wo3 de gou3 mei2 xiang3 dao4 hui4 qu4 yi1 yuan4, zheng4 zai4 kong3 ju4 de chan4 dou3 zhe.',
             translation: '犬は病院に行くとは予想していなかったようで、 恐怖でプルプルしています。',
             memo: '',
             changed: '☆'
@@ -474,7 +474,7 @@ export default {
             sentence: '看著很努力工作的我， 貓卻過得像貴族的生活。',
             bopomofo: 'ㄎㄢˋ ㄓㄜ˙ ㄏㄣˇ ㄋㄨˇ ㄌㄧˋ ㄍㄨㄥ ㄗㄨㄛˋ ㄉㄜ˙ ㄨㄛˇ, ㄇㄠ ㄑㄩㄝˋ ㄍㄨㄛˋ ㄉㄜ˙ ㄒㄧㄤˋ ㄍㄨㄟˋ ㄗㄨˊ ㄉㄜ˙ ㄕㄥ ㄏㄨㄛˊ.',
             pinyin: 'kan4 zhe hen3 nu3 li4 gong1 zuo4 de wo3, mao1 que4 guo4 de xiang4 gui4 zu2 de sheng1 huo2.',
-            translation: 'せかせか働いている私を尻目に、 猫は貴族のような生活をしています。',
+            translation: 'せかせか働いている私を尻目に、 猫はむしろ貴族のような生活をしています。',
             memo: '',
             changed: '☆'
           },
@@ -587,8 +587,8 @@ export default {
             sentence: '我家有三個正在發育中的孩子， 因此養家糊口相當辛苦。',
             bopomofo: 'ㄨㄛˇ ㄐㄧㄚ ㄧㄡˇ ㄙㄢ ㄍㄜ˙ ㄓㄥˋ ㄗㄞˋ ㄈㄚ ㄩˋ ㄓㄨㄥ ㄉㄜ˙ ㄏㄞˊ ㄗ˙, ㄧㄣ ㄘˇ ㄧㄤˇ ㄐㄧㄚ ㄏㄨˊ ㄎㄡˇ ㄒㄧㄤ ㄉㄤ ㄒㄧㄣ ㄎㄨˇ.',
             pinyin: 'wo3 jia1 you3 san1 ge4 zheng4 zai4 fa1 yu4 zhong1 de hai2 zi, yin1 ci3 yang3 jia1 hu2 kou3 xiang1 dang1 xin1 ku3.',
-            translation: '食べ盛りの子供が三人もいるので、 家族を養うのはなかなか大変です。',
-            memo: '',
+            translation: '食べ盛りの子供が三人もいるので、 家族を養って生計を立てるのはなかなか大変です。',
+            memo: '※「糊口(ㄏㄨˊ ㄎㄡˇ/hu2 kou3)」 : 「生計を立てる」。',
             changed: '☆'
           },
           {
@@ -687,12 +687,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '下決心',
+            word: '★下決心',
             sentence: '他對上大學的下了很大的決心， 所以每天熬夜念書。',
             bopomofo: 'ㄊㄚ ㄉㄨㄟˋ ㄕㄤˋ ㄉㄚˋ ㄒㄩㄝˊ ㄉㄜ˙ ㄒㄧㄚˋ ㄌㄜ˙ ㄏㄣˇ ㄉㄚˋ ㄉㄜ˙ ㄐㄩㄝˊ ㄒㄧㄣ, ㄙㄨㄛˇ ㄧˇ ㄇㄟˇ ㄊㄧㄢ ㄠˊ ㄧㄝˋ ㄋㄧㄢˋ ㄕㄨ.',
             pinyin: 'ta1 dui4 shang4 da4 xue2 de xia4 le hen3 da4 de jue2 xin1, suo3 yi3 mei3 tian1 ao2 ye4 nian4 shu1.',
             translation: '彼の大学へ行く決意は固いので、 毎晩遅くまで勉強しています。',
-            memo: '',
+            memo: '※他對上大學「的」下了?',
             changed: '☆'
           }
         ]
