@@ -81,7 +81,7 @@ export default {
             bopomofo: 'ㄍㄡˇ ㄧ ㄈㄚ ㄒㄧㄢˋ ㄎㄜˇ ㄧˊ ㄖㄣˊ ㄩㄢˊ ㄐㄧㄡˋ ㄇㄥˇ ㄌㄧㄝˋ ㄉㄜ˙ ㄐㄧㄠˋ ㄓㄜ˙.',
             pinyin: 'gou3 yi1 fa1 xian4 ke3 yi2 ren2 yuan2 jiu4 meng3 lie4 de jiao4 zhe.',
             translation: '犬は不審者を見つけて激しく吠えています。',
-            memo: '',
+            memo: '※「人員(ㄖㄣˊ ㄩㄢˊ/ren2 yuan2)」 = 「人士(ㄖㄣˊ ㄕˋ/ren2 shi4)」でも可。',
             changed: '☆'
           },
           {
@@ -102,12 +102,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '★過世',
+            word: '過世',
             sentence: '如果我突然過世了， 誰可以把我的日記隱藏起來?',
             bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄛˇ ㄊㄨ ㄖㄢˊ ㄍㄨㄛˋ ㄕˋ ㄌㄜ˙, ㄕㄨㄟˊ ㄎㄜˇ ㄧˇ ㄅㄚˇ ㄨㄛˇ ㄉㄜ˙ ㄖˋ ㄐㄧˋ ㄧㄣˇ ㄘㄤˊ ㄑㄧˇ ㄌㄞˊ?',
             pinyin: 'ru2 guo3 wo3 tu1 ran2 guo4 shi4 le, shei2 ke3 yi3 ba3 wo3 de ri4 ji4 yin3 cang2 qi3 lai2?',
             translation: '私が突然この世を去ったら、 誰が私の日記を隠してくれるでしょうか?',
-            memo: '※「隱藏起來」?',
+            memo: '※ここでの「起來」は「覆う」ニュアンス。',
             changed: '☆'
           },
           {
@@ -156,9 +156,9 @@ export default {
           },
           {
             word: '髒',
-            sentence: '我把咖啡灑在課本上, 幸虧最重要的部分沒弄髒了。',
-            bopomofo: 'ㄨㄛˇ ㄅㄚˇ ㄎㄚ ㄈㄟ ㄙㄚˇ ㄗㄞˋ ㄎㄜˋ ㄅㄣˇ ㄕㄤˋ, ㄒㄧㄥˋ ㄎㄨㄟ ㄗㄨㄟˋ ㄓㄨㄥˋ ㄧㄠˋ ㄉㄜ˙ ㄅㄨˋ ㄈㄣˋ ㄇㄟˊ ㄋㄨㄥˋ ㄗㄤ ㄌㄜ˙.',
-            pinyin: 'wo3 ba3 ka1 fei1 sa3 zai4 ke4 ben3 shang4, xing4 kui1 zui4 zhong4 yao4 de bu4 fen4 mei2 nong4 zang1 le.',
+            sentence: '我把咖啡灑在課本上, 幸虧最重要的部分沒弄髒。',
+            bopomofo: 'ㄨㄛˇ ㄅㄚˇ ㄎㄚ ㄈㄟ ㄙㄚˇ ㄗㄞˋ ㄎㄜˋ ㄅㄣˇ ㄕㄤˋ, ㄒㄧㄥˋ ㄎㄨㄟ ㄗㄨㄟˋ ㄓㄨㄥˋ ㄧㄠˋ ㄉㄜ˙ ㄅㄨˋ ㄈㄣˋ ㄇㄟˊ ㄋㄨㄥˋ ㄗㄤ.',
+            pinyin: 'wo3 ba3 ka1 fei1 sa3 zai4 ke4 ben3 shang4, xing4 kui1 zui4 zhong4 yao4 de bu4 fen4 mei2 nong4 zang1.',
             translation: 'コーヒーを教科書にこぼしてしまいましたが、 幸い一番大事な部分は汚れていませんでした。',
             memo: ''
           },
@@ -199,30 +199,30 @@ export default {
             changed: '☆'
           },
           {
-            word: '★打',
+            word: '打',
             sentence: '即使我從未被父親打過， 每天卻被貓打。',
             bopomofo: 'ㄐㄧˊ ㄕˇ ㄨㄛˇ ㄘㄨㄥˊ ㄨㄟˋ ㄅㄟˋ ㄈㄨˋ ㄑㄧㄣ ㄉㄚˇ ㄍㄨㄛˋ, ㄇㄟˇ ㄊㄧㄢ ㄑㄩㄝˋ ㄅㄟˋ ㄇㄠ ㄉㄚˇ.',
             pinyin: 'ji2 shi3 wo3 cong2 wei4 bei4 fu4 qin1 da3 guo4, mei3 tian1 que4 bei4 mao1 da3.',
             translation: '親父にもぶたれた事ないのに、 猫には毎日猫パンチされます。',
-            memo: '※「我未被父親」ではない? 「從」は必要?',
+            memo: '※「從未(ㄘㄨㄥˊ ㄨㄟˋ/cong2 wei4)」 = 「まだ～したことがない」。 「未」 は「沒」の意味で、例えば「還沒(ㄏㄞˊ ㄇㄟˊ/hai2 mei2)」 = 「還未(ㄏㄞˊ ㄨㄟˋ/hai2 wei4)」。',
             changed: '☆'
           },
           {
-            word: '★分手',
-            sentence: '因為分手了的重傷， 他看上去一副魂不守舍的樣子。',
-            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄈㄣ ㄕㄡˇ ㄌㄜ˙ ㄉㄜ˙ ㄓㄨㄥˋ ㄕㄤ, ㄊㄚ ㄎㄢˋ ㄕㄤ˙ ㄑㄩ˙ ㄧ ㄈㄨˋ ㄏㄨㄣˊ ㄅㄨˋ ㄕㄡˇ ㄕㄜˋ ㄉㄜ˙ ㄧㄤˋ ㄗ˙.',
-            pinyin: 'yin1 wei4 fen1 shou3 le de zhong4 shang1, ta1 kan4 shang4 qu4 yi1 fu4 hun2 bu4 shou3 she4 de yang4 zi.',
+            word: '分手',
+            sentence: '因為分手了的重傷， 他看起來像一個空殼。',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄈㄣ ㄕㄡˇ ㄌㄜ˙ ㄉㄜ˙ ㄓㄨㄥˋ ㄕㄤ, ㄊㄚ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄒㄧㄤˋ ㄧˊ ㄍㄜˋ ㄎㄨㄥ ㄎㄜˊ.',
+            pinyin: 'yin1 wei4 fen1 shou3 le de zhong4 shang1, ta1 kan4 qi3 lai2 xiang4 yi1 ge4 kong1 ke2.',
             translation: '破局したダメージで、 彼はまるで抜け殻のようになっています。',
-            memo: '※「不守舍」の意味、 「看上去」 : 「～に見える」?',
+            memo: '※「抜け殻、 うつろな状態」 : 「失神(ㄕ ㄕㄣˊ/shi1 shen2)」「發呆(ㄈㄚ ㄉㄞ/fa1/ dai1)」という表現もある。 例えば「讓他失了神」。 第二文は、「他看上去一副魂不守舍的樣子(ㄊㄚ ㄎㄢˋ ㄕㄤ˙ ㄑㄩ˙ ㄧ ㄈㄨˋ ㄏㄨㄣˊ ㄅㄨˋ ㄕㄡˇ ㄕㄜˋ ㄉㄜ˙ ㄧㄤˋ ㄗ˙/ta1 kan4 shang4 qu4 yi1 fu4 hun2 bu4 shou3 she4 de yang4 zi)」でも可。',
             changed: '☆'
           },
           {
-            word: '★緊張',
-            sentence: '我不常出去， 所以只是坐捷運救很緊張。',
+            word: '緊張',
+            sentence: '我不常出去， 所以只是坐捷運就很緊張。',
             bopomofo: 'ㄨㄛˇ ㄅㄨˋ ㄔㄤˊ ㄔㄨ ㄑㄩˋ, ㄙㄨㄛˇ ㄧˇ ㄓˇ ㄕˋ ㄗㄨㄛˋ ㄐㄧㄝˊ ㄩㄣˋ ㄐㄧㄡˋ ㄏㄣˇ ㄐㄧㄣˇ ㄓㄤ.',
             pinyin: 'wo3 bu4 chang2 chu1 qu4, suo3 yi3 zhi3 shi4 zuo4 jie2 yun4 jiu4 hen3 jin3 zhang1.',
             translation: 'あまり外に出る事がないので、 電車に乗るだけでも緊張します。',
-            memo: '※「救」 → 「就」?',
+            memo: '',
             changed: '☆'
           },
           {
@@ -235,12 +235,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '★送',
-            sentence: '我第一次約會就帶她去了寄生蟲博物館， 可能是個錯誤。',
-            bopomofo: 'ㄨㄛˇ ㄉㄧˋ ㄧ ㄘˋ ㄩㄝ ㄏㄨㄟˋ ㄐㄧㄡˋ ㄉㄞˋ ㄊㄚ ㄑㄩˋ ㄌㄜ˙ ㄐㄧˋ ㄕㄥ ㄔㄨㄥˊ ㄅㄛˊ ㄨˋ ㄍㄨㄢˇ, ㄎㄜˇ ㄋㄥˊ ㄕˋ ㄍㄜˋ ㄘㄨㄛˋ ㄨˋ.',
-            pinyin: 'wo3 di4 yi1 ci4 yue1 hui4 jiu4 dai4 ta1 qu4 le ji4 sheng1 chong2 bo2 wu4 guan3, ke3 neng2 shi4 ge4 cuo4 wu4.',
-            translation: '初デートで彼女を寄生虫博物館に連れていったのですが、 間違いだったかもしれません。',
-            memo: '※「送」を使うには?',
+            word: '送',
+            sentence: '他送給妹妹生日禮物。',
+            bopomofo: 'ㄊㄚ ㄙㄨㄥˋ ㄍㄟˇ ㄇㄟˋ ㄇㄟ˙ ㄕㄥ ㄖˋ ㄌㄧˇ ㄨˋ.',
+            pinyin: 'ta1 song4 gei3 mei4 mei sheng1 ri4 li3 wu4.',
+            translation: '彼は妹に誕生日プレゼントを送りました。',
+            memo: '',
             changed: '☆'
           },
           {
@@ -287,9 +287,9 @@ export default {
           },
           {
             word: '寵物',
-            sentence: '他溺愛貓並且總是在他身邊， 所以我不知道他還是貓是寵物。',
-            bopomofo: 'ㄊㄚ ㄋㄧˋ ㄞˋ ㄇㄠ ㄅㄧㄥˋ ㄑㄧㄝˇ ㄗㄨㄥˇ ㄕˋ ㄗㄞˋ ㄊㄚ ㄕㄣ ㄅㄧㄢ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄅㄨˋ ㄓ ㄉㄠˋ ㄊㄚ ㄏㄞˊ ㄕˋ ㄇㄠ ㄕˋ ㄔㄨㄥˇ ㄨˋ.',
-            pinyin: 'ta1 ni4 ai4 mao1 bing4 qie3 zong3 shi4 zai4 ta1 shen1 bian1, suo3 yi3 wo3 bu4 zhi1 dao4 ta1 hai2 shi4 mao1 shi4 chong3 wu4.',
+            sentence: '他溺愛貓並且總是在他身邊， 所以我不知道他是貓還是寵物。',
+            bopomofo: 'ㄊㄚ ㄋㄧˋ ㄞˋ ㄇㄠ ㄅㄧㄥˋ ㄑㄧㄝˇ ㄗㄨㄥˇ ㄕˋ ㄗㄞˋ ㄊㄚ ㄕㄣ ㄅㄧㄢ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄅㄨˋ ㄓ ㄉㄠˋ ㄊㄚ ㄕˋ ㄇㄠ ㄏㄞˊ ㄕˋ ㄔㄨㄥˇ ㄨˋ.',
+            pinyin: 'ta1 ni4 ai4 mao1 bing4 qie3 zong3 shi4 zai4 ta1 shen1 bian1, suo3 yi3 wo3 bu4 zhi1 dao4 ta1 shi4 mao1 hai2 shi4 chong3 wu4.',
             translation: '彼は猫を溺愛していていつも側にいるので、 彼と猫どちらがペットなのか分かりません。',
             memo: '※「並且」 : 「尚且つ、 しかも」。'
           },
@@ -313,9 +313,9 @@ export default {
           },
           {
             word: '意見',
-            sentence: '她正在熱戀中， 反對的意見不會聽進去。',
-            bopomofo: 'ㄊㄚ ㄓㄥˋ ㄗㄞˋ ㄖㄜˋ ㄌㄧㄢˋ ㄓㄨㄥ, ㄈㄢˇ ㄉㄨㄟˋ ㄉㄜ˙ ㄧˋ ㄐㄧㄢˋ ㄅㄨˊ ㄏㄨㄟˋ ㄊㄧㄥ ㄐㄧㄣˋ ㄑㄩˋ.',
-            pinyin: 'ta1 zheng4 zai4 re4 lian4 zhong1, fan3 dui4 de yi4 jian4 bu2 hui4 ting1 jin4 qu4.',
+            sentence: '她正在熱戀中， 反對的意見是聽不進去的。',
+            bopomofo: 'ㄊㄚ ㄓㄥˋ ㄗㄞˋ ㄖㄜˋ ㄌㄧㄢˋ ㄓㄨㄥ, ㄈㄢˇ ㄉㄨㄟˋ ㄉㄜ˙ ㄧˋ ㄐㄧㄢˋ ㄕˋ ㄊㄧㄥ ㄅㄨˊ ㄐㄧㄣˋ ㄑㄩˋ ㄉㄜ˙.',
+            pinyin: 'ta1 zheng4 zai4 re4 lian4 zhong1, fan3 dui4 de yi4 jian4 shi4 ting1 bu2 jin4 qu4 de.',
             translation: '彼女は恋愛にのめり込んでいるので、 反対意見は耳に入りません。',
             memo: '',
             changed: '☆'
@@ -339,20 +339,20 @@ export default {
           },
           {
             word: '家庭',
-            sentence: '我以為家裡有誰會叫醒我， 但他們都睡過頭了。',
-            bopomofo: 'ㄨㄛˇ ㄧˇ ㄨㄟˊ ㄐㄧㄚ ㄌㄧˇ ㄧㄡˇ ㄕㄨㄟˊ ㄏㄨㄟˋ ㄐㄧㄠˋ ㄒㄧㄥˇ ㄨㄛˇ, ㄉㄢˋ ㄊㄚ ㄇㄣ˙ ㄉㄡ ㄕㄨㄟˋ ㄍㄨㄛˋ ㄊㄡˊ ㄌㄜ˙.',
-            pinyin: 'wo3 yi3 wei2 jia1 li3 you3 shei2 hui4 jiao4 xing3 wo3, dan4 ta1 men dou1 shui4 guo4 tou2 le.',
-            translation: '家族の誰かが起こしてくれるだろうと思っていましたが、 全員寝坊しました。',
+            sentence: '週末家人聚一聚的時候我們會去家庭複合式餐廳吧。',
+            bopomofo: 'ㄓㄡ ㄇㄛˋ ㄐㄧㄚ ㄖㄣˊ ㄐㄩˋ ㄧ ㄐㄩˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄨㄛˇ ㄇㄣ˙ ㄏㄨㄟˋ ㄑㄩˋ ㄐㄧㄚ ㄊㄧㄥˊ ㄈㄨˋ ㄏㄜˊ ㄕˋ ㄘㄢ ㄊㄧㄥ ㄅㄚ˙.',
+            pinyin: 'zhou1 mo4 jia1 ren2 ju4 yi1 ju4 de shi2 hou4 wo3 men hui4 qu4 jia1 ting2 fu4 he2 shi4 can1 ting1 ba.',
+            translation: '週末家族で集まる時は、 ファミリーレストランに行きましょう。',
             memo: '',
             changed: '☆'
           },
           {
             word: '真正',
-            sentence: '我看到他誤把金槍魚罐頭當貓罐頭吃， 我覺得他是個真正的白痴。',
-            bopomofo: 'ㄨㄛˇ ㄎㄢˋ ㄉㄠˋ ㄊㄚ ㄨˋ ㄅㄚˇ ㄐㄧㄣ ㄑㄧㄤ ㄩˊ ㄍㄨㄢˋ ㄊㄡ˙ ㄉㄤ ㄇㄠ ㄍㄨㄢˋ ㄊㄡ˙ ㄔ, ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄊㄚ ㄕˋ ㄍㄜˋ ㄓㄣ ㄓㄥˋ ㄉㄜ˙ ㄅㄞˊ ㄔ.',
-            pinyin: 'wo3 kan4 dao4 ta1 wu4 ba3 jin1 qiang1 yu2 guan4 tou2 dang1 mao1 guan4 tou2 chi1, wo3 jue2 de ta1 shi4 ge4 zhen1 zheng4 de bai2 chi1.',
+            sentence: '我看到他誤把金槍魚罐頭當貓罐頭吃， 我覺得他是個真正的笨蛋。',
+            bopomofo: 'ㄨㄛˇ ㄎㄢˋ ㄉㄠˋ ㄊㄚ ㄨˋ ㄅㄚˇ ㄐㄧㄣ ㄑㄧㄤ ㄩˊ ㄍㄨㄢˋ ㄊㄡ˙ ㄉㄤ ㄇㄠ ㄍㄨㄢˋ ㄊㄡ˙ ㄔ, ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄊㄚ ㄕˋ ㄍㄜˋ ㄓㄣ ㄓㄥˋ ㄉㄜ˙ ㄅㄣˋ ㄉㄢˋ.',
+            pinyin: 'wo3 kan4 dao4 ta1 wu4 ba3 jin1 qiang1 yu2 guan4 tou2 dang1 mao1 guan4 tou2 chi1, wo3 jue2 de ta1 shi4 ge4 zhen1 zheng4 de ben4 dan4.',
             translation: 'ツナ缶と間違えて猫缶を食べているのを見て、 彼は本物のバカなのだと思いました。',
-            memo: '※「バカ」 : 「白痴(ㄅㄞˊ ㄔ/ bai2 chi1)」または「笨蛋(ㄅㄣˋ ㄉㄢˋ/ben4 dan4)」でも可。',
+            memo: '※「バカ」 : 「傻瓜(ㄕㄚˇ ㄍㄨㄚ/sha3 gua1)」でも可。 「白痴(ㄅㄞˊ ㄔ/ bai2 chi1)」はやや強い表現なのであまり使わない方が良い。',
             changed: '☆'
           },
           {
@@ -366,10 +366,10 @@ export default {
           },
           {
             word: '跌倒',
-            sentence: '如果三秒內， 即使是掉在地上的食物你也都可以吃。',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄙㄢ ㄇㄧㄠˇ ㄋㄟˋ, ㄐㄧˊ ㄕˇ ㄕˋ ㄉㄧㄠˋ ㄗㄞˋ ㄉㄧˋ ㄕㄤˋ ㄉㄜ˙ ㄕˊ ㄨˋ ㄋㄧˇ ㄧㄝˇ ㄉㄡ ㄎㄜˇ ㄧˇ ㄔ.',
-            pinyin: 'ru2 guo3 san1 miao3 nei4, ji2 shi3 shi4 diao4 zai4 di4 shang4 de shi2 wu4 ni3 ye3 dou1 ke3 yi3 chi1.',
-            translation: '床に落ちた食べ物でも、 3秒以内なら食べられます。',
+            sentence: '他跌倒了, 他手裡的冰淇淋掉了。',
+            bopomofo: 'ㄊㄚ ㄉㄧㄝ ㄉㄠˇ ㄌㄜ˙, ㄊㄚ ㄕㄡˇ ㄌㄧˇ ㄉㄜ˙ ㄅㄧㄥ ㄑㄧˊ ㄌㄧㄣˊ ㄉㄧㄠˋ ㄌㄜ˙.',
+            pinyin: 'ta1 die1 dao3 le, ta1 shou3 li3 de bing1 qi2 lin2 diao4 le.',
+            translation: '彼は転んで、 手に持っていたアイスクリームを落としてしまいました。',
             memo: '',
             changed: '☆'
           },
@@ -410,9 +410,9 @@ export default {
           },
           {
             word: '先生',
-            sentence: '再打二折， 我的先生也不買不合身的衣服。',
-            bopomofo: 'ㄗㄞˋ ㄉㄚˇ ㄦˋ ㄓㄜˊ, ㄨㄛˇ ㄉㄜ˙ ㄒㄧㄢ ㄕㄥ ㄧㄝˇ ㄅㄨˋ ㄇㄞˇ ㄅㄨˋ ㄏㄜˊ ㄕㄣ ㄉㄜ˙ ㄧ ㄈㄨˊ.',
-            pinyin: 'zai4 da3 er4 zhe2, wo3 de xian1 sheng1 ye3 bu4 mai3 bu4 he2 shen1 de yi1 fu2.',
+            sentence: '再打二折， 我的先生也不會買不合身的衣服。',
+            bopomofo: 'ㄗㄞˋ ㄉㄚˇ ㄦˋ ㄓㄜˊ, ㄨㄛˇ ㄉㄜ˙ ㄒㄧㄢ ㄕㄥ ㄧㄝˇ ㄅㄨˋ ㄏㄨㄟˋ ㄇㄞˇ ㄅㄨˋ ㄏㄜˊ ㄕㄣ ㄉㄜ˙ ㄧ ㄈㄨˊ.',
+            pinyin: 'zai4 da3 er4 zhe2, wo3 de xian1 sheng1 ye3 bu4 hui4 mai3 bu4 he2 shen1 de yi1 fu2.',
             translation: '20%引きだとしても、 私の夫はサイズが合わない服は買いません。',
             memo: ''
           },
@@ -452,12 +452,12 @@ export default {
             memo: ''
           },
           {
-            word: '★靠',
-            sentence: '他很依靠父母的家， 所以他沒有辦法下決心一個人住。',
-            bopomofo: 'ㄊㄚ ㄏㄣˇ ㄧ ㄎㄠˋ ㄈㄨˋ ㄇㄨˇ ㄉㄜ˙ ㄐㄧㄚ, ㄙㄨㄛˇ ㄧˇ ㄊㄚ ㄇㄟˊ ㄧㄡˇ ㄅㄢˋ ㄈㄚˇ ㄒㄧㄚˋ ㄐㄩㄝˊ ㄒㄧㄣ ㄧˊ ㄍㄜ˙ ㄖㄣˊ ㄓㄨˋ.',
-            pinyin: 'ta1 hen3 yi1 kao4 fu4 mu3 de jia1, suo3 yi3 ta1 mei2 you3 ban4 fa3 xia4 jue2 xin1 yi1 ge4 ren2 zhu4.',
-            translation: '彼は実家に依存しているので、 一人暮らしをする決心がつきません。',
-            memo: '※「依靠」 = 「靠」?',
+            word: '靠',
+            sentence: '他在家靠父母， 所以他沒有辦法下決心一個人住。',
+            bopomofo: 'ㄊㄚ ㄗㄞˋ ㄐㄧㄚ ㄎㄠˋ ㄈㄨˋ ㄇㄨˇ, ㄙㄨㄛˇ ㄧˇ ㄊㄚ ㄇㄟˊ ㄧㄡˇ ㄅㄢˋ ㄈㄚˇ ㄒㄧㄚˋ ㄐㄩㄝˊ ㄒㄧㄣ ㄧˊ ㄍㄜ˙ ㄖㄣˊ ㄓㄨˋ.',
+            pinyin: 'ta1 zai4 jia1 kao4 fu4 mu3, suo3 yi3 ta1 mei2 you3 ban4 fa3 xia4 jue2 xin1 yi1 ge4 ren2 zhu4.',
+            translation: '彼は実家で両親に依存しているので、 一人暮らしをする決心がつきません。',
+            memo: '',
             changed: '☆'
           },
           {
@@ -489,20 +489,20 @@ export default {
           },
           {
             word: '強',
-            sentence: '我的貓似乎很會吵架，牠在這附近當老大。',
-            bopomofo: 'ㄨㄛˇ ㄉㄜ˙ ㄇㄠ ㄙˋ ㄏㄨ ㄏㄣˇ ㄏㄨㄟˋ ㄔㄠˇ ㄐㄧㄚˋ, ㄊㄚ ㄗㄞˋ ㄓㄜˋ ㄈㄨˋ ㄐㄧㄣˋ ㄉㄤ ㄌㄠˇ ㄉㄚˋ.',
-            pinyin: 'wo3 de mao1 si4 hu1 hen3 hui4 chao3 jia4, ta1 zai4 zhe4 fu4 jin4 dang1 lao3 da4.',
-            translation: '私の猫は喧嘩がとても強いようで、 この辺りのボス猫として君臨しています。',
+            sentence: '白癡這個表現比較強, 所以應該用笨蛋。',
+            bopomofo: 'ㄅㄞˊ ㄔ ㄓㄜˋ ㄍㄜˋ ㄅㄧㄠˇ ㄒㄧㄢˋ ㄅㄧˇ ㄐㄧㄠˋ ㄑㄧㄤˊ, ㄙㄨㄛˇ ㄧˇ ㄧㄥ ㄍㄞ ㄩㄥˋ ㄅㄣˋ ㄉㄢˋ.',
+            pinyin: 'bai2 chi1 zhe4 ge4 biao3 xian4 bi3 jiao4 qiang2, suo3 yi3 ying1 gai1 yong4 ben4 dan4.',
+            translation: '「白癡(ㄅㄞˊ ㄔ/bai2 chi1) = バカ」は少し強い表現なので、 「笨蛋(ㄅㄣˋ ㄉㄢˋ/ben4 dan4) = バカ」を使いましょう。',
             memo: '',
             changed: '☆'
           },
           {
-            word: '★追',
+            word: '追',
             sentence: '她是對他可望而不可及的， 追是沒有用的。',
             bopomofo: 'ㄊㄚ ㄕˋ ㄉㄨㄟˋ ㄊㄚ ㄎㄜˇ ㄨㄤˋ ㄦˊ ㄅㄨˋ ㄎㄜˇ ㄐㄧˊ ㄉㄜ˙, ㄓㄨㄟ ㄕˋ ㄇㄟˊ ㄧㄡˇ ㄩㄥˋ ㄉㄜ˙.',
             pinyin: 'ta1 shi4 dui4 ta1 ke3 wang4 er2 bu4 ke3 ji2 de, zhui1 shi4 mei2 you3 yong4 de.',
             translation: '彼女は彼にとって高嶺の花なので、 追いかけるのは無意味です。',
-            memo: '※「可望而不可及的」 : 「遠くから眺める事はできるが、 近づくことはできない憧れの存在」。',
+            memo: '※「遠くから眺める事はできるが近づくことはできない憧れの存在、 高嶺の花」 : 「可望而不可及(ㄎㄜˇ ㄨㄤˋ ㄦˊ ㄅㄨˋ ㄎㄜˇ ㄐㄧˊ/ke3 wang4 er2 bu4 ke3 ji2)」 、 「遙不可及(ㄧㄠˊ ㄅㄨˋ ㄎㄜˇ ㄐㄧˊ/yao2 bu4 ke3 ji2)」でも可。 ',
             changed: '☆'
           },
           {
@@ -532,9 +532,9 @@ export default {
           },
           {
             word: '享受',
-            sentence: '她的朋友把紅酒送了給她， 所以她打算跟起司一起享受。',
-            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄆㄥˊ ㄧㄡˇ ㄅㄚˇ ㄏㄨㄥˊ ㄐㄧㄡˇ ㄙㄨㄥˋ ㄌㄜ˙ ㄍㄟˇ ㄊㄚ, ㄙㄨㄛˇ ㄧˇ ㄊㄚ ㄉㄚˇ ㄙㄨㄢˋ ㄍㄣ ㄑㄧˇ ㄙ ㄧˋ ㄑㄧˇ ㄒㄧㄤˇ ㄕㄡˋ.',
-            pinyin: 'ta1 de peng2 you3 ba3 hong2 jiu3 song4 le gei3 ta1, suo3 yi3 ta1 da3 suan4 gen1 qi3 si1 yi1 qi3 xiang3 shou4.',
+            sentence: '她的朋友把紅酒送給了她， 所以她打算跟起司一起享受。',
+            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄆㄥˊ ㄧㄡˇ ㄅㄚˇ ㄏㄨㄥˊ ㄐㄧㄡˇ ㄙㄨㄥˋ ㄍㄟˇ ㄌㄜ˙ ㄊㄚ, ㄙㄨㄛˇ ㄧˇ ㄊㄚ ㄉㄚˇ ㄙㄨㄢˋ ㄍㄣ ㄑㄧˇ ㄙ ㄧˋ ㄑㄧˇ ㄒㄧㄤˇ ㄕㄡˋ.',
+            pinyin: 'ta1 de peng2 you3 ba3 hong2 jiu3 song4 gei3 le ta1, suo3 yi3 ta1 da3 suan4 gen1 qi3 si1 yi1 qi3 xiang3 shou4.',
             translation: '友達が赤ワインを贈ってくれたので、 彼女はチーズと一緒にそのボトルを楽しむつもりです。',
             memo: '',
             changed: '☆'
@@ -593,9 +593,9 @@ export default {
           },
           {
             word: '責任',
-            sentence: '吃得太多不是我的責任， 因為我媽媽的飯很好吃。',
-            bopomofo: 'ㄔ ㄉㄜˊ ㄊㄞˋ ㄉㄨㄛ ㄅㄨˊ ㄕˋ ㄨㄛˇ ㄉㄜ˙ ㄗㄜˊ ㄖㄣˋ, ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄇㄚ ㄇㄚ ㄉㄜ˙ ㄈㄢˋ ㄏㄣˇ ㄏㄠˇ ㄔ.',
-            pinyin: 'chi1 de tai4 duo1 bu2 shi4 wo3 de ze2 ren4, yin1 wei4 wo3 ma1 ma1 de fan4 hen3 hao3 chi1.',
+            sentence: '吃得太多不是我的責任， 因為我媽媽做的飯很好吃。',
+            bopomofo: 'ㄔ ㄉㄜˊ ㄊㄞˋ ㄉㄨㄛ ㄅㄨˊ ㄕˋ ㄨㄛˇ ㄉㄜ˙ ㄗㄜˊ ㄖㄣˋ, ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄇㄚ ㄇㄚ ㄗㄨㄛˋ ㄉㄜ˙ ㄈㄢˋ ㄏㄣˇ ㄏㄠˇ ㄔ.',
+            pinyin: 'chi1 de tai4 duo1 bu2 shi4 wo3 de ze2 ren4, yin1 wei4 wo3 ma1 ma1 zuo4 de fan4 hen3 hao3 chi1.',
             translation: '食べ過ぎてしまうのは私の責任ではなく、 お母さんのご飯が美味しいからです。',
             memo: ''
           },
@@ -608,19 +608,19 @@ export default {
             memo: ''
           },
           {
-            word: '★教養',
-            sentence: '因為他的父母寵壞他了， 所以隨他自在長大。',
-            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄊㄚ ㄉㄜ˙ ㄈㄨˋ ㄇㄨˇ ㄔㄨㄥˇ ㄏㄨㄞˋ ㄊㄚ ㄌㄜ˙, ㄙㄨㄛˇ ㄧˇ ㄙㄨㄟˊ ㄊㄚ ㄗˋ ㄗㄞˋ ㄓㄤˇ ㄉㄚˋ.',
-            pinyin: 'yin1 wei4 ta1 de fu4 mu3 chong3 huai4 ta1 le, suo3 yi3 sui2 ta1 zi4 zai4 zhang3 da4.',
-            translation: '両親は彼を甘やかして育てたので、 彼はのびのびと育ちました。',
-            memo: '※「教養」を使うには? 「隨」の意味?',
+            word: '教養',
+            sentence: '吃飯的樣子可以看出人的教養。',
+            bopomofo: 'ㄔ ㄈㄢˋ ㄉㄜ˙ ㄧㄤˋ ㄗ˙ ㄎㄜˇ ㄧˇ ㄎㄢˋ ㄔㄨ ㄖㄣˊ ㄉㄜ˙ ㄐㄧㄠˋ ㄧㄤˇ.',
+            pinyin: 'chi1 fan4 de yang4 zi ke3 yi3 kan4 chu1 ren2 de jiao4 yang3.',
+            translation: 'ご飯の食べ方で、 教養の程度が分かります。',
+            memo: '',
             changed: '☆'
           },
           {
-            word: '★接受',
+            word: '接受',
             sentence: '他們不能接受彼此的看法， 所以相互保持著距離。',
             bopomofo: 'ㄊㄚ ㄇㄣ˙ ㄅㄨˋ ㄋㄥˊ ㄐㄧㄝ ㄕㄡˋ ㄅㄧˇ ㄘˇ ㄉㄜ˙ ㄎㄢˋ ㄈㄚˇ, ㄙㄨㄛˇ ㄧˇ ㄒㄧㄤ ㄏㄨˋ ㄅㄠˇ ㄔˊ ㄓㄜ˙ ㄐㄩˋ ㄌㄧˊ.',
-            pinyin: 'ta1 men bu4 neng2 jie1 shou4 bi3 ci3 de kan4 fa3, suo3 yi3 xiang1 hu4 bao3 chi2 zhe ju4 li4.',
+            pinyin: 'ta1 men bu4 neng2 jie1 shou4 bi3 ci3 de kan4 fa3, suo3 yi3 xiang1 hu4 bao3 chi2 zhe ju4 li2.',
             translation: '彼らはお互いの考えを受け入れることができないので、 距離をおいています。',
             memo: '※「お互い」 : 「彼此(ㄅㄧˇ ㄘˇ/bi3 ci3)」または「相互(ㄒㄧㄤ ㄏㄨˋ/xiang1 hu4)」。',
             changed: '☆'
@@ -687,12 +687,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '★下決心',
-            sentence: '他對上大學的下了很大的決心， 所以每天熬夜念書。',
-            bopomofo: 'ㄊㄚ ㄉㄨㄟˋ ㄕㄤˋ ㄉㄚˋ ㄒㄩㄝˊ ㄉㄜ˙ ㄒㄧㄚˋ ㄌㄜ˙ ㄏㄣˇ ㄉㄚˋ ㄉㄜ˙ ㄐㄩㄝˊ ㄒㄧㄣ, ㄙㄨㄛˇ ㄧˇ ㄇㄟˇ ㄊㄧㄢ ㄠˊ ㄧㄝˋ ㄋㄧㄢˋ ㄕㄨ.',
-            pinyin: 'ta1 dui4 shang4 da4 xue2 de xia4 le hen3 da4 de jue2 xin1, suo3 yi3 mei3 tian1 ao2 ye4 nian4 shu1.',
+            word: '下決心',
+            sentence: '他對上大學下了很大的決心， 所以每天熬夜念書。',
+            bopomofo: 'ㄊㄚ ㄉㄨㄟˋ ㄕㄤˋ ㄉㄚˋ ㄒㄩㄝˊ ㄒㄧㄚˋ ㄌㄜ˙ ㄏㄣˇ ㄉㄚˋ ㄉㄜ˙ ㄐㄩㄝˊ ㄒㄧㄣ, ㄙㄨㄛˇ ㄧˇ ㄇㄟˇ ㄊㄧㄢ ㄠˊ ㄧㄝˋ ㄋㄧㄢˋ ㄕㄨ.',
+            pinyin: 'ta1 dui4 shang4 da4 xue2 xia4 le hen3 da4 de jue2 xin1, suo3 yi3 mei3 tian1 ao2 ye4 nian4 shu1.',
             translation: '彼の大学へ行く決意は固いので、 毎晩遅くまで勉強しています。',
-            memo: '※他對上大學「的」下了?',
+            memo: '',
             changed: '☆'
           }
         ]
