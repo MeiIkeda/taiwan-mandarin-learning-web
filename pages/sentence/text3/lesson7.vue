@@ -291,7 +291,7 @@ export default {
             bopomofo: 'ㄊㄚ ㄋㄧˋ ㄞˋ ㄇㄠ ㄅㄧㄥˋ ㄑㄧㄝˇ ㄗㄨㄥˇ ㄕˋ ㄗㄞˋ ㄊㄚ ㄕㄣ ㄅㄧㄢ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄅㄨˋ ㄓ ㄉㄠˋ ㄊㄚ ㄕˋ ㄇㄠ ㄏㄞˊ ㄕˋ ㄔㄨㄥˇ ㄨˋ.',
             pinyin: 'ta1 ni4 ai4 mao1 bing4 qie3 zong3 shi4 zai4 ta1 shen1 bian1, suo3 yi3 wo3 bu4 zhi1 dao4 ta1 shi4 mao1 hai2 shi4 chong3 wu4.',
             translation: '彼は猫を溺愛していていつも側にいるので、 彼と猫どちらがペットなのか分かりません。',
-            memo: '※「並且」 : 「尚且つ、 しかも」。'
+            memo: '※「並且(ㄅㄧㄥˋ ㄑㄧㄝˇ/bing4 qie3)」 : 「尚且つ、 しかも」。'
           },
           {
             word: '單身',
@@ -352,7 +352,7 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄎㄢˋ ㄉㄠˋ ㄊㄚ ㄨˋ ㄅㄚˇ ㄐㄧㄣ ㄑㄧㄤ ㄩˊ ㄍㄨㄢˋ ㄊㄡ˙ ㄉㄤ ㄇㄠ ㄍㄨㄢˋ ㄊㄡ˙ ㄔ, ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄊㄚ ㄕˋ ㄍㄜˋ ㄓㄣ ㄓㄥˋ ㄉㄜ˙ ㄅㄣˋ ㄉㄢˋ.',
             pinyin: 'wo3 kan4 dao4 ta1 wu4 ba3 jin1 qiang1 yu2 guan4 tou2 dang1 mao1 guan4 tou2 chi1, wo3 jue2 de ta1 shi4 ge4 zhen1 zheng4 de ben4 dan4.',
             translation: 'ツナ缶と間違えて猫缶を食べているのを見て、 彼は本物のバカなのだと思いました。',
-            memo: '※「バカ」 : 「傻瓜(ㄕㄚˇ ㄍㄨㄚ/sha3 gua1)」でも可。 「白痴(ㄅㄞˊ ㄔ/ bai2 chi1)」はやや強い表現なのであまり使わない方が良い。',
+            memo: '※「バカ」 :「笨蛋(ㄅㄣˋ ㄉㄢˋ/ben4 dan4)」 「傻瓜(ㄕㄚˇ ㄍㄨㄚ/sha3 gua1)」でも可。 「白痴(ㄅㄞˊ ㄔ/ bai2 chi1)」はやや強い表現なのであまり使わない方が良い。',
             changed: '☆'
           },
           {
@@ -492,7 +492,7 @@ export default {
             sentence: '白癡這個表現比較強, 所以應該用笨蛋。',
             bopomofo: 'ㄅㄞˊ ㄔ ㄓㄜˋ ㄍㄜˋ ㄅㄧㄠˇ ㄒㄧㄢˋ ㄅㄧˇ ㄐㄧㄠˋ ㄑㄧㄤˊ, ㄙㄨㄛˇ ㄧˇ ㄧㄥ ㄍㄞ ㄩㄥˋ ㄅㄣˋ ㄉㄢˋ.',
             pinyin: 'bai2 chi1 zhe4 ge4 biao3 xian4 bi3 jiao4 qiang2, suo3 yi3 ying1 gai1 yong4 ben4 dan4.',
-            translation: '「白癡(ㄅㄞˊ ㄔ/bai2 chi1) = バカ」は少し強い表現なので、 「笨蛋(ㄅㄣˋ ㄉㄢˋ/ben4 dan4) = バカ」を使いましょう。',
+            translation: '「白癡(ㄅㄞˊ ㄔ/bai2 chi1) = バカ」は少し強い表現なので、 「笨蛋(ㄅㄣˋ ㄉㄢˋ/ben4 dan4) = バカ」を使う方が良い。',
             memo: '',
             changed: '☆'
           },
