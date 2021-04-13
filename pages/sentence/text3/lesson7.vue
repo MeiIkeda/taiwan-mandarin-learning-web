@@ -199,12 +199,12 @@ export default {
             changed: '☆'
           },
           {
-            word: '打',
+            word: '★打',
             sentence: '即使我從未被父親打過， 每天卻被貓打。',
             bopomofo: 'ㄐㄧˊ ㄕˇ ㄨㄛˇ ㄘㄨㄥˊ ㄨㄟˋ ㄅㄟˋ ㄈㄨˋ ㄑㄧㄣ ㄉㄚˇ ㄍㄨㄛˋ, ㄇㄟˇ ㄊㄧㄢ ㄑㄩㄝˋ ㄅㄟˋ ㄇㄠ ㄉㄚˇ.',
             pinyin: 'ji2 shi3 wo3 cong2 wei4 bei4 fu4 qin1 da3 guo4, mei3 tian1 que4 bei4 mao1 da3.',
             translation: '親父にもぶたれた事ないのに、 猫には毎日猫パンチされます。',
-            memo: '',
+            memo: '※「我未被父親」ではない? 「從」は必要?',
             changed: '☆'
           },
           {
