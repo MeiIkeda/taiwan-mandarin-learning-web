@@ -42,7 +42,7 @@ export default {
         words: [
           {
             word: '整夜',
-            sentence: '學生們整夜玩了電腦遊戲，　所以他們都睡過頭了。',
+            sentence: '學生們整夜玩了電腦遊戲, 所以他們都睡過頭了。',
             bopomofo: 'ㄒㄩㄝˊ ㄕㄥ ㄇㄣ˙ ㄓㄥˇ ㄧㄝˋ ㄨㄢˊ ㄌㄜ˙ ㄉㄧㄢˋ ㄋㄠˇ ㄧㄡˊ ㄒㄧˋ   ㄙㄨㄛˇ ㄧˇ ㄊㄚ ㄇㄣ˙ ㄉㄡ ㄕㄨㄟˋ ㄍㄨㄛˋ ㄊㄡˊ ㄌㄜ˙.',
             pinyin: 'xue2 sheng1 men2/men zheng3 ye4 wan2 le/liao3 dian4 nao3 you2 xi4 suo3 yi3 ta1 men2/men dou1 shui4 guo4 tou2 le/liao3.',
             translation: '学生たちは一晩中コンピュータゲームをしていたので、 全員寝坊しました。',
@@ -57,12 +57,12 @@ export default {
             memo: ''
           },
           {
-            word: '燈',
+            word: '★燈',
             sentence: '從門的縫隙照進來的燈光很明亮。',
             bopomofo: 'ㄘㄨㄥˊ ㄇㄣˊ ㄉㄜ˙ ㄈㄥˋ ㄒㄧˋ ㄓㄠˋ ㄐㄧㄣˋ ㄌㄞˊ ㄉㄜ˙ ㄉㄥ ㄍㄨㄤ ㄏㄣˇ ㄇㄧㄥˊ ㄌㄧㄤˋ.',
             pinyin: 'cong2 men2 de/di2/di4 feng2/feng4 xi4 zhao4 jin4 lai2 de/di2/di4 deng1 guang1 hen3 ming2 liang4.',
             translation: 'ドアの隙間から差し込んでいるランプの灯りがとても眩しいです。',
-            memo: ''
+            memo: '※「燈光」 = 「ランプ」の「光」?'
           },
           {
             word: '電玩',
@@ -74,9 +74,9 @@ export default {
           },
           {
             word: '球賽',
-            sentence: '我不是不擅長球賽, 而是不擅長運動。（運動都不擅長）。',
-            bopomofo: 'ㄨㄛˇ ㄅㄨˊ ㄕˋ ㄅㄨˋ ㄕㄢˋ ㄔㄤˊ ㄑㄧㄡˊ ㄙㄞˋ   ㄦˊ ㄕˋ ㄅㄨˋ ㄕㄢˋ ㄔㄤˊ ㄩㄣˋ ㄉㄨㄥˋ   ㄩㄣˋ ㄉㄨㄥˋ ㄉㄡ ㄅㄨˋ ㄕㄢˋ ㄔㄤˊ.',
-            pinyin: 'wo3 bu2/bu4 shi4 bu2/bu4 shan4 chang2/zhang3 qiu2 sai4 er2 shi4 bu2/bu4 shan4 chang2/zhang3 yun4 dong4 yun4 dong4 dou1 bu2/bu4 shan4 chang2/zhang3.',
+            sentence: '我不是不擅長球賽, 而是運動都不擅長。',
+            bopomofo: 'ㄨㄛˇ ㄅㄨˊ ㄕˋ ㄅㄨˋ ㄕㄢˋ ㄔㄤˊ ㄑㄧㄡˊ ㄙㄞˋ   ㄦˊ ㄕˋ ㄩㄣˋ ㄉㄨㄥˋ ㄉㄡ ㄅㄨˋ ㄕㄢˋ ㄔㄤˊ.',
+            pinyin: 'wo3 bu2/bu4 shi4 bu2/bu4 shan4 chang2/zhang3 qiu2 sai4 er2 shi4 yun4 dong4 dou1 bu2/bu4 shan4 chang2/zhang3.',
             translation: '私は球技が苦手な訳ではなく、 運動全般が苦手です。',
             memo: ''
           },
@@ -201,12 +201,12 @@ export default {
             memo: ''
           },
           {
-            word: '瘋',
+            word: '★瘋',
             sentence: '他很不耐煩, 有的時候他瘋了似地罵別人。',
             bopomofo: 'ㄊㄚ ㄏㄣˇ ㄅㄨˋ ㄋㄞˋ ㄈㄢˊ   ㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄊㄚ ㄈㄥ ㄌㄜ˙ ㄕˋ ㄉㄧˋ ㄇㄚˋ ㄅㄧㄝˊ ㄖㄣˊ.',
             pinyin: 'ta1 hen3 bu2/bu4 nai4 fan2 you3 de/di2/di4 shi2 hou4 ta1 feng1 le/liao3 shi4/si4 di4 ma4 bie2/bie4 ren2.',
             translation: '彼はとても短気で、 狂ったように人を罵る時があります。',
-            memo: ''
+            memo: '※「似地」 = 「～のように」。'
           },
           {
             word: '誇張',
@@ -219,7 +219,7 @@ export default {
           {
             word: '舉行',
             sentence: '那個政治家似乎針對他的醜聞開記者招待會。',
-            bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄓㄥˋ ㄓˋ ㄐㄧㄚ ㄙˋ ㄏㄨ ㄓㄣ ㄉㄨㄟˋ ㄊㄚ ㄉㄜ˙ ㄔㄡˇ ㄨㄣˊ ㄎㄞ ㄐㄧˋ ㄓㄜˇ ㄓㄠ ㄉㄞ ㄏ��ㄟˋ.',
+            bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄓㄥˋ ㄓˋ ㄐㄧㄚ ㄙˋ ㄏㄨ ㄓㄣ ㄉㄨㄟˋ ㄊㄚ ㄉㄜ˙ ㄔㄡˇ ㄨㄣˊ ㄎㄞ ㄐㄧˋ ㄓㄜˇ ㄓㄠ ㄉㄞ ㄏㄨㄟˋ.',
             pinyin: 'na4 ge4 zheng4 zhi4 jia1 shi4/si4 hu1 zhen1 dui4 ta1 de/di2/di4 chou3 wen2 kai1 ji4 zhe3 zhao1 dai1/dai4 hui4.',
             translation: 'あの政治家は、 自らのスキャンダルに関する記者会見を開くようです。',
             memo: ''
@@ -249,12 +249,12 @@ export default {
             memo: ''
           },
           {
-            word: '狀元',
+            word: '★狀元',
             sentence: '她每天都在玩， 但是考試時她總是第一名。',
             bopomofo: 'ㄊㄚ ㄇㄟˇ ㄊㄧㄢ ㄉㄨ ㄗㄞˋ ㄨㄢˊ   ㄉㄢˋ ㄕˋ ㄎㄠˇ ㄕˋ ㄕˊ ㄊㄚ ㄗㄨㄥˇ ㄕˋ ㄉㄧˋ ㄧ ㄇㄧㄥˊ.',
             pinyin: 'ta1 mei3 tian1 dou1 zai4 wan2 dan4 shi4 kao3 shi4 shi2 ta1 zong3 shi4 di4 yi1 ming2.',
             translation: '彼女は毎日遊んでばかりいますが、 テストではいつもトップです。',
-            memo: ''
+            memo: '※「狀元」の使い方?'
           },
           {
             word: '努力',
@@ -281,12 +281,12 @@ export default {
             memo: ''
           },
           {
-            word: '期中考',
+            word: '★期中考',
             sentence: '期中考的成績不好， 所以我必須在期末考中盡力而為。',
             bopomofo: 'ㄑㄧ ㄓㄨㄥ ㄎㄠˇ ㄉㄜ˙ ㄔㄥˊ ㄐㄧ ㄅㄨˋ ㄏㄠˇ   ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄅㄧˋ ㄒㄩ ㄗㄞˋ ㄑㄧ ㄇㄛˋ ㄎㄠˇ ㄓㄨㄥ ㄐㄧㄣˋ ㄌㄧˋ ㄦˊ ㄨㄟˊ.',
             pinyin: 'qi1 zhong1/zhong4 kao3 de/di2/di4 cheng2 ji4 bu2/bu4 hao3/hao4 suo3 yi3 wo3 bi4 xu1 zai4 qi1 mo4 kao3 zhong1/zhong4 jin3/jin4 li4 er2 wei2/wei4.',
             translation: '中間試験の結果が良く無かったので、 期末試験は頑張らないといけません。',
-            memo: ''
+            memo: '※「盡力而為」 = 「尽力する」。'
           },
           {
             word: '密集班',
@@ -418,7 +418,7 @@ export default {
           },
           {
             word: '彈性',
-            sentence: '貓的肉球很有弹性, 摸它會感到很幸福。',
+            sentence: '貓的肉球很有彈性, 摸它會感到很幸福。',
             bopomofo: 'ㄇㄠ ㄉㄜ˙ ㄖㄡˋ ㄑㄧㄡˊ ㄏㄣˇ ㄧㄡˇ ㄊㄢˊ ㄒㄧㄥˋ   ㄇㄛ ㄊㄚ ㄏㄨㄟˋ ㄍㄢˇ ㄉㄠˋ ㄏㄣˇ ㄒㄧㄥˋ ㄈㄨˊ.',
             pinyin: 'mao1 de/di2/di4 rou4 qiu2 hen3 you3 dan4/tan2 xing4 mo1/mo2 ta1 hui4 gan3 dao4 hen3 xing4 fu2.',
             translation: '猫の肉球はとてもプニプニで、 触ると幸せな気分になれます。',
@@ -466,7 +466,7 @@ export default {
           },
           {
             word: '出生',
-            sentence: '媽媽生我的時候,我差一點在馬桶裡出生了。',
+            sentence: '媽媽生我的時候, 我差一點在馬桶裡出生了。',
             bopomofo: 'ㄇㄚ ㄇㄚ ㄕㄥ ㄨㄛˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ  ㄨㄛˇ ㄔㄚˋ ㄧˋ ㄉㄧㄢˇ ㄗㄞˋ ㄇㄚˇ ㄊㄨㄥˇ ㄌㄧˇ ㄔㄨ ㄕㄥ ㄌㄜ˙.',
             pinyin: 'ma1 ma1 sheng1 wo3 de/di2/di4 shi2 hou4 wo3 cha1/cha4/chai1/ci1 yi1 dian3 zai4 ma3 tong3 li3 chu1 sheng1 le/liao3.',
             translation: 'お母さんが私を産んだ時、 危うくトイレの中に産み落とすところでした。',
@@ -529,18 +529,18 @@ export default {
             memo: ''
           },
           {
-            word: '認字',
+            word: '★認字',
             sentence: '學習新文字的時候電腦鍵盤也很有用。',
             bopomofo: 'ㄒㄩㄝˊ ㄒㄧˊ ㄒㄧㄣ ㄨㄣˊ ㄗˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄉㄧㄢˋ ㄋㄠˇ ㄐㄧㄢˋ ㄆㄢˊ ㄧㄝˇ ㄏㄣˇ ㄧㄡˇ ㄩㄥˋ.',
-            pinyin: 'xue2 xi2 xin1 wen2 zi4 de/di2/di4 shi2 hou4 dian4 nao3 jian4 xuan2 ye3 hen3 you3 yong4.',
+            pinyin: 'xue2 xi2 xin1 wen2 zi4 de/di2/di4 shi2 hou4 dian4 nao3 jian4 pan2 ye3 hen3 you3 yong4.',
             translation: '新しい文字を学ぶ時は、パソコンのキーボードも有用です。',
-            memo: ''
+            memo: '※「認字」の使い方?'
           },
           {
             word: '烘焙',
             sentence: '鄰居好像在烤餅乾， 味道很香。',
             bopomofo: 'ㄌㄧㄣˊ ㄐㄩ ㄏㄠˇ ㄒㄧㄤˋ ㄗㄞˋ ㄎㄠˇ ㄅㄧㄥˇ ㄍㄢ   ㄨㄟˋ ㄉㄠˋ ㄏㄣˇ ㄒㄧㄤ.',
-            pinyin: 'lin2 ju1 hao3/hao4 xiang4 zai4 kao3 bing3 qian2 wei4 dao4 hen3 xiang1.',
+            pinyin: 'lin2 ju1 hao3/hao4 xiang4 zai4 kao3 bing3 gan1, wei4 dao4 hen3 xiang1.',
             translation: 'お隣さんはクッキーを焼いているようで、 とてもいい匂いがします。',
             memo: ''
           },
@@ -553,12 +553,12 @@ export default {
             memo: ''
           },
           {
-            word: '技術',
+            word: '★技術',
             sentence: '電氣工作需要技術， 因此外行不能做。',
             bopomofo: 'ㄉㄧㄢˋ ㄑㄧˋ ㄍㄨㄥ ㄗㄨㄛˋ ㄒㄩ ㄧㄠˋ ㄐㄧˋ ㄕㄨˋ   ㄧㄣ ㄘˇ ㄨㄞˋ ㄏㄤˊ ㄅㄨˋ ㄋㄥˊ ㄗㄨㄛˋ.',
             pinyin: 'dian4 xi4 gong1 zuo1/zuo4 xu1 yao1/yao4 ji4 shu4 yin1 ci3 wai4 hang2/xing2/hang4/heng2 bu2/bu4 neng2 zuo4.',
             translation: '電気工事には技術が必要なので、 素人にはできません。',
-            memo: ''
+            memo: '※「外行」 = 「素人」。'
           },
           {
             word: '藝術',
@@ -569,12 +569,12 @@ export default {
             memo: ''
           },
           {
-            word: '經過',
+            word: '★經過',
             sentence: '經過管理層討論和作出結論, 我們將按照新的規定。',
             bopomofo: 'ㄐㄧㄥ ㄍㄨㄛˋ ㄍㄨㄢˇ ㄌㄧˇ ㄘㄥˊ ㄊㄠˇ ㄌㄨㄣˋ ㄏㄜˊ ㄗㄨㄛˋ ㄔㄨ ㄐㄧㄝˊ ㄌㄨㄣˋ   ㄨㄛˇ ㄇㄣ˙ ㄐㄧㄤ ㄢˋ ㄓㄠˋ ㄒㄧㄣ ㄉㄜ˙ ㄍㄨㄟ ㄉㄧㄥˋ.',
             pinyin: 'jing1 guo4 guan3 li3 ceng2 tao3 lun4 he2/he/huo/he4/hu2/huo2/huo4 zuo1/zuo4 chu1 jie1/jie2 lun4 wo3 men2/men jiang1/jiang4 an4 zhao4 xin1 de/di2/di4 gui4 ding4.',
             translation: '経営陣が話し合って結論を出した後、 私たちは新しい規定に従う事になります。',
-            memo: ''
+            memo: '※「結論を出す」 : 「和作出結論」の発音?'
           },
           {
             word: '終於',
@@ -585,12 +585,12 @@ export default {
             memo: ''
           },
           {
-            word: '億',
+            word: '★億',
             sentence: '如果妄想中了一億元的彩票後應該這麼早， 這樣想總是浪費時間。',
             bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄤˋ ㄒㄧㄤˇ ㄓㄨㄥ ㄌㄜ˙ ㄧ ㄧˋ ㄩㄢˊ ㄉㄜ˙ ㄘㄞˇ ㄆㄧㄠˋ ㄏㄡˋ ㄧㄥ ㄍㄞ ㄓㄜˋ ㄇㄜ˙ ㄗㄠˇ   ㄓㄜˋ ㄧㄤˋ ㄒㄧㄤˇ ㄗㄨㄥˇ ㄕˋ ㄌㄤˋ ㄈㄟˋ ㄕˊ ㄐㄧㄢ.',
             pinyin: 'ru2 guo3 wang4 xiang3 zhong1/zhong4 le/liao3 yi1 yi4 yuan2 de/di2/di4 cai3 piao4 hou4 ying1/ying4 gai1 zhe4 me/mo2 zao3 zhe4 yang4 xiang3 zong3 shi4 lang4 fei4 shi2 jian1/jian4.',
             translation: '宝くじで一億円当たったら何に使うかという妄想で、 いつも無駄な時間を過ごしてしまいます。',
-            memo: ''
+            memo: '※「早」ではなくて「做」?'
           },
           {
             word: '夢想',
@@ -612,7 +612,7 @@ export default {
             word: '企業家',
             sentence: '那位企業家的生意做得有聲有色。',
             bopomofo: 'ㄋㄚˋ ㄨㄟˋ ㄑㄧˇ ㄧㄝˋ ㄐㄧㄚ ㄉㄜ˙ ㄕㄥ ㄧˋ ㄗㄨㄛˋ ㄉㄜˊ ㄧㄡˇ ㄕㄥ ㄧㄡˇ ㄙㄜˋ.',
-            pinyin: 'na4 wei4 qi3 ye4 jia1 de/di2/di4 sheng1 yi4 zuo4 de/de2/dei3 you3 sheng1 you3 se4.',
+            pinyin: 'na4 wei4 qi4 ye4 jia1 de/di2/di4 sheng1 yi4 zuo4 de/de2/dei3 you3 sheng1 you3 se4.',
             translation: 'その起業家の事業は非常に上手くいっています。',
             memo: ''
           },
@@ -636,7 +636,7 @@ export default {
             word: '錄取',
             sentence: '在經濟不景氣的期間， 他終於被錄取正式員工了。',
             bopomofo: 'ㄗㄞˋ ㄐㄧㄥ ㄐㄧˋ ㄅㄨˋ ㄐㄧㄥˇ ㄑㄧˋ ㄉㄜ˙ ㄑㄧ ㄐㄧㄢ   ㄊㄚ ㄓㄨㄥ ㄩˊ ㄅㄟˋ ㄌㄨˋ ㄑㄩˇ ㄓㄥˋ ㄕˋ ㄩㄢˊ ㄍㄨㄥ ㄌㄜ˙.',
-            pinyin: 'zai4 jing1 ji3/ji4 bu2/bu4 jing3 xi4 de/di2/di4 qi1 jian1/jian4 ta1 zhong1 wu1/yu1 bei4 lu4 qu3 zheng4 shi4 yuan2 gong1 le/liao3.',
+            pinyin: 'zai4 jing1 ji3/ji4 bu2/bu4 jing3 qi4 de/di2/di4 qi1 jian1/jian4 ta1 zhong1 wu1/yu1 bei4 lu4 qu3 zheng4 shi4 yuan2 gong1 le/liao3.',
             translation: '不景気の中、 彼はついに正社員として採用されました。',
             memo: ''
           },
@@ -689,12 +689,12 @@ export default {
             memo: ''
           },
           {
-            word: 'EMBA（高級管理人員工商管理碩士）',
+            word: '★EMBA（高級管理人員工商管理碩士）',
             sentence: '他的公司為了鼓勵得到EMBA, 用公司的錢出國留學並非沒有可能。',
             bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄍㄨㄥ ㄙ ㄨㄟˋ ㄌㄜ˙ ㄍㄨˇ ㄌㄧˋ ㄉㄜˊ ㄉㄠˋ       ㄩㄥˋ ㄍㄨㄥ ㄙ ㄉㄜ˙ ㄑㄧㄢˊ ㄔㄨ ㄍㄨㄛˊ ㄌㄧㄡˊ ㄒㄩㄝˊ ㄅㄧㄥˋ ㄈㄟ ㄇㄟˊ ㄧㄡˇ ㄎㄜˇ ㄋㄥˊ.',
             pinyin: 'ta1 de/di2/di4 gong1 si1 wei2/wei4 le/liao3 gu3 li4 de/de2/dei3 dao4 yong4 gong1 si1 de/di2/di4 qian2 chu1 guo2 liu2 xue2 bing4 fei1 mei2/mo4 you3 ke3 neng2.',
             translation: '彼の会社はEMBAの取得を奨励していて、 会社のお金で留学する事も不可能ではありません。',
-            memo: ''
+            memo: '※「並非」 : 「けっして～ではない」。'
           },
           {
             word: '小時候',
