@@ -69,7 +69,7 @@ export default {
             sentence: '他是個電玩迷， 每個月去買新發售的。',
             bopomofo: 'ㄊㄚ ㄕˋ ㄍㄜˋ ㄉㄧㄢˋ ㄨㄢˊ ㄇㄧˊ, ㄇㄟˇ ㄍㄜˋ ㄩㄝˋ ㄑㄩˋ ㄇㄞˇ ㄒㄧㄣ ㄈㄚ ㄕㄡˋ ㄉㄜ˙.',
             pinyin: 'ta1 shi4 ge4 dian4 wan2 mi2, mei3 ge4 yue4 qu4 mai3 xin1 fa1 shou4 de.',
-            translation: '彼はテレビゲームマニアで、 毎月新しいものを購入しています。',
+            translation: '彼はビデオゲームマニアで、 毎月新しいものを購入しています。',
             memo: ''
           },
           {
@@ -138,16 +138,16 @@ export default {
           },
           {
             word: '失業率',
-            sentence: '失業率正在下降， 景氣也不好， 我的薪水卻沒有增加。',
-            bopomofo: 'ㄕ ㄧㄝˋ ㄌㄩˋ ㄓㄥˋ ㄗㄞˋ ㄒㄧㄚˋ ㄐㄧㄤˋ, ㄐㄧㄥˇ ㄑㄧˋ ㄧㄝˇ ㄅㄨˋ ㄏㄠˇ, ㄨㄛˇ ㄉㄜ˙ ㄒㄧㄣ ㄕㄨㄟˇ ㄑㄩㄝˋ ㄇㄟˊ ㄧㄡˇ ㄗㄥ ㄐㄧㄚ.',
-            pinyin: 'shi1 ye4 lu4 zheng4 zai4 xia4 jiang4, jing3 qi4 ye3 bu4 hao3, wo3 de xin1 shui3 que4 mei2 you3 zeng1 jia1.',
+            sentence: '失業率正在下降， 景氣也好了， 但是我的薪水卻沒有增加。',
+            bopomofo: 'ㄕ ㄧㄝˋ ㄌㄩˋ ㄓㄥˋ ㄗㄞˋ ㄒㄧㄚˋ ㄐㄧㄤˋ, ㄐㄧㄥˇ ㄑㄧˋ ㄧㄝˇ ㄏㄠˇ ㄌㄜ˙, ㄉㄢˋ ㄕˋ ㄨㄛˇ ㄉㄜ˙ ㄒㄧㄣ ㄕㄨㄟˇ ㄑㄩㄝˋ ㄇㄟˊ ㄧㄡˇ ㄗㄥ ㄐㄧㄚ.',
+            pinyin: 'shi1 ye4 lu4 zheng4 zai4 xia4 jiang4, jing3 qi4 ye3 hao3 le, dan4 shi4 wo3 de xin1 shui3 que4 mei2 you3 zeng1 jia1.',
             translation: '失業率が下がって景気も良くなってきているのに、 私の給料は増えません。',
             memo: ''
           },
           {
             word: '門',
             sentence: '因為明天有五門科目的考試, 我快要死了。',
-            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄇㄧㄥˊ ㄊㄧㄢ ㄧㄡˇ ㄨˇ ㄇㄣˊ ㄎㄜ ㄇㄨˋ ㄉㄧˋ ㄎㄠˇ ㄕˋ, ㄨㄛˇ ㄎㄨㄞˋ ㄧㄠˋ ㄙˇ ㄌㄜ˙.',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄇㄧㄥˊ ㄊㄧㄢ ㄧㄡˇ ㄨˇ ㄇㄣˊ ㄎㄜ ㄇㄨˋ ㄉㄧˋ ㄎㄠˇ ㄕˋ, ㄨㄛˇ ㄎㄨㄞˋ ㄧㄠˋ ㄙˇ.',
             pinyin: 'yin1 wei4 ming2 tian1 you3 wu3 men2 ke1 mu4 de kao3 shi4, wo3 kuai4 yao4 si3 le.',
             translation: '明日は5科目のテストがあるので、 死にそうです。',
             memo: ''
@@ -172,7 +172,7 @@ export default {
             word: '修',
             sentence: '我應該修什麼課程才能成為寵物剪毛師?',
             bopomofo: 'ㄨㄛˇ ㄧㄥ ㄍㄞ ㄒㄧㄡ ㄕㄣˊ ㄇㄜ˙ ㄎㄜˋ ㄔㄥˊ ㄘㄞˊ ㄋㄥˊ ㄔㄥˊ ㄨㄟˊ ㄔㄨㄥˇ ㄨˋ ㄐㄧㄢˇ ㄇㄠˊ ㄕ?',
-            pinyin: 'wo3 ying1 gai1 xiu1 shen2 me ke4 cheng2 cai2 neng2 cheng2 wei4 chong3 wu4 jian3 mao2 shi1?',
+            pinyin: 'wo3 ying1 gai1 xiu1 shen2 me ke4 cheng2 cai2 neng2 cheng2 wei2 chong3 wu4 jian3 mao2 shi1?',
             translation: 'トリマーになるにはどのコースを受講したらよいですか?',
             memo: ''
           },
@@ -203,10 +203,10 @@ export default {
           {
             word: '★瘋',
             sentence: '他很不耐煩, 有的時候他瘋了似地罵別人。',
-            bopomofo: 'ㄊㄚ ㄏㄣˇ ㄅㄨˊ ㄋㄞˋ ㄈㄢˊ, ㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄊㄚ ㄈㄥ ㄌㄜ˙ ㄕˋ ㄉㄜ˙ ㄇㄚˋ ㄅㄧㄝˊ ㄖㄣˊ.',
-            pinyin: 'ta1 hen3 bu2 nai4 fan2, you3 de shi2 hou4 ta1 feng1 le shi4 de ma4 bie2 ren2.',
+            bopomofo: 'ㄊㄚ ㄏㄣˇ ㄅㄨˊ ㄋㄞˋ ㄈㄢˊ, ㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄊㄚ ㄈㄥ ㄌㄜ˙ ㄙˋ ㄉㄜ˙ ㄇㄚˋ ㄅㄧㄝˊ ㄖㄣˊ.',
+            pinyin: 'ta1 hen3 bu2 nai4 fan2, you3 de shi2 hou4 ta1 feng1 le si4 de ma4 bie2 ren2.',
             translation: '彼はとても短気で、 狂ったように人を罵る時があります。',
-            memo: '※「似地(ㄕˋ ㄉㄜ˙/shi4 de)」 = 「～のように」。'
+            memo: '※「似地(ㄙˋ ㄉㄜ˙/si4 de)」 = 「～のように」。 発音はOK?'
           },
           {
             word: '誇張',
@@ -217,12 +217,12 @@ export default {
             memo: ''
           },
           {
-            word: '舉行',
+            word: '★舉行',
             sentence: '那個政治家似乎針對他的醜聞開記者招待會。',
             bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄓㄥˋ ㄓˋ ㄐㄧㄚ ㄙˋ ㄏㄨ ㄓㄣ ㄉㄨㄟˋ ㄊㄚ ㄉㄜ˙ ㄔㄡˇ ㄨㄣˊ ㄎㄞ ㄐㄧˋ ㄓㄜˇ ㄓㄠ ㄉㄞˋ ㄏㄨㄟˋ.',
             pinyin: 'na4 ge4 zheng4 zhi4 jia1 si4 hu1 zhen1 dui4 ta1 de chou3 wen2 kai1 ji4 zhe3 zhao1 dai4 hui4.',
             translation: 'あの政治家は、 自らのスキャンダルに関する記者会見を開くようです。',
-            memo: ''
+            memo: '※「針對(ㄓㄣ ㄉㄨㄟˋ/zhen1 dui4)」 : 「～に対処して」。 「舉行」は使えない?'
           },
           {
             word: '遺憾',
@@ -572,7 +572,7 @@ export default {
             word: '★經過',
             sentence: '經過管理層討論和作出結論, 我們將按照新的規定。',
             bopomofo: 'ㄐㄧㄥ ㄍㄨㄛˋ ㄍㄨㄢˇ ㄌㄧˇ ㄘㄥˊ ㄊㄠˇ ㄌㄨㄣˋ ㄏㄢˋ ㄗㄨㄛˋ ㄔㄨ ㄐㄧㄝˊ ㄌㄨㄣˋ, ㄨㄛˇ ㄇㄣ˙ ㄐㄧㄤ ㄢˋ ㄓㄠˋ ㄒㄧㄣ ㄉㄜ˙ ㄍㄨㄟ ㄉㄧㄥˋ.',
-            pinyin: 'jing1 guo4 guan3 li3 ceng2 tao3 lun4 han4 zuo4 chu1 jie2 lun4, wo3 men jiang1 an4 zhao4 xin1 de gui4 ding4.',
+            pinyin: 'jing1 guo4 guan3 li3 ceng2 tao3 lun4 han4 zuo4 chu1 jie2 lun4, wo3 men jiang1 an4 zhao4 xin1 de gui1 ding4.',
             translation: '経営陣が話し合って結論を出した後、 私たちは新しい規定に従う事になります。',
             memo: '※「結論を出す」 : 「作出結論(ㄗㄨㄛˋ ㄔㄨ ㄐㄧㄝˊ ㄌㄨㄣˋ/zuo4 chu1 jie2 lun4)」の発音?'
           },
