@@ -195,7 +195,7 @@ export default {
           {
             word: '輔系',
             sentence: '他的專業是企業管理學， 而輔系是經濟學。',
-            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄓㄨㄢ ㄧㄝˋ ㄕˋ ㄑㄧˇ ㄧㄝˋ ㄍㄨㄢˇ ㄌㄧˇ ㄒㄩㄝˊ, ㄦˊ ㄈㄨˇ ㄒㄧˋ ㄕˋ ㄐㄧㄥ ㄐㄧˋ ㄒㄩㄝˊ.',
+            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄓㄨㄢ ㄧㄝˋ ㄕˋ ㄑㄧˋ ㄧㄝˋ ㄍㄨㄢˇ ㄌㄧˇ ㄒㄩㄝˊ, ㄦˊ ㄈㄨˇ ㄒㄧˋ ㄕˋ ㄐㄧㄥ ㄐㄧˋ ㄒㄩㄝˊ.',
             pinyin: 'ta1 de zhuan1 ye4 shi4 qi4 ye4 guan3 li3 xue2, er2 fu3 xi4 shi4 jing1 ji4 xue2.',
             translation: '彼の専攻は経営ですが、 副専攻は経済です。',
             memo: ''
@@ -211,7 +211,7 @@ export default {
           {
             word: '誇張',
             sentence: '說他是一個天才並不誇張。',
-            bopomofo: 'ㄕㄨㄛ ㄊㄚ ㄕˋ ㄧˊ ㄍㄜˋ ㄊㄧㄢ ㄘㄞˊ ㄅㄧㄥˋ ㄅㄨˋ ㄎㄨㄚ ㄓㄤ.',
+            bopomofo: 'ㄕㄨㄛ ㄊㄚ ㄕˋ ㄧ ㄍㄜˋ ㄊㄧㄢ ㄘㄞˊ ㄅㄧㄥˋ ㄅㄨˋ ㄎㄨㄚ ㄓㄤ.',
             pinyin: 'shuo1 ta1 shi4 yi1 ge4 tian1 cai2 bing4 bu4 kua1 zhang1.',
             translation: '彼は天才と言っても過言ではありません。',
             memo: ''
@@ -307,7 +307,7 @@ export default {
           {
             word: '服裝設計',
             sentence: '他從事服裝設計， 但是自己衣服總是很簡單。',
-            bopomofo: 'ㄊㄚ ㄘㄨㄥˊ ㄕˋ ㄈㄨˊ ㄓㄨㄤ ㄕㄜˋ ㄐㄧˋ   ㄉㄢˋ ㄕˋ ㄗˋ ㄐㄧˇ ㄧ ㄈㄨˊ ㄗㄨㄥˇ ㄕˋ ㄏㄣˇ ㄐㄧㄢˇ ㄉㄢ.',
+            bopomofo: 'ㄊㄚ ㄘㄨㄥˊ ㄕˋ ㄈㄨˊ ㄓㄨㄤ ㄕㄜˋ ㄐㄧˋ, ㄉㄢˋ ㄕˋ ㄗˋ ㄐㄧˇ ㄧ ㄈㄨˊ ㄗㄨㄥˇ ㄕˋ ㄏㄣˇ ㄐㄧㄢˇ ㄉㄢ.',
             pinyin: 'ta1 cong2 shi4 fu2 zhuang1 she4 ji4, dan4 shi4 zi4 ji3 yi1 fu2 zong3 shi4 hen3 jian3 dan1.',
             translation: '彼はファッションデザインに携わっていますが、 自身の普段着はとてもシンプルです。',
             memo: ''
@@ -323,7 +323,7 @@ export default {
           {
             word: '行行出狀元',
             sentence: '你不應該從職業的種類判斷一個人的卓越, 行行出狀元。',
-            bopomofo: 'ㄋㄧˇ ㄅㄨˋ ㄧㄥ ㄍㄞ ㄘㄨㄥˊ ㄓˊ ㄧㄝˋ ㄉㄜ˙ ㄓㄨㄥˇ ㄌㄟˋ ㄆㄢˋ ㄉㄨㄢˋ ㄧˊ ㄍㄜ˙ ㄖㄣˊ ㄉㄜ˙ ㄓㄨㄛ ㄩㄝˋ, ㄒㄧㄥˊ ㄒㄧㄥˊ ㄔㄨ ㄓㄨㄤˋ ㄩㄢˊ.',
+            bopomofo: 'ㄋㄧˇ ㄅㄨˋ ㄧㄥ ㄍㄞ ㄘㄨㄥˊ ㄓˊ ㄧㄝˋ ㄉㄜ˙ ㄓㄨㄥˇ ㄌㄟˋ ㄆㄢˋ ㄉㄨㄢˋ ㄧˊ ㄍㄜ˙ ㄖㄣˊ ㄉㄜ˙ ㄓㄨㄛ ㄩㄝˋ, ㄏㄤˊ ㄏㄤˊ ㄔㄨ ㄓㄨㄤˋ ㄩㄢˊ.',
             pinyin: 'ni3 bu4 ying1 gai1 cong2 zhi2 ye4 de zhong3 lei4 pan4 duan4 yi1 ge4 ren2 de zhuo1 yue4, hang2 hang2 chu1 zhuang4 yuan2.',
             translation: '職種から人の優秀さを判断すべきではありません、 どの業界にも優秀なリーダーは現われます。',
             memo: ''
@@ -603,7 +603,7 @@ export default {
           {
             word: '成為',
             sentence: '我覺得跟愛喝酒的人能成為好朋友。',
-            bopomofo: 'ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄍㄣ ㄞˋ ㄏㄜ ㄐㄧㄡˇ ㄉㄜ˙ ㄖㄣˊ ㄋㄥˊ ㄔㄥˊ ㄨㄟˊ ㄏㄠˇ ㄆㄥˊ ㄧㄡ˙.',
+            bopomofo: 'ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄍㄣ ㄞˋ ㄏㄜ ㄐㄧㄡˇ ㄉㄜ˙ ㄖㄣˊ ㄋㄥˊ ㄔㄥˊ ㄨㄟˊ ㄏㄠˇ ㄆㄥˊ ㄧㄡˇ.',
             pinyin: 'wo3 jue2 de gen1 ai4 he1 jiu3 de ren2 neng2 cheng2 wei2 hao3 peng2 you3.',
             translation: 'お酒を飲むのが好きな人とは良い友達になれると思います。',
             memo: ''
