@@ -123,8 +123,8 @@ export default {
           {
             word: '宅配',
             sentence: '期限不長的食物很難宅配。',
-            bopomofo: 'ㄑㄧ ㄒㄧㄢˋ ㄅㄨˋ ㄔㄤˊ ㄉㄜ˙ ㄕˊ ㄨˋ ㄏㄣˇ ㄋㄢˊ ㄓㄞˊ ㄆㄟˋ.',
-            pinyin: 'qi1 xian4 bu4 chang2 de shi2 wu4 hen3 nan2 zhai2 pei4.',
+            bopomofo: 'ㄑㄧˊ ㄒㄧㄢˋ ㄅㄨˋ ㄔㄤˊ ㄉㄜ˙ ㄕˊ ㄨˋ ㄏㄣˇ ㄋㄢˊ ㄓㄞˊ ㄆㄟˋ.',
+            pinyin: 'qi2 xian4 bu4 chang2 de shi2 wu4 hen3 nan2 zhai2 pei4.',
             translation: '日持ちのしない食べ物は、 宅配する事が難しいです。',
             memo: ''
           },
@@ -204,7 +204,7 @@ export default {
             word: '必須',
             sentence: '如果有退貨的可能性， 你必須保留發票。',
             bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄧㄡˇ ㄊㄨㄟˋ ㄏㄨㄛˋ ㄉㄜ˙ ㄎㄜˇ ㄋㄥˊ ㄒㄧㄥˋ   ㄋㄧˇ ㄅㄧˋ ㄒㄩ ㄅㄠˇ ㄌㄧㄡˊ ㄈㄚ ㄆㄧㄠˋ.',
-            pinyin: 'ru2 guo3 you3 tui4 huo4 de ke3 neng2 xing4 ni3 bi4 xu1 bao3 liu2 fa1/fa4 piao4.',
+            pinyin: 'ru2 guo3 you3 tui4 huo4 de ke3 neng2 xing4, ni3 bi4 xu1 bao3 liu2 fa1 piao4.',
             translation: '返品の可能性がある場合は、 必ずレシートを取っておかなければいけません。',
             memo: ''
           },
