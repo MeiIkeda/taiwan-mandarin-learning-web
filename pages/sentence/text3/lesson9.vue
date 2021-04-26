@@ -204,7 +204,7 @@ export default {
             word: '必須',
             sentence: '如果有退貨的可能性， 你必須保留發票。',
             bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄧㄡˇ ㄊㄨㄟˋ ㄏㄨㄛˋ ㄉㄜ˙ ㄎㄜˇ ㄋㄥˊ ㄒㄧㄥˋ   ㄋㄧˇ ㄅㄧˋ ㄒㄩ ㄅㄠˇ ㄌㄧㄡˊ ㄈㄚ ㄆㄧㄠˋ.',
-            pinyin: 'ru2 guo3 you3 tui4 huo4 de/di2/di4 ke3 neng2 xing4 ni3 bi4 xu1 bao3 liu2 fa1/fa4 piao4.',
+            pinyin: 'ru2 guo3 you3 tui4 huo4 de ke3 neng2 xing4 ni3 bi4 xu1 bao3 liu2 fa1/fa4 piao4.',
             translation: '返品の可能性がある場合は、 必ずレシートを取っておかなければいけません。',
             memo: ''
           },
@@ -353,12 +353,12 @@ export default {
             memo: ''
           },
           {
-            word: '内餡',
+            word: '★内餡',
             sentence: '那家麵包店賣的草莓内餡的點心非常好吃。',
             bopomofo: 'ㄋㄚˋ ㄐㄧㄚ ㄇㄧㄢˋ ㄅㄠ ㄉㄧㄢˋ ㄇㄞˋ ㄉㄜ˙ ㄘㄠˇ ㄇㄟˊ ㄋㄟˋ ㄒㄧㄢˋ ㄉㄜ˙ ㄉㄧㄢˇ ㄒㄧㄣ ㄈㄟ ㄔㄤˊ ㄏㄠˇ ㄔ.',
             pinyin: 'na4 jia1 mian4 bao1 dian4 mai4 de cao3 mei2 nei4 xian4 de dian3 xin1 fei1 chang2 hao3 chi1.',
             translation: 'あのパン屋が売っている、 苺のフィリングが入ったペストリーはとても美味しいです。',
-            memo: ''
+            memo: '※「ペストリー」は「點心」?'
           },
           {
             word: '當做',
@@ -369,12 +369,12 @@ export default {
             memo: ''
           },
           {
-            word: '喜餅',
+            word: '★喜餅',
             sentence: '在婚禮上， 孩子們的眼睛釘在喜餅上。',
             bopomofo: 'ㄗㄞˋ ㄏㄨㄣ ㄌㄧˇ ㄕㄤˋ, ㄏㄞˊ ㄗ˙ ㄇㄣ˙ ㄉㄜ˙ ㄧㄢˇ ㄐㄧㄥ ㄉㄧㄥ ㄗㄞˋ ㄒㄧˇ ㄅㄧㄥˇ ㄕㄤˋ.',
             pinyin: 'zai4 hun1 li3 shang4, hai2 zi men de yan3 jing1 ding1 zai4 xi3 bing3 shang4.',
             translation: '結婚式で、 子供たちの目はウェディングケーキに釘付けになっています。',
-            memo: '※「釘在喜餅上(ㄉㄧㄥ ㄗㄞˋ ㄒㄧˇ ㄅㄧㄥˇ ㄕㄤˋ/ding1 zai4 xi3 bing3 shang4)」 は 「盯著喜餅(ㄉㄧㄥ ㄓㄜ˙ ㄒㄧˇ ㄅㄧㄥˇ/ding1 zhe xi3 bing3」でも可。'
+            memo: '※「釘」と「盯」は違う字? 「釘在喜餅上(ㄉㄧㄥ ㄗㄞˋ ㄒㄧˇ ㄅㄧㄥˇ ㄕㄤˋ/ding1 zai4 xi3 bing3 shang4)」 は 「盯著喜餅(ㄉㄧㄥ ㄓㄜ˙ ㄒㄧˇ ㄅㄧㄥˇ/ding1 zhe xi3 bing3」でも可。'
           },
           {
             word: '喜愛',
