@@ -105,12 +105,12 @@ export default {
             memo: ''
           },
           {
-            word: '中間商',
+            word: '★中間商',
             sentence: '因為手續費太貴了, 是否可以不通過中間商進行交易?',
             bopomofo: 'ㄧㄣ ㄨㄟˋ ㄕㄡˇ ㄒㄩˋ ㄈㄟˋ ㄊㄞˋ ㄍㄨㄟˋ ㄌㄜ˙, ㄕˋ ㄈㄡˇ ㄎㄜˇ ㄧˇ ㄅㄨˋ ㄊㄨㄥ ㄍㄨㄛˋ ㄓㄨㄥ ㄐㄧㄢ ㄕㄤ ㄐㄧㄣˋ ㄒㄧㄥˊ ㄐㄧㄠ ㄧˋ?',
             pinyin: 'yin1 wei4 shou3 xu4 fei4 tai4 gui4 le, shi4 fou3 ke3 yi3 bu4 tong1 guo4 zhong1 jian1 shang1 jin4 xing2 jiao1 yi4?',
             translation: '手数料が高すぎるので、 仲介業者を通さず取引する事はできませんか?',
-            memo: ''
+            memo: '※「交易(ㄐㄧㄠ ㄧˋ)」の発音?'
           },
           {
             word: '經營',
@@ -305,12 +305,12 @@ export default {
             memo: ''
           },
           {
-            word: '曾經',
+            word: '★曾經',
             sentence: '我曾經學習過跳舞三年。',
             bopomofo: 'ㄨㄛˇ ㄘㄥˊ ㄐㄧㄥ ㄒㄩㄝˊ ㄒㄧˊ ㄍㄨㄛˋ ㄊㄧㄠˋ ㄨˇ ㄙㄢ ㄋㄧㄢˊ.',
             pinyin: 'wo3 ceng2 jing1 xue2 xi2 guo4 tiao4 wu3 san1 nian2.',
             translation: 'かつて私はダンスを三年間習っていました。',
-            memo: ''
+            memo: '※「曾經」の文字がフォントの関係で(?)教科書と違う。 これでもOK?'
           },
           {
             word: '占',
