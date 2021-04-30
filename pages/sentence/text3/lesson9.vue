@@ -74,9 +74,9 @@ export default {
           },
           {
             word: '成立',
-            sentence: '成立公司需要很多文書工作。',
-            bopomofo: 'ㄔㄥˊ ㄌㄧˋ ㄍㄨㄥ ㄙ ㄒㄩ ㄧㄠˋ ㄏㄣˇ ㄉㄨㄛ ㄨㄣˊ ㄕㄨ ㄍㄨㄥ ㄗㄨㄛˋ.',
-            pinyin: 'cheng2 li4 gong1 si1 xu1 yao4 hen3 duo1 wen2 shu1 gong1 zuo4.',
+            sentence: '成立公司需要很多文件手續。',
+            bopomofo: 'ㄔㄥˊ ㄌㄧˋ ㄍㄨㄥ ㄙ ㄒㄩ ㄧㄠˋ ㄏㄣˇ ㄉㄨㄛ ㄨㄣˊ ㄐㄧㄢˋ ㄕㄡˇ ㄒㄩˋ.',
+            pinyin: 'cheng2 li4 gong1 si1 xu1 yao4 hen3 duo1 wen2 jian4 shou3 xu4.',
             translation: '会社を設立するには多くの事務手続きが必要です。',
             memo: ''
           },
@@ -98,25 +98,25 @@ export default {
           },
           {
             word: '阿嬷',
-            sentence: '阿嬷煮的煮菜好吃得要命。',
-            bopomofo: 'ㄚ ㄇㄚˋ ㄓㄨˇ ㄉㄜ˙ ㄓㄨˇ ㄘㄞˋ ㄏㄠˇ ㄔ ㄉㄜ˙ ㄧㄠˋ ㄇㄧㄥˋ.',
-            pinyin: 'a1 ma4 zhu3 de zhu3 cai4 hao3 chi1 de yao4 ming4.',
+            sentence: '阿嬷燉的菜好吃得要命。',
+            bopomofo: 'ㄚ ㄇㄚˋ ㄉㄨㄣˋ ㄉㄜ˙ ㄘㄞˋ ㄏㄠˇ ㄔ ㄉㄜ˙ ㄧㄠˋ ㄇㄧㄥˋ.',
+            pinyin: 'a1 ma4 dun4 de cai4 hao3 chi1 de yao4 ming4.',
             translation: 'おばあちゃんの煮物はたまらなく美味しいです。',
             memo: ''
           },
           {
-            word: '★中間商',
+            word: '中間商',
             sentence: '因為手續費太貴了, 是否可以不通過中間商進行交易?',
             bopomofo: 'ㄧㄣ ㄨㄟˋ ㄕㄡˇ ㄒㄩˋ ㄈㄟˋ ㄊㄞˋ ㄍㄨㄟˋ ㄌㄜ˙, ㄕˋ ㄈㄡˇ ㄎㄜˇ ㄧˇ ㄅㄨˋ ㄊㄨㄥ ㄍㄨㄛˋ ㄓㄨㄥ ㄐㄧㄢ ㄕㄤ ㄐㄧㄣˋ ㄒㄧㄥˊ ㄐㄧㄠ ㄧˋ?',
             pinyin: 'yin1 wei4 shou3 xu4 fei4 tai4 gui4 le, shi4 fou3 ke3 yi3 bu4 tong1 guo4 zhong1 jian1 shang1 jin4 xing2 jiao1 yi4?',
             translation: '手数料が高すぎるので、 仲介業者を通さず取引する事はできませんか?',
-            memo: '※「交易(ㄐㄧㄠ ㄧˋ)」の発音?'
+            memo: ''
           },
           {
             word: '經營',
-            sentence: '請你告訴我怎麼不出現著赤字繼續經營。',
-            bopomofo: 'ㄑㄧㄥˇ ㄋㄧˇ ㄍㄠˋ ㄙㄨˋ ㄨㄛˇ ㄗㄣˇ ㄇㄜ˙ ㄅㄨˋ ㄔㄨ ㄒㄧㄢˋ ㄓㄜ˙ ㄔˋ ㄗˋ ㄐㄧˋ ㄒㄩˋ ㄐㄧㄥ ㄧㄥˊ.',
-            pinyin: 'qing3 ni3 gao4 su4 wo3 zen3 me bu4 chu1 xian4 zhe chi4 zi4 ji4 xu4 jing1 ying2.',
+            sentence: '請你告訴我怎樣不會出現赤字繼續經營下去。',
+            bopomofo: 'ㄑㄧㄥˇ ㄋㄧˇ ㄍㄠˋ ㄙㄨˋ ㄨㄛˇ ㄗㄣˇ ㄧㄤˋ ㄅㄨˊ ㄏㄨㄟˋ ㄔㄨ ㄒㄧㄢˋ ㄔˋ ㄗˋ ㄐㄧˋ ㄒㄩˋ ㄐㄧㄥ ㄧㄥˊ ㄒㄧㄚˋ ㄑㄩˋ.',
+            pinyin: 'qing3 ni3 gao4 su4 wo3 zen3 yang4 bu2 hui4 chu1 xian4 chi4 zi4 ji4 xu4 jing1 ying2 xia4 qu4.',
             translation: '赤字を出さずに経営を続けるコツを教えて下さい。',
             memo: ''
           },
@@ -170,17 +170,17 @@ export default {
           },
           {
             word: '吃虧',
-            sentence: '我昨天原價購買的衣服今天降價了， 我感覺吃虧了。',
-            bopomofo: 'ㄨㄛˇ ㄗㄨㄛˊ ㄊㄧㄢ ㄩㄢˊ ㄐㄧㄚˋ ㄍㄡˋ ㄇㄞˇ ㄉㄜ˙ ㄧ ㄈㄨˊ ㄐㄧㄣ ㄊㄧㄢ ㄐㄧㄤˋ ㄐㄧㄚˋ ㄌㄜ˙, ㄨㄛˇ ㄍㄢˇ ㄐㄩㄝˊ ㄔ ㄎㄨㄟ ㄌㄜ˙.',
-            pinyin: 'wo3 zuo2 tian1 yuan2 jia4 gou4 mai3 de yi1 fu2 jin1 tian1 jiang4 jia4 le, wo3 gan3 jue2 chi1 kui1 le.',
+            sentence: '我昨天原價購買的衣服今天降價了， 我覺得吃虧了。',
+            bopomofo: 'ㄨㄛˇ ㄗㄨㄛˊ ㄊㄧㄢ ㄩㄢˊ ㄐㄧㄚˋ ㄍㄡˋ ㄇㄞˇ ㄉㄜ˙ ㄧ ㄈㄨˊ ㄐㄧㄣ ㄊㄧㄢ ㄐㄧㄤˋ ㄐㄧㄚˋ ㄌㄜ˙, ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄔ ㄎㄨㄟ ㄌㄜ˙.',
+            pinyin: 'wo3 zuo2 tian1 yuan2 jia4 gou4 mai3 de yi1 fu2 jin1 tian1 jiang4 jia4 le, wo3 jue2 de chi1 kui1 le.',
             translation: '昨日定価で買った服が今日は値下がりしていたので、 何だか損した気分です。',
             memo: ''
           },
           {
             word: '比價',
             sentence: '即使是便宜的東西， 他也會到各個商店認真地比價。',
-            bopomofo: 'ㄐㄧˊ ㄕˇ ㄕˋ ㄆㄧㄢˊ ㄧˊ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙, ㄊㄚ ㄧㄝˇ ㄏㄨㄟˋ ㄉㄠˋ ㄍㄜˋ ㄍㄜˋ ㄕㄤ ㄉㄧㄢˋ ㄖㄣˋ ㄓㄣ ㄉㄜ˙ ㄅㄧˇ ㄐㄧㄚˋ.',
-            pinyin: 'ji2 shi3 shi4 pian2 yi2 de dong1 xi, ta1 ye3 hui4 dao4 ge4 ge4 shang1 dian4 ren4 zhen1 de bi3 jia4.',
+            bopomofo: 'ㄐㄧˊ ㄕˇ ㄕˋ ㄆㄧㄢˊ ㄧˊ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ˙, ㄊㄚ ㄧㄝˇ ㄏㄨㄟˋ ㄉㄠˋ ㄍㄜˋ ㄍㄜ˙ ㄕㄤ ㄉㄧㄢˋ ㄖㄣˋ ㄓㄣ ㄉㄜ˙ ㄅㄧˇ ㄐㄧㄚˋ.',
+            pinyin: 'ji2 shi3 shi4 pian2 yi2 de dong1 xi, ta1 ye3 hui4 dao4 ge4 ge shang1 dian4 ren4 zhen1 de bi3 jia4.',
             translation: '例え安いものでも、 彼は色々な店を周って真剣に値段を比べます。',
             memo: ''
           },
@@ -210,9 +210,9 @@ export default {
           },
           {
             word: '信用',
-            sentence: '難以挽回你已經失去的信用。',
-            bopomofo: 'ㄋㄢˊ ㄧˇ ㄨㄢˇ ㄏㄨㄟˊ ㄋㄧˇ ㄧˇ ㄐㄧㄥ ㄕ ㄑㄩˋ ㄉㄜ˙ ㄒㄧㄣˋ ㄩㄥˋ.',
-            pinyin: 'nan2 yi3 wan3 hui2 ni3 yi3 jing1 shi1 qu4 de xin4 yong4.',
+            sentence: '你要挽回你已經失去的信用很困難。',
+            bopomofo: 'ㄋㄧˇ ㄧㄠˋ ㄨㄢˇ ㄏㄨㄟˊ ㄋㄧˇ ㄧˇ ㄐㄧㄥ ㄕ ㄑㄩˋ ㄉㄜ˙ ㄒㄧㄣˋ ㄩㄥˋ ㄏㄣˇ ㄎㄨㄣˋ ㄋㄢˊ.',
+            pinyin: 'ni3 yao4 wan3 hui2 ni3 yi3 jing1 shi1 qu4 de xin4 yong4 hen3 kun4 nan2.',
             translation: '一度失ってしまった信用を取り戻すのは困難です。',
             memo: ''
           },
@@ -238,15 +238,15 @@ export default {
             bopomofo: 'ㄊㄚ ㄇㄟˇ ㄊㄧㄢ ㄉㄨ ㄗㄞˋ ㄨㄢˊ, ㄉㄢˋ ㄎㄠˇ ㄕˋ ㄕˊ ㄊㄚ ㄗㄨㄥˇ ㄕˋ ㄉㄧˋ ㄕˊ ㄇㄧㄥˊ ㄧˇ ㄋㄟˋ.',
             pinyin: 'ta1 mei3 tian1 dou1 zai4 wan2, dan4 kao3 shi4 shi2 ta1 zong3 shi4 di4 shi2 ming2 yi3 nei4.',
             translation: '彼女は毎日遊んでばかりいますが、 テストの成績はいつも10番以内です。',
-            memo: ''
+            memo: '※「第十名以内(ㄉㄧˋ ㄕˊ ㄇㄧㄥˊ ㄧˇ ㄋㄟˋ/di4 shi2 ming2 yi3 nei4)」 = 「前十名(ㄑㄧㄢˊ ㄉㄧˋ ㄕˊ ㄇㄧㄥˊ/qian2 di4 shi2 ming2)」でも可。'
           },
           {
             word: '普遍',
-            sentence: '非現金購物越來越變普遍了。',
-            bopomofo: 'ㄈㄟ ㄒㄧㄢˋ ㄐㄧㄣ ㄍㄡˋ ㄨˋ ㄩㄝˋ ㄌㄞˊ ㄩㄝˋ ㄅㄧㄢˋ ㄆㄨˇ ㄅㄧㄢˋ ㄌㄜ˙.',
-            pinyin: 'fei1 xian4 jin1 gou4 wu4 yue4 lai2 yue4 bian4 pu3 bian4 le.',
+            sentence: '非現金購物越來越普遍了。',
+            bopomofo: 'ㄈㄟ ㄒㄧㄢˋ ㄐㄧㄣ ㄍㄡˋ ㄨˋ ㄩㄝˋ ㄌㄞˊ ㄩㄝˋ ㄆㄨˇ ㄅㄧㄢˋ ㄌㄜ˙.',
+            pinyin: 'fei1 xian4 jin1 gou4 wu4 yue4 lai2 yue4 pu3 bian4 le.',
             translation: 'キャッシュレス決済はますます一般的になってきました。',
-            memo: ''
+            memo: '※クレジットカードの事は「塑膠貨幣(ㄙㄨˋ ㄐㄧㄠ ㄏㄨㄛˋ ㄅㄧˋ/su4 jiao1 huo4 bi4)」とも呼ぶ。'
           },
           {
             word: '選擇',
@@ -259,8 +259,8 @@ export default {
           {
             word: '網購',
             sentence: '網購買的物品的顏色跟我在網站上看了的稍微不一樣。',
-            bopomofo: 'ㄨㄤˇ ㄍㄡˋ ㄇㄞˇ ㄉㄜ˙ ㄨˋ ㄆㄧㄣˇ ㄉㄜ˙ ㄧㄢˊ ㄙㄜˋ ㄍㄣ ㄨㄛˇ ㄗㄞˋ ㄨㄤˇ ㄓㄢˋ ㄕㄤˋ ㄎㄢˋ ㄌㄜ˙ ㄉㄜ˙ ㄕㄠ ㄨㄟ ㄅㄨˋ ㄧ ㄧㄤˋ.',
-            pinyin: 'wang3 gou4 mai3 de wu4 pin3 de yan2 se4 gen1 wo3 zai4 wang3 zhan4 shang4 kan4 le de shao1 wei1 bu4 yi1 yang4.',
+            bopomofo: 'ㄨㄤˇ ㄍㄡˋ ㄇㄞˇ ㄉㄜ˙ ㄨˋ ㄆㄧㄣˇ ㄉㄜ˙ ㄧㄢˊ ㄙㄜˋ ㄍㄣ ㄨㄛˇ ㄗㄞˋ ㄨㄤˇ ㄓㄢˋ ㄕㄤˋ ㄎㄢˋ ㄌㄜ˙ ㄉㄜ˙ ㄕㄠ ㄨㄟˊ ㄅㄨˋ ㄧ ㄧㄤˋ.',
+            pinyin: 'wang3 gou4 mai3 de wu4 pin3 de yan2 se4 gen1 wo3 zai4 wang3 zhan4 shang4 kan4 le de shao1 wei2 bu4 yi1 yang4.',
             translation: 'ネットで買った品物の色が、 ウェブサイトで見たものとは若干違いました。',
             memo: ''
           },
@@ -298,19 +298,19 @@ export default {
           },
           {
             word: '出口',
-            sentence: '如果我計算出口成本， 我認為仍然存在風險。',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄛˇ ㄐㄧˋ ㄙㄨㄢˋ ㄔㄨ ㄎㄡˇ ㄔㄥˊ ㄅㄣˇ, ㄨㄛˇ ㄖㄣˋ ㄨㄟˊ ㄖㄥˊ ㄖㄢˊ ㄘㄨㄣˊ ㄗㄞˋ ㄈㄥ ㄒㄧㄢˇ.',
-            pinyin: 'ru2 guo3 wo3 ji4 suan4 chu1 kou3 cheng2 ben3, wo3 ren4 wei2 reng2 ran2 cun2 zai4 feng1 xian3.',
+            sentence: '如果我計算出口成本， 我認為仍然有風險存在。',
+            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄨㄛˇ ㄐㄧˋ ㄙㄨㄢˋ ㄔㄨ ㄎㄡˇ ㄔㄥˊ ㄅㄣˇ, ㄨㄛˇ ㄖㄣˋ ㄨㄟˊ ㄖㄥˊ ㄖㄢˊ ㄧㄡˇ ㄈㄥ ㄒㄧㄢˇ ㄘㄨㄣˊ ㄗㄞˋ.',
+            pinyin: 'ru2 guo3 wo3 ji4 suan4 chu1 kou3 cheng2 ben3, wo3 ren4 wei2 reng2 ran2 you3 feng1 xian3 cun2 zai4.',
             translation: '輸出にかかるコストを計算すると、 やはりリスクがあるなと思います。',
             memo: ''
           },
           {
-            word: '★曾經',
+            word: '曾經',
             sentence: '我曾經學習過跳舞三年。',
             bopomofo: 'ㄨㄛˇ ㄘㄥˊ ㄐㄧㄥ ㄒㄩㄝˊ ㄒㄧˊ ㄍㄨㄛˋ ㄊㄧㄠˋ ㄨˇ ㄙㄢ ㄋㄧㄢˊ.',
             pinyin: 'wo3 ceng2 jing1 xue2 xi2 guo4 tiao4 wu3 san1 nian2.',
             translation: 'かつて私はダンスを三年間習っていました。',
-            memo: '※「曾經」の文字がフォントの関係で(?)教科書と違う。 これでもOK?'
+            memo: ''
           },
           {
             word: '占',
@@ -353,28 +353,28 @@ export default {
             memo: ''
           },
           {
-            word: '★内餡',
-            sentence: '那家麵包店賣的草莓内餡的點心非常好吃。',
-            bopomofo: 'ㄋㄚˋ ㄐㄧㄚ ㄇㄧㄢˋ ㄅㄠ ㄉㄧㄢˋ ㄇㄞˋ ㄉㄜ˙ ㄘㄠˇ ㄇㄟˊ ㄋㄟˋ ㄒㄧㄢˋ ㄉㄜ˙ ㄉㄧㄢˇ ㄒㄧㄣ ㄈㄟ ㄔㄤˊ ㄏㄠˇ ㄔ.',
-            pinyin: 'na4 jia1 mian4 bao1 dian4 mai4 de cao3 mei2 nei4 xian4 de dian3 xin1 fei1 chang2 hao3 chi1.',
+            word: '内餡',
+            sentence: '那家麵包店賣的草莓内餡的甜點非常好吃。',
+            bopomofo: 'ㄋㄚˋ ㄐㄧㄚ ㄇㄧㄢˋ ㄅㄠ ㄉㄧㄢˋ ㄇㄞˋ ㄉㄜ˙ ㄘㄠˇ ㄇㄟˊ ㄋㄟˋ ㄒㄧㄢˋ ㄉㄜ˙ ㄊㄧㄢˊ ㄉㄧㄢˇ ㄈㄟ ㄔㄤˊ ㄏㄠˇ ㄔ.',
+            pinyin: 'na4 jia1 mian4 bao1 dian4 mai4 de cao3 mei2 nei4 xian4 de tian2 dian3 fei1 chang2 hao3 chi1.',
             translation: 'あのパン屋が売っている、 苺のフィリングが入ったペストリーはとても美味しいです。',
-            memo: '※「ペストリー」は「點心」?'
+            memo: '※「甜點」に対し、 「點心」はしょっぱいものも含む。スナック。'
           },
           {
             word: '當做',
-            sentence: '他當做主任站在管理部下的立場。',
-            bopomofo: 'ㄊㄚ ㄉㄤ ㄗㄨㄛˋ ㄓㄨˇ ㄖㄣˋ ㄓㄢˋ ㄗㄞˋ ㄍㄨㄢˇ ㄌㄧˇ ㄅㄨˋ ㄒㄧㄚˋ ㄉㄜ˙ ㄌㄧˋ ㄔㄤˇ.',
-            pinyin: 'ta1 dang1 zuo4 zhu3 ren4 zhan4 zai4 guan3 li3 bu4 xia4 de li4 chang3.',
-            translation: '彼はディレクターとして、 部下をまとめる立場にあります。',
+            sentence: '我把撿到的野貓當做寵物養。',
+            bopomofo: 'ㄨㄛˇ ㄅㄚˇ ㄐㄧㄢˇ ㄉㄠˋ ㄉㄜ˙ ㄧㄝˇ ㄇㄠ ㄉㄤ ㄗㄨㄛˋ ㄔㄨㄥˇ ㄨˋ ㄧㄤˇ.',
+            pinyin: 'wo3 ba3 jian3 dao4 de ye3 mao1 dang1 zuo4 chong3 wu4 yang3.',
+            translation: '拾った野良猫を、 ペットとして育てています',
             memo: ''
           },
           {
-            word: '★喜餅',
-            sentence: '在婚禮上， 孩子們的眼睛釘在喜餅上。',
-            bopomofo: 'ㄗㄞˋ ㄏㄨㄣ ㄌㄧˇ ㄕㄤˋ, ㄏㄞˊ ㄗ˙ ㄇㄣ˙ ㄉㄜ˙ ㄧㄢˇ ㄐㄧㄥ ㄉㄧㄥ ㄗㄞˋ ㄒㄧˇ ㄅㄧㄥˇ ㄕㄤˋ.',
-            pinyin: 'zai4 hun1 li3 shang4, hai2 zi men de yan3 jing1 ding1 zai4 xi3 bing3 shang4.',
+            word: '喜餅',
+            sentence: '在婚禮上， 孩子們的眼睛釘著喜餅。',
+            bopomofo: 'ㄗㄞˋ ㄏㄨㄣ ㄌㄧˇ ㄕㄤˋ, ㄏㄞˊ ㄗ˙ ㄇㄣ˙ ㄉㄜ˙ ㄧㄢˇ ㄐㄧㄥ ㄉㄧㄥ ㄓㄜ˙ ㄒㄧˇ ㄅㄧㄥˇ.',
+            pinyin: 'zai4 hun1 li3 shang4, hai2 zi men de yan3 jing1 ding1 zhe xi3 bing3.',
             translation: '結婚式で、 子供たちの目はウェディングケーキに釘付けになっています。',
-            memo: '※「釘」と「盯」は違う字? 「釘在喜餅上(ㄉㄧㄥ ㄗㄞˋ ㄒㄧˇ ㄅㄧㄥˇ ㄕㄤˋ/ding1 zai4 xi3 bing3 shang4)」 は 「盯著喜餅(ㄉㄧㄥ ㄓㄜ˙ ㄒㄧˇ ㄅㄧㄥˇ/ding1 zhe xi3 bing3」でも可。'
+            memo: '※「釘付け」には、 「釘(ㄉㄧㄥ/ding1)」と「盯(ㄉㄧㄥ/ding1)」2つの字がある。'
           },
           {
             word: '喜愛',
@@ -394,25 +394,25 @@ export default {
           },
           {
             word: '商機',
-            sentence: '那個人， 他認為是商機的事都會做。',
-            bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄖㄣˊ, ㄊㄚ ㄖㄣˋ ㄨㄟˊ ㄕˋ ㄕㄤ ㄐㄧ ㄉㄜ˙ ㄕˋ ㄉㄡ ㄏㄨㄟˋ ㄗㄨㄛˋ.',
-            pinyin: 'na4 ge4 ren2, ta1 ren4 wei2 shi4 shang1 ji1 de shi4 dou1 hui4 zuo4.',
+            sentence: '那個人， 他認為是商機的事都會去做。',
+            bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄖㄣˊ, ㄊㄚ ㄖㄣˋ ㄨㄟˊ ㄕˋ ㄕㄤ ㄐㄧ ㄉㄜ˙ ㄕˋ ㄉㄡ ㄏㄨㄟˋ ㄑㄩˋ ㄗㄨㄛˋ.',
+            pinyin: 'na4 ge4 ren2, ta1 ren4 wei2 shi4 shang1 ji1 de shi4 dou1 hui4 qu4 zuo4.',
             translation: 'あの人は、 ビジネスチャンスだと思う事は何でもやります。',
             memo: ''
           },
           {
             word: '代表',
-            sentence: '他在演講比賽上當作學生代表問候大家。',
-            bopomofo: 'ㄊㄚ ㄗㄞˋ ㄧㄢˇ ㄐㄧㄤˇ ㄅㄧˇ ㄙㄞˋ ㄕㄤˋ ㄉㄤ ㄗㄨㄛˋ ㄒㄩㄝˊ ㄕㄥ ㄉㄞˋ ㄅㄧㄠˇ ㄨㄣˋ ㄏㄡˋ ㄉㄚˋ ㄐㄧㄚ.',
-            pinyin: 'ta1 zai4 yan3 jiang3 bi3 sai4 shang4 dang1 zuo4 xue2 sheng1 dai4 biao3 wen4 hou4 da4 jia1.',
+            sentence: '他在演講比賽上作為學生代表來問候大家。',
+            bopomofo: 'ㄊㄚ ㄗㄞˋ ㄧㄢˇ ㄐㄧㄤˇ ㄅㄧˇ ㄙㄞˋ ㄕㄤˋ ㄗㄨㄛˋ ㄨㄟˊ ㄒㄩㄝˊ ㄕㄥ ㄉㄞˋ ㄅㄧㄠˇ ㄌㄞˊ ㄨㄣˋ ㄏㄡˋ ㄉㄚˋ ㄐㄧㄚ.',
+            pinyin: 'ta1 zai4 yan3 jiang3 bi3 sai4 shang4 zuo4 wei2 xue2 sheng1 dai4 biao3 lai2 wen4 hou4 da4 jia1.',
             translation: '彼は弁論大会で学生代表として挨拶します。',
             memo: ''
           },
           {
             word: '政府',
-            sentence: '政府的政策有的時候不適合一般人的生活。',
-            bopomofo: 'ㄓㄥˋ ㄈㄨˇ ㄉㄜ˙ ㄓㄥˋ ㄘㄜˋ ㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄅㄨˊ ㄕˋ ㄏㄜˊ ㄧ ㄅㄢ ㄖㄣˊ ㄉㄜ˙ ㄕㄥ ㄏㄨㄛˊ.',
-            pinyin: 'zheng4 fu3 de zheng4 ce4 you3 de shi2 hou4 bu2 shi4 he2 yi1 ban1 ren2 de sheng1 huo2.',
+            sentence: '政府的政策有的時候不適合老百姓的生活。',
+            bopomofo: 'ㄓㄥˋ ㄈㄨˇ ㄉㄜ˙ ㄓㄥˋ ㄘㄜˋ ㄧㄡˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄅㄨˋ ㄕˋ ㄏㄜˊ ㄌㄠˇ ㄅㄞˇ ㄒㄧㄥˋ ㄉㄜ˙ ㄕㄥ ㄏㄨㄛˊ.',
+            pinyin: 'zheng4 fu3 de zheng4 ce4 you3 de shi2 hou4 bu2 shi4 he2 lao3 bai3 xing4 de sheng1 huo2.',
             translation: '政府の方針は一般人の生活に適していない事があります。',
             memo: ''
           },
@@ -434,42 +434,42 @@ export default {
           },
           {
             word: '提高',
-            sentence: '公務員的申請人數逐年提高了， 因此通過考試也難了。',
-            bopomofo: 'ㄍㄨㄥ ㄨˋ ㄩㄢˊ ㄉㄜ˙ ㄕㄣ ㄑㄧㄥˇ ㄖㄣˊ ㄕㄨˋ ㄓㄨˊ ㄋㄧㄢˊ ㄊㄧˊ ㄍㄠ ㄌㄜ˙, ㄧㄣ ㄘˇ ㄊㄨㄥ ㄍㄨㄛˋ ㄎㄠˇ ㄕˋ ㄧㄝˇ ㄋㄢˊ ㄌㄜ˙.',
-            pinyin: 'gong1 wu4 yuan2 de shen1 qing3 ren2 shu4 zhu2 nian2 ti2 gao1 le, yin1 ci3 tong1 guo4 kao3 shi4 ye3 nan2 le.',
+            sentence: '公務員的申請人數逐年提高了， 因此考試也越來越難通過了。',
+            bopomofo: 'ㄍㄨㄥ ㄨˋ ㄩㄢˊ ㄉㄜ˙ ㄕㄣ ㄑㄧㄥˇ ㄖㄣˊ ㄕㄨˋ ㄓㄨˊ ㄋㄧㄢˊ ㄊㄧˊ ㄍㄠ ㄌㄜ˙, ㄧㄣ ㄘˇ ㄎㄠˇ ㄕˋ ㄧㄝˇ ㄩㄝˋ ㄌㄞˊ ㄩㄝˋ ㄋㄢˊ ㄊㄨㄥ ㄍㄨㄛˋ ㄌㄜ˙.',
+            pinyin: 'gong1 wu4 yuan2 de4 shen1 qing3 ren2 shu4 zhu2 nian2 ti2 gao1 le, yin1 ci3 kao3 shi4 ye3 yue4 lai2 yue4 nan2 tong1 guo4 le.',
             translation: '公務員の志願者数は年々増えていて、 試験に受かるのは難しくなっています。',
             memo: ''
           },
           {
             word: '知名',
-            sentence: '在這附近好知名的小吃店前總是很多人在排隊。',
-            bopomofo: 'ㄗㄞˋ ㄓㄜˋ ㄈㄨˋ ㄐㄧㄣˋ ㄏㄠˇ ㄓ ㄇㄧㄥˊ ㄉㄜ˙ ㄒㄧㄠˇ ㄔ ㄉㄧㄢˋ ㄑㄧㄢˊ ㄗㄨㄥˇ ㄕˋ ㄏㄣˇ ㄉㄨㄛ ㄖㄣˊ ㄗㄞˋ ㄆㄞˊ ㄉㄨㄟˋ.',
-            pinyin: 'zai4 zhe4 fu4 jin4 hao3 zhi1 ming2 de xiao3 chi1 dian4 qian2 zong3 shi4 hen3 duo1 ren2 zai4 pai2 dui4.',
-            translation: 'このあたりで有名なレストランの前にはいつもたくさんの人が列を作っています。',
+            sentence: '在這附近有很知名的小吃, 那家店的門口總是有很多人在排隊。',
+            bopomofo: 'ㄗㄞˋ ㄓㄜˋ ㄈㄨˋ ㄐㄧㄣˋ ㄧㄡˇ ㄏㄣˇ ㄓ ㄇㄧㄥˊ ㄉㄜ˙ ㄒㄧㄠˇ ㄔ, ㄋㄚˋ ㄐㄧㄚ ㄉㄧㄢˋ ㄉㄜ˙ ㄇㄣˊ ㄎㄡˇ ㄗㄨㄥˇ ㄕˋ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄖㄣˊ ㄗㄞˋ ㄆㄞˊ ㄉㄨㄟˋ.',
+            pinyin: 'zai4 zhe4 fu4 jin4 you3 hen3 zhi1 ming2 de xiao3 chi1, na4 jia1 dian4 de men2 kou3 zong3 shi4 you3 hen3 duo1 ren2 zai4 pai2 dui4.',
+            translation: 'このあたりには有名なスナックがあり、 そのレストランの前にはいつもたくさんの人が列を作っています。',
             memo: ''
           },
           {
             word: '出現',
-            sentence: '新出現了的問題看起來很嚴重, 我們應該重新考慮優先事項。',
-            bopomofo: 'ㄒㄧㄣ ㄔㄨ ㄒㄧㄢˋ ㄌㄜ˙ ㄉㄜ˙ ㄨㄣˋ ㄊㄧˊ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄏㄣˇ ㄧㄢˊ ㄓㄨㄥˋ, ㄨㄛˇ ㄇㄣ˙ ㄧㄥ ㄍㄞ ㄔㄨㄥˊ ㄒㄧㄣ ㄎㄠˇ ㄌㄩˋ ㄧㄡ ㄒㄧㄢ ㄕˋ ㄒㄧㄤˋ.',
-            pinyin: 'xin1 chu1 xian4 le de wen4 ti2 kan4 qi3 lai2 hen3 yan2 zhong4, wo3 men ying1 gai1 chong2 xin1 kao3 lu4 you1 xian1 shi4 xiang4.',
+            sentence: '新出現了的問題看起來很嚴重, 我們應該重新考慮優先順序。',
+            bopomofo: 'ㄒㄧㄣ ㄔㄨ ㄒㄧㄢˋ ㄌㄜ˙ ㄉㄜ˙ ㄨㄣˋ ㄊㄧˊ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄏㄣˇ ㄧㄢˊ ㄓㄨㄥˋ, ㄨㄛˇ ㄇㄣ˙ ㄧㄥ ㄍㄞ ㄔㄨㄥˊ ㄒㄧㄣ ㄎㄠˇ ㄌㄩˋ ㄧㄡ ㄒㄧㄢ ㄕㄨㄣˋ ㄒㄩˋ.',
+            pinyin: 'xin1 chu1 xian4 le de wen4 ti2 kan4 qi3 lai2 hen3 yan2 zhong4, wo3 men ying1 gai1 chong2 xin1 kao3 lu4 you1 xian1 shun4 xu4.',
             translation: '新たに発生した問題はとても深刻に見えるので、 優先順位を考え直さないといけません。',
             memo: ''
           },
           {
             word: '科技',
-            sentence: '為了學習最前頭的科技最好的方法是閱讀已經公開了的論文。',
-            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄒㄩㄝˊ ㄒㄧˊ ㄗㄨㄟˋ ㄑㄧㄢˊ ㄊㄡ˙ ㄉㄜ˙ ㄎㄜ ㄐㄧˋ ㄗㄨㄟˋ ㄏㄠˇ ㄉㄜ˙ ㄈㄤ ㄈㄚˇ ㄕˋ ㄩㄝˋ ㄉㄨˊ ㄧˇ ㄐㄧㄥ ㄍㄨㄥ ㄎㄞ ㄌㄜ˙ ㄉㄜ˙ ㄌㄨㄣˋ ㄨㄣˊ.',
-            pinyin: 'wei4 le xue2 xi2 zui4 qian2 tou2 de ke1 ji4 zui4 hao3 de fang1 fa3 shi4 yue4 du2 yi3 jing1 gong1 kai1 le de lun4 wen2.',
+            sentence: '為了學習最尖端的科技最好的方法是閱讀已經公開了的論文。',
+            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄒㄩㄝˊ ㄒㄧˊ ㄗㄨㄟˋ ㄐㄧㄢ ㄉㄨㄢ ㄉㄜ˙ ㄎㄜ ㄐㄧˋ ㄗㄨㄟˋ ㄏㄠˇ ㄉㄜ˙ ㄈㄤ ㄈㄚˇ ㄕˋ ㄩㄝˋ ㄉㄨˊ ㄧˇ ㄐㄧㄥ ㄍㄨㄥ ㄎㄞ ㄌㄜ˙ ㄉㄜ˙ ㄌㄨㄣˋ ㄨㄣˊ.',
+            pinyin: 'wei4 le xue2 xi2 zui4 jian1 duan1 de ke1 ji4 zui4 hao3 de fang1 fa3 shi4 yue4 du2 yi3 jing1 gong1 kai1 le de lun4 wen2.',
             translation: '最先端の科学技術を学ぶには、 公開されている論文を読むのが一番です。',
             memo: ''
           },
           {
             word: '（台）斤',
-            sentence: '大概一斤的牛排我覺得我可以一個人吃掉。',
-            bopomofo: 'ㄉㄚˋ ㄍㄞˋ ㄧ ㄐㄧㄣ ㄉㄜ˙ ㄋㄧㄡˊ ㄆㄞˊ ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄨㄛˇ ㄎㄜˇ ㄧˇ ㄧˊ ㄍㄜ˙ ㄖㄣˊ ㄔ ㄉㄧㄠˋ.',
-            pinyin: 'da4 gai4 yi1 jin1 de niu2 pai2 wo3 jue2 de wo3 ke3 yi3 yi1 ge4 ren2 chi1 diao4.',
-            translation: '600グラムくらいのステーキなら一人で食べられると思います。',
+            sentence: '我覺得我餓得可以一個人吃掉大概一斤的牛排。',
+            bopomofo: 'ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄨㄛˇ ㄜˋ ㄉㄜˊ ㄎㄜˇ ㄧˇ ㄧ ㄍㄜ˙ ㄖㄣˊ ㄔ ㄉㄧㄠˋ ㄉㄚˋ ㄍㄞˋ ㄧ ㄐㄧㄣ ㄉㄜ˙ ㄋㄧㄡˊ ㄆㄞˊ.',
+            pinyin: 'wo3 jue2 de wo3 e4 de ke3 yi3 yi1 ge4 ren2 chi1 diao4 da4 gai4 yi1 jin1 de niu2 pai2.',
+            translation: 'お腹がすいているので、 600グラムくらいのステーキなら一人で食べられると思います。',
             memo: ''
           },
           {
@@ -498,9 +498,9 @@ export default {
           },
           {
             word: '購買',
-            sentence: '買了牛奶後， 他才發現冰箱裡已經有一瓶了。',
-            bopomofo: 'ㄇㄞˇ ㄌㄜ˙ ㄋㄧㄡˊ ㄋㄞˇ ㄏㄡˋ, ㄊㄚ ㄘㄞˊ ㄈㄚ ㄒㄧㄢˋ ㄅㄧㄥ ㄒㄧㄤ ㄌㄧˇ ㄧˇ ㄐㄧㄥ ㄧㄡˇ ㄧ ㄆㄧㄥˊ ㄌㄜ˙.',
-            pinyin: 'mai3 le niu2 nai3 hou4, ta1 cai2 fa1 xian4 bing1 xiang1 li3 yi3 jing1 you3 yi1 ping2 le.',
+            sentence: '購買了牛奶後， 他才發現冰箱裡已經有一瓶了。',
+            bopomofo: 'ㄍㄡˋ ㄇㄞˇ ㄌㄜ˙ ㄋㄧㄡˊ ㄋㄞˇ ㄏㄡˋ, ㄊㄚ ㄘㄞˊ ㄈㄚ ㄒㄧㄢˋ ㄅㄧㄥ ㄒㄧㄤ ㄌㄧˇ ㄧˇ ㄐㄧㄥ ㄧㄡˇ ㄧ ㄆㄧㄥˊ ㄌㄜ˙.',
+            pinyin: 'gou4 mai3 le niu2 nai3 hou4, ta1 cai2 fa1 xian4 bing1 xiang1 li3 yi3 jing1 you3 yi1 ping2 le.',
             translation: '牛乳を買った後で、 冷蔵庫の中に既に一瓶ある事に彼は気づきました。',
             memo: ''
           },
@@ -522,9 +522,9 @@ export default {
           },
           {
             word: '行銷',
-            sentence: '為了在外國行銷你的商品， 你得找出那個國家的需求。',
-            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄗㄞˋ ㄨㄞˋ ㄍㄨㄛˊ ㄒㄧㄥˊ ㄒㄧㄠ ㄋㄧˇ ㄉㄜ˙ ㄕㄤ ㄆㄧㄣˇ, ㄋㄧˇ ㄉㄟˇ ㄓㄠˇ ㄔㄨ ㄋㄚˋ ㄍㄜˋ ㄍㄨㄛˊ ㄐㄧㄚ ㄉㄜ˙ ㄒㄩ ㄑㄧㄡˊ.',
-            pinyin: 'wei4 le zai4 wai4 guo2 xing2 xiao1 ni3 de shang1 pin3, ni3 dei3 zhao3 chu1 na4 ge4 guo2 jia1 de xu1 qiu2.',
+            sentence: '為了在外國行銷你的商品， 你得把那個國家的需求找出來。',
+            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄗㄞˋ ㄨㄞˋ ㄍㄨㄛˊ ㄒㄧㄥˊ ㄒㄧㄠ ㄋㄧˇ ㄉㄜ˙ ㄕㄤ ㄆㄧㄣˇ, ㄋㄧˇ ㄉㄟˇ ㄅㄚˇ ㄋㄚˋ ㄍㄜˋ ㄍㄨㄛˊ ㄐㄧㄚ ㄉㄜ˙ ㄒㄩ ㄑㄧㄡˊ ㄓㄠˇ ㄔㄨ ㄌㄞˊ.',
+            pinyin: 'wei4 le zai4 wai4 guo2 xing2 xiao1 ni3 de shang1 pin3, ni3 dei3 ba3 na4 ge4 guo2 jia1 de xu1 qiu2 zhao3 chu1 lai2.',
             translation: '外国で商品を販売するには、 その国のニーズを調べないといけません。',
             memo: ''
           },
@@ -538,9 +538,9 @@ export default {
           },
           {
             word: '店面',
-            sentence: '在店面出售的配菜看起來太好吃了， 我買了回來。',
-            bopomofo: 'ㄗㄞˋ ㄉㄧㄢˋ ㄇㄧㄢˋ ㄔㄨ ㄕㄡˋ ㄉㄜ˙ ㄆㄟˋ ㄘㄞˋ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄊㄞˋ ㄏㄠˇ ㄔ ㄌㄜ˙, ㄨㄛˇ ㄇㄞˇ ㄌㄜ˙ ㄏㄨㄟˊ ㄌㄞˊ.',
-            pinyin: 'zai4 dian4 mian4 chu1 shou4 de pei4 cai4 kan4 qi3 lai2 tai4 hao3 chi1 le, wo3 mai3 le hui2 lai2.',
+            sentence: '店面裡賣的配菜看起來太好吃了， 我買了回來。',
+            bopomofo: 'ㄉㄧㄢˋ ㄇㄧㄢˋ ㄌㄧˇ ㄇㄞˋ ㄉㄜ˙ ㄆㄟˋ ㄘㄞˋ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄊㄞˋ ㄏㄠˇ ㄔ ㄌㄜ˙, ㄨㄛˇ ㄇㄞˇ ㄌㄜ˙ ㄏㄨㄟˊ ㄌㄞˊ.',
+            pinyin: 'dian4 mian4 li3 mai4 de pei4 cai4 kan4 qi3 lai2 tai4 hao3 chi1 le, wo3 mai3 le hui2 lai2.',
             translation: '店先で売っているおかずがあまりにも美味しそうだったので、 買って帰ってきました。',
             memo: ''
           },
@@ -578,9 +578,9 @@ export default {
           },
           {
             word: '鳳梨酥',
-            sentence: '鳳梨酥的内餡可能沒包鳳梨。',
-            bopomofo: 'ㄈㄥˋ ㄌㄧˊ ㄙㄨ ㄉㄜ˙ ㄋㄟˋ ㄒㄧㄢˋ ㄎㄜˇ ㄋㄥˊ ㄇㄟˊ ㄅㄠ ㄈㄥˋ ㄌㄧˊ.',
-            pinyin: 'feng4 li2 su1 de nei4 xian4 ke3 neng2 mei2 bao1 feng4 li2.',
+            sentence: '鳳梨酥的内餡可能沒有鳳梨。',
+            bopomofo: 'ㄈㄥˋ ㄌㄧˊ ㄙㄨ ㄉㄜ˙ ㄋㄟˋ ㄒㄧㄢˋ ㄎㄜˇ ㄋㄥˊ ㄇㄟˊ ㄧㄡˇ ㄈㄥˋ ㄌㄧˊ.',
+            pinyin: 'feng4 li2 su1 de nei4 xian4 ke3 neng2 mei2 you3 feng4 li2.',
             translation: 'パイナップルケーキの餡には、 パイナップルが入っていない事があります。',
             memo: ''
           },
@@ -594,9 +594,9 @@ export default {
           },
           {
             word: '鳳梨農',
-            sentence: '為了成為鳳梨農我應該住在多少溫暖的地方?',
-            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄔㄥˊ ㄨㄟˊ ㄈㄥˋ ㄌㄧˊ ㄋㄨㄥˊ ㄨㄛˇ ㄧㄥ ㄍㄞ ㄓㄨˋ ㄗㄞˋ ㄉㄨㄛ ㄕㄠˇ ㄨㄣ ㄋㄨㄢˇ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ?',
-            pinyin: 'wei4 le cheng2 wei2 feng4 li2 nong2 wo3 ying1 gai1 zhu4 zai4 duo1 shao3 wen1 nuan3 de di4 fang1?',
+            sentence: '為了成為鳳梨農我應該住在有多溫暖的地方?',
+            bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄔㄥˊ ㄨㄟˊ ㄈㄥˋ ㄌㄧˊ ㄋㄨㄥˊ ㄨㄛˇ ㄧㄥ ㄍㄞ ㄓㄨˋ ㄗㄞˋ ㄧㄡˇ ㄉㄨㄛ ㄨㄣ ㄋㄨㄢˇ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ?',
+            pinyin: 'wei4 le cheng2 wei2 feng4 li2 nong2 wo3 ying1 gai1 zhu4 zai4 you3 duo1 wen1 nuan3 de di4 fang1?',
             translation: 'パイナップル農家になるには、 どのくらい温かい場所に住んだらよいですか?',
             memo: ''
           }
