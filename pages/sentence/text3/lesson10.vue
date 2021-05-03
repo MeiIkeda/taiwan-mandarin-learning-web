@@ -124,7 +124,7 @@ export default {
             word: '片子',
             sentence: '對於拍了的X光片子, 醫生解釋給我聽。',
             bopomofo: 'ㄉㄨㄟˋ ㄩˊ ㄆㄞ ㄌㄜ˙ ㄉㄜ˙ X ㄍㄨㄤ ㄆㄧㄢ ㄗ˙, ㄧ ㄕㄥ ㄐㄧㄝˇ ㄕˋ ㄍㄟˇ ㄨㄛˇ ㄊㄧㄥ.',
-            pinyin: 'dui4 yu2 pai1 le de X guang1 pian4 zi, yi3 sheng1 jie3 shi4 gei3 wo3 ting1.',
+            pinyin: 'dui4 yu2 pai1 le de X guang1 pian4 zi, yi1 sheng1 jie3 shi4 gei3 wo3 ting1.',
             translation: '撮ったレントゲン写真について、 お医者さんが説明してくれました。',
             memo: ''
           },
@@ -211,8 +211,8 @@ export default {
           {
             word: '★危險',
             sentence: '你不快一點把火關上， 熱水就會溢出來很危險。',
-            bopomofo: 'ㄋㄧˇ ㄅㄨˊ ㄎㄨㄞˋ ㄧ ㄉㄧㄢˇ ㄅㄚˇ ㄏㄨㄛˇ ㄍㄨㄢ ㄕㄤˋ, ㄖㄜˋ ㄕㄨㄟˇ ㄐㄧㄡˋ ㄏㄨㄟˋ ㄧˋ ㄔㄨ ㄌㄞˊ ㄏㄣˇ ㄨㄟ ㄒㄧㄢˇ.',
-            pinyin: 'ni3 bu2 kuai4 yi1 dian3 ba3 huo3 guan1 shang4, re4 shui3 jiu4 hui4 yi4 chu1 lai2 hen3 wei1 xian3.',
+            bopomofo: 'ㄋㄧˇ ㄅㄨˊ ㄎㄨㄞˋ ㄧ ㄉㄧㄢˇ ㄅㄚˇ ㄏㄨㄛˇ ㄍㄨㄢ ㄕㄤˋ, ㄖㄜˋ ㄕㄨㄟˇ ㄐㄧㄡˋ ㄏㄨㄟˋ ㄧˋ ㄔㄨ ㄌㄞˊ ㄏㄣˇ ㄨㄟˊ ㄒㄧㄢˇ.',
+            pinyin: 'ni3 bu2 kuai4 yi1 dian3 ba3 huo3 guan1 shang4, re4 shui3 jiu4 hui4 yi4 chu1 lai2 hen3 wei2 xian3.',
             translation: '早く火を止めないと、 お湯が吹きこぼれて危険です。',
             memo: '※「火を止める」 : 「把火關上(ㄅㄚˇ ㄏㄨㄛˇ ㄍㄨㄢ ㄕㄤˋ/ba3 huo3 guan1 shang4)」(「上」の意味は?) = 「熄火(ㄒㄧ ㄏㄨㄛˇ/xi1 huo3)」?'
           },
@@ -342,7 +342,7 @@ export default {
             bopomofo: 'ㄗㄞˋ ㄓˊ ㄔㄤˇ ㄕㄤˋ, ㄊㄚ ㄕㄣ ㄨㄟˊ ㄓˇ ㄉㄠˇ    ㄧㄡˇ ㄌㄧˋ ㄔㄤˇ ㄍㄨㄢˇ ㄌㄧˇ ㄅㄨˋ ㄒㄧㄚˋ.',
             pinyin: 'zai4 zhi2 chang3 shang4, ta1 shen1 wei2 zhi3 dao3 you3 li4 chang3 guan3 li3 bu4 xia4.',
             translation: '職場では、 彼はディレクターとして部下をまとめる立場にあります。',
-            memo: '※「立場 + V」 = 「Vする立場」。 「身為」は「作為」ではない? 「指導(ㄓˇ ㄉㄠˇ/zhi3 dao3)」は「監督(ㄐㄧㄢ ㄉㄨ/jian1 du1)」でも可。'
+            memo: '※「立場 + V」 = 「Vする立場」。 「身為」は「～として」?「作為」ではない? 「指導(ㄓˇ ㄉㄠˇ/zhi3 dao3)」は「監督(ㄐㄧㄢ ㄉㄨ/jian1 du1)」でも可。'
           },
           {
             word: '競爭力',
@@ -529,18 +529,18 @@ export default {
             memo: ''
           },
           {
-            word: '怪',
+            word: '★怪',
             sentence: '都怪他睡過頭了， 行程才被打亂了。',
             bopomofo: 'ㄉㄡ ㄍㄨㄞˋ ㄊㄚ ㄕㄨㄟˋ ㄍㄨㄛˋ ㄊㄡˊ ㄌㄜ˙, ㄒㄧㄥˊ ㄔㄥˊ ㄘㄞˊ ㄅㄟˋ ㄉㄚˇ ㄌㄨㄢˋ ㄌㄜ˙.',
             pinyin: 'dou1 guai4 ta1 shui4 guo4 tou2 le, xing2 cheng2 cai2 bei4 da3 luan4 le.',
             translation: '彼が寝坊したせいで、 スケジュールが狂いました。',
-            memo: ''
+            memo: '※ここでの「才」の意味は?'
           },
           {
             word: '愛林',
             sentence: '愛林每個月剪一次頭髮。',
-            bopomofo: 'ㄞˋ ㄌㄧㄣˊ ㄇㄟˇ ㄍㄜˋ ㄩㄝˋ ㄐㄧㄢˇ ㄧ ㄘˋ ㄊㄡˊ ㄈㄚˋ.',
-            pinyin: 'ai4 lin2 mei3 ge4 yue4 jian3 yi1 ci4 tou2 fa4.',
+            bopomofo: 'ㄞˋ ㄌㄧㄣˊ ㄇㄟˇ ㄍㄜˋ ㄩㄝˋ ㄐㄧㄢˇ ㄧ ㄘˋ ㄊㄡˊ ㄈㄚˇ.',
+            pinyin: 'ai4 lin2 mei3 ge4 yue4 jian3 yi1 ci4 tou2 fa3.',
             translation: '愛林は毎月一回髪を切りに行きます。',
             memo: ''
           },
