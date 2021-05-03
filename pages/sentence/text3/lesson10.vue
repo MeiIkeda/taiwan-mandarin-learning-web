@@ -84,7 +84,7 @@ export default {
             word: '規則',
             sentence: '我不擅長規則過於復雜的運動。',
             bopomofo: 'ㄨㄛˇ ㄅㄨˊ ㄕㄢˋ ㄔㄤˊ ㄍㄨㄟ ㄗㄜˊ ㄍㄨㄛˋ ㄩˊ ㄈㄨˋ ㄗㄚˊ ㄉㄜ˙ ㄩㄣˋ ㄉㄨㄥˋ.',
-            pinyin: 'wo3 bu2 shan4 chang2 gui4 ze2 guo4 yu2 fu4 za2 de yun4 dong4.',
+            pinyin: 'wo3 bu2 shan4 chang2 gui1 ze2 guo4 yu2 fu4 za2 de yun4 dong4.',
             translation: 'ルールが複雑すぎるスポーツは苦手です。',
             memo: ''
           },
@@ -161,12 +161,12 @@ export default {
             memo: ''
           },
           {
-            word: '病床',
+            word: '★病床',
             sentence: '她都躺在病床上了還偷偷喝酒。',
             bopomofo: 'ㄊㄚ ㄉㄡ ㄊㄤˇ ㄗㄞˋ ㄅㄧㄥˋ ㄔㄨㄤˊ ㄕㄤˋ ㄌㄜ˙ ㄏㄞˊ ㄊㄡ ㄊㄡ ㄏㄜ ㄐㄧㄡˇ.',
             pinyin: 'ta1 dou1 tang3 zai4 bing4 chuang2 shang4 le hai2 tou1 tou1 he1 jiu3.',
             translation: '彼女は病床についてもこっそりお酒を飲み続けています。',
-            memo: ''
+            memo: '※この「都」の役割は?'
           },
           {
             word: '要命',
@@ -182,7 +182,7 @@ export default {
             bopomofo: 'ㄩˇ ㄑㄧˊ ㄨㄛˇ ㄧㄠˋ ㄉㄚˇ ㄓㄣ, ㄅㄨˋ ㄖㄨˊ ㄍㄢˇ ㄇㄠˋ ㄐㄧㄡˇ ㄧ ㄉㄧㄢˇ.',
             pinyin: 'yu3 qi2 wo3 yao4 da3 zhen1, bu4 ru2 gan3 mao4 jiu3 yi1 dian3.',
             translation: '注射を打つくらいなら、 風邪が長引いても構いません。',
-            memo: '※「～くらいなら～だ」 : 「與其(ㄩˇ ㄑㄧˊ/yu3 qi2)～、 不如(ㄅㄨˋ ㄖㄨˊ/bu4 ru2)～」。'
+            memo: '※「與其(ㄩˇ ㄑㄧˊ/yu3 qi2)～、 不如(ㄅㄨˋ ㄖㄨˊ/bu4 ru2)～」 : 「～くらいなら～だ」。'
           },
           {
             word: '止痛',
@@ -201,12 +201,12 @@ export default {
             memo: ''
           },
           {
-            word: '警察',
+            word: '★警察',
             sentence: '即使我沒有做任何壞事， 警察弄錯的時候我也有點緊張。',
             bopomofo: 'ㄐㄧˊ ㄕˇ ㄨㄛˇ ㄇㄟˊ ㄧㄡˇ ㄗㄨㄛˋ ㄖㄣˋ ㄏㄜˊ ㄏㄨㄞˋ ㄕˋ, ㄐㄧㄥˇ ㄔㄚˊ ㄋㄨㄥˋ ㄘㄨㄛˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄨㄛˇ ㄧㄝˇ ㄧㄡˇ ㄉㄧㄢˇ ㄐㄧㄣˇ ㄓㄤ.',
             pinyin: 'ji2 shi3 wo3 mei2 you3 zuo4 ren4 he2 huai4 shi4, jing3 cha2 nong4 cuo4 de shi2 hou4 wo3 ye3 you3 dian3 jin3 zhang1.',
             translation: '何も悪い事をしていなくても、 警察とすれ違う時は少しドキドキします。',
-            memo: ''
+            memo: '※「弄錯」は「すれ違う」?'
           },
           {
             word: '★危險',
@@ -214,7 +214,7 @@ export default {
             bopomofo: 'ㄋㄧˇ ㄅㄨˊ ㄎㄨㄞˋ ㄧ ㄉㄧㄢˇ ㄅㄚˇ ㄏㄨㄛˇ ㄍㄨㄢ ㄕㄤˋ, ㄖㄜˋ ㄕㄨㄟˇ ㄐㄧㄡˋ ㄏㄨㄟˋ ㄧˋ ㄔㄨ ㄌㄞˊ ㄏㄣˇ ㄨㄟ ㄒㄧㄢˇ.',
             pinyin: 'ni3 bu2 kuai4 yi1 dian3 ba3 huo3 guan1 shang4, re4 shui3 jiu4 hui4 yi4 chu1 lai2 hen3 wei1 xian3.',
             translation: '早く火を止めないと、 お湯が吹きこぼれて危険です。',
-            memo: '※「火關上(ㄏㄨㄛˇ ㄍㄨㄢ ㄕㄤˋ/ huo3 guan1 shang4 )」 = 「熄火(ㄒㄧ ㄏㄨㄛˇ/xi1 huo3)」?'
+            memo: '※「火を止める」 : 「把火關上(ㄅㄚˇ ㄏㄨㄛˇ ㄍㄨㄢ ㄕㄤˋ/ba3 huo3 guan1 shang4)」(「上」の意味は?) = 「熄火(ㄒㄧ ㄏㄨㄛˇ/xi1 huo3)」?'
           },
           {
             word: '至於',
@@ -251,8 +251,8 @@ export default {
           {
             word: '哎呀',
             sentence: '哎呀, 我剛剛喝的不是水而是醋!。',
-            bopomofo: 'ㄞ ㄧㄚ, ㄨㄛˇ ㄍㄤ ㄍㄤ ㄏㄜ ㄉㄜ˙ ㄅㄨˊ ㄕˋ ㄕㄨㄟˇ ㄦˊ ㄕˋ ㄘㄨˋ.',
-            pinyin: 'ai1 ya1, wo3 gang1 gang1 he1 de bu2 shi4 shui3 er2 shi4 cu4.',
+            bopomofo: 'ㄞ ㄧㄚ˙, ㄨㄛˇ ㄍㄤ ㄍㄤ ㄏㄜ ㄉㄜ˙ ㄅㄨˊ ㄕˋ ㄕㄨㄟˇ ㄦˊ ㄕˋ ㄘㄨˋ.',
+            pinyin: 'ai1 ya, wo3 gang1 gang1 he1 de bu2 shi4 shui3 er2 shi4 cu4.',
             translation: 'おっと、 水を飲んだと思ったらお酢でした!',
             memo: ''
           },
@@ -524,7 +524,7 @@ export default {
             word: '醫療',
             sentence: '我會住院了一段時間， 所以我擔心醫療費用。',
             bopomofo: 'ㄨㄛˇ ㄏㄨㄟˋ ㄓㄨˋ ㄩㄢˋ ㄌㄜ˙ ㄧ ㄉㄨㄢˋ ㄕˊ ㄐㄧㄢ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄉㄢ ㄒㄧㄣ ㄧ ㄌㄧㄠˊ ㄈㄟˋ ㄩㄥˋ.',
-            pinyin: 'wo3 hui4 zhu4 yuan4 le yi1 duan4 shi2 jian1, suo3 yi3 wo3 dan1 xin1 yi3 liao2 fei4 yong4.',
+            pinyin: 'wo3 hui4 zhu4 yuan4 le yi1 duan4 shi2 jian1, suo3 yi3 wo3 dan1 xin1 yi1 liao2 fei4 yong4.',
             translation: 'しばらく入院する事になったので、 医療費が心配です。',
             memo: ''
           },
