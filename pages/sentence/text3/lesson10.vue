@@ -561,12 +561,12 @@ export default {
             memo: '※「やり手」 : 「數一數二的能人(ㄕㄨˇ ㄧ ㄕㄨˇ ㄦˋ ㄉㄜ˙ ㄋㄥˊ ㄖㄣˊ/shu3 yi1 shu3 er4 de neng2 ren2)」または「能幹的人(ㄋㄥˊ ㄍㄢˋ ㄉㄜ˙ ㄖㄣˊ/neng2 gan4 de ren2)」 = 「有能な人」。'
           },
           {
-            word: '人際關係',
+            word: '★人際關係',
             sentence: '我厭倦了人際關係， 所以我打算今天一直花時間摸貓。',
             bopomofo: 'ㄨㄛˇ ㄧㄢˋ ㄐㄩㄢˋ ㄌㄜ˙ ㄖㄣˊ ㄐㄧˋ ㄍㄨㄢ ㄒㄧˋ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄉㄚˇ ㄙㄨㄢˋ ㄐㄧㄣ ㄊㄧㄢ ㄧ ㄓˊ ㄏㄨㄚ ㄕˊ ㄐㄧㄢ ㄇㄛ ㄇㄠ.',
             pinyin: 'wo3 yan4 juan4 le ren2 ji4 guan1 xi4, suo3 yi3 wo3 da3 suan4 jin1 tian1 yi1 zhi2 hua1 shi2 jian1 mo1 mao1.',
             translation: '人間関係に疲れたので、 今日は一日猫を撫でて過ごそうと思います。',
-            memo: ''
+            memo: '※「關係」の発音も、　「ㄍㄨㄢ ㄒㄧˋ/guan1 xi4」と、「ㄍㄨㄢ ㄒㄧ˙/guan1 xi」2種類がある?'
           },
           {
             word: '動不動就',
