@@ -69,7 +69,7 @@ export default {
             sentence: '那位百萬富翁購買了幾世紀前做的古董家具。',
             bopomofo: '.',
             pinyin: '.',
-            translation: 'その大富豪は、数世紀前のアンティーク家具を購入しました。',
+            translation: 'その大富豪は、 数世紀前のアンティーク家具を購入しました。',
             memo: ''
           },
           {
@@ -98,7 +98,7 @@ export default {
           },
           {
             word: '派',
-            sentence: '她被公司派國外來跟海外企業做生意。',
+            sentence: '她被公司派來跟海外企業做生意。',
             bopomofo: '.',
             pinyin: '.',
             translation: '海外の企業と取引するために、 彼女は会社から派遣されました。',
@@ -125,7 +125,7 @@ export default {
             sentence: '士兵們正在在城牆上做監視任務。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '城壁の上で、兵隊さんが見張りをしています。',
+            translation: '城壁の上で、 兵隊さんが見張りをしています。',
             memo: ''
           },
           {
@@ -133,7 +133,7 @@ export default {
             sentence: '我的頭髮的長度和她的差不多。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '私の髪は彼女とほぼ同じ長さです。',
+            translation: '私の髪は、 彼女とほぼ同じ長さです。',
             memo: ''
           },
           {
@@ -245,7 +245,7 @@ export default {
             sentence: '經過禁止亂扔垃圾, 路上變相當乾淨了。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: 'ポイ捨てを禁止してから、 道路はかなり綺麗になりました。',
             memo: ''
           },
           {
@@ -258,7 +258,7 @@ export default {
           },
           {
             word: '相信',
-            sentence: '我不能相信他麻將比賽中排名了是前十名。',
+            sentence: '我不能相信他麻將比賽中排名了前十名。',
             bopomofo: '.',
             pinyin: '.',
             translation: '彼が麻雀大会でトップ10に入ったなんて、 信じられません。',
@@ -274,15 +274,15 @@ export default {
           },
           {
             word: '紅毛城',
-            sentence: '紅毛城最初是由西班牙人建造的城堡。',
+            sentence: '紅毛城最初是西班牙人建造的城堡。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '紅毛城は、元々スペイン人が建てた城です。',
+            translation: '紅毛城は、 元々スペイン人が建てた城です。',
             memo: ''
           },
           {
             word: '東方',
-            sentence: '絲綢是從東方帶到西方的物品之一。',
+            sentence: '絲綢是從東方給西方帶來的物品之一。',
             bopomofo: '.',
             pinyin: '.',
             translation: '東洋から西洋にもたらされた品物の1つに、 シルクがあります。',
@@ -293,7 +293,7 @@ export default {
             sentence: '從台北車站到淡水可以不轉車去嗎?',
             bopomofo: '.',
             pinyin: '.',
-            translation: '淡水までは、台北メインステーションから一本で行けますか?',
+            translation: '淡水までは、 台北メインステーションから一本で行けますか?',
             memo: ''
           },
           {
@@ -314,10 +314,10 @@ export default {
           },
           {
             word: '明朝',
-            sentence: '。',
+            sentence: '故宮是在明朝時代建造了。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '紫禁城は、 明朝の時代に建てられました。',
             memo: ''
           },
           {
@@ -330,18 +330,18 @@ export default {
           },
           {
             word: '清朝',
-            sentence: '。',
+            sentence: '清朝是中國最後一個統一的朝代。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '清朝は、 中国最後の統一王朝です。',
             memo: ''
           },
           {
             word: '大清帝國',
-            sentence: '。',
+            sentence: '大清帝國是一個龐大的國家， 包括今天的中國和蒙古。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '大清帝国は、 現在の中国とモンゴル等も含む巨大な国でした。',
             memo: ''
           },
           {
@@ -354,10 +354,10 @@ export default {
           },
           {
             word: '十七世紀初',
-            sentence: '。',
+            sentence: '十七世紀初, 世界上第一家股份制公司成立了。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '17世紀初頭、 世界初の株式会社が設立されました。',
             memo: ''
           },
           {
@@ -370,15 +370,15 @@ export default {
           },
           {
             word: '十七世紀末',
-            sentence: '。',
+            sentence: '萬有引力定律是在十七世紀末發表的。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '万有引力の法則は、 17世紀の末に発表されました。',
             memo: ''
           },
           {
             word: '餐桌',
-            sentence: '餐桌上餐具已經整齊地放好。',
+            sentence: '在餐桌上餐具已經整齊地放好。',
             bopomofo: '.',
             pinyin: '.',
             translation: 'ダイニングテーブルには、 既に食器がセッティングがされています。',
@@ -442,7 +442,7 @@ export default {
           },
           {
             word: '人民',
-            sentence: '中產階級的人民的生活是相似的。',
+            sentence: '中產階級人民的生活是相似的。',
             bopomofo: '.',
             pinyin: '.',
             translation: '中流階級の人々の暮らしは似たり寄ったりです。',
@@ -450,7 +450,7 @@ export default {
           },
           {
             word: '攤子',
-            sentence: '有幾個賣相同小吃的攤子， 但是我喜歡那家店的口味。',
+            sentence: '有幾家賣相同小吃的攤子， 但是我喜歡那家店的口味。',
             bopomofo: '.',
             pinyin: '.',
             translation: '同じスナックを売っている屋台はいくつかありますが、 私はあの店の味がお気に入りです。',
@@ -461,7 +461,7 @@ export default {
             sentence: '他不會說當地的語言, 所以在餐廳靠菜單上的照片點菜。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '彼は地元の言葉を話さないので、 レストランのメニューの写真を使って注文します。',
+            translation: '彼は地元の言葉を話せないので、 レストランのメニューの写真を使って注文します。',
             memo: ''
           },
           {
@@ -506,7 +506,7 @@ export default {
           },
           {
             word: '多半',
-            sentence: '在多半情況下， 我在最晚八點可從工作解放了。',
+            sentence: '在多半情況下， 我在最晚八點從工作解放了。',
             bopomofo: '.',
             pinyin: '.',
             translation: 'ほとんどの場合、 遅くとも8時には仕事から解放されます。',
@@ -554,34 +554,34 @@ export default {
           },
           {
             word: '以及',
-            sentence: '。',
+            sentence: '請教職員工以及學生集合在體育館。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '教職員及び生徒は、 体育館に集まって下さい。',
             memo: ''
           },
           {
             word: '美味',
-            sentence: '。',
+            sentence: '五顏六色的水果看上去很美味。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '色とりどりの果物がとても美味しそうです。',
             memo: ''
           },
           {
             word: '點心',
-            sentence: '。',
+            sentence: '我還沒學過這個點心的做法。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '私はまだ、 このデザートの作り方を学んでいません。',
             memo: ''
           },
           {
             word: '日式',
-            sentence: '。',
+            sentence: '壽司和天婦羅等日式料理在海外也聞名。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '寿司や天ぷらなどの日本料理は海外でも有名です。',
             memo: ''
           },
           {
@@ -594,106 +594,106 @@ export default {
           },
           {
             word: '深',
-            sentence: '。',
+            sentence: '當你離岸一點時， 這個海灘突然變得更深。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: 'このビーチは、 少し沖へ行くと急に水深が深くなります。',
             memo: ''
           },
           {
-            word: '蔣介石 ',
-            sentence: '。',
+            word: '蔣介石',
+            sentence: '在蔣介石時代， 頒布了長期的戒嚴法。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '蒋介石の時代には、 長期にわたる戒厳令がしかれました。',
             memo: ''
           },
           {
             word: '國共內戰',
-            sentence: '。',
+            sentence: '在國共內戰中， 國民黨和中國共產黨進行了鬥爭。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '国共内戦では、 中国国民党と中国共産党とが戦いました。',
             memo: ''
           },
           {
             word: '客家人',
-            sentence: '。',
+            sentence: '客家人自古以來就反复遷徙。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '客家人は古来から、 移住を繰り返してきました。',
             memo: ''
           },
           {
             word: '閩南人',
-            sentence: '。',
+            sentence: '清朝時期， 一些閩南人從福建南部移民到台灣。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '閩南人の一部は、 清朝時代に福建省南部から台湾に移住しました。',
             memo: ''
           },
           {
             word: '蛋餅',
-            sentence: '。',
+            sentence: '甜醬也是蛋餅味道的致勝的關鍵。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '甘めのソースも、 蛋餅の味の決め手です。',
             memo: ''
           },
           {
             word: '打輸',
-            sentence: '。',
+            sentence: '由於某些原因， 我總是剪刀石頭布打輸。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: 'ジャンケンには何故かいつも負けてしまいます。',
             memo: ''
           },
           {
             word: '擺攤子',
-            sentence: '。',
+            sentence: '我會擺章魚燒的攤子， 所以請你們來吃。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: 'たこ焼きの屋台を出すので、 是非食べに来てください。',
             memo: ''
           },
           {
             word: '蘿蔔糕',
-            sentence: '。',
+            sentence: '我喜歡蘿蔔糕的粘粘的口感。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '大根餅のもちもちとした食感が好きです。',
             memo: ''
           },
           {
             word: '烹飪課',
-            sentence: '。',
+            sentence: '在烹飪課上， 從怎麼把食材事前大致準備仔細地教你。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '料理教室では、 食材の下処理から丁寧に教えてくれます。',
             memo: ''
           },
           {
             word: '曬乾',
-            sentence: '。',
+            sentence: '曬乾的水果不但變可以長期保存， 而且增加了它們的甜度。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '果物を天日干しすると、 長期保存が可能になるだけでなく甘みも増します。',
             memo: ''
           },
           {
             word: '各種各樣',
-            sentence: '。',
+            sentence: '遊樂園裡有各種各樣的遊樂設施， 但是因為暈了他不能坐任何一個。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '遊園地にある様々なアトラクションがありますが、彼は酔ってしまうのでどれも乗れません。',
             memo: ''
           },
           {
             word: '殖民統治',
-            sentence: '。',
+            sentence: '在殖民統治下， 大多數時候與當地人發生軍事衝突。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '植民地支配においては、 ほとんどの場合現地人との間で軍事的な衝突が起こります。',
             memo: ''
           },
           {
@@ -706,18 +706,18 @@ export default {
           },
           {
             word: '蘿蔔乾',
-            sentence: '。',
+            sentence: '蘿蔔乾洗淨， 在水中浸泡一陣子去除鹽分。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: '乾燥大根を綺麗に洗い、 しばらく水に浸して塩分を取り除きます。',
             memo: ''
           },
           {
             word: '進一步',
-            sentence: '。',
+            sentence: '這個城市通過重建得到了進一步發展。',
             bopomofo: '.',
             pinyin: '.',
-            translation: '。',
+            translation: 'この街は、 再開発によって更なる発展を遂げました。',
             memo: ''
           }
         ]

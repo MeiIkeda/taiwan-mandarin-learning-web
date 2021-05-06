@@ -58,17 +58,17 @@ export default {
           },
           {
             word: '受傷',
-            sentence: '爸爸太喝醉了, 在樓梯摔倒受傷了。',
-            bopomofo: 'ㄅㄚˋ ㄅㄚ˙ ㄊㄞˋ ㄏㄜ ㄗㄨㄟˋ ㄌㄜ˙, ㄗㄞˋ ㄌㄡˊ ㄊㄧ ㄕㄨㄞ ㄉㄠˇ ㄕㄡˋ ㄕㄤ ㄌㄜ˙.',
-            pinyin: 'ba4 ba tai4 he1 zui4 le, zai4 lou2 ti1 shuai1 dao3 shou4 shang1 le.',
+            sentence: '爸爸喝得太醉了, 在樓梯摔倒受傷了。',
+            bopomofo: 'ㄅㄚˋ ㄅㄚ˙ ㄏㄜ ㄉㄜ˙ ㄊㄞˋ ㄗㄨㄟˋ ㄌㄜ˙, ㄗㄞˋ ㄌㄡˊ ㄊㄧ ㄕㄨㄞ ㄉㄠˇ ㄕㄡˋ ㄕㄤ ㄌㄜ˙.',
+            pinyin: 'ba4 ba he1 de tai4 zui4 le, zai4 lou2 ti1 shuai1 dao3 shou4 shang1 le.',
             translation: 'お父さんはひどく酔っぱらって、 階段で転んで怪我をしました。',
             memo: ''
           },
           {
             word: '撞',
-            sentence: '我不小心撞到了我的脛骨, 痛極了。',
-            bopomofo: 'ㄨㄛˇ ㄅㄨˋ ㄒㄧㄠˇ ㄒㄧㄣ ㄓㄨㄤˋ ㄉㄠˋ ㄌㄜ˙ ㄨㄛˇ ㄉㄜ˙ ㄐㄧㄥˋ ㄍㄨˇ, ㄊㄨㄥˋ ㄐㄧˊ ㄌㄜ˙.',
-            pinyin: 'wo3 bu4 xiao3 xin1 zhuang4 dao4 le wo3 de jing4 gu3, tong4 ji3 le.',
+            sentence: '我不小心撞到了我的小腿骨, 痛極了。',
+            bopomofo: 'ㄨㄛˇ ㄅㄨˋ ㄒㄧㄠˇ ㄒㄧㄣ ㄓㄨㄤˋ ㄉㄠˋ ㄌㄜ˙ ㄨㄛˇ ㄉㄜ˙ ㄒㄧㄠˇ ㄊㄨㄟˇ ㄍㄨˇ, ㄊㄨㄥˋ ㄐㄧˊ ㄌㄜ˙.',
+            pinyin: 'wo3 bu4 xiao3 xin1 zhuang4 dao4 le wo3 de xiao3 tui3 gu3, tong4 ji3 le.',
             translation: '誤って向こう脛をぶつけてしまって、 ひどく痛いです。',
             memo: ''
           },
@@ -106,11 +106,11 @@ export default {
           },
           {
             word: '傷',
-            sentence: '因為貓總是隨便咬我, 我的胳膊上滿是傷。',
-            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄇㄠ ㄗㄨㄥˇ ㄕˋ ㄙㄨㄟˊ ㄅㄧㄢˋ ㄧㄠˇ ㄨㄛˇ, ㄨㄛˇ ㄉㄜ˙ ㄍㄜ ㄅㄛˊ ㄕㄤˋ ㄇㄢˇ ㄕˋ ㄕㄤ.',
-            pinyin: 'yin1 wei4 mao1 zong3 shi4 sui2 bian4 yao3 wo3, wo3 de ge1 bo2 shang4 man3 shi4 shang1.',
+            sentence: '因為貓總是隨便咬我, 我的手臂上滿是傷。',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄇㄠ ㄗㄨㄥˇ ㄕˋ ㄙㄨㄟˊ ㄅㄧㄢˋ ㄧㄠˇ ㄨㄛˇ, ㄨㄛˇ ㄉㄜ˙ ㄕㄡˇ ㄅㄧˋ ㄕㄤˋ ㄇㄢˇ ㄕˋ ㄕㄤ.',
+            pinyin: 'yin1 wei4 mao1 zong3 shi4 sui2 bian4 yao3 wo3, wo3 de shou3 bi4 shang4 man3 shi4 shang1.',
             translation: '猫がいつもやたらと噛んでくるので、 腕が傷だらけです。',
-            memo: ''
+            memo: '※ちなみに、 手の平は「手心(ㄕㄡˇ ㄒㄧㄣ/shou3 xin1)」/「手背(ㄕㄡˇ ㄅㄟˋ/shou3 bei1)」　「ひじ」は「網球肘(ㄨㄤˇ ㄑㄧㄡˊ ㄓㄡˇ/wang3 qiu2 zhou3)」、 「手首」は「手腕(ㄕㄡˇ ㄨㄢˋ/shou3 wan4)」。'
           },
           {
             word: '骨折',
@@ -130,9 +130,9 @@ export default {
           },
           {
             word: '開刀',
-            sentence: '開五個小時的刀成功了， 他恢復了健康。',
-            bopomofo: 'ㄎㄞ ㄨˇ ㄍㄜˋ ㄒㄧㄠˇ ㄕˊ ㄉㄜ˙ ㄉㄠ ㄔㄥˊ ㄍㄨㄥ ㄌㄜ˙, ㄊㄚ ㄏㄨㄟ ㄈㄨˋ ㄌㄜ˙ ㄐㄧㄢˋ ㄎㄤ.',
-            pinyin: 'kai1 wu3 ge4 xiao3 shi2 de dao1 cheng2 gong1 le, ta1 hui1 fu4 le jian4 kang1.',
+            sentence: '開了五個小時的刀成功了， 他恢復了健康。',
+            bopomofo: 'ㄎㄞ ㄌㄜ˙ ㄨˇ ㄍㄜˋ ㄒㄧㄠˇ ㄕˊ ㄉㄜ˙ ㄉㄠ ㄔㄥˊ ㄍㄨㄥ ㄌㄜ˙, ㄊㄚ ㄏㄨㄟ ㄈㄨˋ ㄌㄜ˙ ㄐㄧㄢˋ ㄎㄤ.',
+            pinyin: 'kai1 le wu3 ge4 xiao3 shi2 de dao1 cheng2 gong1 le, ta1 hui1 fu4 le jian4 kang1.',
             translation: '5時間にも及んだ手術は成功し、 彼は元気になりました。',
             memo: ''
           },
@@ -161,20 +161,20 @@ export default {
             memo: ''
           },
           {
-            word: '★病床',
+            word: '病床',
             sentence: '她都躺在病床上了還偷偷喝酒。',
             bopomofo: 'ㄊㄚ ㄉㄡ ㄊㄤˇ ㄗㄞˋ ㄅㄧㄥˋ ㄔㄨㄤˊ ㄕㄤˋ ㄌㄜ˙ ㄏㄞˊ ㄊㄡ ㄊㄡ ㄏㄜ ㄐㄧㄡˇ.',
             pinyin: 'ta1 dou1 tang3 zai4 bing4 chuang2 shang4 le hai2 tou1 tou1 he1 jiu3.',
             translation: '彼女は病床についてもこっそりお酒を飲み続けています。',
-            memo: '※この「都」の役割は?'
+            memo: '※この「都」は「都..還..」の「都」。 程度を表す。'
           },
           {
             word: '要命',
-            sentence: '他今天一直在外面， 所以皮膚被曬得很黑。',
-            bopomofo: 'ㄊㄚ ㄐㄧㄣ ㄊㄧㄢ ㄧ ㄓˊ ㄗㄞˋ ㄨㄞˋ ㄇㄧㄢˋ, ㄙㄨㄛˇ ㄧˇ ㄆㄧˊ ㄈㄨ ㄅㄟˋ ㄕㄞˋ ㄉㄜ˙ ㄏㄣˇ ㄏㄟ.',
-            pinyin: 'ta1 jin1 tian1 yi1 zhi2 zai4 wai4 mian4, suo3 yi3 pi2 fu1 bei4 shai4 de hen3 hei1.',
-            translation: '彼は今日中外にいたので、 ひどく日焼けしています。',
-            memo: ''
+            sentence: '他今天一直在外面， 所以皮膚都曬傷了痛得要命。',
+            bopomofo: 'ㄊㄚ ㄐㄧㄣ ㄊㄧㄢ ㄧ ㄓˊ ㄗㄞˋ ㄨㄞˋ ㄇㄧㄢˋ, ㄙㄨㄛˇ ㄧˇ ㄆㄧˊ ㄈㄨ ㄉㄡ ㄕㄞˋ ㄕㄤ ㄌㄜ˙ ㄊㄨㄥˋ ㄉㄜ˙ ㄧㄠˋ ㄇㄧㄥˋ.',
+            pinyin: 'ta1 jin1 tian1 yi1 zhi2 zai4 wai4 mian4, suo3 yi3 pi2 fu1 dou1 shai4 shang1 le tong4 de yao4 ming4.',
+            translation: '彼は今日ずっと外にいたので、 肌が日焼けしてひどく痛いです。',
+            memo: '※「要命(ㄧㄠˋ ㄇㄧㄥˋ/yao4 ming4)」 = 「ひどく」は主に悪い意味で使うが、 「まだ大丈夫、 受け入れられなくはない」ニュアンス。'
           },
           {
             word: '打針',
@@ -201,36 +201,36 @@ export default {
             memo: ''
           },
           {
-            word: '★警察',
-            sentence: '即使我沒有做任何壞事， 警察弄錯的時候我也有點緊張。',
-            bopomofo: 'ㄐㄧˊ ㄕˇ ㄨㄛˇ ㄇㄟˊ ㄧㄡˇ ㄗㄨㄛˋ ㄖㄣˋ ㄏㄜˊ ㄏㄨㄞˋ ㄕˋ, ㄐㄧㄥˇ ㄔㄚˊ ㄋㄨㄥˋ ㄘㄨㄛˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄨㄛˇ ㄧㄝˇ ㄧㄡˇ ㄉㄧㄢˇ ㄐㄧㄣˇ ㄓㄤ.',
-            pinyin: 'ji2 shi3 wo3 mei2 you3 zuo4 ren4 he2 huai4 shi4, jing3 cha2 nong4 cuo4 de shi2 hou4 wo3 ye3 you3 dian3 jin3 zhang1.',
+            word: '警察',
+            sentence: '即使我沒有做任何壞事， 警察弄錯的時候我也會緊張。',
+            bopomofo: 'ㄐㄧˊ ㄕˇ ㄨㄛˇ ㄇㄟˊ ㄧㄡˇ ㄗㄨㄛˋ ㄖㄣˋ ㄏㄜˊ ㄏㄨㄞˋ ㄕˋ, ㄐㄧㄥˇ ㄔㄚˊ ㄋㄨㄥˋ ㄘㄨㄛˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄨㄛˇ ㄧㄝˇ ㄏㄨㄟˋ ㄐㄧㄣˇ ㄓㄤ.',
+            pinyin: 'ji2 shi3 wo3 mei2 you3 zuo4 ren4 he2 huai4 shi4, jing3 cha2 nong4 cuo4 de shi2 hou4 wo3 ye3 hui4 jin3 zhang1.',
             translation: '何も悪い事をしていなくても、 警察とすれ違う時は少しドキドキします。',
-            memo: '※「弄錯」は「すれ違う」?'
+            memo: '※「弄錯(ㄋㄨㄥˋ ㄘㄨㄛˋ/nong4 cuo4)」は「すれ違う」。'
           },
           {
-            word: '★危險',
+            word: '危險',
             sentence: '你不快一點把火關上， 熱水就會溢出來很危險。',
             bopomofo: 'ㄋㄧˇ ㄅㄨˊ ㄎㄨㄞˋ ㄧ ㄉㄧㄢˇ ㄅㄚˇ ㄏㄨㄛˇ ㄍㄨㄢ ㄕㄤˋ, ㄖㄜˋ ㄕㄨㄟˇ ㄐㄧㄡˋ ㄏㄨㄟˋ ㄧˋ ㄔㄨ ㄌㄞˊ ㄏㄣˇ ㄨㄟˊ ㄒㄧㄢˇ.',
             pinyin: 'ni3 bu2 kuai4 yi1 dian3 ba3 huo3 guan1 shang4, re4 shui3 jiu4 hui4 yi4 chu1 lai2 hen3 wei2 xian3.',
             translation: '早く火を止めないと、 お湯が吹きこぼれて危険です。',
-            memo: '※「火を止める」 : 「把火關上(ㄅㄚˇ ㄏㄨㄛˇ ㄍㄨㄢ ㄕㄤˋ/ba3 huo3 guan1 shang4)」(「上」の意味は?) = 「熄火(ㄒㄧ ㄏㄨㄛˇ/xi1 huo3)」?'
+            memo: '※「關上(ㄍㄨㄢ ㄕㄤˋ/guan1 shang4)」 : 「(電気や火などを)消す」。 「火を止める」 : 「把火關上(ㄅㄚˇ ㄏㄨㄛˇ ㄍㄨㄢ ㄕㄤˋ/ba3 huo3 guan1 shang4)」 = 「熄火(ㄒㄧ ㄏㄨㄛˇ/xi1 huo3)」でも可。'
           },
           {
             word: '至於',
-            sentence: '至於這個計劃只有他反對了, 其他人都同意了。',
-            bopomofo: 'ㄓˋ ㄩˊ ㄓㄜˋ ㄍㄜˋ ㄐㄧˋ ㄏㄨㄚˋ ㄓˇ ㄧㄡˇ ㄊㄚ ㄈㄢˇ ㄉㄨㄟˋ ㄌㄜ˙, ㄑㄧˊ ㄊㄚ ㄖㄣˊ ㄉㄡ ㄊㄨㄥˊ ㄧˋ ㄌㄜ˙.',
-            pinyin: 'zhi4 yu2 zhe4 ge4 ji4 hua4 zhi3 you3 ta1 fan3 dui4 le, qi2 ta1 ren2 dou1 tong2 yi4 le.',
-            translation: 'この案に関しては彼だけが反対し、 他の人は賛成しました。',
+            sentence: '在喝酒會上每個客人帶一道菜， 至於我， 我會準備大家的酒。',
+            bopomofo: 'ㄗㄞˋ ㄏㄜ ㄐㄧㄡˇ ㄏㄨㄟˋ ㄕㄤˋ ㄇㄟˇ ㄍㄜˋ ㄎㄜˋ ㄖㄣˊ ㄉㄞˋ ㄧ ㄉㄠˋ ㄘㄞˋ, ㄓˋ ㄩˊ ㄨㄛˇ, ㄨㄛˇ ㄏㄨㄟˋ ㄓㄨㄣˇ ㄅㄟˋ ㄉㄚˋ ㄐㄧㄚ ㄉㄜ˙ ㄐㄧㄡˇ.',
+            pinyin: 'zai4 he1 jiu3 hui4 shang4 mei3 ge4 ke4 ren2 dai4 yi1 dao4 cai4, zhi4 yu2 wo3, wo3 hui4 zhun3 bei4 da4 jia1 de jiu3.',
+            translation: 'お客さんは飲み会におつまみを持参し、 私はと言えば、 みんなのお酒を準備します。',
             memo: ''
           },
           {
-            word: '★部位',
+            word: '部位',
             sentence: '我揹背包揹了很久， 所以肩膀的部位很痛。',
             bopomofo: 'ㄨㄛˇ ㄅㄟ ㄅㄟ ㄅㄠ ㄅㄟ ㄌㄜ˙ ㄏㄣˇ ㄐㄧㄡˇ, ㄙㄨㄛˇ ㄧˇ ㄐㄧㄢ ㄅㄤˇ ㄉㄜ˙ ㄅㄨˋ ㄨㄟˋ ㄏㄣˇ ㄊㄨㄥˋ.',
             pinyin: 'wo3 bei1 bei1 bao1 bei1 le hen3 jiu3, suo3 yi3 jian1 bang3 de bu4 wei4 hen3 tong4.',
             translation: '長い時間リュックを背負っていたので、 肩のあたりが痛くなりました。',
-            memo: '※「揹(ㄅㄟ/bei1)」の発音?'
+            memo: ''
           },
           {
             word: '恢復',
@@ -257,36 +257,36 @@ export default {
             memo: ''
           },
           {
-            word: '★出車禍',
+            word: '出車禍',
             sentence: '自從出車禍以後, 他開車的時候會非常注意。',
             bopomofo: 'ㄗˋ ㄘㄨㄥˊ ㄔㄨ ㄔㄜ ㄏㄨㄛˋ ㄧˇ ㄏㄡˋ, ㄊㄚ ㄎㄞ ㄔㄜ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄏㄨㄟˋ ㄈㄟ ㄔㄤˊ ㄓㄨˋ ㄧˋ.',
             pinyin: 'zi4 cong2 chu1 che1 huo4 yi3 hou4, ta1 kai1 che1 de shi2 hou4 hui4 fei1 chang2 zhu4 yi4.',
             translation: '自動車事故の後、 彼は運転にはすごく慎重になりました。',
-            memo: '※「自從(ㄗˋ ㄘㄨㄥˊ/zi4 cong2)」 : 「～から、 ～以来」。'
+            memo: '※「自從(ㄗˋ ㄘㄨㄥˊ/zi4 cong2)」 : 「～から、 ～以来」。 「注意」は「留意」でも可。'
           },
           {
-            word: '★趕時間',
-            sentence: '沒有時間了， 他走得很急。',
-            bopomofo: 'ㄇㄟˊ ㄧㄡˇ ㄕˊ ㄐㄧㄢ ㄌㄜ˙, ㄊㄚ ㄗㄡˇ ㄉㄜ˙ ㄏㄣˇ ㄐㄧˊ.',
-            pinyin: 'mei2 you3 shi2 jian1 le, ta1 zou3 de hen3 ji2.',
-            translation: '時間があまり無かったので、 彼は急いで歩きだしました。',
-            memo: '※「趕時間」は使えない?'
-          },
-          {
-            word: '撞倒',
-            sentence: '他每天加班加到半夜， 所以他終於累倒了。',
-            bopomofo: 'ㄊㄚ ㄇㄟˇ ㄊㄧㄢ ㄐㄧㄚ ㄅㄢ ㄐㄧㄚ ㄉㄠˋ ㄅㄢˋ ㄧㄝˋ, ㄙㄨㄛˇ ㄧˇ ㄊㄚ ㄓㄨㄥ ㄩˊ ㄌㄟˋ ㄉㄠˇ ㄌㄜ˙.',
-            pinyin: 'ta1 mei3 tian1 jia1 ban1 jia1 dao4 ban4 ye4, suo3 yi3 ta1 zhong1 yu2 lei4 dao3 le.',
-            translation: '彼は毎日夜中まで残業していたので、 とうとう倒れてしまいました。',
+            word: '趕時間',
+            sentence: '我現在趕時間， 沒有辦法跟你聊天。',
+            bopomofo: 'ㄨㄛˇ ㄒㄧㄢˋ ㄗㄞˋ ㄍㄢˇ ㄕˊ ㄐㄧㄢ, ㄇㄟˊ ㄧㄡˇ ㄅㄢˋ ㄈㄚˇ ㄍㄣ ㄋㄧˇ ㄌㄧㄠˊ ㄊㄧㄢ.',
+            pinyin: 'wo3 xian4 zai4 gan3 shi2 jian1, mei2 you3 ban4 fa3 gen1 ni3 liao2 tian1.',
+            translation: '時間が無いので、 あなたと話す時間がありません。',
             memo: ''
           },
           {
-            word: '★救護車',
+            word: '撞倒',
+            sentence: '他的桌子上有很多東西， 他的包包不小心把桌子上的杯子撞倒了。',
+            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄓㄨㄛ ㄗ˙ ㄕㄤˋ ㄧㄡˇ ㄏㄣˇ ㄉㄨㄛ ㄉㄨㄥ ㄒㄧ˙, ㄊㄚ ㄉㄜ˙ ㄅㄠ ㄅㄠ ㄅㄨˋ ㄒㄧㄠˇ ㄒㄧㄣ ㄅㄚˇ ㄓㄨㄛ ㄗ˙ ㄕㄤˋ ㄉㄜ˙ ㄅㄟ ㄗ˙ ㄓㄨㄤˋ ㄉㄠˇ ㄌㄜ˙.',
+            pinyin: 'ta1 de zhuo1 zi shang4 you3 hen3 duo1 dong1 xi, ta1 de bao1 bao1 bu4 xiao3 xin1 ba3 zhuo1 zi shang4 de bei1 zi zhuang4 dao3 le.',
+            translation: '彼のテーブルには物がたくさんあったので、 誤ってバッグでコップを倒してしまいました。',
+            memo: ''
+          },
+          {
+            word: '救護車',
             sentence: '他被救護車送走了, 這樣一來我覺得他至少一個星期不能做事。',
             bopomofo: 'ㄊㄚ ㄅㄟˋ ㄐㄧㄡˋ ㄏㄨˋ ㄔㄜ ㄙㄨㄥˋ ㄗㄡˇ ㄌㄜ˙, ㄓㄜˋ ㄧㄤˋ ㄧ ㄌㄞˊ ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄊㄚ ㄓˋ ㄕㄠˇ ㄧ ㄍㄜˋ ㄒㄧㄥ ㄑㄧˊ ㄅㄨˋ ㄋㄥˊ ㄗㄨㄛˋ ㄕˋ.',
             pinyin: 'ta1 bei4 jiu4 hu4 che1 song4 zou3 le, zhe4 yang4 yi1 lai2 wo3 jue2 de ta1 zhi4 shao3 yi1 ge4 xing1 qi2 bu4 neng2 zuo4 shi4.',
             translation: '彼は救急車で運ばれたので、 この様子だと彼は少なくとも一週間は仕事ができないと思います。',
-            memo: '※「做事」で「仕事をする」?'
+            memo: '※「做事」で「仕事をする」。'
           },
           {
             word: '照X光',
@@ -305,12 +305,12 @@ export default {
             memo: ''
           },
           {
-            word: '★醫美',
-            sentence: '如果你要美容整形， 得先花足夠的時間諮詢。',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄧㄠˋ ㄇㄟˇ ㄖㄨㄥˊ ㄓㄥˇ ㄒㄧㄥˊ, ㄉㄟˇ ㄒㄧㄢ ㄏㄨㄚ ㄗㄨˊ ㄍㄡˋ ㄉㄜ˙ ㄕˊ ㄐㄧㄢ ㄗ ㄒㄩㄣˊ.',
-            pinyin: 'ru2 guo3 ni3 yao4 mei3 rong2 zheng3 xing2, dei3 xian1 hua1 zu2 gou4 de shi2 jian1 zi1 xun2.',
-            translation: '美容整形を受けるなら、 カウンセリングには十分な時間をかけなければいけません。',
-            memo: '※「醫美」を使うには?'
+            word: '醫美',
+            sentence: '醫美的療法不能使用健保。',
+            bopomofo: 'ㄧ ㄇㄟˇ ㄉㄜ˙ ㄌㄧㄠˊ ㄈㄚˇ ㄅㄨˋ ㄋㄥˊ ㄕˇ ㄩㄥˋ ㄐㄧㄢˋ ㄅㄠˇ.',
+            pinyin: 'yi3 mei3 de liao2 fa3 bu4 neng2 shi3 yong4 jian4 bao3.',
+            translation: '美容医療の治療には健康保険を利用できません。',
+            memo: ''
           },
           {
             word: '合理',
@@ -337,12 +337,12 @@ export default {
             memo: ''
           },
           {
-            word: '★職場',
+            word: '職場',
             sentence: '在職場上， 他身為指導有立場管理部下。',
             bopomofo: 'ㄗㄞˋ ㄓˊ ㄔㄤˇ ㄕㄤˋ, ㄊㄚ ㄕㄣ ㄨㄟˊ ㄓˇ ㄉㄠˇ    ㄧㄡˇ ㄌㄧˋ ㄔㄤˇ ㄍㄨㄢˇ ㄌㄧˇ ㄅㄨˋ ㄒㄧㄚˋ.',
             pinyin: 'zai4 zhi2 chang3 shang4, ta1 shen1 wei2 zhi3 dao3 you3 li4 chang3 guan3 li3 bu4 xia4.',
             translation: '職場では、 彼はディレクターとして部下をまとめる立場にあります。',
-            memo: '※「立場 + V」 = 「Vする立場」。 「身為」は「～として」?「作為」ではない? 「指導(ㄓˇ ㄉㄠˇ/zhi3 dao3)」は「監督(ㄐㄧㄢ ㄉㄨ/jian1 du1)」でも可。'
+            memo: '※「立場 + V」 = 「Vする立場」。 「身為」は「～として」。 「ディレクター」 : 「指導(ㄓˇ ㄉㄠˇ/zhi3 dao3)」は「監督(ㄐㄧㄢ ㄉㄨ/jian1 du1)」等でも可。'
           },
           {
             word: '競爭力',
@@ -378,10 +378,10 @@ export default {
           },
           {
             word: '自信',
-            sentence: '他自信滿滿地說著不對的事， 所以你不應該太信任他。',
-            bopomofo: 'ㄊㄚ ㄗˋ ㄒㄧㄣˋ ㄇㄢˇ ㄇㄢˇ ㄉㄜ˙ ㄕㄨㄛ ㄓㄜ˙ ㄅㄨˊ ㄉㄨㄟˋ ㄉㄜ˙ ㄕˋ, ㄙㄨㄛˇ ㄧˇ ㄋㄧˇ ㄅㄨˋ ㄧㄥ ㄍㄞ ㄊㄞˋ ㄒㄧㄣˋ ㄖㄣˋ ㄊㄚ.',
-            pinyin: 'ta1 zi4 xin4 man3 man3 de shuo1 zhe bu2 dui4 de shi4, suo3 yi3 ni3 bu4 ying1 gai1 tai4 xin4 ren4 ta1.',
-            translation: 'あの人は自信たっぷりに間違った事を言うので、 あまり信用しない方がいいですよ。',
+            sentence: '他自信滿滿地說著不對的事， 他到底哪裡來的自信。',
+            bopomofo: 'ㄊㄚ ㄗˋ ㄒㄧㄣˋ ㄇㄢˇ ㄇㄢˇ ㄉㄜ˙ ㄕㄨㄛ ㄓㄜ˙ ㄅㄨˊ ㄉㄨㄟˋ ㄉㄜ˙ ㄕˋ, ㄊㄚ ㄉㄠˋ ㄉㄧˇ ㄋㄚˇ ㄌㄧˇ ㄌㄞˊ ㄉㄜ˙ ㄗˋ ㄒㄧㄣˋ.',
+            pinyin: 'ta1 zi4 xin4 man3 man3 de shuo1 zhe bu2 dui4 de shi4, ta1 dao4 di3 na3 li3 lai2 de zi4 xin4.',
+            translation: 'あの人は自信たっぷりに間違った事を言うので、 あの自信は一体どこから来るのでしょう。',
             memo: ''
           },
           {
@@ -402,10 +402,10 @@ export default {
           },
           {
             word: '從事',
-            sentence: '我幾年前就開始在餐廳工作, 早就習慣了長時間站著的工作了。',
-            bopomofo: 'ㄨㄛˇ ㄐㄧˇ ㄋㄧㄢˊ ㄑㄧㄢˊ ㄐㄧㄡˋ ㄎㄞ ㄕˇ ㄗㄞˋ ㄘㄢ ㄊㄧㄥ ㄍㄨㄥ ㄗㄨㄛˋ, ㄗㄠˇ ㄐㄧㄡˋ ㄒㄧˊ ㄍㄨㄢˋ ㄌㄜ˙ ㄔㄤˊ ㄕˊ ㄐㄧㄢ ㄓㄢˋ ㄓㄜ˙ ㄉㄜ˙ ㄍㄨㄥ ㄗㄨㄛˋ ㄌㄜ˙.',
-            pinyin: 'wo3 ji3 nian2 qian2 jiu4 kai1 shi3 zai4 can1 ting1 gong1 zuo4, zao3 jiu4 xi2 guan4 le chang2 shi2 jian1 zhan4 zhe de gong1 zuo4 le.',
-            translation: '私は数年前にレストランで働き始めたので、 長時間の立ち仕事にはもう慣れました。',
+            sentence: '我從事線上教學的工作。',
+            bopomofo: 'ㄨㄛˇ ㄘㄨㄥˊ ㄕˋ ㄒㄧㄢˋ ㄕㄤˋ ㄐㄧㄠ ㄒㄩㄝˊ ㄉㄜ˙ ㄍㄨㄥ ㄗㄨㄛˋ.',
+            pinyin: 'wo3 cong2 shi4 xian4 shang4 jiao1 xue2 de gong1 zuo4.',
+            translation: '私はオンライン教育の仕事に従事しています',
             memo: ''
           },
           {
@@ -414,7 +414,7 @@ export default {
             bopomofo: 'ㄨㄟˋ ㄌㄜ˙ ㄧ ㄓˋ ㄕㄤ ㄎㄡˇ ㄗㄨㄟˋ ㄓㄨㄥˋ ㄧㄠˋ ㄉㄜ˙ ㄕˋ ㄕˋ ㄒㄧㄡ ㄒㄧˊ.',
             pinyin: 'wei4 le yi1 zhi4 shang1 kou3 zui4 zhong4 yao4 de shi4 shi4 xiu1 xi2.',
             translation: '傷を癒すために一番重要なのは休養です。',
-            memo: '※「醫治(ㄧ ㄓˋ/yi1 zhi4)」 = 「治癒(ㄓˋ ㄩˋ/zhi4 yu4)」でも可'
+            memo: '※「醫治(ㄧ ㄓˋ/yi1 zhi4)」 = 「治癒(ㄓˋ ㄩˋ/zhi4 yu4)」でも可。'
           },
           {
             word: '一向',
@@ -422,15 +422,15 @@ export default {
             bopomofo: 'ㄧㄣ ㄨㄟˋ ㄑㄧㄤˊ ㄅㄧˋ ㄏㄣˇ ㄅㄠˊ, ㄌㄧㄣˊ ㄐㄩ ㄉㄜ˙ ㄕㄥ ㄧㄣ ㄧ ㄒㄧㄤˋ ㄉㄡ ㄊㄧㄥ ㄉㄜˊ ㄐㄧㄢˋ.',
             pinyin: 'yin1 wei4 qiang2 bi4 hen3 bao2, lin2 ju1 de sheng1 yin1 yi1 xiang4 dou1 ting1 de jian4.',
             translation: '壁がとても薄いので、 いつも隣の音が聞こえます。',
-            memo: ''
+            memo: '※「薄」の発音は台湾では「ㄅㄠˊ/bao2」が多いが、 「ㄅㄛˊ/bo2」でも可。'
           },
           {
-            word: '★一般',
+            word: '一般',
             sentence: '太多家具， 一般的學生公寓是放不下的。',
             bopomofo: 'ㄊㄞˋ ㄉㄨㄛ ㄐㄧㄚ ㄐㄩˋ, ㄧˋ ㄅㄢ ㄉㄜ˙ ㄒㄩㄝˊ ㄕㄥ ㄍㄨㄥ ㄩˋ ㄕˋ ㄈㄤˋ ㄅㄨˊ ㄒㄧㄚˋ ㄉㄜ˙.',
             pinyin: 'tai4 duo1 jia1 ju4, yi4 ban1 de xue2 sheng1 gong1 yu4 shi4 fang4 bu2 xia4 de.',
             translation: '多すぎる家具は、 一般的な学生用アパートには収まりません。',
-            memo: '※「一般(ㄧˋ ㄅㄢ/yi4 ban1)」の発音は「一般(ㄧ ㄅㄢ/yi1 ban1)」の時もある?'
+            memo: ''
           },
           {
             word: '主要',
@@ -482,9 +482,9 @@ export default {
           },
           {
             word: '另',
-            sentence: '只有白飯和湯, 所以我另煮一道菜。',
-            bopomofo: 'ㄓˇ ㄧㄡˇ ㄅㄞˊ ㄈㄢˋ ㄏㄢˋ ㄊㄤ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄌㄧㄥˋ ㄓㄨˇ ㄧ ㄉㄠˋ ㄘㄞˋ.',
-            pinyin: 'zhi3 you3 bai2 fan4 han4 tang1, suo3 yi3 wo3 ling4 zhu3 yi1 dao4 cai4.',
+            sentence: '只有白飯和湯, 所以我另煮了一道菜。',
+            bopomofo: 'ㄓˇ ㄧㄡˇ ㄅㄞˊ ㄈㄢˋ ㄏㄢˋ ㄊㄤ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄌㄧㄥˋ ㄓㄨˇ ㄌㄜ˙ ㄧ ㄉㄠˋ ㄘㄞˋ.',
+            pinyin: 'zhi3 you3 bai2 fan4 han4 tang1, suo3 yi3 wo3 ling4 zhu3 le yi1 dao4 cai4.',
             translation: 'ご飯とスープしかないので、 もう一品おかずを別に作ります。',
             memo: ''
           },
@@ -529,12 +529,12 @@ export default {
             memo: ''
           },
           {
-            word: '★怪',
+            word: '怪',
             sentence: '都怪他睡過頭了， 行程才被打亂了。',
             bopomofo: 'ㄉㄡ ㄍㄨㄞˋ ㄊㄚ ㄕㄨㄟˋ ㄍㄨㄛˋ ㄊㄡˊ ㄌㄜ˙, ㄒㄧㄥˊ ㄔㄥˊ ㄘㄞˊ ㄅㄟˋ ㄉㄚˇ ㄌㄨㄢˋ ㄌㄜ˙.',
             pinyin: 'dou1 guai4 ta1 shui4 guo4 tou2 le, xing2 cheng2 cai2 bei4 da3 luan4 le.',
             translation: '彼が寝坊したせいで、 スケジュールが狂いました。',
-            memo: '※ここでの「才」の意味は?'
+            memo: '※ここでの「才」は、 結果を表す「だから」の意味。'
           },
           {
             word: '愛林',
@@ -561,12 +561,12 @@ export default {
             memo: '※「やり手」 : 「數一數二的能人(ㄕㄨˇ ㄧ ㄕㄨˇ ㄦˋ ㄉㄜ˙ ㄋㄥˊ ㄖㄣˊ/shu3 yi1 shu3 er4 de neng2 ren2)」または「能幹的人(ㄋㄥˊ ㄍㄢˋ ㄉㄜ˙ ㄖㄣˊ/neng2 gan4 de ren2)」 = 「有能な人」。'
           },
           {
-            word: '★人際關係',
+            word: '人際關係',
             sentence: '我厭倦了人際關係， 所以我打算今天一直花時間摸貓。',
             bopomofo: 'ㄨㄛˇ ㄧㄢˋ ㄐㄩㄢˋ ㄌㄜ˙ ㄖㄣˊ ㄐㄧˋ ㄍㄨㄢ ㄒㄧˋ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄉㄚˇ ㄙㄨㄢˋ ㄐㄧㄣ ㄊㄧㄢ ㄧ ㄓˊ ㄏㄨㄚ ㄕˊ ㄐㄧㄢ ㄇㄛ ㄇㄠ.',
             pinyin: 'wo3 yan4 juan4 le ren2 ji4 guan1 xi4, suo3 yi3 wo3 da3 suan4 jin1 tian1 yi1 zhi2 hua1 shi2 jian1 mo1 mao1.',
             translation: '人間関係に疲れたので、 今日は一日猫を撫でて過ごそうと思います。',
-            memo: '※「關係」の発音も、　「ㄍㄨㄢ ㄒㄧˋ/guan1 xi4」と、「ㄍㄨㄢ ㄒㄧ˙/guan1 xi」2種類がある?'
+            memo: ''
           },
           {
             word: '動不動就',
