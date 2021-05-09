@@ -62,7 +62,7 @@ export default {
             bopomofo: 'ㄩㄢˊ ㄍㄨㄥ ㄧㄝˇ ㄈㄚ ㄅㄧㄠˇ ㄧˋ ㄐㄧㄢˋ, ㄉㄢˋ ㄕˋ ㄉㄠˋ ㄉㄧˇ ㄧㄡˊ ㄌㄠˇ ㄅㄢˇ ㄌㄞˊ ㄐㄩㄝˊ ㄉㄧㄥˋ.',
             pinyin: 'yuan2 gong1 ye3 fa1 biao3 yi4 jian4, dan4 shi4 dao4 di3 you2 lao3 ban3 lai2 jue2 ding4.',
             translation: '従業員も意見は出しますが、 最終的には上司が決めます。',
-            memo: ''
+            memo: '※「由」 : 「～によって」。'
           },
           {
             word: '世紀',
@@ -99,8 +99,8 @@ export default {
           {
             word: '派',
             sentence: '她被公司派去跟海外企業做生意。',
-            bopomofo: 'ㄊㄚ ㄅㄟˋ ㄍㄨㄥ ㄙ ㄆㄞˋ ㄑㄩˋ ㄍㄣ ㄏㄞˇ ㄨㄞˋ ㄑㄧˇ ㄧㄝˋ ㄗㄨㄛˋ ㄕㄥ ㄧˋ.',
-            pinyin: 'ta1 bei4 gong1 si1 pai4 qu4 gen1 hai3 wai4 qi3 ye4 zuo4 sheng1 yi4.',
+            bopomofo: 'ㄊㄚ ㄅㄟˋ ㄍㄨㄥ ㄙ ㄆㄞˋ ㄑㄩˋ ㄍㄣ ㄏㄞˇ ㄨㄞˋ ㄑㄧˋ ㄧㄝˋ ㄗㄨㄛˋ ㄕㄥ ㄧˋ.',
+            pinyin: 'ta1 bei4 gong1 si1 pai4 qu4 gen1 hai3 wai4 qi4 ye4 zuo4 sheng1 yi4.',
             translation: '海外の企業と取引するために、 彼女は会社から派遣されました。',
             memo: ''
           },
@@ -153,12 +153,12 @@ export default {
             memo: ''
           },
           {
-            word: '少數',
+            word: '★少數',
             sentence: '少數民族之間的衝突演變成混戰一場。',
             bopomofo: 'ㄕㄠˇ ㄕㄨˋ ㄇㄧㄣˊ ㄗㄨˊ ㄓ ㄐㄧㄢ ㄉㄜ˙ ㄔㄨㄥ ㄊㄨˊ ㄧㄢˇ ㄅㄧㄢˋ ㄔㄥˊ ㄏㄨㄣˋ ㄓㄢˋ ㄧ ㄔㄤˇ.',
             pinyin: 'shao3 shu4 min2 zu2 zhi1 jian1 de chong1 tu2 yan3 bian4 cheng2 hun4 zhan4 yi1 chang3.',
             translation: '少数民族同士の対立は泥沼の内戦に発展しました。',
-            memo: ''
+            memo: '※この「演」の意味は? 「泥沼の内戦」は「泥潭的內戰(ㄋㄧˊ ㄊㄢˊ ㄉㄜ˙ ㄋㄟˋ ㄓㄢˋ)」ではおかしい?'
           },
           {
             word: '★開墾',
@@ -302,7 +302,7 @@ export default {
             bopomofo: 'ㄏㄢˋ ㄖㄣˊ ㄢ ㄐㄧㄚ ㄌㄨㄛˋ ㄏㄨˋ ㄙㄨㄛˇ ㄗㄞˋ ㄉㄜ˙ ㄊㄤˊ ㄖㄣˊ ㄐㄧㄝ ㄅㄧㄢˋ ㄅㄨˋ ㄕˋ ㄐㄧㄝˋ ㄍㄜˋ ㄉㄧˋ.',
             pinyin: 'han4 ren2 an1 jia1 luo4 hu4 suo3 zai4 de tang2 ren2 jie1 bian4 bu4 shi4 jie4 ge4 di4.',
             translation: '漢民族が移り住んだ中華街は、 世界の至る所に点在します。',
-            memo: ''
+            memo: '※「安家落戶(ㄢ ㄐㄧㄚ ㄌㄨㄛˋ ㄏㄨˋ/an1 jia1 luo4 hu4)」 : 「住みつく」。'
           },
           {
             word: '鄭成功',
@@ -381,7 +381,7 @@ export default {
             sentence: '在餐桌上餐具已經被整齊地排放好了。',
             bopomofo: 'ㄗㄞˋ ㄘㄢ ㄓㄨㄛ ㄕㄤˋ ㄘㄢ ㄐㄩˋ ㄧˇ ㄐㄧㄥ ㄅㄟˋ ㄓㄥˇ ㄑㄧˊ ㄉㄧˋ ㄆㄞˊ ㄈㄤˋ ㄏㄠˇ ㄌㄜ˙.',
             pinyin: 'zai4 can1 zhuo1 shang4 can1 ju4 yi3 jing1 bei4 zheng3 qi2 di4 pai2 fang4 hao3 le.',
-            translation: 'ダイニングテーブルには、 既に食器がセッティングがされています。',
+            translation: 'ダイニングテーブルには、 既に食器がきちんとセッティングされています。',
             memo: ''
           },
           {
@@ -438,7 +438,7 @@ export default {
             bopomofo: 'ㄋㄟˋ ㄓㄢˋ ㄍㄟˇ ㄍㄨㄛˊ ㄇㄧㄣˊ ㄉㄞˋ ㄌㄞˊ ㄆㄧㄣˊ ㄎㄨㄣˋ, ㄖㄣˊ ㄎㄡˇ ㄉㄜ˙ ㄧ ㄅㄢˋ ㄌㄧㄡˊ ㄌㄧˊ ㄕ ㄙㄨㄛˇ.',
             pinyin: 'nei4 zhan4 gei3 guo2 min2 dai4 lai2 pin2 kun4, ren2 kou3 de yi1 ban4 liu2 li4 shi1 suo3.',
             translation: '内戦は人々に貧困をもたらし、 人口の半分は家を失いました。',
-            memo: ''
+            memo: '※「流離失所(ㄌㄧㄡˊ ㄌㄧˊ ㄕ ㄙㄨㄛˇ/liu2 li4 shi1 suo3)」 : 「(戦禍の中で)流浪しさまよう」。'
           },
           {
             word: '人民',
@@ -494,7 +494,7 @@ export default {
             bopomofo: 'ㄧㄣ ㄨㄟˋ ㄊㄚ ㄐㄧㄝ ㄌㄧㄢˊ ㄅㄨˊ ㄉㄨㄢˋ ㄉㄜ˙ ㄊㄧˊ ㄨㄣˋ, ㄊㄚ ㄓㄨㄥ ㄩˊ ㄕㄥ ㄑㄧˋ ㄌㄜ˙.',
             pinyin: 'yin1 wei4 ta1 jie1 lian2 bu2 duan4 de ti2 wen4, ta1 zhong1 yu2 sheng1 qi4 le.',
             translation: '彼がひっきりなしに質問したので、 彼女はとうとう怒り出してしまいました。',
-            memo: ''
+            memo: '※「接連不斷(ㄐㄧㄝ ㄌㄧㄢˊ ㄅㄨˊ ㄉㄨㄢˋ/jie1 lian2 bu2 duan4)」 : 「絶え間なく」。'
           },
           {
             word: '遷移',
@@ -524,7 +524,7 @@ export default {
             word: '★節儉',
             sentence: '吃簡樸的菜既對身體健康又可以省錢。',
             bopomofo: 'ㄔ ㄐㄧㄢˇ ㄆㄨˊ ㄉㄜ˙ ㄘㄞˋ ㄐㄧˋ ㄉㄨㄟˋ ㄕㄣ ㄊㄧˇ ㄐㄧㄢˋ ㄎㄤ ㄧㄡˋ ㄎㄜˇ ㄧˇ ㄕㄥˇ ㄑㄧㄢˊ.',
-            pinyin: 'chi1 jian3 pu3 de cai4 ji4 dui4 shen1 ti3 jian4 kang1 you4 ke3 yi3 sheng3 qian2.',
+            pinyin: 'chi1 jian3 pu2 de cai4 ji4 dui4 shen1 ti3 jian4 kang1 you4 ke3 yi3 sheng3 qian2.',
             translation: '質素なおかずは健康的な上に、 お金の節約にもなります。',
             memo: '※「節儉」は使えない?'
           },
@@ -542,11 +542,11 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄅㄚˇ ㄆㄟˊ ㄍㄣ ㄐㄧㄢ ㄉㄠˋ ㄙㄨ ㄘㄨㄟˋ, ㄐㄧㄚ ㄗㄞˋ ㄇㄧㄢˋ ㄅㄠ ㄌㄧˇ ㄍㄣ ㄐㄧㄢ ㄐㄧ ㄉㄢˋ ㄧˋ ㄑㄧˇ ㄔ.',
             pinyin: 'wo3 ba3 pei2 gen1 jian1 dao4 su1 cui4, jia1 zai4 mian4 bao1 li3 gen1 jian1 ji1 dan4 yi1 qi3 chi1.',
             translation: 'ベーコンをカリカリに焼いてから、 目玉焼きと一緒にパンに挟んで食べます。',
-            memo: '※「夾」は挟む?'
+            memo: '※「夾(ㄐㄧㄚ/jia1)」は挟む?'
           },
           {
             word: '菜色',
-            sentence: '她的平常飲食很簡單, 但是在菜色上很講究',
+            sentence: '她的平常飲食很簡單, 但是在菜色上很講究。',
             bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄆㄧㄥˊ ㄔㄤˊ ㄧㄣˇ ㄕˊ ㄏㄣˇ ㄐㄧㄢˇ ㄉㄢ, ㄉㄢˋ ㄕˋ ㄗㄞˋ ㄘㄞˋ ㄙㄜˋ ㄕㄤˋ ㄏㄣˇ ㄐㄧㄤˇ ㄐㄧㄡˋ.',
             pinyin: 'ta1 de ping2 chang2 yin3 shi2 hen3 jian3 dan1, dan4 shi4 zai4 cai4 se4 shang4 hen3 jiang3 jiu4.',
             translation: '彼女の普段の食事はとてもシンプルですが、 料理のバラエティにはこだわりがあります。',
@@ -566,7 +566,7 @@ export default {
             bopomofo: 'ㄨˇ ㄧㄢˊ ㄌㄧㄡˋ ㄙㄜˋ ㄉㄜ˙ ㄕㄨㄟˇ ㄍㄨㄛˇ ㄎㄢˋ ㄕㄤ˙ ㄑㄩ˙ ㄏㄣˇ ㄇㄟˇ ㄨㄟˋ.',
             pinyin: 'wu3 yan2 liu4 se4 de shui3 guo3 kan4 shang4 qu4 hen3 mei3 wei4.',
             translation: '色とりどりの果物がとても美味しそうです。',
-            memo: ''
+            memo: '※「五顏六色(ㄨˇ ㄧㄢˊ ㄌㄧㄡˋ ㄙㄜˋ/wu3 yan2 liu4 se4)」 : 「色とりどりの」。'
           },
           {
             word: '點心',
@@ -579,7 +579,7 @@ export default {
           {
             word: '日式',
             sentence: '壽司和天婦羅等日式料理在海外也聞名。',
-            bopomofo: 'ㄕㄡˋ ㄙ ㄏㄜˊ ㄊㄧㄢ ㄈㄨˋ ㄌㄨㄛˊ ㄉㄥˇ ㄖˋ ㄕˋ ㄌㄧㄠˋ ㄌㄧˇ ㄗㄞˋ ㄏㄞˇ ㄨㄞˋ ㄧㄝˇ ㄨㄣˊ ㄇㄧㄥˊ.',
+            bopomofo: 'ㄕㄡˋ ㄙ ㄏㄢˋ ㄊㄧㄢ ㄈㄨˋ ㄌㄨㄛˊ ㄉㄥˇ ㄖˋ ㄕˋ ㄌㄧㄠˋ ㄌㄧˇ ㄗㄞˋ ㄏㄞˇ ㄨㄞˋ ㄧㄝˇ ㄨㄣˊ ㄇㄧㄥˊ.',
             pinyin: 'shou4 si1 han4 tian1 fu4 luo2 deng3 ri4 shi4 liao4 li3 zai4 hai3 wai4 ye3 wen2 ming2.',
             translation: '寿司や天ぷらなどの日本料理は海外でも有名です。',
             memo: ''
@@ -593,12 +593,12 @@ export default {
             memo: ''
           },
           {
-            word: '深',
+            word: '★深',
             sentence: '當你沖離這個海灘遠一點時， 水深突然會變得更深了。',
             bopomofo: 'ㄉㄤ ㄋㄧˇ ㄔㄨㄥ ㄌㄧˊ ㄓㄜˋ ㄍㄜˋ ㄏㄞˇ ㄊㄢ ㄩㄢˇ ㄧˋ ㄉㄧㄢˇ ㄕˊ, ㄕㄨㄟˇ ㄕㄣ ㄊㄨ ㄖㄢˊ ㄏㄨㄟˋ ㄅㄧㄢˋ ㄉㄜ˙ ㄍㄥˋ ㄕㄣ ㄌㄜ˙.',
             pinyin: 'dang1 ni3 chong1 li4 zhe4 ge4 hai3 tan1 yuan3 yi1 dian3 shi2, shui3 shen1 tu1 ran2 hui4 bian4 de geng4 shen1 le.',
             translation: 'このビーチは、 少し沖へ行くと急に水深が深くなります。',
-            memo: ''
+            memo: '※「沖(ㄔㄨㄥ/chong1)」で「沖へ行く」という意味の動詞?'
           },
           {
             word: '蔣介石',
@@ -665,12 +665,12 @@ export default {
             memo: ''
           },
           {
-            word: '烹飪課',
+            word: '★烹飪課',
             sentence: '在烹飪課上， 從怎麼把食材事前大致準備仔細地教你。',
             bopomofo: 'ㄗㄞˋ ㄆㄥ ㄖㄣˋ ㄎㄜˋ ㄕㄤˋ, ㄘㄨㄥˊ ㄗㄣˇ ㄇㄜ˙ ㄅㄚˇ ㄕˊ ㄘㄞˊ ㄕˋ ㄑㄧㄢˊ ㄉㄚˋ ㄓˋ ㄓㄨㄣˇ ㄅㄟˋ ㄗˇ ㄒㄧˋ ㄉㄜ˙ ㄐㄧㄠ ㄋㄧˇ.',
             pinyin: 'zai4 peng1 ren4 ke4 shang4, cong2 zen3 me ba3 shi2 cai2 shi4 qian2 da4 zhi4 zhun3 bei4 zi3 xi4 de jiao1 ni3.',
             translation: '料理教室では、 食材の下処理から丁寧に教えてくれます。',
-            memo: ''
+            memo: '※「事前大致準備(ㄕˋ ㄑㄧㄢˊ ㄉㄚˋ ㄓˋ ㄓㄨㄣˇ ㄅㄟˋ/shi4 qian2 da4 zhi4 zhun3 bei4)」 : 「下処理」?'
           },
           {
             word: '曬乾',
@@ -684,7 +684,7 @@ export default {
             word: '各種各樣',
             sentence: '遊樂園裡有各種各樣的遊樂設施， 但是因為暈了他不能坐任何一個。',
             bopomofo: 'ㄧㄡˊ ㄌㄜˋ ㄩㄢˊ ㄌㄧˇ ㄧㄡˇ ㄍㄜˋ ㄓㄨㄥˇ ㄍㄜˋ ㄧㄤˋ ㄉㄜ˙ ㄧㄡˊ ㄌㄜˋ ㄕㄜˋ ㄕ, ㄉㄢˋ ㄕˋ ㄧㄣ ㄨㄟˋ ㄩㄣ ㄌㄜ˙ ㄊㄚ ㄅㄨˋ ㄋㄥˊ ㄗㄨㄛˋ ㄖㄣˋ ㄏㄜˊ ㄧˊ ㄍㄜˋ.',
-            pinyin: 'you2 yue4 yuan2 li3 you3 ge4 zhong3 ge4 yang4 de you2 le4 she4 shi1, dan4 shi4 yin1 wei4 yun1 le ta1 bu4 neng2 zuo4 ren4 he2 yi1 ge4.',
+            pinyin: 'you2 le4 yuan2 li3 you3 ge4 zhong3 ge4 yang4 de you2 le4 she4 shi1, dan4 shi4 yin1 wei4 yun1 le ta1 bu4 neng2 zuo4 ren4 he2 yi1 ge4.',
             translation: '遊園地にある様々なアトラクションがありますが、彼は酔ってしまうのでどれも乗れません。',
             memo: ''
           },
@@ -694,7 +694,7 @@ export default {
             bopomofo: 'ㄗㄞˋ ㄓˊ ㄇㄧㄣˊ ㄊㄨㄥˇ ㄓˋ ㄒㄧㄚˋ, ㄉㄚˋ ㄉㄨㄛ ㄕㄨˋ ㄕˊ ㄏㄡˋ ㄩˇ ㄉㄤ ㄉㄧˋ ㄖㄣˊ ㄈㄚ ㄕㄥ ㄐㄩㄣ ㄕˋ ㄔㄨㄥ ㄊㄨˊ.',
             pinyin: 'zai4 zhi2 min2 tong3 zhi4 xia4, da4 duo1 shu4 shi2 hou4 yu3 dang1 di4 ren2 fa1 sheng1 jun1 shi4 chong1 tu2.',
             translation: '植民地支配においては、 ほとんどの場合現地人との間で軍事的な衝突が起こります。',
-            memo: ''
+            memo: '※「與(ㄩˇ/yu3)」 : 「～と(=跟)」。'
           },
           {
             word: '味噌湯',
