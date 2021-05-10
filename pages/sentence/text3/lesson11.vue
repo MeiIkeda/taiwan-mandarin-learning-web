@@ -118,7 +118,7 @@ export default {
             bopomofo: 'ㄉㄤ ㄨㄛˇ ㄔㄤˊ ㄕˋ ㄉㄧㄢˇ ㄧㄢ ㄕˊ, ㄨㄛˇ ㄅㄨˋ ㄒㄧㄠˇ ㄒㄧㄣ ㄩㄥˋ ㄉㄚˇ ㄏㄨㄛˇ ㄐㄧ ㄉㄧㄢˇ ㄖㄢˊ ㄉㄜ˙ ㄏㄨㄛˇ ㄕㄠ ㄉㄠˋ ㄌㄜ˙ ㄌㄧㄡˊ ㄏㄞˇ.',
             pinyin: 'dang1 wo3 chang2 shi4 dian3 yan1 shi2, wo3 bu4 xiao3 xin1 yong4 da3 huo3 ji1 dian3 ran2 de huo3 shao1 dao4 le liu2 hai3.',
             translation: 'タバコに火をつけようとした時、 誤ってライターの炎で前髪も燃やしてしまいました。',
-            memo: '※「火(ㄏㄨㄛˇ/huo3)」は「焰(ㄧㄢˋ/yan4)」でも可。'
+            memo: '※「火(ㄏㄨㄛˇ/huo3)」は「焰(ㄧㄢˋ/yan4)」でも可。 「點燃(ㄉㄧㄢˇ ㄖㄢˊ/dian3 ran2)」 : 「火をつけて燃やす」。'
           },
           {
             word: '城牆',
@@ -379,8 +379,8 @@ export default {
           {
             word: '餐桌',
             sentence: '在餐桌上餐具已經被整齊地排放好了。',
-            bopomofo: 'ㄗㄞˋ ㄘㄢ ㄓㄨㄛ ㄕㄤˋ ㄘㄢ ㄐㄩˋ ㄧˇ ㄐㄧㄥ ㄅㄟˋ ㄓㄥˇ ㄑㄧˊ ㄉㄧˋ ㄆㄞˊ ㄈㄤˋ ㄏㄠˇ ㄌㄜ˙.',
-            pinyin: 'zai4 can1 zhuo1 shang4 can1 ju4 yi3 jing1 bei4 zheng3 qi2 di4 pai2 fang4 hao3 le.',
+            bopomofo: 'ㄗㄞˋ ㄘㄢ ㄓㄨㄛ ㄕㄤˋ ㄘㄢ ㄐㄩˋ ㄧˇ ㄐㄧㄥ ㄅㄟˋ ㄓㄥˇ ㄑㄧˊ ㄉㄜ˙ ㄆㄞˊ ㄈㄤˋ ㄏㄠˇ ㄌㄜ˙.',
+            pinyin: 'zai4 can1 zhuo1 shang4 can1 ju4 yi3 jing1 bei4 zheng3 qi2 de pai2 fang4 hao3 le.',
             translation: 'ダイニングテーブルには、 既に食器がきちんとセッティングされています。',
             memo: ''
           },
@@ -436,9 +436,9 @@ export default {
             word: '內戰',
             sentence: '內戰給國民帶來貧困, 人口的一半流離失所。',
             bopomofo: 'ㄋㄟˋ ㄓㄢˋ ㄍㄟˇ ㄍㄨㄛˊ ㄇㄧㄣˊ ㄉㄞˋ ㄌㄞˊ ㄆㄧㄣˊ ㄎㄨㄣˋ, ㄖㄣˊ ㄎㄡˇ ㄉㄜ˙ ㄧ ㄅㄢˋ ㄌㄧㄡˊ ㄌㄧˊ ㄕ ㄙㄨㄛˇ.',
-            pinyin: 'nei4 zhan4 gei3 guo2 min2 dai4 lai2 pin2 kun4, ren2 kou3 de yi1 ban4 liu2 li4 shi1 suo3.',
+            pinyin: 'nei4 zhan4 gei3 guo2 min2 dai4 lai2 pin2 kun4, ren2 kou3 de yi1 ban4 liu2 li2 shi1 suo3.',
             translation: '内戦は人々に貧困をもたらし、 人口の半分は家を失いました。',
-            memo: '※「流離失所(ㄌㄧㄡˊ ㄌㄧˊ ㄕ ㄙㄨㄛˇ/liu2 li4 shi1 suo3)」 : 「(戦禍の中で)流浪しさまよう」。'
+            memo: '※「流離失所(ㄌㄧㄡˊ ㄌㄧˊ ㄕ ㄙㄨㄛˇ/liu2 li2 shi1 suo3)」 : 「(戦禍の中で)流浪しさまよう」。'
           },
           {
             word: '人民',
