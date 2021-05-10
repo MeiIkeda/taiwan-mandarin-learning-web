@@ -377,12 +377,12 @@ export default {
             memo: ''
           },
           {
-            word: '餐桌',
+            word: '★餐桌',
             sentence: '在餐桌上餐具已經被整齊地排放好了。',
             bopomofo: 'ㄗㄞˋ ㄘㄢ ㄓㄨㄛ ㄕㄤˋ ㄘㄢ ㄐㄩˋ ㄧˇ ㄐㄧㄥ ㄅㄟˋ ㄓㄥˇ ㄑㄧˊ ㄉㄜ˙ ㄆㄞˊ ㄈㄤˋ ㄏㄠˇ ㄌㄜ˙.',
             pinyin: 'zai4 can1 zhuo1 shang4 can1 ju4 yi3 jing1 bei4 zheng3 qi2 de pai2 fang4 hao3 le.',
             translation: 'ダイニングテーブルには、 既に食器がきちんとセッティングされています。',
-            memo: ''
+            memo: '※「排放(ㄆㄞˊ ㄈㄤˋ/pai2 fang4)」で「セッティングする」?'
           },
           {
             word: '中式',
@@ -438,7 +438,7 @@ export default {
             bopomofo: 'ㄋㄟˋ ㄓㄢˋ ㄍㄟˇ ㄍㄨㄛˊ ㄇㄧㄣˊ ㄉㄞˋ ㄌㄞˊ ㄆㄧㄣˊ ㄎㄨㄣˋ, ㄖㄣˊ ㄎㄡˇ ㄉㄜ˙ ㄧ ㄅㄢˋ ㄌㄧㄡˊ ㄌㄧˊ ㄕ ㄙㄨㄛˇ.',
             pinyin: 'nei4 zhan4 gei3 guo2 min2 dai4 lai2 pin2 kun4, ren2 kou3 de yi1 ban4 liu2 li2 shi1 suo3.',
             translation: '内戦は人々に貧困をもたらし、 人口の半分は家を失いました。',
-            memo: '※「流離失所(ㄌㄧㄡˊ ㄌㄧˊ ㄕ ㄙㄨㄛˇ/liu2 li2 shi1 suo3)」 : 「(戦禍の中で)流浪しさまよう」。'
+            memo: '※「流離失所(ㄌㄧㄡˊ ㄌㄧˊ ㄕ ㄙㄨㄛˇ/liu2 li2 shi1 suo3)」 : 「(戦禍の中で)流浪する、 さまよう」。'
           },
           {
             word: '人民',
