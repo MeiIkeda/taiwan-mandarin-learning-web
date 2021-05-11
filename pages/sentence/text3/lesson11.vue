@@ -401,7 +401,7 @@ export default {
             memo: ''
           },
           {
-            word: '燒餅',
+            word: '★燒餅',
             sentence: '那家店的很受歡迎的燒餅, 我沒想到(光?)才兩個小時就都賣光了。',
             bopomofo: 'ㄋㄚˋ ㄐㄧㄚ ㄉㄧㄢˋ ㄉㄜ˙ ㄏㄣˇ ㄕㄡˋ ㄏㄨㄢ ㄧㄥˊ ㄉㄜ˙ ㄕㄠ ㄅㄧㄥˇ, ㄨㄛˇ ㄇㄟˊ ㄒㄧㄤˇ ㄉㄠˋ (ㄍㄨㄤ?) ㄘㄞˊ ㄌㄧㄤˇ ㄍㄜˋ ㄒㄧㄠˇ ㄕˊ ㄐㄧㄡˋ ㄉㄡ ㄇㄞˋ ㄍㄨㄤ ㄌㄜ˙.',
             pinyin: 'na4 jia1 dian4 de hen3 shou4 huan1 ying2 de shao1 bing3, wo3 mei2 xiang3 dao4 (guang1?) cai2 liang3 ge4 xiao3 shi2 jiu4 dou1 mai4 guang1 le.',
@@ -596,7 +596,7 @@ export default {
             word: '★深',
             sentence: '當你沖離這個海灘遠一點時， 水深突然會變得更深了。',
             bopomofo: 'ㄉㄤ ㄋㄧˇ ㄔㄨㄥ ㄌㄧˊ ㄓㄜˋ ㄍㄜˋ ㄏㄞˇ ㄊㄢ ㄩㄢˇ ㄧˋ ㄉㄧㄢˇ ㄕˊ, ㄕㄨㄟˇ ㄕㄣ ㄊㄨ ㄖㄢˊ ㄏㄨㄟˋ ㄅㄧㄢˋ ㄉㄜ˙ ㄍㄥˋ ㄕㄣ ㄌㄜ˙.',
-            pinyin: 'dang1 ni3 chong1 li4 zhe4 ge4 hai3 tan1 yuan3 yi1 dian3 shi2, shui3 shen1 tu1 ran2 hui4 bian4 de geng4 shen1 le.',
+            pinyin: 'dang1 ni3 chong1 li2 zhe4 ge4 hai3 tan1 yuan3 yi1 dian3 shi2, shui3 shen1 tu1 ran2 hui4 bian4 de geng4 shen1 le.',
             translation: 'このビーチは、 少し沖へ行くと急に水深が深くなります。',
             memo: '※「沖(ㄔㄨㄥ/chong1)」で「沖へ行く」という意味の動詞?'
           },
