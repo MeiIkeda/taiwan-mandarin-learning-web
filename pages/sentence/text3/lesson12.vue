@@ -70,7 +70,7 @@ export default {
             bopomofo: 'ㄗㄞˋ ㄈㄢˇ ㄏㄜˊ ㄅㄧㄢˋ ㄌㄨㄣˋ ㄓㄨㄥ, ㄧㄥ ㄍㄞ ㄧㄝˇ ㄎㄠˇ ㄌㄩˋ ㄊㄧˋ ㄉㄞˋ ㄋㄥˊ ㄩㄢˊ.',
             pinyin: 'zai4 fan3 he2 bian4 lun4 zhong1, ying1 gai1 ye3 kao3 lu4 ti4 dai4 neng2 yuan2.',
             translation: '反核に関する議論においては、 代替エネルギーについても考慮すべきです。',
-            memo: ''
+            memo: '※「辯論(ㄅㄧㄢˋ ㄌㄨㄣˋ/bian4 lun4)」 : 「ディベートする」。'
           },
           {
             word: '遊行',
@@ -98,7 +98,7 @@ export default {
           },
           {
             word: '★前途',
-            sentence: '他是個很有前途的年輕人， 但是現在變成了身心俱疲症候群（過勞症）。',
+            sentence: '他是個很有前途的年輕人， 但是現在變成了身心俱疲症候群。',
             bopomofo: 'ㄊㄚ ㄕˋ ㄍㄜˋ ㄏㄣˇ ㄧㄡˇ ㄑㄧㄢˊ ㄊㄨˊ ㄉㄜ˙ ㄋㄧㄢˊ ㄑㄧㄥ ㄖㄣˊ, ㄉㄢˋ ㄕˋ ㄒㄧㄢˋ ㄗㄞˋ ㄅㄧㄢˋ ㄔㄥˊ ㄌㄜ˙ ㄕㄣ ㄒㄧㄣ ㄐㄩˋ ㄆㄧˊ ㄓㄥˋ ㄏㄡˋ ㄑㄩㄣˊ.',
             pinyin: 'ta1 shi4 ge4 hen3 you3 qian2 tu2 de nian2 qing1 ren2, dan4 shi4 xian4 zai4 bian4 cheng2 le shen1 xin1 ju4 pi2 zheng4 hou4 qun2.',
             translation: '彼は将来有望な若者でしたが、 燃え尽き症候群に陥っています。',
@@ -130,19 +130,19 @@ export default {
           },
           {
             word: '表達',
-            sentence: '貓的可愛無法用言語表達。',
-            bopomofo: 'ㄇㄠ ㄉㄜ˙ ㄎㄜˇ ㄞˋ ㄨˊ ㄈㄚˇ ㄩㄥˋ ㄧㄢˊ ㄩˇ ㄅㄧㄠˇ ㄉㄚˊ.',
-            pinyin: 'mao1 de ke3 ai4 wu2 fa3 yong4 yan2 yu3 biao3 da2.',
+            sentence: '貓的可愛無法用語言表達。',
+            bopomofo: 'ㄇㄠ ㄉㄜ˙ ㄎㄜˇ ㄞˋ ㄨˊ ㄈㄚˇ ㄩㄥˋ ㄩˇ ㄧㄢˊ ㄅㄧㄠˇ ㄉㄚˊ.',
+            pinyin: 'mao1 de ke3 ai4 wu2 fa3 yong4 yu3 yan2 biao3 da2.',
             translation: '猫の可愛さは、 言葉では言い表せません。',
             memo: ''
           },
           {
-            word: '公共',
+            word: '★公共',
             sentence: '這裡是一個公共場所， 所以不要裸身。',
             bopomofo: 'ㄓㄜˋ ㄌㄧˇ ㄕˋ ㄧˊ ㄍㄜˋ ㄍㄨㄥ ㄍㄨㄥˋ ㄔㄤˇ ㄙㄨㄛˇ, ㄙㄨㄛˇ ㄧˇ ㄅㄨˊ ㄧㄠˋ ㄌㄨㄛˇ ㄕㄣ.',
             pinyin: 'zhe4 li3 shi4 yi1 ge4 gong1 gong4 chang3 suo3, suo3 yi3 bu2 yao4 luo3 shen1.',
             translation: 'ここは公共の場所なので、 裸になっては駄目です。',
-            memo: ''
+            memo: '※「場所」は「地方」だと変?'
           },
           {
             word: '議題',
@@ -190,7 +190,7 @@ export default {
             bopomofo: 'ㄒㄩ ㄧㄠˋ ㄘㄞˇ ㄑㄩˇ ㄑㄩㄢˊ ㄇㄧㄢˋ ㄘㄨㄛˋ ㄕ, ㄦˊ ㄅㄨˊ ㄕˋ ㄍㄜˋ ㄅㄧㄝˊ ㄘㄨㄛˋ ㄕ.',
             pinyin: 'xu1 yao4 cai3 qu3 quan2 mian4 cuo4 shi1, er2 bu2 shi4 ge4 bie2 cuo4 shi1.',
             translation: '個別的ではなく、 包括的な対策を講じる必要があります。',
-            memo: ''
+            memo: '※「採取」 : 「(対策などを)講じる」。'
           },
           {
             word: '民意',
@@ -222,15 +222,15 @@ export default {
             bopomofo: 'ㄎㄨㄞˋ ㄧㄠˋ ㄒㄩㄢˇ ㄐㄩˇ ㄌㄜ˙, ㄍㄜˋ ㄍㄜˋ ㄓㄥˋ ㄉㄤˇ ㄏㄣˇ ㄖㄜˋ ㄒㄧㄣ ㄉㄜ˙ ㄘㄢ ㄩˋ ㄐㄧㄥˋ ㄒㄩㄢˇ ㄏㄨㄛˊ ㄉㄨㄥˋ.',
             pinyin: 'kuai4 yao4 xuan3 ju3 le, ge4 ge4 zheng4 tang3 hen3 re4 xin1 de can1 yu2 jing4 xuan3 huo2 dong4.',
             translation: '選挙が近いので、 各政党はそれぞれ熱心に選挙運動を行っています。',
-            memo: ''
+            memo: '※「參與」 : 「参加する、 加わる」。'
           },
           {
-            word: '難道',
+            word: '★難道',
             sentence: '怎麼可能在沒聽見鬧鐘的情況下睡過頭了?',
             bopomofo: 'ㄗㄣˇ ㄇㄜ˙ ㄎㄜˇ ㄋㄥˊ ㄗㄞˋ ㄇㄟˊ ㄊㄧㄥ ㄐㄧㄢˋ ㄋㄠˋ ㄓㄨㄥ ㄉㄜ˙ ㄑㄧㄥˊ ㄎㄨㄤˋ ㄒㄧㄚˋ ㄕㄨㄟˋ ㄍㄨㄛˋ ㄊㄡˊ ㄌㄜ˙?',
             pinyin: 'zen3 me ke3 neng2 zai4 mei2 ting1 jian4 nao4 zhong1 de qing2 kuang4 xia4 shui4 guo4 tou2 le?',
             translation: '目覚ましの音が聞こえなくて寝坊するなんて事がまさかあるのでしょうか?',
-            memo: ''
+            memo: '※「難道」は使えない?'
           },
           {
             word: '滿',
@@ -246,7 +246,7 @@ export default {
             bopomofo: 'ㄒㄧㄢˋ ㄈㄚˇ ㄅㄢ ㄅㄨˋ ㄌㄜ˙, ㄍㄞ ㄍㄨㄛˊ ㄔㄠˊ ㄓㄜ˙ ㄇㄧㄣˊ ㄓㄨˇ ㄏㄨㄚˋ ㄇㄞˋ ㄔㄨ ㄌㄜ˙ ㄧ ㄅㄨˋ.',
             pinyin: 'xian4 fa3 ban1 bu4 le, gai1 guo2 chao2 zhe min2 zhu3 hua4 mai4 chu1 le yi1 bu4.',
             translation: '憲法が制定され、 その国は民主化への一歩を踏み出しました。',
-            memo: ''
+            memo: '※「朝」 : 「(ある方向に)向かう」。 「邁」 : 「足を運ぶ、 踏み出す」。'
           },
           {
             word: '投票權',
@@ -273,7 +273,7 @@ export default {
             memo: ''
           },
           {
-            word: '表示',
+            word: '★表示',
             sentence: '三天前我表明了減肥的決心， 但是好像快挫敗了。',
             bopomofo: 'ㄙㄢ ㄊㄧㄢ ㄑㄧㄢˊ ㄨㄛˇ ㄅㄧㄠˇ ㄇㄧㄥˊ ㄌㄧㄠˇ ㄐㄧㄢˇ ㄈㄟˊ ㄉㄜ˙ ㄐㄩㄝˊ ㄒㄧㄣ, ㄉㄢˋ ㄕˋ ㄏㄠˇ ㄒㄧㄤˋ ㄎㄨㄞˋ ㄘㄨㄛˋ ㄅㄞˋ ㄌㄜ.',
             pinyin: 'san1 tian1 qian2 wo3 biao3 ming2 le jian3 fei2 de jue2 xin1, dan4 shi4 hao3 xiang4 kuai4 cuo4 bai4 le.',
@@ -289,12 +289,12 @@ export default {
             memo: ''
           },
           {
-            word: '為',
+            word: '★為',
             sentence: '我為下個星期的派對準備了一件新裙子。',
             bopomofo: 'ㄨㄛˇ ㄨㄟˋ ㄒㄧㄚˋ ㄍㄜˋ ㄒㄧㄥ ㄑㄧˊ ㄉㄜ˙ ㄆㄞˋ ㄉㄨㄟˋ ㄓㄨㄣˇ ㄅㄟˋ ㄌㄜ˙ ㄧ ㄐㄧㄢˋ ㄒㄧㄣ ㄑㄩㄣˊ ㄗ˙.',
             pinyin: 'wo3 wei4 xia4 ge4 xing1 qi2 de pai4 dui4 zhun3 bei4 le yi1 jian4 xin1 qun2 zi.',
             translation: '来週のパーティの為に、 ドレスを新調しました。',
-            memo: ''
+            memo: '※「為」の発音?'
           },
           {
             word: '服務',
@@ -307,7 +307,7 @@ export default {
           {
             word: '職位',
             sentence: '我比起為了得到更高的職位每天都加班， 我寧可維持現狀。',
-            bopomofo: 'ㄨㄛˇ ㄅㄧˇ ㄑㄧˇ ㄨㄟˋ ㄌㄧㄠˇ ㄉㄜˊ ㄉㄠˋ ㄍㄥˋ ㄍㄠ ㄉㄜ˙ ㄓˊ ㄨㄟˋ ㄇㄟˇ ㄊㄧㄢ ㄉㄨ ㄐㄧㄚ ㄅㄢ, ㄨㄛˇ ㄋㄧㄥˊ ㄎㄜˇ ㄨㄟˊ ㄔˊ ㄒㄧㄢˋ ㄓㄨㄤˋ.',
+            bopomofo: 'ㄨㄛˇ ㄅㄧˇ ㄑㄧˇ ㄨㄟˋ ㄌㄜ˙ ㄉㄜˊ ㄉㄠˋ ㄍㄥˋ ㄍㄠ ㄉㄜ˙ ㄓˊ ㄨㄟˋ ㄇㄟˇ ㄊㄧㄢ ㄉㄨ ㄐㄧㄚ ㄅㄢ, ㄨㄛˇ ㄋㄧㄥˊ ㄎㄜˇ ㄨㄟˊ ㄔˊ ㄒㄧㄢˋ ㄓㄨㄤˋ.',
             pinyin: 'wo3 bi3 qi3 wei4 le de2 dao4 geng4 gao1 de zhi2 wei4 mei3 tian1 dou1 jia1 ban1, wo3 ning2 ke3 wei2 chi2 xian4 zhuang4.',
             translation: 'ポジションが上がって毎日残業するよりは、 現状維持がいいです。',
             memo: ''
@@ -321,7 +321,7 @@ export default {
             memo: ''
           },
           {
-            word: '選民',
+            word: '★選民',
             sentence: '他是旁邊小鎮的居民， 因此他沒有這個小鎮的鎮長選舉的權利。',
             bopomofo: 'ㄊㄚ ㄕˋ ㄆㄤˊ ㄅㄧㄢ ㄒㄧㄠˇ ㄓㄣˋ ㄉㄜ˙ ㄐㄩ ㄇㄧㄣˊ, ㄧㄣ ㄘˇ ㄊㄚ ㄇㄟˊ ㄧㄡˇ ㄓㄜˋ ㄍㄜˋ ㄒㄧㄠˇ ㄓㄣˋ ㄉㄜ˙ ㄓㄣˋ ㄓㄤˇ ㄒㄩㄢˇ ㄐㄩˇ ㄉㄜ˙ ㄑㄩㄢˊ ㄌㄧˋ.',
             pinyin: 'ta1 shi4 pang2 bian1 xiao3 zhen4 de ju1 min2, yin1 ci3 ta1 mei2 you3 zhe4 ge4 xiao3 zhen4 de zhen4 zhang3 xuan3 ju3 de quan2 li4.',
@@ -409,7 +409,7 @@ export default {
             memo: ''
           },
           {
-            word: '辭',
+            word: '★辭',
             sentence: '那個公司有太多辭職的人， 一定是黑心公司。',
             bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄍㄨㄥ ㄙ ㄧㄡˇ ㄊㄞˋ ㄉㄨㄛ ㄘˊ ㄓˊ ㄉㄜ˙ ㄖㄣˊ, ㄧˊ ㄉㄧㄥˋ ㄕˋ ㄏㄟ ㄒㄧㄣ ㄍㄨㄥ ㄙ.',
             pinyin: 'na4 ge4 gong1 si1 you3 tai4 duo1 ci2 zhi2 de ren2, yi1 ding4 shi4 hei1 xin1 gong1 si1.',
@@ -442,9 +442,9 @@ export default {
           },
           {
             word: '教育',
-            sentence: '新在這一年以內會施行新的教育方式。',
-            bopomofo: 'ㄒㄧㄣ ㄗㄞˋ ㄓㄜˋ ㄧ ㄋㄧㄢˊ ㄧˇ ㄋㄟˋ ㄏㄨㄟˋ ㄕ ㄒㄧㄥˊ ㄒㄧㄣ ㄉㄜ˙ ㄐㄧㄠˋ ㄩˋ ㄈㄤ ㄕˋ.',
-            pinyin: 'xin1 zai4 zhe4 yi1 nian2 yi3 nei4 hui4 shi1 xing2 xin1 de jiao4 yu4 fang1 shi4.',
+            sentence: '在這一年以內會施行新的教育方式。',
+            bopomofo: 'ㄗㄞˋ ㄓㄜˋ ㄧ ㄋㄧㄢˊ ㄧˇ ㄋㄟˋ ㄏㄨㄟˋ ㄕ ㄒㄧㄥˊ ㄒㄧㄣ ㄉㄜ˙ ㄐㄧㄠˋ ㄩˋ ㄈㄤ ㄕˋ.',
+            pinyin: 'zai4 zhe4 yi1 nian2 yi3 nei4 hui4 shi1 xing2 xin1 de jiao4 yu4 fang1 shi4.',
             translation: '新しい教育方式は今年中に施行されます。',
             memo: ''
           },
@@ -529,7 +529,7 @@ export default {
             memo: ''
           },
           {
-            word: '形象',
+            word: '★形象',
             sentence: '我印象她很潔癖， 我無法想像她的私生活。',
             bopomofo: 'ㄨㄛˇ ㄧㄣˋ ㄒㄧㄤˋ ㄊㄚ ㄏㄣˇ ㄐㄧㄝˊ ㄆㄧˇ, ㄨㄛˇ ㄨˊ ㄈㄚˇ ㄒㄧㄤˇ ㄒㄧㄤˋ ㄊㄚ ㄉㄜ˙ ㄙ ㄕㄥ ㄏㄨㄛˊ.',
             pinyin: 'wo3 yin4 xiang4 ta1 hen3 jie2 pi3, wo3 wu2 fa3 xiang3 xiang4 ta1 de si1 sheng1 huo2.',
@@ -566,7 +566,7 @@ export default {
             bopomofo: 'ㄊㄚ ㄊㄧˊ ㄗㄠˇ ㄊㄨㄟˋ ㄒㄧㄡ ㄏㄡˋ, ㄗㄞˋ ㄒㄧㄤ ㄒㄧㄚˋ ㄍㄨㄛˋ ㄓㄜ˙ ㄧㄡ ㄒㄧㄢˊ ㄗˋ ㄉㄜˊ ㄕㄥ ㄏㄨㄛˊ.',
             pinyin: 'ta1 ti2 zao3 tui4 xiu1 hou4, zai4 xiang1 xia4 guo4 zhe you1 xian2 zi4 de sheng1 huo2.',
             translation: '彼女は早期リタイアしたあと、 田舎で悠々自適に暮らしています。',
-            memo: ''
+            memo: '※「悠閒自得」の最後の発音?'
           },
           {
             word: '事業',
@@ -587,8 +587,8 @@ export default {
           {
             word: '義務',
             sentence: '他在海灘上義務撿垃圾。',
-            bopomofo: 'ㄊㄚ ㄗㄞˋ ㄏㄞˇ ㄊㄢ ㄕㄤˋ ㄧˋ ㄨˋ ㄐㄧㄢˇ ㄌㄚ ㄐㄧ.',
-            pinyin: 'ta1 zai4 hai3 tan1 shang4 yi4 wu4 jian3 la1 ji1.',
+            bopomofo: 'ㄊㄚ ㄗㄞˋ ㄏㄞˇ ㄊㄢ ㄕㄤˋ ㄧˋ ㄨˋ ㄐㄧㄢˇ ㄌㄜˋ ㄙㄜˋ.',
+            pinyin: 'ta1 zai4 hai3 tan1 shang4 yi4 wu4 jian3 la4 se4.',
             translation: '彼は、 ボランティアでビーチのゴミ拾いをしています。',
             memo: ''
           },
@@ -633,7 +633,7 @@ export default {
             memo: '※「抗拒(ㄎㄤˋ ㄐㄩˋ/kang4 ju4)」 = 「忤逆(ㄨˇ ㄋㄧˋ/wu3 ni4)」でも可。'
           },
           {
-            word: '辭掉',
+            word: '★辭掉',
             sentence: '他無法跟老闆相處， 結果辭掉了。',
             bopomofo: 'ㄊㄚ ㄨˊ ㄈㄚˇ ㄍㄣ ㄌㄠˇ ㄅㄢˇ ㄒㄧㄤ ㄔㄨˇ, ㄐㄧㄝˊ ㄍㄨㄛˇ ㄘˊ ㄉㄧㄠˋ ㄌㄜ˙.',
             pinyin: 'ta1 wu2 fa3 gen1 lao3 ban3 xiang1 chu3, jie2 guo3 ci2 diao4 le.',
@@ -697,7 +697,7 @@ export default {
             memo: ''
           },
           {
-            word: '捐出',
+            word: '★捐出',
             sentence: '每年我都捐給保護稀有動物的基金一些錢。',
             bopomofo: 'ㄇㄟˇ ㄋㄧㄢˊ ㄨㄛˇ ㄉㄡ ㄐㄩㄢ ㄍㄟˇ ㄅㄠˇ ㄏㄨˋ ㄒㄧ ㄧㄡˇ ㄉㄨㄥˋ ㄨˋ ㄉㄜ˙ ㄐㄧ ㄐㄧㄣ ㄧ ㄒㄧㄝ ㄑㄧㄢˊ.',
             pinyin: 'mei3 nian2 wo3 dou1 juan1 gei3 bao3 hu4 xi1 you3 dong4 wu4 de ji1 jin1 yi1 xie1 qian2.',
