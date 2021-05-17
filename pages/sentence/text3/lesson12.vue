@@ -81,12 +81,12 @@ export default {
             memo: ''
           },
           {
-            word: '政治',
+            word: '★政治',
             sentence: '我個人對政治沒有太多興趣, 但是覺得去投票是為了盡民主的義務。',
-            bopomofo: 'ㄨㄛˇ ㄍㄜˋ ㄖㄣˊ ㄉㄨㄟˋ ㄓㄥˋ ㄓˋ ㄇㄟˊ ㄧㄡˇ ㄊㄞˋ ㄉㄨㄛ ㄒㄧㄥˋ ㄑㄩˋ, ㄉㄢˋ ㄕˋ ㄐㄩㄝˊ ㄉㄜ˙ ㄑㄩˋ ㄊㄡˊ ㄆㄧㄠˋ ㄕˋ ㄨㄟˋ ㄌㄜ˙ ㄐㄧㄣˇ ㄇㄧㄣˊ ㄓㄨˇ ㄉㄜ˙ ㄧˋ ㄨˋ.',
-            pinyin: 'wo3 ge4 ren2 dui4 zheng4 zhi4 mei2 you3 tai4 duo1 xing4 qu4, dan4 shi4 jue2 de qu4 tou2 piao4 shi4 wei4 le jin3 min2 zhu3 de yi4 wu4.',
+            bopomofo: 'ㄨㄛˇ ㄍㄜˋ ㄖㄣˊ ㄉㄨㄟˋ ㄓㄥˋ ㄓˋ ㄇㄟˊ ㄧㄡˇ ㄊㄞˋ ㄉㄨㄛ ㄒㄧㄥˋ ㄑㄩˋ, ㄉㄢˋ ㄕˋ ㄐㄩㄝˊ ㄉㄜ˙ ㄑㄩˋ ㄊㄡˊ ㄆㄧㄠˋ ㄕˋ ㄨㄟˋ ㄌㄜ˙ ㄐㄧㄣˋ ㄇㄧㄣˊ ㄓㄨˇ ㄉㄜ˙ ㄧˋ ㄨˋ.',
+            pinyin: 'wo3 ge4 ren2 dui4 zheng4 zhi4 mei2 you3 tai4 duo1 xing4 qu4, dan4 shi4 jue2 de qu4 tou2 piao4 shi4 wei4 le jin4 min2 zhu3 de yi4 wu4.',
             translation: '個人的には政治にあまり興味がありませんが、 投票に行く事は民主主義を守る為の義務だと思います。',
-            memo: ''
+            memo: '※「盡」 = 「(義務などを)果たす」。 発音は4声でOK?'
           },
           {
             word: '熱衷',
@@ -153,12 +153,12 @@ export default {
             memo: ''
           },
           {
-            word: '核能',
+            word: '★核能',
             sentence: '針對如何利用核能大家一定得花更多時間認真地討論。',
             bopomofo: 'ㄓㄣ ㄉㄨㄟˋ ㄖㄨˊ ㄏㄜˊ ㄌㄧˋ ㄩㄥˋ ㄏㄜˊ ㄋㄥˊ ㄉㄚˋ ㄐㄧㄚ ㄧˊ ㄉㄧㄥˋ ㄉㄟˇ ㄏㄨㄚ ㄍㄥˋ ㄉㄨㄛ ㄕˊ ㄐㄧㄢ ㄖㄣˋ ㄓㄣ ㄉㄜ˙ ㄊㄠˇ ㄌㄨㄣˋ.',
             pinyin: 'zhen1 dui4 ru2 he2 li4 yong4 he2 neng2 da4 jia1 yi1 ding4 dei3 hua1 geng4 duo1 shi2 jian1 ren4 zhen1 de tao3 lun4.',
             translation: '原子力の利用には、 より多くの時間を使って真剣に議論しなければいけません。',
-            memo: ''
+            memo: '「針對」は、 「ぴたりと焦点を合わせる」ニュアンス。'
           },
           {
             word: '電廠',
@@ -505,12 +505,12 @@ export default {
             memo: ''
           },
           {
-            word: '預期',
+            word: '★預期',
             sentence: '我以為我支持的黨會贏, 不過沒想到被出賣了。',
             bopomofo: 'ㄨㄛˇ ㄧˇ ㄨㄟˊ ㄨㄛˇ ㄓ ㄔˊ ㄉㄜ˙ ㄉㄤˇ ㄏㄨㄟˋ ㄧㄥˊ, ㄅㄨˊ ㄍㄨㄛˋ ㄇㄟˊ ㄒㄧㄤˇ ㄉㄠˋ ㄅㄟˋ ㄔㄨ ㄇㄞˋ ㄌㄜ˙.',
             pinyin: 'wo3 yi3 wei2 wo3 zhi1 chi2 de dang3 hui4 ying2, bu2 guo4 mei2 xiang3 dao4 bei4 chu1 mai4 le.',
             translation: '支持政党が勝つと思っていましたが、 期待は裏切られました。',
-            memo: ''
+            memo: '※「預期」は使えない?'
           },
           {
             word: '暫時',
@@ -569,12 +569,12 @@ export default {
             memo: '※「悠閒自得」の最後の発音?'
           },
           {
-            word: '事業',
+            word: '★事業',
             sentence: '他們聊來聊去總是跟新事業的主意有關。',
             bopomofo: 'ㄊㄚ ㄇㄣ˙ ㄌㄧㄠˊ ㄌㄞˊ ㄌㄧㄠˊ ㄑㄩˋ ㄗㄨㄥˇ ㄕˋ ㄍㄣ ㄒㄧㄣ ㄕˋ ㄧㄝˋ ㄉㄜ˙ ㄓㄨˇ ㄧˋ ㄧㄡˇ ㄍㄨㄢ.',
             pinyin: 'ta1 men liao2 lai2 liao2 qu4 zong3 shi4 gen1 xin1 shi4 ye4 de zhu3 yi4 you3 guan1.',
             translation: '彼らは口々に、 新しいビジネスのアイデアについて話しています。',
-            memo: ''
+            memo: '※「主意有關(的事)」としなくても、 「有關」だけでOK?'
           },
           {
             word: '捐',
@@ -689,12 +689,12 @@ export default {
             memo: ''
           },
           {
-            word: '出版社',
+            word: '★出版社',
             sentence: '由於紙張版本媒體的衰落， 出版社陷入了困境。',
             bopomofo: 'ㄧㄡˊ ㄩˊ ㄓˇ ㄓㄤ ㄅㄢˇ ㄅㄣˇ ㄇㄟˊ ㄊㄧˇ ㄉㄜ˙ ㄕㄨㄞ ㄌㄨㄛˋ, ㄔㄨ ㄅㄢˇ ㄕㄜˋ ㄒㄧㄢˋ ㄖㄨˋ ㄌㄜ˙ ㄎㄨㄣˋ ㄐㄧㄥˋ.',
             pinyin: 'you2 yu2 zhi3 zhang1 ban3 ben3 mei2 ti3 de shuai1 luo4, chu1 ban3 she4 xian4 ru4 le kun4 jing4.',
             translation: '紙媒体の衰退によって、 出版社は苦境に立たされています。',
-            memo: ''
+            memo: '※「版本」 : 「バージョン」。'
           },
           {
             word: '★捐出',
