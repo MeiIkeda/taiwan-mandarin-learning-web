@@ -46,7 +46,7 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄇㄣ˙ ㄊㄨㄥ ㄍㄨㄛˋ ㄊㄡˊ ㄆㄧㄠˋ ㄅㄧㄠˇ ㄐㄩㄝˊ ㄐㄧㄣ ㄨㄢˇ ㄉㄜ˙ ㄨㄢˇ ㄘㄢ ㄏㄨㄟˋ ㄕˋ ㄧˋ ㄉㄚˋ ㄌㄧˋ ㄌㄧㄠˋ ㄌㄧˇ ㄏㄨㄛˋ ㄧㄣˋ ㄉㄨˋ ㄌㄧㄠˋ ㄌㄧˇ.',
             pinyin: 'wo3 men tong1 guo4 tou2 piao4 biao3 jue2 jin1 wan3 de wan3 can1 hui4 shi4 yi4 da4 li4 liao4 li3 huo4 yin4 du4 liao4 li3.',
             translation: '今夜の夕飯はイタリアンがいいかインド料理がいいか、 投票で決める事になりました。',
-            memo: '※「投票表決」どちらかではなく一単語?'
+            memo: '※「投票表決」 : 「投票で採決する」。'
           },
           {
             word: '抱歉',
@@ -86,7 +86,7 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄍㄜˋ ㄖㄣˊ ㄉㄨㄟˋ ㄓㄥˋ ㄓˋ ㄇㄟˊ ㄧㄡˇ ㄊㄞˋ ㄉㄨㄛ ㄒㄧㄥˋ ㄑㄩˋ, ㄉㄢˋ ㄕˋ ㄐㄩㄝˊ ㄉㄜ˙ ㄑㄩˋ ㄊㄡˊ ㄆㄧㄠˋ ㄕˋ ㄨㄟˋ ㄌㄜ˙ ㄐㄧㄣˋ ㄇㄧㄣˊ ㄓㄨˇ ㄉㄜ˙ ㄧˋ ㄨˋ.',
             pinyin: 'wo3 ge4 ren2 dui4 zheng4 zhi4 mei2 you3 tai4 duo1 xing4 qu4, dan4 shi4 jue2 de qu4 tou2 piao4 shi4 wei4 le jin4 min2 zhu3 de yi4 wu4.',
             translation: '個人的には政治にあまり興味がありませんが、 投票に行く事は民主主義を守る為の義務だと思います。',
-            memo: '※「盡」 = 「(義務などを)果たす」。 発音は4声でOK?'
+            memo: '※「盡(ㄐㄧㄣˋ/jin4)」 = 「(義務などを)果たす」。 発音は4声でOK?'
           },
           {
             word: '熱衷',
@@ -190,7 +190,7 @@ export default {
             bopomofo: 'ㄒㄩ ㄧㄠˋ ㄘㄞˇ ㄑㄩˇ ㄑㄩㄢˊ ㄇㄧㄢˋ ㄘㄨㄛˋ ㄕ, ㄦˊ ㄅㄨˊ ㄕˋ ㄍㄜˋ ㄅㄧㄝˊ ㄘㄨㄛˋ ㄕ.',
             pinyin: 'xu1 yao4 cai3 qu3 quan2 mian4 cuo4 shi1, er2 bu2 shi4 ge4 bie2 cuo4 shi1.',
             translation: '個別的ではなく、 包括的な対策を講じる必要があります。',
-            memo: '※「採取」 : 「(対策などを)講じる」。'
+            memo: '※「採取(ㄘㄞˇ ㄑㄩˇ/cai3 qu3)」 : 「(対策などを)講じる」。'
           },
           {
             word: '民意',
@@ -222,7 +222,7 @@ export default {
             bopomofo: 'ㄎㄨㄞˋ ㄧㄠˋ ㄒㄩㄢˇ ㄐㄩˇ ㄌㄜ˙, ㄍㄜˋ ㄍㄜˋ ㄓㄥˋ ㄉㄤˇ ㄏㄣˇ ㄖㄜˋ ㄒㄧㄣ ㄉㄜ˙ ㄘㄢ ㄩˋ ㄐㄧㄥˋ ㄒㄩㄢˇ ㄏㄨㄛˊ ㄉㄨㄥˋ.',
             pinyin: 'kuai4 yao4 xuan3 ju3 le, ge4 ge4 zheng4 tang3 hen3 re4 xin1 de can1 yu2 jing4 xuan3 huo2 dong4.',
             translation: '選挙が近いので、 各政党はそれぞれ熱心に選挙運動を行っています。',
-            memo: '※「參與」 : 「参加する、 加わる」。'
+            memo: '※「參與(ㄘㄢ ㄩˋ/can1 yu2)」 : 「参加する、 加わる」。'
           },
           {
             word: '★難道',
@@ -246,7 +246,7 @@ export default {
             bopomofo: 'ㄒㄧㄢˋ ㄈㄚˇ ㄅㄢ ㄅㄨˋ ㄌㄜ˙, ㄍㄞ ㄍㄨㄛˊ ㄔㄠˊ ㄓㄜ˙ ㄇㄧㄣˊ ㄓㄨˇ ㄏㄨㄚˋ ㄇㄞˋ ㄔㄨ ㄌㄜ˙ ㄧ ㄅㄨˋ.',
             pinyin: 'xian4 fa3 ban1 bu4 le, gai1 guo2 chao2 zhe min2 zhu3 hua4 mai4 chu1 le yi1 bu4.',
             translation: '憲法が制定され、 その国は民主化への一歩を踏み出しました。',
-            memo: '※「朝」 : 「(ある方向に)向かう」。 「邁」 : 「足を運ぶ、 踏み出す」。'
+            memo: '※「朝(ㄔㄠˊ/chao2)」 : 「(ある方向に)向かう」。 「邁(ㄇㄞˋ/mai4)」 : 「足を運ぶ、 踏み出す」。'
           },
           {
             word: '投票權',
@@ -294,7 +294,7 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄨㄟˋ ㄒㄧㄚˋ ㄍㄜˋ ㄒㄧㄥ ㄑㄧˊ ㄉㄜ˙ ㄆㄞˋ ㄉㄨㄟˋ ㄓㄨㄣˇ ㄅㄟˋ ㄌㄜ˙ ㄧ ㄐㄧㄢˋ ㄒㄧㄣ ㄑㄩㄣˊ ㄗ˙.',
             pinyin: 'wo3 wei4 xia4 ge4 xing1 qi2 de pai4 dui4 zhun3 bei4 le yi1 jian4 xin1 qun2 zi.',
             translation: '来週のパーティの為に、 ドレスを新調しました。',
-            memo: '※「為」の発音?'
+            memo: '※「為(ㄨㄟˋ/wei4)」の発音?'
           },
           {
             word: '服務',
@@ -350,7 +350,7 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄖㄣˋ ㄨㄟˊ ㄖˋ ㄔㄤˊ ㄕㄥ ㄏㄨㄛˊ ㄉㄜ˙ ㄗㄨㄟˋ ㄐㄧㄚ ㄨㄣ ㄉㄨˋ ㄩㄝ ㄨㄟˋ ㄦˋ ㄕˊ ㄦˋ, ㄙㄢ ㄉㄨˋ.',
             pinyin: 'wo3 ren4 wei2 ri4 chang2 sheng1 huo2 de zui4 jia1 wen1 du4 yue1 wei4 er4 shi2 er4, san1 du4.',
             translation: '日常生活に最適な気温は22、 23度くらいだと思います。',
-            memo: ''
+            memo: '※「約為(ㄩㄝ ㄨㄟˋ/ yue1 wei4)」 : 「約」。'
           },
           {
             word: '推銷員',
@@ -462,7 +462,7 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄉㄜˊ ㄉㄠˋ ㄐㄧㄣˇ ㄒㄧㄢˋ ㄐㄧㄣ ㄊㄧㄢ ㄉㄜ˙ ㄓㄜˊ ㄎㄡˋ ㄆㄧㄠˋ, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄧㄠˋ ㄇㄚˇ ㄕㄤˇ ㄑㄩˋ ㄍㄡˋ ㄨˋ.',
             pinyin: 'wo3 de2 dao4 jin3 xian4 jin1 tian1 de zhe2 kou4 piao4, suo3 yi3 wo3 yao4 ma3 shang4 qu4 gou4 wu4.',
             translation: '本日限定の割引券をゲットしたので、 早速買い物に行ってきます。',
-            memo: ''
+            memo: '※「僅限(ㄐㄧㄣˇ ㄒㄧㄢˋ/jin3 xian4)」 : 「限定する」。'
           },
           {
             word: '連任',
@@ -566,7 +566,7 @@ export default {
             bopomofo: 'ㄊㄚ ㄊㄧˊ ㄗㄠˇ ㄊㄨㄟˋ ㄒㄧㄡ ㄏㄡˋ, ㄗㄞˋ ㄒㄧㄤ ㄒㄧㄚˋ ㄍㄨㄛˋ ㄓㄜ˙ ㄧㄡ ㄒㄧㄢˊ ㄗˋ ㄉㄜˊ ㄕㄥ ㄏㄨㄛˊ.',
             pinyin: 'ta1 ti2 zao3 tui4 xiu1 hou4, zai4 xiang1 xia4 guo4 zhe you1 xian2 zi4 de sheng1 huo2.',
             translation: '彼女は早期リタイアしたあと、 田舎で悠々自適に暮らしています。',
-            memo: '※「悠閒自得」の最後の発音?'
+            memo: '※「悠閒自得(ㄧㄡ ㄒㄧㄢˊ ㄗˋ ㄉㄜˊ/ you1 xian2 zi4 de)」の最後の発音?'
           },
           {
             word: '★事業',
@@ -694,7 +694,7 @@ export default {
             bopomofo: 'ㄧㄡˊ ㄩˊ ㄓˇ ㄓㄤ ㄅㄢˇ ㄅㄣˇ ㄇㄟˊ ㄊㄧˇ ㄉㄜ˙ ㄕㄨㄞ ㄌㄨㄛˋ, ㄔㄨ ㄅㄢˇ ㄕㄜˋ ㄒㄧㄢˋ ㄖㄨˋ ㄌㄜ˙ ㄎㄨㄣˋ ㄐㄧㄥˋ.',
             pinyin: 'you2 yu2 zhi3 zhang1 ban3 ben3 mei2 ti3 de shuai1 luo4, chu1 ban3 she4 xian4 ru4 le kun4 jing4.',
             translation: '紙媒体の衰退によって、 出版社は苦境に立たされています。',
-            memo: '※「版本」 : 「バージョン」。'
+            memo: '※「版本(ㄅㄢˇ ㄅㄣˇ/ban3 ben3)」 : 「バージョン」。'
           },
           {
             word: '★捐出',
