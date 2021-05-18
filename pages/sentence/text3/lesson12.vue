@@ -85,7 +85,7 @@ export default {
             sentence: '我個人對政治沒有太多興趣, 但是覺得去投票是為了盡民主的義務。',
             bopomofo: 'ㄨㄛˇ ㄍㄜˋ ㄖㄣˊ ㄉㄨㄟˋ ㄓㄥˋ ㄓˋ ㄇㄟˊ ㄧㄡˇ ㄊㄞˋ ㄉㄨㄛ ㄒㄧㄥˋ ㄑㄩˋ, ㄉㄢˋ ㄕˋ ㄐㄩㄝˊ ㄉㄜ˙ ㄑㄩˋ ㄊㄡˊ ㄆㄧㄠˋ ㄕˋ ㄨㄟˋ ㄌㄜ˙ ㄐㄧㄣˋ ㄇㄧㄣˊ ㄓㄨˇ ㄉㄜ˙ ㄧˋ ㄨˋ.',
             pinyin: 'wo3 ge4 ren2 dui4 zheng4 zhi4 mei2 you3 tai4 duo1 xing4 qu4, dan4 shi4 jue2 de qu4 tou2 piao4 shi4 wei4 le jin4 min2 zhu3 de yi4 wu4.',
-            translation: '個人的には政治にあまり興味がありませんが、 投票に行く事は民主主義を守る為の義務だと思います。',
+            translation: '個人的には政治にあまり興味がありませんが、 投票に行く事は民主主義の義務を果たす事だと思います。',
             memo: '※「盡(ㄐㄧㄣˋ/jin4)」 = 「(義務などを)果たす」。 発音は4声でOK?'
           },
           {
@@ -125,7 +125,7 @@ export default {
             sentence: '我家有四個人但是所有的事情由媽媽來決定, 這並不民主。',
             bopomofo: 'ㄨㄛˇ ㄐㄧㄚ ㄧㄡˇ ㄙˋ ㄍㄜˋ ㄖㄣˊ ㄉㄢˋ ㄕˋ ㄙㄨㄛˇ ㄧㄡˇ ㄉㄜ˙ ㄕˋ ㄑㄧㄥˊ ㄧㄡˊ ㄇㄚ ㄇㄚ ㄌㄞˊ ㄐㄩㄝˊ ㄉㄧㄥˋ, ㄓㄜˋ ㄅㄧㄥˋ ㄅㄨˋ ㄇㄧㄣˊ ㄓㄨˇ.',
             pinyin: 'wo3 jia1 you3 si4 ge4 ren2 dan4 shi4 suo3 you3 de shi4 qing2 you2 ma1 ma1 lai2 jue2 ding4, zhe4 bing4 bu4 min2 zhu3.',
-            translation: '我が家は四人家族ですが、 お母さんが何もかも決めるので、 あまり民主的ではありません。',
+            translation: '我が家は四人家族ですが、 お母さんが何もかも決めてしまうので、 民主的ではありません。',
             memo: ''
           },
           {
@@ -574,7 +574,7 @@ export default {
             bopomofo: 'ㄊㄚ ㄇㄣ˙ ㄌㄧㄠˊ ㄌㄞˊ ㄌㄧㄠˊ ㄑㄩˋ ㄗㄨㄥˇ ㄕˋ ㄍㄣ ㄒㄧㄣ ㄕˋ ㄧㄝˋ ㄉㄜ˙ ㄓㄨˇ ㄧˋ ㄧㄡˇ ㄍㄨㄢ.',
             pinyin: 'ta1 men liao2 lai2 liao2 qu4 zong3 shi4 gen1 xin1 shi4 ye4 de zhu3 yi4 you3 guan1.',
             translation: '彼らは口々に、 新しいビジネスのアイデアについて話しています。',
-            memo: '※「主意有關(的事)」としなくても、 「有關」だけでOK?'
+            memo: '※「總是」の位置? 「主意有關(的事)」としなくても、 「有關」だけでOK?'
           },
           {
             word: '捐',
