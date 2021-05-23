@@ -76,7 +76,7 @@ export default {
             word: '與其',
             sentence: '我與其在家渾渾噩噩地過一天， 我覺得不如出去。',
             bopomofo: 'ㄨㄛˇ ㄩˇ ㄑㄧˊ ㄗㄞˋ ㄐㄧㄚ ㄏㄨㄣˊ ㄏㄨㄣˊ ㄜˋ ㄜˋ ㄉㄜ˙ ㄍㄨㄛˋ ㄧˋ ㄊㄧㄢ, ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄅㄨˋ ㄖㄨˊ ㄔㄨ ㄑㄩˋ.',
-            pinyin: 'wo3 yu3 qi2 zai4 jia1 hun2 hun2 e4 e4 di4 guo4 yi1 tian1, wo3 jue2 de bu4 ru2 chu1 qu4.',
+            pinyin: 'wo3 yu3 qi2 zai4 jia1 hun2 hun2 e4 e4 de guo4 yi1 tian1, wo3 jue2 de bu4 ru2 chu1 qu4.',
             translation: '家でだらだらと一日を過ごすよりも、 外に出た方がいいと思います。',
             memo: '※「だらだらと」 : 「無所事事(ㄨˊ ㄙㄨㄛˇ ㄕˋ ㄕˋ/wu2 suo3 shi4 shi4)」でも可。'
           },
@@ -315,7 +315,7 @@ export default {
           {
             word: '解決',
             sentence: '他想著想著, 就發現到怎麼解決這個問題了。',
-            bopomofo: 'ㄊㄚ ㄒㄧㄤˇ ㄓㄨㄛˊ ㄒㄧㄤˇ ㄓㄜ˙, ㄐㄧㄡˋ ㄈㄚ ㄒㄧㄢˋ ㄉㄠˋ ㄗㄣˇ ㄇㄜ˙ ㄐㄧㄝˇ ㄐㄩㄝˊ ㄓㄜˋ ㄍㄜˋ ㄨㄣˋ ㄊㄧˊ ㄌㄜ˙.',
+            bopomofo: 'ㄊㄚ ㄒㄧㄤˇ ㄓㄜ˙ ㄒㄧㄤˇ ㄓㄜ˙, ㄐㄧㄡˋ ㄈㄚ ㄒㄧㄢˋ ㄉㄠˋ ㄗㄣˇ ㄇㄜ˙ ㄐㄧㄝˇ ㄐㄩㄝˊ ㄓㄜˋ ㄍㄜˋ ㄨㄣˋ ㄊㄧˊ ㄌㄜ˙.',
             pinyin: 'ta1 xiang3 zhe xiang3 zhe, jiu4 fa1 xian4 dao4 zen3 me jie3 jue2 zhe4 ge4 wen4 ti2 le.',
             translation: '彼は考えて考えて、 この問題をどう解決したらいいか分かりました。',
             memo: '※「V著V著就..了」 : 「..している内に」。'
