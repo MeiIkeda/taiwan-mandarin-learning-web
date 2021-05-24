@@ -348,7 +348,7 @@ export default {
             word: '電腦',
             sentence: '學習新文字的時候電腦鍵盤也有用。',
             bopomofo: 'ㄒㄩㄝˊ ㄒㄧˊ ㄒㄧㄣ ㄨㄣˊ ㄗˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄉㄧㄢˋ ㄋㄠˇ ㄐㄧㄢˋ ㄆㄢˊ ㄧㄝˇ ㄧㄡˇ ㄩㄥˋ.',
-            pinyin: 'xue2 xi2 xin1 wen2 zi4 de shi2 hou4 dian4 nao3 jian4 xuan2 ye3 you3 yong4.',
+            pinyin: 'xue2 xi2 xin1 wen2 zi4 de shi2 hou4 dian4 nao3 jian4 pan2 ye3 you3 yong4.',
             translation: '新しい文字を学ぶ時は、 パソコンのキーボードも有用です。',
             memo: ''
           },
@@ -550,7 +550,7 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄖㄣˋ ㄨㄟˊ ㄓㄨㄢˋ ㄑㄧㄢˊ ㄉㄜ˙ ㄏㄨㄚ ㄧㄢˊ ㄑㄧㄠˇ ㄩˇ ㄊㄨㄥ ㄔㄤˊ ㄕˋ ㄧˊ ㄍㄜˋ ㄒㄧㄢˋ ㄐㄧㄥˇ.',
             pinyin: 'wo3 ren4 wei2 zhuan4 qian2 de hua1 yan2 qiao3 yu3 tong1 chang2 shi4 yi1 ge4 xian4 jing3.',
             translation: 'お金儲けのうまい話は、 大体罠だと思います。',
-            memo: '??'
+            memo: '※??'
           },
           {
             word: '★明星高中',
