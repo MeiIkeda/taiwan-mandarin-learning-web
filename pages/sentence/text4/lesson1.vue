@@ -57,12 +57,12 @@ export default {
             memo: ''
           },
           {
-            word: '聊天室',
+            word: '★聊天室',
             sentence: '甚至在午夜， 有些人也已登錄進聊天室。',
             bopomofo: 'ㄕㄣˋ ㄓˋ ㄗㄞˋ ㄨˇ ㄧㄝˋ, ㄧㄡˇ ㄒㄧㄝ ㄖㄣˊ ㄧㄝˇ ㄧˇ ㄉㄥ ㄌㄨˋ ㄐㄧㄣˋ ㄌㄧㄠˊ ㄊㄧㄢ ㄕˋ.',
             pinyin: 'shen4 zhi4 zai4 wu3 ye4, you3 xie1 ren2 ye3 yi3 deng1 lu4 jin4 liao2 tian1 shi4.',
             translation: '深夜にも関わらず、 チャットルームにログインしている人がいます。',
-            memo: '※「已」 : 「既に」。'
+            memo: '※「已」 : 「既に」。 「まだ」のニュアンスの場合は「有些人還登錄進」の方がいい?'
           },
           {
             word: '上班族',
@@ -89,12 +89,12 @@ export default {
             memo: ''
           },
           {
-            word: '高就',
+            word: '★高就',
             sentence: '教授的令郎也在大學高就。',
             bopomofo: 'ㄐㄧㄠˋ ㄕㄡˋ ㄉㄜ˙ ㄌㄧㄥˋ ㄌㄤˊ ㄧㄝˇ ㄗㄞˋ ㄉㄚˋ ㄒㄩㄝˊ ㄍㄠ ㄐㄧㄡˋ.',
             pinyin: 'jiao4 shou4 de ling4 lang2 ye3 zai4 da4 xue2 gao1 jiu4.',
             translation: '教授のご子息も、 大学で働かれています。',
-            memo: '※令郎（古代用語）  兒子。'
+            memo: '※令郎（古代用語） の「兒子」。 現代語で「ご子息」に相当する表現はある?'
           },
           {
             word: '部門',
@@ -113,12 +113,12 @@ export default {
             memo: ''
           },
           {
-            word: '加班',
+            word: '★加班',
             sentence: '最近我每天都加班, 這樣下去我都快要生病了。',
             bopomofo: 'ㄗㄨㄟˋ ㄐㄧㄣˋ ㄨㄛˇ ㄇㄟˇ ㄊㄧㄢ ㄉㄨ ㄐㄧㄚ ㄅㄢ, ㄓㄜˋ ㄧㄤˋ ㄒㄧㄚˋ ㄑㄩˋ ㄨㄛˇ ㄉㄡ ㄎㄨㄞˋ ㄧㄠˋ ㄕㄥ ㄅㄧㄥˋ ㄌㄜ˙.',
             pinyin: 'zui4 jin4 wo3 mei3 tian1 dou1 jia1 ban1, zhe4 yang4 xia4 qu4 wo3 dou1 kuai4 yao4 sheng1 bing4 le.',
             translation: '最近は残業続きなので、 このままでは病気になってしまいます。',
-            memo: ''
+            memo: '※「都」は必要?'
           },
           {
             word: '類',
@@ -457,12 +457,12 @@ export default {
             memo: ''
           },
           {
-            word: '現實',
+            word: '★現實',
             sentence: '我遭遇過只有一百元得過一個星期的殘酷的現實。',
             bopomofo: 'ㄨㄛˇ ㄗㄠ ㄩˋ ㄍㄨㄛˋ ㄓˇ ㄧㄡˇ ㄧ ㄅㄞˇ ㄩㄢˊ ㄉㄟˇ ㄍㄨㄛˋ ㄧˊ ㄍㄜˋ ㄒㄧㄥ ㄑㄧˊ ㄉㄜ˙ ㄘㄢˊ ㄎㄨˋ ㄉㄜ˙ ㄒㄧㄢˋ ㄕˊ.',
             pinyin: 'wo3 zao1 yu4 guo4 zhi3 you3 yi1 bai3 yuan2 dei3 guo4 yi1 ge4 xing1 qi2 de can2 ku4 de xian4 shi2.',
             translation: 'たった100元で10日過ごさなくてはいけない厳しい現実に直面しています。',
-            memo: ''
+            memo: '※現在の話なら、「遭遇過」ではなく「在遭遇」?'
           },
           {
             word: '心理',
@@ -497,12 +497,12 @@ export default {
             memo: ''
           },
           {
-            word: '喘氣',
+            word: '★喘氣',
             sentence: '因為我缺乏運動， 只是上下樓梯就讓我喘氣了。',
             bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄑㄩㄝ ㄈㄚˊ ㄩㄣˋ ㄉㄨㄥˋ, ㄓˇ ㄕˋ ㄕㄤˋ ㄒㄧㄚˋ ㄌㄡˊ ㄊㄧ ㄐㄧㄡˋ ㄖㄤˋ ㄨㄛˇ ㄔㄨㄢˇ ㄑㄧˋ ㄌㄜ˙.',
             pinyin: 'yin1 wei4 wo3 que1 fa2 yun4 dong4, zhi3 shi4 shang4 xia4 lou2 ti1 jiu4 rang4 wo3 chuan3 qi4 le.',
             translation: '運動不足なので、　階段を上り下りするだけで息が上がってしまいます。',
-            memo: ''
+            memo: '※「喘氣」で「息が上がる、 息が切れる」という意味にもなる?'
           },
           {
             word: '自在',
@@ -585,7 +585,7 @@ export default {
             memo: ''
           },
           {
-            word: '躲進',
+            word: '★躲進',
             sentence: '害羞的孩子躲在媽媽的後面。',
             bopomofo: 'ㄏㄞˋ ㄒㄧㄡ ㄉㄜ˙ ㄏㄞˊ ㄗ˙ ㄉㄨㄛˇ ㄗㄞˋ ㄇㄚ ㄇㄚ ㄉㄜ˙ ㄏㄡˋ ㄇㄧㄢˋ.',
             pinyin: 'hai4 xiu1 de hai2 zi duo3 zai4 ma1 ma1 de hou4 mian4.',
