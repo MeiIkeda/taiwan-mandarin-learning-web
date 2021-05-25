@@ -278,7 +278,7 @@ export default {
             bopomofo: 'ㄊㄚ ㄏㄣˇ ㄎㄨㄣˋ ㄏㄨㄛˋ ㄕˋ ㄑㄩˋ ㄐㄧㄡˋ ㄉㄨˊ ㄧㄢˊ ㄐㄧㄡˋ ㄕㄥ ㄏㄨㄢˊ ㄕˋ ㄓㄠˇ ㄍㄨㄥ ㄗㄨㄛˋ.',
             pinyin: 'ta1 hen3 kun4 huo4 shi4 qu4 jiu4 du2 yan2 jiu4 sheng1 hai2 shi4 zhao3 gong1 zuo4.',
             translation: '彼女は、 大学院へ行くか就職するかで迷っています。',
-            memo: '※「就讀」 : 「～として学ぶ」?'
+            memo: '※「就讀」 : 「～として学ぶ」ニュアンス? 「是」無しだと意味は通じない?'
           },
           {
             word: '不至於',
@@ -482,11 +482,11 @@ export default {
           },
           {
             word: '責備',
-            sentence: '因為我昨天吃了太多大蒜（味道太濃），我受到了大家的責備。',
-            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄗㄨㄛˊ ㄊㄧㄢ ㄔ ㄌㄜ˙ ㄊㄞˋ ㄉㄨㄛ ㄉㄚˋ ㄙㄨㄢˋ (ㄨㄟˋ ㄉㄠˋ ㄊㄞˋ ㄋㄨㄥˊ), ㄨㄛˇ ㄕㄡˋ ㄉㄠˋ ㄌㄜ˙ ㄉㄚˋ ㄐㄧㄚ ㄉㄜ˙ ㄗㄜˊ ㄅㄟˋ.',
-            pinyin: 'yin1 wei4 wo3 zuo2 tian1 chi1 le tai4 duo1 da4 suan4 (wei4 dao4 tai4 nong2), wo3 shou4 dao4 le da4 jia1 de ze2 bei4.',
+            sentence: '因為我昨天吃了太多大蒜，我受到了大家的責備。',
+            bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄗㄨㄛˊ ㄊㄧㄢ ㄔ ㄌㄜ˙ ㄊㄞˋ ㄉㄨㄛ ㄉㄚˋ ㄙㄨㄢˋ, ㄨㄛˇ ㄕㄡˋ ㄉㄠˋ ㄌㄜ˙ ㄉㄚˋ ㄐㄧㄚ ㄉㄜ˙ ㄗㄜˊ ㄅㄟˋ.',
+            pinyin: 'yin1 wei4 wo3 zuo2 tian1 chi1 le tai4 duo1 da4 suan4, wo3 shou4 dao4 le da4 jia1 de ze2 bei4.',
             translation: '昨日食べ過ぎたニンニクの臭いのせいで、 みんなから非難されました。',
-            memo: ''
+            memo: '※ちなみに、 「臭いが強すぎる」は「味道太濃(ㄨㄟˋ ㄉㄠˋ ㄊㄞˋ ㄋㄨㄥˊ/wei4 dao4 tai4 nong2)」。'
           },
           {
             word: '期待',
@@ -550,7 +550,7 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄖㄣˋ ㄨㄟˊ ㄓㄨㄢˋ ㄑㄧㄢˊ ㄉㄜ˙ ㄏㄨㄚ ㄧㄢˊ ㄑㄧㄠˇ ㄩˇ ㄊㄨㄥ ㄔㄤˊ ㄕˋ ㄧˊ ㄍㄜˋ ㄒㄧㄢˋ ㄐㄧㄥˇ.',
             pinyin: 'wo3 ren4 wei2 zhuan4 qian2 de hua1 yan2 qiao3 yu3 tong1 chang2 shi4 yi1 ge4 xian4 jing3.',
             translation: 'お金儲けのうまい話は、 大体罠だと思います。',
-            memo: '※??'
+            memo: '※「花言巧語(ㄏㄨㄚ ㄧㄢˊ ㄑㄧㄠˇ ㄩˇ/hua1 yan2 qiao3 yu3)」は「人をだます甘言」ではない?'
           },
           {
             word: '★明星高中',
@@ -558,7 +558,7 @@ export default {
             bopomofo: 'ㄋㄚˋ ㄍㄜˋ ㄏㄞˊ ㄗ˙ ㄨㄟˋ ㄌㄜ˙ ㄋㄧㄢˋ ㄇㄧㄥˊ ㄒㄧㄥ ㄍㄠ ㄓㄨㄥ ㄇㄨˋ ㄑㄧㄢˊ ㄏㄣˇ ㄋㄨˇ ㄌㄧˋ ㄉㄜ˙ ㄒㄩㄝˊ ㄒㄧˊ.',
             pinyin: 'na4 ge4 hai2 zi wei4 le nian4 ming2 xing1 gao1 zhong1 mu4 qian2 hen3 nu3 li4 de xue2 xi2.',
             translation: 'あの子は、 進学校に行くために一生懸命勉強しています。',
-            memo: '※明星高中=進学校?'
+            memo: '※「明星高中(ㄇㄧㄥˊ ㄒㄧㄥ ㄍㄠ ㄓㄨㄥ/ming2 xing1 gao1 zhong1)」 = 「進学校」?'
           },
           {
             word: '早出晚歸',
