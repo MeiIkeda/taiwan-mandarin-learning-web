@@ -52,7 +52,7 @@ export default {
             word: '眼睛',
             sentence: '因為我的眼睛動不動就乾了， 所以我買了眼藥水。',
             bopomofo: 'ㄧㄣ ㄨㄟˋ ㄨㄛˇ ㄉㄜ˙ ㄧㄢˇ ㄐㄧㄥ ㄉㄨㄥˋ ㄅㄨˊ ㄉㄨㄥˋ ㄐㄧㄡˋ ㄍㄢ ㄌㄜ˙, ㄙㄨㄛˇ ㄧˇ ㄨㄛˇ ㄇㄞˇ ㄌㄜ˙ ㄧㄢˇ ㄧㄠˋ ㄕㄨㄟˇ.',
-            pinyin: 'yin1 wei4 wo3 de yan3 jing1 dong4 bu2 dong4 jiu4 gan1 le, suo3 yi3 wo3 mai3 le/ yan3 yao shui3.',
+            pinyin: 'yin1 wei4 wo3 de yan3 jing1 dong4 bu2 dong4 jiu4 gan1 le, suo3 yi3 wo3 mai3 le yan3 yao4 shui3.',
             translation: '目がすぐに乾くので、 目薬を買いました。',
             memo: ''
           },
@@ -105,12 +105,12 @@ export default {
             memo: ''
           },
           {
-            word: '穿著',
+            word: '★穿著',
             sentence: '我精疲力盡得穿著衣服睡著了。',
             bopomofo: 'ㄨㄛˇ ㄐㄧㄥ ㄆㄧˊ ㄌㄧˋ ㄐㄧㄣˋ ㄉㄜˊ ㄔㄨㄢ ㄓㄨㄛˊ ㄧ ㄈㄨˊ ㄕㄨㄟˋ ㄓㄠˊ ㄌㄜ˙.',
             pinyin: 'wo3 jing1 pi2 li4 jin4 de chuan1 zhuo2 yi1 fu2 shui4 zhao2 le.',
             translation: '私は疲れ果てて、 服を着たまま眠り込んでしまいました。',
-            memo: '※?'
+            memo: '※「穿著(ㄔㄨㄢ ㄓㄨㄛˊ)」ではなく「穿著(ㄔㄨㄢ ㄓㄜ˙)」?'
           },
           {
             word: '丢臉',
@@ -129,20 +129,20 @@ export default {
             memo: ''
           },
           {
-            word: '涼鞋',
+            word: '★涼鞋',
             sentence: '爺爺穿著涼鞋出去散步了。',
             bopomofo: 'ㄧㄝˊ ㄧㄝ˙ ㄔㄨㄢ ㄓㄜ˙ ㄌㄧㄤˊ ㄒㄧㄝˊ ㄔㄨ ㄑㄩˋ ㄙㄢˋ ㄅㄨˋ ㄌㄜ˙.',
             pinyin: 'ye2 ye chuan1 zhe liang2 xie2 chu1 qu4 san4 bu4 le.',
             translation: 'おじいさんは、 サンダルをつっかけて散歩に行きました。',
-            memo: ''
+            memo: '※「靸著(Sǎzhe)」で「(サンダル等を)つっかける」という意味にはならない?'
           },
           {
-            word: '擋',
+            word: '★擋',
             sentence: '這塊遮光窗簾太短了， 不能完全擋住光線。',
             bopomofo: 'ㄓㄜˋ ㄎㄨㄞˋ ㄓㄜ ㄍㄨㄤ ㄔㄨㄤ ㄌㄧㄢˊ ㄊㄞˋ ㄉㄨㄢˇ ㄌㄜ˙, ㄅㄨˋ ㄋㄥˊ ㄨㄢˊ ㄑㄩㄢˊ ㄉㄤˇ ㄓㄨˋ ㄍㄨㄤ ㄒㄧㄢˋ.',
             pinyin: 'zhe4 kuai4 zhe1 guang1 chuang1 lian2 tai4 duan3 le, bu4 neng2 wan2 quan2 dang3 zhu4 guang1 xian4.',
             translation: 'この遮光カーテンは短すぎて、 光を完全に遮ることができません。',
-            memo: ''
+            memo: '※「擋住」の「住」は何?'
           },
           {
             word: '演出者',
@@ -217,12 +217,12 @@ export default {
             memo: ''
           },
           {
-            word: '提',
+            word: '★提',
             sentence: '我希望沒有人提我把劉海剪過頭的事。',
             bopomofo: 'ㄨㄛˇ ㄒㄧ ㄨㄤˋ ㄇㄟˊ ㄧㄡˇ ㄖㄣˊ ㄊㄧˊ ㄨㄛˇ ㄅㄚˇ ㄌㄧㄡˊ ㄏㄞˇ ㄐㄧㄢˇ ㄍㄨㄛˋ ㄊㄡˊ ㄉㄜ˙ ㄕˋ.',
             pinyin: 'wo3 xi1 wang4 mei2 you3 ren2 ti2 wo3 ba3 liu2 hai3 jian3 guo4 tou2 de shi4.',
             translation: '前髪を切りすぎた事に関しては、 あまり触れて欲しくありません。',
-            memo: ''
+            memo: '※「剪頭」で「切る」、 「剪過頭」で「切りすぎる」?'
           },
           {
             word: '咳嗽',
@@ -249,7 +249,7 @@ export default {
             memo: ''
           },
           {
-            word: '水準',
+            word: '★水準',
             sentence: '考不考得上得看考生自己的水準。',
             bopomofo: 'ㄎㄠˇ ㄅㄨˋ ㄎㄠˇ ㄉㄜˊ ㄕㄤˋ ㄉㄟˇ ㄎㄢˋ ㄎㄠˇ ㄕㄥ ㄗˋ ㄐㄧˇ ㄉㄜ˙ ㄕㄨㄟˇ ㄓㄨㄣˇ.',
             pinyin: 'kao3 bu4 kao3 de shang4 dei3 kan4 kao3 sheng1 zi4 ji3 de shui3 zhun3.',
@@ -257,20 +257,20 @@ export default {
             memo: '※「水準、 レベル」 : 「水準」は台湾でよく使われる。 中国では「水平」が多い。'
           },
           {
-            word: '手冊',
+            word: '★手冊',
             sentence: '這本手冊是由前任的來做的。',
             bopomofo: 'ㄓㄜˋ ㄅㄣˇ ㄕㄡˇ ㄘㄜˋ ㄕˋ ㄧㄡˊ ㄑㄧㄢˊ ㄖㄣˋ ㄉㄜ˙ ㄌㄞˊ ㄗㄨㄛˋ ㄉㄜ˙.',
             pinyin: 'zhe4 ben3 shou3 ce4 shi4 you2 qian2 ren4 de lai2 zuo4 de.',
             translation: 'このマニュアルは、 前任者によって作成されました。',
-            memo: ''
+            memo: '※「前任的來做」の「的」は必要?'
           },
           {
-            word: '洗手間',
+            word: '★洗手間',
             sentence: '我忍著不去洗手間太久了， 最後忍出冷汗了。',
             bopomofo: 'ㄨㄛˇ ㄖㄣˇ ㄓㄜ˙ ㄅㄨˊ ㄑㄩˋ ㄒㄧˇ ㄕㄡˇ ㄐㄧㄢ ㄊㄞˋ ㄐㄧㄡˇ ㄌㄜ˙, ㄗㄨㄟˋ ㄏㄡˋ ㄖㄣˇ ㄔㄨ ㄌㄥˇ ㄏㄢˋ ㄌㄜ˙.',
             pinyin: 'wo3 ren3 zhe bu2 qu4 xi3 shou3 jian1 tai4 jiu3 le, zui4 hou4 ren3 chu1 leng3 han4 le.',
             translation: 'トイレに行くのを我慢しすぎて、 ついに冷や汗が出てきました。',
-            memo: ''
+            memo: '※「忍出冷汗」の「忍出」はなぜ「出てくる」という意味になる?'
           },
           {
             word: '提醒',
@@ -282,11 +282,11 @@ export default {
           },
           {
             word: '響',
-            sentence: '他家的門鈴響了，但是似乎沒有人在家。或是（我按了他家的門鈴⋯）',
-            bopomofo: 'ㄊㄚ ㄐㄧㄚ ㄉㄜ˙ ㄇㄣˊ ㄌㄧㄥˊ ㄒㄧㄤˇ ㄌㄜ˙, ㄉㄢˋ ㄕˋ ㄙˋ ㄏㄨ ㄇㄟˊ ㄧㄡˇ ㄖㄣˊ ㄗㄞˋ ㄐㄧㄚ. ㄏㄨㄛˋ ㄕˋ (ㄨㄛˇ ㄢˋ ㄌㄜ˙ ㄊㄚ ㄐㄧㄚ ㄉㄜ˙ ㄇㄣˊ ㄌㄧㄥˊ).',
-            pinyin: 'ta1 jia1 de men2 ling2 xiang3 le, dan4 shi4 si4 hu1 mei2 you3 ren2 zai4 jia1. huo4 shi4 (wo3 an4 le ta1 jia1 de men2 ling2).',
+            sentence: '他家的門鈴響了，但是似乎沒有人在家。',
+            bopomofo: 'ㄊㄚ ㄐㄧㄚ ㄉㄜ˙ ㄇㄣˊ ㄌㄧㄥˊ ㄒㄧㄤˇ ㄌㄜ˙, ㄉㄢˋ ㄕˋ ㄙˋ ㄏㄨ ㄇㄟˊ ㄧㄡˇ ㄖㄣˊ ㄗㄞˋ ㄐㄧㄚ.',
+            pinyin: 'ta1 jia1 de men2 ling2 xiang3 le, dan4 shi4 si4 hu1 mei2 you3 ren2 zai4 jia1.',
             translation: '家の呼び鈴を鳴らしましたが、 留守のようでした。',
-            memo: ''
+            memo: '※「呼び鈴を押す」 : 「我按了他家的門鈴(ㄨㄛˇ ㄢˋ ㄌㄜ˙ ㄊㄚ ㄐㄧㄚ ㄉㄜ˙ ㄇㄣˊ ㄌㄧㄥˊ/wo3 an4 le ta1 jia1 de men2 ling2)」でも可。'
           },
           {
             word: '糟',
@@ -313,7 +313,7 @@ export default {
             memo: ''
           },
           {
-            word: '聯絡感情',
+            word: '★聯絡感情',
             sentence: '他們通過運動加深了感情。',
             bopomofo: 'ㄊㄚ ㄇㄣ˙ ㄊㄨㄥ ㄍㄨㄛˋ ㄩㄣˋ ㄉㄨㄥˋ ㄐㄧㄚ ㄕㄣ ㄌㄜ˙ ㄍㄢˇ ㄑㄧㄥˊ.',
             pinyin: 'ta1 men tong1 guo4 yun4 dong4 jia1 shen1 le gan3 qing2.',
@@ -382,7 +382,7 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄓˇ ㄅㄨˊ ㄍㄨㄛˋ ㄌㄧㄠˇ ㄐㄧㄝˇ ㄧ ㄉㄧㄢˇ ㄍㄨˇ ㄉㄧㄢˇ ㄧㄣ ㄩㄝˋ ㄦˊ ㄧˇ, ㄨㄛˇ ㄅㄧˇ ㄐㄧㄠˋ ㄔㄤˊ ㄊㄧㄥ ㄌㄧㄡˊ ㄒㄧㄥˊ ㄧㄣ ㄩㄝˋ.',
             pinyin: 'wo3 zhi3 bu2 guo4 liao3 jie3 yi1 dian3 gu3 dian3 yin1 yue4 er2 yi3, wo3 bi3 jiao4 chang2 ting1 liu2 xing2 yin1 yue4.',
             translation: 'クラシック音楽については少ししか知りませんが、 ポップならよく聴きます。',
-            memo: ''
+            memo: '※「只不過(ㄓˇ ㄅㄨˊ ㄍㄨㄛˋ/zhi3 bu2 guo4)～」 : 「ただ～にすぎない」。'
           },
           {
             word: '畫家',
@@ -404,22 +404,22 @@ export default {
             word: '舞蹈',
             sentence: '她在舞蹈上是個無可爭議的天才。',
             bopomofo: 'ㄊㄚ ㄗㄞˋ ㄨˇ ㄉㄠˇ ㄕㄤˋ ㄕˋ ㄍㄜˋ ㄨˊ ㄎㄜˇ ㄓㄥ ㄧˋ ㄉㄜ˙ ㄊㄧㄢ ㄘㄞˊ.',
-            pinyin: 'ta1 zai4 wu3 dao3 shang4 shi4 ge4 wu2 ke3 zheng1 yi4 de4 tian1 cai2.',
+            pinyin: 'ta1 zai4 wu3 dao3 shang4 shi4 ge4 wu2 ke3 zheng1 yi4 de tian1 cai2.',
             translation: '彼女は、 ダンスに関しては誰もが求める天才です。',
-            memo: ''
+            memo: '※「無可爭議(ㄨˊ ㄎㄜˇ ㄓㄥ ㄧˋ/wu2 ke3 zheng1 yi4)」 : 「議論の余地のない」。'
           },
           {
-            word: '文學',
+            word: '★文學',
             sentence: '被選為傑出獎的是一位年輕作家的文學作品。',
-            bopomofo: 'ㄅㄟˋ ㄒㄩㄢˇ ㄨㄟˋ ㄐㄧㄝˊ ㄔㄨ ㄐㄧㄤˇ ㄉㄜ˙ ㄕˋ ㄧ ㄨㄟˋ ㄋㄧㄢˊ ㄑㄧㄥ ㄗㄨㄛˋ ㄐㄧㄚ ㄉㄜ˙ ㄨㄣˊ ㄒㄩㄝˊ ㄗㄨㄛˋ ㄆㄧㄣˇ.',
-            pinyin: 'bei4 xuan3 wei4 jie2 chu1 jiang3 de shi4 yi1 wei4 nian2 qing1 zuo4 jia1 de wen2 xue2 zuo4 pin3.',
+            bopomofo: 'ㄅㄟˋ ㄒㄩㄢˇ ㄨㄟˊ ㄐㄧㄝˊ ㄔㄨ ㄐㄧㄤˇ ㄉㄜ˙ ㄕˋ ㄧ ㄨㄟˋ ㄋㄧㄢˊ ㄑㄧㄥ ㄗㄨㄛˋ ㄐㄧㄚ ㄉㄜ˙ ㄨㄣˊ ㄒㄩㄝˊ ㄗㄨㄛˋ ㄆㄧㄣˇ.',
+            pinyin: 'bei4 xuan3 wei2 jie2 chu1 jiang3 de shi4 yi1 wei4 nian2 qing1 zuo4 jia1 de wen2 xue2 zuo4 pin3.',
             translation: '優秀賞に選ばれたのは、 若い作家の文学作品でした。',
-            memo: ''
+            memo: '※ポジティブな文でも「被」は使える?'
           },
           {
             word: '繪畫',
             sentence: '這張繪畫太精緻了， 簡直就像一張照片。',
-            bopomofo: 'ㄓㄜˋ ㄓㄤ ㄏㄨㄟˋ ㄏㄨㄚˋ ㄊㄞˋ ㄐㄧㄥ ㄓˋ ㄌㄜ˙, ㄐㄧㄢˇ ㄓˊ ㄐㄧㄡˋ ㄒㄧㄤˋ ㄧ ㄓㄤ ㄓㄠˋ ㄆㄧㄢ.',
+            bopomofo: 'ㄓㄜˋ ㄓㄤ ㄏㄨㄟˋ ㄏㄨㄚˋ ㄊㄞˋ ㄐㄧㄥ ㄓˋ ㄌㄜ˙, ㄐㄧㄢˇ ㄓˊ ㄐㄧㄡˋ ㄒㄧㄤˋ ㄧ ㄓㄤ ㄓㄠˋ ㄆㄧㄢˋ.',
             pinyin: 'zhe4 zhang1 hui4 hua4 tai4 jing1 zhi4 le, jian3 zhi2 jiu4 xiang4 yi1 zhang1 zhao4 pian4.',
             translation: 'この絵は精巧すぎて、 まるで写真のように見えます。',
             memo: ''
@@ -442,9 +442,9 @@ export default {
           },
           {
             word: '表現',
-            sentence: '不只是言語， 表情等也能表現心情。',
-            bopomofo: 'ㄅㄨˋ ㄓˇ ㄕˋ ㄧㄢˊ ㄩˇ, ㄅㄧㄠˇ ㄑㄧㄥˊ ㄉㄥˇ ㄧㄝˇ ㄋㄥˊ ㄅㄧㄠˇ ㄒㄧㄢˋ ㄒㄧㄣ ㄑㄧㄥˊ.',
-            pinyin: 'bu4 zhi3 shi4 yan2 yu3, biao3 qing2 deng3 ye3 neng2 biao3 xian4 xin1 qing2.',
+            sentence: '不只是語言， 表情等也能表現心情。',
+            bopomofo: 'ㄅㄨˋ ㄓˇ ㄕˋ ㄩˇ ㄧㄢˊ, ㄅㄧㄠˇ ㄑㄧㄥˊ ㄉㄥˇ ㄧㄝˇ ㄋㄥˊ ㄅㄧㄠˇ ㄒㄧㄢˋ ㄒㄧㄣ ㄑㄧㄥˊ.',
+            pinyin: 'bu4 zhi3 shi4 yu3 yan2, biao3 qing2 deng3 ye3 neng2 biao3 xian4 xin1 qing2.',
             translation: '言葉だけではなく、 表情などでも気持ちを表現できます。',
             memo: ''
           },
@@ -457,20 +457,20 @@ export default {
             memo: ''
           },
           {
-            word: '劇情',
+            word: '★劇情',
             sentence: '我還沒看連續劇的最新集， 所以別洩露劇情。',
             bopomofo: 'ㄨㄛˇ ㄏㄞˊ ㄇㄟˊ ㄎㄢˋ ㄌㄧㄢˊ ㄒㄩˋ ㄐㄩˋ ㄉㄜ˙ ㄗㄨㄟˋ ㄒㄧㄣ ㄐㄧˊ, ㄙㄨㄛˇ ㄧˇ ㄅㄧㄝˊ ㄒㄧㄝˋ ㄌㄨˋ ㄐㄩˋ ㄑㄧㄥˊ.',
             pinyin: 'wo3 hai2 mei2 kan4 lian2 xu4 ju4 de zui4 xin1 ji2, suo3 yi3 bie2 yi4 lu4 ju4 qing2.',
             translation: '連続ドラマの最新エピソードはまだ見ていないので、 ネタバレはやめて下さい。',
-            memo: '※「洩露」の発音?'
+            memo: '※「洩露」の発音は「xie4 lu4」または「yi4 lu4」どっち?'
           },
           {
-            word: '導演',
+            word: '★導演',
             sentence: '電影導演對演員的表演並不十分信服， 一遍又一遍地重新拍攝同一場景。',
             bopomofo: 'ㄉㄧㄢˋ ㄧㄥˇ ㄉㄠˇ ㄧㄢˇ ㄉㄨㄟˋ ㄧㄢˇ ㄩㄢˊ ㄉㄜ˙ ㄅㄧㄠˇ ㄧㄢˇ ㄅㄧㄥˋ ㄅㄨˋ ㄕˊ ㄈㄣ ㄒㄧㄣˋ ㄈㄨˊ, ㄧ ㄅㄧㄢˋ ㄧㄡˋ ㄧ ㄅㄧㄢˋ ㄉㄜ˙ ㄔㄨㄥˊ ㄒㄧㄣ ㄆㄞ ㄕㄜˋ ㄊㄨㄥˊ ㄧ ㄔㄤˇ ㄐㄧㄥˇ.',
             pinyin: 'dian4 ying3 dao3 yan3 dui4 yan3 yuan2 de biao3 yan3 bing4 bu4 shi2 fen1 xin4 fu2, yi1 bian4 you4 yi1 bian4 de chong2/zhong4 xin1 pai1 she4 tong2 yi1 chang3 jing3.',
             translation: '映画監督は役者の演技に中々納得がいかず、 同じシーンを何度も撮り直しています。',
-            memo: '※「重新」の発音?'
+            memo: '※「重新」の発音は「chong2/zhong4 xin1」どっち? 「信服(Xìnfú)」と「幸福(xìngfú)」の音の違いが分からない。'
           },
           {
             word: '所',
@@ -492,7 +492,7 @@ export default {
             word: '明星',
             sentence: '他一個明星在外面走的時候總是被要求握手。',
             bopomofo: 'ㄊㄚ ㄧ ㄍㄜˋ ㄇㄧㄥˊ ㄒㄧㄥ ㄗㄞˋ ㄨㄞˋ ㄇㄧㄢˋ ㄗㄡˇ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄗㄨㄥˇ ㄕˋ ㄅㄟˋ ㄧㄠ ㄑㄧㄡˊ ㄨㄛˋ ㄕㄡˇ.',
-            pinyin: 'ta1 yi1 ge4 ming2 xing1 zai4 wai4 mian4 zou3 de shi2 hou4 zong3 shi4 bei4 yao4 qiu2 wo4 shou3.',
+            pinyin: 'ta1 yi1 ge4 ming2 xing1 zai4 wai4 mian4 zou3 de shi2 hou4 zong3 shi4 bei4 yao1 qiu2 wo4 shou3.',
             translation: '大スターの彼は、 外を歩けばいつも握手を求められます。',
             memo: ''
           },
@@ -502,7 +502,7 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄐㄩㄝˊ ㄉㄜ˙ ㄒㄧㄣ ㄔㄨ ㄧㄢˇ ㄉㄜ˙ ㄧㄢˇ ㄩㄢˊ ㄏㄣˇ ㄎㄨˋ, ㄓˋ ㄩˊ ㄧㄢˇ ㄐㄧˋ ㄏㄠˇ ㄅㄨˋ ㄏㄠˇ ㄨㄛˇ ㄇㄟˊ ㄧㄡˇ ㄧˋ ㄐㄧㄢˋ.',
             pinyin: 'wo3 jue2 de xin1 chu1 yan3 de yan3 yuan2 hen3 ku4, zhi4 yu2 yan3 ji4 hao3 bu4 hao3 wo3 mei2 you3 yi4 jian4.',
             translation: '新しい俳優はとてもかっこいいと思いますが、 演技についてはノーコメントです。',
-            memo: ''
+            memo: '※「至於(ㄓˋ ㄩˊ/zhi4 yu2 )～」 : 「～はどうかと言うと」。'
           },
           {
             word: '得',
@@ -523,10 +523,10 @@ export default {
           {
             word: '廣場',
             sentence: '在廣場上， 一個看起來很閒的叔叔正在餵鳥。',
-            bopomofo: 'ㄗㄞˋ ㄍㄨㄤˇ ㄔㄤˇ ㄕㄤˋ, ㄧ ㄍㄜˋ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄏㄣˇ ㄒㄧㄢˊ ㄉㄜ˙ ㄕㄨˊ ㄕㄨˊ ㄓㄥˋ ㄗㄞˋ ㄨㄟˋ ㄋㄧㄠˇ.',
-            pinyin: 'zai4 guang3 chang3 shang4, yi1 ge4 kan4 qi3 lai2 hen3 xian2 de shu2 shu2 zheng4 zai4 wei4 niao3.',
+            bopomofo: 'ㄗㄞˋ ㄍㄨㄤˇ ㄔㄤˇ ㄕㄤˋ, ㄧ ㄍㄜˋ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄏㄣˇ ㄒㄧㄢˊ ㄉㄜ˙ ㄕㄨˊ ㄕㄨ˙ ㄓㄥˋ ㄗㄞˋ ㄨㄟˋ ㄋㄧㄠˇ.',
+            pinyin: 'zai4 guang3 chang3 shang4, yi1 ge4 kan4 qi3 lai2 hen3 xian2 de shu2 shu zheng4 zai4 wei4 niao3.',
             translation: '広場では、 暇そうなおじさんが鳥に餌をやっています。',
-            memo: '※「叔叔」の発音?'
+            memo: ''
           },
           {
             word: '或',
@@ -619,8 +619,8 @@ export default {
           {
             word: '無人不知無人不曉',
             sentence: '這家餐廳現在有名了像無人不知， 無人不曉。',
-            bopomofo: 'ㄓㄜˋ ㄐㄧㄚ ㄘㄢ ㄊㄧㄥ ㄒㄧㄢˋ ㄗㄞˋ ㄧㄡˇ ㄇㄧㄥˊ ㄌㄜ˙ ㄒㄧㄤˋ ㄨˊ ㄖㄣˊ ㄅㄨˋ ㄓ   ㄨˊ ㄖㄣˊ ㄅㄨˋ ㄒㄧㄠˇ.',
-            pinyin: 'zhe4 jia1 can1 ting1 xian4 zai4 you3 ming2 le/liao3 xiang4 wu2 ren2 bu2/bu4 zhi1 wu2 ren2 bu2/bu4 xiao3.',
+            bopomofo: 'ㄓㄜˋ ㄐㄧㄚ ㄘㄢ ㄊㄧㄥ ㄒㄧㄢˋ ㄗㄞˋ ㄧㄡˇ ㄇㄧㄥˊ ㄌㄜ˙ ㄒㄧㄤˋ ㄨˊ ㄖㄣˊ ㄅㄨˋ ㄓ, ㄨˊ ㄖㄣˊ ㄅㄨˋ ㄒㄧㄠˇ.',
+            pinyin: 'zhe4 jia1 can1 ting1 xian4 zai4 you3 ming2 le xiang4 wu2 ren2 bu4 zhi1, wu2 ren2 bu4 xiao3.',
             translation: 'その店は、 今や知らない人がいないくらい有名になりました。',
             memo: ''
           },
@@ -633,12 +633,12 @@ export default {
             memo: ''
           },
           {
-            word: '老街',
+            word: '★老街',
             sentence: '這周圍是一個古樸的老街， 晚上的氣氛很好。',
             bopomofo: 'ㄓㄜˋ ㄓㄡ ㄨㄟˊ ㄕˋ ㄧˊ ㄍㄜˋ ㄍㄨˇ ㄆㄨˇ ㄉㄜ˙ ㄌㄠˇ ㄐㄧㄝ, ㄨㄢˇ ㄕㄤˋ ㄉㄜ˙ ㄑㄧˋ ㄈㄣ ㄏㄣˇ ㄏㄠˇ.',
             pinyin: 'zhe4 zhou1 wei2 shi4 yi1 ge4 gu3 pu3 de lao3 jie1, wan3 shang4 de qi4 fen1 hen3 hao3.',
             translation: 'この辺りは趣のある古い街で、 夜はとても雰囲気が良いです。',
-            memo: '※「古樸(ㄍㄨˇ ㄆㄨˇ)」の発音?'
+            memo: '※「古樸(ㄍㄨˇ ㄆㄨˇ)」 : 「趣のある」の発音?'
           },
           {
             word: '街頭藝術',
