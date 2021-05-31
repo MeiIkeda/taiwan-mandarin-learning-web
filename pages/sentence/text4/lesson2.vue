@@ -110,11 +110,11 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄐㄧㄥ ㄆㄧˊ ㄌㄧˋ ㄐㄧㄣˋ ㄉㄜˊ ㄔㄨㄢ ㄓㄨㄛˊ ㄧ ㄈㄨˊ ㄕㄨㄟˋ ㄓㄠˊ ㄌㄜ˙.',
             pinyin: 'wo3 jing1 pi2 li4 jin4 de chuan1 zhuo2 yi1 fu2 shui4 zhao2 le.',
             translation: '私は疲れ果てて、 服を着たまま眠り込んでしまいました。',
-            memo: '※「穿著(ㄔㄨㄢ ㄓㄨㄛˊ)」ではなく「穿著(ㄔㄨㄢ ㄓㄜ˙)」?'
+            memo: '※「精疲力盡(ㄐㄧㄥ ㄆㄧˊ ㄌㄧˋ ㄐㄧㄣˋ/jing1 pi2 li4 jin4)」 : 「くたばる」。 「穿著(ㄔㄨㄢ ㄓㄨㄛˊ)」ではなく「穿著(ㄔㄨㄢ ㄓㄜ˙)」?'
           },
           {
             word: '丢臉',
-            sentence: '我在街上華麗地摔倒了， 丢脸死了。',
+            sentence: '我在街上華麗地摔倒了， 丢臉死了。',
             bopomofo: 'ㄨㄛˇ ㄗㄞˋ ㄐㄧㄝ ㄕㄤˋ ㄏㄨㄚˊ ㄌㄧˋ ㄉㄜ˙ ㄕㄨㄞ ㄉㄠˇ ㄌㄜ˙, ㄉㄧㄡ ㄌㄧㄢˇ ㄙˇ ㄌㄜ˙.',
             pinyin: 'wo3 zai4 jie1 shang4 hua2 li4 de shuai1 dao3 le, diu1 lian3 si3 le.',
             translation: '街中で派手に転んでしまって、 恥をかきました。',
@@ -134,7 +134,7 @@ export default {
             bopomofo: 'ㄧㄝˊ ㄧㄝ˙ ㄔㄨㄢ ㄓㄜ˙ ㄌㄧㄤˊ ㄒㄧㄝˊ ㄔㄨ ㄑㄩˋ ㄙㄢˋ ㄅㄨˋ ㄌㄜ˙.',
             pinyin: 'ye2 ye chuan1 zhe liang2 xie2 chu1 qu4 san4 bu4 le.',
             translation: 'おじいさんは、 サンダルをつっかけて散歩に行きました。',
-            memo: '※「靸著(Sǎzhe)」で「(サンダル等を)つっかける」という意味にはならない?'
+            memo: '※「靸著(sa3 zhe)」で「(サンダル等を)つっかける」という意味にはならない?'
           },
           {
             word: '★擋',
@@ -145,12 +145,12 @@ export default {
             memo: '※「擋住」の「住」は何?'
           },
           {
-            word: '演出者',
+            word: '★演出者',
             sentence: '他曾作為演出者在多個舞台上演出。',
             bopomofo: 'ㄊㄚ ㄘㄥˊ ㄗㄨㄛˋ ㄨㄟˊ ㄧㄢˇ ㄔㄨ ㄓㄜˇ ㄗㄞˋ ㄉㄨㄛ ㄍㄜˋ ㄨˇ ㄊㄞˊ ㄕㄤˋ ㄧㄢˇ ㄔㄨ.',
             pinyin: 'ta1 ceng2 zuo4 wei2 yan3 chu1 zhe3 zai4 duo1 ge4 wu3 tai2 shang4 yan3 chu1.',
             translation: '彼はパフォーマーとして多くの舞台に出演しました。',
-            memo: ''
+            memo: '※「曾」は「曾經」の「曾」?'
           },
           {
             word: '尊重',
@@ -177,12 +177,12 @@ export default {
             memo: ''
           },
           {
-            word: '中場',
+            word: '★中場',
             sentence: '從中場休息後， 遊戲的流程改變了。',
             bopomofo: 'ㄘㄨㄥˊ ㄓㄨㄥ ㄔㄤˇ ㄒㄧㄡ ㄒㄧˊ ㄏㄡˋ, ㄧㄡˊ ㄒㄧˋ ㄉㄜ˙ ㄌㄧㄡˊ ㄔㄥˊ ㄍㄞˇ ㄅㄧㄢˋ ㄌㄜ˙.',
             pinyin: 'cong2 zhong1 chang3 xiu1 xi2 hou4, you2 xi4 de liu2 cheng2 gai3 bian4 le.',
             translation: 'ハーフタイムの後から、 ゲームの流れが変わりました。',
-            memo: ''
+            memo: '※「試合」の意図の場合は「比賽」がベター?'
           },
           {
             word: '準時',
@@ -326,7 +326,7 @@ export default {
             bopomofo: 'ㄋㄢˊ ㄉㄠˋ ㄋㄧˇ ㄩㄥˋ ㄨㄛˇ ㄉㄜ˙ ㄕㄡˇ ㄆㄚˋ ㄒㄧㄥˇ ㄅㄧˊ ㄊㄧˋ ㄇㄚ˙?',
             pinyin: 'nan2 dao4 ni3 yong4 wo3 de shou3 pa4 xing3 bi2 ti4 ma?',
             translation: 'まさか、 私のハンカチで鼻をかんだんじゃないでしょうね?',
-            memo: ''
+            memo: '※「鼻涕(ㄅㄧˊ ㄊㄧˋ/bi2 ti4)」は「鼻水」、 「擤鼻涕(ㄒㄧㄥˇ ㄅㄧˊ ㄊㄧˋ/xing3 bi2 ti4)」で「鼻をかむ」。'
           },
           {
             word: '場',
@@ -459,10 +459,10 @@ export default {
           {
             word: '★劇情',
             sentence: '我還沒看連續劇的最新集， 所以別洩露劇情。',
-            bopomofo: 'ㄨㄛˇ ㄏㄞˊ ㄇㄟˊ ㄎㄢˋ ㄌㄧㄢˊ ㄒㄩˋ ㄐㄩˋ ㄉㄜ˙ ㄗㄨㄟˋ ㄒㄧㄣ ㄐㄧˊ, ㄙㄨㄛˇ ㄧˇ ㄅㄧㄝˊ ㄒㄧㄝˋ ㄌㄨˋ ㄐㄩˋ ㄑㄧㄥˊ.',
-            pinyin: 'wo3 hai2 mei2 kan4 lian2 xu4 ju4 de zui4 xin1 ji2, suo3 yi3 bie2 yi4 lu4 ju4 qing2.',
+            bopomofo: 'ㄨㄛˇ ㄏㄞˊ ㄇㄟˊ ㄎㄢˋ ㄌㄧㄢˊ ㄒㄩˋ ㄐㄩˋ ㄉㄜ˙ ㄗㄨㄟˋ ㄒㄧㄣ ㄐㄧˊ, ㄙㄨㄛˇ ㄧˇ ㄅㄧㄝˊ ㄒㄧㄝˋ ㄌㄡˋ ㄐㄩˋ ㄑㄧㄥˊ.',
+            pinyin: 'wo3 hai2 mei2 kan4 lian2 xu4 ju4 de zui4 xin1 ji2, suo3 yi3 bie2 xie4 lou4 ju4 qing2.',
             translation: '連続ドラマの最新エピソードはまだ見ていないので、 ネタバレはやめて下さい。',
-            memo: '※「洩露」の発音は「xie4 lu4」または「yi4 lu4」どっち?'
+            memo: '※「洩露」の発音は「xie4 lou4」または「yi4 lou4」どっち?'
           },
           {
             word: '★導演',
