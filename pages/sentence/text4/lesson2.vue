@@ -403,8 +403,8 @@ export default {
           {
             word: '舞蹈',
             sentence: '她在舞蹈上是個無可爭議的天才。',
-            bopomofo: 'ㄊㄚ ㄗㄞˋ ㄨˇ ㄉㄠˇ ㄕㄤˋ ㄕˋ ㄍㄜˋ ㄨˊ ㄎㄜˇ ㄓㄥ ㄧˋ ㄉㄜ˙ ㄊㄧㄢ ㄘㄞˊ.',
-            pinyin: 'ta1 zai4 wu3 dao3 shang4 shi4 ge4 wu2 ke3 zheng1 yi4 de tian1 cai2.',
+            bopomofo: 'ㄊㄚ ㄗㄞˋ ㄨˇ ㄉㄠˋ ㄕㄤˋ ㄕˋ ㄍㄜˋ ㄨˊ ㄎㄜˇ ㄓㄥ ㄧˋ ㄉㄜ˙ ㄊㄧㄢ ㄘㄞˊ.',
+            pinyin: 'ta1 zai4 wu3 dao4 shang4 shi4 ge4 wu2 ke3 zheng1 yi4 de tian1 cai2.',
             translation: '彼女は、 ダンスに関しては誰もが求める天才です。',
             memo: '※「無可爭議(ㄨˊ ㄎㄜˇ ㄓㄥ ㄧˋ/wu2 ke3 zheng1 yi4)」 : 「議論の余地のない」。'
           },
@@ -427,8 +427,8 @@ export default {
           {
             word: '等',
             sentence: '隨著肚子餓了, 像油炸食物等的油膩的食物更想吃了。',
-            bopomofo: 'ㄙㄨㄟˊ ㄓㄜ˙ ㄉㄨˇ ㄗ˙ ㄜˋ ㄌㄜ˙, ㄒㄧㄤˋ ㄧㄡˊ ㄓㄚˊ ㄕˊ ㄨˋ ㄉㄥˇ ㄉㄜ˙ ㄧㄡˊ ㄋㄧˋ ㄉㄜ˙ ㄕˊ ㄨˋ ㄍㄥˋ ㄒㄧㄤˇ ㄔ ㄌㄜ˙.',
-            pinyin: 'sui2 zhe du4 zi e4 le, xiang4 you2 zha2 shi2 wu4 deng3 de you2 ni4 de shi2 wu4 geng4 xiang3 chi1 le.',
+            bopomofo: 'ㄙㄨㄟˊ ㄓㄜ˙ ㄉㄨˇ ㄗ˙ ㄜˋ ㄌㄜ˙, ㄒㄧㄤˋ ㄧㄡˊ ㄓㄚˋ ㄕˊ ㄨˋ ㄉㄥˇ ㄉㄜ˙ ㄧㄡˊ ㄋㄧˋ ㄉㄜ˙ ㄕˊ ㄨˋ ㄍㄥˋ ㄒㄧㄤˇ ㄔ ㄌㄜ˙.',
+            pinyin: 'sui2 zhe du4 zi e4 le, xiang4 you2 zha4 shi2 wu4 deng3 de you2 ni4 de shi2 wu4 geng4 xiang3 chi1 le.',
             translation: 'お腹がすくにつれ、 揚げ物のような脂っこい食べ物が食べたくなります。',
             memo: ''
           },
@@ -468,9 +468,9 @@ export default {
             word: '★導演',
             sentence: '電影導演對演員的表演並不十分信服， 一遍又一遍地重新拍攝同一場景。',
             bopomofo: 'ㄉㄧㄢˋ ㄧㄥˇ ㄉㄠˇ ㄧㄢˇ ㄉㄨㄟˋ ㄧㄢˇ ㄩㄢˊ ㄉㄜ˙ ㄅㄧㄠˇ ㄧㄢˇ ㄅㄧㄥˋ ㄅㄨˋ ㄕˊ ㄈㄣ ㄒㄧㄣˋ ㄈㄨˊ, ㄧ ㄅㄧㄢˋ ㄧㄡˋ ㄧ ㄅㄧㄢˋ ㄉㄜ˙ ㄔㄨㄥˊ ㄒㄧㄣ ㄆㄞ ㄕㄜˋ ㄊㄨㄥˊ ㄧ ㄔㄤˇ ㄐㄧㄥˇ.',
-            pinyin: 'dian4 ying3 dao3 yan3 dui4 yan3 yuan2 de biao3 yan3 bing4 bu4 shi2 fen1 xin4 fu2, yi1 bian4 you4 yi1 bian4 de chong2/zhong4 xin1 pai1 she4 tong2 yi1 chang3 jing3.',
+            pinyin: 'dian4 ying3 dao3 yan3 dui4 yan3 yuan2 de biao3 yan3 bing4 bu4 shi2 fen1 xin4 fu2, yi1 bian4 you4 yi1 bian4 de chong2 xin1 pai1 she4 tong2 yi1 chang3 jing3.',
             translation: '映画監督は役者の演技に中々納得がいかず、 同じシーンを何度も撮り直しています。',
-            memo: '※「重新」の発音は「chong2/zhong4 xin1」どっち? 「信服(Xìnfú)」と「幸福(xìngfú)」の音の違いが分からない。'
+            memo: '※「重ねて、 もう一度」 : 「重新」の発音は「chong2 xin1」でOK? 「信服(Xìnfú)」と「幸福(xìngfú)」の音の違いが分からない。'
           },
           {
             word: '所',
