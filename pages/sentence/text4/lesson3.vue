@@ -89,7 +89,7 @@ export default {
             memo: ''
           },
           {
-            word: '身材',
+            word: '★身材',
             sentence: '他的個子中等， 成績也很普通。',
             bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄍㄜˋ ㄗ˙ ㄓㄨㄥ ㄉㄥˇ, ㄔㄥˊ ㄐㄧ ㄧㄝˇ ㄏㄣˇ ㄆㄨˇ ㄊㄨㄥ.',
             pinyin: 'ta1 de ge4 zi zhong1 deng3, cheng2 ji1 ye3 hen3 pu3 tong1.',
@@ -99,16 +99,16 @@ export default {
           {
             word: '模特兒',
             sentence: '她為了變成模特兒兩個星期只喝水, 簡直瘋了。',
-            bopomofo: 'ㄊㄚ ㄨㄟˋ ㄌㄜ˙ ㄅㄧㄢˋ ㄔㄥˊ ㄇㄛˊ ㄊㄜˋ ㄦˊ ㄌㄧㄤˇ ㄍㄜˋ ㄒㄧㄥ ㄑㄧˊ ㄓˇ ㄏㄜ ㄕㄨㄟˇ, ㄐㄧㄢˇ ㄓˊ ㄈㄥ ㄌㄜ˙.',
-            pinyin: 'ta1 wei4 le bian4 cheng2 mo2 te4 er2 liang3 ge4 xing1 qi2 zhi3 he1 shui3, jian3 zhi2 feng1 le.',
+            bopomofo: 'ㄊㄚ ㄨㄟˋ ㄌㄜ˙ ㄅㄧㄢˋ ㄔㄥˊ ㄇㄛˊ ㄊㄜˋ ㄦ ㄌㄧㄤˇ ㄍㄜˋ ㄒㄧㄥ ㄑㄧˊ ㄓˇ ㄏㄜ ㄕㄨㄟˇ, ㄐㄧㄢˇ ㄓˊ ㄈㄥ ㄌㄜ˙.',
+            pinyin: 'ta1 wei4 le bian4 cheng2 mo2 te4 er liang3 ge4 xing1 qi2 zhi3 he1 shui3, jian3 zhi2 feng1 le.',
             translation: '彼女はモデルになるため2週間水しか飲んでおらず、 全くもってクレイジーです。',
             memo: ''
           },
           {
             word: '不見得',
             sentence: '玫瑰不見得都是紅色的。',
-            bopomofo: 'ㄇㄟˊ ㄍㄨㄟ ㄅㄨˊ ㄐㄧㄢˋ ㄉㄜ˙ ㄉㄡ ㄕˋ ㄏㄨㄥˊ ㄙㄜˋ ㄉㄜ˙.',
-            pinyin: 'mei2 gui1 bu2 jian4 de dou1 shi4 hong2 se4 de.',
+            bopomofo: 'ㄇㄟˊ ㄍㄨㄟ ㄅㄨˊ ㄐㄧㄢˋ ㄉㄜˊ ㄉㄡ ㄕˋ ㄏㄨㄥˊ ㄙㄜˋ ㄉㄜ˙.',
+            pinyin: 'mei2 gui1 bu2 jian4 de2 dou1 shi4 hong2 se4 de.',
             translation: 'バラは必ずしも赤いわけではありません。',
             memo: ''
           },
@@ -139,8 +139,8 @@ export default {
           {
             word: '★落差',
             sentence: '小卷跟花枝那種烏賊的名字有什麼差別?',
-            bopomofo: 'ㄒㄧㄠˇ ㄐㄩㄢˋ ㄍㄣ ㄏㄨㄚ ㄓ ㄋㄚˋ ㄓㄨㄥˇ ㄨ ㄗㄟˊ ㄉㄜ˙ ㄇㄧㄥˊ ㄗˋ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄔㄚ ㄅㄧㄝˊ?',
-            pinyin: 'xiao3 juan4 gen1 hua1 zhi1 na4 zhong3 wu1 zei2 de ming2 zi4 you3 shen2 me cha1 bie2?',
+            bopomofo: 'ㄒㄧㄠˇ ㄐㄩㄢˋ ㄍㄣ ㄏㄨㄚ ㄓ ㄋㄚˋ ㄓㄨㄥˇ ㄨ ㄗㄟˊ ㄉㄜ˙ ㄇㄧㄥˊ ㄗ˙ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄔㄚ ㄅㄧㄝˊ?',
+            pinyin: 'xiao3 juan4 gen1 hua1 zhi1 na4 zhong3 wu1 zei2 de ming2 zi you3 shen2 me cha1 bie2?',
             translation: '小巻や花枝のような、 イカの名称の違いは何なのでしょうか?',
             memo: '※「落差」は使えない?'
           },
@@ -153,12 +153,12 @@ export default {
             memo: ''
           },
           {
-            word: '資訊',
+            word: '★資訊',
             sentence: '資訊收集能力以及邏輯思維在任何工作中都是必不可少的。',
             bopomofo: 'ㄗ ㄒㄩㄣˋ ㄕㄡ ㄐㄧˊ ㄋㄥˊ ㄌㄧˋ ㄧˇ ㄐㄧˊ ㄌㄨㄛˊ ㄐㄧ˙ ㄙ ㄨㄟˊ ㄗㄞˋ ㄖㄣˋ ㄏㄜˊ ㄍㄨㄥ ㄗㄨㄛˋ ㄓㄨㄥ ㄉㄡ ㄕˋ ㄅㄧˋ ㄅㄨˋ ㄎㄜˇ ㄕㄠˇ ㄉㄜ˙.',
             pinyin: 'zi1 xun4 shou1 ji2 neng2 li4 yi3 ji2 luo2 ji2 si1 wei2 zai4 ren4 he2 gong1 zuo4 zhong1 dou1 shi4 bi4 bu4 ke3 shao3 de.',
             translation: '情報収集能力と論理的思考はどんな仕事にも不可欠です。',
-            memo: '※「不可欠なもの」 : 「不可少的(ㄅㄨˋ ㄎㄜˇ ㄕㄠˇ ㄉㄜ˙/bu4 ke3 shao3 de)」または「不可或缺(ㄅㄨˋ ㄎㄜˇ ㄏㄨㄛˋ ㄑㄩㄝ/bu4 ke3 huo4 que1)」でも可。'
+            memo: '※「不可欠なもの」 : 「必不可少的(ㄅㄧˋ ㄅㄨˋ ㄎㄜˇ ㄕㄠˇ ㄉㄜ˙/bi4 bu4 ke3 shao3 de)」または「不可或缺(ㄅㄨˋ ㄎㄜˇ ㄏㄨㄛˋ ㄑㄩㄝ/bu4 ke3 huo4 que1)」でも可。'
           },
           {
             word: '★疑問',
@@ -197,7 +197,7 @@ export default {
             sentence: '難道你後悔喝醉後失去記憶嗎?',
             bopomofo: 'ㄋㄢˊ ㄉㄠˋ ㄋㄧˇ ㄏㄡˋ ㄏㄨㄟˇ ㄏㄜ ㄗㄨㄟˋ ㄏㄡˋ ㄕ ㄑㄩˋ ㄐㄧˋ ㄧˋ ㄇㄚ˙?',
             pinyin: 'nan2 dao4 ni3 hou4 hui3 he1 zui4 hou4 shi1 qu4 ji4 yi4 ma?',
-            translation: 'まさか、 酔って記憶を失くした事を後悔しているんですか?。',
+            translation: 'まさか、 酔って記憶を失くした事を後悔しているんですか?',
             memo: ''
           },
           {
@@ -219,8 +219,8 @@ export default {
           {
             word: '駭客',
             sentence: '個人信息被盜可能是駭客的行徑。',
-            bopomofo: 'ㄍㄜˋ ㄖㄣˊ ㄒㄧㄣˋ ㄒㄧ ㄅㄟˋ ㄉㄠˋ ㄎㄜˇ ㄋㄥˊ ㄕˋ ㄏㄞˋ ㄎㄜˋ ㄉㄜ˙ ㄒㄧㄥˊ ㄐㄧㄥˋ.',
-            pinyin: 'ge4 ren2 xin4 xi1 bei4 dao4 ke3 neng2 shi4 hai4 ke4 de xing2 jing4.',
+            bopomofo: 'ㄍㄜˋ ㄖㄣˊ ㄒㄧㄣˋ ㄒㄧˊ ㄅㄟˋ ㄉㄠˋ ㄎㄜˇ ㄋㄥˊ ㄕˋ ㄏㄞˋ ㄎㄜˋ ㄉㄜ˙ ㄒㄧㄥˊ ㄐㄧㄥˋ.',
+            pinyin: 'ge4 ren2 xin4 xi2 bei4 dao4 ke3 neng2 shi4 hai4 ke4 de xing2 jing4.',
             translation: '個人情報が盗まれたのは、 ハッカーの仕業かもしれません。',
             memo: ''
           },
@@ -275,8 +275,8 @@ export default {
           {
             word: '付款',
             sentence: '您想一次性付款還是分期付款?',
-            bopomofo: 'ㄋㄧㄣˊ ㄒㄧㄤˇ ㄧˊ ㄘˋ ㄒㄧㄥˋ ㄈㄨˋ ㄎㄨㄢˇ ㄏㄞˊ ㄕˋ ㄈㄣ ㄑㄧ ㄈㄨˋ ㄎㄨㄢˇ?',
-            pinyin: 'nin2 xiang3 yi1 ci4 xing4 fu4 kuan3 hai2 shi4 fen1 qi1 fu4 kuan3?',
+            bopomofo: 'ㄋㄧㄣˊ ㄒㄧㄤˇ ㄧˊ ㄘˋ ㄒㄧㄥˋ ㄈㄨˋ ㄎㄨㄢˇ ㄏㄞˊ ㄕˋ ㄈㄣ ㄑㄧˊ ㄈㄨˋ ㄎㄨㄢˇ?',
+            pinyin: 'nin2 xiang3 yi1 ci4 xing4 fu4 kuan3 hai2 shi4 fen1 qi2 fu4 kuan3?',
             translation: '一括か、 それとも分割払いにしますか?',
             memo: ''
           },
@@ -307,7 +307,7 @@ export default {
           {
             word: '退换',
             sentence: '你到底退换尺寸不合適的鞋子了沒?',
-            bopomofo: 'ㄋㄧˇ ㄉㄠˋ ㄉㄧˇ ㄊㄨㄟˋ ㄏㄨㄢˋ ㄔˇ ㄘㄨㄣˋ ㄅㄨˋ ㄏㄜˊ ㄕˋ ㄉㄜ˙ ㄒㄧㄝˊ ㄗˇ ㄌㄜ˙ ㄇㄟˊ?',
+            bopomofo: 'ㄋㄧˇ ㄉㄠˋ ㄉㄧˇ ㄊㄨㄟˋ ㄏㄨㄢˋ ㄔˇ ㄘㄨㄣˋ ㄅㄨˋ ㄏㄜˊ ㄕˋ ㄉㄜ˙ ㄒㄧㄝˊ ㄗ˙ ㄌㄜ˙ ㄇㄟˊ?',
             pinyin: 'ni3 dao4 di3 tui4 huan4 chi3 cun4 bu4 he2 shi4 de xie2 zi le mei2?',
             translation: '結局、 サイズが合わなかった靴は返品したのですか?',
             memo: ''
@@ -540,7 +540,7 @@ export default {
             word: '與',
             sentence: '巴士票， 我們有普通的與一日券兩種。',
             bopomofo: 'ㄅㄚ ㄕˋ ㄆㄧㄠˋ, ㄨㄛˇ ㄇㄣ˙ ㄧㄡˇ ㄆㄨˇ ㄊㄨㄥ ㄉㄜ˙ ㄩˇ ㄧ ㄖˋ ㄑㄩㄢˋ ㄌㄧㄤˇ ㄓㄨㄥˇ.',
-            pinyin: 'ba1 shi4 piao4, wo3 men you3 pu3 tong1 de yu2 yi1 ri4 quan4 liang3 zhong3.',
+            pinyin: 'ba1 shi4 piao4, wo3 men you3 pu3 tong1 de yu3 yi1 ri4 quan4 liang3 zhong3.',
             translation: 'バスのチケットには、 普通乗車券および1日乗車券の2種類があります。',
             memo: ''
           },
@@ -553,12 +553,12 @@ export default {
             memo: ''
           },
           {
-            word: '盯',
+            word: '★盯',
             sentence: '被所有人盯著看， 如果地上有一個地洞我想鑽進去。',
             bopomofo: 'ㄅㄟˋ ㄙㄨㄛˇ ㄧㄡˇ ㄖㄣˊ ㄉㄧㄥ ㄓㄜ˙ ㄎㄢˋ, ㄖㄨˊ ㄍㄨㄛˇ ㄉㄧˋ ㄕㄤˋ ㄧㄡˇ ㄧˊ ㄍㄜˋ ㄉㄧˋ ㄉㄨㄥˋ ㄨㄛˇ ㄒㄧㄤˇ ㄗㄨㄢ ㄐㄧㄣˋ ㄑㄩˋ.',
-            pinyin: 'bei4 suo3 you3 ren2 ding1 zhe kan4, ru2 guo3 di4 shang4 you3 yi1 ge4 di4 dong4 wo3 xiang3 zuan4 jin4 qu4.',
+            pinyin: 'bei4 suo3 you3 ren2 ding1 zhe kan4, ru2 guo3 di4 shang4 you3 yi1 ge4 di4 dong4 wo3 xiang3 zuan1 jin4 qu4.',
             translation: 'みんなにじっと見られて、 穴があったら入りたいです。',
-            memo: ''
+            memo: '※「鑽進去」の発音は「ㄗㄨㄢ ㄐㄧㄣˋ ㄑㄩˋ」?'
           },
           {
             word: '螢幕',
@@ -598,7 +598,7 @@ export default {
             bopomofo: 'ㄔ ㄐㄧㄢˇ ㄉㄢ ㄉㄜ˙ ㄘㄞˋ ㄉㄨㄟˋ ㄕㄣ ㄊㄧˇ ㄐㄧㄢˋ ㄎㄤ, ㄘˇ ㄨㄞˋ ㄧㄝˇ ㄎㄜˇ ㄧˇ ㄕㄥˇ ㄑㄧㄢˊ.',
             pinyin: 'chi1 jian3 dan1 de cai4 dui4 shen1 ti3 jian4 kang1, ci3 wai4 ye3 ke3 yi3 sheng3 qian2.',
             translation: '質素なおかずは健康的な事に加え、 お金の節約にもなります。',
-            memo: '※「簡樸(ian3 pu3)」は一体どうやって使うのか。'
+            memo: '※「簡樸(jian3 pu3)」は一体どうやって使うのか。'
           },
           {
             word: '戶外',
@@ -649,12 +649,12 @@ export default {
             memo: ''
           },
           {
-            word: '無形中',
+            word: '★無形中',
             sentence: '我本是狗教， 卻無形中變成了貓教。',
             bopomofo: 'ㄨㄛˇ ㄅㄣˇ ㄕˋ ㄍㄡˇ ㄐㄧㄠˋ， ㄑㄩㄝˋ ㄨˊ ㄒㄧㄥˊ ㄓㄨㄥ ㄅㄧㄢˋ ㄔㄥˊ ㄌㄜ˙ ㄇㄠ ㄐㄧㄠˋ.',
             pinyin: 'wo3 ben3 shi4 gou3 jiao4, que4 wu2 xing2 zhong1 bian4 cheng2 le mao1 jiao4.',
             translation: '元々犬派だったのですが、 知らず知らずのうちに猫派になっていました。',
-            memo: ''
+            memo: '※この「教」の発音は?'
           },
           {
             word: '遠距教學',
