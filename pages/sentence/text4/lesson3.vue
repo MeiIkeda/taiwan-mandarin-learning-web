@@ -83,7 +83,7 @@ export default {
           {
             word: '划算',
             sentence: '平常包三個的凍肉包子今天包五個， 很划算。',
-            bopomofo: 'ㄆㄧㄥˊ ㄔㄤˊ ㄅㄠ ㄙㄢ ㄍㄜ˙ ㄉㄜ˙ ㄉㄨㄥˋ ㄖㄡˋ ㄅㄠ ㄗ˙ ㄐㄧㄣ ㄊㄧㄢ ㄅㄠ ㄨˇ ㄍㄜˋ, ㄏㄣˇ ㄏㄨㄚˊ ㄙㄨㄢˋ.',
+            bopomofo: 'ㄆㄧㄥˊ ㄔㄤˊ ㄅㄠ ㄙㄢ ㄍㄜ˙ ㄉㄜˋ ㄉㄨㄥˋ ㄖㄡˋ ㄅㄠ ㄗ˙ ㄐㄧㄣ ㄊㄧㄢ ㄅㄠ ㄨˇ ㄍㄜˋ, ㄏㄣˇ ㄏㄨㄚˊ ㄙㄨㄢˋ.',
             pinyin: 'ping2 chang2 bao1 san1 ge4 de dong4 rou4 bao1 zi jin1 tian1 bao1 wu3 ge4, hen3 hua2 suan4.',
             translation: 'いつもは3個入りの冷凍肉まんが今日は同じ値段で5個入りなので、 すごくお得です。',
             memo: ''
@@ -155,7 +155,7 @@ export default {
           {
             word: '★資訊',
             sentence: '資訊收集能力以及邏輯思維在任何工作中都是必不可少的。',
-            bopomofo: 'ㄗ ㄒㄩㄣˋ ㄕㄡ ㄐㄧˊ ㄋㄥˊ ㄌㄧˋ ㄧˇ ㄐㄧˊ ㄌㄨㄛˊ ㄐㄧ˙ ㄙ ㄨㄟˊ ㄗㄞˋ ㄖㄣˋ ㄏㄜˊ ㄍㄨㄥ ㄗㄨㄛˋ ㄓㄨㄥ ㄉㄡ ㄕˋ ㄅㄧˋ ㄅㄨˋ ㄎㄜˇ ㄕㄠˇ ㄉㄜ˙.',
+            bopomofo: 'ㄗ ㄒㄩㄣˋ ㄕㄡ ㄐㄧˊ ㄋㄥˊ ㄌㄧˋ ㄧˇ ㄐㄧˊ ㄌㄨㄛˊ ㄐㄧˊ ㄙ ㄨㄟˊ ㄗㄞˋ ㄖㄣˋ ㄏㄜˊ ㄍㄨㄥ ㄗㄨㄛˋ ㄓㄨㄥ ㄉㄡ ㄕˋ ㄅㄧˋ ㄅㄨˋ ㄎㄜˇ ㄕㄠˇ ㄉㄜ˙.',
             pinyin: 'zi1 xun4 shou1 ji2 neng2 li4 yi3 ji2 luo2 ji2 si1 wei2 zai4 ren4 he2 gong1 zuo4 zhong1 dou1 shi4 bi4 bu4 ke3 shao3 de.',
             translation: '情報収集能力と論理的思考はどんな仕事にも不可欠です。',
             memo: '※「不可欠なもの」 : 「必不可少的(ㄅㄧˋ ㄅㄨˋ ㄎㄜˇ ㄕㄠˇ ㄉㄜ˙/bi4 bu4 ke3 shao3 de)」または「不可或缺(ㄅㄨˋ ㄎㄜˇ ㄏㄨㄛˋ ㄑㄩㄝ/bu4 ke3 huo4 que1)」でも可。'
@@ -395,8 +395,8 @@ export default {
           {
             word: '高速公路',
             sentence: '高速公路動不動就塞車了， 我們盡快出發吧。',
-            bopomofo: 'ㄍㄠ ㄙㄨˋ ㄍㄨㄥ ㄌㄨˋ ㄉㄨㄥˋ ㄅㄨˊ ㄉㄨㄥˋ ㄐㄧㄡˋ ㄙㄞ ㄔㄜ ㄌㄜ˙, ㄨㄛˇ ㄇㄣ˙ ㄐㄧㄣˇ ㄎㄨㄞˋ ㄔㄨ ㄈㄚ ㄅㄚ˙.',
-            pinyin: 'gao1 su4 gong1 lu4 dong4 bu2 dong4 jiu4 sai1 che1 le, wo3 men jin3 kuai4 chu1 fa1 ba.',
+            bopomofo: 'ㄍㄠ ㄙㄨˋ ㄍㄨㄥ ㄌㄨˋ ㄉㄨㄥˋ ㄅㄨˊ ㄉㄨㄥˋ ㄐㄧㄡˋ ㄙㄞ ㄔㄜ ㄌㄜ˙, ㄨㄛˇ ㄇㄣ˙ ㄐㄧㄣˋ ㄎㄨㄞˋ ㄔㄨ ㄈㄚ ㄅㄚ˙.',
+            pinyin: 'gao1 su4 gong1 lu4 dong4 bu2 dong4 jiu4 sai1 che1 le, wo3 men jin4 kuai4 chu1 fa1 ba.',
             translation: '高速はすぐに渋滞するので、 なるべく早く出発しましょう。',
             memo: ''
           },
