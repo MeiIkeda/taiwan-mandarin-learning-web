@@ -89,12 +89,12 @@ export default {
             memo: ''
           },
           {
-            word: '★身材',
-            sentence: '他的個子中等， 成績也很普通。',
-            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄍㄜˋ ㄗ˙ ㄓㄨㄥ ㄉㄥˇ, ㄔㄥˊ ㄐㄧ ㄧㄝˇ ㄏㄣˇ ㄆㄨˇ ㄊㄨㄥ.',
-            pinyin: 'ta1 de ge4 zi zhong1 deng3, cheng2 ji1 ye3 hen3 pu3 tong1.',
+            word: '身材',
+            sentence: '他的個子， 身材中等， 成績也很普通。',
+            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄍㄜˋ ㄗ˙, ㄕㄣ ㄘㄞˊ ㄓㄨㄥ ㄉㄥˇ, ㄔㄥˊ ㄐㄧ ㄧㄝˇ ㄏㄣˇ ㄆㄨˇ ㄊㄨㄥ.',
+            pinyin: 'ta1 de ge4 zi, shen1 cai2 zhong1 deng3, cheng2 ji4 ye3 hen3 pu3 tong1.',
             translation: '彼は中肉中背で、 成績も普通です。',
-            memo: '※「中肉中背」 : 「身材」を使って「中等身材」では駄目?'
+            memo: '※「個子(ㄍㄜˋ ㄗ˙/ge4 zi)」 : 「背が高いか低いか」。 「身材(ㄕㄣ ㄘㄞˊ/shen1 cai2)」 : 「太っているか痩せているか」。'
           },
           {
             word: '模特兒',
@@ -137,12 +137,12 @@ export default {
             memo: ''
           },
           {
-            word: '★落差',
-            sentence: '小卷跟花枝那種烏賊的名字有什麼差別?',
-            bopomofo: 'ㄒㄧㄠˇ ㄐㄩㄢˋ ㄍㄣ ㄏㄨㄚ ㄓ ㄋㄚˋ ㄓㄨㄥˇ ㄨ ㄗㄟˊ ㄉㄜ˙ ㄇㄧㄥˊ ㄗ˙ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄔㄚ ㄅㄧㄝˊ?',
-            pinyin: 'xiao3 juan4 gen1 hua1 zhi1 na4 zhong3 wu1 zei2 de ming2 zi you3 shen2 me cha1 bie2?',
-            translation: '小巻や花枝のような、 イカの名称の違いは何なのでしょうか?',
-            memo: '※「落差」は使えない?'
+            word: '落差',
+            sentence: '她的在外面的穿著和在家的穿著的落差很大。',
+            bopomofo: 'ㄊㄚ ㄉㄜ˙ ㄗㄞˋ ㄨㄞˋ ㄇㄧㄢˋ ㄉㄜ˙ ㄔㄨㄢ ㄓㄨㄛˊ ㄏㄢˋ ㄗㄞˋ ㄐㄧㄚ ㄉㄜ˙ ㄔㄨㄢ ㄓㄨㄛˊ ㄉㄜ˙ ㄌㄨㄛˋ ㄔㄚˋ ㄏㄣˇ ㄉㄚˋ.',
+            pinyin: 'ta1 de zai4 wai4 mian4 de chuan1 zhuo2 han4 zai4 jia1 de chuan1 zhuo2 de luo4 cha1 hen3 da4.',
+            translation: '彼女の外での服装と家での服装には大きなギャップがあります。',
+            memo: ''
           },
           {
             word: '提供',
@@ -153,7 +153,7 @@ export default {
             memo: ''
           },
           {
-            word: '★資訊',
+            word: '資訊',
             sentence: '資訊收集能力以及邏輯思維在任何工作中都是必不可少的。',
             bopomofo: 'ㄗ ㄒㄩㄣˋ ㄕㄡ ㄐㄧˊ ㄋㄥˊ ㄌㄧˋ ㄧˇ ㄐㄧˊ ㄌㄨㄛˊ ㄐㄧˊ ㄙ ㄨㄟˊ ㄗㄞˋ ㄖㄣˋ ㄏㄜˊ ㄍㄨㄥ ㄗㄨㄛˋ ㄓㄨㄥ ㄉㄡ ㄕˋ ㄅㄧˋ ㄅㄨˋ ㄎㄜˇ ㄕㄠˇ ㄉㄜ˙.',
             pinyin: 'zi1 xun4 shou1 ji2 neng2 li4 yi3 ji2 luo2 ji2 si1 wei2 zai4 ren4 he2 gong1 zuo4 zhong1 dou1 shi4 bi4 bu4 ke3 shao3 de.',
@@ -161,12 +161,12 @@ export default {
             memo: '※「不可欠なもの」 : 「必不可少的(ㄅㄧˋ ㄅㄨˋ ㄎㄜˇ ㄕㄠˇ ㄉㄜ˙/bi4 bu4 ke3 shao3 de)」または「不可或缺(ㄅㄨˋ ㄎㄜˇ ㄏㄨㄛˋ ㄑㄩㄝ/bu4 ke3 huo4 que1)」でも可。'
           },
           {
-            word: '★疑問',
-            sentence: '每個客人都各自提問， 員工好像很忙的樣子。',
-            bopomofo: 'ㄇㄟˇ ㄍㄜˋ ㄎㄜˋ ㄖㄣˊ ㄉㄡ ㄍㄜˋ ㄗˋ ㄊㄧˊ ㄨㄣˋ, ㄩㄢˊ ㄍㄨㄥ ㄏㄠˇ ㄒㄧㄤˋ ㄏㄣˇ ㄇㄤˊ ㄉㄜ˙ ㄧㄤˋ ㄗ˙.',
-            pinyin: 'mei3 ge4 ke4 ren2 dou1 ge4 zi4 ti2 wen4, yuan2 gong1 hao3 xiang4 hen3 mang2 de yang4 zi.',
-            translation: 'お客さんが口々に質問をするので、 スタッフは大変忙しそうです。',
-            memo: '※「疑問」は使えない?'
+            word: '疑問',
+            sentence: '如果你有疑問, 在網路上先查詢, 再問別人。',
+            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄋㄧˇ ㄧㄡˇ ㄧˊ ㄨㄣˋ, ㄗㄞˋ ㄨㄤˇ ㄌㄨˋ ㄕㄤˋ ㄒㄧㄢ ㄔㄚˊ ㄒㄩㄣˊ, ㄗㄞˋ ㄨㄣˋ ㄅㄧㄝˊ ㄖㄣˊ.',
+            pinyin: 'ru2 guo3 ni3 you3 yi2 wen4, zai4 wang3 lu4 shang4 xian1 cha2 xun2, zai4 wen4 bie2 ren2.',
+            translation: '分からない事があったら、 まずネットで調べてから人に聞いてください。',
+            memo: ''
           },
           {
             word: '嘛',
@@ -182,7 +182,7 @@ export default {
             bopomofo: 'ㄨㄛˇ ㄧˇ ㄐㄧㄥ ㄊㄧㄥ ㄍㄨㄢˋ ㄌㄜ˙ ㄊㄚ ㄉㄜ˙ ㄨˇ ㄧㄣ ㄅㄨˋ ㄑㄩㄢˊ ㄉㄜ˙ ㄍㄜ ㄕㄥ.',
             pinyin: 'wo3 yi3 jing1 ting1 guan4 le ta1 de wu3 yin1 bu4 quan2 de ge1 sheng1.',
             translation: '彼の音痴な歌声はもう聞きなれました。',
-            memo: ''
+            memo: '※「音痴」はそのまま「音痴（ㄧㄣ ㄔ/yin1 chi1)」でも可。 「方向音痴」は「路痴(ㄌㄨˋ ㄔ/lu4 chi1)」。'
           },
           {
             word: '瀏覽',
@@ -233,12 +233,12 @@ export default {
             memo: ''
           },
           {
-            word: '★認證',
+            word: '認證',
             sentence: '我無意中忘記了用來認證了的密碼。',
             bopomofo: 'ㄨㄛˇ ㄨˊ ㄧˋ ㄓㄨㄥ ㄨㄤˋ ㄐㄧˋ ㄌㄜ˙ ㄩㄥˋ ㄌㄞˊ ㄖㄣˋ ㄓㄥˋ ㄌㄜ˙ ㄉㄜ˙ ㄇㄧˋ ㄇㄚˇ.',
             pinyin: 'wo3 wu2 yi4 zhong1 wang4 ji4 le yong4 lai2 ren4 zheng4 le de mi4 ma3.',
             translation: '認証に使用していたパスワードをうっかり忘れてしまいました。',
-            memo: '※「うっかり」 : 「無意中(ㄨˊ ㄧˋ ㄓㄨㄥ/wu2 yi4 zhong1)」でも「不小心(ㄅㄨˋ ㄒㄧㄠˇ ㄒㄧㄣ/bu4 xiao3 xin1)」でも可?'
+            memo: '※「うっかり」 : 「無意中(ㄨˊ ㄧˋ ㄓㄨㄥ/wu2 yi4 zhong1)」でも「不小心(ㄅㄨˋ ㄒㄧㄠˇ ㄒㄧㄣ/bu4 xiao3 xin1)」でも可。'
           },
           {
             word: '銀髮族',
@@ -282,9 +282,9 @@ export default {
           },
           {
             word: '雲端科技',
-            sentence: '雲端科技方面發展得很快， 最近幾年在世界上發生了很大變化。',
-            bopomofo: 'ㄩㄣˊ ㄉㄨㄢ ㄎㄜ ㄐㄧˋ ㄈㄤ ㄇㄧㄢˋ ㄈㄚ ㄓㄢˇ ㄉㄜ˙ ㄏㄣˇ ㄎㄨㄞˋ, ㄗㄨㄟˋ ㄐㄧㄣˋ ㄐㄧˇ ㄋㄧㄢˊ ㄗㄞˋ ㄕˋ ㄐㄧㄝˋ ㄕㄤ˙ ㄈㄚ ㄕㄥ ㄌㄜ˙ ㄏㄣˇ ㄉㄚˋ ㄅㄧㄢˋ ㄏㄨㄚˋ.',
-            pinyin: 'yun2 duan1 ke1 ji4 fang1 mian4 fa1 zhan3 de hen3 kuai4, zui4 jin4 ji3 nian2 zai4 shi4 jie4 shang4 fa1 sheng1 le hen3 da4 bian4 hua4.',
+            sentence: '雲端科技的技術發展得很快， 最近幾年在世界上發生了很大變化。',
+            bopomofo: 'ㄩㄣˊ ㄉㄨㄢ ㄎㄜ ㄐㄧˋ ㄉㄜ˙ ㄐㄧˋ ㄕㄨˋ ㄈㄚ ㄓㄢˇ ㄉㄜ˙ ㄏㄣˇ ㄎㄨㄞˋ, ㄗㄨㄟˋ ㄐㄧㄣˋ ㄐㄧˇ ㄋㄧㄢˊ ㄗㄞˋ ㄕˋ ㄐㄧㄝˋ ㄕㄤ˙ ㄈㄚ ㄕㄥ ㄌㄜ˙ ㄏㄣˇ ㄉㄚˋ ㄅㄧㄢˋ ㄏㄨㄚˋ.',
+            pinyin: 'yun2 duan1 ke1 ji4 de ji4 shu4 fa1 zhan3 de hen3 kuai4, zui4 jin4 ji3 nian2 zai4 shi4 jie4 shang4 fa1 sheng1 le hen3 da4 bian4 hua4.',
             translation: 'クラウド技術の急速な発展により、 ここ数年で世の中は随分変わりました。',
             memo: ''
           },
@@ -322,9 +322,9 @@ export default {
           },
           {
             word: '縮短',
-            sentence: '如果處理得這麼粗暴， 會縮短機器的使用壽命。',
-            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄔㄨˇ ㄌㄧˇ ㄉㄜ˙ ㄓㄜˋ ㄇㄜ˙ ㄘㄨ ㄅㄠˋ, ㄏㄨㄟˋ ㄙㄨㄛ ㄉㄨㄢˇ ㄐㄧ ㄑㄧˋ ㄉㄜ˙ ㄕˇ ㄩㄥˋ ㄕㄡˋ ㄇㄧㄥˋ.',
-            pinyin: 'ru2 guo3 chu3 li3 de zhe4 me cu1 bao4, hui4 suo1 duan3 ji1 qi4 de shi3 yong4 shou4 ming4.',
+            sentence: '如果處理得這麼粗糙， 會縮短機器的使用壽命。',
+            bopomofo: 'ㄖㄨˊ ㄍㄨㄛˇ ㄔㄨˇ ㄌㄧˇ ㄉㄜ˙ ㄓㄜˋ ㄇㄜ˙ ㄘㄨ ㄘㄠ, ㄏㄨㄟˋ ㄙㄨㄛ ㄉㄨㄢˇ ㄐㄧ ㄑㄧˋ ㄉㄜ˙ ㄕˇ ㄩㄥˋ ㄕㄡˋ ㄇㄧㄥˋ.',
+            pinyin: 'ru2 guo3 chu3 li3 de zhe4 me cu1 cao1, hui4 suo1 duan3 ji1 qi4 de shi3 yong4 shou4 ming4.',
             translation: 'そんなに雑に扱うと、 機械の寿命を縮めますよ。',
             memo: ''
           },
@@ -337,12 +337,12 @@ export default {
             memo: ''
           },
           {
-            word: '★距離',
-            sentence: '在計算兩點之間的距離的測驗中， 問題被側出來了。',
-            bopomofo: 'ㄗㄞˋ ㄐㄧˋ ㄙㄨㄢˋ ㄌㄧㄤˇ ㄉㄧㄢˇ ㄓ ㄐㄧㄢ ㄉㄜ˙ ㄐㄩˋ ㄌㄧˊ ㄉㄜ˙ ㄘㄜˋ ㄧㄢˋ ㄓㄨㄥ, ㄨㄣˋ ㄊㄧˊ ㄅㄟˋ ㄘㄜˋ ㄔㄨ ㄌㄞˊ ㄌㄜ˙.',
-            pinyin: 'zai4 ji4 suan4 liang3 dian3 zhi1 jian1 de ju4 li4 de ce4 yan4 zhong1, wen4 ti2 bei4 ce4 chu1 lai2 le.',
-            translation: '二点の距離を求める問題がテストで出ました。',
-            memo: '訳文正しい??'
+            word: '距離',
+            sentence: '在考卷上計算兩點之間的距離的問題出現了。',
+            bopomofo: 'ㄗㄞˋ ㄎㄠˇ ㄐㄩㄢˋ ㄕㄤˋ ㄐㄧˋ ㄙㄨㄢˋ ㄌㄧㄤˇ ㄉㄧㄢˇ ㄓ ㄐㄧㄢ ㄉㄜ˙ ㄐㄩˋ ㄌㄧˊ ㄉㄜ˙ ㄨㄣˋ ㄊㄧˊ ㄔㄨ ㄒㄧㄢˋ ㄌㄜ˙.',
+            pinyin: 'zai4 kao3 juan4 shang4 ji4 suan4 liang3 dian3 zhi1 jian1 de ju4 li4 de wen4 ti2 chu1 xian4 le.',
+            translation: '二点間の距離を求める問題がテストで出ました。',
+            memo: ''
           },
           {
             word: '取代',
@@ -366,21 +366,21 @@ export default {
             bopomofo: 'ㄧㄥˇ ㄐㄧˊ ㄉㄜ˙ ㄓㄨˇ ㄔˊ ㄖㄣˊ ㄏㄨㄢˋ ㄌㄜ˙ ㄧˊ ㄍㄜˋ ㄒㄧㄣ ㄖㄣˊ ㄌㄜ˙.',
             pinyin: 'ying3 ji2 de zhu3 chi2 ren2 huan4 le yi1 ge4 xin1 ren2 le.',
             translation: 'テレビシリーズの司会者が、 新しい人に代わりました。',
-            memo: ''
+            memo: '※「テレビシリーズ」 : 「影集(ㄧㄥˇ ㄐㄧˊ/ying3 ji)」または「電視劇(ㄉㄧㄢˋ電ㄕˋ視ㄐㄩˋ/dian4 shi4 ju4)」。'
           },
           {
             word: '取得',
-            sentence: '要是我能取得假期， 我會出國旅行。',
-            bopomofo: 'ㄧㄠˋ ㄕˋ ㄨㄛˇ ㄋㄥˊ ㄑㄩˇ ㄉㄜ˙ ㄐㄧㄚˋ ㄑㄧˊ, ㄨㄛˇ ㄏㄨㄟˋ ㄔㄨ ㄍㄨㄛˊ ㄌㄩˇ ㄒㄧㄥˊ.',
-            pinyin: 'yao4 shi4 wo3 neng2 qu3 de2 jia4 qi2, wo3 hui4 chu1 guo2 lu3 xing2.',
-            translation: '休暇が取れたら、 海外旅行に行きます。',
+            sentence: '詐騙犯在騙人之前， 一定會先取得被害人的信任。',
+            bopomofo: 'ㄓㄚˋ ㄆㄧㄢˋ ㄈㄢˋ ㄗㄞˋ ㄆㄧㄢˋ ㄖㄣˊ ㄓ ㄑㄧㄢˊ, ㄧ ㄉㄧㄥˋ ㄏㄨㄟˋ ㄒㄧㄢ ㄑㄩˇ ㄉㄜˊ ㄅㄟˋ ㄏㄞˋ ㄖㄣˊ ㄉㄜ˙ ㄒㄧㄣˋ ㄖㄣˋ.',
+            pinyin: 'zha4 pian4 fan4 zai4 pian4 ren2 zhi1 qian2, yi1 ding4 hui4 xian1 qu3 de2 bei4 hai4 ren2 de xin4 ren4.',
+            translation: '詐欺師は必ず、 被害者を騙す前にまず信頼を得ます。',
             memo: ''
           },
           {
             word: '例如',
-            sentence: '例如大蒜或洋蔥等有強味道的食物， 我在跟人見面之前避免。',
-            bopomofo: 'ㄌㄧˋ ㄖㄨˊ ㄉㄚˋ ㄙㄨㄢˋ ㄏㄨㄛˋ ㄧㄤˊ ㄘㄨㄥ ㄉㄥˇ ㄧㄡˇ ㄑㄧㄤˊ ㄨㄟˋ ㄉㄠˋ ㄉㄜ˙ ㄕˊ ㄨˋ, ㄨㄛˇ ㄗㄞˋ ㄍㄣ ㄖㄣˊ ㄐㄧㄢˋ ㄇㄧㄢˋ ㄓ ㄑㄧㄢˊ ㄅㄧˋ ㄇㄧㄢˇ.',
-            pinyin: 'li4 ru2 da4 suan4 huo4 yang2 cong1 deng3 you3 qiang2 wei4 dao4 de shi2 wu4, wo3 zai4 gen1 ren2 jian4 mian4 zhi1 qian2 bi4 mian3.',
+            sentence: '例如像大蒜或洋蔥等有強味道的食物， 我在跟人見面之前都會避免。',
+            bopomofo: 'ㄌㄧˋ ㄖㄨˊ ㄒㄧㄤˋ ㄉㄚˋ ㄙㄨㄢˋ ㄏㄨㄛˋ ㄧㄤˊ ㄘㄨㄥ ㄉㄥˇ ㄧㄡˇ ㄑㄧㄤˊ ㄨㄟˋ ㄉㄠˋ ㄉㄜ˙ ㄕˊ ㄨˋ, ㄨㄛˇ ㄗㄞˋ ㄍㄣ ㄖㄣˊ ㄐㄧㄢˋ ㄇㄧㄢˋ ㄓ ㄑㄧㄢˊ ㄉㄡ ㄏㄨㄟˋ ㄅㄧˋ ㄇㄧㄢˇ.',
+            pinyin: 'li4 ru2 xiang4 da4 suan4 huo4 yang2 cong1 deng3 you3 qiang2 wei4 dao4 de shi2 wu4, wo3 zai4 gen1 ren2 jian4 mian4 zhi1 qian2 dou1 hui4 bi4 mian3.',
             translation: '例えばニンニクや玉ねぎなど臭いのする食べ物は、 人に会う前は控えています。',
             memo: ''
           },
@@ -534,7 +534,7 @@ export default {
             bopomofo: 'ㄉㄤ ㄧㄚ ㄌㄧˋ ㄌㄟˇ ㄐㄧ ㄕˊ, ㄨㄛˇ ㄨㄤˇ ㄨㄤˇ ㄍㄨㄛˋ ㄉㄨˋ ㄧㄣˇ ㄕˊ.',
             pinyin: 'dang1 ya1 li4 lei3 ji1 shi2, wo3 wang3 wang3 guo4 du4 yin3 shi2.',
             translation: 'ストレスが溜まると、 ついつい食べ過ぎてしまいます。',
-            memo: '※「食べ過ぎる」 : 「過度飲食(ㄍㄨㄛˋ ㄉㄨˋ ㄧㄣˇ ㄕˊ/ guo4 du4 yin3 shi2)」または「吃過多(ㄔ ㄍㄨㄛˋ ㄉㄨㄛ/chi1 guo4 duo1)」でも可。'
+            memo: '※「食べ過ぎる」 : 「過度飲食(ㄍㄨㄛˋ ㄉㄨˋ ㄧㄣˇ ㄕˊ/ guo4 du4 yin3 shi2)」、 「暴飲暴食(ㄅㄠˋ ㄧㄣˇ ㄅㄠˋ ㄕˊ/bao4 yin3 bao4 shi2)」または「吃過多(ㄔ ㄍㄨㄛˋ ㄉㄨㄛ/chi1 guo4 duo1)」でも可。'
           },
           {
             word: '與',
@@ -553,12 +553,12 @@ export default {
             memo: ''
           },
           {
-            word: '★盯',
+            word: '盯',
             sentence: '被所有人盯著看， 如果地上有一個地洞我想鑽進去。',
             bopomofo: 'ㄅㄟˋ ㄙㄨㄛˇ ㄧㄡˇ ㄖㄣˊ ㄉㄧㄥ ㄓㄜ˙ ㄎㄢˋ, ㄖㄨˊ ㄍㄨㄛˇ ㄉㄧˋ ㄕㄤˋ ㄧㄡˇ ㄧˊ ㄍㄜˋ ㄉㄧˋ ㄉㄨㄥˋ ㄨㄛˇ ㄒㄧㄤˇ ㄗㄨㄢ ㄐㄧㄣˋ ㄑㄩˋ.',
             pinyin: 'bei4 suo3 you3 ren2 ding1 zhe kan4, ru2 guo3 di4 shang4 you3 yi1 ge4 di4 dong4 wo3 xiang3 zuan1 jin4 qu4.',
             translation: 'みんなにじっと見られて、 穴があったら入りたいです。',
-            memo: '※「鑽進去」の発音は「ㄗㄨㄢ ㄐㄧㄣˋ ㄑㄩˋ」?'
+            memo: ''
           },
           {
             word: '螢幕',
@@ -570,9 +570,9 @@ export default {
           },
           {
             word: '疲倦',
-            sentence: '我在很疲倦， 但我不至於走不了路。',
-            bopomofo: 'ㄨㄛˇ ㄗㄞˋ ㄏㄣˇ ㄆㄧˊ ㄐㄩㄢˋ, ㄉㄢˋ ㄨㄛˇ ㄅㄨˊ ㄓˋ ㄩˊ ㄗㄡˇ ㄅㄨˋ ㄌㄧㄠˇ ㄌㄨˋ.',
-            pinyin: 'wo3 zai4 hen3 pi2 juan4, dan4 wo3 bu2 zhi4 yu2 zou3 bu4 liao3 lu4.',
+            sentence: '我很疲倦， 但是我不至於走不了路。',
+            bopomofo: 'ㄨㄛˇ ㄏㄣˇ ㄆㄧˊ ㄐㄩㄢˋ, ㄉㄢˋ ㄕˋ ㄨㄛˇ ㄅㄨˊ ㄓˋ ㄩˊ ㄗㄡˇ ㄅㄨˋ ㄌㄧㄠˇ ㄌㄨˋ.',
+            pinyin: 'wo3 hen3 pi2 juan4, dan4 shi4 wo3 bu2 zhi4 yu2 zou3 bu4 liao3 lu4.',
             translation: 'とても疲れていますが、 歩けないほどではありません。',
             memo: ''
           },
@@ -593,12 +593,12 @@ export default {
             memo: ''
           },
           {
-            word: '★此外',
+            word: '此外',
             sentence: '吃簡單的菜對身體健康， 此外也可以省錢。',
             bopomofo: 'ㄔ ㄐㄧㄢˇ ㄉㄢ ㄉㄜ˙ ㄘㄞˋ ㄉㄨㄟˋ ㄕㄣ ㄊㄧˇ ㄐㄧㄢˋ ㄎㄤ, ㄘˇ ㄨㄞˋ ㄧㄝˇ ㄎㄜˇ ㄧˇ ㄕㄥˇ ㄑㄧㄢˊ.',
             pinyin: 'chi1 jian3 dan1 de cai4 dui4 shen1 ti3 jian4 kang1, ci3 wai4 ye3 ke3 yi3 sheng3 qian2.',
             translation: '質素なおかずは健康的な事に加え、 お金の節約にもなります。',
-            memo: '※「簡樸(jian3 pu3)」は一体どうやって使うのか。'
+            memo: ''
           },
           {
             word: '戶外',
@@ -618,9 +618,9 @@ export default {
           },
           {
             word: '正面',
-            sentence: '廣告只提到商品的正面， 你要注意。',
-            bopomofo: 'ㄍㄨㄤˇ ㄍㄠˋ ㄓˇ ㄊㄧˊ ㄉㄠˋ ㄕㄤ ㄆㄧㄣˇ ㄉㄜ˙ ㄓㄥˋ ㄇㄧㄢˋ, ㄋㄧˇ ㄧㄠˋ ㄓㄨˋ ㄧˋ.',
-            pinyin: 'guang3 gao4 zhi3 ti2 dao4 shang1 pin3 de zheng4 mian4, ni3 yao4 zhu4 yi4.',
+            sentence: '廣告只提到商品的正面， 你要小心。',
+            bopomofo: 'ㄍㄨㄤˇ ㄍㄠˋ ㄓˇ ㄊㄧˊ ㄉㄠˋ ㄕㄤ ㄆㄧㄣˇ ㄉㄜ˙ ㄓㄥˋ ㄇㄧㄢˋ, ㄋㄧˇ ㄧㄠˋ.',
+            pinyin: 'guang3 gao4 zhi3 ti2 dao4 shang1 pin3 de zheng4 mian4, ni3 yao4 xiao3 xin1.',
             translation: '広告には商品の良い面だけが書いてあるので、 注意が必要です。',
             memo: ''
           },
@@ -649,12 +649,12 @@ export default {
             memo: ''
           },
           {
-            word: '★無形中',
-            sentence: '我本是狗教， 卻無形中變成了貓教。',
-            bopomofo: 'ㄨㄛˇ ㄅㄣˇ ㄕˋ ㄍㄡˇ ㄐㄧㄠˋ， ㄑㄩㄝˋ ㄨˊ ㄒㄧㄥˊ ㄓㄨㄥ ㄅㄧㄢˋ ㄔㄥˊ ㄌㄜ˙ ㄇㄠ ㄐㄧㄠˋ.',
-            pinyin: 'wo3 ben3 shi4 gou3 jiao4, que4 wu2 xing2 zhong1 bian4 cheng2 le mao1 jiao4.',
-            translation: '元々犬派だったのですが、 知らず知らずのうちに猫派になっていました。',
-            memo: '※この「教」の発音は?'
+            word: '無形中',
+            sentence: '我本來是喜歡狗的那一派的， 卻無形中變成了喜歡貓的那一派的。',
+            bopomofo: 'ㄨㄛˇ ㄅㄣˇ ㄌㄞˊ ㄕˋ ㄒㄧˇ ㄏㄨㄢ ㄍㄡˇ ㄉㄜ˙ ㄋㄚˋ ㄧ ㄆㄞˋ ㄉㄜ˙, ㄑㄩㄝˋ ㄨˊ ㄒㄧㄥˊ ㄓㄨㄥ ㄅㄧㄢˋ ㄔㄥˊ ㄌㄜ˙ ㄒㄧˇ ㄏㄨㄢ ㄇㄠ ㄉㄜ˙ ㄋㄚˋ ㄧ ㄆㄞˋ ㄉㄜ˙.',
+            pinyin: 'wo3 ben3 lai2 shi4 xi3 huan1 gou3 de na4 yi1 pai4 de, que4 wu2 xing2 zhong1 bian4 cheng2 le xi3 huan1 mao1 de na4 yi1 pai4 de.',
+            translation: '元々は犬派だったのですが、 知らず知らずのうちに猫派になっていました。',
+            memo: '※「犬系、 猫系」は「犬系(ㄑㄩㄢˇ ㄒㄧˋ/quan3 xi4」「貓系(ㄇㄠ ㄒㄧˋ/mao1 xi4)」。'
           },
           {
             word: '遠距教學',
