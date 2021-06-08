@@ -593,7 +593,7 @@ export default {
             memo: ''
           },
           {
-            word: '此外',
+            word: '★此外',
             sentence: '吃簡單的菜對身體健康， 此外也可以省錢。',
             bopomofo: 'ㄔ ㄐㄧㄢˇ ㄉㄢ ㄉㄜ˙ ㄘㄞˋ ㄉㄨㄟˋ ㄕㄣ ㄊㄧˇ ㄐㄧㄢˋ ㄎㄤ, ㄘˇ ㄨㄞˋ ㄧㄝˇ ㄎㄜˇ ㄧˇ ㄕㄥˇ ㄑㄧㄢˊ.',
             pinyin: 'chi1 jian3 dan1 de cai4 dui4 shen1 ti3 jian4 kang1, ci3 wai4 ye3 ke3 yi3 sheng3 qian2.',
